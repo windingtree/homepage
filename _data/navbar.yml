@@ -1,0 +1,36 @@
+navbar_nav:
+    nav_items:
+        - title: "Solutions"
+          dropdown:
+            - title: "For travel suppliers"
+              url: "/suppliers.html"
+            - title: "For sellers of travel"
+              url: "/sellers.html"
+            - title: "Software vendors"
+              url: "/software-vendors.html"
+
+        - title: "API"
+          url: "/"
+
+        - title: "Lif Token"
+          url: "/lif-token.html"
+
+        - title: "Foundation"
+          dropdown:
+            - title: "About"
+              url: "/foundation.html"
+
+            - title: "Team"
+              url: "/foundation.html#team"
+
+            - title: "Services"
+              url: "/foundation.html#services"
+
+            - title: "Project Roadmap"
+              url: "/foundation.html#roadmap"
+
+        - title: "Community"
+          url: "/developers-and-startups.html"
+
+action_title: "Join platform"
+action_url: "/"

@@ -1,0 +1,87 @@
+{% assign data = site.data.in-the-press %}
+
+{% if data %}
+    <section class="in-the-press my-3 my-md-5">
+        <div class="container">
+            <h2 class="mb-2 mb-md-4 text-center">
+                {{ data.title }}
+            </h2>
+
+            <div class="row justify-content-md-center">
+                <div class="col-md-10">
+                    {% if data.quotes %}
+                        {% assign tab_index = 0 %}
+                        {% assign quote_index = 0 %}
+
+                        <div class="in-the-press__quotes">
+                            <ul class="nav nav-tabs nav-fill flex-nowrap" role="tablist">
+                                {% for quote in data.quotes %}
+                                    {% assign tab_index = tab_index | plus:1 %}
+
+                                    {% assign active_tab_classlist = '' %}
+                                    {% assign tab_aria_selected = false %}
+
+                                    {% if tab_index == 1 %}
+                                        {% assign active_tab_classlist = 'active' %}
+                                        {% assign tab_aria_selected = true %}
+                                    {% endif %}
+
+                                    <li class="nav-item">
+                                        <a class="nav-link d-flex justify-content-center align-items-center h-100 px-1 pb-2 {{ active_tab_classlist }}" data-toggle="tab" href="#quote-{{ tab_index }}" role="tab" aria-selected="{{ tab_aria_selected }}">
+                                            <img src="{{ quote.company_logo_url | relative_url }}" alt="{{ quote.company_title }}" class="img-fluid">
+                                        </a>
+                                    </li>
+                                {% endfor %}
+                            </ul>
+
+                            <div class="tab-content px-2 py-3 bg-white">
+                                {% for quote in data.quotes %}
+                                    {% assign quote_index = quote_index | plus:1 %}
+
+                                    {% assign active_quote_classlist = '' %}
+
+                                    {% if quote_index == 1 %}
+                                        {% assign active_quote_classlist = 'show active' %}
+                                    {% endif %}
+
+                                    <div class="tab-pane fade {{ active_quote_classlist }}" id="quote-{{ quote_index }}" role="tabpanel">
+                                        <blockquote class="blockquote text-center text-md-left">
+                                            <div class="media flex-column flex-md-row align-items-center mb-1">
+                                                <img class="mb-1 mb-md-0 mr-md-1 rounded-circle" src="http://via.placeholder.com/60x60" alt="">
+                                                <div class="media-body">
+                                                    {{ quote.person_name }}
+                                                    <br>
+                                                    {{ quote.person_post }}
+                                                </div>
+                                            </div>
+                                            <p class="d-flex flex-column align-items-center d-md-block">
+                                                {{ quote.text }}
+                                                <a href="{{ quote.link_url }}" class="mt-1 mt-md-0 border-bottom">
+                                                    {{ quote.link_title }}
+                                                </a>
+                                            </p>
+                                        </blockquote>
+                                    </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    {% endif %}
+
+                    <hr class="my-3 d-none d-lg-block">
+
+                    <div class="in-the-press__gallery d-none d-lg-block">
+                        <div class="row justify-content-md-center align-items-md-center">
+                            {% for mention in data.mentions %}
+                                <div class="col-md-auto text-center">
+                                    <a href="{{ mention.url }}" class="d-block p-md-1">
+                                        <img src="{{ mention.logo_url | relative_url }}" alt="" class="img-fluid">
+                                    </a>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endif %}

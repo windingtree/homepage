@@ -1,0 +1,45 @@
+.index-banner {
+    padding-top: 5.5rem * 2 !important;
+    overflow: hidden; // to clip .index-promo__bg
+
+    @include media-breakpoint-up('md') {
+        padding-top: 11rem * 2 !important;
+    }
+
+    &__bg {
+        background: {
+            color: $white !important;
+            image: url($baseurl + "/assets/img/index-banner-bg.svg"), $gradient-from-top;
+            position: 50% 99vh, 50% 0;
+            repeat: no-repeat, no-repeat;
+            size: 170vw auto, auto;
+        }
+
+        @include media-breakpoint-up('md') {
+            transform: scaleX(1.05) translateZ(0); // to clip border-radius curves
+            background: {
+                color: $color-gradient-secondary !important;
+                position: 50% 60rem, 50% 0;
+                size: 95% auto, auto;
+            }
+            border-bottom-left-radius: 100% 5%;
+            border-bottom-right-radius: 100% 5%;
+        }
+    }
+
+    &__inner {
+        margin-bottom: 10rem !important;
+
+        @include media-breakpoint-up('md') {
+            margin-bottom: 36rem !important;
+        }
+    }
+
+    &__actions {
+        li {
+            @include media-breakpoint-down('sm') {
+                margin-right: 0 !important;
+            }
+        }
+    }
+}

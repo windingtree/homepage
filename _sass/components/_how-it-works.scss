@@ -1,0 +1,13 @@
+.how-it-works {
+    &__icon {
+        @include media-breakpoint-down('sm') {
+            @include size(90px);
+        }
+    }
+
+    hr {
+        &:last-of-type {
+            display: none;
+        }
+    }
+}

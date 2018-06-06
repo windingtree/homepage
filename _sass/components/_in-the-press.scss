@@ -1,0 +1,56 @@
+.in-the-press {
+    &__quotes {
+        .nav-tabs {
+            .nav-item {
+                @include media-breakpoint-down('sm') {
+                    &:nth-of-type(n+4) {
+                        display: none;
+                    }
+                }
+            }
+
+            .nav-link {
+                img {
+                    max-height: $image-max-height;
+
+                    @include media-breakpoint-up('md') {
+                        max-width: $image-max-width;
+                    }
+                }
+            }
+        }
+
+        .blockquote {
+            margin-bottom: 0;
+
+            a {
+                &:last-child {
+                    margin-left: 1rem;
+                    @include scale($small-font-size, up);
+                }
+            }
+
+            .media {
+                font-size: $font-size-base;
+            }
+        }
+    }
+
+    &__gallery {
+        a {
+            @include hover {
+                img {
+                    filter: grayscale(0);
+                }
+            }
+
+            img {
+                max-width: $image-max-width;
+                max-height: $image-max-height;
+                transition: $transition-base;
+                will-change: filter;
+                filter: grayscale(100%);
+            }
+        }
+    }
+}

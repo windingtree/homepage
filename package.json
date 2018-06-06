@@ -1,0 +1,11 @@
+{
+  "name": "winding-tree",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/vecoalla/winding-tree.git/",
+  "author": "Vyacheslav Efremenko <slava@coalla.ru>",
+  "license": "MIT",
+  "dependencies": {
+    "modernizr": "^3.6.0"
+  }
+}

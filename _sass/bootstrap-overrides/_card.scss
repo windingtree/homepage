@@ -1,0 +1,57 @@
+.card {
+    box-shadow: $box-shadow;
+
+    @at-root a#{&} {
+        @include media-breakpoint-up('md') {
+            transition: $transition-base;
+            will-change: transform;
+
+            @include hover {
+                transform: translateY(-2rem);
+            }
+        }
+    }
+}
+
+.card-header {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.card-body {
+    padding-bottom: 3rem;
+
+    @include media-breakpoint-down('sm') {
+        padding-left: 80px;
+    }
+
+    .border-bottom {
+        border-bottom-color: rgba($link-color, .3);
+    }
+}
+
+.card-title {
+    margin-bottom: $spacer;
+
+    @include media-breakpoint-down('sm') {
+        position: relative;
+
+        img {
+            @include size(50px, 40px);
+            position: absolute;
+            top: 50%;
+            left: -60px;
+            transform: translateY(-50%);
+        }
+
+        i {
+            vertical-align: -.225em;
+        }
+    }
+}
+
+.card-text {
+    @include media-breakpoint-up('md') {
+        margin-bottom: 2rem;
+    }
+}

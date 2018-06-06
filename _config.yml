@@ -1,0 +1,7 @@
+title: Winding Tree
+
+baseurl: /winding-tree
+
+sass:
+    sass_dir: _sass
+    style: compressed

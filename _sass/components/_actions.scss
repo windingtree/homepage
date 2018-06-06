@@ -1,0 +1,23 @@
+.actions {
+    .input-group {
+        @include media-breakpoint-down('sm') {
+            flex-direction: column;
+
+            .form-control,
+            .btn {
+                border-radius: $border-radius;
+            }
+
+            .form-control {
+                width: 100%;
+                margin-bottom: 1rem;
+            }
+        }
+    }
+
+    .input-group-append {
+        @include media-breakpoint-down('sm') {
+            margin: 0 1px;
+        }
+    }
+}

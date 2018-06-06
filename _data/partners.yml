@@ -1,0 +1,21 @@
+title: "Partners"
+
+partners:
+    - url: "/"
+      logo_url: "/assets/img/partners/1.png"
+      caption: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut&nbsp;laoreet dolore magna aliquam erat volutpat. Ut&nbsp;wisi enim ad&nbsp;minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut&nbsp;aliquip ex&nbsp;ea&nbsp;commodo consequat."
+
+    - url: "/"
+      logo_url: "/assets/img/partners/2.svg"
+      caption: "Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut&nbsp;laoreet dolore magna aliquam erat volutpat. Ut&nbsp;wisi enim ad&nbsp;minim veniam."
+
+    - url: "/"
+      logo_url: "/assets/img/partners/3.svg"
+      caption: "Ut&nbsp;wisi enim ad&nbsp;minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut&nbsp;aliquip ex&nbsp;ea&nbsp;commodo consequat. sed diam nonummy nibh euismod tincidunt ut&nbsp;laoreet dolore magna aliquam erat volutpat."
+
+    - url: "/"
+      logo_url: "/assets/img/partners/4.png"
+      caption: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut&nbsp;laoreet dolore magna aliquam erat volutpat. Ut&nbsp;wisi enim ad&nbsp;minim veniam."
+
+action_title: "Become partner"
+action_url: "/"

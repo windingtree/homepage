@@ -1,0 +1,14 @@
+.lif-token-banner {
+    background-color: $color-gradient-secondary !important;
+    background-image: $gradient-from-left;
+    background-position: left center;
+    background-repeat: no-repeat;
+
+    @include media-breakpoint-up(lg) {
+        background-color: $color-gradient-secondary !important;
+        background-image: url($baseurl + "/assets/img/lif-token-banner-bg.svg"), $gradient-from-left;
+        background-position: right center, left center;
+        background-repeat: no-repeat, no-repeat;
+        background-size: contain, auto;
+    }
+}

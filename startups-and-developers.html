@@ -1,0 +1,20 @@
+---
+layout: default
+title: Startups / Winding Tree
+---
+
+<section class="bg-dark" style="height: 50vh;">
+    <div class="container">
+        <h1 class="sr-only">Winding Tree</h1>
+    </div>
+</section>
+
+{% include
+    open-source-banner.html
+    title = site.data.open-source-banner.startups_title
+    text = site.data.open-source-banner.startups_text
+    action_url = site.data.open-source-banner.startups_action_url
+    action_title = site.data.open-source-banner.startups_action_title
+%}
+
+{% include video-gallery.html %}

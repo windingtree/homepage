@@ -1,0 +1,35 @@
+- title: "GitHub"
+  url: "https://github.com/windingtree"
+  icon: "mdi-github-circle"
+
+- title: "Twitter"
+  url: "https://twitter.com/windingtree"
+  icon: "mdi-twitter"
+
+- title: "Medium"
+  url: "http://blog.windingtree.com/"
+  icon: "mdi-medium"
+
+- title: "YouTube"
+  url: "https://www.youtube.com/channel/UCFuemEOhCfenYMoNdjD0Aew"
+  icon: "mdi-youtube"
+
+- title: "Telegram"
+  url: "https://t.me/windingtree"
+  icon: "mdi-telegram"
+
+- title: "Rocket.Chat"
+  url: "https://windingtree.rocket.chat/"
+  icon: "mdi-alert"
+
+- title: "Reddit"
+  url: "https://reddit.com/r/windingtree"
+  icon: "mdi-reddit"
+
+- title: "BitcoinTalk"
+  url: "https://bitcointalk.org/index.php?topic=1946065"
+  icon: "mdi-bitcoin"
+
+- title: "Kakao"
+  url: "https://open.kakao.com/o/g2W8pCB"
+  icon: "mdi-alert"

@@ -1,0 +1,30 @@
+.video-gallery {
+    &__videos {
+        .nav-tabs {
+            @include media-breakpoint-down('sm') {
+                margin-left: -#{$grid-gutter-width / 2};
+                margin-right: -#{$grid-gutter-width / 2};
+                overflow-x: auto;
+                overflow-y: hidden;
+            }
+
+            .nav-item {
+                @include media-breakpoint-down('sm') {
+                    width: 140px;
+
+                    small {
+                        width: 110px;
+                    }
+                }
+            }
+
+            .nav-link {
+                @include media-breakpoint-down('sm') {
+                    &::before {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}

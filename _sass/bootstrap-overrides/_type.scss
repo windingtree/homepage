@@ -1,0 +1,19 @@
+h4,
+.h4 {
+    @include scale($h4-font-size, up);
+}
+
+h5,
+.h5 {
+    @include scale($h5-font-size, up);
+}
+
+h6,
+.h6 {
+    @include scale($h6-font-size, up);
+}
+
+small,
+.small {
+    @include scale($small-font-size, up);
+}

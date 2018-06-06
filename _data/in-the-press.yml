@@ -1,0 +1,64 @@
+title: "In&nbsp;the press"
+quotes:
+    - company_title: "Microsoft"
+      company_logo_url: "/assets/img/in-the-press/quotes/1.png"
+      person_name: "Mark Studholme"
+      person_post: "Director at&nbsp;Crowdyhouse"
+      text: "&quot;German national carrier Lufthansa has also recently announced partnerships with Winding Tree. Lufthansa was interested in&nbsp;exploring use cases that would put booking, rebooking, and traveler itinerary information on&nbsp;the blockchain...&quot;"
+      link_url: "/"
+      link_title: "Read full article"
+
+    - company_title: "Ubuntu"
+      company_logo_url: "/assets/img/in-the-press/quotes/2.svg"
+      person_name: "Mark Studholme 2"
+      person_post: "Director at&nbsp;Crowdyhouse"
+      text: "&quot;German national carrier Lufthansa has also recently announced partnerships with Winding Tree. Lufthansa was interested in&nbsp;exploring use cases that would put booking, rebooking, and traveler itinerary information on&nbsp;the blockchain...&quot;"
+      link_url: "/"
+      link_title: "Read full article"
+
+    - company_title: "Apple"
+      company_logo_url: "/assets/img/in-the-press/quotes/3.svg"
+      person_name: "Mark Studholme 3"
+      person_post: "Director at&nbsp;Crowdyhouse"
+      text: "&quot;German national carrier Lufthansa has also recently announced partnerships with Winding Tree. Lufthansa was interested in&nbsp;exploring use cases that would put booking, rebooking, and traveler itinerary information on&nbsp;the blockchain...&quot;"
+      link_url: "/"
+      link_title: "Read full article"
+
+    - company_title: "FreeBSD"
+      company_logo_url: "/assets/img/in-the-press/quotes/4.png"
+      person_name: "Mark Studholme 4"
+      person_post: "Director at&nbsp;Crowdyhouse"
+      text: "&quot;German national carrier Lufthansa has also recently announced partnerships with Winding Tree. Lufthansa was interested in&nbsp;exploring use cases that would put booking, rebooking, and traveler itinerary information on&nbsp;the blockchain...&quot;"
+      link_url: "/"
+      link_title: "Read full article"
+
+mentions:
+    - url: "/"
+      logo_url: "/assets/img/in-the-press/mentions/1.png"
+
+    - url: "/"
+      logo_url: "/assets/img/in-the-press/mentions/2.svg"
+
+    - url: "/"
+      logo_url: "/assets/img/in-the-press/mentions/3.svg"
+
+    - url: "/"
+      logo_url: "/assets/img/in-the-press/mentions/4.png"
+
+    - url: "/"
+      logo_url: "/assets/img/in-the-press/mentions/5.png"
+
+    - url: "/"
+      logo_url: "/assets/img/in-the-press/mentions/6.svg"
+
+    - url: "/"
+      logo_url: "/assets/img/in-the-press/mentions/7.svg"
+
+    - url: "/"
+      logo_url: "/assets/img/in-the-press/mentions/8.png"
+
+    - url: "/"
+      logo_url: "/assets/img/in-the-press/mentions/9.png"
+
+    - url: "/"
+      logo_url: "/assets/img/in-the-press/mentions/10.svg"

@@ -1,0 +1,56 @@
+{% assign data = site.data.how-it-works %}
+
+{% if site.data.how-it-works %}
+    <section class="how-it-works my-3 my-md-5">
+        <div class="container">
+            <h2 class="mb-2 mb-md-4 text-center">
+                {{ data.title }}
+            </h2>
+
+            {% if data.items %}
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        {% for item in data.items %}
+                            <article class="row flex-column flex-md-row align-items-center text-center text-md-left">
+                                {% capture alternation %}{% cycle 'odd', 'even' %}{% endcapture %}
+
+                                {% if alternation == 'odd' %}
+                                    <div class="col-md-5 mb-1 mb-md-0 text-center">
+                                        <img src="{{ item.icon_url | relative_url }}" alt="{{ include.title }}" class="how-it-works__icon">
+                                    </div>
+                                {% endif %}
+
+                                <div class="col-md-7">
+                                    <h3 class="mb-1 text-muted">{{ item.title }}</h3>
+                                    <p>{{ item.text }}</p>
+
+                                    {% if item.link_url and item.link_title %}
+                                        <footer class="mt-1">
+                                            <a href="{{ item.link_url | relative_url }}" class="border-bottom">
+                                                {{ item.link_title }}
+                                            </a>
+                                        </footer>
+                                    {% endif %}
+                                </div>
+
+                                {% if alternation == 'even' %}
+                                    <div class="col-md-5 order-first order-md-last mb-1 mb-md-0 text-center">
+                                        <img src="{{ item.icon_url | relative_url }}" alt="{{ include.title }}" class="how-it-works__icon">
+                                    </div>
+                                {% endif %}
+                            </article>
+
+                            <hr class="my-2 my-md-3">
+                        {% endfor %}
+                    </div>
+                </div>
+            {% endif %}
+
+            <footer class="mt-2 mt-md-4 text-center">
+                <a href="{{ data.action_url | relative_url }}" class="btn btn-outline-dark">
+                    {{ data.action_title }}
+                </a>
+            </footer>
+        </div>
+    </section>
+{% endif %}

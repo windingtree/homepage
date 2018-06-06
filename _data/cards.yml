@@ -1,0 +1,30 @@
+pages_cards:
+    - url: "/suppliers.html"
+      icon_url: "/assets/img/cards/pages/1.svg"
+      title: "For suppliers"
+      text: "Suppliers can distribute inventory directly to points of sale, skipping costly intermediaries and bottlenecks to data."
+      action: "Learn more"
+
+    - url: "/sellers.html"
+      icon_url: "/assets/img/cards/pages/2.svg"
+      title: "For sellers"
+      text: "Access inventory from all suppliers from a single platform with no markup fees and no barriers to entry."
+      action: "Learn more"
+
+    - url: "/lif-token.html"
+      icon_url: "/assets/img/cards/pages/3.svg"
+      title: "Lif Token"
+      text: "Lif is used by travel companies to distribute inventory and make transactions without intermediaries."
+      action: "Learn more"
+
+    - url: "/software-vendors.html"
+      icon_url: "/assets/img/cards/pages/4.svg"
+      title: "Software vendors"
+      text: "Integrate your software with Winding Tree API to provide more value for your customers. Be a part of infrastructure."
+      action: "Learn more"
+
+    - url: "/foundation.html"
+      icon_url: "/assets/img/cards/pages/5.svg"
+      title: "WT Foundation"
+      text: "Integrate your software with Winding Tree API to provide more value for your customers. Be a part of infrastructure."
+      action: "Learn more"

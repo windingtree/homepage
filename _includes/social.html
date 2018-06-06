@@ -1,0 +1,13 @@
+{% assign data = site.data.social %}
+
+{% if data %}
+    <ul class="social d-flex flex-wrap justify-content-center align-items-center list-inline {{ include.classlist }}">
+        {% for social in data %}
+            <li class="list-inline-item">
+                <a href="{{ social.url }}" title="{{ social.title }}">
+                    <i class="mdi {{ include.icon_size | default: 'mdi-36px' }} {{ social.icon }}"></i>
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+{% endif %}
