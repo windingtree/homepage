@@ -2,6 +2,7 @@
     &__slider {
         max-height: 80px;
         opacity: 0;
+        pointer-events: none;
         transition: $transition-base;
         will-change: transition;
 

@@ -54,6 +54,7 @@
 }
 
 .card-body {
+    padding-top: 3rem;
     padding-bottom: 3rem;
 
     @include media-breakpoint-down('sm') {

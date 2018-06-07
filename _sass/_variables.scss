@@ -1,5 +1,5 @@
 $color-gradient-primary: #29cb96;
-$color-gradient-secondary: #5F2987; // #0d1134;
+$color-gradient-secondary: #5f2987; // #0d1134;
 
 $gradient-from-top: radial-gradient(circle at 50% 75%, $color-gradient-primary, $color-gradient-secondary 66.6%);
 $gradient-from-bottom: radial-gradient(circle at 50% 0, $color-gradient-primary, $color-gradient-secondary 66.6%);
