@@ -11,20 +11,20 @@ pages_cards:
       text: "Access inventory from all suppliers from a single platform with no markup fees and no barriers to entry."
       action: "Learn more"
 
+    - url: "/software-vendors.html"
+      icon_url: "/assets/img/cards/pages/4.svg"
+      title: "For software vendors"
+      text: "Build your projects on a set of open-source protocols and APIs. Be a part of the ecosystem!"
+      action: "Learn more"
+
     - url: "/lif-token.html"
       icon_url: "/assets/img/cards/pages/3.svg"
       title: "Lif Token"
       text: "Lif is used by travel companies to distribute inventory and make transactions without intermediaries."
       action: "Learn more"
 
-    - url: "/software-vendors.html"
-      icon_url: "/assets/img/cards/pages/4.svg"
-      title: "Software vendors"
-      text: "Integrate your software with Winding Tree API to provide more value for your customers. Be a part of infrastructure."
-      action: "Learn more"
-
     - url: "/foundation.html"
       icon_url: "/assets/img/cards/pages/5.svg"
       title: "WT Foundation"
-      text: "Integrate your software with Winding Tree API to provide more value for your customers. Be a part of infrastructure."
+      text: "Learn more about the non-profit organization behind the project."
       action: "Learn more"
