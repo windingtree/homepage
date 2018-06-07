@@ -13,16 +13,16 @@
                                 {{ person.name }}
                             </h6>
 
-                            <p class="small text-muted">
+                            <p class="small text-muted text-uppercase">
                                 {{ person.post }}
                             </p>
 
-                            <p class="small text-dark">
+                            <p class="mt-1 small text-dark">
                                 {{ person.bio }}
                             </p>
 
                             {% if person.social %}
-                                <ul class="list-inline">
+                                <ul class="mt-1 list-inline">
                                     {% for item in person.social %}
                                         <li class="list-inline-item">
                                             {{ item.title }}
