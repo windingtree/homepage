@@ -3,6 +3,10 @@ title: Winding Tree
 baseurl: /winding-tree
 
 exclude:
+    - vendor/bundle/
+    - vendor/cache/
+    - vendor/gems/
+    - vendor/ruby/
     - .idea
     - package.json
     - modernizr-custom.json
