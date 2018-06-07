@@ -2,6 +2,7 @@ title: "In&nbsp;the press"
 quotes:
     - company_title: "Business Insider"
       company_logo_url: "/assets/img/in-the-press/quotes/businessinsider.png"
+      person_avatar_url: "/assets/img/in-the-press/quotes/avatars/lisa-farrar.jpg"
       person_name: "Lisa Farrar"
       person_post: "Chief digital officer at Nordic Choice Hotels"
       text: "&quot;It's very exciting, but very early. It's a simpler and cheaper distribution chain that can challenge the booking giants&quot;"
@@ -10,6 +11,7 @@ quotes:
 
     - company_title: "Swissport"
       company_logo_url: "/assets/img/in-the-press/quotes/swiss.svg"
+      person_avatar_url: "/assets/img/in-the-press/quotes/avatars/Christoph-Meier.jpg"
       person_name: "Christoph Meier"
       person_post: "Corporate Communications"
       text: "&quot;Swissport and Winding Tree, a blockchain-based travel distribution platform, aim to jointly explore the potential of distributing Swissport’s existing travel services and new offers. Blockchain will allow any provider to tap into Swissport’s inventorythrough Winding Tree...&quot;"

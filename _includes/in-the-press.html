@@ -47,7 +47,7 @@
                                     <div class="tab-pane fade {{ active_quote_classlist }}" id="quote-{{ quote_index }}" role="tabpanel">
                                         <blockquote class="blockquote text-center text-md-left">
                                             <div class="media flex-column flex-md-row align-items-center mb-1">
-                                                <img class="mb-1 mb-md-0 mr-md-1 rounded-circle" src="http://via.placeholder.com/60x60" alt="">
+                                                <img class="mb-1 mb-md-0 mr-md-1 rounded-circle" src="{{ quote.person_avatar_url | relative_url }}" width="60" height="60" alt="">
                                                 <div class="media-body">
                                                     {{ quote.person_name }}
                                                     <br>
