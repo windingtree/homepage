@@ -2,6 +2,7 @@ title: "In&nbsp;the press"
 quotes:
     - company_title: "Microsoft"
       company_logo_url: "/assets/img/in-the-press/quotes/1.png"
+      person_avatar_url: "/assets/img/in-the-press/quotes/avatars/1.jpg"
       person_name: "Mark Studholme"
       person_post: "Director at&nbsp;Crowdyhouse"
       text: "&quot;German national carrier Lufthansa has also recently announced partnerships with Winding Tree. Lufthansa was interested in&nbsp;exploring use cases that would put booking, rebooking, and traveler itinerary information on&nbsp;the blockchain...&quot;"
@@ -10,6 +11,7 @@ quotes:
 
     - company_title: "Ubuntu"
       company_logo_url: "/assets/img/in-the-press/quotes/2.svg"
+      person_avatar_url: "/assets/img/in-the-press/quotes/avatars/2.jpg"
       person_name: "Mark Studholme 2"
       person_post: "Director at&nbsp;Crowdyhouse"
       text: "&quot;German national carrier Lufthansa has also recently announced partnerships with Winding Tree. Lufthansa was interested in&nbsp;exploring use cases that would put booking, rebooking, and traveler itinerary information on&nbsp;the blockchain...&quot;"
@@ -18,6 +20,7 @@ quotes:
 
     - company_title: "Apple"
       company_logo_url: "/assets/img/in-the-press/quotes/3.svg"
+      person_avatar_url: "/assets/img/in-the-press/quotes/avatars/3.jpg"
       person_name: "Mark Studholme 3"
       person_post: "Director at&nbsp;Crowdyhouse"
       text: "&quot;German national carrier Lufthansa has also recently announced partnerships with Winding Tree. Lufthansa was interested in&nbsp;exploring use cases that would put booking, rebooking, and traveler itinerary information on&nbsp;the blockchain...&quot;"
@@ -26,6 +29,7 @@ quotes:
 
     - company_title: "FreeBSD"
       company_logo_url: "/assets/img/in-the-press/quotes/4.png"
+      person_avatar_url: "/assets/img/in-the-press/quotes/avatars/4.jpg"
       person_name: "Mark Studholme 4"
       person_post: "Director at&nbsp;Crowdyhouse"
       text: "&quot;German national carrier Lufthansa has also recently announced partnerships with Winding Tree. Lufthansa was interested in&nbsp;exploring use cases that would put booking, rebooking, and traveler itinerary information on&nbsp;the blockchain...&quot;"
