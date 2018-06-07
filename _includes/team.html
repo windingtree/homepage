@@ -1,0 +1,39 @@
+{% assign data = site.data.team %}
+
+{% if data %}
+    <section class="my-3 my-md-5">
+        <div class="container">
+            <h2 class="mb-2 mb-md-4 text-center">Team</h2>
+
+            <div class="row">
+                {% for person in data %}
+                    <div class="col-md-4">
+                        <article>
+                            <h6>
+                                {{ person.name }}
+                            </h6>
+
+                            <p class="small text-muted">
+                                {{ person.post }}
+                            </p>
+
+                            <p class="small text-dark">
+                                {{ person.bio }}
+                            </p>
+
+                            {% if person.social %}
+                                <ul class="list-inline">
+                                    {% for item in person.social %}
+                                        <li class="list-inline-item">
+                                            { item.title }
+                                        </li>
+                                    {% endfor %}
+                                </ul>
+                            {% endif %}
+                        </article>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+{% endif %}
