@@ -22,7 +22,7 @@ software-vendors:
 startups-and-developers:
     title: "Make future of&nbsp;travel together"
     text: "Developers, startups, evengelists and geeks are welcome!"
-    social: true
+    social: "true"
     image_url: "/assets/img/page-banner/startups-and-developers.svg"
 
 foundation:
