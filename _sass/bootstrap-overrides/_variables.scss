@@ -568,11 +568,11 @@ $dropdown-border-width:             0 !default;
 $dropdown-box-shadow:               $box-shadow !default;
 //
 //$dropdown-link-color:               $gray-900 !default;
-//$dropdown-link-hover-color:         darken($gray-900, 5%) !default;
+$dropdown-link-hover-color:         $gray-500 !default;
 $dropdown-link-hover-bg:            none !default;
 //
-//$dropdown-link-active-color:        $component-active-color !default;
-//$dropdown-link-active-bg:           $component-active-bg !default;
+$dropdown-link-active-color:        inherit !default;
+$dropdown-link-active-bg:           inherit !default;
 //
 //$dropdown-link-disabled-color:      $gray-600 !default;
 //

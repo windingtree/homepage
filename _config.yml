@@ -2,6 +2,12 @@ title: Winding Tree
 
 baseurl: /winding-tree
 
+exclude:
+    - .idea
+    - package.json
+    - modernizr-custom.json
+    - yarn.lock
+
 sass:
     sass_dir: _sass
     style: compressed

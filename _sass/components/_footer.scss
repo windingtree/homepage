@@ -2,6 +2,12 @@
     background-color: $color-gradient-secondary !important;
     border-top: 1px solid rgba($white, .3);
 
+    a {
+        @include hover {
+            opacity: .7;
+        }
+    }
+
     &__row {
         &:not(:last-child) {
             border-bottom: 1px solid rgba($white, .3);

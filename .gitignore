@@ -6,3 +6,6 @@
 _site
 
 node_modules
+package.json
+yarn.lock
+modernizr-custom.json

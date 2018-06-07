@@ -30,7 +30,7 @@ navbar_nav:
               url: "/foundation.html#roadmap"
 
         - title: "Community"
-          url: "/developers-and-startups.html"
+          url: "/startups-and-developers.html"
 
 action_title: "Join platform"
 action_url: "/"

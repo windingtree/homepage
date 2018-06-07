@@ -1,9 +1,9 @@
 .index-banner {
-    padding-top: 5.5rem * 2 !important;
+    padding-top: $navbar-height * 2 !important;
     overflow: hidden; // to clip .index-promo__bg
 
     @include media-breakpoint-up('md') {
-        padding-top: 11rem * 2 !important;
+        padding-top: $navbar-height-md * 2 !important;
     }
 
     &__bg {

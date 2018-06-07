@@ -109,6 +109,10 @@
     }
 
     .nav-link {
+        @include hover {
+            opacity: .7;
+        }
+
         @include media-breakpoint-down('sm') {
             padding: 2rem 0;
         }

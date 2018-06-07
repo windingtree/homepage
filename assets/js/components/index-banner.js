@@ -28,14 +28,17 @@ let indexBannerVideoPlayer;
 
 function onYouTubeIframeAPIReady() {
     const indexBannerVideoIframe = document.getElementById('index-banner-video-iframe');
-    const indexBannerVideoId = indexBannerVideoIframe.dataset.videoId;
 
-    indexBannerVideoPlayer = new YT.Player('index-banner-video-iframe', {
-        videoId: indexBannerVideoId,
-        events: {
-            'onReady': onIndexBannerVideoPlayerReady
-        }
-    });
+    if (document.body.contains(indexBannerVideoIframe)) {
+        const indexBannerVideoId = indexBannerVideoIframe.dataset.videoId;
+
+        indexBannerVideoPlayer = new YT.Player('index-banner-video-iframe', {
+            videoId: indexBannerVideoId,
+            events: {
+                'onReady': onIndexBannerVideoPlayerReady
+            }
+        });
+    }
 }
 
 // 2. The API will call this function when the video player is ready.

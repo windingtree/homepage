@@ -1,0 +1,63 @@
+title_default: "Key benefits"
+title_lif_token: "L&iacute;f is&nbsp;the most important underlying technology of&nbsp;the Winding Tree platform. It&nbsp;is&nbsp;used for two purposes:"
+
+suppliers_benefits:
+    - icon_url: "/assets/img/key-benefits/1.svg"
+      title: "No intermediaries"
+      text: "Bypass distribution and payment intermediaries&mdash;deliver your inventory directly to&nbsp;sellers and get direct payment from them with unified currency."
+
+    - icon_url: "/assets/img/key-benefits/2.svg"
+      title: "Offer comission yourself"
+      text: "Define yourself the size of&nbsp;reward for agents and sellers of&nbsp;your inventory. OTAs and GDS will not have the upper hand in&nbsp;disribution rules anymore."
+
+    - icon_url: "/assets/img/key-benefits/3.svg"
+      title: "Increase sales with ease"
+      text: "Distribute your inventory within Winding Tree platrorm with no&nbsp;fees and reach hundreds of&nbsp;new sellers. Spend reasonable time for integration and make it&nbsp;one of&nbsp;your most profitable sales channels."
+
+    - icon_url: "/assets/img/key-benefits/4.svg"
+      title: "Trusted automation"
+      text: "Winding Tree makes travel data secured and trusted by&nbsp;all Winding Tree members. Smart contracts provide automation which prevents suppliers from payment disputes with their sellers."
+
+    - icon_url: "/assets/img/key-benefits/5.svg"
+      title: "New business models"
+      text: "With trusted travel data and flexible automation you can start new business models e.g. crownfunding of&nbsp;flight, interact your loyality program with your partners using Lif token instead of&nbsp;bonus points or&nbsp;miles."
+
+    - icon_url: "/assets/img/key-benefits/6.svg"
+      title: "No fake reviews"
+      text: "As&nbsp;the blockchain makes stored information permanently valid, travel market players can validate not only bookings, but also plenty of&nbsp;other info e.g. whether a&nbsp;feedback for a&nbsp;hotel was left by&nbsp;a&nbsp;person who had really stayed there."
+
+sellers_benefits:
+    - icon_url: "/assets/img/key-benefits/1.svg"
+      title: "No intermediaries"
+      text: "Bypass distribution and payment intermediaries&mdash;deliver your inventory directly to&nbsp;sellers and get direct payment from them with unified currency."
+
+    - icon_url: "/assets/img/key-benefits/2.svg"
+      title: "Get desired comission"
+      text: "Setup yourself the size of&nbsp;reward you want to&nbsp;get for selling the inventory and choose only from those suppliers who agrees with that."
+
+    - icon_url: "/assets/img/key-benefits/3.svg"
+      title: "Increase sales with ease"
+      text: "Distribute your inventory within Winding Tree platrorm with no&nbsp;fees and reach hundreds of&nbsp;new sellers. Spend reasonable time for integration and make it&nbsp;one of&nbsp;your most profitable sales channels."
+
+    - icon_url: "/assets/img/key-benefits/4.svg"
+      title: "Trusted automation"
+      text: "Winding Tree makes travel data secured and trusted by&nbsp;all Winding Tree members. Smart contracts provide automation which prevents suppliers from payment disputes with their sellers."
+
+    - icon_url: "/assets/img/key-benefits/5.svg"
+      title: "New business models"
+      text: "With trusted travel data and flexible automation you can start new business models e.g. crownfunding of&nbsp;flight, interact your loyality program with your partners using Lif token instead of&nbsp;bonus points or&nbsp;miles."
+
+    - icon_url: "/assets/img/key-benefits/7.svg"
+      title: "Additional services"
+      text: "As&nbsp;the blockchain makes stored information permanently valid you can discover your customers, their travel history, and provide more personalization."
+
+lif_token_benefits:
+    - icon_url: "/assets/img/key-benefits/8.svg"
+      title: "Payments on&nbsp;the platform"
+      text: "In&nbsp;order for an&nbsp;agency (offline or&nbsp;online) to&nbsp;book anything on&nbsp;the Winding Tree platform they will have to&nbsp;send a&nbsp;certain amount of&nbsp;L&iacute;f to&nbsp;the seller. The miner fees are also paid in&nbsp;L&iacute;f."
+
+    - icon_url: "/assets/img/key-benefits/9.svg"
+      title: "Platform governance"
+      text: "Because Winding tree is&nbsp;open-source, anyone can propose a&nbsp;change to&nbsp;the platform code, perhaps in&nbsp;order to&nbsp;update a&nbsp;smart contract with some new business logic. But because the marketplace is&nbsp;decentralized, its participants have to&nbsp;approve that change."
+      link_url: "/"
+      link_title: "Learn more"

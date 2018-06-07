@@ -1,10 +1,10 @@
 <!doctype html>
 
 <html lang="en" class="mod_no-js">
-    {% include head.html %}
+    {% include layouts/head.html %}
 
     <body>
-        {% include navbar.html %}
+        {% include layouts/navbar.html %}
 
         <main>
             {{ content }}
@@ -14,8 +14,8 @@
         
         {% include ready-to-use.html %}
 
-        {% include footer.html %}
+        {% include layouts/footer.html %}
 
-        {% include scripts.html %}
+        {% include layouts/scripts.html %}
     </body>
 </html>

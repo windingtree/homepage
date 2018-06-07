@@ -48,13 +48,13 @@
                 <div class="d-flex flex-column-reverse flex-md-row align-items-center">
                     <div class="d-flex flex-column flex-md-row align-items-center align-items-md-baseline">
                         <small>&copy;&nbsp;{{ data.foundation_year }}&ndash;<script>document.write(new Date().getFullYear());</script>, {{ site.title }}</small>
-                        <a href={{ data.developer_url }} class="ml-md-2 small text-white border-bottom">{{ data.developer_title }}</a>
+                        <a href={{ data.developer_url }} target="_blank" class="ml-md-2 small text-white border-bottom">{{ data.developer_title }}</a>
                     </div>
                     {% if social %}
                         <div class="footer__social mb-1 mb-md-0 ml-md-auto">
                             {%
                                 include social.html
-                                classlist = "social--footer"
+                                classlist = "social--footer justify-content-center justify-content-md-end"
                                 icon_size = "mdi-24px"
                             %}
                         </div>

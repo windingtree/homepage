@@ -49,7 +49,10 @@
             </div>
 
             <div id="index-banner-cards">
-                {% include pages-cards.html %}
+                {%
+                    include cards.html
+                    cards = site.data.cards.default
+                %}
             </div>
         </div>
     </section>

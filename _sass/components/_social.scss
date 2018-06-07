@@ -7,8 +7,6 @@
         @include media-breakpoint-down('sm') {
             margin: 0 1.5rem !important;
         }
-
-
     }
 
     a {
@@ -16,6 +14,16 @@
 
         @include hover {
             color: rgba($black, .3);
+        }
+    }
+
+    &.social--banner {
+        a {
+            color: $white;
+
+            @include hover {
+                color: rgba($white, .7);
+            }
         }
     }
 

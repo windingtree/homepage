@@ -1,0 +1,38 @@
+suppliers:
+    title: "Commission-free inventory distribution for suppliers"
+    text: "A&nbsp;blockchain technology that helps to&nbsp;sell more and with no&nbsp;intermediaries."
+    action_url: "/"
+    action_title: "Read documentation"
+    image_url: "/assets/img/page-banner/suppliers.svg"
+
+sellers:
+    title: "A&nbsp;travel agent&rsquo;s entry point to&nbsp;suppliers inventory"
+    text: "A&nbsp;decentralized technology that gives sellers a&nbsp;commision-free access to&nbsp;thousands of&nbsp;hotels, airlines, cruises and other travel services worldwide."
+    action_url: "/"
+    action_title: "Read documentation"
+    image_url: "/assets/img/page-banner/sellers.svg"
+
+software-vendors:
+    title: "API that gives new opportunities to&nbsp;software vendors"
+    text: "Integration with Winding Tree will make your product more competitive."
+    action_url: "/"
+    action_title: "Read documentation"
+    image_url: "/assets/img/page-banner/software-vendors.svg"
+
+startups-and-developers:
+    title: "Make future of&nbsp;travel together"
+    text: "Developers, startups, evengelists and geeks are welcome!"
+    social: true
+    image_url: "/assets/img/page-banner/startups-and-developers.svg"
+
+foundation:
+    title: "Winding Tree Foundation"
+    text: "A&nbsp;non-profit organization"
+    image_url: "/assets/img/page-banner/foundation.svg"
+
+lif-token:
+    title: "Lif token"
+    text: "The L&iacute;f token facilitates transactions on&nbsp;the Winding Tree platform."
+    action_url: "/"
+    action_title: "Call to action"
+    image_url: "/assets/img/page-banner/lif-token.svg"

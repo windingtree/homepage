@@ -1,0 +1,39 @@
+{% assign data = include %}
+
+{% if data %}
+    <section class="key-benefits py-3 py-md-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <h2 class="col-md-8 text-center {{ include.title_style }}">
+                    {{ include.title }}
+                </h2>
+
+                <div class="w-100"></div>
+
+                {% for key_benefit in data.key_benefits %}
+                    <div class="col-md-4 my-2 mt-md-4 mb-md-0 pr-md-3 text-center text-md-left">
+                        <img src="{{ key_benefit.icon_url | relative_url }}" alt="{{ key_benefit.title }}" class="img-fluid">
+
+                        <h6 class="my-1 mt-md-2 mb-md-1">
+                            {{ key_benefit.title }}
+                        </h6>
+
+                        <p class="small text-muted">
+                            {{ key_benefit.text }}
+                        </p>
+
+                        {% if key_benefit.link_url and key_benefit.link_title %}
+                            <a href="{{ key_benefit.link_url | relative_url }}" class="d-inline-block mt-1 border-bottom small">
+                                {{ key_benefit.link_title }}
+                            </a>
+                        {% endif %}
+                    </div>
+
+                    <div class="key-benefits__divider col-12 d-md-none">
+                        <hr>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+{% endif %}

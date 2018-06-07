@@ -26,7 +26,10 @@
                             {{ data.join_title }}
                         </h3>
                         {% if social %}
-                            {% include social.html %}
+                            {% include
+                                social.html
+                                classlist = "justify-content-center"
+                            %}
                         {% endif %}
                     </section>
                 </div>

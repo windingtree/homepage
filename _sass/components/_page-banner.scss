@@ -1,0 +1,23 @@
+.page-banner {
+    padding-top: $navbar-height * 2 !important;
+    background-color: $color-gradient-secondary !important;
+    background-image: $gradient-from-left;
+    background-position: left center;
+    background-repeat: no-repeat;
+
+    @include media-breakpoint-up('md') {
+        padding-top: $navbar-height-md * 1.5 !important;
+    }
+
+    &__text {
+        &:not(:last-child) {
+            margin-bottom: 3rem;
+        }
+    }
+
+    &__image {
+        @include media-breakpoint-down('sm') {
+            @include size(110px);
+        }
+    }
+}

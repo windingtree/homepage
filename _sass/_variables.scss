@@ -7,3 +7,7 @@ $gradient-from-left: radial-gradient(circle at 100% 50%, $color-gradient-primary
 
 $image-max-width: 160px;
 $image-max-height: 80px;
+
+// Hardcoding navbar height in styles to assign a value to a property more quickly than from JS
+$navbar-height: 5.5rem;
+$navbar-height-md: 11rem;

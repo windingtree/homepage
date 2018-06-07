@@ -19,12 +19,13 @@ title: Winding Tree
 
 {% include in-the-press.html %}
 
+{% assign open-source-banner = site.data.open-source-banner %}
 {% include
     open-source-banner.html
-    title = site.data.open-source-banner.index_title
-    text = site.data.open-source-banner.index_text
-    action_url = site.data.open-source-banner.index_action_url
-    action_title = site.data.open-source-banner.index_action_title
+    title = open-source-banner.index_title
+    text = open-source-banner.index_text
+    action_url = open-source-banner.index_action_url
+    action_title = open-source-banner.index_action_title
 %}
 
 {% include video-gallery.html %}
