@@ -3,6 +3,8 @@ layout: default
 title: Software vendors / Winding Tree
 ---
 
+{% assign content = site.data.pages-content.software-vendors %}
+
 {% include
     banners/page.html
     data = site.data.banners.page.software-vendors
@@ -12,6 +14,16 @@ title: Software vendors / Winding Tree
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8">
+                {% if content %}
+                    <p class="lead mb-2 mb-md-4 text-center">
+                        {{ content.intro_text }}
+                    </p>
+
+                    <p class="mb-1 mb-md-2 text-center text-md-left">
+                        {{ content.cards_caption }}
+                    </p>
+                {% endif %}
+
                 {%
                     include cards.html
                     cards = site.data.cards.software_vendors

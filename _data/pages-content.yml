@@ -1,3 +1,7 @@
+software-vendors:
+    intro_text: "If&nbsp;you provide travel market players with any travel-related software, integration with Winding Tree platrofm will make your products more competitive and customer attractive. Just check our documentation to&nbsp;learn all the features and investigate the API."
+    cards_caption: "If you supplier or seller of travel developing own software, you are in a right way. Integration with winding tree can force your business, make it more profitable and rapid. Check our docs or go to sellers <link_to_sellers> or  <suppliers> section to learn more."
+
 foundation:
     intro_text: "Winding Tree Foundation is&nbsp;a&nbsp;non-profit organization incorporated in&nbsp;Switzerland. Its purpose is&nbsp;to&nbsp;fund and develop software projects, data exchange standard, publish data, etc. with the goal of&nbsp;advancing the travel industry."
-    cards_title: "Winding Tree foundation currently supports these initiatives:"
+    cards_caption: "Winding Tree foundation currently supports these initiatives:"

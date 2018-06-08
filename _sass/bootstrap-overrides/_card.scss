@@ -80,11 +80,11 @@
         padding-right: 3.4rem;
 
         img {
-            @include size(50px, 40px);
             position: absolute;
             top: 50%;
             left: -60px;
             transform: translateY(-50%);
+            width: 50px;
         }
 
         i {

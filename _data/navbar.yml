@@ -18,13 +18,13 @@ navbar_nav:
         - title: "Foundation"
           dropdown:
             - title: "About"
-              url: "/foundation.html"
+              url: "/foundation.html#about"
 
             - title: "Team"
               url: "/foundation.html#team"
 
             - title: "Services"
-              url: "/foundation.html#services"
+              url: "/foundation.html#consultancy"
 
             - title: "Project Roadmap"
               url: "/foundation.html#roadmap"
