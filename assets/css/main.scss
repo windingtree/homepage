@@ -37,12 +37,14 @@ $baseurl: "{{ site.baseurl }}";
 @import "components/layouts/ready-to-use";
 
 @import "components/banners/consultancy";
+@import "components/banners/how-it-works";
 @import "components/banners/index";
 @import "components/banners/lif-ico";
 @import "components/banners/lif-token";
 @import "components/banners/open-source";
 @import "components/banners/page";
 
+@import "components/error-page";
 @import "components/features";
 @import "components/in-the-press";
 @import "components/key-benefits";

@@ -4,45 +4,47 @@
 {% if data %}
     <footer class="footer bg-secondary text-white">
         <div class="container">
-            <div class="footer__row pt-2 pb-1">
-                <div class="row">
-                    <div class="col-md-4">
-                        <img src="{{ 'assets/img/logo/sm-white.svg' | relarive_url }}" alt="{{ site.title }}" class="d-md-none mb-2">
-                        <img src="{{ 'assets/img/logo/md-white.svg' | relarive_url }}" height="60" alt="{{ site.title }}" class="d-none d-md-inline">
-                    </div>
-
-                    {% if data.navigation_groups %}
-                        <div class="col-md-8">
-                            <div class="row">
-                                {% for navigation_group in data.navigation_groups %}
-                                    <div class="col-6 col-md-3">
-                                        <dl class="mb-1">
-                                            <dt class="mb-1">{{ navigation_group.title }}</dt>
-                                            <dd>
-                                                <nav class="nav flex-column small">
-                                                    {% for item in navigation_group.items %}
-                                                        {% if item.url %}
-                                                            {% if item.url contains "mailto:" %}
-                                                                <a href="{{ item.url }}" class="nav-link text-white text-truncate">{{ item.title }}</a>
-                                                            {% else %}
-                                                                <a href="{{ item.url | relative_url }}" class="nav-link text-white">{{ item.title }}</a>
-                                                            {% endif %}
-                                                        {% else %}
-                                                            <span class="nav-link">
-                                                                {{ item.title }}
-                                                            </span>
-                                                        {% endif %}
-                                                    {% endfor %}
-                                                </nav>
-                                            </dd>
-                                        </dl>
-                                    </div>
-                                {% endfor %}
-                            </div>
+            {% if include.compact == !true %}
+                <div class="footer__row pt-2 pb-1">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="{{ 'assets/img/logo/sm-white.svg' | relarive_url }}" alt="{{ site.title }}" class="d-md-none mb-2">
+                            <img src="{{ 'assets/img/logo/md-white.svg' | relarive_url }}" height="60" alt="{{ site.title }}" class="d-none d-md-inline">
                         </div>
-                    {% endif %}
+
+                        {% if data.navigation_groups %}
+                            <div class="col-md-8">
+                                <div class="row">
+                                    {% for navigation_group in data.navigation_groups %}
+                                        <div class="col-6 col-md-3">
+                                            <dl class="mb-1">
+                                                <dt class="mb-1">{{ navigation_group.title }}</dt>
+                                                <dd>
+                                                    <nav class="nav flex-column small">
+                                                        {% for item in navigation_group.items %}
+                                                            {% if item.url %}
+                                                                {% if item.url contains "mailto:" %}
+                                                                    <a href="{{ item.url }}" class="nav-link text-white text-truncate">{{ item.title }}</a>
+                                                                {% else %}
+                                                                    <a href="{{ item.url | relative_url }}" class="nav-link text-white">{{ item.title }}</a>
+                                                                {% endif %}
+                                                            {% else %}
+                                                                <span class="nav-link">
+                                                                    {{ item.title }}
+                                                                </span>
+                                                            {% endif %}
+                                                        {% endfor %}
+                                                    </nav>
+                                                </dd>
+                                            </dl>
+                                        </div>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        {% endif %}
+                    </div>
                 </div>
-            </div>
+            {% endif %}
 
             <div class="footer__row py-1">
                 <div class="d-flex flex-column-reverse flex-md-row align-items-center">
