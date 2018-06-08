@@ -8,10 +8,12 @@ exclude:
     - vendor/gems/
     - vendor/ruby/
     - .idea
+    - Gemfile
+    - Gemfile.lock
     - node_modules
     - package.json
-    - modernizr-custom.json
     - yarn.lock
+    - modernizr-custom.json
 
 sass:
     sass_dir: _sass

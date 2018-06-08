@@ -6,6 +6,7 @@
 $baseurl: "{{ site.baseurl }}";
 
 // Vendors
+@import "vendors/syntax";
 @import "vendors/slick";
 
 // Bootstrap overrides
@@ -51,5 +52,6 @@ $baseurl: "{{ site.baseurl }}";
 @import "components/partners";
 @import "components/roadmap";
 @import "components/social";
+@import "components/solutions";
 @import "components/team";
 @import "components/video-gallery";

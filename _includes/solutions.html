@@ -1,0 +1,161 @@
+{% assign data = include.data %}
+
+{% if data %}
+    <section class="solutions my-3 my-md-5">
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col-md-8">
+                    <header class="mb-2 mb-md-3">
+                        <h2 class="text-center">
+                            {{ data.title }}
+                        </h2>
+
+                        {% if data.text %}
+                            <p class="mt-2 text-center text-md-left">
+                                {{ data.text }}
+                            </p>
+                        {% endif %}
+                    </header>
+
+                    {% if data.groups %}
+                        {% for group in data.groups %}
+                            {% if group.tabs %}
+                                <div class="solutions__code pb-2 pb-md-3 mb-2 mb-md-3 border-bottom">
+                                    <ul class="nav nav-tabs row flex-nowrap" role="tablist">
+                                        {% for tab in group.tabs %}
+                                            {% assign tab_index = tab_index | plus:1 %}
+
+                                            {% assign active_tab_classlist = '' %}
+                                            {% assign tab_aria_selected = false %}
+
+                                            {% if tab_index == 1 %}
+                                                {% assign active_tab_classlist = 'active' %}
+                                                {% assign tab_aria_selected = true %}
+                                            {% endif %}
+
+                                            <li class="nav-item col-auto">
+                                                <a class="nav-link h-100 pb-2 text-dark {{ active_tab_classlist }}" data-toggle="tab" href="#code-{{ tab_index }}" role="tab" aria-selected="{{ tab_aria_selected }}">
+                                                    <span class="font-weight-bold small text-uppercase">{{ tab.title }}</span>
+                                                </a>
+                                            </li>
+                                        {% endfor %}
+                                    </ul>
+
+                                    <div class="tab-content p-1 bg-white">
+                                        {% for tab in group.tabs %}
+                                            {% assign code_index = code_index | plus:1 %}
+
+                                            {% assign active_code_classlist = '' %}
+
+                                            {% if code_index == 1 %}
+                                                {% assign active_code_classlist = 'show active' %}
+                                            {% endif %}
+
+                                            <div class="tab-pane fade {{ active_code_classlist }}" id="code-{{ code_index }}" role="tabpanel">
+<!-- /TODO: Find out how to place code in .yml -->
+{% highlight js %}
+{% raw %}
+function $initHighlight(block, cls) {
+    try {
+        if (cls.search(/\bno\-highlight\b/) != -1)
+            return process(block, true, 0x0F) +
+                   ` class="${cls}"`;
+    } catch (e) {
+        /* handle exception */
+    }
+    for (var i = 0 / 2; i < classes.length; i++) {
+        if (checkCondition(classes[i]) === undefined)
+            console.log('undefined');
+    }
+}
+
+export  $initHighlight;
+{% endraw %}
+{% endhighlight %}
+                                            </div>
+                                        {% endfor %}
+                                    </div>
+                                </div>
+                            {% endif %}
+
+                            {% if group.sections %}
+                                <div class="solutions__section mb-2 mb-md-3">
+                                    {% for section in group.sections %}
+                                        <article class="pb-2 pb-md-3 mb-2 mb-md-3 border-bottom">
+                                            <h6 class="mb-1 font-weight-bold small text-uppercase text-center text-md-left">
+                                                {{ section.title }}
+                                            </h6>
+
+                                            {% if section.cases %}
+                                                <div class="solutions__cases">
+                                                    <div class="row">
+                                                        {% for case in section.cases %}
+                                                            <div class="col-md-6">
+                                                                <a href="{{ case.link_url }}" class="d-block partner">
+                                                                    <figure class="my-1 my-lg-0 text-center text-md-left figure">
+                                                                        <img src="{{ case.logo_url | relative_url }}" alt="{{ case.title }}" class="img-fluid figure-img">
+                                                                        <figcaption class="figure-caption mt-1">
+                                                                            {{ case.text }}
+                                                                        </figcaption>
+                                                                    </figure>
+                                                                </a>
+                                                            </div>
+                                                        {% endfor %}
+                                                    </div>
+                                                </div>
+                                            {% endif %}
+
+                                            {% if section.integrations %}
+                                                <div class="solutions__integrations">
+                                                    <p class="mb-1 text-center text-md-left">
+                                                        {{ section.integrations.text }}
+                                                    </p>
+
+                                                    <ul class="list-inline d-flex flex-column d-md-block">
+                                                        {% for link in section.integrations.links %}
+                                                            <li class="list-inline-item my-1">
+                                                                <a href="{{ link.url }}" class="btn btn-block btn-lg btn-light d-inline-flex align-items-center border text-capitalize">
+                                                                    <i class="mdi mdi-24px mdi-package-variant-closed"></i>
+                                                                    {{ link.title }}
+                                                                </a>
+                                                            </li>
+                                                        {% endfor %}
+                                                    </ul>
+                                                </div>
+                                            {% endif %}
+
+                                            {% if section.partners %}
+                                                <div class="solutions__partners">
+                                                    <div class="row align-items-center">
+                                                        {% for partner in section.partners %}
+                                                            <div class="col-6 col-md-3 text-center">
+                                                                <a href="{{ partner.link_url }}">
+                                                                    <img src="{{ partner.logo_url | relative_url }}" alt="{{ partner.title }}" class="my-1 img-fluid">
+                                                                </a>
+                                                            </div>
+                                                        {% endfor %}
+                                                    </div>
+                                                </div>
+                                            {% endif %}
+
+                                        </article>
+                                    {% endfor %}
+
+                                    <footer class="text-center">
+                                        <p class="mb-2">
+                                            {{ group.footer.text }}
+                                        </p>
+
+                                        <a href="{{ group.footer.action_url | relative_url }}" class="btn btn-primary">
+                                            {{ group.footer.action_title }}
+                                        </a>
+                                    </footer>
+                                </div>
+                            {% endif %}
+                        {% endfor %}
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </section>
+{% endif %}

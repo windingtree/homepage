@@ -13,7 +13,7 @@
                     </p>
                     {% if data.action_url and data.action_title %}
                         <footer class="mt-1">
-                            <a href="{{ data.action_url }}" class="btn btn-outline-light">
+                            <a href="{{ data.action_url | relative_url }}" class="btn btn-outline-light">
                                 {{ data.action_title }}
                             </a>
                         </footer>

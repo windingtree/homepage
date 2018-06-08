@@ -1,0 +1,279 @@
+suppliers:
+    title: "Solutions"
+
+    groups:
+        - sections:
+            - title: "Case study"
+              text: "Text"
+              cases:
+                - title: "Air New Zealand"
+                  text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut&nbsp;laoreet dolore magna aliquam erat volutpat. Ut&nbsp;wisi enim ad&nbsp;minim veniam."
+                  logo_url: "/assets/img/partners/anz.png"
+                  link_url: "/"
+
+            - title: "Integrated software"
+              text: "Text"
+              integrations:
+                text: "If&nbsp;you don&rsquo;t develop own managing software, you can use one of&nbsp;our partners&rsquo; solutions, which is&nbsp;already integrated with Winding Tree."
+                links:
+                  - title: "Web-software name"
+                    url: "/"
+                  - title: "Acquiring"
+                    url: "/"
+                  - title: "Your own managing software"
+                    url: "/"
+
+            - title: "Already joined&nbsp;us"
+              partners:
+                - title: "Air New Zealand"
+                  logo_url: "/assets/img/partners/anz.png"
+                  link_url: "/"
+                - title: "Nordic Choice Hotels"
+                  logo_url: "/assets/img/partners/nordic.jpg"
+                  link_url: "/"
+                - title: "Air New Zealand"
+                  logo_url: "/assets/img/partners/anz.png"
+                  link_url: "/"
+                - title: "Nordic Choice Hotels"
+                  logo_url: "/assets/img/partners/nordic.jpg"
+                  link_url: "/"
+                - title: "Air New Zealand"
+                  logo_url: "/assets/img/partners/anz.png"
+                  link_url: "/"
+                - title: "Nordic Choice Hotels"
+                  logo_url: "/assets/img/partners/nordic.jpg"
+                  link_url: "/"
+                - title: "Air New Zealand"
+                  logo_url: "/assets/img/partners/anz.png"
+                  link_url: "/"
+                - title: "Nordic Choice Hotels"
+                  logo_url: "/assets/img/partners/nordic.jpg"
+                  link_url: "/"
+
+          footer:
+            text: "Please contact our partners that have integrated with the Winding Tree platform. You may also use our API or&nbsp;one of&nbsp;the libraries in&nbsp;order to&nbsp;integrate with Winding Tree directly."
+            action_url: "/"
+            action_title: "Integrate"
+
+        - sections:
+            - title: "Case study"
+              text: "Text"
+              cases:
+                - title: "Eurowings"
+                  text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut&nbsp;laoreet dolore magna aliquam erat volutpat. Ut&nbsp;wisi enim ad&nbsp;minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut&nbsp;aliquip."
+                  logo_url: "/assets/img/partners/slider-2/eurowings.svg"
+                  link_url: "/"
+                - title: "Swiss"
+                  text: "Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut&nbsp;laoreet dolore magna aliquam erat volutpat. Ut&nbsp;wisi enim ad&nbsp;minim veniam."
+                  logo_url: "/assets/img/partners/slider-1/swiss.svg"
+                  link_url: "/"
+                - title: "Lufthansa"
+                  text: "Ut&nbsp;wisi enim ad&nbsp;minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut&nbsp;aliquip ex&nbsp;ea&nbsp;commodo consequat. sed diam nonummy nibh euismod tincidunt ut&nbsp;laoreet dolore magna aliquam erat volutpat."
+                  logo_url: "/assets/img/partners/slider-2/lufthansa.svg"
+                  link_url: "/"
+
+            - title: "Integrated software"
+              text: "Text"
+              integrations:
+                text: "If&nbsp;you don&rsquo;t develop own managing software, you can use one of&nbsp;our partners&rsquo; solutions, which is&nbsp;already integrated with Winding Tree."
+                links:
+                  - title: "Your own managing software"
+                    url: "/"
+
+            - title: "Already joined&nbsp;us"
+              partners:
+                - title: "Air New Zealand"
+                  logo_url: "/assets/img/partners/anz.png"
+                  link_url: "/"
+                - title: "Nordic Choice Hotels"
+                  logo_url: "/assets/img/partners/nordic.jpg"
+                  link_url: "/"
+                - title: "Air New Zealand"
+                  logo_url: "/assets/img/partners/anz.png"
+                  link_url: "/"
+                - title: "Nordic Choice Hotels"
+                  logo_url: "/assets/img/partners/nordic.jpg"
+                  link_url: "/"
+
+          footer:
+            text: "If&nbsp;you would like to&nbsp;start selling your inventory on&nbsp;the Winding Tree platform, we&nbsp;recommend you to&nbsp;read the integration documentation and then arrange for a&nbsp;consultation."
+            action_url: "/"
+            action_title: "Read documentation"
+
+        - sections:
+            - title: "Integrated software"
+              text: "Text"
+              integrations:
+                text: "If&nbsp;you don&rsquo;t develop own managing software, you can use one of&nbsp;our partners&rsquo; solutions, which is&nbsp;already integrated with Winding Tree."
+                links:
+                  - title: "Your own managing software"
+                    url: "/"
+                  - title: "Software"
+                    url: "/"
+                  - title: "Your own managing software"
+                    url: "/"
+                  - title: "Acquiring"
+                    url: "/"
+                  - title: "Web-software name"
+                    url: "/"
+
+            - title: "Already joined&nbsp;us"
+              partners:
+                - title: "Air New Zealand"
+                  logo_url: "/assets/img/partners/anz.png"
+                  link_url: "/"
+                - title: "Nordic Choice Hotels"
+                  logo_url: "/assets/img/partners/nordic.jpg"
+                  link_url: "/"
+                - title: "Air New Zealand"
+                  logo_url: "/assets/img/partners/anz.png"
+                  link_url: "/"
+                - title: "Nordic Choice Hotels"
+                  logo_url: "/assets/img/partners/nordic.jpg"
+                  link_url: "/"
+                - title: "Air New Zealand"
+                  logo_url: "/assets/img/partners/anz.png"
+                  link_url: "/"
+                - title: "Nordic Choice Hotels"
+                  logo_url: "/assets/img/partners/nordic.jpg"
+                  link_url: "/"
+
+          footer:
+            text: "Please contact our partners that have integrated with the Winding Tree platform. You may also use our API or&nbsp;one of&nbsp;the libraries in&nbsp;order to&nbsp;integrate with Winding Tree directly."
+            action_url: "/"
+            action_title: "Go to API"
+
+
+sellers:
+    title: "Solutions for travel agency"
+    text: "If&nbsp;you are an&nbsp;offline travel agency, you may use a&nbsp;web-based application that you can use to&nbsp;view and buy inventory on&nbsp;the platform.
+           <br>
+           <br>
+           If&nbsp;you have a&nbsp;website or&nbsp;a&nbsp;mobile app, you can integrate with Winding Tree directly."
+
+    groups:
+        - tabs:
+            - title: "Payments"
+            - title: "Customers"
+            - title: "Subscriptions"
+
+          sections:
+            - title: "Case study"
+              text: "Text"
+              cases:
+                - title: "Air New Zealand"
+                  text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut&nbsp;laoreet dolore magna aliquam erat volutpat. Ut&nbsp;wisi enim ad&nbsp;minim veniam."
+                  logo_url: "/assets/img/partners/anz.png"
+                  link_url: "/"
+
+            - title: "Integrated software"
+              text: "Text"
+              integrations:
+                text: "If&nbsp;you don&rsquo;t develop own managing software, you can use one of&nbsp;our partners&rsquo; solutions, which is&nbsp;already integrated with Winding Tree."
+                links:
+                  - title: "Web-software name"
+                    url: "/"
+                  - title: "Acquiring"
+                    url: "/"
+                  - title: "Your own managing software"
+                    url: "/"
+
+            - title: "Already joined&nbsp;us"
+              partners:
+                - title: "Air New Zealand"
+                  logo_url: "/assets/img/partners/anz.png"
+                  link_url: "/"
+                - title: "Nordic Choice Hotels"
+                  logo_url: "/assets/img/partners/nordic.jpg"
+                  link_url: "/"
+                - title: "Air New Zealand"
+                  logo_url: "/assets/img/partners/anz.png"
+                  link_url: "/"
+                - title: "Nordic Choice Hotels"
+                  logo_url: "/assets/img/partners/nordic.jpg"
+                  link_url: "/"
+                - title: "Air New Zealand"
+                  logo_url: "/assets/img/partners/anz.png"
+                  link_url: "/"
+                - title: "Nordic Choice Hotels"
+                  logo_url: "/assets/img/partners/nordic.jpg"
+                  link_url: "/"
+                - title: "Air New Zealand"
+                  logo_url: "/assets/img/partners/anz.png"
+                  link_url: "/"
+                - title: "Nordic Choice Hotels"
+                  logo_url: "/assets/img/partners/nordic.jpg"
+                  link_url: "/"
+
+          footer:
+            text: "Please contact our partners that have integrated with the Winding Tree platform. You may also use our API or&nbsp;one of&nbsp;the libraries in&nbsp;order to&nbsp;integrate with Winding Tree directly."
+            action_url: "/"
+            action_title: "Integrate"
+
+
+
+software-vendors:
+    title: "Нow to&nbsp;integrate with Winding Tree"
+    text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut&nbsp;laoreet dolore magna aliquam erat volutpat. Ut&nbsp;wisi enim ad&nbsp;minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut&nbsp;aliquip ex&nbsp;ea&nbsp;commodo consequat.
+           <br>
+           <br>
+           If&nbsp;you have a&nbsp;website or&nbsp;a&nbsp;mobile app, you can integrate with Winding Tree directly."
+
+    groups:
+        - tabs:
+            - title: "Payments"
+            - title: "Customers"
+            - title: "Subscriptions"
+
+          sections:
+            - title: "Case study"
+              text: "Text"
+              cases:
+                - title: "Air New Zealand"
+                  text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut&nbsp;laoreet dolore magna aliquam erat volutpat. Ut&nbsp;wisi enim ad&nbsp;minim veniam."
+                  logo_url: "/assets/img/partners/anz.png"
+                  link_url: "/"
+
+            - title: "Integrated software"
+              text: "Text"
+              integrations:
+                text: "If&nbsp;you don&rsquo;t develop own managing software, you can use one of&nbsp;our partners&rsquo; solutions, which is&nbsp;already integrated with Winding Tree."
+                links:
+                  - title: "Web-software name"
+                    url: "/"
+                  - title: "Acquiring"
+                    url: "/"
+                  - title: "Your own managing software"
+                    url: "/"
+
+            - title: "Already joined&nbsp;us"
+              partners:
+                - title: "Air New Zealand"
+                  logo_url: "/assets/img/partners/anz.png"
+                  link_url: "/"
+                - title: "Nordic Choice Hotels"
+                  logo_url: "/assets/img/partners/nordic.jpg"
+                  link_url: "/"
+                - title: "Air New Zealand"
+                  logo_url: "/assets/img/partners/anz.png"
+                  link_url: "/"
+                - title: "Nordic Choice Hotels"
+                  logo_url: "/assets/img/partners/nordic.jpg"
+                  link_url: "/"
+                - title: "Air New Zealand"
+                  logo_url: "/assets/img/partners/anz.png"
+                  link_url: "/"
+                - title: "Nordic Choice Hotels"
+                  logo_url: "/assets/img/partners/nordic.jpg"
+                  link_url: "/"
+                - title: "Air New Zealand"
+                  logo_url: "/assets/img/partners/anz.png"
+                  link_url: "/"
+                - title: "Nordic Choice Hotels"
+                  logo_url: "/assets/img/partners/nordic.jpg"
+                  link_url: "/"
+
+          footer:
+            text: "Please contact our partners that have integrated with the Winding Tree platform. You may also use our API or&nbsp;one of&nbsp;the libraries in&nbsp;order to&nbsp;integrate with Winding Tree directly."
+            action_url: "/"
+            action_title: "Integrate"

@@ -3,13 +3,13 @@
 {% if data %}
     <section class="features my-3 my-md-5">
         <div class="container">
-            <h2 class="mb-2 mb-md-4 text-center">
-                {{ data.title }}
-            </h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <h2 class="mb-2 mb-md-4 text-center">
+                        {{ data.title }}
+                    </h2>
 
-            {% if data.items %}
-                <div class="row justify-content-center">
-                    <div class="col-md-8">
+                    {% if data.items %}
                         {% for item in data.items %}
                             <article class="row flex-column flex-md-row align-items-center text-center text-md-left">
                                 {% capture alternation %}{% cycle 'odd', 'even' %}{% endcapture %}
@@ -42,9 +42,9 @@
 
                             <hr class="my-2 my-md-3">
                         {% endfor %}
-                    </div>
+                    {% endif %}
                 </div>
-            {% endif %}
+            </div>
 
             <footer class="mt-2 mt-md-4 text-center">
                 <a href="{{ data.action_url | relative_url }}" class="btn btn-outline-dark">

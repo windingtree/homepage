@@ -9,57 +9,59 @@
                         {{ data.title }}
                     </h2>
 
-                    {% for item in data.items %}
-                        <div class="lif-ico-item text-center text-md-left text-white">
-                            {% assign reverse = "" %}
-                            {% assign text_align = "" %}
+                    {% if data.items %}
+                        {% for item in data.items %}
+                            <div class="lif-ico-item text-center text-md-left text-white">
+                                {% assign reverse = "" %}
+                                {% assign text_align = "" %}
 
-                            {% capture alternation %}{% cycle 'odd', 'even' %}{% endcapture %}
+                                {% capture alternation %}{% cycle 'odd', 'even' %}{% endcapture %}
 
-                            {% if alternation == 'odd' %}
-                                {% assign reverse = "flex-md-row-reverse" %}
-                                {% assign text_align = "text-md-right" %}
-                            {% endif %}
+                                {% if alternation == 'odd' %}
+                                    {% assign reverse = "flex-md-row-reverse" %}
+                                    {% assign text_align = "text-md-right" %}
+                                {% endif %}
 
-                            <div class="row align-items-md-center {{ reverse }}">
-                                <div class="col-md-6 mb-1 mb-md-0 {{ text_align }}">
-                                    <img src="{{ item.icon_url | relative_url }}" alt="{{ item.title }}" class="lif-ico-item__icon img-fluid">
-                                </div>
+                                <div class="row align-items-md-center {{ reverse }}">
+                                    <div class="col-md-6 mb-1 mb-md-0 {{ text_align }}">
+                                        <img src="{{ item.icon_url | relative_url }}" alt="{{ item.title }}" class="lif-ico-item__icon img-fluid">
+                                    </div>
 
-                                <div class="col-md-6">
-                                    {{ item.title }}
+                                    <div class="col-md-6">
+                                        {{ item.title }}
 
-                                    <div class="display-2">{{ item.number }}</div>
+                                        <div class="display-2">{{ item.number }}</div>
 
-                                    <ul class="list-inline mt-1">
-                                        {% for chart_stat in item.chart_stats %}
-                                            {% assign before = "" %}
-                                            {% assign after = "" %}
+                                        <ul class="list-inline mt-1">
+                                            {% for chart_stat in item.chart_stats %}
+                                                {% assign before = "" %}
+                                                {% assign after = "" %}
 
-                                            {% capture alternation %}{% cycle 'odd', 'even' %}{% endcapture %}
+                                                {% capture alternation %}{% cycle 'odd', 'even' %}{% endcapture %}
 
-                                            {% if alternation == 'odd' %}
-                                                {% assign before = "before" %}
-                                            {% endif %}
+                                                {% if alternation == 'odd' %}
+                                                    {% assign before = "before" %}
+                                                {% endif %}
 
-                                            {% if alternation == 'even' %}
-                                                {% assign before = "after" %}
-                                            {% endif %}
+                                                {% if alternation == 'even' %}
+                                                    {% assign before = "after" %}
+                                                {% endif %}
 
-                                            <li class="list-inline-item">
-                                                <span class="lif-ico-item__legend lif-ico-item__legend--{{ before after }} mb-1"></span>
+                                                <li class="list-inline-item">
+                                                    <span class="lif-ico-item__legend lif-ico-item__legend--{{ before after }} mb-1"></span>
 
-                                                <h3 class="text-white">{{ chart_stat.number }}</h3>
-                                                {{ chart_stat.title }}
-                                            </li>
-                                        {% endfor %}
-                                    </ul>
+                                                    <h3 class="text-white">{{ chart_stat.number }}</h3>
+                                                    {{ chart_stat.title }}
+                                                </li>
+                                            {% endfor %}
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <hr class="my-2 my-md-3">
-                    {% endfor %}
+                            <hr class="my-2 my-md-3">
+                        {% endfor %}
+                    {% endif %}
                 </div>
             </div>
         </div>
