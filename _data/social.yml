@@ -18,10 +18,6 @@
   url: "https://t.me/windingtree"
   icon: "mdi-telegram"
 
-- title: "Rocket.Chat"
-  url: "https://windingtree.rocket.chat/"
-  icon: "mdi-alert"
-
 - title: "Reddit"
   url: "https://reddit.com/r/windingtree"
   icon: "mdi-reddit"
@@ -29,7 +25,3 @@
 - title: "BitcoinTalk"
   url: "https://bitcointalk.org/index.php?topic=1946065"
   icon: "mdi-bitcoin"
-
-- title: "Kakao"
-  url: "https://open.kakao.com/o/g2W8pCB"
-  icon: "mdi-alert"

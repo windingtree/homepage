@@ -15,7 +15,7 @@ $gray-200: #e9ecef !default;
 //$gray-300: #dee2e6 !default;
 //$gray-400: #ced4da !default;
 $gray-500: #a9a9a9 !default;
-//$gray-600: #6c757d !default;
+$gray-600: #6c757d !default;
 $gray-700: #434343 !default;
 //$gray-800: #343a40 !default;
 //$gray-900: #212529 !default;
@@ -276,7 +276,7 @@ $lead-font-weight:            $font-weight-normal !default;
 //
 $small-font-size:             1.4rem !default;
 //
-$text-muted:                  rgba($black, .7) !default;
+$text-muted:                  $gray-600 !default;
 //
 //$blockquote-small-color:      $gray-600 !default;
 $blockquote-font-size:        $h3-font-size !default;

@@ -12,6 +12,14 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+
+
+}
+
+@include ie-conditional {
+    body {
+        display: block;
+    }
 }
 
 main {
@@ -21,6 +29,11 @@ main {
 ol,
 ul,
 dl {
+    margin-bottom: 0;
+}
+
+dd {
+    margin-top: 1rem;
     margin-bottom: 0;
 }
 

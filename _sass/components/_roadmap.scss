@@ -1,0 +1,49 @@
+$roadmap-icon-size: 35px;
+$roadmap-icon-size-lg: 70px;
+
+.roadmap {
+
+}
+
+.roadmap-item {
+    &:not(:last-child) {
+        position: relative;
+
+        &::after {
+            position: absolute;
+            top: $roadmap-icon-size;
+            bottom: 0;
+            left: $roadmap-icon-size / 2;
+            transform: translateX(-50%);
+            width: 0;
+            border-right: 2px dashed $primary;
+            content: "";
+
+            @include media-breakpoint-up('md') {
+                top: $roadmap-icon-size-lg;
+                left: $roadmap-icon-size-lg / 2;
+            }
+        }
+    }
+
+    &:last-child {
+        padding-bottom: 0 !important;
+    }
+
+    &__icon {
+        @include size($roadmap-icon-size);
+
+        @include media-breakpoint-up('md') {
+            @include size($roadmap-icon-size-lg);
+        }
+    }
+
+    &__quarter {
+        margin-bottom: -1rem;
+        color: $gray-500 !important;
+
+        @include media-breakpoint-up('md') {
+            margin-bottom: -2rem;
+        }
+    }
+}

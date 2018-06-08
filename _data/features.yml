@@ -1,0 +1,33 @@
+title: "Features"
+
+items:
+    - icon_url: "/assets/img/features/1.svg"
+      title: "Decentralized infrastructure"
+      text: "In&nbsp;an&nbsp;open market, the decentralized model is&nbsp;the only way to&nbsp;eliminate the risk of&nbsp;eventual monopolization of&nbsp;distribution."
+
+    - icon_url: "/assets/img/features/2.svg"
+      title: "Easy access"
+      text: "Access the platform via a set of APIs within minutes. Integrate with the platform within hours. Launch the production-ready version of your software in days."
+      link_url: "/"
+      link_title: "Check API &amp;&nbsp;docs"
+
+    - icon_url: "/assets/img/features/3.svg"
+      title: "Lif tokens"
+      text: "Lif is&nbsp;the fuel of&nbsp;the platform, not only is&nbsp;it&nbsp;used literally to&nbsp;pay the gas of&nbsp;transacting on&nbsp;a&nbsp;public chain, but it&nbsp;is&nbsp;also contains ARI data on&nbsp;inventory and is&nbsp;used as&nbsp;the currency of&nbsp;the platform."
+
+    - icon_url: "/assets/img/features/4.svg"
+      title: "End-to-end distribution"
+      text: "Winding Tree is&nbsp;not another app or&nbsp;OTA, instead Winding Tree facilitates the creation of&nbsp;hundreds or&nbsp;even thousands of&nbsp;new players to&nbsp;build sites, apps."
+
+    - icon_url: "/assets/img/features/5.svg"
+      title: "Collaboration"
+      text: "In&nbsp;order to&nbsp;succeed the project must be&nbsp;governed and maintained by&nbsp;the users of&nbsp;and community. Only by&nbsp;removing the role of&nbsp;a&nbsp;central authority can we&nbsp;bring innovation back to&nbsp;the industry."
+      link_url: "/startups-and-developers.html"
+      link_title: "For startups and developers"
+
+    - icon_url: "/assets/img/features/6.svg"
+      title: "New products and businesses"
+      text: "When the inventory is&nbsp;publicly available, travel data is&nbsp;actual, blockchain smart contracts eliminate cheaters and automate routine, it&nbsp;will bring travel to&nbsp;new level of&nbsp;service and open doors to&nbsp;absolutely new business models."
+
+action_title: "Join platform"
+action_url: "/"

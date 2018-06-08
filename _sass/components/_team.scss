@@ -1,0 +1,25 @@
+.team {
+
+}
+
+.team-member {
+    .media-body {
+        @include media-breakpoint-up('md') {
+            margin-left: 1rem;
+        }
+    }
+
+    .list-inline-item {
+        &:not(:last-child) {
+            margin-right: 1.5rem;
+        }
+
+        a {
+            color: rgba($black, .3);
+
+            @include hover {
+                color: $black;
+            }
+        }
+    }
+}

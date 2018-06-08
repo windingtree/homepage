@@ -3,15 +3,27 @@ layout: default
 title: Foundation / Winding Tree
 ---
 
+{% assign content = site.data.pages-content.foundation %}
+
 {% include
-    page-banner.html
-    data = site.data.page-banner.foundation
+    banners/page.html
+    data = site.data.banners.page.foundation
 %}
 
 <div class="my-3 my-md-5">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8">
+                {% if content %}
+                    <p class="lead mb-2 mb-md-4 text-center">
+                        {{ content.intro_text }}
+                    </p>
+
+                    <p class="lead mb-1 mb-md-2 text-center">
+                        {{ content.cards_title }}
+                    </p>
+                {% endif %}
+
                 {%
                     include cards.html
                     cards = site.data.cards.foundation
@@ -30,6 +42,6 @@ title: Foundation / Winding Tree
 
 {% include video-gallery.html %}
 
-<!-- Consultancy -->
+{% include banners/consultancy.html %}
 
-<!-- Roadmap -->
+{% include roadmap.html %}

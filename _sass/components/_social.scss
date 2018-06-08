@@ -28,6 +28,14 @@
     }
 
     &.social--footer {
+        li {
+            &:not(:last-child) {
+                @include media-breakpoint-up('md') {
+                    margin-right: 3rem;
+                }
+            }
+        }
+
         a {
             color: rgba($white, .3);
 

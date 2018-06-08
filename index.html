@@ -3,15 +3,15 @@ layout: default
 title: Winding Tree - blockchain-powered decentralized travel ecosystem
 ---
 
-{% include index-banner.html %}
+{% include banners/index.html %}
 
 <div class="d-lg-none">
     {% include section-divider.html %}
 </div>
 
-{% include how-it-works.html %}
+{% include features.html %}
 
-{% include lif-token-banner.html %}
+{% include banners/lif-token.html %}
 
 {% include partners.html %}
 
@@ -19,13 +19,9 @@ title: Winding Tree - blockchain-powered decentralized travel ecosystem
 
 {% include in-the-press.html %}
 
-{% assign open-source-banner = site.data.open-source-banner %}
 {% include
-    open-source-banner.html
-    title = open-source-banner.index_title
-    text = open-source-banner.index_text
-    action_url = open-source-banner.index_action_url
-    action_title = open-source-banner.index_action_title
+    banners/open-source.html
+    data = site.data.banners.open-source.index
 %}
 
 {% include video-gallery.html %}

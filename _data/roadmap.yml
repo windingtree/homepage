@@ -1,0 +1,67 @@
+title: "Roadmap"
+
+items:
+    - icon_url: "/assets/img/roadmap/1.svg"
+      quarter: "Q1 2017"
+      facts_groups:
+        - title: "Token Distribution"
+          facts:
+            - text: "Initial coin offering distribution."
+            - text: "Execute market validation mechanism."
+
+    - icon_url: "/assets/img/roadmap/2.svg"
+      quarter: "Q2"
+      facts_groups:
+        - title: "Developers Introduction"
+          facts:
+            - text: "Get started, development and releases workflow."
+            - text: "First release of api, js-libs and demo app."
+
+    - icon_url: "/assets/img/roadmap/3.svg"
+      quarter: "Q3"
+      facts_groups:
+        - title: "Upgradeable LifToken"
+          facts:
+            - text: "Integrate proxy upgradeability model into LifToken."
+            - text: "Move from ERC20 to&nbsp;ERC827."
+        - title: "WT Hotels Smart Contracs"
+          facts:
+            - text: "Beta version."
+            - text: "Booking using offchain signatures."
+            - text: "Inventory information, avaliability and price in&nbsp;decentralized database."
+        - title: "WT Hotel Testnet (WT Prototype)"
+          facts:
+            - text: "Integration with PMS and OTA using&nbsp;WT api."
+        - title: "L&iacute;fToken Wallet"
+          facts:
+            - text: "Integration with PMS and OTA using&nbsp;WT api."
+
+    - icon_url: "/assets/img/roadmap/4.svg"
+      quarter: "Q4"
+      facts_groups:
+        - title: "WT&nbsp;API Architecture Design"
+          facts:
+            - text: "Ut&nbsp;wisi enim ad&nbsp;minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut&nbsp;aliquip ex&nbsp;ea&nbsp;commodo consequat."
+
+    - icon_url: "/assets/img/roadmap/5.svg"
+      quarter: "Q1 2018"
+      facts_groups:
+        - title: "Upgradeable LifToken"
+          facts:
+            - text: "Alpha version."
+
+    - icon_url: "/assets/img/roadmap/6.svg"
+      quarter: "Q2"
+      facts_groups:
+        - title: "Upgradeable LifToken"
+          facts:
+            - text: "Integrate proxy upgradeability model into LifToken."
+            - text: "Move from ERC20 to&nbsp;ERC827."
+        - title: "WT Hotels Smart Contracs"
+          facts:
+            - text: "Beta version."
+            - text: "Booking using offchain signatures."
+            - text: "Inventory information, avaliability and price in&nbsp;decentralized database."
+        - title: "WT Hotel Testnet (WT Prototype)"
+          facts:
+            - text: "Integration with PMS and OTA using&nbsp;WT api."

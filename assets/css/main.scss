@@ -32,17 +32,21 @@ $baseurl: "{{ site.baseurl }}";
 @import "bootstrap-overrides/modal";
 
 // Components
-@import "components/actions";
-@import "components/footer";
-@import "components/how-it-works";
-@import "components/index-banner";
+@import "components/layouts/actions";
+@import "components/layouts/footer";
+@import "components/layouts/ready-to-use";
+
+@import "components/banners/consultancy";
+@import "components/banners/index";
+@import "components/banners/lif-token";
+@import "components/banners/open-source";
+@import "components/banners/page";
+
+@import "components/features";
 @import "components/in-the-press";
 @import "components/key-benefits";
-@import "components/lif-token-banner";
-@import "components/open-source-banner";
-@import "components/page-banner";
 @import "components/partners";
-@import "components/ready-to-use";
+@import "components/roadmap";
 @import "components/social";
 @import "components/team";
 @import "components/video-gallery";

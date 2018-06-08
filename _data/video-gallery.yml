@@ -1,4 +1,5 @@
 title: "Video gallery"
+
 videos:
     - src: "https://youtube.com/embed/tAXZxDcsApM"
       thumbnail: "https://img.youtube.com/vi/tAXZxDcsApM/0.jpg"

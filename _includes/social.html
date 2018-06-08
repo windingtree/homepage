@@ -1,7 +1,7 @@
 {% assign data = site.data.social %}
 
 {% if data %}
-    <ul class="social d-flex flex-wrap align-items-center list-inline {{ include.classlist }}">
+    <ul class="social list-inline {{ include.classlist }}">
         {% for social in data %}
             <li class="list-inline-item">
                 <a href="{{ social.url }}" title="{{ social.title }}">

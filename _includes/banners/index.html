@@ -1,0 +1,59 @@
+{% assign data = site.data.banners.index %}
+
+{% if data %}
+    <section class="index-banner position-relative pt-3 py-md-5" id="index-banner">
+        <div class="index-banner__bg position-absolute w-100 h-100 bg-secondary" style="top: 0;" id="index-banner-bg"></div>
+
+        <div class="container">
+            <div class="index-banner__inner mb-3 mb-md-5 text-center">
+                <div class="row justify-content-center">
+                    <h1 class="col-md-9 mb-1 text-white">
+                        {{ data.title }}
+                    </h1>
+
+                    <p class="col-md-6 mb-2 lead text-white">
+                        {{ data.text }}
+                    </p>
+
+                    <ul class="index-banner__actions col-12 d-flex flex-column flex-md-row justify-content-md-center align-items-md-center list-inline">
+                        <li class="mb-1 mb-lg-0 list-inline-item">
+                            <a href="{{ data.action_url | relative_url }}" class="btn btn-block btn-primary">
+                                {{ data.action_title }}
+                            </a>
+                        </li>
+                        <li class="mb-1 mb-lg-0 list-inline-item">
+                            <button type="button" class="btn btn-block btn-outline-light" data-toggle="modal" data-target="#index-banner-video-modal">
+                                {{ data.video_title }}
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="modal modal-video fade js-modal-video" id="index-banner-video-modal" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                <i class="mdi mdi-24px mdi-close text-white"></i>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="embed-responsive embed-responsive-{{ data.video_aspect_ratio }}">
+                                <div data-video-id="{{ data.video_id }}" id="index-banner-video-iframe"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="index-banner-cards">
+                {%
+                    include cards.html
+                    cards = site.data.cards.default
+                %}
+            </div>
+        </div>
+    </section>
+{% endif %}

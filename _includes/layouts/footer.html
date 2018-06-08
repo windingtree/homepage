@@ -1,4 +1,4 @@
-{% assign data = site.data.footer %}
+{% assign data = site.data.layouts.footer %}
 {% assign social = site.data.social %}
 
 {% if data %}
@@ -54,7 +54,7 @@
                         <div class="footer__social mb-1 mb-md-0 ml-md-auto">
                             {%
                                 include social.html
-                                classlist = "social--footer justify-content-center justify-content-md-end"
+                                classlist = "social--footer text-center text-md-right"
                                 icon_size = "mdi-24px"
                             %}
                         </div>

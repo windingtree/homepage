@@ -13,3 +13,9 @@
         font-size: $font-size;
     }
 }
+
+@mixin ie-conditional {
+    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+        @content
+    }
+}
