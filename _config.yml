@@ -10,6 +10,7 @@ exclude:
     - .idea
     - Gemfile
     - Gemfile.lock
+    - gulpfile.babel.js
     - node_modules
     - package.json
     - yarn.lock
@@ -17,3 +18,4 @@ exclude:
 
 sass:
     sass_dir: _sass
+    style: compressed

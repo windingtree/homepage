@@ -4,14 +4,20 @@
 
 <script src="https://www.youtube.com/iframe_api"></script>
 
-<script src="{{ 'assets/js/vendors/fontfaceobserver.js' | relative_url }}"></script>
-<script src="{{ 'assets/js/vendors/slick.js' | relative_url }}"></script>
+{% if jekyll.environment == "development" %}
+    <script src="{{ 'assets/js/vendors/fontfaceobserver.js' | relative_url }}"></script>
+    <script src="{{ 'assets/js/vendors/slick.js' | relative_url }}"></script>
 
-<script src="{{ 'assets/js/variables.js' | relative_url }}"></script>
-<script src="{{ 'assets/js/utils.js' | relative_url }}"></script>
+    <script src="{{ 'assets/js/variables.js' | relative_url }}"></script>
+    <script src="{{ 'assets/js/utils.js' | relative_url }}"></script>
 
-<script src="{{ 'assets/js/bootstrap-overrides/navbar.js' | relative_url }}"></script>
+    <script src="{{ 'assets/js/bootstrap-overrides/navbar.js' | relative_url }}"></script>
 
-<script src="{{ 'assets/js/components/banners/index.js' | relative_url }}"></script>
+    <script src="{{ 'assets/js/components/banners/index.js' | relative_url }}"></script>
 
-<script src="{{ 'assets/js/components/partners.js' | relative_url }}"></script>
+    <script src="{{ 'assets/js/components/partners.js' | relative_url }}"></script>
+{% endif %}
+
+{% if jekyll.environment == "production" %}
+    <script src="{{ 'assets/js/main.js' | relative_url }}"></script>
+{% endif %}
