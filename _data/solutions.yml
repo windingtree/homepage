@@ -2,7 +2,12 @@ suppliers:
     title: "Solutions"
 
     groups:
-        - sections:
+        - header:
+            title: "Hospitality"
+            text: "If&nbsp;you own a&nbsp;small hotel, a&nbsp;vacation property or&nbsp;a&nbsp;flat that you rent out on&nbsp;AirBnB? You may use a&nbsp;web-based tool to&nbsp;showcase your availability on&nbsp;the Winding Tree marketplace."
+            image_url: "/assets/img/solutions/1.jpg"
+
+          sections:
             - title: "Case study"
               text: "Text"
               cases:
@@ -55,7 +60,12 @@ suppliers:
             action_url: "/"
             action_title: "Integrate"
 
-        - sections:
+        - header:
+            title: "Airlines, trains, car rentals"
+            text: "Lower your distribution and transactional cost by&nbsp;using new commission-free distribution channel, more reliable than any major GDS."
+            image_url: "/assets/img/solutions/1.jpg"
+
+          sections:
             - title: "Case study"
               text: "Text"
               cases:
@@ -100,7 +110,12 @@ suppliers:
             action_url: "/"
             action_title: "Read documentation"
 
-        - sections:
+        - header:
+            title: "Tour and Activity Providers"
+            text: "Get more overview and control over hotel, airline, bus or&nbsp;rental inventory to&nbsp;lower package cost and product offering."
+            image_url: "/assets/img/solutions/1.jpg"
+
+          sections:
             - title: "Integrated software"
               text: "Text"
               integrations:
