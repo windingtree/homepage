@@ -10,31 +10,31 @@ function navbarShow() {
 
     setTimeout(function() {
         navbar.setAttribute('style', 'opacity: 1; visibility: visible;');
-    }, 450); // .navbar-nav translateX transition duration
+    }, 900); // .navbar-nav translateX transition duration * 2
 }
 
 function navbarToggle() {
     if (navbarToggler.getAttribute('aria-expanded') === 'false') {
-        if (window.scrollY > navbar.offsetHeight) {
-            navbar.classList.add('navbar-light', 'bg-white');
+        if (window.pageYOffset > navbar.offsetHeight) {
+            navbar.classList.add('navbar-light');
+            navbar.classList.add('bg-white');
             navbar.classList.remove('navbar-dark');
         } else {
             navbar.classList.add('navbar-dark');
-            navbar.classList.remove('navbar-light', 'bg-white');
+            navbar.classList.remove('navbar-light');
+            navbar.classList.remove('bg-white');
         }
     }
 }
 
 document.addEventListener('DOMContentLoaded', function() {
     navbarToggle();
+
+    navbarShow();
 });
 
 window.addEventListener('scroll', function() {
     navbarToggle();
-});
-
-window.addEventListener('load', function() {
-    navbarShow();
 });
 
 window.addEventListener('optimizedResize', function() {

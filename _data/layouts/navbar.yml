@@ -29,6 +29,9 @@ navbar_nav:
             - title: "Project Roadmap"
               url: "/foundation.html#roadmap"
 
+            - title: "Blog"
+              url: "https://blog.windingtree.com"
+
         - title: "Community"
           url: "/startups-and-developers.html"
 

@@ -14,7 +14,7 @@ window.addEventListener('load', function() {
         };
 
         if (isEven(index + 1)) {
-            Object.assign(slickOptions, {
+            $.extend(slickOptions, {
                 rtl: true
             });
         }

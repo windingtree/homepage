@@ -35,7 +35,7 @@ navigation_groups:
           - title: "Press"
             url: "/"
           - title: "Read the White paper"
-            url: "/"
+            url: "/assets/files/White_Paper_EN.pdf"
 
     - title: "Contacts"
       items:
