@@ -1,0 +1,13 @@
+.where-to-meet {
+    &__event {
+        > hr {
+            &:last-of-type {
+                display: none;
+            }
+        }
+    }
+
+    &__invite {
+        background: #e7edfb !important;
+    }
+}

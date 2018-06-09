@@ -1,0 +1,45 @@
+{% assign data = site.data.quotes %}
+
+{% if data %}
+    <div class="my-3 my-md-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                {% for quote in data %}
+                    <div class="col-md-6">
+                        <blockquote class="blockquote d-md-flex flex-md-column-reverse align-items-center h-100 my-1 my-md-0">
+                            <article class="team-member media d-block d-md-flex align-items-md-center pr-md-1 text-center text-md-left mb-1 mb-md-0 mt-md-auto">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="108" height="120" viewBox="0 0 108 120" class="mr-1">
+                                    <defs>
+                                        <path d="M53.5135135,0 C51.5026531,0 49.0462292,0.612640549 46.7027027,1.93548387 L6.81081081,25.1612903 C2.70204694,27.2838443 0,31.9809136 0,36.7741935 L0,83.2258065 C0,87.9373729 2.70204694,92.6344421 6.81081081,94.8387097 L46.7027027,118.064516 C49.0462292,119.346494 51.5026531,120 53.5135135,120 C56.4564123,120 58.9127966,119.346494 61.2972973,118.064516 L101.189189,94.8387097 C105.257015,92.6344421 108,87.9373729 108,83.2258065 L108,36.7741935 C108,31.9809136 105.257015,27.2838443 101.189189,25.1612903 L61.2972973,1.93548387 C58.9127966,0.612640549 56.4564123,0 53.5135135,0 Z" id="path"></path>
+                                    </defs>
+                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <mask id="mask" fill="white">
+                                            <use xlink:href="#path"></use>
+                                        </mask>
+                                        <image mask="url(#mask)" width="108" height="120" xlink:href="{{ quote.photo | relative_url }}"></image>
+                                    </g>
+                                </svg>
+
+                                <div class="media-body pr-md-1">
+                                    <h6>
+                                        {{ quote.name }}
+                                    </h6>
+
+                                    <p class="small text-muted text-uppercase">
+                                        {{ quote.post }}
+                                    </p>
+                                </div>
+                            </article>
+
+                            <p class="lead mb-1 text-center text-md-left">
+                                <i class="mdi mdi-36px mdi-format-quote-open"></i>
+                                {{ quote.quote }}
+                                <i class="mdi mdi-36px mdi-format-quote-close"></i>
+                            </p>
+                        </blockquote>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+{% endif %}

@@ -1,23 +1,4 @@
 .solutions {
-    &__code {
-        .nav-tabs {
-            @include media-breakpoint-down('sm') {
-                margin-left: -#{$grid-gutter-width / 2};
-                margin-right: -#{$grid-gutter-width / 2};
-                overflow-x: auto;
-                overflow-y: hidden;
-            }
-        }
-
-        .nav-link {
-            @include media-breakpoint-down('sm') {
-                &::before {
-                    display: none;
-                }
-            }
-        }
-    }
-
     &__header {
         background-image: linear-gradient(to bottom, rgba(#1650de, .1), transparent);
 

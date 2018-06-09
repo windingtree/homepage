@@ -1,0 +1,48 @@
+title: "Already with us"
+
+companies:
+    - title: "RSK"
+      text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut&nbsp;laoreet dolore magna aliquam erat volutpat. Ut&nbsp;wisi enim ad&nbsp;minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut&nbsp;aliquip ex&nbsp;ea&nbsp;commodo consequat."
+      logo_url: "/assets/img/already-with-us/companies/rsk.png"
+
+    - title: "Zepplin OS"
+      text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut&nbsp;laoreet dolore magna aliquam erat volutpat. Ut&nbsp;wisi enim ad&nbsp;minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut&nbsp;aliquip ex&nbsp;ea&nbsp;commodo consequat."
+      logo_url: "/assets/img/already-with-us/companies/zeppelin.svg"
+
+developers_title: "Developers and contributors"
+developers:
+    - name: "Jakub Vysoky"
+      avatar_url: "/assets/img/already-with-us/developers/1.png"
+
+    - name: "Matias Oveja Smith"
+      avatar_url: "/assets/img/already-with-us/developers/2.png"
+
+    - name: "Augusto Lemble"
+      avatar_url: "/assets/img/already-with-us/developers/3.png"
+
+    - name: "Jakub Vysoky"
+      avatar_url: "/assets/img/already-with-us/developers/1.png"
+
+    - name: "Matias Oveja Smith"
+      avatar_url: "/assets/img/already-with-us/developers/2.png"
+
+    - name: "Augusto Lemble"
+      avatar_url: "/assets/img/already-with-us/developers/3.png"
+
+    - name: "Jakub Vysoky"
+      avatar_url: "/assets/img/already-with-us/developers/1.png"
+
+    - name: "Matias Oveja Smith"
+      avatar_url: "/assets/img/already-with-us/developers/2.png"
+
+    - name: "Augusto Lemble"
+      avatar_url: "/assets/img/already-with-us/developers/3.png"
+
+    - name: "Jakub Vysoky"
+      avatar_url: "/assets/img/already-with-us/developers/1.png"
+
+    - name: "Matias Oveja Smith"
+      avatar_url: "/assets/img/already-with-us/developers/2.png"
+
+    - name: "Augusto Lemble"
+      avatar_url: "/assets/img/already-with-us/developers/3.png"

@@ -1,0 +1,101 @@
+{% assign data = site.data.where-to-meet %}
+
+{% if data %}
+    <section class="where-to-meet my-3 my-md-5">
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col-md-8">
+                    <h2 class="mb-1 mb-md-2 text-center">
+                        {{ data.title }}
+                    </h2>
+                    <p class="text-center">
+                        {{ data.caption }}
+                    </p>
+                </div>
+            </div>
+
+            {% assign tab_index = 0 %}
+            {% assign event_group_index = 0 %}
+
+            <div class="mt-1 mt-md-2">
+                <ul class="nav nav-tabs row flex-nowrap justify-content-center" role="tablist">
+                    {% for event_group in data.event_groups %}
+                        {% assign tab_index = tab_index | plus:1 %}
+
+                        {% assign active_tab_classlist = '' %}
+                        {% assign tab_aria_selected = false %}
+
+                        {% if tab_index == 1 %}
+                            {% assign active_tab_classlist = 'active' %}
+                            {% assign tab_aria_selected = true %}
+                        {% endif %}
+
+                        <li class="nav-item col-auto">
+                            <a class="nav-link d-flex justify-content-center align-items-center h-100 pb-2 {{ active_tab_classlist }}" data-toggle="tab" href="#event_group-{{ tab_index }}" role="tab" aria-selected="{{ tab_aria_selected }}">
+                                <span class="font-weight-bold small text-uppercase">{{ event_group.title }}</span>
+                            </a>
+                        </li>
+                    {% endfor %}
+                </ul>
+
+                <div class="tab-content px-1 px-md-2 py-2 bg-white">
+                    {% for event_group in data.event_groups %}
+                        {% assign event_group_index = event_group_index | plus:1 %}
+
+                        {% assign active_event_group_classlist = '' %}
+
+                        {% if event_group_index == 1 %}
+                            {% assign active_event_group_classlist = 'show active' %}
+                        {% endif %}
+
+                        <div class="tab-pane fade {{ active_event_group_classlist }}" id="event_group-{{ event_group_index }}" role="tabpanel">
+                            <div class="where-to-meet__event">
+                                {% for event in event_group.events %}
+                                    <div class="row align-items-md-center text-center text-md-left">
+                                        <div class="col-md-3">
+                                            <img src="{{ event.logo_url | relative_url }}" alt="{{ event.title }}" class="img-fluid">
+                                        </div>
+
+                                        <div class="col-md-5">
+                                            <h6 class="my-1 my-md-0">
+                                                {{ event.title }}
+                                            </h6>
+                                        </div>
+
+                                        <div class="col-md-2">
+                                            {{ event.place }}
+                                        </div>
+
+                                        <div class="col-md-2">
+                                            {{ event.date }}
+                                        </div>
+                                    </div>
+
+                                    <hr class="my-2 my-md-1">
+                                {% endfor %}
+
+                                {% if event_group_index == 1 %}
+                                    <div class="where-to-meet__invite mt-2 mt-md-1 px-1 px-md-2 py-2 py-md-1 bg-secondary rounded text-center">
+                                        <div class="row justify-content-center align-items-center">
+                                            <div class="col-md-auto">
+                                                <p class="mb-1 mb-md-0">
+                                                    {{ data.invite_text }}
+                                                </p>
+                                            </div>
+
+                                            <div class="col-md-auto">
+                                                <a href="{{ data.invite_action_url | relative_url }}" class="btn btn-primary">
+                                                    {{ data.invite_action_title }}
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                {% endif %}
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </section>
+{% endif %}

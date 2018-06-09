@@ -1,0 +1,46 @@
+{% assign data = site.data.already-with-us %}
+
+{% if data %}
+    <section class="already-with-us my-3 my-md-5">
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col-md-8">
+                    <h2 class="mb-2 mb-md-4 text-center">
+                        {{ data.title }}
+                    </h2>
+
+                    {% for company in data.companies %}
+                        <div class="already-with-us__company row flex-md-row-reverse align-items-center mb-2 mb-md-4 text-center text-md-left">
+                            <div class="col-md-3 text-center">
+                                <img src="{{ company.logo_url | relative_url }}" alt="{{ company.title }}" class="img-fluid mb-1 mb-md-0">
+                            </div>
+                            <div class="col-md-9">
+                                <h3 class="mb-1">
+                                    {{ company.title }}
+                                </h3>
+                                <p>
+                                    {{ company.text }}
+                                </p>
+                            </div>
+                        </div>
+                    {% endfor %}
+
+                    <h3 class="mb-2 mb-md-3">
+                        {{ data.developers_title }}
+                    </h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="already-with-us__slider js-already-with-us-slider">
+            {% for developer in data.developers %}
+                <div class="px-1 px-md-2 text-center">
+                    <img src="{{ developer.avatar_url | relative_url }}" width="54" height="60" alt="{{ developer.name }}" class="img-fluid mx-auto mb-1">
+                    <p class="small">
+                        {{ developer.name }}
+                    </p>
+                </div>
+            {% endfor %}
+        </div>
+    </section>
+{% endif %}

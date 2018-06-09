@@ -38,9 +38,11 @@ window.addEventListener('scroll', function() {
 });
 
 window.addEventListener('optimizedResize', function() {
-    navbar.setAttribute('style', 'opacity: 0; visibility: hidden;');
+    if (Modernizr.mq(MQ.up)) {
+        navbar.setAttribute('style', 'opacity: 0; visibility: hidden;');
 
-    navbarShow();
+        navbarShow();
+    }
 });
 
 navbarToggler.addEventListener('touchend', function() {
