@@ -2,54 +2,55 @@ title_default: "Key benefits"
 title_lif_token: "L&iacute;f is&nbsp;the most important underlying technology of&nbsp;the Winding Tree platform. It&nbsp;is&nbsp;used for two purposes:"
 
 suppliers_benefits:
-    - icon_url: "/assets/img/key-benefits/1.svg"
-      title: "No intermediaries"
-      text: "Bypass distribution and payment intermediaries&mdash;deliver your inventory directly to&nbsp;sellers and get direct payment from them with unified currency."
-
-    - icon_url: "/assets/img/key-benefits/2.svg"
-      title: "Offer comission yourself"
-      text: "Define yourself the size of&nbsp;reward for agents and sellers of&nbsp;your inventory. OTAs and GDS will not have the upper hand in&nbsp;disribution rules anymore."
+    - icon_url: "/assets/img/key-benefits/5.svg"
+      title: "Open Marketplace"
+      text: "Winding Tree is a piece of public infrastructure. Blockchain technology allows us, for the first time in history, to remove intermediaries that currently charge excessive fees and act as gatekeepers.
+"
 
     - icon_url: "/assets/img/key-benefits/3.svg"
-      title: "Increase sales with ease"
-      text: "Distribute your inventory within Winding Tree platrorm with no&nbsp;fees and reach hundreds of&nbsp;new sellers. Spend reasonable time for integration and make it&nbsp;one of&nbsp;your most profitable sales channels."
+      title: "Immediate Settlement"
+      text: "Don't wait for weeks for a third-party to send you your money. Use different smart contracts for different settlement strategies and receive your payment, regardless of where you are, within seconds."
+
+    - icon_url: "/assets/img/key-benefits/1.svg"
+      title: "Network Without Borders"
+      text: "We designed the Winding Tree network to be the easiest to integrate with. It means that you are joining a vibrant fast-growing ecosystem of suppliers and sellers as well."
 
     - icon_url: "/assets/img/key-benefits/4.svg"
-      title: "Trusted automation"
-      text: "Winding Tree makes travel data secured and trusted by&nbsp;all Winding Tree members. Smart contracts provide automation which prevents suppliers from payment disputes with their sellers."
-
-    - icon_url: "/assets/img/key-benefits/5.svg"
-      title: "New business models"
-      text: "With trusted travel data and flexible automation you can start new business models e.g. crownfunding of&nbsp;flight, interact your loyality program with your partners using Lif token instead of&nbsp;bonus points or&nbsp;miles."
+      title: "Control Your Data"
+      text: "Winding Tree puts suppliers, sellers and travelers in control of their own data. You can determine who sees your inventory and create different rules for different partners."
 
     - icon_url: "/assets/img/key-benefits/6.svg"
-      title: "No fake reviews"
-      text: "As&nbsp;the blockchain makes stored information permanently valid, travel market players can validate not only bookings, but also plenty of&nbsp;other info e.g. whether a&nbsp;feedback for a&nbsp;hotel was left by&nbsp;a&nbsp;person who had really stayed there."
-
-sellers_benefits:
-    - icon_url: "/assets/img/key-benefits/1.svg"
-      title: "No intermediaries"
-      text: "Bypass distribution and payment intermediaries&mdash;deliver your inventory directly to&nbsp;sellers and get direct payment from them with unified currency."
+      title: "No Fake Reviews"
+      text: "As the blockchain makes stored information permanently valid, travel market players can validate not only bookings, but also plenty of other info e.g. whether a feedback for a hotel was left by a person who had really stayed there."
 
     - icon_url: "/assets/img/key-benefits/2.svg"
-      title: "Get desired comission"
-      text: "Setup yourself the size of&nbsp;reward you want to&nbsp;get for selling the inventory and choose only from those suppliers who agrees with that."
+      title: "New Business Models"
+      text: "By opening up the platform we allow entrepreneurs to experiment with new business models in a safe and secure way."
+
+sellers_benefits:
+    - icon_url: "/assets/img/key-benefits/5.svg"
+      title: "Open Marketplace"
+      text: "BGet access to thousands of suppliers with one integration. Transportation, accommodation, ancillary - we have it all!"
 
     - icon_url: "/assets/img/key-benefits/3.svg"
-      title: "Increase sales with ease"
-      text: "Distribute your inventory within Winding Tree platrorm with no&nbsp;fees and reach hundreds of&nbsp;new sellers. Spend reasonable time for integration and make it&nbsp;one of&nbsp;your most profitable sales channels."
+      title: "Set Your Commission"
+      text: "Get wholesale rates from suppliers and set your own commission for your services."
+
+    - icon_url: "/assets/img/key-benefits/1.svg"
+      title: "Network Without Borders"
+      text: "We designed the Winding Tree network to be the easiest to integrate with. It means that you are joining a vibrant fast-growing ecosystem of suppliers and sellers as well."
 
     - icon_url: "/assets/img/key-benefits/4.svg"
-      title: "Trusted automation"
-      text: "Winding Tree makes travel data secured and trusted by&nbsp;all Winding Tree members. Smart contracts provide automation which prevents suppliers from payment disputes with their sellers."
-
-    - icon_url: "/assets/img/key-benefits/5.svg"
-      title: "New business models"
-      text: "With trusted travel data and flexible automation you can start new business models e.g. crownfunding of&nbsp;flight, interact your loyality program with your partners using Lif token instead of&nbsp;bonus points or&nbsp;miles."
+      title: "Control Your Data"
+      text: "Winding Tree puts suppliers, sellers and travelers in control of their own data. You can determine who sees your inventory and create different rules for different partners."
 
     - icon_url: "/assets/img/key-benefits/7.svg"
-      title: "Additional services"
-      text: "As&nbsp;the blockchain makes stored information permanently valid you can discover your customers, their travel history, and provide more personalization."
+      title: "Personalized Travel"
+      text: "Provide more personalized service to your customer based on their travel history, that they can securely share with you."
+
+    - icon_url: "/assets/img/key-benefits/2.svg"
+      title: "New Business Models"
+      text: "By opening up the platform we allow entrepreneurs to experiment with new business models in a safe and secure way."
 
 lif_token_benefits:
     - icon_url: "/assets/img/key-benefits/8.svg"

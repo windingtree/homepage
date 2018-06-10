@@ -1,8 +1,8 @@
 suppliers:
     image_url: "/assets/img/banners/page/suppliers.svg"
 
-    title: "Commission-free inventory distribution for suppliers"
-    text: "A&nbsp;blockchain technology that helps to&nbsp;sell more and with no&nbsp;intermediaries."
+    title: "Commission-free tokenized travel distribution"
+    text: "Unified infrastructure for all your distribution needs: accommodation, transport, tours and activities, ancillary."
 
     action_url: "/"
     action_title: "Read documentation"
@@ -11,7 +11,7 @@ sellers:
     image_url: "/assets/img/banners/page/sellers.svg"
 
     title: "A&nbsp;travel agent&rsquo;s entry point to&nbsp;suppliers inventory"
-    text: "A&nbsp;decentralized technology that gives sellers a&nbsp;commision-free access to&nbsp;thousands of&nbsp;hotels, airlines, cruises and other travel services worldwide."
+    text: "A&nbsp;decentralized technology that gives sellers a&nbsp;commission-free access to&nbsp;thousands of&nbsp;hotels, airlines, cruises and other travel services worldwide."
 
     action_url: "/"
     action_title: "Read documentation"
@@ -30,7 +30,7 @@ startups-and-developers:
     image_url: "/assets/img/banners/page/startups-and-developers.svg"
 
     title: "Make future of&nbsp;travel together"
-    text: "Developers, startups, evengelists and geeks are welcome!"
+    text: "Developers, startups, evangelists and geeks are welcome!"
 
     action_type: "social"
 
