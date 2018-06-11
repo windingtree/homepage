@@ -30,7 +30,7 @@ default:
       action: "Learn more"
 
 software_vendors:
-    - url: "/"
+    - url: "https://github.com/windingtree/wiki"
       icon_url: "/assets/img/cards/6.svg"
       title: "Check docs"
 

@@ -60,5 +60,5 @@ lif_token_benefits:
     - icon_url: "/assets/img/key-benefits/9.svg"
       title: "Platform governance"
       text: "Because Winding tree is&nbsp;open-source, anyone can propose a&nbsp;change to&nbsp;the platform code, perhaps in&nbsp;order to&nbsp;update a&nbsp;smart contract with some new business logic. But because the marketplace is&nbsp;decentralized, its participants have to&nbsp;approve that change."
-      link_url: "/"
-      link_title: "Learn more"
+      # link_url: "https://github.com/windingtree/"
+      # link_title: "Learn more"

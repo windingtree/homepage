@@ -6,13 +6,13 @@ navbar_nav:
               url: "/suppliers.html"
             - title: "For sellers of travel"
               url: "/sellers.html"
-            - title: "Software vendors"
+            - title: "For software vendors"
               url: "/software-vendors.html"
 
         - title: "API"
-          url: "/"
+          url: "https://github.com/windingtree/wiki"
 
-        - title: "Lif Token"
+        - title: "L&iacute;f Token"
           url: "/lif-token.html"
 
         - title: "Foundation"
@@ -36,4 +36,4 @@ navbar_nav:
           url: "/startups-and-developers.html"
 
 action_title: "Join platform"
-action_url: "/"
+action_url: "https://github.com/windingtree/"
