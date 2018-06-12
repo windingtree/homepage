@@ -25,6 +25,8 @@
                                 </svg>
 
                                 <div class="media-body pr-md-1">
+
+                                    <div tm-bio-link></div>
                                     <h6>
                                         {{ member.name }}
                                     </h6>
@@ -33,7 +35,10 @@
                                         {{ member.post }}
                                     </p>
 
-                                    <p class="mt-1 small text-dark">
+
+                                    <p class="mt-md-1 text-muted tm-bio-link"><a class="tm-bio-link-decor">bio</a></p>
+
+                                    <p class="mt-1 small text-dark tm-bio-text">
                                         {{ member.bio }}
                                     </p>
 
