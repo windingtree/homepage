@@ -3,7 +3,13 @@
 <html lang="en" class="mod_no-js">
     {% include layouts/head.html %}
 
-    <body>
+    {% assign body_class = "inner-page" %}
+
+    {% if page.url == "/" %}
+        {% assign body_class = "index-page" %}
+    {% endif %}
+
+    <body class="{{ body_class }}">
         {% include layouts/navbar.html %}
 
         <main>

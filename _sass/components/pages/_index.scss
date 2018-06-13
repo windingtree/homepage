@@ -1,0 +1,7 @@
+.index-page {
+    @include media-breakpoint-up('md') {
+        background-image: url($baseurl + "/assets/img/pages/index/bg-left.png"), url($baseurl + "/assets/img/pages/index/bg-right.png");
+        background-position: 0 -100vh, 100% -100vh;
+        background-repeat: repeat-y, repeat-y;
+    }
+}

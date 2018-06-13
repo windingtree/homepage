@@ -20,6 +20,7 @@ export function js() {
         'assets/js/bootstrap-overrides/navbar.js',
         'assets/js/components/banners/index.js',
         'assets/js/components/already-with-us.js',
+        'assets/js/components/features.js',
         'assets/js/components/partners.js'
     ])
         .pipe(babel())

@@ -69,13 +69,13 @@
                         </div>
                     {% endif %}
 
-                    <hr class="my-3 d-none d-lg-block">
+                    <hr class="my-3">
 
-                    <div class="in-the-press__gallery d-none d-lg-block">
+                    <div class="in-the-press__gallery">
                         <div class="row justify-content-md-center align-items-md-center">
                             {% for mention in data.mentions %}
                                 <div class="col-md-auto text-center">
-                                    <a href="{{ mention.url }}" class="d-block p-md-1">
+                                    <a href="{{ mention.url }}" class="d-block p-1">
                                         <img src="{{ mention.logo_url | relative_url }}" alt="" class="img-fluid">
                                     </a>
                                 </div>
