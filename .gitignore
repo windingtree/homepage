@@ -2,11 +2,10 @@
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
-.DS_Store
 
 _site
 
 node_modules
-package.json
-yarn.lock
-modernizr-custom.json
+
+.DS_Store
+Thumbs.db

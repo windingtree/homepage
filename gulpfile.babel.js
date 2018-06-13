@@ -22,7 +22,7 @@ export function js() {
         'assets/js/components/already-with-us.js',
         'assets/js/components/features.js',
         'assets/js/components/partners.js',
-        'assets/js/components/teambio.js'
+        'assets/js/components/team.js'
     ])
         .pipe(babel())
         .pipe(uglify())

@@ -1,6 +1,20 @@
 $(function () {
-    $('.tm-bio-link').click(function(){
-        $(".tm-bio-text").not($(this).siblings(".tm-bio-text")).hide();
-        $(this).siblings(".tm-bio-text").toggle();
+    const $teamMemberLink = $('.js-team-member-link');
+
+    $teamMemberLink.on('click', function () {
+        const $this = $(this);
+
+        $teamMemberLink
+            .not($this)
+            .closest('.js-team-member')
+            .find('.js-team-member-text')
+            .hide();
+
+        $this
+            .closest('.js-team-member')
+            .find('.js-team-member-text')
+            .toggle();
+
+        return false;
     });
 });

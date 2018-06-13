@@ -1,7 +1,3 @@
-.team {
-
-}
-
 .team-member {
     .media-body {
         @include media-breakpoint-up('md') {
@@ -23,16 +19,15 @@
         }
     }
 
-    .tm-bio-text {
+    &__text {
         display: none;
     }
 
-    .tm-bio-link {
+    &__link {
         cursor: pointer;
-        .tm-bio-link-decor {
-            border-bottom: 1px dotted #000;
-            padding-bottom: 0px;
-        }    
-    }
 
+        > span {
+            border-bottom: 1px dotted $text-muted;
+        }
+    }
 }
