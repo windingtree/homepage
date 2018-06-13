@@ -91,8 +91,8 @@ members:
           title: "Link"
           icon: "mdi-link-variant"
 
-    - photo: "/assets/img/team/Don.png"
-      name: "DON BIRCH"
+    - photo: "/assets/img/team/don.png"
+      name: "Don Birch"
       post: "Advisor | Switzerland"
       bio: "After a career working in most aspects of travel and in particular travel distribution, Don has turned his hand to applying his industry experience by investing in and mentoring internet based travel startups and travel businesses that are striving to leverage the wonders of Web2.0 and the on-going evolutions thereof. Don has gained experience with the hype (founder: hotelrezexpress.com), with the technology (SITA) and with the important travel agent segment (CEO of Abacus). He is currently a Partner at Travel Innovation Partners."
       social:
@@ -101,7 +101,7 @@ members:
           icon: "mdi-linkedin"
 
     - photo: "/assets/img/team/manuel.jpg"
-      name: "MANUEL ARAOZ"
+      name: "Manuel Araoz"
       post: "Advisor | Argentina"
       bio: "Manuel is the Founder and CTO of Zeppelin Solutions, the leading blockchain security auditing company. Manuel also advises Decentraland, and has previously worked as a Software Engineer for BitPay leading the development of Bitcore. He also developed one of the first apps on Bitcoin providing Proof of Existence and proposed BIP 45 introducing multi-signature wallets on the Bitcoin protocol."
       social:
@@ -110,7 +110,7 @@ members:
           icon: "mdi-linkedin"
 
     - photo: "/assets/img/team/bill.jpg"
-      name: "WILLIAM NIEJADLIK"
+      name: "William Niejadlik"
       post: "Advisor | USA"
       bio: "William is a travel technologist with over 20 years of experience (he was the founder and CTO of Vayama). William is also a crypto-investor (Polychain, Tezos) and his wife helped to build Coinbase."
       social:
@@ -122,7 +122,7 @@ members:
           icon: "mdi-link-variant"
 
     - photo: "/assets/img/team/douglas.jpg"
-      name: "DOUGLAS RICE"
+      name: "Douglas Rice"
       post: "Advisor | USA"
       bio: "Douglas Rice is an industry leader in the global hospitality technology industry. He is best known for his role as a founder of the global non-profit industry association Hotel Technology Next Generation."
       social:
@@ -131,7 +131,7 @@ members:
           icon: "mdi-linkedin"
 
     - photo: "/assets/img/team/johnny.jpg"
-      name: "JOHNNY THORSEN"
+      name: "Johnny Thorsen"
       post: "Advisor | USA"
       bio: "Johnny is a passionate innovator and enjoys disrupting the status quo. Previously he served as Senior Director of Strategy and Product Marketing for Concur Risk Messaging and Senior Director at SAP Mobile Services. Currently he is a VP of Travel Strategy at Mezi."
       social:
@@ -165,6 +165,65 @@ members:
         - url: "https://vk.com/menschikov"
           title: "VK"
           icon: "mdi-vk"
+
+    - photo: "/assets/img/team/matias.jpg"
+      name: "Matias Oveja Smith"
+      post: "Core Developer | Argentina"
+      bio: "Matías is an experienced developer based in Tandil, Argentina. During the last years, he has worked as a full-stack developer for projects in Argentina, Mexico and the United States."
+      social:
+        - url: "https://github.com/MatiasOS"
+          title: "GitHub"
+          icon: "mdi-github-circle"
+
+    - photo: "/assets/img/team/nico.png"
+      name: "Nico Colabrese"
+      post: "Frontend Developer | Argentina"
+      bio: "Nico is an experienced UI designer and UI developer, passionate about CSS architecture (currently his primary role). During the last decades, he took part in the development of a wide range of projects, targeting nonprofit organizations, startups, fortune 500 companies, and the Argentine and US governments."
+      social:
+        - url: "https://github.com/skkr"
+          title: "GitHub"
+          icon: "mdi-github-circle"
+        - url: "https://www.linkedin.com/in/sikker/"
+          title: "LinkedIn"
+          icon: "mdi-linkedin"
+        - url: "http://sikker.bitbucket.io"
+          title: "Bitbucket"
+          icon: "mdi-bitbucket"
+
+    - photo: "/assets/img/team/jirka.jpg"
+      name: "Jirka Chadima"
+      post: "Core Developer | CZECH REPUBLIC"
+      bio: "Jirka has a lot of experience with both design and development of complex applications in various technologies. In the past five years, he has worked on many projects for multiple startups and banks."
+      social:
+        - url: "https://github.com/JirkaChadima"
+          title: "GitHub"
+          icon: "mdi-github-circle"
+        - url: "https://twitter.com/jirkachadima"
+          title: "Twitter"
+          icon: "mdi-twitter"
+        - url: "https://www.linkedin.com/in/jirichadima/"
+          title: "LinkedIn"
+          icon: "mdi-linkedin"
+
+    - photo: "/assets/img/team/julia.jpg"
+      name: "Julia E Pardo"
+      post: "ADMINISTRATIVE ASSISTANT | Argentina"
+      bio: "Julia is an enthusiastic autodidact and a power engineer. Her passion for travel and conviction about decentralisation have led her to join the team in pursuit of new horizons."
+
+    - photo: "/assets/img/team/spencer.jpg"
+      name: "Spencer Vail"
+      post: "COMMUNITY MANAGER | USA"
+      bio: "Spencer is a blockchain enthusiast with over 10 years of experience managing customers for Fintech, e-commerce and lending institutions. His passion for travel & blockchain let him to Winding Tree."
+      social:
+        - url: "https://twitter.com/realspencervail"
+          title: "Twitter"
+          icon: "mdi-twitter"
+        - url: "https://www.linkedin.com/in/spencer-vail-31597352"
+          title: "LinkedIn"
+          icon: "mdi-linkedin"
+
+
+
 
 action_title: "Join team"
 action_url: "/"
