@@ -31,7 +31,6 @@ export function js() {
 }
 
 // Img
-
 export function img() {
     return gulp.src('assets/img/**/*.{gif,jpg,jpeg,png,svg}')
         .pipe(imagemin([
