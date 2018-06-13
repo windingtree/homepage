@@ -1,5 +1,6 @@
-window.addEventListener('load', function() {
+$(function () {
     $('.tm-bio-link').click(function(){
-        $(this).siblings("tm-bio-text").toggle();
+        $(".tm-bio-text").not($(this).siblings(".tm-bio-text")).hide();
+        $(this).siblings(".tm-bio-text").toggle();
     });
 });
