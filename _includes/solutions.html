@@ -173,13 +173,20 @@
                                                 <div class="solutions__integrations">
                                                     <p class="mb-1 text-center text-md-left">
                                                         {{ section.integrations.text }}
+                                                        {% if section.integrations.benefits %}
+                                                            <ul>{% for benefit in section.integrations.benefits %}
+                                                               <li> {{ benefit.point }} </li>
+                                                            {% endfor %}
+                                                            </ul>
+                                                            <br>
+                                                        {% endif %}
                                                     </p>
 
                                                     <ul class="list-inline d-flex flex-column d-md-block">
                                                         {% for link in section.integrations.links %}
                                                             <li class="list-inline-item my-1">
                                                                 <a href="{{ link.url }}" class="btn btn-block btn-lg btn-light d-inline-flex align-items-center border text-capitalize">
-                                                                    <i class="mdi mdi-24px mdi-package-variant-closed"></i>
+                                                                    <i class="mdi mdi-24px mdi-github-box"></i>
                                                                     {{ link.title }}
                                                                 </a>
                                                             </li>

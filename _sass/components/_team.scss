@@ -22,4 +22,17 @@
             }
         }
     }
+
+    .tm-bio-text {
+        display: none;
+    }
+
+    .tm-bio-link {
+        cursor: pointer;
+        .tm-bio-link-decor {
+            border-bottom: 1px dotted #000;
+            padding-bottom: 0px;
+        }    
+    }
+
 }

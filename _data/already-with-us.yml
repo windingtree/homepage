@@ -12,37 +12,37 @@ companies:
 developers_title: "Developers and contributors"
 developers:
     - name: "Jakub Vysoky"
-      avatar_url: "/assets/img/already-with-us/developers/1.png"
+      avatar_url: "/assets/img/already-with-us/developers/jakub.png"
 
     - name: "Matias Oveja Smith"
-      avatar_url: "/assets/img/already-with-us/developers/2.png"
+      avatar_url: "/assets/img/already-with-us/developers/matias.jpeg"
 
     - name: "Augusto Lemble"
-      avatar_url: "/assets/img/already-with-us/developers/3.png"
+      avatar_url: "/assets/img/already-with-us/developers/augusto.jpeg"
 
-    - name: "Jakub Vysoky"
-      avatar_url: "/assets/img/already-with-us/developers/1.png"
+    - name: "Jirka Chadima"
+      avatar_url: "/assets/img/already-with-us/developers/jirka.jpeg"
 
-    - name: "Matias Oveja Smith"
-      avatar_url: "/assets/img/already-with-us/developers/2.png"
+    - name: "Nico Calabrese"
+      avatar_url: "/assets/img/already-with-us/developers/nico.png"
 
-    - name: "Augusto Lemble"
-      avatar_url: "/assets/img/already-with-us/developers/3.png"
+    - name: "Maksim Izmaylov"
+      avatar_url: "/assets/img/already-with-us/developers/max.jpeg"
 
-    - name: "Jakub Vysoky"
-      avatar_url: "/assets/img/already-with-us/developers/1.png"
+    - name: "Alex Menschikov"
+      avatar_url: "/assets/img/already-with-us/developers/alex.jpeg"
 
-    - name: "Matias Oveja Smith"
-      avatar_url: "/assets/img/already-with-us/developers/2.png"
+    - name: "Robin Gottfried"
+      avatar_url: "/assets/img/already-with-us/developers/robin.png"
 
-    - name: "Augusto Lemble"
-      avatar_url: "/assets/img/already-with-us/developers/3.png"
+    - name: "Hynek Urban"
+      avatar_url: "/assets/img/already-with-us/developers/hynek.png"
 
-    - name: "Jakub Vysoky"
-      avatar_url: "/assets/img/already-with-us/developers/1.png"
+    - name: "JNoah Tsutsui"
+      avatar_url: "/assets/img/already-with-us/developers/noah.jpeg"
 
-    - name: "Matias Oveja Smith"
-      avatar_url: "/assets/img/already-with-us/developers/2.png"
+    - name: "Dave Montali"
+      avatar_url: "/assets/img/already-with-us/developers/dave.jpeg"
 
     - name: "Augusto Lemble"
       avatar_url: "/assets/img/already-with-us/developers/3.png"

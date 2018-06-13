@@ -33,5 +33,5 @@ event_groups:
           date: "September 21&ndash;23"
 
 invite_text: "If&nbsp;you want to&nbsp;invite Winding Tree to&nbsp;your event please send&nbsp;us email"
-invite_action_url: "/"
+invite_action_url: "mailto:info@Windingtree.com"
 invite_action_title: "Send email"

@@ -21,7 +21,8 @@ export function js() {
         'assets/js/components/banners/index.js',
         'assets/js/components/already-with-us.js',
         'assets/js/components/features.js',
-        'assets/js/components/partners.js'
+        'assets/js/components/partners.js',
+        'assets/js/components/teambio.js'
     ])
         .pipe(babel())
         .pipe(uglify())

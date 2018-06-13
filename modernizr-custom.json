@@ -1,0 +1,7 @@
+{
+  "classPrefix": "mod_",
+  "options": [
+    "mq",
+    "setClasses"
+  ]
+}
