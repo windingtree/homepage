@@ -1,17 +1,16 @@
 .partners {
     &__slider {
         max-height: 80px;
-        opacity: 0;
+        overflow: hidden;
         pointer-events: none;
-        transition: $transition-base;
-        will-change: transition;
+        visibility: hidden;
 
         &:nth-of-type(even) {
             direction: rtl;
         }
 
         &.slick-initialized {
-            opacity: 1;
+            visibility: visible;
 
             .slick-track {
                 display: flex;
@@ -20,14 +19,20 @@
 
             .slick-slide {
                 padding: 0 4rem;
+
+                img {
+                    max-width: $image-max-width;
+                    max-height: $image-max-height;
+                    width: auto !important;
+                }
+
+                span {
+                    letter-spacing: 2px;
+                }
             }
         }
 
-        img {
-            max-width: $image-max-width;
-            max-height: $image-max-height;
-            width: auto !important;
-        }
+
     }
 }
 
