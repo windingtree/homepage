@@ -65,7 +65,7 @@ suppliers:
             - title: "Already joined&nbsp;us"
               partners:
                 - title: "Lufthansa group"
-                  logo_url: "/assets/img/partners/Lufthansa-group.png"
+                  logo_url: "/assets/img/partners/lufthansa-group.png"
                   link_url: "https://www.lufthansagroup.com/"
                 - title: "Swissport"
                   logo_url: "/assets/img/partners/slider-1/swiss.svg"
