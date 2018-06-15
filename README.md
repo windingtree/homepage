@@ -3,11 +3,12 @@
 
 ##### To serve, run:
 1. `bundle install` to install required gems
-2. `yarn install` to install required npm packages
-3. `gulp modernizr` to create custom build of [Modernizr](https://modernizr.com/)
-4. `jekyll serve`:
+2. 'sudo apt-get update && sudo apt-get install yarn'
+3. `yarn install` to install required npm packages
+4. `gulp modernizr` to create custom build of [Modernizr](https://modernizr.com/)
+5. `jekyll serve`:
     1. Optional with and/or: --host 0.0.0.0 --incremental --livereload (refer to [Jekyll: Basic Usage](https://jekyllrb.com/docs/usage/))
-5. Proceed to [http://localhost:4000/winding-tree/](http://localhost:4000/winding-tree/) (by default).
+6. Proceed to [http://localhost:4000/winding-tree/](http://localhost:4000/winding-tree/) (by default).
     
 ##### To build, run:
 1. `gulp build`:
