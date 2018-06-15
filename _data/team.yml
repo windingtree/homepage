@@ -176,7 +176,7 @@ members:
           icon: "mdi-github-circle"
 
     - photo: "/assets/img/team/nico.png"
-      name: "Nico Colabrese"
+      name: "Nico Calabrese"
       post: "Frontend Developer | Argentina"
       bio: "Nico is an experienced UI designer and UI developer, passionate about CSS architecture (currently his primary role). During the last decades, he took part in the development of a wide range of projects, targeting nonprofit organizations, startups, fortune 500 companies, and the Argentine and US governments."
       social:
@@ -206,7 +206,7 @@ members:
           icon: "mdi-linkedin"
 
     - photo: "/assets/img/team/julia.jpg"
-      name: "Julia E Pardo"
+      name: "Julia Pardo"
       post: "ADMINISTRATIVE ASSISTANT | Argentina"
       bio: "Julia is an enthusiastic autodidact and a power engineer. Her passion for travel and conviction about decentralisation have led her to join the team in pursuit of new horizons."
 
