@@ -178,7 +178,7 @@ members:
     - photo: "/assets/img/team/nico.png"
       name: "Nico Calabrese"
       post: "Frontend Developer | Argentina"
-      bio: "Nico is an experienced UI designer and UI developer, passionate about CSS architecture (currently his primary role). During the last decades, he took part in the development of a wide range of projects, targeting nonprofit organizations, startups, fortune 500 companies, and the Argentine and US governments."
+      bio: "Nico is an experienced UI designer and developer, passionate about CSS architecture (currently his primary role). During his career, he took part in the development of a wide range of projects, targeting nonprofit organizations, startups, fortune 500 companies and the Argentine & US governments."
       social:
         - url: "https://github.com/skkr"
           title: "GitHub"

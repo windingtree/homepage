@@ -17,5 +17,5 @@
 2. Then just commit and push into `master` branch, further build will be automatical:
     1. Gem `github-pages` will do its job 
     2. And Travis CI will run `jekyll build` with `JEKYLL_ENV=production`
-3. Proceed to [https://vecoalla.github.io/winding-tree/](https://vecoalla.github.io/winding-tree/) after build had finished ([check the build status here](https://github.com/vecoalla/winding-tree/commits/master)).
+3. Proceed to [https://windingtree.github.io/winding-tree/](https://windingtree.github.io/winding-tree/) after build had finished ([check the build status here](https://github.com/windingtree/winding-tree/commits/master)).
     
