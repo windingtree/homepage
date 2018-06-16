@@ -108,20 +108,20 @@ sellers:
 
     groups:
         - tabs:
-            - title: "Payments"
-              code: |
-                    will be available after production launch...
-                    Meanwhile check our github repo https://github.com/windingtree/
+            # - title: "Payments"
+            #   code: |
+            #         will be available after production launch...
+            #         Meanwhile check our github repo https://github.com/windingtree/
 
-            - title: "Bookings"
-              code: |
-                    will be available after production launch...
-                    Meanwhile check our github repo https://github.com/windingtree/
+            # - title: "Bookings"
+            #   code: |
+            #         will be available after production launch...
+            #         Meanwhile check our github repo https://github.com/windingtree/
 
-            - title: "Search"
-              code: |
-                    will be available after production launch...
-                    Meanwhile check our github repo https://github.com/windingtree/
+            # - title: "Search"
+            #   code: |
+            #         will be available after production launch...
+            #         Meanwhile check our github repo https://github.com/windingtree/
 
           sections:
             # - title: "Case study"
@@ -162,51 +162,51 @@ software-vendors:
 
     groups:
         - tabs:
-            - title: "Payments"
-              code: |
-                    function $initHighlight(block, cls) {
-                        try {
-                            if (cls.search(/\bno\-highlight\b/) != -1)
-                                return process(block, true, 0x0F) +
-                                       ` class="${cls}"`;
-                        } catch (e) {
-                            /* handle exception */
-                        }
-                        for (var i = 0 / 2; i < classes.length; i++) {
-                            if (checkCondition(classes[i]) === undefined)
-                                console.log('undefined');
-                        }
-                    }
+            # - title: "Payments"
+            #   code: |
+            #         function $initHighlight(block, cls) {
+            #             try {
+            #                 if (cls.search(/\bno\-highlight\b/) != -1)
+            #                     return process(block, true, 0x0F) +
+            #                            ` class="${cls}"`;
+            #             } catch (e) {
+            #                 /* handle exception */
+            #             }
+            #             for (var i = 0 / 2; i < classes.length; i++) {
+            #                 if (checkCondition(classes[i]) === undefined)
+            #                     console.log('undefined');
+            #             }
+            #         }
 
-                    export  $initHighlight;
+            #         export  $initHighlight;
 
-            - title: "Customers"
-              code: |
-                    function $initHighlight(block, cls) {
-                        try {
-                            if (cls.search(/\bno\-highlight\b/) != -1)
-                                return process(block, true, 0x0F) +
-                                       ` class="${cls}"`;
-                        } catch (e) {
-                            /* handle exception */
-                        }
-                        for (var i = 0 / 2; i < classes.length; i++) {
-                            if (checkCondition(classes[i]) === undefined)
-                                console.log('undefined');
-                        }
-                    }
+            # - title: "Customers"
+            #   code: |
+            #         function $initHighlight(block, cls) {
+            #             try {
+            #                 if (cls.search(/\bno\-highlight\b/) != -1)
+            #                     return process(block, true, 0x0F) +
+            #                            ` class="${cls}"`;
+            #             } catch (e) {
+            #                 /* handle exception */
+            #             }
+            #             for (var i = 0 / 2; i < classes.length; i++) {
+            #                 if (checkCondition(classes[i]) === undefined)
+            #                     console.log('undefined');
+            #             }
+            #         }
 
-            - title: "Subscriptions"
-              code: |
-                    function $initHighlight(block, cls) {
-                        try {
-                            if (cls.search(/\bno\-highlight\b/) != -1)
-                                return process(block, true, 0x0F) +
-                                       ` class="${cls}"`;
-                        } catch (e) {
-                            /* handle exception */
-                        }
-                    }
+            # - title: "Subscriptions"
+            #   code: |
+            #         function $initHighlight(block, cls) {
+            #             try {
+            #                 if (cls.search(/\bno\-highlight\b/) != -1)
+            #                     return process(block, true, 0x0F) +
+            #                            ` class="${cls}"`;
+            #             } catch (e) {
+            #                 /* handle exception */
+            #             }
+            #         }
 
           sections:
             - title: "Case study"
