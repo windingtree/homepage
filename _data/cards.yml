@@ -56,14 +56,18 @@ foundation:
       title: "Travel Tech Con"
 
 lif_token:
-    - url: "/"
+    - url: "https://idex.market/"
       icon_url: "/assets/img/cards/10.svg"
       title: "IDEX"
 
-    - url: "/"
-      icon_url: "/assets/img/cards/11.png"
+    - url: "http://yobit.io/"
+      icon_url: "/assets/img/cards/yobit.png"
       title: "YObit"
 
-    - url: "/"
-      icon_url: "/assets/img/cards/12.svg"
-      title: "OTCBTC&nbsp;&mdash; OTC Market"
+    - url: "https://openledger.info/"
+      icon_url: "/assets/img/cards/openledger.png"
+      title: "Open Ledger"
+
+    - url: "https://forkdelta.github.io/"
+      icon_url: "/assets/img/cards/forkdelta.png"
+      title: "ForkDelta"
