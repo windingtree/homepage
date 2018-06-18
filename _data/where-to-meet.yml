@@ -4,18 +4,17 @@ caption: "You can meet our team members and hear about the platform and whats go
 event_groups:
     - title: "Upcoming events"
       events:
-        - logo_url: "/assets/img/where-to-meet/1.png"
-          title: "Next-Gen Blockchain Technology Conference"
-          place: "San Francisco, CA"
-          date: "June 7&ndash;8"
-        - logo_url: "/assets/img/where-to-meet/2.png"
-          title: "Asset Backed Crypto Summit"
-          place: "Lisbon, Portugal"
-          date: "August 15&ndash;17"
-        - logo_url: "/assets/img/where-to-meet/3.png"
-          title: "MoneyConf 2018"
-          place: "RDS ARENA, DUBLIN"
-          date: "September 21&ndash;23"
+        - logo_url: "/assets/img/where-to-meet/iata-as.png"
+          title: "IATA Aviation Data Symposium & AI Lab"
+          place: "Berlin, Germany"
+          date: "June 19&ndash;21, 2018"
+          url: "http://www.iata.org/events/Pages/aviation-data-symposium.aspx"
+        - logo_url: "/assets/img/where-to-meet/shs-academy-logo.png"
+          title: "Swiss Innovation Day"
+          place: "Lucerne, Switzerland"
+          date: "August 29, 2018"
+          url: "http://www.swisshospitalitysolutions.ch/de/academy/swiss-innovation-day/"
+
 
     - title: "Past events"
       events:
