@@ -39,9 +39,9 @@ navigation_groups:
 
     - title: "Contacts"
       items:
-          - title: "Suite&nbsp;23 Portland House, Glacis Road Gibraltar GX11 1AA"
-          - title: "mail@windingtree.com"
-            url: "mailto:mail@windingtree.com"
+          - title: "Gubelstrasse 11, 6300 Zug, Switzerland"
+          - title: "info@windingtree.com"
+            url: "mailto:info@windingtree.com"
 
     - title: "Community"
       items:
