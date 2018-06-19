@@ -39,11 +39,7 @@ navigation_groups:
 
     - title: "Contacts"
       items:
-          - title: |
-            Gubelstrasse 11,
-            6300 Zug,
-            Switzerland
-
+          - title: "Gubelstrasse 11, 6300 Zug, Switzerland"
           - title: "info@windingtree.com"
             url: "mailto:info@windingtree.com"
 
