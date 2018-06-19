@@ -205,6 +205,15 @@ members:
           title: "LinkedIn"
           icon: "mdi-linkedin"
 
+    - photo: "/assets/img/team/robin.jpg"
+      name: "Robin Gottfried"
+      post: "Core Developer | CZECH REPUBLIC"
+      bio: 
+      social:
+        - url: "https://github.com/czervenka"
+          title: "GitHub"
+          icon: "mdi-github-circle"
+
     - photo: "/assets/img/team/julia.jpg"
       name: "Julia Pardo"
       post: "ADMINISTRATIVE ASSISTANT | Argentina"
@@ -226,4 +235,4 @@ members:
 
 
 action_title: "Join team"
-action_url: "/"
+action_url: "https://angel.co/winding-tree"

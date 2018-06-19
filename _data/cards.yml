@@ -47,11 +47,11 @@ foundation:
       icon_url: "/assets/img/cards/7.svg"
       title: "Winding Tree platform"
 
-    - url: "/"
+    - url: "https://github.com/windingtree/"
       icon_url: "/assets/img/cards/8.svg"
       title: "Data Exchange Standards for Travel"
 
-    - url: "/"
+    - url: "https://www.traveltechcon.com/"
       icon_url: "/assets/img/cards/9.png"
       title: "Travel Tech Con"
 
