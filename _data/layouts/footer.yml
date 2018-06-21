@@ -1,6 +1,6 @@
 foundation_year: "2017"
 
-developer_title: "Developed by Coalla"
+developer_title: "designed by Coalla"
 developer_url: "http://www.coalla.ru/"
 
 navigation_groups:
@@ -13,7 +13,7 @@ navigation_groups:
           - title: "For software vendors"
             url: "/software-vendors.html"
           - title: "API"
-            url: "/"
+            url: "https://github.com/windingtree/"
 
     - title: "Lif Token"
       items:
@@ -29,11 +29,11 @@ navigation_groups:
           - title: "Foundation"
             url: "/foundation.html"
           - title: "Blog"
-            url: "/"
-          - title: "FAQ"
-            url: "/"
-          - title: "Press"
-            url: "/"
+            url: "https://blog.windingtree.com/"
+          - title: "Roadmap"
+            url: "/foundation.html#roadmap"
+          - title: "Team"
+            url: "/foundation.html#team"
           - title: "Read the White paper"
             url: "/assets/files/White_Paper_EN.pdf"
 
