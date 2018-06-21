@@ -1,6 +1,6 @@
 title: Winding Tree
 
-baseurl: /winding-tree
+baseurl:
 
 exclude:
     - vendor/bundle/
