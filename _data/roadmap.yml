@@ -75,5 +75,7 @@ items:
     - icon_url: "/assets/img/roadmap/6.svg"
       quarter: "2019"
       facts_groups:
-        - title: "WT Stable"
-        - title: "Integration with airline industry"
+        - title: "The Roadmap for 2019"
+          facts: 
+            - text: "will be published in the last quarter of 2018, with main focus on integrating the airline industry in the WT network, expand the developer community, improve platform security and governance."
+
