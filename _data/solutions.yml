@@ -206,34 +206,24 @@ software-vendors:
             #         }
 
           sections:
-            - title: ""
-              text: ""
-              cases:
-                - title: ""
-                  text: ""
-                  link_url: ""
+          #  - title: ""
+          #    text: ""
+          #    cases:
+          #      - title: ""
+          #        text: ""
+          #        link_url: ""
 
-            - title: ""
-              text: ""
-              integrations:
-                text: ""
-                links:
-                  - title: ""
-                    url: ""
-                  - title: ""
-                    url: ""
-                  - title: ""
-                    url: ""
-
-            - title: ""
-              partners:
-                - title: ""
-                  logo_url: ""
-                  link_url: ""
-                - title: ""
-                  logo_url: ""
-                  link_url: ""
-
+          #  - title: ""
+          #    text: ""
+          #    integrations:
+          #      text: ""
+          #      links:
+          #        - title: ""
+          #          url: ""
+          #  - title: ""
+          #    partners:
+          #      - title: ""
+          #        logo_url: ""
           footer:
             text: "Please check our github repo or contact out team info@windingtree.com"
             action_url: "https://github.com/windingtree/"
