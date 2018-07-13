@@ -155,10 +155,7 @@ sellers:
 
 software-vendors:
     title: "Нow to&nbsp;integrate with Winding Tree"
-    text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut&nbsp;laoreet dolore magna aliquam erat volutpat. Ut&nbsp;wisi enim ad&nbsp;minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut&nbsp;aliquip ex&nbsp;ea&nbsp;commodo consequat.
-           <br>
-           <br>
-           If&nbsp;you have a&nbsp;website or&nbsp;a&nbsp;mobile app, you can integrate with Winding Tree directly."
+    text: ""
 
     groups:
         - tabs:
@@ -209,36 +206,35 @@ software-vendors:
             #         }
 
           sections:
-            - title: "Case study"
-              text: "Text"
+            - title: ""
+              text: ""
               cases:
-                - title: "Air New Zealand"
-                  text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut&nbsp;laoreet dolore magna aliquam erat volutpat. Ut&nbsp;wisi enim ad&nbsp;minim veniam."
-                  logo_url: "/assets/img/partners/anz.png"
-                  link_url: "/"
+                - title: ""
+                  text: ""
+                  link_url: ""
 
-            - title: "Integrated software"
-              text: "Text"
+            - title: ""
+              text: ""
               integrations:
-                text: "If&nbsp;you don&rsquo;t develop own managing software, you can use one of&nbsp;our partners&rsquo; solutions, which is&nbsp;already integrated with Winding Tree."
+                text: ""
                 links:
-                  - title: "Web-software name"
-                    url: "/"
-                  - title: "Acquiring"
-                    url: "/"
-                  - title: "Your own managing software"
-                    url: "/"
+                  - title: ""
+                    url: ""
+                  - title: ""
+                    url: ""
+                  - title: ""
+                    url: ""
 
-            - title: "Already joined&nbsp;us"
+            - title: ""
               partners:
-                - title: "Air New Zealand"
-                  logo_url: "/assets/img/partners/anz.png"
-                  link_url: "/"
-                - title: "Nordic Choice Hotels"
-                  logo_url: "/assets/img/partners/nordic.jpg"
-                  link_url: "/"
+                - title: ""
+                  logo_url: ""
+                  link_url: ""
+                - title: ""
+                  logo_url: ""
+                  link_url: ""
 
           footer:
-            text: "Please contact our partners that have integrated with the Winding Tree platform. You may also use our API or&nbsp;one of&nbsp;the libraries in&nbsp;order to&nbsp;integrate with Winding Tree directly."
+            text: "Please check our github repo or contact out team info@windingtree.com"
             action_url: "https://github.com/windingtree/"
             action_title: "Integrate"
