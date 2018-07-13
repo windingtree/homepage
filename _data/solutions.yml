@@ -224,6 +224,7 @@ software-vendors:
           #    partners:
           #      - title: ""
           #        logo_url: ""
+          
           footer:
             text: "Please check our github repo or contact out team info@windingtree.com"
             action_url: "https://github.com/windingtree/"
