@@ -154,8 +154,8 @@ sellers:
 
 
 software-vendors:
-    title: "Нow to&nbsp;integrate with Winding Tree"
-    text: ""
+    # title: "Нow to&nbsp;integrate with Winding Tree"
+    # text: ""
 
     groups:
         - tabs:
