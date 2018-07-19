@@ -73,7 +73,7 @@ suppliers:
 
           footer:
             text: "If&nbsp;you would like to&nbsp;start selling your inventory on&nbsp;the Winding Tree platform, we&nbsp;recommend you to&nbsp;read the integration documentation and then arrange for a&nbsp;consultation."
-            action_url: "/"
+            action_url: "https://github.com/windingtree/"
             action_title: "Read documentation"
 
         - header:
