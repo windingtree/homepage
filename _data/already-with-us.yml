@@ -35,8 +35,8 @@ developers:
     - name: "Robin Gottfried"
       avatar_url: "/assets/img/already-with-us/developers/robin.jpg"
 
-    - name: "Hynek Urban"
-      avatar_url: "/assets/img/already-with-us/developers/hynek.jpg"
+    # - name: "Hynek Urban"
+    #   avatar_url: "/assets/img/already-with-us/developers/hynek.jpg"
 
     - name: "Noah Tsutsui"
       avatar_url: "/assets/img/already-with-us/developers/noah.jpg"
