@@ -208,11 +208,15 @@ members:
     - photo: "/assets/img/team/robin.jpg"
       name: "Robin Gottfried"
       post: "Core Developer | CZECH REPUBLIC"
-      bio: 
+      bio:
       social:
         - url: "https://github.com/czervenka"
           title: "GitHub"
           icon: "mdi-github-circle"
+
+    - photo: "/assets/img/team/og-satoshi.jpg"
+      name: "OG Satoshi"
+      post: "Developer | CZECH REPUBLIC"
 
     - photo: "/assets/img/team/julia.jpg"
       name: "Julia Pardo"
@@ -230,9 +234,6 @@ members:
         - url: "https://www.linkedin.com/in/spencer-vail-31597352"
           title: "LinkedIn"
           icon: "mdi-linkedin"
-
-
-
 
 action_title: "Join team"
 action_url: "https://angel.co/winding-tree"
