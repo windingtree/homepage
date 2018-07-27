@@ -40,3 +40,9 @@ developers:
 
     - name: "Dave Montali"
       avatar_url: "/assets/img/already-with-us/developers/dave.jpg"
+
+    - name: "Pablo"
+      avatar_url: "/assets/img/already-with-us/developers/pablo.jpeg"
+
+    - name: "Juan Ignacio Gipponi"
+      avatar_url: "/assets/img/already-with-us/developers/juan.jpeg"
