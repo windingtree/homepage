@@ -4,11 +4,6 @@ caption: "You can meet our team members and hear about the platform and whats go
 event_groups:
     - title: "Upcoming events"
       events:
-        - logo_url: "/assets/img/where-to-meet/HTNG.png"
-          title: "HTNG Asia-Pacific Conference"
-          place: "Macau, China"
-          date: "July 24&ndash;26, 2018"
-          url: "https://www.htng.org/page/APC_2018"
         - logo_url: "/assets/img/where-to-meet/ethindia.png"
           title: "ETHIndia"
           place: "Bangalore, India"
@@ -24,10 +19,20 @@ event_groups:
           place: "Berlin, Germany"
           date: "September 7&ndash;9, 2018"
           url: "https://ethberlin.com/"
+        - logo_url: "/assets/img/where-to-meet/ethdevcon.png"
+          title: "Ethereum DevCon"
+          place: "Prague, Czech Republic"
+          date: "October 30 &ndash; November 2, 2018"
+          url: "https://devcon4.ethereum.org/"
 
 
     - title: "Past events"
       events:
+        - logo_url: "/assets/img/where-to-meet/HTNG.png"
+          title: "HTNG Asia-Pacific Conference"
+          place: "Macau, China"
+          date: "July 24&ndash;26, 2018"
+          url: "https://www.htng.org/page/APC_2018"
         - logo_url: "/assets/img/where-to-meet/iata-as.png"
           title: "IATA Aviation Data Symposium & AI Lab"
           place: "Berlin, Germany"

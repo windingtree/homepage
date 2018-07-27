@@ -3,7 +3,7 @@ title: "Team"
 members:
     - photo: "/assets/img/team/max.jpg"
       name: "Maksim Izmaylov"
-      post: "CEO | CZECH REPUBLIC"
+      post: "HEAD OF PRODUCT | CZECH REPUBLIC"
       bio: "Maksim Izmaylov is&nbsp;a&nbsp;software engineer and entrepreneur, previously founder of&nbsp;Roomstorm and Travel Tech Con."
       social:
         - url: "https://github.com/kvakes"
@@ -21,7 +21,7 @@ members:
 
     - photo: "/assets/img/team/jakub.jpg"
       name: "Jakub Vysoky"
-      post: "CTO | CZECH REPUBLIC"
+      post: "Engineering Manager | CZECH REPUBLIC"
       bio: "Jakub is&nbsp;a&nbsp;backend engineer who previously worked on&nbsp;Roomstorm and before on&nbsp;high-load projects like Giant Bomb and Mythbusters."
       social:
         - url: "https://github.com/kvbik"
@@ -36,7 +36,7 @@ members:
 
     - photo: "/assets/img/team/pedro.jpg"
       name: "Pedro Anderson"
-      post: "COO | USA"
+      post: "Legal, Accounting, HR | USA"
       bio: "Pedro is&nbsp;a&nbsp;crypto-investor and a&nbsp;social entrepreneur. Being in&nbsp;charge of&nbsp;partnerships at&nbsp;WT, he&nbsp;had previously sold millions of&nbsp;dollars of&nbsp;SaaS products."
       social:
         - url: "https://twitter.com/pedro_r_a"
@@ -48,7 +48,7 @@ members:
 
     - photo: "/assets/img/team/augusto.jpg"
       name: "Augusto Lemble"
-      post: "BLOCKCHAIN ARCHITECT | Argentina"
+      post: "Blockchain R&D | Argentina"
       bio: "Blockchain hacker, full-stack developer. He is in charge of smart contracts development, security and integration of the Winding Tree libraries and services into decentralized networks."
       social:
         - url: "https://github.com/AugustoL"
@@ -63,7 +63,7 @@ members:
 
     - photo: "/assets/img/team/dave.jpg"
       name: "Dave Montali"
-      post: "HEAD OF STRATEGY | PORTUGAL"
+      post: "Partnerships and Strategy | PORTUGAL"
       bio: "Dave worked on applications of blockchain in travel distribution back in 2015 while at the OSHM. Previous to Winding Tree he worked as a Research Analyst for the travel research institute Skift Research."
       social:
         - url: "https://twitter.com/davebit_"
@@ -108,6 +108,9 @@ members:
         - url: "https://www.linkedin.com/in/manuelaraoz/"
           title: "LinkedIn"
           icon: "mdi-linkedin"
+        - url: "https://twitter.com/maraoz"
+          title: "Twitter"
+          icon: "mdi-twitter"
 
     - photo: "/assets/img/team/bill.jpg"
       name: "William Niejadlik"
@@ -141,7 +144,7 @@ members:
 
     - photo: "/assets/img/team/marina.png"
       name: "Marina Berezovska"
-      post: "HEAD OF COMMUNITY AND EVENTS | USA"
+      post: "COMMUNITY & EVENTS | USA"
       bio: "Marina is the Founder of Travel Tech Con and the Head of Community at Winding Tree leading strategic open source initiatives."
       social:
         - url: "https://twitter.com/simpleasthat"
@@ -156,7 +159,7 @@ members:
 
     - photo: "/assets/img/team/alex.jpg"
       name: "Alex Menschikov"
-      post: "PROJECT MANAGER | RUSSIA"
+      post: "PROJECT MANAGER, UX DESIGNER | RUSSIA"
       bio: "Alex is a developer, project manager and entrepreneur who launched several startups (incl.travel) on the Russian market. He also has a 10-year CIO exp. in an international heavy industry company."
       social:
         - url: "https://www.facebook.com/Alex.Menschikov"
@@ -177,7 +180,7 @@ members:
 
     - photo: "/assets/img/team/nico.png"
       name: "Nico Calabrese"
-      post: "Frontend Developer | Argentina"
+      post: "UI DESIGNER | Argentina"
       bio: "Nico is an experienced UI designer and developer, passionate about CSS architecture (currently his primary role). During his career, he took part in the development of a wide range of projects, targeting nonprofit organizations, startups, fortune 500 companies and the Argentine & US governments."
       social:
         - url: "https://github.com/skkr"
@@ -208,15 +211,15 @@ members:
     - photo: "/assets/img/team/robin.jpg"
       name: "Robin Gottfried"
       post: "Core Developer | CZECH REPUBLIC"
-      bio:
+      bio: "Robin is an IT engineer with more than three decades of experiences in software development from CPU hacking to trustless distributed systems."
       social:
         - url: "https://github.com/czervenka"
           title: "GitHub"
           icon: "mdi-github-circle"
 
-    - photo: "/assets/img/team/og-satoshi.jpg"
-      name: "OG Satoshi"
-      post: "Developer | CZECH REPUBLIC"
+    # - photo: "/assets/img/team/og-satoshi.jpg"
+    #   name: "OG Satoshi"
+    #   post: "Developer | CZECH REPUBLIC"
 
     - photo: "/assets/img/team/julia.jpg"
       name: "Julia Pardo"
