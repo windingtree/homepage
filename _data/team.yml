@@ -3,7 +3,7 @@ title: "Team"
 members:
     - photo: "/assets/img/team/max.jpg"
       name: "Maksim Izmaylov"
-      post: "HEAD OF PRODUCT | CZECH REPUBLIC"
+      post: "CEO | CZECH REPUBLIC"
       bio: "Maksim Izmaylov is&nbsp;a&nbsp;software engineer and entrepreneur, previously founder of&nbsp;Roomstorm and Travel Tech Con."
       social:
         - url: "https://github.com/kvakes"
@@ -21,7 +21,7 @@ members:
 
     - photo: "/assets/img/team/jakub.jpg"
       name: "Jakub Vysoky"
-      post: "Engineering Manager | CZECH REPUBLIC"
+      post: "CTO | CZECH REPUBLIC"
       bio: "Jakub is&nbsp;a&nbsp;backend engineer who previously worked on&nbsp;Roomstorm and before on&nbsp;high-load projects like Giant Bomb and Mythbusters."
       social:
         - url: "https://github.com/kvbik"
@@ -36,7 +36,7 @@ members:
 
     - photo: "/assets/img/team/pedro.jpg"
       name: "Pedro Anderson"
-      post: "Legal, Accounting, HR | USA"
+      post: "COO | USA"
       bio: "Pedro is&nbsp;a&nbsp;crypto-investor and a&nbsp;social entrepreneur. Being in&nbsp;charge of&nbsp;partnerships at&nbsp;WT, he&nbsp;had previously sold millions of&nbsp;dollars of&nbsp;SaaS products."
       social:
         - url: "https://twitter.com/pedro_r_a"
@@ -48,7 +48,7 @@ members:
 
     - photo: "/assets/img/team/augusto.jpg"
       name: "Augusto Lemble"
-      post: "Blockchain R&D | Argentina"
+      post: "Blockchain Architect | Argentina"
       bio: "Blockchain hacker, full-stack developer. He is in charge of smart contracts development, security and integration of the Winding Tree libraries and services into decentralized networks."
       social:
         - url: "https://github.com/AugustoL"
@@ -63,7 +63,7 @@ members:
 
     - photo: "/assets/img/team/dave.jpg"
       name: "Dave Montali"
-      post: "Partnerships and Strategy | PORTUGAL"
+      post: "CIO | PORTUGAL"
       bio: "Dave worked on applications of blockchain in travel distribution back in 2015 while at the OSHM. Previous to Winding Tree he worked as a Research Analyst for the travel research institute Skift Research."
       social:
         - url: "https://twitter.com/davebit_"
@@ -144,7 +144,7 @@ members:
 
     - photo: "/assets/img/team/marina.png"
       name: "Marina Berezovska"
-      post: "COMMUNITY & EVENTS | USA"
+      post: "Head of Community | USA"
       bio: "Marina is the Founder of Travel Tech Con and the Head of Community at Winding Tree leading strategic open source initiatives."
       social:
         - url: "https://twitter.com/simpleasthat"
@@ -180,7 +180,7 @@ members:
 
     - photo: "/assets/img/team/nico.png"
       name: "Nico Calabrese"
-      post: "UI DESIGNER | Argentina"
+      post: "UI Developer & Designer | Argentina"
       bio: "Nico is an experienced UI designer and developer, passionate about CSS architecture (currently his primary role). During his career, he took part in the development of a wide range of projects, targeting nonprofit organizations, startups, fortune 500 companies and the Argentine & US governments."
       social:
         - url: "https://github.com/skkr"
