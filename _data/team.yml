@@ -210,7 +210,7 @@ members:
 
     - photo: "/assets/img/team/robin.jpg"
       name: "Robin Gottfried"
-      post: "Core Developer | CZECH REPUBLIC"
+      post: "Project manager | CZECH REPUBLIC"
       bio: "Robin is an IT engineer with more than three decades of experiences in software development from CPU hacking to trustless distributed systems."
       social:
         - url: "https://github.com/czervenka"
