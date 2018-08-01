@@ -112,18 +112,6 @@ members:
           title: "Twitter"
           icon: "mdi-twitter"
 
-    - photo: "/assets/img/team/bill.jpg"
-      name: "William Niejadlik"
-      post: "Advisor | USA"
-      bio: "William is a travel technologist with over 20 years of experience (he was the founder and CTO of Vayama). William is also a crypto-investor (Polychain, Tezos) and his wife helped to build Coinbase."
-      social:
-        - url: "https://www.linkedin.com/in/williamniejadlik"
-          title: "LinkedIn"
-          icon: "mdi-linkedin"
-        - url: "http://www.niejadlik.com/"
-          title: "Link"
-          icon: "mdi-link-variant"
-
     - photo: "/assets/img/team/douglas.jpg"
       name: "Douglas Rice"
       post: "Advisor | USA"
