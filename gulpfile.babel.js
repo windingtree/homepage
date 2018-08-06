@@ -14,6 +14,8 @@ export function modernizr() {
 export function js() {
     return gulp.src([
         'assets/js/vendors/fontfaceobserver.js',
+        'assets/js/vendors/underscore.js',
+        'assets/js/vendors/pagination.js',
         'assets/js/vendors/slick.js',
         'assets/js/variables.js',
         'assets/js/utils.js',
@@ -22,7 +24,8 @@ export function js() {
         'assets/js/components/already-with-us.js',
         'assets/js/components/features.js',
         'assets/js/components/partners.js',
-        'assets/js/components/team.js'
+        'assets/js/components/team.js',
+        'assets/js/components/where-to-meet.js'
     ])
         .pipe(babel())
         .pipe(uglify())

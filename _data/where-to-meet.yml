@@ -1,6 +1,15 @@
 title: "Where to&nbsp;meet Winding Tree team"
 caption: "You can meet our team members and hear about the platform and whats going on&nbsp;on&nbsp;next events:"
 
+primary_event_bg: "/assets/img/where-to-meet/primary-event/bg.jpg"
+primary_event_hash: "#Winding Tree Hackaton Prague 2018"
+primary_event_logo_sm: "/assets/img/where-to-meet/primary-event/logo_sm.svg"
+primary_event_logo_md: "/assets/img/where-to-meet/primary-event/logo_md.svg"
+primary_event_title: "Code for travel"
+primary_event_caption: "Prague, Oct. 25-27"
+primary_event_action_url: "#"
+primary_event_action_title: "Learn more"
+
 event_groups:
     - title: "Upcoming events"
       events:
@@ -24,7 +33,6 @@ event_groups:
           place: "Prague, Czech Republic"
           date: "October 30 &ndash; November 2, 2018"
           url: "https://devcon4.ethereum.org/"
-
 
     - title: "Past events"
       events:
