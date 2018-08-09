@@ -36,6 +36,8 @@
 
 {% if jekyll.environment == "development" %}
     <script src="{{ 'assets/js/vendors/fontfaceobserver.js' | relative_url }}"></script>
+    <script src="{{ 'assets/js/vendors/underscore.js' | relative_url }}"></script>
+    <script src="{{ 'assets/js/vendors/pagination.js' | relative_url }}"></script>
     <script src="{{ 'assets/js/vendors/slick.js' | relative_url }}"></script>
 
     <script src="{{ 'assets/js/variables.js' | relative_url }}"></script>
@@ -49,8 +51,17 @@
     <script src="{{ 'assets/js/components/features.js' | relative_url }}"></script>
     <script src="{{ 'assets/js/components/partners.js' | relative_url }}"></script>
     <script src="{{ 'assets/js/components/team.js' | relative_url }}"></script>
+    <script src="{{ 'assets/js/components/where-to-meet.js' | relative_url }}"></script>
 {% endif %}
 
 {% if jekyll.environment == "production" %}
     <script src="{{ 'assets/js/main.js' | relative_url }}"></script>
+{% endif %}
+
+{% if site.data.where-to-meet %}
+    <script type="text/javascript">
+        $(function () {
+            eventsPagination({{ site.data.where-to-meet.event_groups | jsonify }});
+        });
+    </script>
 {% endif %}
