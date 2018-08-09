@@ -56,7 +56,7 @@
                                         <div class="primary-event__inner d-flex flex-column justify-content-between w-100 h-100 p-1 p-md-2">
                                             <header class="row justify-content-between align-items-center">
                                                 <div class="col col-md-auto">
-                                                    <div class="h3 text-white">
+                                                    <div class="text-white">
                                                         <a href="{{ data.primary_event_url }}" class="text-white">
                                                             {{ data.primary_event_hash }}
                                                         </a>
@@ -70,10 +70,12 @@
                                                 <div class="d-md-none mb-1">
                                                     <img src="{{ data.primary_event_logo_sm | relative_url }}" alt="">
                                                 </div>
-                                                <h1 class="primary-event__title font-weight-light text-center text-light">
-                                                    {{ data.primary_event_title }}
-                                                </h1>
-                                                <p class="h5 text-white">
+                                                <a href="{{ data.primary_event_url }}">
+                                                    <h1 class="primary-event__title font-weight-light text-center text-light">
+                                                        {{ data.primary_event_title }}
+                                                    </h1>
+                                                </a>
+                                                <p class="text-white">
                                                     {{ data.primary_event_caption }}
                                                 </p>
                                             </div>

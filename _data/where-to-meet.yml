@@ -2,11 +2,11 @@ title: "Where to&nbsp;meet Winding Tree team"
 caption: "You can meet our team members and hear about the platform and whats going on&nbsp;on&nbsp;next events:"
 
 
-primary_event_bg: "/assets/img/where-to-meet/primary-event/bg.jpg"
-primary_event_url: "#"
+primary_event_bg: "/assets/img/where-to-meet/primary-event/cover.jpg"
+primary_event_url: "https://windingtree.typeform.com/to/q1dUII"
 primary_event_hash: "#Winding Tree Hackathon Prague 2018"
-primary_event_logo_sm: "/assets/img/where-to-meet/primary-event/hackathon.jpg"
-primary_event_logo_md: "/assets/img/where-to-meet/primary-event/hackathon.jpg"
+primary_event_logo_sm: "/assets/img/where-to-meet/primary-event/logo_sm.svg"
+primary_event_logo_md: "/assets/img/where-to-meet/primary-event/logo_md.svg"
 primary_event_title: "Hack Travel Industry"
 primary_event_caption: "Prague, Oct. 24-25"
 primary_event_action_title: "Join"
@@ -87,11 +87,57 @@ event_groups:
           place: "San Francisco, CA"
           date: "June 7&ndash;9, 2018"
           url: "https://www.traveltechcon.com/"
+
+        - logo_url: "/assets/img/where-to-meet/emerce.png"
+          title: "EMERCE eTravel 2018"
+          place: "Amsterdam, The Netherlands"
+          date: "June 7, 2018"
+          url: "https://emerce.nl/etravel/"
+
+        - logo_url: "/assets/img/where-to-meet/hedna.png"
+          title: "2018 Global Distribution Conference"
+          place: "Lisbon, Portugal"
+          date: "June 4&ndash;6, 2018"
+          url: "https://www.hedna.org/page/conf_European2018/"
+
+        - logo_url: "/assets/img/where-to-meet/pycon.svg"
+          title: "Pycon CZ"
+          place: "Prague, CZ"
+          date: "June 1&ndash;3, 2018"
+          url: "https://cz.pycon.org/2018/"
+
         - logo_url: "/assets/img/where-to-meet/tedberlin.png"
           title: "TEDxTUBerlin"
           place: "Berlin, Germany"
           date: "May 25, 2018"
           url: "https://www.tedxtuberlin.de/"
+
+        - logo_url: "/assets/img/where-to-meet/ethbuenosaires.png"
+          title: "ETHBuenosAires"
+          place: "Buenos Aires, Argentina"
+          date: "May 25&ndash;27, 2018"
+          url: "https://ethbuenosaires.com/"
+
+        - logo_url: "/assets/img/where-to-meet/des.png"
+          title: "Digital Enterprise Show 2018"
+          place: "Madrid, Spain"
+          date: "May 24, 2018"
+          url: "https://www.des-madrid.com/"
+
+        - logo_url: "/assets/img/where-to-meet/capa.png"
+          title: "CAPA Airline Leader Summit  2018"
+          place: "Dublin, Ireand"
+          date: "May 17&ndash;18, 2018"
+          url: "https://ait18.capaevents.com/"
+
+        - logo_url: "/assets/img/where-to-meet/phocus.jpg"
+          title: "Phocuswright Europe"
+          place: "Amsterdam, The Netherlands"
+          date: "May 15&ndash;17, 2018"
+          url: "http://www.phocuswrighteurope.com/Program/2018/Thursday/3-in-30-The-Tech-Talk"
+
+
+
 
 invite_text: "If&nbsp;you want to&nbsp;invite Winding Tree to&nbsp;your event please send&nbsp;us email"
 invite_action_url: "mailto:info@Windingtree.com"
