@@ -136,6 +136,101 @@ event_groups:
           date: "May 15&ndash;17, 2018"
           url: "http://www.phocuswrighteurope.com/Program/2018/Thursday/3-in-30-The-Tech-Talk"
 
+        - logo_url: "/assets/img/where-to-meet/dubai.png"
+          title: "Future Blockchain Summit 2018"
+          place: "Dubai, UAE"
+          date: "May 2&ndash;3, 2018"
+          url: "https://www.futureblockchainsummit.com/"
+
+        - logo_url: "/assets/img/where-to-meet/ahic.svg"
+          title: "Arabian Hotel Investment Conference"
+          place: "Ras Al Khaimah, UAE"
+          date: "April 17&ndash;19, 2018"
+          url: "https://www.arabianconference.com/"
+
+        - logo_url: "/assets/img/where-to-meet/plusforum.png"
+          title: "BerlinPLUs 2018"
+          place: "Berlin, Germany"
+          date: "April 12&ndash;14, 2018"
+          url: "https://www.the-plus-forum.org/"
+
+        - logo_url: "/assets/img/where-to-meet/eyefortravel.png"
+          title: "Eye for Travel San Francisco"
+          place: "San Francisco, USA"
+          date: "April 9&ndash;10, 2018"
+          url: "https://events.eyefortravel.com/san-francisco-summit/"
+
+        - logo_url: "/assets/img/where-to-meet/HTneXt_2018.jpg"
+          title: "HT-NEXT"
+          place: "San Diego, USA"
+          date: "March 12&ndash;14, 2018"
+          url: "https://hospitalitytech.com/events"
+
+        - logo_url: "/assets/img/where-to-meet/ai.jpg"
+          title: "Adyen Travel Partners"
+          place: "Amsterdam, The Netherlands"
+          date: "March 8, 2018"
+          url: "http://www.airlineinformation.org/"
+
+        - logo_url: "/assets/img/where-to-meet/itb_logo_home-en.png"
+          title: "ITB Berlin"
+          place: "Berlin, Germany"
+          date: "March 7&ndash;11, 2018"
+          url: "https://www.itb-berlin.de/en/"
+
+        - logo_url: "/assets/img/where-to-meet/logo_IWE_slogan.png"
+          title: "Internet World Expo"
+          place: "Munich, Germany"
+          date: "March 6&ndash;1, 2018"
+          url: "https://www.internetworld-expo.de/"
+
+        - logo_url: "/assets/img/where-to-meet/eyefortravel.png"
+          title: "Smart Travel Data Summit 2018"
+          place: "Miami, USA"
+          date: "February 27&ndash;28, 2018"
+          url: "https://events.eyefortravel.com/smart-travel-data-summit-north-america/"
+
+        - logo_url: "/assets/img/where-to-meet/bitcoinsc.png"
+          title: "Bitcoin Super Conference"
+          place: "Dallas, USA"
+          date: "February 16&ndash;18, 2018"
+          url: "https://www.bitcoinsuperconference.com/"
+
+        - logo_url: "/assets/img/where-to-meet/hamburg.png"
+          title: "Hamburg Aviation Conference"
+          place: "Hamburg, Germany"
+          date: "February 7&ndash;9, 2018"
+          url: "https://www.hamburgaviationconference.com/"
+
+        - logo_url: "/assets/img/where-to-meet/logo-d10-1.png"
+          title: "d10e Cayman"
+          place: "Cayman Islands"
+          date: "January 27&ndash;30, 2018"
+          url: "http://d10e.biz/cayman-islands-2018/"
+
+        - logo_url: "/assets/img/where-to-meet/hedna.png"
+          title: "HEDNA Global Distribution Conference"
+          place: "Austin, USA"
+          date: "January 29&ndash;31, 2018"
+          url: "https://www.hedna.org/"
+
+        - logo_url: "/assets/img/where-to-meet/hotco.jpg"
+          title: "HOTCO"
+          place: "Budapest, Hungary"
+          date: "January 29&ndash;30, 2018"
+          url: "https://hotconf.com/"
+
+        - logo_url: "/assets/img/where-to-meet/TNABC_Logo_200x40.png"
+          title: "North American Bitcoin Conference"
+          place: "Miami, USA"
+          date: "January 17&ndash;19, 2018"
+          url: "https://btcmiami.com/"
+
+        - logo_url: "/assets/img/where-to-meet/UNLOCK-logo-new_0.png"
+          title: "UNLOCK Blockchain Forum"
+          place: "Dubai, UAE"
+          date: "January 14&ndash;15, 2018"
+          url: "http://www.unlock-bc.com/"
 
 
 
