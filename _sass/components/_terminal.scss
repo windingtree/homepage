@@ -17,6 +17,7 @@
     background: url($baseurl + "/assets/img/terminal/terminal.svg") $black center no-repeat;
     background-size: cover;
     border-radius: $border-radius;
+    text-align: left !important;
 
     .highlight {
         position: absolute;

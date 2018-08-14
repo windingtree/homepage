@@ -1,22 +1,49 @@
+.mod_no-objectfit {
+    .event-banner {
+        background-color: $color-gradient-secondary !important;
+        background-image: url($baseurl + "/assets/img/banners/event-bg.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        &__bg {
+            display: none;
+        }
+    }
+}
+
+.mod_objectfit {
+    .event-banner {
+        background: $linear-gradient-to-bottom;
+
+        &__bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: .7;
+        }
+    }
+}
+
 .event-banner {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 500px;
 
-    background-color: $color-gradient-secondary !important;
-    background-image: url($baseurl + "/assets/img/banners/event-bg.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
     @include media-breakpoint-up('md') {
-        position: relative;
-        height: 733px;
+        height: 720px;
     }
 
     &__inner {
+        position: relative;
+        z-index: 2;
         width: 100%;
     }
 
@@ -39,10 +66,15 @@
 
     &__social {
         position: absolute;
-        bottom: 6rem;
+        bottom: 3rem;
         left: 0;
+        z-index: 3;
         width: 100%;
         text-align: center;
+
+        @include media-breakpoint-up('lg') {
+            bottom: 6rem;
+        }
     }
 
     .lead {
@@ -52,6 +84,13 @@
     }
 
     .terminal {
-        margin-left: auto;
+        @include media-breakpoint-up('md') {
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        @include media-breakpoint-up('lg') {
+            margin-left: auto;
+        }
     }
 }
