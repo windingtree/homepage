@@ -22,9 +22,9 @@ $event-section-box-shadow-200: 0 10px 20px 0 rgba(0, 0, 0, .2);
     }
 
     @include media-breakpoint-down('sm') {
-        .lead {
-            @include scale(62.5%, up);
-        }
+        // .lead {
+        //     @include scale(62.5%, up);
+        // }
     }
 }
 
@@ -86,9 +86,9 @@ $event-section-box-shadow-200: 0 10px 20px 0 rgba(0, 0, 0, .2);
             @include scale(81.25%, up);
         }
 
-        .lead {
-            @include scale(62.5%, up);
-        }
+        // .lead {
+        //     @include scale(62.5%, up);
+        // }
     }
 }
 
