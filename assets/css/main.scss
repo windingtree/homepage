@@ -48,15 +48,20 @@ $baseurl: "{{ site.baseurl }}";
 @import "components/banners/lif-token";
 @import "components/banners/open-source";
 @import "components/banners/page";
+@import "components/banners/event";
+
+@import "components/events/event";
 
 @import "components/already-with-us";
 @import "components/features";
 @import "components/in-the-press";
 @import "components/key-benefits";
 @import "components/partners";
+@import "components/photo-gallery";
 @import "components/roadmap";
 @import "components/social";
 @import "components/solutions";
 @import "components/team";
+@import "components/terminal";
 @import "components/video-gallery";
 @import "components/where-to-meet";

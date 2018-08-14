@@ -17,7 +17,7 @@
         }
     }
 
-    &.social--banner {
+    &.social--white {
         a {
             color: $white;
 
@@ -27,7 +27,7 @@
         }
     }
 
-    &.social--footer {
+    &.social--transparent {
         li {
             &:not(:last-child) {
                 @include media-breakpoint-up('md') {

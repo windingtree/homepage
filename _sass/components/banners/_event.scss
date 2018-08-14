@@ -1,0 +1,57 @@
+.event-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+
+    background-color: $color-gradient-secondary !important;
+    background-image: url($baseurl + "/assets/img/banners/event-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @include media-breakpoint-up('md') {
+        position: relative;
+        height: 733px;
+    }
+
+    &__inner {
+        width: 100%;
+    }
+
+    &__actions {
+        @include media-breakpoint-down('sm') {
+            > li {
+                display: block;
+                margin-right: 0 !important;
+
+                &:not(:last-child) {
+                    margin-bottom: 2rem;
+                }
+            }
+        }
+
+        .btn {
+            width: 160px;
+        }
+    }
+
+    &__social {
+        position: absolute;
+        bottom: 6rem;
+        left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .lead {
+        @include media-breakpoint-down('sm') {
+            @include scale(62.5%, up);
+        }
+    }
+
+    .terminal {
+        margin-left: auto;
+    }
+}

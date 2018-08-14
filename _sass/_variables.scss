@@ -5,6 +5,7 @@ $radial-gradient-from-top: radial-gradient(circle at 50% 75%, $color-gradient-pr
 $radial-gradient-from-bottom: radial-gradient(circle at 50% 0, $color-gradient-primary, $color-gradient-secondary 66.6%);
 $radial-gradient-from-left: radial-gradient(circle at 100% 50%, $color-gradient-primary, $color-gradient-secondary);
 
+$linear-gradient-to-top: linear-gradient(to top, $color-gradient-primary, $color-gradient-secondary);
 $linear-gradient-to-bottom: linear-gradient(to bottom, $color-gradient-primary, $color-gradient-secondary);
 $linear-gradient-to-left: linear-gradient(to left, $color-gradient-primary, $color-gradient-secondary);
 
