@@ -18,8 +18,16 @@
                         cards = site.data.cards.lif_token
                         card_size = "card-sm"
                     %}
+
                 </div>
-            </div>
+            </div> 
+
+            <footer class="mt-2 mt-md-4 text-center">
+                <a href="{{ site.data.how-to-get-lif.action_url | relative_url}}" class="btn btn-outline-dark">
+                    {{ site.data.how-to-get-lif.action_title }}
+                </a>
+            </footer>
+            
         </div>
     </section>
 {% endif %}
