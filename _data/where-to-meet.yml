@@ -36,12 +36,14 @@ event_groups:
           place: "Berlin, Germany"
           date: "September 7&ndash;9, 2018"
           url: "https://ethberlin.com/"
+
         - logo_url: "/assets/img/where-to-meet/shh-logo.png"
           title: "BACK TO THE HOSPITALITY FUTURE SUMMIT"
           place: "Hamburg, Germany"
           date: "September 12&ndash;14, 2018"
           url: "https://solutions.hamburg/en/"
         - logo_url: "/assets/img/where-to-meet/mews.png"
+
           title: "BACK TO THE HOSPITALITY FUTURE SUMMIT"
           place: "London, UK"
           date: "September 20, 2018"
@@ -56,14 +58,27 @@ event_groups:
         - logo_url: "/assets/img/where-to-meet/eyefortravel.png"
           title: "EyeforTravel North America 2018"
           place: "Las Vegas, USA"
-          date: "October 18 &ndash;19, 2018"
+          date: "October 18&ndash;19, 2018"
           url: "https://events.eyefortravel.com/travel-distribution-summit-north-america/"
+
+        - logo_url: "/assets/img/where-to-meet/status.jpg"
+          title: "#CryptoLife Hackathon"
+          place: "Prague, Czech Republic"
+          date: "October 26&ndash;28, 2018"
+          url: "https://hackathon.status.im/"
 
         - logo_url: "/assets/img/where-to-meet/ethdevcon.png"
           title: "Ethereum DevCon"
           place: "Prague, Czech Republic"
           date: "October 30 &ndash; November 2, 2018"
           url: "https://devcon4.ethereum.org/"
+
+        - logo_url: "/assets/img/where-to-meet/capalogo.png"
+          title: "CAPA's World Aviation Summit"
+          place: "Berlin, Germany"
+          date: "November 27&ndash;28, 2018"
+          url: "https://centreforaviation.com/analysis/reports/capas-world-aviation-summit-in-berlin-2728-nov-2018-411103"
+
 
     - title: "Past events"
       events:
