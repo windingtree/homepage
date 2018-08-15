@@ -30,7 +30,7 @@ keywords: "winding tree, hackathon, prague, 2018, blockchain, travel"
 {% endif %}
 
 {% if data.event_about %}
-    <section class="event-about py-3 py-md-5 bg-secondary text-center text-lg-left">
+    <section class="event-about py-3 py-md-5 bg-secondary text-center text-lg-left" style="background-image: url('{{ data.event_about.bg }}'), radial-gradient(circle at 100% 50%, #29cb96, #5f2987);">
         <div class="container">
             <div class="row justify-content-lg-between align-items-lg-center">
                 <div class="col-lg-7">
@@ -225,7 +225,7 @@ keywords: "winding tree, hackathon, prague, 2018, blockchain, travel"
                                 <p class="my-1 my-md-2 text-dark">
                                     Admission: <b>{{ group.admission }}</b>
                                 </p>
-                                <a href="{{ group.action_url }}" class="btn {{ group_btn }} col-lg-9">
+                                <a href="{{ group.action_url }}" class="btn {{ group_btn }} col-xl-9">
                                     {{ group.action_title }}
                                 </a>
                             </footer>

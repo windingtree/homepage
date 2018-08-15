@@ -8,7 +8,7 @@ $(function () {
 
         responsive: [
             {
-                breakpoint: 1024,
+                breakpoint: 992,
                 settings: {
                     arrows: true,
                     prevArrow: '<button type="button" class="slick-prev"><i class="mdi mdi-48px mdi-chevron-left text-primary"></i></button>',

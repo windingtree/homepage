@@ -22,6 +22,7 @@ event_summary:
       description: "Issues to hack"
 
 event_about:
+    bg: "/assets/img/events/winding-tree-hackathon-prague-2018/event-about-bg.svg"
     title: "About the Event"
     text: "Winding Tree Hackathon is your opportunity to join the community of open source developers, travel startups, Blockchain community leaders, technology visionaries and fellow industry innovators coming together to work on a shared mission - to take tangible steps towards moving the industry forward and promote open innovation in travel."
     countdown: "10/25/2018 00:00:00 AM"

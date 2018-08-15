@@ -30,14 +30,15 @@ $event-section-box-shadow-200: 0 10px 20px 0 rgba(0, 0, 0, .2);
 
 // Event about
 .event-about {
-    background-color: $color-gradient-secondary !important;
-    background-image: $radial-gradient-from-left;
-    background-position: left center;
-    background-repeat: no-repeat;
+    @include media-breakpoint-down(md) {
+        background-color: $color-gradient-secondary !important;
+        background-image: $radial-gradient-from-left !important;
+        background-position: left center;
+        background-repeat: no-repeat;
+    }
 
     @include media-breakpoint-up(lg) {
         background-color: $color-gradient-secondary !important;
-        background-image: url($baseurl + "/assets/img/events/winding-tree-hackathon-prague-2018/event-about-bg.svg"), $radial-gradient-from-left;
         background-position: right center, left center;
         background-repeat: no-repeat, no-repeat;
         background-size: 50%, auto;
