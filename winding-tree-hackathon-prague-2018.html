@@ -1,16 +1,16 @@
 ---
 layout: event
-title: Event / Winding Tree
-description: "Winding Tree Hackathon Prague 2018"
-keywords: "winding tree, hackathon, prague, 2018"
+title: Hacking the travel industry with blockchain solutions | Winding Tree Hackathon Prague 2018
+description: "Winding Tree Hackathon Prague 2018 : 100 developers hacks travel industry with decentralized solutions provided by Winding Tree. 2 days of high-level education and hacking."
+keywords: "winding tree, hackathon, prague, 2018, blockchain, travel"
 ---
  
 {% include
-    banners/event.html
-    data = site.data.banners.event
+    banners/winding-tree-hackathon-prague-2018.html
+    data = site.data.banners.winding-tree-hackathon-prague-2018
 %}
 
-{% assign data = site.data.events.event %}
+{% assign data = site.data.events.winding-tree-hackathon-prague-2018 %}
  
 {% if data.event_summary %}
     <section class="event-summary my-3 my-md-5">
@@ -125,7 +125,7 @@ keywords: "winding tree, hackathon, prague, 2018"
                                     </div>
                                 </div>
                                 <div class="card-body">
-                                    <p class="card-text small">
+                                    <p class="card-text">
                                         {{ item.text }}
                                     </p>
                                 </div>
@@ -171,7 +171,7 @@ keywords: "winding tree, hackathon, prague, 2018"
                                 </h3>
                             </div>
                             <div class="event-task__text">
-                                <p class="small text-muted">
+                                <p class="text-muted">
                                     {{ task.text }}
                                 </p>
                             </div>
@@ -217,12 +217,12 @@ keywords: "winding tree, hackathon, prague, 2018"
                                 <h3 class="mb-1">
                                     {{ group.title }}
                                 </h3>
-                                <p class="small text-dark">
+                                <p class="text-dark">
                                     {{ group.text }}
                                 </p>
                             </div>
                             <footer>
-                                <p class="my-1 my-md-2 small text-dark">
+                                <p class="my-1 my-md-2 text-dark">
                                     Admission: <b>{{ group.admission }}</b>
                                 </p>
                                 <a href="{{ group.action_url }}" class="btn {{ group_btn }} col-lg-9">

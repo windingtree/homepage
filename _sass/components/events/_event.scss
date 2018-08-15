@@ -37,7 +37,7 @@ $event-section-box-shadow-200: 0 10px 20px 0 rgba(0, 0, 0, .2);
 
     @include media-breakpoint-up(lg) {
         background-color: $color-gradient-secondary !important;
-        background-image: url($baseurl + "/assets/img/events/event/event-about-bg.svg"), $radial-gradient-from-left;
+        background-image: url($baseurl + "/assets/img/events/winding-tree-hackathon-prague-2018/event-about-bg.svg"), $radial-gradient-from-left;
         background-position: right center, left center;
         background-repeat: no-repeat, no-repeat;
         background-size: 50%, auto;
