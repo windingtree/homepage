@@ -74,10 +74,10 @@ keywords: "winding tree, hackathon, prague, 2018"
                             <img src="{{ participant.icon_url | relative_url }}" alt="{{ participant.title }}" class="event-participants__icon">
                         </div>
                         <div class="col-md-10">
-                            <h2 class="mb-1 text-center text-md-left">
+                            <h3 class="mb-1 text-center text-md-left">
                                 {{ participant.title }}
-                            </h2>
-                            <ul class="lead">
+                            </h3>
+                            <ul class="">
                                 {% for item in participant.list %}
                                 <li>
                                     {{ item.item }}
@@ -166,9 +166,9 @@ keywords: "winding tree, hackathon, prague, 2018"
                         <a href="{{ task.url }}" class="card h-100 event-task">
                             <div class="card-body">
                                 <i class="mdi {{ task.icon }} event-task__icon"></i>
-                                <h2 class="card-title event-task__title">
+                                <h3 class="card-title event-task__title">
                                     {{ task.title }}
-                                </h2>
+                                </h3>
                             </div>
                             <div class="event-task__text">
                                 <p class="small text-muted">
@@ -236,13 +236,14 @@ keywords: "winding tree, hackathon, prague, 2018"
 
             {% if data.event_register.extra %}
                 <footer class="mt-2 text-center text-md-left">
-                    <h2 class="event-register__subtitle mb-1 text-white">
-                        {{ data.event_register.extra.title }}
-                    </h2>
 
                     <div class="row align-items-center">
+                        
                         <div class="col-md-8 mb-1 mb-md-0">
-                            <p class="lead text-white">
+                            <h2 class="event-register__subtitle mb-1 text-white">
+                                {{ data.event_register.extra.title }}
+                            </h2>
+                            <p class="text-white">
                                 {{ data.event_register.extra.text }}
                             </p>
                         </div>
