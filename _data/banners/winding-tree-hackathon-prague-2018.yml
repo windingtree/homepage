@@ -1,0 +1,11 @@
+bg: "/assets/img/banners/event-bg.png"
+title: "#WindingTreeHackathon <br> Prague, October 2018"
+caption: "Hacking the travel industry with decentralized solutions"
+date: "Prague, 24-25 October"
+actions_list:
+    - action_url: "#event-register"
+      action_title: "Join"
+      action_btn_class: "btn-primary"
+    - action_url: "#event-program"
+      action_title: "Program"
+      action_btn_class: "btn-outline-light"

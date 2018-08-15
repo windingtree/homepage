@@ -21,9 +21,11 @@ export function js() {
         'assets/js/utils.js',
         'assets/js/bootstrap-overrides/navbar.js',
         'assets/js/components/banners/index.js',
+        'assets/js/components/events/event.js',
         'assets/js/components/already-with-us.js',
         'assets/js/components/features.js',
         'assets/js/components/partners.js',
+        'assets/js/components/photo-gallery.js',
         'assets/js/components/team.js',
         'assets/js/components/where-to-meet.js'
     ])

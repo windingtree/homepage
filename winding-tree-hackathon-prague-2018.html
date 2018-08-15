@@ -1,0 +1,309 @@
+---
+layout: event
+title: Hacking the travel industry with blockchain solutions | Winding Tree Hackathon Prague 2018
+description: "Winding Tree Hackathon Prague 2018 : 100 developers hacks travel industry with decentralized solutions provided by Winding Tree. 2 days of high-level education and hacking."
+keywords: "winding tree, hackathon, prague, 2018, blockchain, travel"
+---
+ 
+{% include
+    banners/winding-tree-hackathon-prague-2018.html
+    data = site.data.banners.winding-tree-hackathon-prague-2018
+%}
+
+{% assign data = site.data.events.winding-tree-hackathon-prague-2018 %}
+ 
+{% if data.event_summary %}
+    <section class="event-summary my-3 my-md-5">
+        <div class="container">
+            <div class="event-summary__list row flex-column flex-md-row justify-content-md-around">
+                {% for item in data.event_summary %}
+                    <div class="event-summary__item col-md-auto">
+                        <dl class="text-center">
+                            <dt class="h2 text-primary">{{ item.title }}</dt>
+                            <dd class="lead mt-0">{{ item.description }}</dd>
+                        </dl>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+{% endif %}
+
+{% if data.event_about %}
+    <section class="event-about py-3 py-md-5 bg-secondary text-center text-lg-left" style="background-image: url('{{ data.event_about.bg }}'), radial-gradient(circle at 100% 50%, #29cb96, #5f2987);">
+        <div class="container">
+            <div class="row justify-content-lg-between align-items-lg-center">
+                <div class="col-lg-7">
+                    <h2 class="mb-1 text-white">
+                        {{ data.event_about.title }}
+                    </h2>
+                    <p class="lead text-white">
+                        {{ data.event_about.text }}
+                    </p>
+                </div>
+                <div class="col-lg-4 mt-2 mt-lg-0">
+                    <div class="text-center">
+                        <div id="event-countdown" class="mb-3 mb-lg-5" style="visibility: hidden;">
+                            <div class="d-flex justify-content-center align-items-center display-4 text-white">
+                                <div id="event-days" data-counter-caption="Days">0</div>
+                                :
+                                <div id="event-hours" data-counter-caption="Hours">0</div>
+                                :
+                                <div id="event-minutes" data-counter-caption="Mins">0</div>
+                                :
+                                <div id="event-seconds" data-counter-caption="Secs">0</div>
+                            </div>
+                        </div>
+                        <a href="{{ data.event_about.action_url }}" class="btn btn-outline-light d-block d-md-inline-block">
+                            {{ data.event_about.action_title }}
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endif %}
+
+{% if data.event_participants %}
+    <section class="event-participants py-3 py-md-5">
+        <div class="container">
+            {% for participant in data.event_participants %}
+                <div class="event-participants__group">
+                    <div class="row align-items-center">
+                        <div class="col-md-2 mb-1 text-center">
+                            <img src="{{ participant.icon_url | relative_url }}" alt="{{ participant.title }}" class="event-participants__icon">
+                        </div>
+                        <div class="col-md-10">
+                            <h3 class="mb-1 text-center text-md-left">
+                                {{ participant.title }}
+                            </h3>
+                            <ul class="">
+                                {% for item in participant.list %}
+                                <li>
+                                    {{ item.item }}
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </section>
+{% endif %}
+
+{% if data.event_program %}
+    <section class="event-program py-3 py-md-5" id="event-program">
+        <div class="container">
+            <h2 class="mb-2 text-center">
+                {{ data.event_program.title }}
+            </h2>
+
+            {% if data.event_program.program_list %}
+                <div class="row justify-content-center event-program__list">
+                    {% for item in data.event_program.program_list %}
+                        <div class="col-md-4 event-program__item">
+                            <div class="card h-100 text-center text-md-left event-program-item">
+                                <div class="event-program-item__img-wrap rounded-top">
+                                    <img src="{{ item.img_path }}" alt="" class="event-program-item__img card-img">
+
+                                    <div class="event-program-item__img-over d-flex flex-column justify-content-center justify-content-md-end align-items-center align-items-md-stretch">
+                                        {% if item.logo_path %}
+                                            <img src="{{ item.logo_path }}" width="50" height="50" alt="" class="event-program-item__logo">
+                                        {% endif %}
+
+                                        <div class="row justify-content-between align-items-baseline">
+                                            <h3 class="event-program-item__title col text-white">
+                                                {{ item.title }}
+                                            </h3>
+                                            {% if item.date %}
+                                                <p class="col-md-auto lead text-primary">
+                                                    {{ item.date }}
+                                                </p>
+                                            {% endif %}
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        {{ item.text }}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            {% else %}
+                <p class="lead text-center">
+                    {{ data.event_program.program_empty }}
+                </p>
+            {% endif %}
+
+            <footer class="mt-2 text-center">
+                <a href="{{ data.event_program.action_url }}" class="btn btn-outline-dark d-block d-md-inline-block">
+                    {{ data.event_program.action_title }}
+                </a>
+            </footer>
+        </div>
+    </section>
+{% endif %}
+
+{% if data.event_tasks %}
+    <section class="event-tasks my-3 my-md-5">
+        <div class="container">
+            <header class="mb-2 text-center">
+                <h2 class="mb-1">
+                    {{ data.event_tasks.title }}
+                </h2>
+                <p class="lead">
+                    {{ data.event_tasks.caption }}
+                </p>
+            </header>
+
+            <div class="row event-tasks__list">
+                {% for task in data.event_tasks.tasks_list %}
+                    <div class="col-md-4 event-tasks__item">
+                        <a href="{{ task.url }}" class="card h-100 event-task">
+                            <div class="card-body">
+                                <i class="mdi {{ task.icon }} event-task__icon"></i>
+                                <h3 class="card-title event-task__title">
+                                    {{ task.title }}
+                                </h3>
+                            </div>
+                            <div class="event-task__text">
+                                <p class="text-muted">
+                                    {{ task.text }}
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                {% endfor %}
+
+                <div class="col-md-4 event-tasks__item">
+                    <a href="{{ data.event_tasks.action_url }}" class="card justify-content-center h-100 bg-primary event-task">
+                        <div class="card-body flex-grow-0 flex-shrink-0">
+                            <i class="mdi {{ data.event_tasks.action_icon }} text-white event-task__icon"></i>
+                            <h2 class="card-title text-white event-task__title">
+                                {{ data.event_tasks.action_title }}
+                            </h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endif %}
+
+{% if data.event_register %}
+    <section class="event-register bg-secondary py-3 py-md-5" id="event-register">
+        <div class="container">
+            <h2 class="mb-2 text-center text-white">
+                {{ data.event_register.title }}
+            </h2>
+
+            <div class="row justify-content-center event-register__groups">
+                {% for group in data.event_register.register_groups %}
+                    {% if group.pay == true %}
+                        {% assign group_bg = 'event-register-group--pay' %}
+                        {% assign group_btn = 'btn-outline-dark' %}
+                    {% else %}
+                        {% assign group_bg = '' %}
+                        {% assign group_btn = 'btn-primary' %}
+                    {% endif %}
+
+                    <div class="col-md-4 event-register__group">
+                        <div class="card h-100 text-center event-register-group {{ group_bg }}">
+                            <div class="card-body p-0">
+                                <h3 class="mb-1">
+                                    {{ group.title }}
+                                </h3>
+                                <p class="text-dark">
+                                    {{ group.text }}
+                                </p>
+                            </div>
+                            <footer>
+                                <p class="my-1 my-md-2 text-dark">
+                                    Admission: <b>{{ group.admission }}</b>
+                                </p>
+                                <a href="{{ group.action_url }}" class="btn {{ group_btn }} col-xl-9">
+                                    {{ group.action_title }}
+                                </a>
+                            </footer>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+
+            {% if data.event_register.extra %}
+                <footer class="mt-2 text-center text-md-left">
+
+                    <div class="row align-items-center">
+                        
+                        <div class="col-md-8 mb-1 mb-md-0">
+                            <h2 class="event-register__subtitle mb-1 text-white">
+                                {{ data.event_register.extra.title }}
+                            </h2>
+                            <p class="text-white">
+                                {{ data.event_register.extra.text }}
+                            </p>
+                        </div>
+                        <div class="col-md-4 text-md-right">
+                            <img src="{{ data.event_register.extra.logo_path }}" alt="" class="align-top img-fluid">
+                        </div>
+                    </div>
+                </footer>
+            {% endif %}
+        </div>
+    </section>
+{% endif %}
+
+{% if data.event_partners %}
+    <section class="event-partners py-3 py-md-5">
+        <div class="container">
+            <h2 class="mb-1 mb-md-2 text-center">
+                {{ data.event_partners.title }}
+            </h2>
+
+            <div class="row justify-content-center align-items-center">
+                {% for partner in data.event_partners.partners_list %}
+                    <div class="col-auto m-1">
+                        <a href="{{ partner.url | relative_url }}">
+                            <img src="{{ partner.logo_path | relative_url }}" alt="" class="event-partners__logo">
+                        </a>
+                    </div>
+                {% endfor %}
+            </div>
+
+            <footer class="mt-1 mt-md-2 text-center">
+                <a href="{{ data.event_partners.action_url | relative_url }}" class="btn btn-outline-dark d-block d-md-inline-block">
+                    {{ data.event_partners.action_title }}
+                </a>
+            </footer>
+        </div>
+    </section>
+{% endif %}
+
+{% if data.event_gallery %}
+    <section class="event-gallery py-3 py-md-5">
+        <div class="container">
+            <h2 class="mb-2 text-center">
+                {{ data.event_gallery.title }}
+            </h2>
+
+            <div>
+                {% include
+                    photo-gallery.html
+                    photos = site.data.photo-gallery.photos-list-1
+                %}
+            </div>
+
+            <footer class="mt-2 text-center">
+                <a href="{{ data.event_gallery.action_url }} | relative_url" class="border-bottom small">
+                    {{ data.event_gallery.action_title }}
+                </a>
+            </footer>
+        </div>
+    </section>
+{% endif %}
+
+{% include where-to-meet.html %}

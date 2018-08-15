@@ -1,0 +1,163 @@
+terminal: |
+          var WT_Hackathon = {
+              dates: 25-27, October,
+              place: Prague Chech Republic,
+              devs_qty: 100,
+              education: free,
+              meal&fun: included
+          }
+          _
+
+event_summary:
+    - title: "2"
+      description: "Days"
+
+    - title: "100"
+      description: "Developers"
+
+    - title: "5"
+      description: "Hrs. of education"
+
+    - title: "5+"
+      description: "Issues to hack"
+
+event_about:
+    bg: "/assets/img/events/winding-tree-hackathon-prague-2018/event-about-bg.svg"
+    title: "About the Event"
+    text: "Winding Tree Hackathon is your opportunity to join the community of open source developers, travel startups, Blockchain community leaders, technology visionaries and fellow industry innovators coming together to work on a shared mission - to take tangible steps towards moving the industry forward and promote open innovation in travel."
+    countdown: "10/25/2018 00:00:00 AM"
+    action_url: "#event-register"
+    action_title: "Join the Hackaton"
+
+event_participants:
+    - icon_url: "/assets/img/events/winding-tree-hackathon-prague-2018/participants/1.svg"
+      title: "Individual developers"
+      list:
+        - item: "Apply to participate"
+        - item: "Join the workshop"
+        - item: "Join a hacking team or form your own"
+        - item: "Get a taste of building next generation travel products on Blockchain"
+
+    - icon_url: "/assets/img/events/winding-tree-hackathon-prague-2018/participants/2.svg"
+      title: "Startups"
+      list:
+        - item: "Bring your team to work on building a hack for your existing product using WT API"
+        - item: "Your chance to provide hands on training on Blockchain based distribution to your team"
+        - item: "Your tangible opportunity to experiment with Blockchain for your product"
+
+    - icon_url: "/assets/img/events/winding-tree-hackathon-prague-2018/participants/3.svg"
+      title: "Airlines and hotels"
+      list:
+        - item: "Bring your technical teams to receive training and experiment with	Blockchain"
+        - item: "Bring your business/exec team to join industry leaders roundtables to discuss use cases, challenges & find collaboration opportunities"
+
+event_program:
+    title: "#Winding Tree Hackathon Program"
+
+    program_list:
+        - img_path: "http://via.placeholder.com/360x220"
+          logo_path: "/assets/img/events/winding-tree-hackathon-prague-2018/program/logo.svg"
+          title: "Day&nbsp;1"
+          date: "October, 25"
+          text: "&bull; Learn what the future of Blockchain in travel looks like <br><br>
+                &bull; Get hands training on platform APIs directly from Winding Tree technical leads <br><br>
+                &bull; Form or join hacker teams and give it your best shot <br><br>
+                &bull; Hack away till late, we got you covered with food, snacks and drinks." 
+
+        - img_path: "http://via.placeholder.com/360x220"
+          logo_path: "/assets/img/events/winding-tree-hackathon-prague-2018/program/logo.svg"
+          title: "Day&nbsp;2"
+          date: "October, 26"
+          text: "&bull; Finalize your hacks and present your solutions in front of the panel of industry most forward thinking technologists<br><br>
+          &bull; Learn from fellow hackers<br><br>
+          &bull; Win prizes & celebrate with us during Hacker Awards at the after party."
+
+        - img_path: "http://via.placeholder.com/360x220"
+          logo_path: "/assets/img/events/winding-tree-hackathon-prague-2018/program/status.png"
+          title: "Keep on hacking"
+          text: "Winding Tree has partnered with Status hackathon (26-28 of October, Prague) - if you hack with us at Winding Tree Hackathon you will be automatically enrolled to hack at Status with us! Join us to for travel tech track and hack your social dapp with full support from our team!"
+
+    program_empty: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget tempor magna."
+
+    action_url: "#event-register"
+    action_title: "Register for Hackathon"
+
+event_tasks:
+    title: "Are you up for the challenge?"
+    caption: "learn about our use-cases or add your suggestion to be hacked"
+
+    tasks_list:
+        - url: "#"
+          icon: "mdi-github-circle"
+          title: "Distributed storage"
+          text: "Optimize use of distirbuted storages for hotel inventory distribution"
+        - url: "#"
+          icon: "mdi-github-circle"
+          title: "Airline API"
+          text: "Distribute and normalize access to arlines apis using decentralized networks/services"
+        - url: "#"
+          icon: "mdi-github-circle"
+          title: "State channels"
+          text: "Implement a state channel solution to exchange any type of data and value with off chain signatures"
+        - url: "#"
+          icon: "mdi-github-circle"
+          title: "Dynamic pricing"
+          text: "Add use of oracles for dinamic pricing over Winding Tree hotel distirbution network"
+        - url: "#"
+          icon: "mdi-github-circle"
+          title: "ENS"
+          text: "Integrate Ethereum Name Service into Winding Tree hotel distibution"
+
+    action_icon: "mdi-plus"
+    action_url: "https://windingtree.typeform.com/to/q1dUII"
+    action_title: "Propose your idea"
+
+event_register:
+    title: "Register for the Hackathon"
+
+    register_groups:
+        - title: "Hackers and devs"
+          text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget tempor magna. Vivamus in lectus at neque tristique lobortis. Morbi porttitor, purus"
+          admission: "Free All 3 Days"
+          action_url: "#"
+          action_title: "Register as hacker"
+        - title: "Experts and Sponsors"
+          text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget tempor magna. Vivamus in lectus at neque tristique lobortis. Morbi porttitor, purus"
+          admission: "Free 1 and 2 day"
+          action_url: "#"
+          action_title: "Register as expert"
+        - title: "Visitors"
+          text: "Subscribe to be notified when we open ticket sale for visitors"
+          admission: "30$ per day"
+          action_url: "#"
+          action_title: "Subscribe"
+          pay: true
+
+    extra:
+        title: "Keep on hacking"
+        text: "Winding Tree has partnered with Status hackathon (26-28 of October, Prague) - if you hack with us at Winding Tree Hackathon you will be automatically enrolled to hack at Status with us! Join us to for travel tech track and hack your social dapp with full support from our team!"
+        logo_path: "/assets/img/events/winding-tree-hackathon-prague-2018/partnership.png"
+
+event_partners:
+    title: "Hacking with us already"
+
+    partners_list:
+        - url: "#"
+          logo_path: "/assets/img/events/winding-tree-hackathon-prague-2018/partners/1.png"
+        - url: "#"
+          logo_path: "/assets/img/events/winding-tree-hackathon-prague-2018/partners/2.svg"
+        - url: "#"
+          logo_path: "/assets/img/events/winding-tree-hackathon-prague-2018/partners/3.png"
+        - url: "#"
+          logo_path: "/assets/img/events/winding-tree-hackathon-prague-2018/partners/4.png"
+        - url: "#"
+          logo_path: "/assets/img/events/winding-tree-hackathon-prague-2018/partners/5.png"
+
+    action_url: "#"
+    action_title: "Become a partner"
+
+event_gallery:
+    title: "Our Community Events in Action"
+
+    action_url: "#"
+    action_title: "browse all past events"

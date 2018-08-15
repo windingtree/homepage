@@ -47,9 +47,12 @@
 
     <script src="{{ 'assets/js/components/banners/index.js' | relative_url }}"></script>
 
+    <script src="{{ 'assets/js/components/events/event.js' | relative_url }}"></script>
+
     <script src="{{ 'assets/js/components/already-with-us.js' | relative_url }}"></script>
     <script src="{{ 'assets/js/components/features.js' | relative_url }}"></script>
     <script src="{{ 'assets/js/components/partners.js' | relative_url }}"></script>
+    <script src="{{ 'assets/js/components/photo-gallery.js' | relative_url }}"></script>
     <script src="{{ 'assets/js/components/team.js' | relative_url }}"></script>
     <script src="{{ 'assets/js/components/where-to-meet.js' | relative_url }}"></script>
 {% endif %}
@@ -62,6 +65,16 @@
     <script type="text/javascript">
         $(function () {
             eventsPagination({{ site.data.where-to-meet.event_groups | jsonify }});
+        });
+    </script>
+{% endif %}
+
+{% if site.data.events.winding-tree-hackathon-prague-2018.event_about %}
+    <script type="text/javascript">
+        $(function () {
+            if (document.body.contains(document.getElementById('event-countdown'))) {
+                eventCountdown('{{ site.data.events.winding-tree-hackathon-prague-2018.event_about.countdown }}');
+            }
         });
     </script>
 {% endif %}
