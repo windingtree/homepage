@@ -57,7 +57,7 @@ event_program:
     program_list:
         - img_path: "http://via.placeholder.com/360x220"
           logo_path: "/assets/img/events/winding-tree-hackathon-prague-2018/program/logo.svg"
-          title: "Day 1"
+          title: "Day&nbsp;1"
           date: "October, 25"
           text: "&bull; Learn what the future of Blockchain in travel looks like <br><br>
                 &bull; Get hands training on platform APIs directly from Winding Tree technical leads <br><br>
@@ -66,7 +66,7 @@ event_program:
 
         - img_path: "http://via.placeholder.com/360x220"
           logo_path: "/assets/img/events/winding-tree-hackathon-prague-2018/program/logo.svg"
-          title: "Day 2"
+          title: "Day&nbsp;2"
           date: "October, 26"
           text: "&bull; Finalize your hacks and present your solutions in front of the panel of industry most forward thinking technologists<br><br>
           &bull; Learn from fellow hackers<br><br>
