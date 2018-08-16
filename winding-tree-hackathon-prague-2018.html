@@ -67,27 +67,6 @@ keywords: "winding tree, hackathon, prague, 2018, blockchain, travel"
 {% if data.event_participants %}
     <section class="event-participants py-3 py-md-5">
         <div class="container">
-            <!-- {% for participant in data.event_participants %}
-                <div class="event-participants__group">
-                    <div class="row align-items-center">
-                        <div class="col-md-2 mb-1 text-center">
-                            <img src="{{ participant.icon_url | relative_url }}" alt="{{ participant.title }}" class="event-participants__icon">
-                        </div>
-                        <div class="col-md-10">
-                            <h3 class="mb-1 text-center text-md-left">
-                                {{ participant.title }}
-                            </h3>
-                            <ul class="">
-                                {% for item in participant.list %}
-                                <li>
-                                    {{ item.item }}
-                                </li>
-                                {% endfor %}
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            {% endfor %} -->
 
             <div class="row event-participants__list">
                 {% for participant in data.event_participants %}
