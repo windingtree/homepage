@@ -32,6 +32,7 @@ event_about:
 event_participants:
     - icon_url: "/assets/img/events/winding-tree-hackathon-prague-2018/participants/1.svg"
       title: "Individual Developers"
+      url: "#event-register"
       list:
         - item: "Hack on your own, form a team or join another team"
         - item: "Get a taste of building next generation travel products on blockchain"
@@ -40,6 +41,7 @@ event_participants:
 
     - icon_url: "/assets/img/events/winding-tree-hackathon-prague-2018/participants/2.svg"
       title: "Startups"
+      url: "#event-register"
       list:
         - item: "Bring your team to get extensive complimentary training"
         - item: "Work on solutions for your existing product using Winding Tree API"
@@ -47,6 +49,7 @@ event_participants:
 
     - icon_url: "/assets/img/events/winding-tree-hackathon-prague-2018/participants/3.svg"
       title: "Airlines and Hotels"
+      url: "#event-register"
       list:
         - item: "Get your organization on the frontline of innovation"
         - item: "Bring your technical team to receive hands-on training"

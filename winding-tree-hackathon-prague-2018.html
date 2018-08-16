@@ -67,7 +67,7 @@ keywords: "winding tree, hackathon, prague, 2018, blockchain, travel"
 {% if data.event_participants %}
     <section class="event-participants py-3 py-md-5">
         <div class="container">
-            {% for participant in data.event_participants %}
+            <!-- {% for participant in data.event_participants %}
                 <div class="event-participants__group">
                     <div class="row align-items-center">
                         <div class="col-md-2 mb-1 text-center">
@@ -87,7 +87,35 @@ keywords: "winding tree, hackathon, prague, 2018, blockchain, travel"
                         </div>
                     </div>
                 </div>
-            {% endfor %}
+            {% endfor %} -->
+
+
+            <div class="row event-participants__list">
+                {% for participant in data.event_participants %}
+                    <div class="col-md-4 event-participants__item">
+                        <a class="card h-100 participant">
+                            <div class="card-body">
+                                <div class="participant__imagecontainer">
+                                    <img src="{{ participant.icon_url | relative_url }}" alt="{{ participant.title }}" class="participant__icon">
+                                </div>
+                                <h3 class="card-title participant__title">
+                                    {{ participant.title }}
+                                </h3>
+                                <ul class="participant__text">
+                                    {% for item in participant.list %}
+                                    <li>
+                                        {{ item.item }}
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        </a>
+                    </div>
+                {% endfor %}
+
+            </div>
+
+
         </div>
     </section>
 {% endif %}
