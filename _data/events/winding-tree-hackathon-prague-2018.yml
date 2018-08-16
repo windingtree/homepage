@@ -144,18 +144,10 @@ event_partners:
     title: "Hacking With Us Already"
 
     partners_list:
-        - url: "#"
-          logo_path: "/assets/img/events/winding-tree-hackathon-prague-2018/partners/1.png"
-        - url: "#"
-          logo_path: "/assets/img/events/winding-tree-hackathon-prague-2018/partners/2.svg"
-        - url: "#"
-          logo_path: "/assets/img/events/winding-tree-hackathon-prague-2018/partners/3.png"
-        - url: "#"
-          logo_path: "/assets/img/events/winding-tree-hackathon-prague-2018/partners/4.png"
-        - url: "#"
-          logo_path: "/assets/img/events/winding-tree-hackathon-prague-2018/partners/5.png"
-
-    action_url: "#"
+        - url: "https://www.hahnair.com/en"
+          logo_path: "/assets/img/events/winding-tree-hackathon-prague-2018/partners/hahnair.png"
+        
+    action_url: "https://windingtree.typeform.com/to/q1dUII"
     action_title: "Become a partner"
 
 event_gallery:
