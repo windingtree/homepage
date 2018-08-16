@@ -1,4 +1,4 @@
-title_default: "Key benefits"
+title_default: "Key Benefits"
 title_lif_token: "L&iacute;f is&nbsp;the most important underlying technology of&nbsp;the Winding Tree platform. It&nbsp;is&nbsp;used for two purposes:"
 
 suppliers_benefits:
@@ -54,11 +54,11 @@ sellers_benefits:
 
 lif_token_benefits:
     - icon_url: "/assets/img/key-benefits/8.svg"
-      title: "Payments on&nbsp;the platform"
+      title: "Payments on&nbsp;the Platform"
       text: "In&nbsp;order for an&nbsp;agency (offline or&nbsp;online) to&nbsp;book anything on&nbsp;the Winding Tree platform they will have to&nbsp;send a&nbsp;certain amount of&nbsp;L&iacute;f to&nbsp;the seller. The miner fees are also paid in&nbsp;L&iacute;f."
 
     - icon_url: "/assets/img/key-benefits/9.svg"
-      title: "Platform governance"
+      title: "Platform Governance"
       text: "Because Winding tree is&nbsp;open-source, anyone can propose a&nbsp;change to&nbsp;the platform code, perhaps in&nbsp;order to&nbsp;update a&nbsp;smart contract with some new business logic. But because the marketplace is&nbsp;decentralized, its participants have to&nbsp;approve that change."
       # link_url: "https://github.com/windingtree/"
       # link_title: "Learn more"

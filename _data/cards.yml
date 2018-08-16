@@ -1,19 +1,19 @@
 default:
     - url: "/suppliers.html"
       icon_url: "/assets/img/cards/1.svg"
-      title: "For suppliers"
+      title: "For Suppliers"
       text: "Suppliers can distribute inventory directly to points of sale, skipping costly intermediaries and bottlenecks to data."
       action: "Learn more"
 
     - url: "/sellers.html"
       icon_url: "/assets/img/cards/2.svg"
-      title: "For sellers"
+      title: "For sSellers"
       text: "Access inventory from all suppliers from a single platform with no markup fees and no barriers to entry."
       action: "Learn more"
 
     - url: "/software-vendors.html"
       icon_url: "/assets/img/cards/4.svg"
-      title: "For software vendors"
+      title: "For Software Vendors"
       text: "Build your projects on a set of open-source protocols and APIs. Be a part of the ecosystem!"
       action: "Learn more"
 
@@ -32,7 +32,7 @@ default:
 software_vendors:
     - url: "https://github.com/windingtree/wiki"
       icon_url: "/assets/img/cards/6.svg"
-      title: "Check docs"
+      title: "Check Docs"
 
     - url: "/suppliers.html"
       icon_url: "/assets/img/cards/1.svg"
@@ -45,7 +45,7 @@ software_vendors:
 foundation:
     - url: "/"
       icon_url: "/assets/img/cards/7.svg"
-      title: "Winding Tree platform"
+      title: "Winding Tree Platform"
 
     - url: "https://github.com/windingtree/"
       icon_url: "/assets/img/cards/8.svg"

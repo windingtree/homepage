@@ -7,5 +7,5 @@ actions_list:
       action_title: "Join"
       action_btn_class: "btn-primary"
     - action_url: "#event-program"
-      action_title: "Program"
+      action_title: "Agenda"
       action_btn_class: "btn-outline-light"
