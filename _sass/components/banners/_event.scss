@@ -47,6 +47,9 @@
         width: 100%;
         h1 {
             font-size: $h2-font-size;
+            @include media-breakpoint-down('sm') {
+                font-size: $h3-font-size;
+            }
         }
     }
 

@@ -1,11 +1,12 @@
 .where-to-meet {
-    &__events {
-        > div > hr {
-            &:last-of-type {
-                display: none;
-            }
-        }
-    }
+    //hides last line in event block- between events and pagination
+    // &__events {
+    //     > div > hr {
+    //         &:last-of-type {
+    //             display: none;
+    //         }
+    //     }
+    // }
 
     &__invite {
         background: #e7edfb !important;
