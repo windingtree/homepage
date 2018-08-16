@@ -2,7 +2,7 @@
 {% assign social = site.data.social %}
 
 {% if data %}
-    <section class="event-banner py-3 py-md-5 bg-secondary text-center text-lg-left">
+    <section class="event-banner py-3 py-md-5 bg-secondary text-center text-lg-left" style="background-image: url('{{ data.bg | relative_url }}')">
 
         <img src="{{ data.bg }}" alt="" class="event-banner__bg">
 
