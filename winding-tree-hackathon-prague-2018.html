@@ -79,11 +79,13 @@ keywords: "winding tree, hackathon, prague, 2018, blockchain, travel"
                                     {{ participant.title }}
                                 </h3>
                                 <ul class="participant__text">
+
                                     {% for item in participant.list %}
                                     <li>
                                         {{ item.item }}
                                     </li>
                                     {% endfor %}
+                                    
                                 </ul>
                             </div>
                         </a>
