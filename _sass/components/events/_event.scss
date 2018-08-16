@@ -136,9 +136,6 @@ $event-section-box-shadow-200: 0 10px 20px 0 rgba(0, 0, 0, .2);
 
         &__icon {
             display: inline-block;
-            //margin-top: -2rem;
-            //color: $black;
-            //font-size: 10rem;
             vertical-align: top;
         }
 
@@ -149,7 +146,6 @@ $event-section-box-shadow-200: 0 10px 20px 0 rgba(0, 0, 0, .2);
             }
 
             @include media-breakpoint-up('md') {
-                //margin-top: -2rem;
             }
         }
 
