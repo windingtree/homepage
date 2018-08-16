@@ -1,4 +1,4 @@
-title: "ICO stats"
+title: "ICO Stats"
 
 items:
     - icon_url: "/assets/img/banners/lif-ico/1.svg"
@@ -20,7 +20,7 @@ items:
           number: "6,346"
 
     - icon_url: "/assets/img/banners/lif-ico/3.svg"
-      title: "Lifs generated"
+      title: "Lifs Generated"
       number: "24,976,541"
       chart_stats:
         - title: "for backers"

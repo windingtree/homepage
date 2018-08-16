@@ -1,4 +1,4 @@
-title: "Already with us"
+title: "Already With Us"
 
 companies:
     - title: "RSK"
@@ -9,7 +9,7 @@ companies:
       text: "Winding Tree will provide its own operative system for upgradeable smart contracts in Ethereum reusing all the solutions provided by ZeppelinOS, having a direct collaboration with them on upgradeable smart contracts, on chain libraries, on chain kernels, decentralized governance, etc."
       logo_url: "/assets/img/already-with-us/companies/zeppelin.svg"
 
-developers_title: "Developers and contributors"
+developers_title: "Developers and Contributors"
 developers:
     - name: "Jakub Vysoky"
       avatar_url: "/assets/img/already-with-us/developers/jakub.jpg"
