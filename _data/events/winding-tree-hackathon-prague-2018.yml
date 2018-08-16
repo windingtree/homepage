@@ -161,5 +161,5 @@ event_partners:
 event_gallery:
     title: "Our Community Events in Action"
 
-    action_url: "#"
-    action_title: "browse all past events"
+    # action_url: "#"
+    # action_title: "browse all past events"
