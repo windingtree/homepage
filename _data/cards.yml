@@ -7,7 +7,7 @@ default:
 
     - url: "/sellers.html"
       icon_url: "/assets/img/cards/2.svg"
-      title: "For sSellers"
+      title: "For Sellers"
       text: "Access inventory from all suppliers from a single platform with no markup fees and no barriers to entry."
       action: "Learn more"
 
