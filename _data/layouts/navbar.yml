@@ -23,6 +23,9 @@ navbar_nav:
             - title: "Team"
               url: "/foundation.html#team"
 
+            - title: "Events"
+              url: "/foundation.html#events"
+
             - title: "Services"
               url: "/foundation.html#consultancy"
 
