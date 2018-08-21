@@ -49,7 +49,7 @@
         h1 {
             font-size: $h2-font-size;
             @include media-breakpoint-down('sm') {
-                font-size: $h3-font-size;
+                font-size: $h2-font-size;
             }
         }
     }
@@ -86,7 +86,7 @@
 
     .lead {
         @include media-breakpoint-down('sm') {
-            @include scale(62.5%, up);
+           // @include scale(62.5%, up);
         }
     }
 

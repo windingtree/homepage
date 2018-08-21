@@ -128,7 +128,7 @@ event_register:
         - title: "Support"
           text: "Whether it's technology expertise or sponsorship - put your organization in the spotlight of the top industry innovators and travel startups"
           admission: "Free 2 Days"
-          action_url: "https://windingtree.typeform.com/to/q1dUII"
+          action_url: "https://windingtree.typeform.com/to/Y30LY6"
           action_title: "Become a Partner"
 
         - title: "Attend"
@@ -150,7 +150,7 @@ event_partners:
         - url: "https://www.hahnair.com/en"
           logo_path: "/assets/img/events/winding-tree-hackathon-prague-2018/partners/hahnair.png"
         
-    action_url: "https://windingtree.typeform.com/to/q1dUII"
+    action_url: "https://windingtree.typeform.com/to/Y30LY6"
     action_title: "Become a partner"
 
 event_gallery:

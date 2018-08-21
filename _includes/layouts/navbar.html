@@ -15,7 +15,7 @@
                     <ul class="navbar-nav ml-auto" id="navbar-nav">
                         {% for nav_item in data.navbar_nav.nav_items %}
                             {% if nav_item.dropdown %}
-                                <li class="nav-item h5 dropdown">
+                                <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         {{ nav_item.title }}
                                     </a>
@@ -28,7 +28,7 @@
                                     </div>
                                 </li>
                             {% else %}
-                                <li class="nav-item h5">
+                                <li class="nav-item">
                                     <a href="{{ nav_item.url | relative_url }}" class="nav-link">
                                         {{ nav_item.title }}
                                     </a>
