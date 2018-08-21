@@ -1,7 +1,7 @@
 terminal: |
           var WT_Hackathon = {
               dates: 24-25 October 2018,
-              location: Prague Chech Republic,
+              location: Prague Czech Republic,
               attendees: 100,
               training: included,
               food&fun: included
