@@ -53,7 +53,7 @@ event_participants:
       list:
         - item: "Get your organization on the frontline of innovation"
         - item: "Bring your technical team to receive hands-on training"
-        - item: "Experiment with blockchain based distribution technology to future-prove your business"
+        - item: "Experiment with blockchain based distribution technology to future-proof your business"
         - item: "Bring your executive team to join industry innovators to discuss new use cases, challenges and opportunities to collaborate"
 
 event_program:
@@ -72,13 +72,13 @@ event_program:
           logo_path: ""
           title: "Day&nbsp;2"
           date: "October, 25"
-          text: "&bull; Finalize your hacks and present your solutions in front of the panel of industry most forward thinking technologists<br><br>
+          text: "&bull; Finalize your hacks and present your solutions in front of the panel of the industry's most forward thinking technologists<br><br>
           &bull; Win prizes & celebrate with us during Hacker Awards at the networking after party"
 
         - img_path: "/assets/img/events/winding-tree-hackathon-prague-2018/program/status_color.png"
           logo_path: ""
           title: "Keep on hacking"
-          text: "Winding Tree has partnered with Status hackathon (26-28 of October, Prague) - if you hack with us at Winding Tree Hackathon you will be automatically enrolled to hack at Status with us! Join us to for travel tech track and hack your social dapp with full support from our team!"
+          text: "Winding Tree has partnered with Status hackathon (26-28 of October, Prague) - if you hack with us at Winding Tree Hackathon you will automatically be enrolled to hack at Status with us! Join us to for the travel tech track and hack your social dapp with full support from our team!"
 
     program_empty: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget tempor magna."
 
@@ -93,7 +93,7 @@ event_tasks:
         - url: "#"
           icon: "mdi-github-circle"
           title: "Distributed storage"
-          text: "Optimize use of distirbuted storages for hotel inventory distribution"
+          text: "Optimize use of distributed storages for hotel inventory distribution"
         - url: "#"
           icon: "mdi-github-circle"
           title: "Airline API"
@@ -105,7 +105,7 @@ event_tasks:
         - url: "#"
           icon: "mdi-github-circle"
           title: "Dynamic pricing"
-          text: "Add use of oracles for dinamic pricing over Winding Tree hotel distirbution network"
+          text: "Add use of oracles for dinamic pricing over Winding Tree hotel distribution network"
         - url: "#"
           icon: "mdi-github-circle"
           title: "ENS"
@@ -149,6 +149,8 @@ event_partners:
     partners_list:
         - url: "https://www.hahnair.com/en"
           logo_path: "/assets/img/events/winding-tree-hackathon-prague-2018/partners/hahnair.png"
+        - url: "http://status.im"
+          logo_path: "/assets/img/events/winding-tree-hackathon-prague-2018/partners/status.png"
         
     action_url: "https://windingtree.typeform.com/to/Y30LY6"
     action_title: "Become a partner"

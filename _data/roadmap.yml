@@ -34,7 +34,7 @@ items:
           facts:
             - text: "Integrate proxy upgradeability model into LifToken."
             - text: "Move from ERC20 to&nbsp;ERC827."
-        - title: "WT Hotels Smart Contracs"
+        - title: "WT Hotels Smart Contracts"
           facts:
             - text: "Beta version."
             - text: "Booking using offchain signatures."
