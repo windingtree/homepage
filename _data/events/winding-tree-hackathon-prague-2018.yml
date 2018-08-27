@@ -153,6 +153,8 @@ event_partners:
           logo_path: "/assets/img/events/winding-tree-hackathon-prague-2018/partners/status.png"
         - url: "https://luft.net/"
           logo_path: "/assets/img/events/winding-tree-hackathon-prague-2018/partners/luft.png"
+        - url: "https://www.aircanada.com/"
+          logo_path: "/assets/img/events/winding-tree-hackathon-prague-2018/partners/aircanada.svg"
         
     action_url: "https://windingtree.typeform.com/to/Y30LY6"
     action_title: "Become a partner"
