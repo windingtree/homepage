@@ -271,7 +271,7 @@ keywords: "winding tree, hackathon, prague, 2018, blockchain, travel"
             <div class="row justify-content-center align-items-center">
                 {% for partner in data.event_partners.partners_list %}
                     <div class="col-auto m-1">
-                        <a href="{{ partner.url | relative_url }}">
+                        <a href="{{ partner.url | relative_url }}" target="_blank">
                             <img src="{{ partner.logo_path | relative_url }}" alt="" class="event-partners__logo">
                         </a>
                     </div>
