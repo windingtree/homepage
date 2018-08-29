@@ -113,7 +113,7 @@ event_tasks:
 
     action_icon: "mdi-plus"
     action_url: "https://windingtree.typeform.com/to/q1dUII"
-    action_title: "Propose your idea"
+    action_title: "Propose your idea" 
 
 event_register:
     title: "Register for Hackathon"
