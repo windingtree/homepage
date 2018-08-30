@@ -155,6 +155,12 @@ event_partners:
           logo_path: "/assets/img/events/winding-tree-hackathon-prague-2018/partners/luft.png"
         - url: "https://www.aircanada.com/"
           logo_path: "/assets/img/events/winding-tree-hackathon-prague-2018/partners/aircanada.png"
+        - url: "https://www.lufthansa.com"
+          logo_path: "/assets/img/events/winding-tree-hackathon-prague-2018/partners/lufthansa.png"
+        - url: "http://www.sciant.com/"
+          logo_path: "/assets/img/events/winding-tree-hackathon-prague-2018/partners/sciant.png"
+        - url: "https://liquidity.network/"
+          logo_path: "/assets/img/events/winding-tree-hackathon-prague-2018/partners/liquiditynet.png"
         
         
     action_url: "https://windingtree.typeform.com/to/Y30LY6"
