@@ -15,11 +15,11 @@ event_groups:
     - title: "Upcoming events"
       events:
         
-        - logo_url: "/assets/img/where-to-meet/shs-academy-logo.png"
-          title: "Swiss Innovation Day"
-          place: "Lucerne, Switzerland"
-          date: "August 29, 2018"
-          url: "http://www.swisshospitalitysolutions.ch/de/academy/swiss-innovation-day/"
+        - logo_url: "/assets/img/where-to-meet/sk.png"
+          title: "Skolkovo Tourism 2018"
+          place: "Moscow, Russia"
+          date: "September 6&ndash;7, 2018"
+          url: "https://sk.ru/foundation/events/march2018/tourism/"
 
         - logo_url: "/assets/img/where-to-meet/airplus.png"
           title: "Univ'Air Plus 2018"
@@ -34,16 +34,22 @@ event_groups:
           url: "https://ethberlin.com/"
 
         - logo_url: "/assets/img/where-to-meet/shh-logo.png"
-          title: "BACK TO THE HOSPITALITY FUTURE SUMMIT"
+          title: "Digitalisierung Ist Teamsport"
           place: "Hamburg, Germany"
           date: "September 12&ndash;14, 2018"
           url: "https://solutions.hamburg/en/"
-        - logo_url: "/assets/img/where-to-meet/mews.png"
 
-          title: "BACK TO THE HOSPITALITY FUTURE SUMMIT"
+        - logo_url: "/assets/img/where-to-meet/mews.png"
+          title: "Back To The Hospitality Future Summit"
           place: "London, UK"
           date: "September 20, 2018"
           url: "https://mewstalks.splashthat.com/"
+
+        - logo_url: "/assets/img/where-to-meet/dreamforce.png"
+          title: "Blockchain Is Just the Beginning: Distribution and Disruption"
+          place: "San Francisco, USA"
+          date: "September 12&ndash;28, 2018"
+          url: "https://success.salesforce.com/sessions?eventId=a1Q3A00001XoCSUUA3#/session/a2q3A0000028ILMQA2"
 
         - logo_url: "/assets/img/where-to-meet/HDE-2018.jpg"
           title: "The Hotel Distribution Event 2018"
@@ -78,6 +84,13 @@ event_groups:
 
     - title: "Past events"
       events:
+
+        - logo_url: "/assets/img/where-to-meet/shs-academy-logo.png"
+          title: "Swiss Innovation Day"
+          place: "Lucerne, Switzerland"
+          date: "August 29, 2018"
+          url: "http://www.swisshospitalitysolutions.ch/de/academy/swiss-innovation-day/"
+
         - logo_url: "/assets/img/where-to-meet/ethindia.png"
           title: "ETHIndia"
           place: "Bangalore, India"
