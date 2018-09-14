@@ -14,24 +14,6 @@ primary_event_action_title: "Join"
 event_groups:
     - title: "Upcoming events"
       events:
-        
-        - logo_url: "/assets/img/where-to-meet/sk.png"
-          title: "Skolkovo Tourism 2018"
-          place: "Moscow, Russia"
-          date: "September 6&ndash;7, 2018"
-          url: "https://sk.ru/foundation/events/march2018/tourism/"
-
-        - logo_url: "/assets/img/where-to-meet/airplus.png"
-          title: "Univ'Air Plus 2018"
-          place: "Paris, France"
-          date: "September 5&ndash;6, 2018"
-          url: "https://www.airplus.com/univairplusfrance/fr/startpage-univairplus.html"
-
-        - logo_url: "/assets/img/where-to-meet/ETH_Berlin.png"
-          title: "ETHBerlin"
-          place: "Berlin, Germany"
-          date: "September 7&ndash;9, 2018"
-          url: "https://ethberlin.com/"
 
         - logo_url: "/assets/img/where-to-meet/shh-logo.png"
           title: "Digitalisierung Ist Teamsport"
@@ -84,6 +66,24 @@ event_groups:
 
     - title: "Past events"
       events:
+
+        - logo_url: "/assets/img/where-to-meet/ETH_Berlin.png"
+          title: "ETHBerlin"
+          place: "Berlin, Germany"
+          date: "September 7&ndash;9, 2018"
+          url: "https://ethberlin.com/"
+
+        - logo_url: "/assets/img/where-to-meet/sk.png"
+          title: "Skolkovo Tourism 2018"
+          place: "Moscow, Russia"
+          date: "September 6&ndash;7, 2018"
+          url: "https://sk.ru/foundation/events/march2018/tourism/"
+
+        - logo_url: "/assets/img/where-to-meet/airplus.png"
+          title: "Univ'Air Plus 2018"
+          place: "Paris, France"
+          date: "September 5&ndash;6, 2018"
+          url: "https://www.airplus.com/univairplusfrance/fr/startpage-univairplus.html"
 
         - logo_url: "/assets/img/where-to-meet/shs-academy-logo.png"
           title: "Swiss Innovation Day"
