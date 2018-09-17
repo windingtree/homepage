@@ -14,7 +14,7 @@
 1. `gulp build`:
     1. To optimize images in `/assets/img/` (optimization will last for about 1 minute, be patient)
     2. And *babelify, concatenate and uglify* scripts in `/assets/js` 
-2. Then just commit, push the branch to remote repo and merge it with `gh-pages` branch, further build will be automatical:
+2. Then just commit, push the branch to remote repo and merge it with `master` branch, further build will be automatical:
     1. Gem `github-pages` will do its job 
     2. And Travis CI will run `jekyll build` with `JEKYLL_ENV=production`
 3. Proceed to [https://windingtree.github.io/winding-tree/](https://windingtree.github.io/winding-tree/) after build had finished ([check the build status here](https://github.com/windingtree/winding-tree/commits/master)).
