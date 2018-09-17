@@ -25,7 +25,7 @@ default:
 
     - url: "/foundation.html"
       icon_url: "/assets/img/cards/5.svg"
-      title: "WT Foundation"
+      title: "Foundation"
       text: "Learn more about the non-profit organization behind the project."
       action: "Learn more"
 
