@@ -57,7 +57,7 @@ suppliers:
                   - point: "Take part in a truly open ecosystem from day 1 and have a direct influence on how eventual new solutions will work."
                   - point: "Avoid limitations associated with use of legacy technology systems." 
                   - point: "Enable inventory distribution directly onto a supplier mobile app without any GDS or TMC involvement."
-                  - point: "Embed new service tags and pricing features in the WT layer which are invisible for the traditional distribution landscape."
+                  - point: "Embed new service tags and pricing features in the Winding Tree layer which are invisible for the traditional distribution landscape."
                 links:
                   - title: "Our github"
                     url: "https://github.com/windingtree/"

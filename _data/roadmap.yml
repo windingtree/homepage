@@ -22,10 +22,10 @@ items:
           facts:
             - text: "Commence development and release workflow to the community."
             - text: "First release of api, js-libs and demo app."
-        - title: "WT Hotels Smart Contracts"
+        - title: "Hotels Smart Contracts"
           facts:
             - text: "Alpha version."
-        - title: "WT API Architecture Design"
+        - title: "API Architecture Design"
 
     - icon_url: "/assets/img/roadmap/3.svg"
       quarter: "2018 Q2"
@@ -34,12 +34,12 @@ items:
           facts:
             - text: "Integrate proxy upgradeability model into LifToken."
             - text: "Move from ERC20 to&nbsp;ERC827."
-        - title: "WT Hotels Smart Contracts"
+        - title: "Hotels Smart Contracts"
           facts:
             - text: "Beta version."
             - text: "Booking using offchain signatures."
             - text: "Inventory information, availability and price through decentralized database."
-        - title: "WT Hotel Testnet (WT Prototype)"
+        - title: "Hotel Testnet (WT Prototype)"
           facts:
             - text: "Integration with PMS and OTA using&nbsp;WT api."
         - title: "L&iacute;f Token Wallet"
@@ -52,24 +52,24 @@ items:
         - title: "Open source data exchange standards for hotels"
           facts:
             - text: "API specification and documentation."
-        - title: "WT Hotels Smart Contracts"
+        - title: "Hotels Smart Contracts"
           facts:
             - text: "Stable version."
-        - title: "WT Airlines smart contracts"
+        - title: "Airlines smart contracts"
           facts:
             - text: "Alpha version."
 
     - icon_url: "/assets/img/roadmap/5.svg"
       quarter: "2018 Q4"
       facts_groups:
-        - title: "WT Beta V1.0 (mainnet & testnet)"
+        - title: "Beta V1.0 (mainnet & testnet)"
           facts:
             - text: "Scalable"
             - text: "Affordable"
             - text: "Usable in real world (feature-wise)"
             - text: "Runs on Ethereum mainnet"
             - text: "Upgradeable"
-            - text: "Includes: API for PMS, Public Demo APP, WT Explorer, Lif Wallet"
+            - text: "Includes: API for PMS, Public Demo APP, Hotel Explorer, Lif Wallet"
 
 
     - icon_url: "/assets/img/roadmap/6.svg"

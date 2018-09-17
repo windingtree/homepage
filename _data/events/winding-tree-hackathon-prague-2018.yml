@@ -1,5 +1,5 @@
 terminal: |
-          var WT_Hackathon = {
+          var Hackathon = {
               dates: 24-25 October 2018,
               location: Prague Czech Republic,
               attendees: 100,
@@ -161,6 +161,8 @@ event_partners:
           logo_path: "/assets/img/events/winding-tree-hackathon-prague-2018/partners/sciant.png"
         - url: "https://liquidity.network/"
           logo_path: "/assets/img/events/winding-tree-hackathon-prague-2018/partners/liquiditynet.png"
+        - url: "http://www.swissport.com/"
+          logo_path: "/assets/img/events/winding-tree-hackathon-prague-2018/partners/Swissport.png"
         
         
     action_url: "https://windingtree.typeform.com/to/Y30LY6"
