@@ -165,6 +165,10 @@ event_partners:
           logo_path: "/assets/img/events/winding-tree-hackathon-prague-2018/partners/Swissport.png"
         - url: "https://www.airfrance.com"
           logo_path: "/assets/img/events/winding-tree-hackathon-prague-2018/partners/airfrance.svg"
+        - url: "https://github.com/ethersphere/swarm"
+          logo_path: "/assets/img/events/winding-tree-hackathon-prague-2018/partners/swarm.png"
+        - url: "https://ens.domains/"
+          logo_path: "/assets/img/events/winding-tree-hackathon-prague-2018/partners/ens.png"
         
         
     action_url: "https://windingtree.typeform.com/to/Y30LY6"
