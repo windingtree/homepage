@@ -15,22 +15,10 @@ event_groups:
     - title: "Upcoming events"
       events:
 
-        - logo_url: "/assets/img/where-to-meet/shh-logo.png"
-          title: "Digitalisierung Ist Teamsport"
-          place: "Hamburg, Germany"
-          date: "September 12&ndash;14, 2018"
-          url: "https://solutions.hamburg/en/"
-
-        - logo_url: "/assets/img/where-to-meet/mews.png"
-          title: "Back To The Hospitality Future Summit"
-          place: "London, UK"
-          date: "September 20, 2018"
-          url: "https://mewstalks.splashthat.com/"
-
         - logo_url: "/assets/img/where-to-meet/dreamforce.png"
           title: "Blockchain Is Just the Beginning: Distribution and Disruption"
           place: "San Francisco, USA"
-          date: "September 12&ndash;28, 2018"
+          date: "September 25&ndash;28, 2018"
           url: "https://success.salesforce.com/sessions?eventId=a1Q3A00001XoCSUUA3#/session/a2q3A0000028ILMQA2"
 
         - logo_url: "/assets/img/where-to-meet/HDE-2018.jpg"
@@ -67,6 +55,18 @@ event_groups:
     - title: "Past events"
       events:
 
+        - logo_url: "/assets/img/where-to-meet/mews.png"
+          title: "Back To The Hospitality Future Summit"
+          place: "London, UK"
+          date: "September 20, 2018"
+          url: "https://mewstalks.splashthat.com/"
+
+        - logo_url: "/assets/img/where-to-meet/shh-logo.png"
+          title: "Digitalisierung Ist Teamsport"
+          place: "Hamburg, Germany"
+          date: "September 12&ndash;14, 2018"
+          url: "https://solutions.hamburg/en/"
+
         - logo_url: "/assets/img/where-to-meet/ETH_Berlin.png"
           title: "ETHBerlin"
           place: "Berlin, Germany"
@@ -102,16 +102,19 @@ event_groups:
           place: "Macau, China"
           date: "July 24&ndash;26, 2018"
           url: "https://www.htng.org/page/APC_2018"
+
         - logo_url: "/assets/img/where-to-meet/iata-as.png"
           title: "IATA Aviation Data Symposium & AI Lab"
           place: "Berlin, Germany"
           date: "June 19&ndash;21, 2018"
           url: "http://www.iata.org/events/Pages/aviation-data-symposium.aspx"
+
         - logo_url: "/assets/img/where-to-meet/lemiami.png"
           title: "LE Miami"
           place: "Miami, FL"
           date: "June 11&ndash;12, 2018"
           url: "https://moi.lemiami.com/"
+          
         - logo_url: "/assets/img/where-to-meet/ttc.png"
           title: "TravelTechCon 2018"
           place: "San Francisco, CA"
