@@ -15,12 +15,6 @@ event_groups:
     - title: "Upcoming events"
       events:
 
-        - logo_url: "/assets/img/where-to-meet/dreamforce.png"
-          title: "Blockchain Is Just the Beginning: Distribution and Disruption"
-          place: "San Francisco, USA"
-          date: "September 25&ndash;28, 2018"
-          url: "https://success.salesforce.com/sessions?eventId=a1Q3A00001XoCSUUA3#/session/a2q3A0000028ILMQA2"
-
         - logo_url: "/assets/img/where-to-meet/HDE-2018.jpg"
           title: "The Hotel Distribution Event 2018"
           place: "London, UK"
@@ -54,6 +48,12 @@ event_groups:
 
     - title: "Past events"
       events:
+
+        - logo_url: "/assets/img/where-to-meet/dreamforce.png"
+          title: "Blockchain Is Just the Beginning: Distribution and Disruption"
+          place: "San Francisco, USA"
+          date: "September 25&ndash;28, 2018"
+          url: "https://success.salesforce.com/sessions?eventId=a1Q3A00001XoCSUUA3#/session/a2q3A0000028ILMQA2"
 
         - logo_url: "/assets/img/where-to-meet/mews.png"
           title: "Back To The Hospitality Future Summit"
