@@ -91,7 +91,7 @@ event_program:
         - img_path: "/assets/img/events/winding-tree-hackathon-prague-2018/program/status_color.png"
           logo_path: ""
           title: "Keep on hacking"
-          text: "<b>Keep on Hacking</b> - join us to hack Dapps at #CryptoLife Hackathon by Status where Winding Tree will lead the travel track and hack along with the community! All approved Winding Tree Hackathon participants are eligible to automatically enroll into Status Hackathon." 
+          text: "<b>Keep on Hacking</b> - join us to hack Dapps at #CryptoLife Hackathon by Status where Winding Tree will lead the travel track and hack along with the community!<br><br> <b>All approved Winding Tree Hackathon participants are eligible to automatically enroll into Status Hackathon.</b>" 
 
 
     program_empty: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget tempor magna."
@@ -146,11 +146,10 @@ event_register:
           action_title: "Become a Partner"
 
         - title: "Attend"
-          text: "Join the demo day to watch hackers present their solutions and network with the most innovative industry teams. Attendee tickets will be released in late September, spots are limited. Signup for our newsletter to get your early invite."
+          text: "Join the hackathon to learn more about Winding Tree platform and the state of blockchain distribution in travel, watch hackers present their solutions and network with the most innovative industry teams. Attendee tickets are released and spots are limited."
           admission: "tickets"
-          action_url: "http://eepurl.com/c7ytn5"
-          action_title: "Signup"
-          pay: true
+          action_url: "https://www.eventbrite.com/e/winding-tree-hackathon-hack-travel-industry-on-blockchain-tickets-49409307569"
+          action_title: "Attend"
 
     extra:
         # title: "Keep on hacking"
