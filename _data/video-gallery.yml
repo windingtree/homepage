@@ -1,6 +1,12 @@
 title: "Video gallery"
 
 videos:
+
+    - src: "https://www.youtube.com/embed/cSblZNuaEAY"
+      thumbnail: "https://img.youtube.com/vi/cSblZNuaEAY/0.jpg"
+      aspect_ratio: "16by9"
+      title: "Winding Tree Development Progress 2018"
+
     - src: "https://youtube.com/embed/tAXZxDcsApM"
       thumbnail: "https://img.youtube.com/vi/tAXZxDcsApM/0.jpg"
       aspect_ratio: "16by9"
@@ -16,7 +22,3 @@ videos:
       thumbnail: "https://img.youtube.com/vi/_qer1qd68eQ/0.jpg"
       title: "Winding Tree Explainer"
 
-    - src: "https://www.youtube.com/embed/Gldsqfb_oV8"
-      aspect_ratio: "16by9"
-      thumbnail: "https://img.youtube.com/vi/Gldsqfb_oV8/0.jpg"
-      title: "Hamburg Aviation Conference"
