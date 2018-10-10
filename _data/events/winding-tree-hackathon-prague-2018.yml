@@ -186,6 +186,13 @@ event_partners:
           logo_path: "/assets/img/events/winding-tree-hackathon-prague-2018/partners/swarm.png"
         - url: "https://ens.domains/"
           logo_path: "/assets/img/events/winding-tree-hackathon-prague-2018/partners/ens.png"
+
+        - url: "https://bounties.network/"
+          logo_path: "/assets/img/events/winding-tree-hackathon-prague-2018/partners/bounties-logo.svg"
+        - url: "http://www.erevmax.com/"
+          logo_path: "/assets/img/events/winding-tree-hackathon-prague-2018/partners/erevmax.png"
+        - url: "https://www.traveltechcon.com/"
+          logo_path: "/assets/img/events/winding-tree-hackathon-prague-2018/partners/ttc-white-bg.png"
         
         
     action_url: "https://windingtree.typeform.com/to/Y30LY6"
