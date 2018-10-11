@@ -1,0 +1,75 @@
+{% assign data = include.data %}
+
+{% if data %}
+    <section class="py-3 py-md-5 open-source-banner flex" id="page-banner">
+        <div class="container">
+            <div class="row mt-4">
+                <div class="col-md-7"><h2 class="text-white">{{ data.title }}</h2></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-5 mb-1">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-7">
+
+                    <h3 class="mb-1">Useful links:</h3>
+                    {% if data.useful_links %}
+                        <ul>
+                            {% for link in data.useful_links %}
+                                <li class="pb-1"> {{ link.link }} </li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-2 my-3 my-md-5">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-7">
+
+                    <h3 class="mb-1">{{ data.schedule_header }}</h3>    
+
+                    <div class="container">
+                        {% if data.schedule %}
+                            {% for day in data.schedule %}
+                                <div class="mb-1">
+                                    <h5 class="mt-1"> {{ day.day }}</h5>
+                                    <p class="mb-1">Location: <a href="{{day.location_url}}">{{day.location_name}}</a>
+                                        {% if day.timeline %}
+                                            {% for activity in day.timeline %}
+                                                <div class="pb-1 pl-1">
+                                                    <p><b>{{activity.time}}</b> {{activity.activity_name}}</p>
+
+                                                        {% if activity.points %}
+                                                            <ul class="pt-1">
+                                                                {% for point in activity.points %}
+                                                                    <li class="">
+                                                                        {{point.point}}
+                                                                    </li>
+                                                                {% endfor %}
+                                                            </ul>
+                                                        {% endif %}
+                                                  </div>
+                                            {% endfor %}
+                                        {% endif %}
+                                </div>
+                            {% endfor %}
+                        {% endif %}
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+{% endif %}
