@@ -63,4 +63,13 @@ mentions:
     - url: "https://thenextweb.com/money/2017/09/08/1075124/"
       logo_url: "/assets/img/in-the-press/mentions/tnw.svg"
 
+    - url: "https://www.ft.com/content/06bb9a76-c7b7-11e8-ba8f-ee390057b8c9"
+      logo_url: "/assets/img/in-the-press/mentions/financial-times.png"
+
+    - url: "https://finance.yahoo.com/news/world-fifth-largest-airline-firm-134000588.html"
+      logo_url: "/assets/img/in-the-press/mentions/yahoofinance.png"
+
+    - url: "https://www.investing.com/news/cryptocurrency-news/leading-airline-consortium-air-franceklm-mulls-blockchain-solutions-1634081"
+      logo_url: "/assets/img/in-the-press/mentions/investingcom.png"
+
 
