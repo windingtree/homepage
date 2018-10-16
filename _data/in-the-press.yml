@@ -1,6 +1,13 @@
 title: "In&nbsp;the press"
 
 quotes:
+
+    - company_title: "Air France-KLM"
+      company_logo_url: "/assets/img/in-the-press/quotes/airfranceklm.svg"
+      text: "&quot;We are proud to be one of the first airline groups to join Winding Tree to develop Blockchain technology” said Sonia Barrière, EVP Strategy and Innovation at Air France-KLM.  “With a long-standing commitment to innovation with start-ups and partners, Air France-KLM is constantly creating the future of travel and devising solutions to make the travel experience easier and more personalized. With Blockchain technology, we aim to revolutionize exchanges within the travel industry for our customers, companies and start-ups...&quot;"
+      link_url: "https://www.airfranceklm.com/en/news/air-france-klm-partners-winding-tree-strengthen-innovation-travel-industry-using-blockchain"
+      link_title: "Read full article"
+
     - company_title: "Business Insider"
       company_logo_url: "/assets/img/in-the-press/quotes/businessinsider.png"
       person:
@@ -11,11 +18,11 @@ quotes:
       link_url: "http://nordic.businessinsider.com/a-norwegian-hotel-billionaire-wants-to-use-blockchain-to-cut-out-expedia--/"
       link_title: "Read full article"
 
-    - company_title: "Travel Weekly"
-      company_logo_url: "/assets/img/in-the-press/quotes/travelweekly.png"
-      text: "&quot;And because the travel industry might have more middlemen than any other sector, Phocuswright asserted in a recent report that &quot;blockchain technology will likely have a major disruptive impact on the way travel suppliers and intermediaries do business...&quot;"
-      link_url: "https://www.travelweekly.com/Travel-News/Travel-Technology/Crypto-Travel-Blockchain-could-bring-big-changes-to-industry"
-      link_title: "Read full article"
+    # - company_title: "Travel Weekly"
+    #   company_logo_url: "/assets/img/in-the-press/quotes/travelweekly.png"
+    #   text: "&quot;And because the travel industry might have more middlemen than any other sector, Phocuswright asserted in a recent report that &quot;blockchain technology will likely have a major disruptive impact on the way travel suppliers and intermediaries do business...&quot;"
+    #   link_url: "https://www.travelweekly.com/Travel-News/Travel-Technology/Crypto-Travel-Blockchain-could-bring-big-changes-to-industry"
+    #   link_title: "Read full article"
 
     - company_title: "Coindesk"
       company_logo_url: "/assets/img/in-the-press/quotes/coindesk.png"
