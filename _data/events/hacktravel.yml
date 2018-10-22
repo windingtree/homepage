@@ -26,7 +26,7 @@ schedule:
             activity_name: Tech Talks (Main Hall)
             points:
                 - point: Intro to Smart Contracts (Augusto Lemble, Winding Tree Blockchain Architect)
-                - point: Introduction to Ethereum Name Server (Makoto Inoue, ENS Developer)
+                - point: Introduction to Ethereum Name Service (Makoto Inoue, ENS Developer)
                 - point: Introduction to Swarm Distributed Databases (Elad Nachmias, Swarm Developer)
                 - point: State of Distribution Tech in Hospitality (Reuel Ghosh, Founder of eReMax)
                 - point: Winding Tree Platform Overview (Core Winding Tree Developers)
