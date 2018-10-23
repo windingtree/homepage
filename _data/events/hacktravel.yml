@@ -28,7 +28,6 @@ schedule:
                 - point: Intro to Smart Contracts (Augusto Lemble, Winding Tree Blockchain Architect)
                 - point: Introduction to Ethereum Name Service (Makoto Inoue, ENS Developer)
                 - point: Introduction to Swarm Distributed Databases (Elad Nachmias, Swarm Developer)
-                - point: State of Distribution Tech in Hospitality (Reuel Ghosh, Founder of eReMax)
                 - point: Winding Tree Platform Overview (Core Winding Tree Developers)
 
           - time: "12:00pm - 1:00pm:"
@@ -53,6 +52,11 @@ schedule:
 
           - time: "9:00am - 10:00am:"
             activity_name: Winding Tree Platform Demos (Bitcoin Coffee)
+
+          - time: "10:00am - 11:00am:"
+            activity_name: Tech Talks (Main Hall)
+            points:
+              - point: State of Distribution Tech in Hospitality (Reuel Ghosh, Founder of eReMax)
 
           - time: "10:00am - 2:00pm:"
             activity_name: Hacking Continues (Coworking Space + Bitcoin Coffee)
