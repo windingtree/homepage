@@ -1,36 +1,41 @@
 <!doctype html>
 
 <html lang="en" class="mod_no-js">
-    {% include layouts/head.html %}
+{% include layouts/head.html %}
 
-    {% assign body_class = "inner-page" %}
+{% assign body_class = "inner-page" %}
 
-    {% if page.url == "/" %}
-        {% assign body_class = "index-page" %}
-    {% endif %}
+{% if page.url == "/" %}
+{% assign body_class = "index-page" %}
+{% endif %}
 
-    <body class="{{ body_class }}">
-        <div class="my-2 my-md-2" style="z-index: 99999999">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-8">
-                        <p>Participating in the Hackathon? <a href="https://blog.windingtree.com/your-hacktravel-hackathon-checklist-1641b20e1139">Here's</a> everything you need to maximize your experience - schedule, communication channels, resources</p>
-                    </div>
+<body class="{{ body_class }}">
+    <div class="alert alert-info alert-dismissible fade show" role="alert" style="z-index: 99999999">
+        <div class="container my-2 my-md-2">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <p>Participating in the Hackathon? <a href="https://blog.windingtree.com/your-hacktravel-hackathon-checklist-1641b20e1139">Here's</a>
+                        everything you need to maximize your experience - schedule, communication channels, resources</p>
                 </div>
             </div>
         </div>
-        {% include layouts/navbar.html %}
+    </div>
+    {% include layouts/navbar.html %}
 
-        <main>
-            {{ content }}
-        </main>
+    <main>
+        {{ content }}
+    </main>
 
-        {% include layouts/actions.html %}
-        
-        {% include layouts/ready-to-use.html %}
+    {% include layouts/actions.html %}
 
-        {% include layouts/footer.html %}
+    {% include layouts/ready-to-use.html %}
 
-        {% include layouts/scripts.html %}
-    </body>
+    {% include layouts/footer.html %}
+
+    {% include layouts/scripts.html %}
+</body>
+
 </html>
