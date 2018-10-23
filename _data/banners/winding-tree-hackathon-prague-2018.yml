@@ -6,6 +6,6 @@ actions_list:
     - action_url: "#event-register"
       action_title: "Join"
       action_btn_class: "btn-primary"
-    - action_url: "#event-program"
-      action_title: "Agenda"
+    - action_url: "http://crypto.livepeer.tv/"
+      action_title: "Watch Livestream"
       action_btn_class: "btn-outline-light"
