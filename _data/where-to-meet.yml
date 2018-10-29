@@ -15,23 +15,6 @@ event_groups:
     - title: "Upcoming events"
       events:
 
-        - logo_url: "/assets/img/where-to-meet/HDE-2018.jpg"
-          title: "The Hotel Distribution Event 2018"
-          place: "London, UK"
-          date: "October 3, 2018"
-          url: "http://hoteldistributionevent.com/"
-
-        - logo_url: "/assets/img/where-to-meet/eyefortravel.png"
-          title: "EyeforTravel North America 2018"
-          place: "Las Vegas, USA"
-          date: "October 18&ndash;19, 2018"
-          url: "https://events.eyefortravel.com/travel-distribution-summit-north-america/"
-
-        - logo_url: "/assets/img/where-to-meet/status.jpg"
-          title: "#CryptoLife Hackathon"
-          place: "Prague, Czech Republic"
-          date: "October 26&ndash;28, 2018"
-          url: "https://hackathon.status.im/"
 
         - logo_url: "/assets/img/where-to-meet/ethdevcon.png"
           title: "Ethereum DevCon"
@@ -45,9 +28,33 @@ event_groups:
           date: "November 27&ndash;28, 2018"
           url: "https://centreforaviation.com/analysis/reports/capas-world-aviation-summit-in-berlin-2728-nov-2018-411103"
 
+        - logo_url: "/assets/img/where-to-meet/hamburg.png"
+          title: "Hamburg Aviation Conference"
+          place: "Hamburg, Germany"
+          date: "February 21&ndash;22, 2019"
+          url: "https://www.hamburgaviationconference.com/"
+
 
     - title: "Past events"
       events:
+
+        - logo_url: "/assets/img/where-to-meet/status.jpg"
+          title: "#CryptoLife Hackathon"
+          place: "Prague, Czech Republic"
+          date: "October 26&ndash;28, 2018"
+          url: "https://hackathon.status.im/"
+
+        - logo_url: "/assets/img/where-to-meet/eyefortravel.png"
+          title: "EyeforTravel North America 2018"
+          place: "Las Vegas, USA"
+          date: "October 18&ndash;19, 2018"
+          url: "https://events.eyefortravel.com/travel-distribution-summit-north-america/"
+
+        - logo_url: "/assets/img/where-to-meet/HDE-2018.jpg"
+          title: "The Hotel Distribution Event 2018"
+          place: "London, UK"
+          date: "October 3, 2018"
+          url: "http://hoteldistributionevent.com/"
 
         - logo_url: "/assets/img/where-to-meet/dreamforce.png"
           title: "Blockchain Is Just the Beginning: Distribution and Disruption"

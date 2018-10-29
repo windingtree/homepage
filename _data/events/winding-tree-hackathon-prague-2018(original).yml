@@ -4,7 +4,8 @@ terminal: |
               location: Prague Czech Republic,
               venue: Paralelni Polis,
               attendees: 100,
-              status: completed...
+              training: included,
+              food&fun: included
           }
           _
 
