@@ -9,7 +9,7 @@ primary_event_logo_sm: "/assets/img/where-to-meet/primary-event/logo_sm.svg"
 primary_event_logo_md: "/assets/img/where-to-meet/primary-event/logo_md.svg"
 primary_event_title: "Hack Travel Industry"
 primary_event_caption: "Prague, Oct. 24-25"
-primary_event_action_title: "Join"
+primary_event_action_title: "Recap"
 
 event_groups:
     - title: "Upcoming events"
