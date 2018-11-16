@@ -1,20 +1,20 @@
 {
   "name": "winding-tree",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "main": "index.js",
-  "repository": "https://github.com/vecoalla/winding-tree.git/",
-  "author": "Vyacheslav Efremenko <slava@coalla.ru>",
-  "license": "MIT",
-  "dependencies": {
-    "modernizr": "^3.6.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/windingtree/homepage.git"
   },
+  "author": "Winding Tree developers <dev@windingtree.com>",
+  "license": "MIT",
+  "dependencies": {},
   "devDependencies": {
-    "babel-preset-env": "^1.7.0",
-    "babel-register": "^6.26.0",
-    "gulp": "gulpjs/gulp#4.0",
-    "gulp-babel": "^7.0.1",
-    "gulp-concat": "^2.6.1",
-    "gulp-imagemin": "^4.1.0",
-    "gulp-uglify": "^3.0.0"
+    "babel-preset-env": "^1.7.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
   }
 }
