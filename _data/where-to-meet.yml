@@ -15,13 +15,6 @@ event_groups:
     - title: "Upcoming events"
       events:
 
-
-        - logo_url: "/assets/img/where-to-meet/ethdevcon.png"
-          title: "Ethereum DevCon"
-          place: "Prague, Czech Republic"
-          date: "October 30 &ndash; November 2, 2018"
-          url: "https://devcon4.ethereum.org/"
-
         - logo_url: "/assets/img/where-to-meet/capalogo.png"
           title: "CAPA's World Aviation Summit"
           place: "Berlin, Germany"
@@ -34,9 +27,21 @@ event_groups:
           date: "February 21&ndash;22, 2019"
           url: "https://www.hamburgaviationconference.com/"
 
+        - logo_url: "/assets/img/where-to-meet/RE.jpg"
+          title: "RE Conference"
+          place: "Hamburg, Germany"
+          date: "March 14, 2019"
+          url: "https://www.natm.nl/"
+
 
     - title: "Past events"
       events:
+
+        - logo_url: "/assets/img/where-to-meet/ethdevcon.png"
+          title: "Ethereum DevCon"
+          place: "Prague, Czech Republic"
+          date: "October 30 &ndash; November 2, 2018"
+          url: "https://devcon4.ethereum.org/"
 
         - logo_url: "/assets/img/where-to-meet/status.jpg"
           title: "#CryptoLife Hackathon"
