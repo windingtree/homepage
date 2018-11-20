@@ -1,12 +1,11 @@
-language: ruby
-rvm:
-- 2.5.1
+language: node_js
 notifications:
   email: false
+cache: npm
 branches:
   only:
     - master
-script: "bundle exec jekyll build JEKYLL_ENV=production"
+script: "npm run build"
 deploy:
   provider: pages
   skip_cleanup: true
