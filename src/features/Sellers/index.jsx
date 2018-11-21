@@ -1,5 +1,5 @@
 import React from "react";
 
-const Sellers = () => <> {Sellers} </>;
+const Sellers = () => <div/>
 
 export default Sellers;

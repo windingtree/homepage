@@ -1,5 +1,5 @@
 import React from "react";
 
-const Foundation = () => <> {Foundation} </>;
+const Foundation = () => <div>Foundation</div>
 
 export default Foundation;

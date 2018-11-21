@@ -1,5 +1,5 @@
 import React from "react";
 
-const HackTravel = () => <> {HackTravel} </>;
+const HackTravel = () => <div>Main</div>
 
 export default HackTravel;

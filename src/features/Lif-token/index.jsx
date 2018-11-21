@@ -1,5 +1,5 @@
 import React from "react";
 
-const LifToken = () => <> {LifToken} </>;
+const LifToken = () => <div/>
 
 export default LifToken;

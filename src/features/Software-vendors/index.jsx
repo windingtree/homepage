@@ -1,5 +1,5 @@
 import React from "react";
 
-const SoftwareVendors = () => <> {SoftwareVendors} </>;
+const SoftwareVendors = () => <div/>
 
 export default SoftwareVendors;
