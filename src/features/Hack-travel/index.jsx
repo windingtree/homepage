@@ -1,5 +1,5 @@
-import React from "react";
+import React from 'react';
 
-const HackTravel = () => <div/>;
+const HackTravel = () => <div />;
 
 export default HackTravel;

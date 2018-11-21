@@ -1,5 +1,5 @@
-import React from "react";
+import React from 'react';
 
-const SoftwareVendors = () => <div/>
+const SoftwareVendors = () => <div />;
 
 export default SoftwareVendors;

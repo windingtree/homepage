@@ -1,5 +1,5 @@
-import React from "react";
+import React from 'react';
 
-const StartupsAndDevelopers = () => <div/>
+const StartupsAndDevelopers = () => <div />;
 
 export default StartupsAndDevelopers;

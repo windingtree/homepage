@@ -1,5 +1,5 @@
-import React from "react";
+import React from 'react';
 
-const Sellers = () => <div/>
+const Sellers = () => <div />;
 
 export default Sellers;

@@ -1,5 +1,5 @@
-import React from "react";
+import React from 'react';
 
-const LifToken = () => <div/>
+const LifToken = () => <div />;
 
 export default LifToken;
