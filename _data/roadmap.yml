@@ -1,86 +1,190 @@
 title: "Roadmap"
 
-items:
-    - icon_url: "/assets/img/roadmap/1.svg"
-      quarter: "2017"
-      facts_groups:
-        - title: "Foundation"
-          facts:
-            - text: "Team"
-            - text: "Roadmap"
-            - text: "Pre-ICO"
-            - text: "Legal status"
+stage:
+  - year: "2018"
+    quarter: "Q3"
+    active: true
+    collapsed: false
+    data_group:
 
-    - icon_url: "/assets/img/roadmap/2.svg"
-      quarter: "2018 Q1"
-      facts_groups:
-        - title: "Token Distribution"
-          facts:
-            - text: "ICO and Token Generation Event (TGE)"
-            - text: "Execute market validation mechanism."
-        - title: "Developers Introduction"
-          facts:
-            - text: "Commence development and release workflow to the community."
-            - text: "First release of api, js-libs and demo app."
-        - title: "Hotels Smart Contracts"
-          facts:
-            - text: "Alpha version."
-        - title: "API Architecture Design"
-
-    - icon_url: "/assets/img/roadmap/3.svg"
-      quarter: "2018 Q2"
-      facts_groups:
-        - title: "Hotel Data Standards"
-          facts:
-            - text: <a href="https://windingtree.github.io/docs/swagger-ui/">Hotel Data Standards designed</a>
-        - title: "Read API & Write API"
-          facts:
-            - text: Started development of <a href="https://github.com/windingtree/wiki/blob/master/developer-resources.md">Winding Tree APIs</a> for easy access to ecosystem features
-        - title: "R&D: ERC827 token and Distributed Databases "
-          facts:
-            - text: "Our engineers research and develop more functional ERC827 token standard than usual ERC20 one. We also work on best ways to store inventory in distributed databases like Swarm"
-
-    - icon_url: "/assets/img/roadmap/4.svg"
-      quarter: "2018 Q3"
-      facts_groups:
-        - title: "Hotel Booking App for ETH Berlin"
-          facts:
-            - text: "We created first in the world crypto booking applications and launched it for ETH Berlin conference. It allowed visitors to book accomodation and pay with crypto currencies by utilizing Winding Tree features and smart contracts"
-        - title: "Hotel Explorer"
-          facts:
-            - text: We relesed first version of <a href="https://hotel-explorer-playground.windingtree.com/">Hotel Explorer</a> - a demo application where we are implementing all Winding Tree features dealing with distribution of hotel inventory
-        - title: "Availability"
-          facts:
-            - text: We developed a possibility for hotels to store <a href="https://trello.com/c/xJlWuzWI/73-3-availability">rooms availability</a> in decentralised database
-        - title: "Airline ecosystem"
-          facts:
-            - text: "Development of airline ecosystem started"
-
-    - icon_url: "/assets/img/roadmap/5.svg"
-      quarter: "2018 Q4"
-      facts_groups:
-        - title: "Airline ecosystem"
-          facts:
-            - text: "Continue working on airline ecosystem"
-        - title: "New features for Hotel ecosystem"
-          facts:
-            - text: Development of <a href="https://trello.com/c/zhALr7QO/97-realtime-availability-proof-of-concept">real-time availibility</a>
-            - text: Development of <a href="https://trello.com/c/mRBbn91R/58-8-simple-booking">booking process</a> and reseach payment options 
-        - title: "Hotel Explorer"
-          facts:
-            - text: integrating new Winding Tree features in Hotel Explorer
-        - title: "Search API"
-          facts:
-            - text: <a href="https://trello.com/c/gPR3sXLt">Find hotels around</a>
-            - text: <a href="https://trello.com/c/5n4KU99v">Fulltext search</a> 
-            - text: <a href="https://trello.com/c/XKch2IgV">Parametrical search</a> 
+      - title: "Platform"
+        item:
+          - text: "First"
+            icon: "circle-outline"
+            tooltip: "This is the tooltip content"
+          - text: "Second"
+            icon: "checkbox-marked-circle"
+            tooltip: "This is the tooltip content"
+            badge:
+                - text: "issue"
+                - text: "bug"
+          - text: "Third"
+            icon: "circle-slice-4"
+            tooltip: "This is the tooltip content"
+            collapsed: true
+            subitem:
+              - text: "Subitem text 1"
+                icon: "circle-outline"
+                tooltip: "This is the tooltip content"
+              - text: "Subitem text 2 lorem ipsum dolor sit amet lorem ipsum dolor."
+                icon: "checkbox-marked-circle"
+                tooltip: "This is the tooltip content"
 
 
+      - title: "R&D"
+        item:
+          - text: "First"
+            icon: "circle-outline"
+            tooltip: "This is the tooltip content"
+          - text: "Second"
+            btn:
+                - label: "Join"
+                  link: "https://github.com/windingtree"
+                  style: "primary"
+            icon: "checkbox-marked-circle"
+            tooltip: "This is the tooltip content"
+          - text: "Third"
+            icon: "circle-slice-4"
+            tooltip: "This is the tooltip content"
+            collapsed: true
+            subitem:
+              - text: "Subitem text 1"
+                icon: "circle-outline"
+                tooltip: "This is the tooltip content"
+              - text: "Subitem text 2"
+                icon: "checkbox-marked-circle"
+                tooltip: "This is the tooltip content"
 
-    - icon_url: "/assets/img/roadmap/6.svg"
-      quarter: "2019"
-      facts_groups:
-        - title: "The Roadmap for 2019"
-          facts: 
-            - text: "will be published in the last quarter of 2018, with main focus on integrating the airline industry in the WT network, expand the developer community, improve platform security and governance."
+
+      - title: "Community"
+        item:
+          - text: "First"
+            icon: "circle-outline"
+            tooltip: "This is the tooltip content"
+          - text: "Second"
+            btn:
+                - label: "Blog"
+                  link: "https://github.com/windingtree"
+                  style: "outline-dark"
+            icon: "checkbox-marked-circle"
+            tooltip: "This is the tooltip content"
+          - text: "Third"
+            icon: "circle-slice-4"
+            tooltip: "This is the tooltip content"
+            subitem:
+              - text: "Subitem text 1"
+                icon: "circle-outline"
+                tooltip: "This is the tooltip content"
+              - text: "Subitem text 2"
+                icon: "checkbox-marked-circle"
+                tooltip: "This is the tooltip content"
+
+
+      - title: "Foundation"
+        item:
+          - text: "First"
+            icon: "circle-outline"
+            tooltip: "This is the tooltip content"
+          - text: "Second"
+            icon: "checkbox-marked-circle"
+            tooltip: "This is the tooltip content"
+          - text: "Third"
+            icon: "circle-slice-4"
+            tooltip: "This is the tooltip content"
+            subitem:
+              - text: "Subitem text 1"
+                icon: "circle-outline"
+                tooltip: "This is the tooltip content"
+              - text: "Subitem text 2"
+                icon: "checkbox-marked-circle"
+                tooltip: "This is the tooltip content"
+
+
+  - year: "2017"
+    quarter: "Q1-Q2"
+    collapsed: true
+    data_group:
+
+      - title: "Platform"
+        item:
+          - text: "First"
+            icon: "circle-outline"
+            tooltip: "This is the tooltip content"
+          - text: "Second"
+            icon: "checkbox-marked-circle"
+            tooltip: "This is the tooltip content"
+          - text: "Third"
+            icon: "circle-slice-4"
+            tooltip: "This is the tooltip content"
+            badge:
+                - text: "issue"
+                - text: "bug"
+            subitem:
+              - text: "Subitem text 1"
+                icon: "circle-outline"
+                tooltip: "This is the tooltip content"
+              - text: "Subitem text 2"
+                icon: "checkbox-marked-circle"
+                tooltip: "This is the tooltip content"
+
+
+      - title: "R&D"
+        item:
+          - text: "First"
+            icon: "circle-outline"
+            tooltip: "This is the tooltip content"
+          - text: "Second"
+            icon: "checkbox-marked-circle"
+            tooltip: "This is the tooltip content"
+          - text: "Third"
+            icon: "circle-slice-4"
+            tooltip: "This is the tooltip content"
+            subitem:
+              - text: "Subitem text 1"
+                icon: "circle-outline"
+                tooltip: "This is the tooltip content"
+              - text: "Subitem text 2"
+                icon: "checkbox-marked-circle"
+                tooltip: "This is the tooltip content"
+
+
+      - title: "Community"
+        item:
+          - text: "First"
+            icon: "circle-outline"
+            tooltip: "This is the tooltip content"
+          - text: "Second"
+            icon: "checkbox-marked-circle"
+            tooltip: "This is the tooltip content"
+          - text: "Third"
+            icon: "circle-slice-4"
+            tooltip: "This is the tooltip content"
+            subitem:
+              - text: "Subitem text 1"
+                icon: "circle-outline"
+                tooltip: "This is the tooltip content"
+              - text: "Subitem text 2"
+                icon: "checkbox-marked-circle"
+                tooltip: "This is the tooltip content"
+
+
+      - title: "Foundation"
+        item:
+          - text: "First"
+            icon: "circle-outline"
+            tooltip: "This is the tooltip content"
+          - text: "Second"
+            icon: "checkbox-marked-circle"
+            tooltip: "This is the tooltip content"
+          - text: "Third"
+            icon: "circle-slice-4"
+            tooltip: "This is the tooltip content"
+            subitem:
+              - text: "Subitem text 1"
+                icon: "circle-outline"
+                tooltip: "This is the tooltip content"
+              - text: "Subitem text 2"
+                icon: "checkbox-marked-circle"
+                tooltip: "This is the tooltip content"
+
 
