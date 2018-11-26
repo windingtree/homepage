@@ -2,6 +2,10 @@
   url: "https://github.com/windingtree"
   icon: "mdi-github-circle"
 
+- title: "Google Groups"
+  url: "https://groups.google.com/forum/#!forum/windingtree"
+  icon: "mdi-google-plus-box"
+
 - title: "Twitter"
   url: "https://twitter.com/windingtree"
   icon: "mdi-twitter"
