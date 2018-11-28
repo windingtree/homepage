@@ -19,7 +19,7 @@
                                                 {{ stage.year }}
                                             </h3>
                                             <div class="lead">
-                                                {{ stage.quarter }}
+                                                {{ stage.period }}
                                             </div>
                                             <div class="roadmap__toggle">
                                                 <a role="button" class="js-roadmap-toggle-btn text-primary" data-toggle="collapse" href="#collapse-{{ stage.year }}-{{ stage.quarter }}" aria-expanded="{% if stage.collapsed == false %}true{% else %}false{% endif %}" aria-controls="collapse" data-target="#collapse-{{ stage.year }}-{{ stage.quarter }}" aria-expanded="false" aria-controls="collapse">
@@ -41,34 +41,34 @@
                                                                 {{ data_group.title }}
                                                             </h5>
                                                             <ul class="list-unstyled roadmap__item">
-                                                                {% for item in data_group.item %}
+                                                                {% for items in data_group.items %}
                                                                 <li>
-                                                                    <i class="mdi mdi-{{ item.icon }} {% if stage.active != true %}text-muted{% endif %}"></i>
+                                                                    <i class="mdi mdi-{{ items.icon }} {% if stage.active != true %}text-muted{% endif %}"></i>
 
-                                                                        {% if item.collapsed == true %}
+                                                                        {% if items.collapsed == true %}
                                                                             <a role="button" class="collapsed {% if stage.active != true %}text-muted{% endif %}" data-toggle="collapse" href="#collapse-{{ stage.year }}-{{ stage.quarter }}-{{ group }}-{{ forloop.index }}" aria-expanded="{% if stage.collapsed == false %}true{% else %}false{% endif %}" aria-controls="collapse" data-target="#collapse-{{ stage.year }}-{{ stage.quarter }}-{{ group }}-{{ forloop.index }}" aria-expanded="false" aria-controls="collapse">
-                                                                                <span title="{{ item.tooltip }}" data-toggle="tooltip" data-placement="top">{{ item.text }}</span>
+                                                                                <span title="{{ items.tooltip }}" data-toggle="tooltip" data-placement="top">{{ items.item }}</span>
                                                                             </a>
                                                                         {% else %}
-                                                                            <span class="{% if stage.active != true %}text-muted{% endif %}" title="{{ item.tooltip }}" data-toggle="tooltip" data-placement="top">{{ item.text }}</span>
+                                                                            <span class="{% if stage.active != true %}text-muted{% endif %}" title="{{ items.tooltip }}" data-toggle="tooltip" data-placement="top">{{ items.item }}</span>
                                                                         {% endif %}
 
 
 
-                                                                        {% for badge in item.badge %}
+                                                                        {% for badge in items.badge %}
                                                                             <span class="badge badge-pill badge-secondary">{{ badge.text }}</span>
                                                                         {% endfor %}
 
-                                                                        {% for btn in item.btn %}
+                                                                        {% for btn in items.btn %}
                                                                             <a href="{{ btn.link }}" class="btn btn-sm btn-{{ btn.style }}" target="_blank">{{ btn.label }}</a>
                                                                         {% endfor %}
 
-                                                                        {% if item.subitem %}
+                                                                        {% if items.subitem %}
                                                                             <div class="collapse" id="collapse-{{ stage.year }}-{{ stage.quarter }}-{{ group }}-{{ forloop.index }}">
                                                                                 <ul class="list-unstyled roadmap__subitem">
-                                                                                    {% for subitem in item.subitem %}
+                                                                                    {% for subitem in items.subitem %}
                                                                                         <li>
-                                                                                            <i class="mdi mdi-{{ subitem.icon }} {% if stage.active != true %}text-muted{% endif %}"></i> <span class="{% if stage.active != true %}text-muted{% endif %}" title="{{ item.tooltip }}" data-toggle="tooltip" data-placement="top">{{ subitem.text }}</span>
+                                                                                            <i class="mdi mdi-{{ subitem.icon }} {% if stage.active != true %}text-muted{% endif %}"></i> <span class="{% if stage.active != true %}text-muted{% endif %}" title="{{ subitem.tooltip }}" data-toggle="tooltip" data-placement="top">{{ subitem.text }}</span>
                                                                                         </li>
                                                                                     {% endfor %}
                                                                                 </ul>

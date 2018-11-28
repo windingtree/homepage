@@ -1,190 +1,153 @@
 title: "Roadmap"
 
 stage:
-  - year: "2018"
-    quarter: "Q3"
-    active: true
-    collapsed: false
-    data_group:
-
-      - title: "Platform"
-        item:
-          - text: "First"
-            icon: "circle-outline"
-            tooltip: "This is the tooltip content"
-          - text: "Second"
-            icon: "checkbox-marked-circle"
-            tooltip: "This is the tooltip content"
-            badge:
-                - text: "issue"
-                - text: "bug"
-          - text: "Third"
-            icon: "circle-slice-4"
-            tooltip: "This is the tooltip content"
-            collapsed: true
-            subitem:
-              - text: "Subitem text 1"
-                icon: "circle-outline"
-                tooltip: "This is the tooltip content"
-              - text: "Subitem text 2 lorem ipsum dolor sit amet lorem ipsum dolor."
-                icon: "checkbox-marked-circle"
-                tooltip: "This is the tooltip content"
-
-
-      - title: "R&D"
-        item:
-          - text: "First"
-            icon: "circle-outline"
-            tooltip: "This is the tooltip content"
-          - text: "Second"
-            btn:
-                - label: "Join"
-                  link: "https://github.com/windingtree"
-                  style: "primary"
-            icon: "checkbox-marked-circle"
-            tooltip: "This is the tooltip content"
-          - text: "Third"
-            icon: "circle-slice-4"
-            tooltip: "This is the tooltip content"
-            collapsed: true
-            subitem:
-              - text: "Subitem text 1"
-                icon: "circle-outline"
-                tooltip: "This is the tooltip content"
-              - text: "Subitem text 2"
-                icon: "checkbox-marked-circle"
-                tooltip: "This is the tooltip content"
-
-
-      - title: "Community"
-        item:
-          - text: "First"
-            icon: "circle-outline"
-            tooltip: "This is the tooltip content"
-          - text: "Second"
-            btn:
-                - label: "Blog"
-                  link: "https://github.com/windingtree"
-                  style: "outline-dark"
-            icon: "checkbox-marked-circle"
-            tooltip: "This is the tooltip content"
-          - text: "Third"
-            icon: "circle-slice-4"
-            tooltip: "This is the tooltip content"
-            subitem:
-              - text: "Subitem text 1"
-                icon: "circle-outline"
-                tooltip: "This is the tooltip content"
-              - text: "Subitem text 2"
-                icon: "checkbox-marked-circle"
-                tooltip: "This is the tooltip content"
-
-
-      - title: "Foundation"
-        item:
-          - text: "First"
-            icon: "circle-outline"
-            tooltip: "This is the tooltip content"
-          - text: "Second"
-            icon: "checkbox-marked-circle"
-            tooltip: "This is the tooltip content"
-          - text: "Third"
-            icon: "circle-slice-4"
-            tooltip: "This is the tooltip content"
-            subitem:
-              - text: "Subitem text 1"
-                icon: "circle-outline"
-                tooltip: "This is the tooltip content"
-              - text: "Subitem text 2"
-                icon: "checkbox-marked-circle"
-                tooltip: "This is the tooltip content"
-
-
   - year: "2017"
-    quarter: "Q1-Q2"
+    period: "Q1-Q4"
     collapsed: true
     data_group:
 
       - title: "Platform"
-        item:
-          - text: "First"
-            icon: "circle-outline"
-            tooltip: "This is the tooltip content"
-          - text: "Second"
-            icon: "checkbox-marked-circle"
-            tooltip: "This is the tooltip content"
-          - text: "Third"
+        items:
+          - item: "Lif Token smart contract"
             icon: "circle-slice-4"
-            tooltip: "This is the tooltip content"
-            badge:
-                - text: "issue"
-                - text: "bug"
-            subitem:
-              - text: "Subitem text 1"
-                icon: "circle-outline"
-                tooltip: "This is the tooltip content"
-              - text: "Subitem text 2"
-                icon: "checkbox-marked-circle"
-                tooltip: "This is the tooltip content"
-
+          - item: "Platform Architecture for Hotels"
+            icon: "circle-slice-4"
+            tooltip: "Design of architectue for distribution of hotels inventory"
 
       - title: "R&D"
-        item:
-          - text: "First"
-            icon: "circle-outline"
-            tooltip: "This is the tooltip content"
-          - text: "Second"
+        items:
+          - item: "ICO Models"
             icon: "checkbox-marked-circle"
-            tooltip: "This is the tooltip content"
-          - text: "Third"
-            icon: "circle-slice-4"
-            tooltip: "This is the tooltip content"
-            subitem:
-              - text: "Subitem text 1"
-                icon: "circle-outline"
-                tooltip: "This is the tooltip content"
-              - text: "Subitem text 2"
-                icon: "checkbox-marked-circle"
-                tooltip: "This is the tooltip content"
 
-
-      - title: "Community"
-        item:
-          - text: "First"
-            icon: "circle-outline"
-            tooltip: "This is the tooltip content"
-          - text: "Second"
-            icon: "checkbox-marked-circle"
-            tooltip: "This is the tooltip content"
-          - text: "Third"
+      - title: "Products"
+        items:
+          - item: "Hotel Explorer Prototype"
             icon: "circle-slice-4"
-            tooltip: "This is the tooltip content"
-            subitem:
-              - text: "Subitem text 1"
-                icon: "circle-outline"
-                tooltip: "This is the tooltip content"
-              - text: "Subitem text 2"
-                icon: "checkbox-marked-circle"
-                tooltip: "This is the tooltip content"
+            tooltip: "Start working on Winding Tree Demo application"
 
 
       - title: "Foundation"
-        item:
-          - text: "First"
-            icon: "circle-outline"
-            tooltip: "This is the tooltip content"
-          - text: "Second"
+        items:
+          - item: "Team Formation"
             icon: "checkbox-marked-circle"
-            tooltip: "This is the tooltip content"
-          - text: "Third"
+          - item: "Legal Status"
+            icon: "checkbox-marked-circle"
+          - item: "Pre-ICO"
             icon: "circle-slice-4"
             tooltip: "This is the tooltip content"
-            subitem:
-              - text: "Subitem text 1"
-                icon: "circle-outline"
-                tooltip: "This is the tooltip content"
-              - text: "Subitem text 2"
-                icon: "checkbox-marked-circle"
-                tooltip: "This is the tooltip content"
+          - item: "Partnership with Lufthansa Group, Nordic Choice Hotels, eRevMax"
+            icon: "checkbox-marked-circle"
 
 
+  - year: "2018"
+    period: "Q1-Q2"
+    collapsed: true
+    data_group:
+
+      - title: "Platform"
+        items:
+          - item: "Platform Architectue for Hotels"
+            icon: "checkbox-marked-circle"
+          - item: "Data Exchange Format for Hotels"
+            icon: "checkbox-marked-circle"
+            tooltip: "Winding Tree designed and promotes unified Hotel Data exchange standards for the industry"
+          - item: "JS-library"
+            icon: "checkbox-marked-circle"
+            tooltip: "a core of all our API services"
+          - item: "Read API"
+            icon: "checkbox-marked-circle"
+
+
+
+      - title: "R&D"
+        items:
+          - item: "ERC827 token"
+            icon: "checkbox-marked-circle"
+
+      - title: "Products"
+        items:
+          - item: "New website"
+            icon: "checkbox-marked-circle"
+          - item: "Hotel Explorer"
+            icon: "circle-slice-4"
+            tooltip: "A demo application for Winding Tree ecosystem features"
+
+      - title: "Foundation"
+        items:
+          - item: "ICO and Token Generation Event (TGE)"
+            icon: "checkbox-marked-circle"
+          - item: "Execute market validation mechanism"
+            icon: "checkbox-marked-circle"
+          - item: "Team building event in Prague"
+            icon: "checkbox-marked-circle"
+
+  - year: "2018"
+    period: "Q3-Q4"
+    collapsed: false
+    active: true
+    data_group:
+
+      - title: "Platform"
+        items:
+          - item: "Write API"
+            icon: "checkbox-marked-circle"
+          - item: "Room availability"
+            icon: "checkbox-marked-circle"
+            btn:
+                - label: "Trello"
+                  link: "https://trello.com/c/xJlWuzWI/73-3-availability"
+                  style: "outline-dark"
+
+          - item: "Platform Architecture for Airlines"
+            icon: "circle-slice-4"
+
+
+      - title: "R&D"
+        items:
+          - item: "Distributed Storages"
+            icon: "circle-slice-4"
+          - item: "2nd Layer Solutions"
+            icon: "circle-slice-4"
+
+      - title: "Products"
+        items:
+          - item: "Hotel Explorer"
+            icon: "circle-slice-4"
+            tooltip: "A demo application for Winding Tree ecosystem features"
+          - item: "Booking application"
+            icon: "checkbox-marked-circle"
+            tooltip: "An productive application for booking accomodation for ETH Berlin event. App usilizes Winding Tree features"
+
+
+      - title: "Foundation"
+        items:
+          - item: "Winding Tree Hackathon"
+            icon: "checkbox-marked-circle"
+            btn:
+                - label: "Recap"
+                  link: "https://windingtree.com/winding-tree-hackathon-prague-2018"
+                  style: "outline-dark"
+          - item: "Partnership with AirCanada, AirFrance-KLM"
+            icon: "checkbox-marked-circle"
+
+  - year: "2019"
+    period: "Q1-Q2"
+    collapsed: false
+    data_group:
+
+      - title: "Platform"
+        items:
+
+      - title: "R&D"
+        items:
+
+      - title: "Products"
+        items:
+
+      - title: "Foundation"
+        items:
+          - item: "Winding Tree Hackathon"
+            icon: "circle-outline"
+          - item: "Winding Tree Roundtable"
+            icon: "circle-outline"
+            tooltip: "Open innovation initiative for the industry leaders to promote and support cross organization collaboration, open source development and solving real world industry pain points with collective intelligence and active participation."
