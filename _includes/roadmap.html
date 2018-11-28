@@ -22,7 +22,7 @@
                                                 {{ stage.period }}
                                             </div>
                                             <div class="roadmap__toggle">
-                                                <a role="button" class="js-roadmap-toggle-btn text-primary" data-toggle="collapse" href="#collapse-{{ stage.year }}-{{ stage.quarter }}" aria-expanded="{% if stage.collapsed == false %}true{% else %}false{% endif %}" aria-controls="collapse" data-target="#collapse-{{ stage.year }}-{{ stage.quarter }}" aria-expanded="false" aria-controls="collapse">
+                                                <a role="button" class="js-roadmap-toggle-btn text-primary" data-toggle="collapse" href="#collapse-{{ stage.year }}-{{ stage.period }}" aria-expanded="{% if stage.collapsed == false %}true{% else %}false{% endif %}" aria-controls="collapse" data-target="#collapse-{{ stage.year }}-{{ stage.period }}" aria-expanded="false" aria-controls="collapse">
                                                     <i class="mdi mdi-{% if stage.collapsed == false %}minus-circle-outline{% else %}plus-circle{% endif %} mdi-36px"></i>
                                                 </a>
                                             </div>
@@ -30,7 +30,7 @@
                                     </div>
                                 </header>
                                 <div class="roadmap__body">
-                                    <div class="collapse {% if stage.collapsed == false %}show{% endif %}" id="collapse-{{ stage.year }}-{{ stage.quarter }}">
+                                    <div class="collapse {% if stage.collapsed == false %}show{% endif %}" id="collapse-{{ stage.year }}-{{ stage.period }}">
                                         <div class="roadmap__body__content">
                                             <div class="row">
                                                 {% for data_group in stage.data_group %}
@@ -46,7 +46,7 @@
                                                                     <i class="mdi mdi-{{ items.icon }} {% if stage.active != true %}text-muted{% endif %}"></i>
 
                                                                         {% if items.collapsed == true %}
-                                                                            <a role="button" class="collapsed {% if stage.active != true %}text-muted{% endif %}" data-toggle="collapse" href="#collapse-{{ stage.year }}-{{ stage.quarter }}-{{ group }}-{{ forloop.index }}" aria-expanded="{% if stage.collapsed == false %}true{% else %}false{% endif %}" aria-controls="collapse" data-target="#collapse-{{ stage.year }}-{{ stage.quarter }}-{{ group }}-{{ forloop.index }}" aria-expanded="false" aria-controls="collapse">
+                                                                            <a role="button" class="collapsed {% if stage.active != true %}text-muted{% endif %}" data-toggle="collapse" href="#collapse-{{ stage.year }}-{{ stage.period }}-{{ group }}-{{ forloop.index }}" aria-expanded="{% if stage.collapsed == false %}true{% else %}false{% endif %}" aria-controls="collapse" data-target="#collapse-{{ stage.year }}-{{ stage.period }}-{{ group }}-{{ forloop.index }}" aria-expanded="false" aria-controls="collapse">
                                                                                 <span title="{{ items.tooltip }}" data-toggle="tooltip" data-placement="top">{{ items.item }}</span>
                                                                             </a>
                                                                         {% else %}
@@ -64,7 +64,7 @@
                                                                         {% endfor %}
 
                                                                         {% if items.subitem %}
-                                                                            <div class="collapse" id="collapse-{{ stage.year }}-{{ stage.quarter }}-{{ group }}-{{ forloop.index }}">
+                                                                            <div class="collapse" id="collapse-{{ stage.year }}-{{ stage.period }}-{{ group }}-{{ forloop.index }}">
                                                                                 <ul class="list-unstyled roadmap__subitem">
                                                                                     {% for subitem in items.subitem %}
                                                                                         <li>
