@@ -4,7 +4,8 @@ $roadmap-icon-size-lg: 70px;
 .roadmap__item {
     position: relative;
 
-    // .text-muted {opacity: .8;}
+    // .text-muted {opacity: .7;}
+    .text-muted {color: $gray-500!important}
 
     .roadmap__header {
         overflow: hidden;
