@@ -53,7 +53,7 @@ const JoinComunity = () => (
       {
         icons.map(icon => (
           <li className="list-inline-item" key={icon.href}>
-            <a href={icon.href} tittle={icon.title}>
+            <a href={icon.href} tittle={icon.title} className="text-dark text-alpha-inverse">
               <i className={`mdi mdi-36px ${icon.className}`} />
             </a>
           </li>
