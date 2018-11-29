@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import { InputGroup, Button, Form } from '@windingtree/wt-ui-react';
 
-class Subscribe extends Component<{}> {
+class Subscribe extends Component<*> {
   onSubscribe = (e: SyntheticEvent<>) => {
     e.preventDefault();
   }
