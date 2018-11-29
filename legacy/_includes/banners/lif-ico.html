@@ -1,0 +1,69 @@
+{% assign data = site.data.banners.lif-ico %}
+
+{% if data %}
+    <section class="lif-ico py-3 py-md-5 bg-secondary">
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col-md-8">
+                    <h2 class="mb-2 mb-md-4 text-center text-white">
+                        {{ data.title }}
+                    </h2>
+
+                    {% if data.items %}
+                        {% for item in data.items %}
+                            <div class="lif-ico-item text-center text-md-left text-white">
+                                {% assign reverse = "" %}
+                                {% assign text_align = "" %}
+
+                                {% capture alternation %}{% cycle 'odd', 'even' %}{% endcapture %}
+
+                                {% if alternation == 'odd' %}
+                                    {% assign reverse = "flex-md-row-reverse" %}
+                                    {% assign text_align = "text-md-right" %}
+                                {% endif %}
+
+                                <div class="row align-items-md-center {{ reverse }}">
+                                    <div class="col-md-6 mb-1 mb-md-0 {{ text_align }}">
+                                        <img src="{{ item.icon_url | relative_url }}" alt="{{ item.title }}" class="lif-ico-item__icon img-fluid">
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        {{ item.title }}
+
+                                        <div class="display-2">{{ item.number }}</div>
+
+                                        <ul class="list-inline mt-1">
+                                            {% for chart_stat in item.chart_stats %}
+                                                {% assign before = "" %}
+                                                {% assign after = "" %}
+
+                                                {% capture alternation %}{% cycle 'odd', 'even' %}{% endcapture %}
+
+                                                {% if alternation == 'odd' %}
+                                                    {% assign before = "before" %}
+                                                {% endif %}
+
+                                                {% if alternation == 'even' %}
+                                                    {% assign before = "after" %}
+                                                {% endif %}
+
+                                                <li class="list-inline-item">
+                                                    <span class="lif-ico-item__legend lif-ico-item__legend--{{ before after }} mb-1"></span>
+
+                                                    <h3 class="text-white">{{ chart_stat.number }}</h3>
+                                                    {{ chart_stat.title }}
+                                                </li>
+                                            {% endfor %}
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <hr class="my-2 my-md-3">
+                        {% endfor %}
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </section>
+{% endif %}

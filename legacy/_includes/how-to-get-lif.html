@@ -1,0 +1,33 @@
+{% assign data = site.data.how-to-get-lif %}
+
+{% if data %}
+    <section class="my-3 my-md-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <h2 class="mb-2 mb-md-4 text-center">
+                        {{ data.title }}
+                    </h2>
+
+                    <p class="lead mb-2 mb-md-3 text-center text-md-left">
+                        {{ data.text }}
+                    </p>
+
+                    {%
+                        include cards.html
+                        cards = site.data.cards.lif_token
+                        card_size = "card-sm"
+                    %}
+
+                </div>
+            </div> 
+
+            <footer class="mt-2 mt-md-4 text-center">
+                <a href="{{ site.data.how-to-get-lif.action_url | relative_url}}" class="btn btn-outline-dark">
+                    {{ site.data.how-to-get-lif.action_title }}
+                </a>
+            </footer>
+            
+        </div>
+    </section>
+{% endif %}

@@ -1,0 +1,44 @@
+{% assign data = include.data %}
+{% assign social = site.data.social %}
+
+{% if data %}
+    <section class="page-banner py-3 py-md-5 bg-secondary" id="page-banner">
+        <div class="container">
+            <div class="row flex-column flex-md-row-reverse justify-content-md-between align-items-center">
+                <div class="col-md-4 text-center text-md-right">
+                    <img src="{{ data.image_url | relative_url }}" alt="{{ data.title }}" class="page-banner__image mb-1 mb-md-0 img-fluid">
+                </div>
+
+                <div class="col-md-7 text-center text-md-left">
+                    <h1 class="text-white">
+                        {{ data.title }}
+                    </h1>
+
+                    <p class="page-banner__text mt-1 lead text-white">
+                        {{ data.text }}
+                    </p>
+
+                    {% if data.action_url and data.action_title %}
+                        <footer class="mt-1">
+                            <a href="{{ data.action_url | relative_url }}" class="btn btn-outline-light">
+                                {{ data.action_title }}
+                            </a>
+                        </footer>
+                    {% endif %}
+
+                    {% if data.action_type == "social" %}
+                        <div class="mt-1">
+                            {% if social %}
+                                {%
+                                    include social.html
+                                    classlist = "social--white"
+                                    icon_size = "mdi-48px"
+                                %}
+                            {% endif %}
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </section>
+{% endif %}

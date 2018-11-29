@@ -1,0 +1,21 @@
+@mixin scale($font-size: $font-size-base, $scale-direction: 'up') {
+    $scale: 1;
+
+    @if $scale-direction == 'up' {
+        $scale: (4/3);
+    } @else if $scale-direction == 'down' {
+        $scale: (3/4);
+    }
+
+    font-size: $font-size * $scale;
+
+    @include media-breakpoint-up('md') {
+        font-size: $font-size;
+    }
+}
+
+@mixin ie-conditional {
+    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+        @content
+    }
+}

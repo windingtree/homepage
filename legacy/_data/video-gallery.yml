@@ -1,0 +1,24 @@
+title: "Video gallery"
+
+videos:
+
+    - src: "https://www.youtube.com/embed/cSblZNuaEAY"
+      thumbnail: "https://img.youtube.com/vi/cSblZNuaEAY/0.jpg"
+      aspect_ratio: "16by9"
+      title: "Winding Tree Development Progress 2018"
+
+    - src: "https://youtube.com/embed/tAXZxDcsApM"
+      thumbnail: "https://img.youtube.com/vi/tAXZxDcsApM/0.jpg"
+      aspect_ratio: "16by9"
+      title: "Basics of Decentralization"
+
+    - src: "https://www.youtube.com/embed/hvq6jgUeUQU"
+      aspect_ratio: "16by9"
+      thumbnail: "https://img.youtube.com/vi/hvq6jgUeUQU/0.jpg"
+      title: "What is&nbsp;Blockchain?"
+
+    - src: "https://www.youtube.com/embed/_qer1qd68eQ"
+      aspect_ratio: "16by9"
+      thumbnail: "https://img.youtube.com/vi/_qer1qd68eQ/0.jpg"
+      title: "Winding Tree Explainer"
+

@@ -1,0 +1,63 @@
+.lif-ico {
+    background-color: $color-gradient-secondary !important;
+    background-image: $linear-gradient-to-left;
+    background-position: left center;
+    background-repeat: no-repeat;
+
+    hr {
+        &:last-child {
+            display: none;
+        }
+    }
+}
+
+.lif-ico-item {
+    &__icon {
+        @include media-breakpoint-down('sm') {
+            @include size(110px);
+        }
+    }
+
+    &__legend {
+        @include size(26px);
+
+        display: inline-block;
+        background: $white;
+
+        @include media-breakpoint-down('sm') {
+            margin-bottom: 1rem !important;
+        }
+
+        @include media-breakpoint-up('md') {
+            position: absolute;
+            top: 5px;
+            left: 0;
+            margin-bottom: 0 !important;
+        }
+
+        &--before {
+            opacity: .3;
+        }
+
+        &--after {
+            opacity: .7;
+        }
+    }
+
+    .list-inline {
+        @include media-breakpoint-up('md') {
+            white-space: nowrap; // Remove if more .list-inline-item's will appear
+        }
+    }
+
+    .list-inline-item {
+        @include media-breakpoint-up('md') {
+            position: relative;
+            padding-left: 41px;
+        }
+
+        &:not(:last-child) {
+            margin-right: 4rem;
+        }
+    }
+}
