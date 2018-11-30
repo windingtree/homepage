@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import { AppContainer } from 'react-hot-loader';
 import Routes from './Routes';
 
+import '@windingtree/wt-ui/dist/styles.css';
+
 const render = (Component) => {
   ReactDOM.render(
     <AppContainer>
