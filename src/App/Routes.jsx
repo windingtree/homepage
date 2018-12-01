@@ -15,7 +15,7 @@ const Routes = () => (
         <Route path="/foundation" component={Foundation} />
         <Route path="/suppliers" component={Suppliers} />
         <Route path="/sellers" component={Sellers} />
-        <Route path="/sofware-vendors" component={SoftwareVendors} />
+        <Route path="/software-vendors" component={SoftwareVendors} />
         <Route path="/lif-token" component={LifToken} />
         <Route path="/startups-and-developers" component={Community} />
       </Switch>

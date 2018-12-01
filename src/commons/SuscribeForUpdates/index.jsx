@@ -3,7 +3,7 @@ import React from 'react';
 import Subscribe from './Subscribe';
 import JoinComunity from './JoinComunity';
 
-const Join = () => (
+const SuscribeForUpdates = () => (
   <div className="actions py-3 py-md-5 bg-light text-center">
     <div className="container">
       <div className="row">
@@ -18,4 +18,4 @@ const Join = () => (
   </div>
 );
 
-export default Join;
+export default SuscribeForUpdates;

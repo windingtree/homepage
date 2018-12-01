@@ -3,13 +3,14 @@ import React from 'react';
 import {
   Navbar, Footer, Container, Nav, Button,
 } from '@windingtree/wt-ui-react';
+import SuscribeForUpdates from 'commons/SuscribeForUpdates';
 
 type PropsType = {
   children: React$Node
 };
 
 const WTNavbar = () => (
-  <Navbar expand="lg" variant="light" bg="white">
+  <Navbar expand="lg" variant="light" bg="white" fixed="top">
     <Container>
       <Navbar.Brand href="#home" as="a" className="mr-2" />
       <Navbar.Toggle aria-controls="basic-navbar-nav" className="border-0">
@@ -52,6 +53,7 @@ const Main = ({ children }: PropsType) => (
   <div>
     <WTNavbar />
     {children}
+    <SuscribeForUpdates />
     <Footer>
       <Footer.Solutions />
       <Footer.LifToken />
