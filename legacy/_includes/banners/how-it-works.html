@@ -1,0 +1,22 @@
+{% assign data = site.data.banners.how-it-works %}
+
+{% if data %}
+    <section class="how-it-works-banner py-3 py-md-5 bg-secondary text-center">
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col-md-10">
+                    <h2 class="mb-2 mb-md-4 text-white">
+                        {{ data.title }}
+                    </h2>
+
+                    <img src="{{ data.scheme_url_sm | relative_url }}" alt="" class="d-md-none mb-2 img-fluid">
+                    <img src="{{ data.scheme_url_md | relative_url }}" alt="" class="d-none d-md-inline-block mb-md-4 img-fluid">
+
+                    <p class="text-md-left text-white">
+                        {{ data.text }}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endif %}

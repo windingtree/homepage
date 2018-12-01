@@ -1,0 +1,25 @@
+{% assign data = include.data %}
+
+{% if data %}
+    <section class="open-source-banner py-3 py-md-5 bg-secondary text-center text-md-left">
+        <div class="container">
+            <div class="row flex-column flex-md-row align-items-center">
+                <div class="col-md-8 mb-1 mb-md-0">
+                    <h2 class="mb-1 text-white">
+                        {{ data.title }}
+                    </h2>
+                    <p class="lead text-white">
+                        {{ data.text }}
+                    </p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <i class="open-source-banner__icon mdi mdi-48px mdi-github-circle d-block mb-1 mb-md-2 text-white"></i>
+                    <a href="{{ data.action_url | relative_url }}" class="btn btn-outline-light">
+                        {{ data.action_title }}
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+{% endif %}

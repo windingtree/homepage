@@ -1,0 +1,49 @@
+foundation_year: "2017"
+
+developer_title: "designed by Coalla"
+developer_url: "http://www.coalla.ru/"
+
+navigation_groups:
+    - title: "Solutions"
+      items:
+          - title: "For travel suppliers"
+            url: "/suppliers.html"
+          - title: "For sellers of travel"
+            url: "/sellers.html"
+          - title: "For software vendors"
+            url: "/software-vendors.html"
+          - title: "API"
+            url: "https://github.com/windingtree/"
+
+    - title: "Lif Token"
+      items:
+          - title: "About token"
+            url: "/lif-token.html"
+          - title: "Buy Lifs"
+            url: "/lif-token.html"
+          - title: "Smart contract"
+            url: "/lif-token.html"
+
+    - title: "About"
+      items:
+          - title: "Foundation"
+            url: "/foundation.html"
+          - title: "Blog"
+            url: "https://blog.windingtree.com/"
+          - title: "Roadmap"
+            url: "/foundation.html#roadmap"
+          - title: "Team"
+            url: "/foundation.html#team"
+          - title: "Read the White paper"
+            url: "/assets/files/White_Paper_EN.pdf"
+
+    - title: "Contacts"
+      items:
+          - title: "Gubelstrasse 11, 6300 Zug, Switzerland"
+          - title: "info@windingtree.com"
+            url: "mailto:info@windingtree.com"
+
+    - title: "Community"
+      items:
+          - title: "For developers &amp;&nbsp;startups"
+            url: "/startups-and-developers.html"

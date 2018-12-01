@@ -1,0 +1,38 @@
+title: "ICO Stats"
+
+items:
+    - icon_url: "/assets/img/banners/lif-ico/1.svg"
+      title: "ETH Raised"
+      number: "16,278"
+      chart_stats:
+        - title: "pre ICO"
+          number: "2,418"
+        - title: "ICO"
+          number: "13,860"
+
+    - icon_url: "/assets/img/banners/lif-ico/2.svg"
+      title: "Backers"
+      number: "7,082"
+      chart_stats:
+        - title: "pre ICO"
+          number: "736"
+        - title: "ICO"
+          number: "6,346"
+
+    - icon_url: "/assets/img/banners/lif-ico/3.svg"
+      title: "Lifs Generated"
+      number: "24,976,541"
+      chart_stats:
+        - title: "for backers"
+          number: "18,732,406"
+        - title: "for project funding"
+          number: "6,244,135"
+
+    - icon_url: "/assets/img/banners/lif-ico/4.svg"
+      title: "ETH in&nbsp;the MVM"
+      number: "5,164"
+      chart_stats:
+        - title: "in&nbsp;the MVM"
+          number: "5,164"
+        - title: "for project funding"
+          number: "11,114"

@@ -1,0 +1,15 @@
+.video-gallery {
+    &__videos {
+        .nav-tabs {
+            .nav-item {
+                @include media-breakpoint-down('sm') {
+                    width: 140px;
+
+                    small {
+                        width: 110px;
+                    }
+                }
+            }
+        }
+    }
+}

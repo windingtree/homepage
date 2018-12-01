@@ -1,0 +1,7 @@
+{% assign data = include.data %}
+
+{% if data %}
+    <div class="terminal">
+        {% highlight js %}{{ data }}{% endhighlight %}
+    </div>
+{% endif %}

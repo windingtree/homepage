@@ -1,0 +1,44 @@
+.already-with-us {
+    &__company {
+        img {
+            @include media-breakpoint-down('sm') {
+                max-width: $image-max-width;
+                max-height: $image-max-width;
+            }
+        }
+    }
+
+    &__slider {
+        height: 160px;
+        opacity: 0;
+        pointer-events: none;
+        transition: $transition-base;
+        will-change: transition;
+
+        &.slick-initialized {
+            opacity: 1;
+
+            .slick-list,
+            .slick-track {
+                height: inherit;
+            }
+
+            .slick-track {
+                display: flex;
+                align-items: center;
+            }
+
+            .slick-slide {
+                height: auto !important;
+
+                &:nth-child(odd) {
+                    align-self: flex-start;
+                }
+
+                &:nth-child(even) {
+                    align-self: flex-end;
+                }
+            }
+        }
+    }
+}

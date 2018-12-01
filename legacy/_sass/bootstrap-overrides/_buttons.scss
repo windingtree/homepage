@@ -1,0 +1,13 @@
+.btn {
+    @include scale($small-font-size, up);
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    @include hover {
+        background: $secondary;
+        border-color: $secondary;
+    }
+}

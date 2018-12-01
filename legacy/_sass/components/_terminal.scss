@@ -1,0 +1,48 @@
+@keyframes caretBlink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.terminal {
+    position: relative;
+    width: 399px;
+    height: 266px;
+    background: url($baseurl + "/assets/img/terminal/terminal.svg") $black center no-repeat;
+    background-size: cover;
+    border-radius: $border-radius;
+    text-align: left !important;
+
+    .highlight {
+        position: absolute;
+        top: 4rem;
+        right: 2rem;
+        bottom: 2rem;
+        left: 2rem;
+        background: $black !important;
+
+        > pre {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            width: 100%;
+            margin-bottom: 0;
+
+            > code > * {
+                color: #18e9a6 !important; 
+            }
+
+            > code > span:last-child {
+                animation: caretBlink 1s infinite;
+                will-change: opacity;
+            }
+        }
+    }
+}

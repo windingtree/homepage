@@ -1,0 +1,110 @@
+.card-deck {
+    .card-header {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .card-body {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+
+        @include media-breakpoint-down('sm') {
+            padding-left: 80px;
+        }
+
+        .border-bottom {
+            border-bottom-color: rgba($link-color, .3);
+        }
+    }
+
+    .card-title {
+        &:not(:last-child) {
+            margin-bottom: $spacer;
+        }
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        @include media-breakpoint-down('sm') {
+            position: relative;
+            padding-right: 3.4rem;
+
+            img {
+                position: absolute;
+                top: 50%;
+                left: -60px;
+                transform: translateY(-50%);
+                width: 50px;
+            }
+
+            i {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+    }
+
+    .card-text {
+        @include media-breakpoint-up('md') {
+            &:not(:last-child) {
+                margin-bottom: 2rem;
+            }
+        }
+    }
+}
+
+.card {
+    box-shadow: $box-shadow;
+
+    @at-root a#{&} {
+        @include media-breakpoint-up('md') {
+            transition: $transition-base;
+            will-change: transform;
+
+            @include hover {
+                transform: translateY(-2rem);
+            }
+        }
+    }
+
+    &.card-sm {
+        @include media-breakpoint-up('md') {
+            text-align: center;
+        }
+
+        @at-root a#{&} {
+            @include media-breakpoint-up('md') {
+                @include hover {
+                    transform: translateY(-1rem);
+                }
+            }
+        }
+
+        .card-header {
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+
+            img {
+                max-height: 60px;
+            }
+        }
+
+        .card-body {
+            padding-top: 3rem;
+
+            @include media-breakpoint-up('md') {
+                justify-content: center;
+            }
+        }
+
+        .card-title {
+            @include media-breakpoint-down('sm') {
+                i {
+                    right: 0;
+                }
+            }
+        }
+    }
+}

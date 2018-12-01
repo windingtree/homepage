@@ -1,0 +1,44 @@
+h4,
+.h4 {
+    @include scale($h4-font-size, up);
+}
+
+h5,
+.h5 {
+    @include scale($h5-font-size, up);
+}
+
+h6,
+.h6 {
+    @include scale($h6-font-size, up);
+}
+
+small,
+.small {
+    @include scale($small-font-size, up);
+}
+
+.blockquote {
+    > p {
+        .mdi {
+            position: absolute;
+            color: $primary;
+
+            &.mdi-format-quote-open {
+                top: -36px;
+                left: 0;
+            }
+
+            &.mdi-format-quote-close {
+                bottom: -36px;
+                right: 0;
+            }
+        }
+    }
+}
+
+.blockquote-footer {
+    &::before {
+        display: none;
+    }
+}

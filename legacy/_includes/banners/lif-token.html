@@ -1,0 +1,35 @@
+{% assign data = site.data.banners.lif-token %}
+
+{% if data %}
+    <section class="lif-token-banner py-3 py-md-5 bg-secondary text-center text-md-left">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="mb-1 text-white">
+                        {{ data.title }}
+                    </h2>
+                    <p class="lead text-white">
+                        {{ data.text }}
+                    </p>
+                </div>
+            </div>
+
+            <ul class="d-flex flex-column flex-md-row flex-wrap align-items-center align-items-md-baseline my-2 my-md-3 list-unstyled">
+                {% for statistic in data.statistics %}
+                    <li class="d-flex flex-column-reverse flex-md-column mb-1 mb-md-0 mr-md-5">
+                        <div class="text-white">
+                            {{ statistic.title }}
+                        </div>
+                        <div class="h2 text-white number">
+                            {{ statistic.number }}
+                        </div>
+                    </li>
+                {% endfor %}
+            </ul>
+
+            <a href="{{ data.action_url | relative_url }}" class="btn btn-primary">
+                {{ data.action_title }}
+            </a>
+        </div>
+    </section>
+{% endif %}

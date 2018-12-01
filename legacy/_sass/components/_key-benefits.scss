@@ -1,0 +1,7 @@
+.key-benefits {
+    &__divider {
+        &:last-of-type {
+            display: none;
+        }
+    }
+}
