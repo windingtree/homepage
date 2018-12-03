@@ -3,7 +3,7 @@ title: "Roadmap"
 stage:
   - year: "2017"
     period: "Q1-Q4"
-    collapsed: true
+    collapsed: false
     data_group:
 
       - title: "Platform"
@@ -41,7 +41,7 @@ stage:
 
   - year: "2018"
     period: "Q1-Q2"
-    collapsed: true
+    collapsed: false
     data_group:
 
       - title: "Platform"
