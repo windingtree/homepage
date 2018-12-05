@@ -12,32 +12,36 @@ stage:
             icon: "circle-slice-4"
           - item: "Platform Architecture for Hotels"
             icon: "circle-slice-4"
-            tooltip: "Design of architectue for distribution of hotels inventory"
+            tooltip: "Platform architectue design for distribution of hotels inventory"
 
       - title: "R&D"
         items:
           - item: "ICO Models"
             icon: "checkbox-marked-circle"
+            tooltip: "Preparation for the ICO"
 
       - title: "Products"
         items:
           - item: "Hotel Explorer Prototype"
             icon: "circle-slice-4"
-            tooltip: "Start working on Winding Tree Demo application"
-
+            tooltip: "We started working on Winding Tree Demo application"
+            btn:
+                - label: "demo"
+                  link: "https://hotel-explorer-demo.windingtree.com/"
+                  style: "outline-dark"
 
       - title: "Foundation"
         items:
-          - item: "Team Formation"
+          - item: "Project Team Formation"
             icon: "checkbox-marked-circle"
           - item: "Legal Status"
             icon: "checkbox-marked-circle"
+            tooltip: "Incorporation registered"
           - item: "Pre-ICO"
-            icon: "circle-slice-4"
-            tooltip: "This is the tooltip content"
-          - item: "Partnership with Lufthansa Group, Nordic Choice Hotels, eRevMax"
             icon: "checkbox-marked-circle"
-
+          - item: "Partnership with Lufthansa Group, Nordic Choice Hotels, eRevMax, Zeppelin_OS, RSK"
+            icon: "checkbox-marked-circle"
+            tooltip: "Successfull year for partnerships with first key industry partners"
 
   - year: "2018"
     period: "Q1-Q2"
@@ -48,37 +52,60 @@ stage:
         items:
           - item: "Platform Architectue for Hotels"
             icon: "checkbox-marked-circle"
+            tooltip: "We released the initial version of Platform architecture and started building features basing on it"
           - item: "Data Exchange Format for Hotels"
             icon: "checkbox-marked-circle"
-            tooltip: "Winding Tree designed and promotes unified Hotel Data exchange standards for the industry"
+            tooltip: "Winding Tree designes and promotes unified Hotel Data Exchange standards for the industry. Similar to NDC but for hotels."
           - item: "JS-library"
             icon: "checkbox-marked-circle"
-            tooltip: "a core of all our API services"
+            tooltip: "This is a core of all our API services and can be used by anyone who wants to develop a service integrated with Winding Tree"
+            btn:
+                - label: "source code"
+                  link: "https://github.com/windingtree/wt-js-libs"
+                  style: "outline-dark"
           - item: "Read API"
             icon: "checkbox-marked-circle"
-
+            tooltip: "RESTful API that makes reading inventory through Winding Tree easy, you don't need to deal with blockchain"
+            btn:
+                - label: "source code"
+                  link: "https://github.com/windingtree/wt-read-api"
+                  style: "outline-dark"
 
 
       - title: "R&D"
         items:
           - item: "ERC827 token"
             icon: "checkbox-marked-circle"
+            tooltip: "Our blockchain architect works on new Ethereum token standard which will help us to develop new Platform features"
 
       - title: "Products"
         items:
-          - item: "New website"
+          - item: "New website launched"
             icon: "checkbox-marked-circle"
           - item: "Hotel Explorer"
             icon: "circle-slice-4"
-            tooltip: "A demo application for Winding Tree ecosystem features"
+            tooltip: "New Platform features added to Hotel Explorer"
+            btn:
+                - label: "demo"
+                  link: "https://hotel-explorer-demo.windingtree.com/"
+                  style: "outline-dark"
 
       - title: "Foundation"
         items:
-          - item: "ICO and Token Generation Event (TGE)"
+          - item: "Successful ICO and Token Generation Event"
             icon: "checkbox-marked-circle"
+            tooltip: "Successfull ICO: we raised over 16k ETH from more than 7000 investors, what was over 16M USD"
+            btn:
+                - label: "stats"
+                  link: "https://lif.windingtree.com/"
+                  style: "outline-dark"
           - item: "Execute market validation mechanism"
             icon: "checkbox-marked-circle"
+            tooltip: "Learn about it in our White Paper"
           - item: "Team building event in Prague"
+            icon: "checkbox-marked-circle"
+            tooltip: "Our team members form all over the world came to Prague to work on project"
+          - item: "Partnership with Swissport, Swiss Airlines, Sciant, AirGateway"
             icon: "checkbox-marked-circle"
 
   - year: "2018"
@@ -91,15 +118,24 @@ stage:
         items:
           - item: "Write API"
             icon: "checkbox-marked-circle"
+            tooltip: "RESTful API that makes posting inventory to Winding Tree easy, you don't need to deal with blockchain"
           - item: "Room availability"
             icon: "checkbox-marked-circle"
+            tooltip: "A dynamic data of room availability became accessible through Winding Tree"
             btn:
-                - label: "Trello"
-                  link: "https://trello.com/c/xJlWuzWI/73-3-availability"
+                - label: "kanban card"
+                  link: "https://trello.com/c/zhALr7QO/97-realtime-availability-proof-of-concept"
                   style: "outline-dark"
 
           - item: "Platform Architecture for Airlines"
             icon: "circle-slice-4"
+            tooltip: "Platform architectue design for distribution of airline inventory"
+          - item: "Search API"
+            icon: "circle-slice-4"
+            tooltip: "We started working on RESTful API that makes searching inventory through Winding Tree easy"
+          - item: "Booking API"
+            icon: "circle-slice-4"
+            tooltip: "We started working on RESTful API that makes bookings through Winding Tree easy"
 
 
       - title: "R&D"
@@ -108,41 +144,87 @@ stage:
             icon: "circle-slice-4"
           - item: "2nd Layer Solutions"
             icon: "circle-slice-4"
+          - item: "Payment Process"
+            icon: "circle-slice-4"
 
       - title: "Products"
         items:
+         
+          - item: "Booking Application"
+            icon: "checkbox-marked-circle"
+            tooltip: "Winding Tree partnered with ETH Berlin and developed first in the world fully crypto booking App to book accomodation for ETH Berlin event"
+            btn:
+                - label: "source code"
+                  link: "https://github.com/windingtree/crypto-booking"
+                  style: "outline-dark"
           - item: "Hotel Explorer"
             icon: "circle-slice-4"
-            tooltip: "A demo application for Winding Tree ecosystem features"
-          - item: "Booking application"
-            icon: "checkbox-marked-circle"
-            tooltip: "An productive application for booking accomodation for ETH Berlin event. App usilizes Winding Tree features"
-
+            tooltip: "We continue developing of the Platform and adding new features to our demo application"
+            btn:
+                - label: "demo"
+                  link: "https://hotel-explorer-demo.windingtree.com/"
+                  style: "outline-dark"
+          - item: "Design System and UI Framework"
+            icon: "circle-slice-4"
+            tooltip: "We are working on React UI Framework to build applications on top of our Platform. We need some help here!"
+            btn:
+                - label: "contribute"
+                  link: "mailto:alex.menschikov@windingtree.com"
+                  style: "primary"
 
       - title: "Foundation"
         items:
           - item: "Winding Tree Hackathon"
             icon: "checkbox-marked-circle"
             btn:
-                - label: "Recap"
+                - label: "recap"
                   link: "https://windingtree.com/winding-tree-hackathon-prague-2018"
                   style: "outline-dark"
-          - item: "Partnership with AirCanada, AirFrance-KLM"
+            tooltip: "Winding Tree organized a great hackathon in Prague which was attended by more than 100 developers from all over the world"
+          - item: "Partnership with AirCanada, AirFrance-KLM, HahnAir, Siesta Cloud"
             icon: "checkbox-marked-circle"
 
+
   - year: "2019"
-    period: "Q1-Q2"
+    period: "Q1-Q4"
     collapsed: false
     data_group:
 
       - title: "Platform"
         items:
+          - item: "Platform Architecture for Airlines"
+            icon: "circle-outline"
+            tooltip: "Platform architectue design for distribution of airline inventory"
+          - item: "Search API"
+            icon: "circle-outline"
+            tooltip: "We started working on RESTful API that makes searching inventory through Winding Tree easy"
+          - item: "Payments"
+            icon: "circle-outline"
+            tooltip: "We started working on RESTful API that makes bookings through Winding Tree easy"
+          - item: "Reputation System"
+            icon: "circle-outline"
+            tooltip: "Supplier reputation system develoment"
 
       - title: "R&D"
         items:
+          - item: "Distributed Storages"
+            icon: "circle-outline"
+          - item: "2nd Layer Solutions"
+            icon: "circle-outline"
+          - item: "Tour Packages Distribution"
+            icon: "circle-outline"
 
       - title: "Products"
         items:
+          - item: "Airline Explorer"
+            icon: "circle-outline"
+            tooltip: "We continue developing of the Platform and adding new features to our demo application"
+          - item: "Hotel Explorer"
+            icon: "circle-outline"
+            tooltip: "We continue developing of the Platform and adding new features to our demo application"
+          - item: "Design System and UI Framework"
+            icon: "circle-outline"
+            tooltip: "We are working on React UI Framework to build applications on top of our Platform. We need some help here!"
 
       - title: "Foundation"
         items:
