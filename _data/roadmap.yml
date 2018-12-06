@@ -50,7 +50,7 @@ stage:
 
       - title: "Platform"
         items:
-          - item: "Platform Architectue for Hotels"
+          - item: "Platform Architecture for Hotels"
             icon: "checkbox-marked-circle"
             tooltip: "We released the initial version of our platform architecture and started building features based on it"
           - item: "Data Exchange Format for Hotels"
@@ -129,7 +129,7 @@ stage:
 
           - item: "Platform Architecture for Airlines"
             icon: "circle-slice-4"
-            tooltip: "Platform architectue design for distribution of airline inventory"
+            tooltip: "Platform architecture design for distribution of airline inventory"
           - item: "Search API"
             icon: "circle-slice-4"
             tooltip: "We started working on a RESTful API that makes searching inventory through Winding Tree simple and easy"
@@ -194,7 +194,7 @@ stage:
         items:
           - item: "Platform Architecture for Airlines"
             icon: "circle-outline"
-            tooltip: "Platform architectue design for distribution of airline inventory"
+            tooltip: "Platform architecture design for distribution of airline inventory"
           - item: "Search API"
             icon: "circle-outline"
             tooltip: "We started working on RESTful API that makes searching inventory through Winding Tree easy"
