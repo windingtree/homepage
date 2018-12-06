@@ -12,7 +12,7 @@ stage:
             icon: "circle-slice-4"
           - item: "Platform Architecture for Hotels"
             icon: "circle-slice-4"
-            tooltip: "Platform architectue design for distribution of hotels inventory"
+            tooltip: "Platform architecture design for distribution of hotels inventory"
 
       - title: "R&D"
         items:
