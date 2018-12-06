@@ -55,7 +55,7 @@ stage:
             tooltip: "We released the initial version of our platform architecture and started building features based on it"
           - item: "Data Exchange Format for Hotels"
             icon: "checkbox-marked-circle"
-            tooltip: "Winding Tree designed and promoted unified Hotel Data Exchange standards for the industry. Similar to the NDCstandard but for hotels."
+            tooltip: "Winding Tree designed and promoted unified Hotel Data Exchange standards for the industry. Similar to the NDC standard but for hotels."
           - item: 'JS-library'
             icon: "checkbox-marked-circle"
             tooltip: "This is the core of all of our API services and can be used by anyone who wants to develop a service integrated with Winding Tree"
