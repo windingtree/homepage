@@ -79,7 +79,29 @@ $roadmap-icon-size-lg: 70px;
                 }
 
                 .badge {text-transform: uppercase;}
-                .badge, .btn {margin-left: 5px;}
+                .badge, .btn {
+                    margin-left: 20px;
+                    padding: 5px 10px 5px 10px;
+                    font-size: 11px;
+                    font-weight: 400;
+                    margin-top:5px;
+                    text-transform: none;
+
+
+                }
+
+                .btn-outline-dark {
+                        border: 1px solid; 
+                        @include media-breakpoint-up('lg') {
+                           padding: 5px 10px 5px 10px;
+                        }
+                    }
+
+                    .btn-primary {
+                        border: none;
+                        padding: 6px 10px 6px 10px;
+                    }
+
 
                 a:not(.btn) {
                     position: relative;
