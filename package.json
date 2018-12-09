@@ -17,8 +17,8 @@
   "license": "MIT",
   "dependencies": {
     "@babel/polyfill": "^7.0.0",
-    "@windingtree/wt-ui": "^1.1.1",
-    "@windingtree/wt-ui-react": "^0.9.3",
+    "@windingtree/wt-ui": "^1.2.1",
+    "@windingtree/wt-ui-react": "^0.10.1",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-hot-loader": "^4.3.12",
