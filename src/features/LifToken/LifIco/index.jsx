@@ -4,10 +4,10 @@ import {
   Container, Row, Col,
 } from '@windingtree/wt-ui-react';
 import Item from './Item';
-import img1 from './img/1.svg';
-import img2 from './img/2.svg';
-import img3 from './img/3.svg';
-import img4 from './img/4.svg';
+import EthRaised from './img/EthRaised.svg';
+import Backers from './img/Backers.svg';
+import LifGenerated from './img/LifGenerated.svg';
+import EthInMvm from './img/EthInMvm.svg';
 
 const LifIco = () => (
   <section className="lif-ico py-3 py-md-5 bg-grad">
@@ -22,7 +22,7 @@ const LifIco = () => (
             lightText="pre ICO"
             darkNumber="13,860"
             darkText="ICO"
-            img={img1}
+            img={EthRaised}
             inverted
           />
           <hr />
@@ -33,7 +33,7 @@ const LifIco = () => (
             lightText="ICO"
             darkNumber="736"
             darkText="pre ICO"
-            img={img2}
+            img={Backers}
           />
           <hr />
           <Item
@@ -43,7 +43,7 @@ const LifIco = () => (
             lightText="for backers"
             darkNumber="6,244,135"
             darkText="for project funding"
-            img={img3}
+            img={LifGenerated}
             inverted
           />
           <hr />
@@ -54,7 +54,7 @@ const LifIco = () => (
             lightText="for project funding"
             darkNumber="5,164"
             darkText="in the MVM"
-            img={img4}
+            img={EthInMvm}
           />
         </Col>
       </Row>

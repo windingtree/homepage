@@ -1,6 +1,8 @@
+/* @flow */
 import React from 'react';
 import HowItWorks from 'commons/HowItWorks';
 import KeyBenefits from 'commons/KeyBenefits';
+import Solutions from './Solutions';
 
 const Suppliers = () => (
   <div>
@@ -13,6 +15,7 @@ const Suppliers = () => (
       <KeyBenefits.NewBusinessModel />
     </KeyBenefits>
     <HowItWorks />
+    <Solutions />
   </div>);
 
 export default Suppliers;
