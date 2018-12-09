@@ -1,7 +1,6 @@
 /* @flow */
 import React from 'react';
-// TODO replace this import
-import Card from '@windingtree/wt-ui-react/lib/components/Card';
+import { Card } from '@windingtree/wt-ui-react';
 
 type PropType = {
     imgSrc: string,
