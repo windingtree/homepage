@@ -1,0 +1,67 @@
+---
+layout: event
+title: Hacking the travel industry with blockchain solutions | Winding Tree Hackathon Prague 2018
+description: "Winding Tree Hackathon Prague 2018 : 100 developers hacks travel industry with decentralized solutions provided by Winding Tree. 2 days of high-level education and hacking."
+keywords: "winding tree, hackathon, prague, 2018, blockchain, travel"
+---
+
+{% include
+    banners/winding-tree-hackathon-prague-2018.html
+    data = site.data.banners.winding-tree-hackathon-prague-2018
+%} 
+ 
+{% assign data = site.data.events.winding-tree-hackathon-prague-2018 %}
+
+
+{% if data.event_partners %}
+    <section class="event-partners py-3 py-md-5">
+        <div class="container">
+            <h2 class="mb-1 mb-md-2 text-center">
+                {{ data.event_partners.title }}
+            </h2>
+ 
+            <div class="row justify-content-center align-items-center">
+                {% for partner in data.event_partners.partners_list %}
+                    <div class="col-auto m-1">
+                        <a href="{{ partner.url | relative_url }}" target="_blank">
+                            <img src="{{ partner.logo_path | relative_url }}" alt="" class="event-partners__logo">
+                        </a>
+                    </div>
+                {% endfor %}
+            </div>
+
+            <footer class="mt-1 mt-md-2 text-center">
+                <a href="{{ data.event_partners.action_url | relative_url }}" class="btn btn-outline-dark d-block d-md-inline-block" target="_blank">
+                    {{ data.event_partners.action_title }}
+                </a>
+            </footer>
+        </div>
+    </section>
+{% endif %}
+
+
+
+{% if data.event_gallery %}
+    <section class="event-gallery py-3 py-md-5">
+        <div class="container">
+            <h2 class="mb-2 text-center">
+                {{ data.event_gallery.title }}
+            </h2>
+
+            <div>
+                {% include
+                    photo-gallery.html
+                    photos = site.data.photo-gallery.photos-list-1
+                %}
+            </div>
+
+            <footer class="mt-2 text-center">
+                <a href="{{ data.event_gallery.action_url }} | relative_url" class="border-bottom small">
+                    {{ data.event_gallery.action_title }}
+                </a>
+            </footer>
+        </div>
+    </section>
+{% endif %}
+
+{% include where-to-meet.html %}
