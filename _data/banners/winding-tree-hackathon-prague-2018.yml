@@ -1,8 +1,12 @@
 bg: "/assets/img/banners/event-bg.png"
-title: "Winding Tree Hackathon <br> Prague, CZ<br>24-25 October 2018"
-caption: "Hackathon is over & recaps are coming up shortly"
+title: "#Hacktravel Prague, CZ<br>24-25 October 2018"
+caption: "Hackathon is over, we're proud of it!"
 date: ""
 actions_list:
     - action_url: "https://windingtree.typeform.com/to/yYWjzg"
-      action_title: "Signup for 2019 Events"
+      action_title: "Signup for next Events"
       action_btn_class: "btn-primary"
+    - action_url: "https://blog.windingtree.com/hacktravel-hackathon-recap-feacb65cc47d"
+      action_title: "Read Full Recap"
+      action_btn_class: "btn-outline-light"
+

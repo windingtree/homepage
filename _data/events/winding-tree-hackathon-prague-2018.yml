@@ -1,11 +1,5 @@
 terminal: |
-          var Hackathon = {
-              dates: 24-25 October 2018,
-              location: Prague Czech Republic,
-              venue: Paralelni Polis,
-              attendees: 100,
-              status: completed...
-          }
+          status: completed...
           _
 
 event_summary:
