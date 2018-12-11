@@ -6,7 +6,7 @@ actions_list:
     - action_url: "https://windingtree.typeform.com/to/yYWjzg"
       action_title: "Signup for next Events"
       action_btn_class: "btn-primary"
-    - action_url: "https://windingtree.typeform.com/to/yYWjzg"
-      action_title: "Read in Blog"
+    - action_url: "https://blog.windingtree.com/hacktravel-hackathon-recap-feacb65cc47d"
+      action_title: "Read Full Recap"
       action_btn_class: "btn-outline-light"
 
