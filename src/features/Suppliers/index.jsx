@@ -9,16 +9,13 @@ const Suppliers = () => (
   <div>
     <KeyBenefits>
       {
-        keyBenefitsDescriptions.keyBenefits.map((benefit) => {
-          console.log(benefit);
-          return (
-            <KeyBenefits.Benefit
-              title={benefit.title}
-              img={benefit.icon}
-              body={benefit.body}
-              key={benefit.title}
-            />);
-        })
+        keyBenefitsDescriptions.keyBenefits.map(benefit => (
+          <KeyBenefits.Benefit
+            title={benefit.title}
+            img={benefit.icon}
+            body={benefit.body}
+            key={benefit.title}
+          />))
       }
     </KeyBenefits>
     <HowItWorks />
