@@ -96,7 +96,7 @@ keywords: "winding tree, hackathon, prague, 2018, blockchain, travel"
             <div class="row event-tasks__list">
                 {% for task in data.event_tasks.tasks_list %}
                     <div class="col-md-6 event-tasks__item">
-                        <a href="{{ task.url }}" class="card h-100 event-task">
+                        <a href="{{ task.url }}" class="card h-100 event-task" target="_blank">
                             <div class="card-body">
                                 <i class="mdi {{ task.icon }} event-task__icon"></i>
                                 <h3 class="card-title event-task__title">
@@ -114,7 +114,7 @@ keywords: "winding tree, hackathon, prague, 2018, blockchain, travel"
 
             </div>
             <footer class="mt-2 text-center">
-                <a href="{{ data.event_tasks.action_url }}" class="btn btn-outline-dark d-block d-md-inline-block">
+                <a href="{{ data.event_tasks.action_url }}" class="btn btn-outline-dark d-block d-md-inline-block" target="_blank">
                     {{ data.event_tasks.action_title }}
                 </a>
             </footer>
@@ -153,7 +153,7 @@ keywords: "winding tree, hackathon, prague, 2018, blockchain, travel"
                 {% endfor %}
             </div>
             <footer class="mt-2 text-center">
-                <a href="{{ data.event_talks.action_url }}" class="btn btn-primary">
+                <a href="{{ data.event_talks.action_url }}" class="btn btn-primary" target="_blank">
                     {{ data.event_talks.action_title }}
                 </a>
             </footer>
@@ -186,12 +186,18 @@ keywords: "winding tree, hackathon, prague, 2018, blockchain, travel"
 
             </div>
             <div class="container">
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe src={{data.event_roundtable.video}} class="embed-responsive-item" allowfullscreen=""></iframe>
+                <div class="row">
+                    {% for video in data.event_roundtable.videos %}
+                        <div class="col-md-6">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe src={{video.url}} class="embed-responsive-item" allowfullscreen=""></iframe>
+                            </div>
+                        </div>
+                    {% endfor %}
                 </div>
             </div>
             <footer class="mt-2 text-center">
-                <a href="{{ data.event_roundtable.action_url }}" class="btn btn-outline-light d-block d-md-inline-block">
+                <a href="{{ data.event_roundtable.action_url }}" class="btn btn-outline-light d-block d-md-inline-block" target="_blank">
                     {{ data.event_roundtable.action_title }}
                 </a>
             </footer>
@@ -199,6 +205,43 @@ keywords: "winding tree, hackathon, prague, 2018, blockchain, travel"
         
     </section>
 {% endif %}
+
+{% if data.event_CTA %}
+    <section class="event-tasks my-3 my-md-5">
+        <div class="container">
+            <header class="mb-2 text-center">
+                <h2 class="mb-1">
+                    {{ data.event_CTA.title }}
+                </h2>
+                <p class="lead">
+                    {{ data.event_CTA.caption }}
+                </p>
+            </header>
+
+            <div class="row event-tasks__list">
+                {% for CTA in data.event_CTA.CTA_list %}
+                    <div class="col-md-6 event-tasks__item">
+                        <a href="{{ CTA.url }}" class="card h-100 event-task" target="_blank">
+                            <div class="card-body" >
+                                <i class="mdi {{ CTA.icon }} event-task__icon" style="color: #18e9a6"></i>
+                                <h3 class="card-title event-task__title">
+                                    {{ CTA.title }}
+                                </h3>
+                            </div>
+                            <div class="event-task__text">
+                                <p class="text-muted">
+                                    {{ CTA.text }}
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                {% endfor %}
+
+            </div>
+        </div>
+    </section>
+{% endif %}
+
 
 
 {% if data.event_gallery %}
@@ -216,12 +259,14 @@ keywords: "winding tree, hackathon, prague, 2018, blockchain, travel"
             </div>
 
             <footer class="mt-2 text-center">
-                <a href="{{ data.event_gallery.action_url }} | relative_url" class="border-bottom small">
+                <a href="{{ data.event_gallery.action_url }} | relative_url" class="border-bottom small" target="_blank">
                     {{ data.event_gallery.action_title }}
                 </a>
             </footer>
         </div>
     </section>
 {% endif %}
+
+
 
 {% include where-to-meet.html %}

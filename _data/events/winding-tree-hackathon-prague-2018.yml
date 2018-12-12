@@ -123,7 +123,7 @@ event_tasks:
           text: "Integrate Ethereum Name Service into Winding Tree hotel distibution"
 
     action_icon: "mdi-plus"
-    action_url: "https://windingtree.typeform.com/to/q1dUII"
+    action_url: "https://windingtree.typeform.com/to/yYWjzg"
     action_title: "Propose your idea" 
 
 event_register:
@@ -133,13 +133,13 @@ event_register:
         - title: "Hack"
           text: "Apply to hack on your own or with a team. Participation and training is FREE for approved hackers. Spots are limited"
           admission: "Free 2 Days"
-          action_url: "https://windingtree.typeform.com/to/q1dUII"
+          action_url: "https://windingtree.typeform.com/to/yYWjzg"
           action_title: "Apply"
 
         - title: "Support"
           text: "Whether it's technology expertise or sponsorship - put your organization in the spotlight of the top industry innovators and travel startups"
           admission: "Free 2 Days"
-          action_url: "https://windingtree.typeform.com/to/Y30LY6"
+          action_url: "https://windingtree.typeform.com/to/yYWjzg"
           action_title: "Become a Partner"
 
         - title: "Attend"
@@ -190,7 +190,7 @@ event_partners:
           logo_path: "/assets/img/events/winding-tree-hackathon-prague-2018/partners/salesforce.png"
         
         
-    action_url: "https://windingtree.typeform.com/to/Y30LY6"
+    action_url: "https://windingtree.typeform.com/to/yYWjzg"
     action_title: "Become a partner"
 
 event_gallery:
