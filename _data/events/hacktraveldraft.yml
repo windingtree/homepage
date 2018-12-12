@@ -19,15 +19,15 @@ event_video: "https://youtube.com/embed/09xe4IX1mrc"
 
 event_about:
     bg: "/assets/img/events/winding-tree-hackathon-prague-2018/event-about-bg.svg"
-    title: "How it was"
+    title: "What it's all about"
     text: "The hackathon, which was the first of its kind, brought together various airlines, travel companies, and blockchain developers coding solutions collaboratively using Winding Tree’s open source platform. <br/><br/>It was the first time that major airlines, developers, and startups worked on solutions together, openly exchanged expertise, gave feedback, contributed to each other’s hacks with fresh perspectives and picked each other’s brain in the spirit of open innovation. "
     countdown: "10/25/2018 00:00:00 AM"
     action_url: "#event-register"
     action_title: "Join the Hackaton"
 
 event_talks:
-    title: "Tech Talks"
-    caption: "tons of great insights"
+    title: "Tech Talks & Workshops"
+    caption: ""
     action_url: "https://windingtree.typeform.com/to/yYWjzg"
     action_title: "Signup for next Events"
     talks:
@@ -42,53 +42,6 @@ event_talks:
 
         - url: "https://www.youtube.com/embed/QB2FeaV0vZA"
           title: "Intro to ENS"
-
-
-event_program:
-    title: "Hackathon Program"
-
-    program_list:
-        - img_path: "/assets/img/events/winding-tree-hackathon-prague-2018/program/tree_gradient.png"
-          logo_path: ""
-          title: "Day&nbsp;1"
-          date: "October, 24"
-          text: |
-                <b>Location:</b><a href="https://www.google.com/maps/place/Paraleln%C3%AD+Polis/@50.1033888,14.448369,17z/data=!3m1!4b1!4m5!3m4!1s0x470b94b186427997:0xcad994427e27c9c0!8m2!3d50.1033854!4d14.4505577?shorturl=1"> Paralelni Polis </a> <br><br> 
-                <b>8:00am:</b> Registration, Coffee & Breakfast<br><br>
-                <b>9:00am - 10:00am:</b> Keynotes on The State of Development and Adoption of Blockchain Technology in Travel Industry<br><br>
-                <b>10:00am - 2:00pm:</b> Tech Talks<br><br>
-                <b>12:00pm - 1:00pm:</b> Lunch & Networking<br><br>
-                <b>2:00pm - 2:30pm:</b> Hacker Teams form<br><br>
-                <b>2:30pm:</b> Hacking Begins<br><br>
-                <b>7:00pm:</b> Dinner & Drinks<br><br>
-                <b>7:00pm+:</b> Stay late or all night to hack
-
-        - img_path: "/assets/img/events/winding-tree-hackathon-prague-2018/program/tree_gradient.png"
-          logo_path: ""
-          title: "Day&nbsp;2"
-          date: "October, 25"
-          text: |
-                <b>Location:</b><a href="https://www.google.com/maps/place/Paraleln%C3%AD+Polis/@50.1033888,14.448369,17z/data=!3m1!4b1!4m5!3m4!1s0x470b94b186427997:0xcad994427e27c9c0!8m2!3d50.1033854!4d14.4505577?shorturl=1"> Paralelni Polis </a> <br><br>
-                <b>8:00am:</b> Doors Open, Registration, Coffee & Breakfast<br><br>
-                <b>9:00am - 10:00am:</b> Winding Tree Platform Demos<br><br>
-                <b>12:00pm - 1:00pm:</b> Lunch & Networking<br><br>
-                <b>1:00pm - 2:00pm:</b> Hacking Stops, Project Submissions<br><br>
-                <b>2:00pm - 5:00pm:</b> Hack Demos, Judges Feedback<br><br>
-                <b>5:00pm - 6:00pm:</b> Happy Hour!<br><br>
-                <b>7:00pm till late:</b> After Party & Hacker Awards!<br><br>
-
-        - img_path: "/assets/img/events/winding-tree-hackathon-prague-2018/program/status_color.png"
-          logo_path: ""
-          title: "Keep on hacking"
-          text: |
-              <b>Location:</b><a href="https://www.google.com/maps/place/National+House+Sm%C3%ADchov/@50.0738213,14.405459,17z/data=!3m1!4b1!4m5!3m4!1s0x470b94f824acf147:0xff9900e4add1873!8m2!3d50.0738179!4d14.4076477?shorturl=1"> National House Smichov </a> <br><br>
-              <b>Keep on Hacking</b> - join us to hack Dapps at #CryptoLife Hackathon by Status where Winding Tree will lead the travel track and hack along with the community!<br><br> <b>All approved Winding Tree Hackathon participants are eligible to automatically enroll into Status Hackathon.</b>
-
-
-    program_empty: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget tempor magna."
-
-    action_url: "#event-register"
-    action_title: "Register for Hackathon"
 
 event_tasks:
     title: "Project Highlights & Winners"
@@ -113,17 +66,19 @@ event_tasks:
 
     action_icon: "mdi-plus"
     action_url: "https://blog.windingtree.com/2018-hack-travel-tech-recap-44273d9cc4c3"
-    action_title: "Tech Recap"
+    action_title: "See Projects Evaluation"
 
 event_roundtable:
-    title: "Hackathon Roundtable"
+    title: "Industry Roundtable at the Hackathon"
     text: "As part of the hackathon we also organized the first Winding Tree Roundtable for the airlines eager to get together and openly discuss their business goals, needs, technical challenges and expectations for the upcoming Winding Tree Airline product."
     action_url: "https://medium.com/@marinajaneiko/feacb65cc47d"
     action_title: "Read full article"
-    video: "https://www.youtube.com/embed/xa_V7wpTEN4"
+    videos:
+        - url: "https://www.youtube.com/embed/xa_V7wpTEN4"
+        - url: "https://www.youtube.com/embed/vlJbLLY4_8A"
 
 event_partners:
-    title: "Have been hacking With Us"
+    title: "Hacked with us"
 
     partners_list:
         - url: "https://www.hahnair.com/en"
@@ -159,8 +114,21 @@ event_partners:
           logo_path: "/assets/img/events/winding-tree-hackathon-prague-2018/partners/salesforce.png"
         
         
-    action_url: "https://windingtree.typeform.com/to/Y30LY6"
-    action_title: "Get on board for next event"
+    action_url: "https://windingtree.typeform.com/to/yYWjzg"
+    action_title: "Join us at the next events"
+
+event_CTA:
+    title: "Feel like getting more involved?"
+    caption: "Here are a couple of simple ways to continue participating and contributing to building Winding Tree open source ecosystem, whether it's with your technical skills, industry expertise or support"
+    CTA_list:
+        - url: "https://github.com/windingtree/wt-hackathon/blob/master/submissions/2018/AFKL_submission.md"
+          icon: "mdi-account-group"
+          title: "Join community"
+          text: "and learn first-hand about opportunities to share your expertise on the platform development proposals, contribute your technical skills and get early invites to the upcoming community events "
+        - url: "https://windingtree.typeform.com/to/yYWjzg"
+          icon: "mdi-plus-box"
+          title: "Partner with us"
+          text: "whether you're looking for testing out our solutions for your technical and business needs, training your team, supporting our community projects or strategically aligning your organization with open innovation initiatives, we'll be happy to hear from you"
 
 event_gallery:
     title: "Our Community Events in Action"
