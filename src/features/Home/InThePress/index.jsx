@@ -3,7 +3,9 @@ import React from 'react';
 import {
   Row, Col, Container,
 } from '@windingtree/wt-ui-react';
+
 import Quotes from './Quotes';
+import Mentions from './Mentions';
 
 
 const InThePress = () => (
@@ -13,6 +15,8 @@ const InThePress = () => (
       <Row className="justify-content-md-center">
         <Col md={10}>
           <Quotes />
+          <hr className="my-3" />
+          <Mentions />
         </Col>
       </Row>
     </Container>
