@@ -1,5 +1,6 @@
 import React from 'react';
 import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+import Home from 'features/Home';
 import Foundation from 'features/Foundation';
 import Sellers from 'features/Sellers';
 import Suppliers from 'features/Suppliers';
@@ -18,6 +19,7 @@ const Routes = () => (
         <Route path="/software-vendors" component={SoftwareVendors} />
         <Route path="/lif-token" component={LifToken} />
         <Route path="/startups-and-developers" component={Community} />
+        <Route component={Home} />
       </Switch>
     </Main>
   </Router>
