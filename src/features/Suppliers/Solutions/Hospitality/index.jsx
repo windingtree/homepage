@@ -1,38 +1,35 @@
 /* @flow */
-import React from 'react';
-import Solution from '../Solution';
-import imgSrc from './img/hospitality.jpg';
-import NordicIcon from './img/nordicIcon.jpg';
-import Polygon from './Polygon';
-import Integrated from './Integrated';
+import React from "react";
+import { Button, Row, Col } from "@windingtree/wt-ui-react";
+import Solution from "../Solution";
+import Polygon from "./Polygon";
 
 const Hospitality = () => (
-  <Solution>
-    <Solution.Header title="Airlines">
-      <Polygon />
-      <Solution.Header.Image src={imgSrc} alt="Hospitality" />
-      <Solution.Header.Body title="Hospitality">
-        Hotels can integrate with our simple APIs to showcase availability on the Winding Tree
-        marketplace.
-      </Solution.Header.Body>
-    </Solution.Header>
-    <Solution.Case
-      imgSrc={NordicIcon}
-      imgAlt="Nordic Choice Hotels"
-      href="https://www.nordicchoicehotels.com/"
-    >
-      Nordic Choice Hotels is currently experimenting with the blockchain. Some of the rooms
-      on Hobo have been made available on the blockchain platform Winding Tree, whose data
-      can be used by third-party apps and sites that turn to the customers.
-    </Solution.Case>
-    <Integrated />
-    <Solution.Footer CTA="INTEGRATE">
-      {
-        `Don't have your own tech team? No problem, check out our list of already integrated
-        third parties or reach out and we'll walk you through your integration with Winding Tree.`
-      }
-    </Solution.Footer>
-  </Solution>
+    <Solution>
+        <Row className="d-flex align-items-center mb-2">
+            <Col md="6" lg="5" className="text-center text-md-left">
+                <Polygon />
+            </Col>
+            <Col md="6" lg="7" className="mb-1 mb-sm-0">
+                <Solution.Item title="Hospitality">
+                    Hotels can integrate with our simple APIs to showcase
+                    availability on the Winding Tree marketplace.
+                </Solution.Item>
+                <Button
+                    href="https://github.com/windingtree/"
+                    className="btn-accent mb-1 mb-sm-0 mb-md-1 mb-lg-0 mr-sm-1 d-block d-sm-inline-block"
+                >
+                    Apply for integration
+                </Button>
+                <Button
+                    href="https://github.com/windingtree/"
+                    className="btn-outline-dark d-block d-sm-inline-block"
+                >
+                    Use cases
+                </Button>
+            </Col>
+        </Row>
+    </Solution>
 );
 
 export default Hospitality;
