@@ -1,16 +1,23 @@
 import React from 'react';
 import KeyBenefits from 'commons/KeyBenefits';
 import LifIco from './LifIco';
+import keyBenefitsDescriptions from './keyBenefits.json';
 
 const LifToken = () => (
   <>
     <KeyBenefits noHeader>
       <KeyBenefits.Lead>
-        Líf is the most important underlying technology of the Winding Tree platform.
-        It is used for two purposes:
+        {keyBenefitsDescriptions.lead}
       </KeyBenefits.Lead>
-      <KeyBenefits.PaymentsOnPlatform />
-      <KeyBenefits.PlatformGovernance />
+      {
+        keyBenefitsDescriptions.keyBenefits.map(benefit => (
+          <KeyBenefits.Benefit
+            title={benefit.title}
+            img={benefit.icon}
+            body={benefit.body}
+            key={benefit.title}
+          />))
+      }
     </KeyBenefits>
     <LifIco />
   </>

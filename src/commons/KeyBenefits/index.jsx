@@ -3,17 +3,17 @@ import React from 'react';
 import {
   Container, Row, Col,
 } from '@windingtree/wt-ui-react';
-import ControlYourData from './ControlYourData';
-import ImmediateSettlement from './ImmediateSettlement';
 import Lead from './Lead';
-import NetworkWithoutBorders from './NetworkWithoutBorders';
-import NewBusinessModel from './NewBusinessModel';
-import NoFakeReviews from './NoFakeReviews';
-import OpenMarketplace from './OpenMarketplace';
-import PaymentsOnPlatform from './PaymentsOnPlatform';
-import PersonalizedTravel from './PersonalizedTravel';
-import PlatformGovernance from './PlatformGovernance';
-import SetYourCommission from './SetYourCommission';
+import Benefit from './Benefit';
+import './img/1.svg';
+import './img/2.svg';
+import './img/3.svg';
+import './img/4.svg';
+import './img/5.svg';
+import './img/6.svg';
+import './img/7.svg';
+import './img/8.svg';
+import './img/9.svg';
 
 type PropsType = {
   children: React$Node,
@@ -45,16 +45,7 @@ KeyBenefits.defaultProps = {
   noHeader: false,
 };
 
-KeyBenefits.ControlYourData = ControlYourData;
-KeyBenefits.ImmediateSettlement = ImmediateSettlement;
 KeyBenefits.Lead = Lead;
-KeyBenefits.NetworkWithoutBorders = NetworkWithoutBorders;
-KeyBenefits.NewBusinessModel = NewBusinessModel;
-KeyBenefits.NoFakeReviews = NoFakeReviews;
-KeyBenefits.OpenMarketplace = OpenMarketplace;
-KeyBenefits.PaymentsOnPlatform = PaymentsOnPlatform;
-KeyBenefits.PersonalizedTravel = PersonalizedTravel;
-KeyBenefits.PlatformGovernance = PlatformGovernance;
-KeyBenefits.SetYourCommission = SetYourCommission;
+KeyBenefits.Benefit = Benefit;
 
 export default KeyBenefits;
