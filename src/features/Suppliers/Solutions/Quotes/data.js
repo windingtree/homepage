@@ -11,6 +11,8 @@ type QuoteType = {
     text: string,
     href: string,
     imgSrc: string,
+    imgWidth?: number,
+    imgTopPosition?: number,
     user?: {
         name: string,
         role: string,
