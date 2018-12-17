@@ -1,6 +1,5 @@
 /* @flow */
 import React from 'react';
-import { string } from 'prop-types';
 
 type PropsType = {
     children: React$Node,
@@ -19,7 +18,6 @@ const SolutionItem = (props: PropsType) => {
 
 SolutionItem.defaultProps = {
   inverted: false,
-  title: string,
 };
 
 export default SolutionItem;

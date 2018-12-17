@@ -19,7 +19,11 @@ const Quotes = () => (
                 className="img-fluid"
                 src={quote.imgSrc}
                 alt={quote.name}
-                style={{ maxWidth: quote.imgWidth, position: 'relative', top: quote.imgTopPosition }}
+                style={{
+                  maxWidth: quote.imgWidth,
+                  position: 'relative',
+                  top: quote.imgTopPosition,
+                }}
               />
             </Nav.Link>
           </Nav.Item>
