@@ -1,0 +1,15 @@
+{
+  "lead": "Líf is the most important underlying technology of the Winding Tree platform. It is used for two purposes:",
+  "keyBenefits": [
+    {
+      "title": "Payments on the Platform",
+      "body": "In order for an agency (offline or online) to book anything on the Winding Tree platform they will have to send a certain amount of Líf to the seller. The miner fees are also paid in Líf. ",
+      "icon": "img/8.svg"
+    },
+    {
+      "title": " Platform Governance",
+      "body": "Because Winding tree is open-source, anyone can propose a change to the platform code, perhaps in order to update a smart contract with some new business logic. But because the marketplace is decentralized, its participants have to approve that change.",
+      "icon": "img/9.svg"
+    }
+  ]
+}

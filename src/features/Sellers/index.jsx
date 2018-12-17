@@ -1,16 +1,20 @@
 import React from 'react';
 import HowItWorks from 'commons/HowItWorks';
 import KeyBenefits from 'commons/KeyBenefits';
+import keyBenefitsDescriptions from './keyBenefits.json';
 
 const Sellers = () => (
   <div>
     <KeyBenefits>
-      <KeyBenefits.OpenMarketplace />
-      <KeyBenefits.SetYourCommission />
-      <KeyBenefits.NetworkWithoutBorders />
-      <KeyBenefits.ControlYourData />
-      <KeyBenefits.PersonalizedTravel />
-      <KeyBenefits.NewBusinessModel />
+      {
+        keyBenefitsDescriptions.keyBenefits.map(benefit => (
+          <KeyBenefits.Benefit
+            title={benefit.title}
+            img={benefit.icon}
+            body={benefit.body}
+            key={benefit.title}
+          />))
+      }
     </KeyBenefits>
     <HowItWorks />
   </div>);
