@@ -1,17 +1,17 @@
 {
-  "name": "homepage",
+  "name": "homepage-next",
   "scale": {
     "sfo1": {
-      "min": 1,
+      "min": 0,
       "max": 1
     },
     "bru1": {
-      "min": 1,
+      "min": 0,
       "max": 1
     }
   },
   "alias": [
-    "windingtree.com"
+    "next.windingtree.com"
   ],
   "github": {
     "autoAlias": false
