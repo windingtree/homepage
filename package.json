@@ -3,7 +3,8 @@
   "version": "2.0.0",
   "main": "src/App/index.jsx",
   "scripts": {
-    "start": "NODE_ENV=development webpack-dev-server --config ./webpack/webpack.config.js",
+    "start": "serve --single ./public",
+    "dev": "NODE_ENV=development webpack-dev-server --config ./webpack/webpack.config.js",
     "build": "NODE_ENV=production webpack --config ./webpack/webpack.config.prod.js",
     "flow": "flow",
     "lint": "eslint --ext .jsx,.js src && stylelint src",
