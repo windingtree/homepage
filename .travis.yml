@@ -6,8 +6,11 @@ jobs:
   include:
   - stage: test
     script:
-    - npm run lint
-    - npm run flow
+    # Disbaled to prevent delays. 
+    # https://github.com/windingtree/wt-ui-react/issues/68
+    # https://github.com/windingtree/homepage/issues/132
+    # - npm run lint
+    # - npm run flow
     - npm run build
   - stage: deploy-next
     install: true
