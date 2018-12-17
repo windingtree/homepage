@@ -21,7 +21,7 @@
   "dependencies": {
     "@babel/polyfill": "^7.0.0",
     "@windingtree/wt-ui": "^1.2.1",
-    "@windingtree/wt-ui-react": "^0.10.1",
+    "@windingtree/wt-ui-react": "^0.10.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-hot-loader": "^4.3.12",
@@ -65,6 +65,7 @@
     "stylelint": "^9.8.0",
     "stylelint-config-sass-guidelines": "^5.2.0",
     "uglifyjs-webpack-plugin": "^2.0.1",
+    "url-loader": "^1.1.2",
     "webpack": "^4.26.0",
     "webpack-bundle-analyzer": "^3.0.3",
     "webpack-cli": "^3.1.2",
