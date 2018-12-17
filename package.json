@@ -8,7 +8,9 @@
     "build": "NODE_ENV=production webpack --config ./webpack/webpack.config.prod.js",
     "flow": "flow",
     "lint": "eslint --ext .jsx,.js src && stylelint src",
-    "lint:fix": "eslint --fix --ext .jsx,.js src && stylelint --fix src"
+    "lint:fix": "eslint --fix --ext .jsx,.js src && stylelint --fix src",
+    "alias:next": "now alias --team windingtree --token=$NOW_TOKEN --local-config=now-next.json",
+    "alias:release": "now alias --team windingtree --token=$NOW_TOKEN"
   },
   "repository": {
     "type": "git",

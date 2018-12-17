@@ -2,16 +2,24 @@ language: node_js
 notifications:
   email: false
 cache: npm
-branches:
-  only:
-    - master
-script: "npm run build"
-deploy:
-  provider: pages
-  skip_cleanup: true
-  local_dir: _site
-  github_token: $GITHUB_TOKEN
-  keep-history: true
-  fqdn: windingtree.com
-  on:
-    branch: master
+jobs:
+  include:
+  - stage: test
+    script:
+    - npm run lint
+    - npm run flow
+    - npm run build
+  - stage: deploy-next
+    install: true
+    if: branch = next AND type = push
+    script:
+    - npm i -g now
+    - npm run deploy:now
+    - npm run alias:next
+  - stage: deploy-version
+    install: true
+    if: tag IS present
+    script:
+    - npm i -g now
+    - npm run deploy:now
+    - npm run alias:release
