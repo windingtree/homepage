@@ -1,23 +1,28 @@
 /* @flow */
 import React from 'react';
-import {
-  Container, Row, Col,
-} from '@windingtree/wt-ui-react';
+import { Container, Row, Col } from '@windingtree/wt-ui-react';
 import Hospitality from './Hospitality';
 import Airlines from './Airlines';
 import Tours from './Tours';
+import Quotes from './Quotes';
 
 const Solutions = () => (
-  <section className="solutions my-3 my-md-5">
+  // solutions-section
+  <section className="app-section">
     <Container>
-      <Row className="justify-content-md-center">
-        <Col md={8}>
-          <header className="mb-2 mb-md-3">
+      <Row>
+        <Col>
+          <header className="mb-4">
             <h2 className="text-center">Solutions</h2>
           </header>
+
           <Hospitality />
           <Airlines />
           <Tours />
+
+          <hr className="my-md-4" />
+
+          <Quotes />
         </Col>
       </Row>
     </Container>

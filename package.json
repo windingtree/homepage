@@ -4,7 +4,7 @@
   "main": "src/App/index.jsx",
   "scripts": {
     "start": "serve --single ./public",
-    "dev": "NODE_ENV=development webpack-dev-server --config ./webpack/webpack.config.js",
+    "dev": "NODE_ENV=development webpack-dev-server --host 0.0.0.0 --disable-host-check --config ./webpack/webpack.config.js",
     "build": "NODE_ENV=production webpack --config ./webpack/webpack.config.prod.js",
     "flow": "flow",
     "lint": "eslint --ext .jsx,.js src && stylelint src",

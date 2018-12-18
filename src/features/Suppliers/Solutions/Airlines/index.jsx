@@ -1,35 +1,38 @@
 /* @flow */
 import React from 'react';
+import { Button, Row, Col } from '@windingtree/wt-ui-react';
 import Solution from '../Solution';
-import imgSrc from './img/airlines.jpg';
-import Icon from './img/anz.png';
 import Polygon from './Polygon';
-import Benefits from './Benefits';
 
 const Hospitality = () => (
   <Solution>
-    <Solution.Header title="Airlines">
-      <Polygon />
-      <Solution.Header.Image src={imgSrc} alt="Airlines" />
-      <Solution.Header.Body title="Airlines">
-        Lower your distribution and transactional cost by using new commission-free distribution
-        channel, more reliable than any major GDS.
-      </Solution.Header.Body>
-    </Solution.Header>
-    <Solution.Case
-      imgSrc={Icon}
-      imgAlt="Air New Zeland"
-      href="https://www.airnewzealand.eu/"
-    >
-      Making the sales process less complex, Air New Zealand customers can benefit from reduced
-      transactional costs, while the airline can take advantage of the swift and secure sharing
-      of information.
-    </Solution.Case>
-    <Benefits />
-    <Solution.Footer CTA="READ DOCUMENTATION">
-      If you would like to start selling your inventory on the Winding Tree platform, we recommend
-      you to read the integration documentation and then arrange for a consultation.
-    </Solution.Footer>
+    <Row className="d-flex align-items-center">
+      <Col md={6} lg={5} className="text-center text-md-left order-md-last pb-1 pb-md-0 px-0 px-sm-3 pr-md-0 pl-md-1 pl-lg-3">
+        <Polygon />
+      </Col>
+      <Col md={6} lg={7} className="mb-1 mb-sm-0 order-md-first">
+        <Solution.Item title="Airlines">
+          Lower your distribution and transactional cost by using new
+          commission-free distribution channel, more reliable than any
+          major GDS.
+        </Solution.Item>
+        <Button
+          href="https://github.com/windingtree/"
+          variant="accent"
+          className="accent mb-1 mb-sm-0 mb-md-1 mb-lg-0 mr-sm-1 d-block d-sm-inline-block"
+        >
+          Apply for integration
+        </Button>
+        <Button
+          href="https://github.com/windingtree/"
+          className="d-block d-sm-inline-block"
+          variant="dark"
+          outlined
+        >
+          Use cases
+        </Button>
+      </Col>
+    </Row>
   </Solution>
 );
 

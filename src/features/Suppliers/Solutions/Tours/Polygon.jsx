@@ -1,25 +1,88 @@
 /* stylelint-disable declaration-block-trailing-semicolon */
 /* @flow */
 import React from 'react';
-import astronaut from './astronaut.png';
+import tours from './img/tours.jpg';
 
 const SVG = () => (
-  <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="520" height="330" viewBox="0 0 520 330" className="d-none d-md-block">
-    <defs>
-      <polygon id="bitmap-3-a" points="0 118.08 128.069 330 478.528 211.982 520 146.057 184.505 0" />
-      <linearGradient id="bitmap-3-c" x1="50%" x2="50%" y1="20.792%" y2="100%">
-        <stop offset="0%" stopColor="#29CB96" />
-        <stop offset="100%" stopColor="#5F2987" />
-      </linearGradient>
-    </defs>
-    <g fill="none" fillRule="evenodd">
-      <mask id="bitmap-3-b" fill="#fff">
-        <use xlinkHref="#bitmap-3-a" />
+  <svg
+    viewBox="0 0 432 319"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlnsXlink="http://www.w3.org/1999/xlink"
+    style={{ maxWidth: '100%' }}
+  >
+    <mask
+      id="mask0"
+      maskUnits="userSpaceOnUse"
+      x="0"
+      y="0"
+      width="432"
+      height="319"
+    >
+      <rect width="432" height="319" fill="#C4C4C4" />
+    </mask>
+    <g mask="url(#mask0)">
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M318.025 285.144L426.432 151.297L282.503 5.6369L53.1591 55.6745L2.84408 155.16L136.294 312.731L318.025 285.144Z"
+        fill="#D8D8D8"
+      />
+      <mask
+        id="maskt1"
+        maskUnits="userSpaceOnUse"
+        x="-34"
+        y="-77"
+        width="490"
+        height="474"
+      >
+        <path
+          fillRule="evenodd"
+          clipRule="evenodd"
+          d="M318.025 285.144L426.432 151.297L282.503 5.6369L53.1591 55.6745L2.84408 155.16L136.294 312.731L318.025 285.144Z"
+          fill="#fff"
+        />
       </mask>
-      <use fill="#000" xlinkHref="#bitmap-3-a" />
-      <image width="520" height="330" mask="url(#bitmap-3-b)" xlinkHref={astronaut} />
-      <rect width="520" height="330" fill="url(#bitmap-3-c)" mask="url(#bitmap-3-b)" opacity=".702" style={{ mixBlendMode: 'darken' }} />
+      <g mask="url(#maskt1)">
+        <rect
+          width="650"
+          height="477"
+          transform="matrix(-1 0 0 1 658 -54)"
+          fill="url(#patternt0)"
+        />
+        <rect
+          x="-25"
+          y="-18"
+          width="461"
+          height="355"
+          fill="url(#paintt0_linear)"
+          style={{ mixBlendMode: 'darken' }}
+          opacity="0.697"
+        />
+      </g>
     </g>
+    <defs>
+      <pattern
+        id="patternt0"
+        patternContentUnits="objectBoundingBox"
+        width="1"
+        height="1"
+      >
+        <use xlinkHref="#imaget0" transform="scale(.00067 .0009)" />
+      </pattern>
+      <linearGradient
+        id="paintt0_linear"
+        x1="6.245"
+        y1="30.122"
+        x2="6.245"
+        y2="337"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop stopColor="#29CB96" />
+        <stop offset="1" stopColor="#0D1134" />
+      </linearGradient>
+      <image id="imaget0" width="1500" height="1102" xlinkHref={tours} />
+    </defs>
   </svg>
 );
 
