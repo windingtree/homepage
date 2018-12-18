@@ -10,7 +10,9 @@
     "lint": "eslint --ext .jsx,.js src && stylelint src",
     "lint:fix": "eslint --fix --ext .jsx,.js src && stylelint --fix src",
     "alias:next": "now alias --team windingtree --token=$NOW_TOKEN --local-config=now-next.json",
-    "alias:release": "now alias --team windingtree --token=$NOW_TOKEN"
+    "alias:release": "now alias --team windingtree --token=$NOW_TOKEN",
+    "deploy:next": "now --team windingtree --token $NOW_TOKEN --local-config=now-next.json",
+    "deploy:release": "now --team windingtree --token $NOW_TOKEN --local-config=now.json"
   },
   "repository": {
     "type": "git",
