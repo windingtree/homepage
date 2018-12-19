@@ -26,18 +26,6 @@ members:
           title: "LinkedIn"
           icon: "mdi-linkedin"
 
-    - photo: "/assets/img/advisors/manuel.jpg"
-      name: "Manuel Araoz"
-      post: "Advisor | Argentina"
-      bio: "Manuel is the Founder and CTO of Zeppelin Solutions, the leading blockchain security auditing company. Manuel also advises Decentraland, and has previously worked as a Software Engineer for BitPay leading the development of Bitcore. He also developed one of the first apps on Bitcoin providing Proof of Existence and proposed BIP 45 introducing multi-signature wallets on the Bitcoin protocol."
-      social:
-        - url: "https://www.linkedin.com/in/manuelaraoz/"
-          title: "LinkedIn"
-          icon: "mdi-linkedin"
-        - url: "https://twitter.com/maraoz"
-          title: "Twitter"
-          icon: "mdi-twitter"
-
     - photo: "/assets/img/advisors/douglas.jpg"
       name: "Douglas Rice"
       post: "Advisor | USA"
