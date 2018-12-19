@@ -17,12 +17,12 @@ jobs:
     if: branch = next AND type = push
     script:
     - npm i -g now
-    - npm run deploy:now
+    - npm run deploy:next
     - npm run alias:next
   - stage: deploy-version
     install: true
     if: tag IS present
     script:
     - npm i -g now
-    - npm run deploy:now
+    - npm run deploy:release
     - npm run alias:release
