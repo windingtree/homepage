@@ -5,8 +5,12 @@ import {
 } from '@windingtree/wt-ui-react';
 import collaborators from './data';
 
-const AlreadyWithUs = () => (
-  <Tab.Container id="quotes tabs" defaultActiveKey={collaborators[0].title}>
+type PropsType = {
+  tab: number
+};
+
+const PartnersAndContributors = ({ tab }: PropsType) => (
+  <Tab.Container id="collaborators tabs" defaultActiveKey={collaborators[tab].title}>
     <Nav className="nav-pointers" variant="tabs">
       {collaborators.map(collaborator => (
         <Nav.Item as={Col} md={3}>
@@ -30,4 +34,8 @@ const AlreadyWithUs = () => (
   </Tab.Container>
 );
 
-export default AlreadyWithUs;
+PartnersAndContributors.defaultProps = {
+  tab: 0,
+};
+
+export default PartnersAndContributors;
