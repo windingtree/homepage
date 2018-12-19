@@ -14,7 +14,7 @@ const StartupsAndDevelopers = () => (
         <BlockQuoteSection />
       </Row>
       <Row className="justify-content-md-center">
-        <Col md={8}>
+        <Col md={10}>
           <h2 className="mb-2 mb-md-4 text-center">Already With Us</h2>
           <PartnersAndContributors />
         </Col>
