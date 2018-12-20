@@ -1,3 +1,14 @@
+$color-gradient-primary: #29cb96;
+$color-gradient-secondary: #5f2987;
+$radial-gradient-from-top: radial-gradient(circle at 50% 75%, $color-gradient-primary, $color-gradient-secondary 66.6%);
+$radial-gradient-from-bottom: radial-gradient(circle at 50% 0, $color-gradient-primary, $color-gradient-secondary 66.6%);
+$radial-gradient-from-left: radial-gradient(circle at 100% 50%, $color-gradient-primary, $color-gradient-secondary);
+
+$linear-gradient-to-top: linear-gradient(to top, $color-gradient-primary, $color-gradient-secondary);
+$linear-gradient-to-bottom: linear-gradient(to bottom, $color-gradient-primary, $color-gradient-secondary);
+$linear-gradient-to-left: linear-gradient(to left, $color-gradient-primary, $color-gradient-secondary);
+
+
 //Body
 body {
   background-image: url('../img/bg-left.png'),url('../img/bg-right.png');
@@ -9,3 +20,10 @@ body {
   font-weight: inherit;
 }
 
+// Ready To use
+.ready-to-use {
+    background-color: $color-gradient-secondary !important;
+    background-image: url("../img/ready-to-use-bg.png"), $radial-gradient-from-bottom;
+    background-position: center bottom, bottom center;
+    background-repeat: no-repeat, no-repeat;
+}
