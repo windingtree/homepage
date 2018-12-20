@@ -1,7 +1,7 @@
 // @flow
 import React, { Fragment } from 'react';
 import InThePress from './InThePress';
-import ReadyToUse from '../ReadyToUse';
+import ReadyToUse from './ReadyToUse';
 
 const Home = () => (
   <Fragment>
