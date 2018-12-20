@@ -1,13 +1,20 @@
 // @flow
-import React, { Fragment } from 'react';
+import React from 'react';
+import {
+  Container,
+} from '@windingtree/wt-ui-react';
+import LifToken from './LifToken';
+import Partners from './Partners';
 import InThePress from './InThePress';
-import ReadyToUse from './ReadyToUse';
+import DesignedFor from './DesignedFor';
 
 const Home = () => (
-  <Fragment>
+  <Container className="app-section">
+    <LifToken />
+    <Partners />
     <InThePress />
-    <ReadyToUse />
-  </Fragment>
+    <DesignedFor />
+  </Container>
 );
 
 export default Home;

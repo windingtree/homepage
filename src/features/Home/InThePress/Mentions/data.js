@@ -4,7 +4,7 @@ import forbes from './images/Forbes.png';
 import leFigaro from './images/Le_Figaro.png';
 import ventureBeat from './images/VentureBeat.png';
 import cash from './images/cash.png';
-import ccn from './images/ccn.svg';
+import ccn from './images/ccn.png';
 import financialTimes from './images/financial-times.png';
 import investingcom from './images/investingcom.png';
 import nasdaq from './images/nasdaq.png';
