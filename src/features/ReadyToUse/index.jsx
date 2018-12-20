@@ -6,7 +6,7 @@ import {
 import LearnMoreCards from 'commons/LearnMoreCards';
 
 const ReadyToUse = () => (
-  <section className="ready-to-use py-3 py-md-5 bg-secondary">
+  <section className="app-section bg-grad-down">
     <Container>
       <Row className="justify-content-md-center text-center">
         <Col md={10}>
