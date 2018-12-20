@@ -1,13 +1,13 @@
 /* @flow */
 import React from 'react';
-import { Card } from '@windingtree/wt-ui-react';
+import { Card, Image } from '@windingtree/wt-ui-react';
 
 type PropType = {
-    imgSrc: string,
-    title: string,
-    text: string,
-    linkText: string,
-    href: string
+  imgSrc: string,
+  title: string,
+  text: string,
+  linkText: string,
+  href: string
 };
 
 const WTCard = (props: PropType) => {
@@ -15,16 +15,14 @@ const WTCard = (props: PropType) => {
     imgSrc, title, linkText, href, text,
   } = props;
   return (
-    <Card>
-      <Card.Header className="d-none d-md-block text-center">
-        <img src={imgSrc} alt={title} className="img-fluid" />
+    <Card as="a" href={href}>
+      <Card.Header className="text-center">
+        <Image src={imgSrc} alt={title} fluid />
       </Card.Header>
-      <Card.Body className="d-flex flex-column small">
-        <Card.Title>{title}</Card.Title>
+      <Card.Body>
+        <Card.Title as="h6">{title}</Card.Title>
         <Card.Text className="text-muted">{text}</Card.Text>
-        <span className="d-none d-md-block mt-auto">
-          <Card.Link href={href} className="d-inline-block border-bottom">{linkText}</Card.Link>
-        </span>
+        <Card.Link>{linkText}</Card.Link>
       </Card.Body>
     </Card>
   );
