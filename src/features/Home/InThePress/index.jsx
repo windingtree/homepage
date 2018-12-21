@@ -9,7 +9,7 @@ import Mentions from './Mentions';
 
 
 const InThePress = () => (
-  <section className="in-the-press my-3 my-md-5">
+  <section className="app-section">
     <Container>
       <h2 className="mb-2 mb-md-4 text-center">In the press</h2>
       <Row className="justify-content-md-center">

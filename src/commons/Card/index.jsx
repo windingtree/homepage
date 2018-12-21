@@ -1,26 +1,28 @@
 /* @flow */
 import React from 'react';
-import { Card } from '@windingtree/wt-ui-react';
+import { Card, Image } from '@windingtree/wt-ui-react';
 
 type PropType = {
-    imgSrc: string,
-    title: string,
-    linkText: string,
-    href: string
+  imgSrc: string,
+  title: string,
+  text: string,
+  linkText: string,
+  href: string
 };
 
 const WTCard = (props: PropType) => {
   const {
-    imgSrc, title, linkText, href,
+    imgSrc, title, linkText, href, text,
   } = props;
   return (
-    <Card>
-      <Card.Header>
-        <Card.Image src={imgSrc} variant="top" />
+    <Card as="a" href={href}>
+      <Card.Header className="text-center">
+        <Image src={imgSrc} alt={title} fluid />
       </Card.Header>
       <Card.Body>
-        <Card.Title>{title}</Card.Title>
-        <Card.Link href={href}>{linkText}</Card.Link>
+        <Card.Title as="h6">{title}</Card.Title>
+        <Card.Text className="text-muted">{text}</Card.Text>
+        <Card.Link>{linkText}</Card.Link>
       </Card.Body>
     </Card>
   );

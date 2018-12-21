@@ -4,6 +4,7 @@ import {
   Navbar, Footer, Container, Nav, Button,
 } from '@windingtree/wt-ui-react';
 import SuscribeForUpdates from 'commons/SuscribeForUpdates';
+import ReadyToUse from 'commons/ReadyToUse';
 
 type PropsType = {
   children: React$Node
@@ -54,6 +55,7 @@ const Main = ({ children }: PropsType) => (
     <WTNavbar />
     {children}
     <SuscribeForUpdates />
+    <ReadyToUse />
     <Footer>
       <Footer.Solutions />
       <Footer.LifToken />

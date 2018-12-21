@@ -5,7 +5,7 @@ import {
 } from '@windingtree/wt-ui-react';
 
 const DesignedFor = () => (
-  <section className="py-3 py-md-5 bg-grad text-center text-md-left">
+  <section className="app-section">
     <Container>
       <Row className="flex-column flex-md-row align-items-center">
         <Col md={8} className="mb-1 mb-md-0">

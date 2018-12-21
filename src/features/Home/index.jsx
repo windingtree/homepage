@@ -8,9 +8,8 @@ import Partners from './Partners';
 import InThePress from './InThePress';
 import DesignedFor from './DesignedFor';
 
-
 const Home = () => (
-  <Container className="app-section">
+  <Container className="app-content">
     <LifToken />
     <Partners />
     <InThePress />

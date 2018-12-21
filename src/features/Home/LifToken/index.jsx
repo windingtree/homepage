@@ -8,7 +8,7 @@ import './styles.scss';
 
 const LifToken = () => (
   <section
-    className="lif-token-banner py-3 py-md-5 text-center text-md-left"
+    className="lif-token-banner app-section"
   >
     <Container>
       <Row>
