@@ -11,14 +11,14 @@ type PropsType = {
 };
 
 const WTNavbar = () => (
-  <Navbar expand="lg" variant="light" bg="white" fixed="top">
+  <Navbar expand="lg" variant="animated" fixed="top">
     <Container>
       <Navbar.Brand href="#home" as="a" className="mr-2" />
       <Navbar.Toggle aria-controls="basic-navbar-nav" className="border-0">
         <i className="mdi mdi-24px mdi-menu" />
       </Navbar.Toggle>
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="ml-auto">
+        <Nav className="ml-auto" animated>
           <Nav.Dropdown title="Solutions" id="basic-nav-dropdown">
             <Nav.Dropdown.Item href="#suppliers">For travel suppliers</Nav.Dropdown.Item>
             <Nav.Dropdown.Item href="#sellers">For sellers of travel</Nav.Dropdown.Item>

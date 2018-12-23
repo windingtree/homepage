@@ -8,7 +8,7 @@ const Quotes = () => (
   <Tab.Container id="quotes tabs" defaultActiveKey={quotes[0].name}>
     <Nav className="nav-pointers" variant="tabs">
       {quotes.map(quote => (
-        <Nav.Item as={Col} md={3}>
+        <Nav.Item key={quote.name} as={Col} md={3}>
           <Nav.Link eventKey={quote.name} className="">
             <img className="img-fluid" src={quote.imgSrc} alt={quote.name} />
           </Nav.Link>
@@ -17,7 +17,7 @@ const Quotes = () => (
     </Nav>
     <Tab.Content className="px-2 py-3 bg-white">
       {quotes.map(quote => (
-        <Tab.Pane eventKey={quote.name}>
+        <Tab.Pane key={quote.name} eventKey={quote.name}>
           <blockquote className="blockquote blockquote-alt">
             <p className="blockquote-body">
               {quote.text}
