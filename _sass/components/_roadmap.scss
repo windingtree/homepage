@@ -66,6 +66,15 @@ $roadmap-icon-size-lg: 70px;
                     box-shadow: none;
                 }
 
+                ul {
+                    &.pl-200 {
+                        @include media-breakpoint-up('md') {
+                            padding-left: 100px;
+                            padding-right: 100px;
+                        }
+                    }
+                }
+
                 li {
                     margin-top: 10px;
                     &:hover {
@@ -101,6 +110,19 @@ $roadmap-icon-size-lg: 70px;
                         border: none;
                         padding: 6px 10px 6px 10px;
                     }
+
+                h5 {
+                    text-align: center;
+                    padding-bottom: 20px;
+                    &.pt-40 {
+                        @include media-breakpoint-up('lg') {
+                           padding-top: 40px;
+                        }
+                    }
+                    &.main-group {
+                        font-size: 3rem;
+                    }
+                }
 
 
                 a:not(.btn) {

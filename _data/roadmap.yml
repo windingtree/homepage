@@ -6,20 +6,6 @@ stage:
     collapsed: false
     data_group:
 
-      - title: "Platform"
-        items:
-          - item: "Lif Token smart contract"
-            icon: "circle-slice-4"
-          - item: "Platform Architecture for Hotels"
-            icon: "circle-slice-4"
-            tooltip: "Platform architecture design for distribution of hotels inventory"
-
-      - title: "R&D"
-        items:
-          - item: "ICO Models"
-            icon: "checkbox-marked-circle"
-            tooltip: "Preparation for the ICO"
-
       - title: "Products"
         items:
           - item: "Hotel Explorer Prototype"
@@ -29,6 +15,18 @@ stage:
                 - label: "demo"
                   link: "https://hotel-explorer-demo.windingtree.com/"
                   style: "outline-dark"
+
+      - title: "Platform"
+        main: true
+        items:
+          - item: "Lif Token smart contract"
+            icon: "circle-slice-4"
+          - item: "Platform Architecture for Hotels"
+            icon: "circle-slice-4"
+            tooltip: "Platform architecture design for distribution of hotels inventory"
+          - item: "ICO Models"
+            icon: "checkbox-marked-circle"
+            tooltip: "Preparation for the ICO"
 
       - title: "Foundation"
         items:
@@ -47,15 +45,27 @@ stage:
     period: "Q1-Q2"
     collapsed: false
     data_group:
+      - title: "Products"
+        items:
+          - item: "New website launched"
+            icon: "checkbox-marked-circle"
+          - item: "Hotel Explorer"
+            icon: "circle-slice-4"
+            tooltip: "New platform features added to Hotel Explorer"
+            btn:
+                - label: "demo"
+                  link: "https://hotel-explorer-demo.windingtree.com/"
+                  style: "outline-dark"
 
       - title: "Platform"
+        main: true
         items:
           - item: "Platform Architecture for Hotels"
             icon: "checkbox-marked-circle"
             tooltip: "We released the initial version of our platform architecture and started building features based on it"
-          - item: "Data Exchange Format for Hotels"
+          - item: "Initial version of Data Exchange Format"
             icon: "checkbox-marked-circle"
-            tooltip: "Winding Tree designed and promoted unified Hotel Data Exchange standards for the industry. Similar to the NDC standard but for hotels."
+            tooltip: "Winding Tree developed Hotel Data Exchange standard to use within ecosystem. Similar to the NDC standard but for hotels. We continiously improve it"
           - item: 'JS-library'
             icon: "checkbox-marked-circle"
             tooltip: "This is the core of all of our API services and can be used by anyone who wants to develop a service integrated with Winding Tree"
@@ -70,25 +80,10 @@ stage:
                 - label: "source code"
                   link: "https://github.com/windingtree/wt-read-api"
                   style: "outline-dark"
-
-
-      - title: "R&D"
-        items:
           - item: "ERC827 token"
             icon: "checkbox-marked-circle"
             tooltip: "Our blockchain architect works on a new Ethereum token standard which will help us to develop new platform features"
 
-      - title: "Products"
-        items:
-          - item: "New website launched"
-            icon: "checkbox-marked-circle"
-          - item: "Hotel Explorer"
-            icon: "circle-slice-4"
-            tooltip: "New platform features added to Hotel Explorer"
-            btn:
-                - label: "demo"
-                  link: "https://hotel-explorer-demo.windingtree.com/"
-                  style: "outline-dark"
 
       - title: "Foundation"
         items:
@@ -113,43 +108,8 @@ stage:
     collapsed: false
     active: true
     data_group:
-
-      - title: "Platform"
-        items:
-          - item: "Write API"
-            icon: "checkbox-marked-circle"
-            tooltip: "RESTful API that makes posting inventory to Winding Tree easy, you don't need to deal with blockchain"
-          - item: "Room availability"
-            icon: "checkbox-marked-circle"
-            tooltip: "The dynamic data fo room availability became accessible through Winding Tree"
-            btn:
-                - label: "kanban card"
-                  link: "https://trello.com/c/zhALr7QO/97-realtime-availability-proof-of-concept"
-                  style: "outline-dark"
-
-          - item: "Platform Architecture for Airlines"
-            icon: "circle-slice-4"
-            tooltip: "Platform architecture design for distribution of airline inventory"
-          - item: "Search API"
-            icon: "circle-slice-4"
-            tooltip: "We started working on a RESTful API that makes searching inventory through Winding Tree simple and easy"
-          - item: "Booking API"
-            icon: "circle-slice-4"
-            tooltip: "We started working on RESTful API that makes bookings through Winding Tree simple and easy"
-
-
-      - title: "R&D"
-        items:
-          - item: "Distributed Storages"
-            icon: "circle-slice-4"
-          - item: "2nd Layer Solutions"
-            icon: "circle-slice-4"
-          - item: "Payment Process"
-            icon: "circle-slice-4"
-
       - title: "Products"
         items:
-         
           - item: "Booking Application"
             icon: "checkbox-marked-circle"
             tooltip: "Winding Tree partnered with ETH Berlin and we developed a completely functional crypto booking app in the world to be used for booking accommodations for the ETH Berlin event"
@@ -172,6 +132,55 @@ stage:
                   link: "mailto:alex.menschikov@windingtree.com"
                   style: "primary"
 
+      - title: "Platform"
+        main: true
+        items:
+          - item: "Write API"
+            icon: "checkbox-marked-circle"
+            tooltip: "RESTful API that makes posting inventory to Winding Tree easy, you don't need to deal with blockchain"
+          - item: "Room availability"
+            icon: "checkbox-marked-circle"
+            tooltip: "The dynamic data fo room availability became accessible through Winding Tree"
+            btn:
+                - label: "kanban card"
+                  link: "https://trello.com/c/zhALr7QO/97-realtime-availability-proof-of-concept"
+                  style: "outline-dark"
+          - item: "Realtime updates"
+            icon: "checkbox-marked-circle"
+            tooltip: "API for subscription for realtime updates of inventory changes"
+            btn:
+                - label: "join discussion"
+                  link: "https://groups.google.com/forum/#!topic/windingtree/_0ZDOvS04fQ"
+                  style: "outline-dark"
+
+          - item: "Platform Architecture for Airlines"
+            icon: "circle-slice-4"
+            tooltip: "Platform architecture design for distribution of airline inventory"
+            btn:
+                - label: "join discussion"
+                  link: "https://groups.google.com/forum/#!topic/windingtree/VGiSzzg--PY"
+                  style: "primary"
+          - item: "Search API"
+            icon: "circle-slice-4"
+            tooltip: "We started working on a RESTful API that makes searching inventory through Winding Tree simple and easy"
+          - item: "Booking API"
+            icon: "checkbox-marked-circle"
+            tooltip: "We started working on RESTful API that makes bookings through Winding Tree simple and easy"
+            btn:
+                - label: "join discussion"
+                  link: "https://groups.google.com/forum/#!topic/windingtree/_ikYtYSlsPU"
+                  style: "outline-dark"
+          - item: "Distributed Storages"
+            icon: "circle-slice-4"
+            btn:
+                - label: "read more"
+                  link: "https://www.google.com/url?q=https://blog.windingtree.com/decentralized-storage-for-winding-tree-f86535bee014&sa=D&ust=1545721946008000&usg=AFQjCNFkvZJJix67b6_PzLm99z3tbq618w"
+                  style: "outline-dark"
+          - item: "2nd Layer Solutions"
+            icon: "circle-slice-4"
+          - item: "Payment Process"
+            icon: "circle-slice-4"
+
       - title: "Foundation"
         items:
           - item: "Winding Tree Hackathon"
@@ -190,7 +199,20 @@ stage:
     collapsed: false
     data_group:
 
+      - title: "Products"
+        items:
+          - item: "Airline Explorer"
+            icon: "circle-outline"
+            tooltip: "We continued development of the platform and adding new features to our demo application"
+          - item: "Hotel Explorer"
+            icon: "circle-outline"
+            tooltip: "We continued development of the platform and adding new features to our demo application"
+          - item: "Design System and UI Framework"
+            icon: "circle-outline"
+            tooltip: "We are working on React UI Framework to build applications on top of our platform. We need some help here!"
+
       - title: "Platform"
+        main: true
         items:
           - item: "Platform Architecture for Airlines"
             icon: "circle-outline"
@@ -204,27 +226,12 @@ stage:
           - item: "Reputation System"
             icon: "circle-outline"
             tooltip: "Supplier reputation system develoment"
-
-      - title: "R&D"
-        items:
           - item: "Distributed Storages"
             icon: "circle-outline"
           - item: "2nd Layer Solutions"
             icon: "circle-outline"
           - item: "Tour Packages Distribution"
             icon: "circle-outline"
-
-      - title: "Products"
-        items:
-          - item: "Airline Explorer"
-            icon: "circle-outline"
-            tooltip: "We continued development of the platform and adding new features to our demo application"
-          - item: "Hotel Explorer"
-            icon: "circle-outline"
-            tooltip: "We continued development of the platform and adding new features to our demo application"
-          - item: "Design System and UI Framework"
-            icon: "circle-outline"
-            tooltip: "We are working on React UI Framework to build applications on top of our platform. We need some help here!"
 
       - title: "Foundation"
         items:
