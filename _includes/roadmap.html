@@ -8,7 +8,7 @@
                     <h2 class="mb-2 mb-md-4 text-center">
                         {{ data.title }}
                     </h2>
-
+ 
                     {% if data.stage %}
                         {% for stage in data.stage %}
                             <div class="roadmap__item">
@@ -35,12 +35,14 @@
                                             <div class="row">
                                                 {% for data_group in stage.data_group %}
                                                 {% assign group = forloop.index %}
-                                                    <div class="col-lg-3">
+                                                    <div class="{% if data_group.main == true  %}col-lg-6{% else %}col-lg-3{% endif %}">
                                                         <div class="roadmap__group">
-                                                            <h5 class="{% if stage.active != true %}text-muted{% endif %}">
+                                                            <div class="{% if stage.collapsed == false %}show{% endif %}">
+                                                                <h5 class="{% if data_group.main == true  %} main-group {% else %} pt-40 {% endif %}{% if stage.active != true %}text-muted{% endif %}">
                                                                 {{ data_group.title }}
-                                                            </h5>
-                                                            <ul class="list-unstyled roadmap__item">
+                                                                </h5>
+                                                            </div>
+                                                            <ul class="list-unstyled roadmap__item {% if data_group.main == true  %} pl-200 {% endif %}">
                                                                 {% for items in data_group.items %}
                                                                 <li>
                                                                     <i class="mdi mdi-{{ items.icon }} {% if stage.active != true %}text-muted{% endif %}"></i>
