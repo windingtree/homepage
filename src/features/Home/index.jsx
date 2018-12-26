@@ -3,6 +3,7 @@ import React from 'react';
 import {
   Container,
 } from '@windingtree/wt-ui-react';
+import VideoGallery from 'commons/VideoGallery';
 import LifToken from './LifToken';
 import Partners from './Partners';
 import InThePress from './InThePress';
@@ -16,6 +17,7 @@ const Home = () => (
     <Partners />
     <InThePress />
     <DesignedFor />
+    <VideoGallery />
   </Container>
 );
 
