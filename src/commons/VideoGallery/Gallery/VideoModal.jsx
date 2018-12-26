@@ -23,8 +23,7 @@ const VideoModal = (props: PropsType) => {
       'picture-in-picture': 1,
     },
   };
-  return (show
-    && (
+  return (
     <Modal {...otherProps} show={show} className="modal-media" onHide={onHide}>
       <Modal.Body>
         <div className="video-fluid">
@@ -37,7 +36,7 @@ const VideoModal = (props: PropsType) => {
         </div>
       </Modal.Body>
     </Modal>
-    ));
+  );
 };
 
 export default VideoModal;
