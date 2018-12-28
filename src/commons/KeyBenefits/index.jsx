@@ -25,16 +25,24 @@ const KeyBenefits = (props: PropsType) => {
   const Header = noHeader
     ? null
     : (
-      <Col md={12}>
-        <h2 className="text-center">Key Benefits</h2>
-      </Col>
+      <header>
+        <Row>
+          <Col md={12} className="text-center mb-2">
+            <h2>Key Benefits</h2>
+          </Col>
+        </Row>
+      </header>
     );
   return (
-    <section className="key-benefits py-3 py-md-5">
+    <section className="app-section section-key-benefits">
       <Container>
+        {Header}
         <Row className="justify-content-center">
-          {Header}
-          {children}
+          <Col sm={12} lg={10}>
+            <Row>
+              {children}
+            </Row>
+          </Col>
         </Row>
       </Container>
     </section>

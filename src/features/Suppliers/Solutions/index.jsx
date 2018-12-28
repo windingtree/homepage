@@ -10,11 +10,17 @@ const Solutions = () => (
   // solutions-section
   <section className="app-section">
     <Container>
-      <Row>
-        <Col>
-          <header className="mb-4">
-            <h2 className="text-center">Solutions</h2>
-          </header>
+
+      <header>
+        <Row className="justify-content-md-center">
+          <Col md={10} className="text-center mb-1">
+            <h2>Solutions</h2>
+          </Col>
+        </Row>
+      </header>
+
+      <Row className="justify-content-md-center">
+        <Col md={10} className="text-center mb-1">
 
           <Hospitality />
           <Airlines />
@@ -23,6 +29,7 @@ const Solutions = () => (
           <hr className="my-md-4" />
 
           <Quotes />
+
         </Col>
       </Row>
     </Container>

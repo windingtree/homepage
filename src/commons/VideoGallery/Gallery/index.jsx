@@ -14,7 +14,7 @@ const Gallery = () => (
           <Category
             thumbnail={section.imgSrc}
             title={section.name}
-            text="Watch All Videos"
+            text="Watch all videos"
             href={section.href}
             videoSrc={section.videoSrc}
           />

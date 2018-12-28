@@ -7,7 +7,10 @@ const LifToken = () => (
   <>
     <KeyBenefits noHeader>
       <KeyBenefits.Lead>
-        {keyBenefitsDescriptions.lead}
+        <header className="mb-2">
+          {keyBenefitsDescriptions.lead}
+
+        </header>
       </KeyBenefits.Lead>
       {
         keyBenefitsDescriptions.keyBenefits.map(benefit => (
