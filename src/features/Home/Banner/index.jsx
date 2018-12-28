@@ -3,8 +3,9 @@ import React from 'react';
 import {
   Container, Row, Col, Button,
 } from '@windingtree/wt-ui-react';
-import LearnMoreCards from 'commons/LearnMoreCards/index';
-import bgImage from './bg.svg';
+import LearnMoreCards from 'commons/LearnMoreCards';
+import cardsData from './data';
+import bgImage from './img/bg.svg';
 
 const Banner = () => (
   <section className="index-banner app-section bg-grad" id="index-banner">
@@ -34,7 +35,7 @@ const Banner = () => (
           </Col>
         </Row>
       </div>
-      <LearnMoreCards main />
+      <LearnMoreCards main data={cardsData} />
     </Container>
   </section>
 

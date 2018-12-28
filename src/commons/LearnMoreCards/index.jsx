@@ -4,32 +4,28 @@ import CardDeck from '@windingtree/wt-ui-react/lib/components/CardDeck';
 import Card from 'commons/Card';
 import cardsInfo from './data';
 
-type DataType = {
+export type DataType = {
   href: string,
-  title?: string,
-  text?: string,
-  linkText?: string
+  title: string,
+  text: string,
+  linkText: string,
+  imgSrc: string
 };
 type PropsType = {
   main?: boolean,
-  data?: {[string]: DataType}
+  data?: DataType[]
 };
 
-const LearnMoreCards = ({ main, data }: PropsType) => (
+const LearnMoreCards = ({ main, data = cardsInfo }: PropsType) => (
   <CardDeck>
     {
-      cardsInfo.map((info) => {
-        const overrideData = data && data[info.href];
-        return (
-          <Card
-            key={info.href}
-            {...info}
-            {...overrideData}
-            imgSrc={info.imgSrc}
-            withButton={main}
-          />
-        );
-      })
+      data.map(info => (
+        <Card
+          key={info.href}
+          {...info}
+          withButton={main}
+        />
+      ))
     }
   </CardDeck>
 );

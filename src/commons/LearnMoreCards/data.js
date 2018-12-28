@@ -5,15 +5,9 @@ import vendorsImg from './img/3.svg';
 import tokenImg from './img/4.svg';
 import foundationImg from './img/5.svg';
 
-type CardType = {
-  title: string,
-  text: string,
-  linkText: string,
-  href: string,
-  imgSrc: string
-};
+import type { DataType } from './index';
 
-const cardsInfo: CardType[] = [
+const cardsInfo: DataType[] = [
   {
     title: 'For Suppliers',
     text: 'Suppliers can distribute inventory directly to points of sale, skipping costly intermediaries and bottlenecks to data.',
