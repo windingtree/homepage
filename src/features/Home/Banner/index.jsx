@@ -34,7 +34,7 @@ const Banner = () => (
           </Col>
         </Row>
       </div>
-      <LearnMoreCards />
+      <LearnMoreCards main />
     </Container>
   </section>
 
