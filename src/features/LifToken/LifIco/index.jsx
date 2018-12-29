@@ -10,11 +10,15 @@ import LifGenerated from './img/LifGenerated.svg';
 import EthInMvm from './img/EthInMvm.svg';
 
 const LifIco = () => (
-  <section className="lif-ico py-3 py-md-5 bg-grad">
+  <section className="app-section section-lif-ico bg-grad">
     <Container>
+
+      <header className="mb-2 mb-md-4 text-center">
+        <h2 className="text-white">ICO Stats</h2>
+      </header>
+
       <Row className="justify-content-md-center">
-        <Col md={8}>
-          <h2 className="mb-2 mb-md-4 text-center text-white">ICO Stats</h2>
+        <Col md={10}>
           <Item
             title="ETH Raised"
             largeNumber="16,278"

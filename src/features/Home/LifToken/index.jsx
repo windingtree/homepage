@@ -3,13 +3,11 @@ import React from 'react';
 import {
   Button, Container, Row, Col,
 } from '@windingtree/wt-ui-react';
-import './styles.scss';
 
 
 const LifToken = () => (
-  <section
-    className="lif-token-banner app-section"
-  >
+  <article className="app-section section-lif-token bg-grad">
+    <div className="app-section-img" style={{ backgroundImage: 'url(https://windingtree.com/assets/img/banners/lif-token-bg.svg)' }} />
     <Container>
       <Row>
         <Col md={6}>
@@ -24,7 +22,7 @@ const LifToken = () => (
         Learn about Líf
       </Button>
     </Container>
-  </section>
+  </article>
 );
 
 export default LifToken;

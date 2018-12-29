@@ -14,17 +14,17 @@ const PartnersAndContributors = ({ tab }: PropsType) => (
     <Nav className="nav-pointers" variant="tabs">
       {collaborators.map(collaborator => (
         <Nav.Item as={Col} md={3}>
-          <Nav.Link eventKey={collaborator.title} className="">
+          <Nav.Link eventKey={collaborator.title}>
             <Image fluid src={collaborator.imgSrc} alt={collaborator.title} />
           </Nav.Link>
         </Nav.Item>
       ))}
     </Nav>
-    <Tab.Content className="px-2 py-3 bg-white">
+    <Tab.Content className="px-2 py-3">
       {collaborators.map(collaborator => (
         <Tab.Pane eventKey={collaborator.title}>
-          <blockquote className="blockquote blockquote-alt" key={collaborator.title}>
-            <p className="blockquote-body">
+          <blockquote className="blockquote blockquote-alt mb-0" key={collaborator.title}>
+            <p className="blockquote-body p-0">
               {collaborator.text}
             </p>
           </blockquote>

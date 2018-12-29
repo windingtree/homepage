@@ -15,6 +15,7 @@ const LearnMoreCards = () => (
           text={info.text}
           linkText={info.linkText}
           imgSrc={info.imgSrc}
+          imgWidth={85}
         />
       ))
     }
