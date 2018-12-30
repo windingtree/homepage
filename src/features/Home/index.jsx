@@ -1,6 +1,7 @@
 // @flow
 import React from 'react';
 import VideoGallery from 'commons/VideoGallery';
+import Events from 'commons/Events';
 import LifToken from './LifToken';
 import Partners from './Partners';
 import InThePress from './InThePress';
@@ -15,6 +16,7 @@ const Home = () => (
     <InThePress />
     <DesignedFor />
     <VideoGallery />
+    <Events />
   </main>
 );
 
