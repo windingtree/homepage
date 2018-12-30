@@ -5,6 +5,7 @@ import {
 } from '@windingtree/wt-ui-react';
 import Contributors from 'commons/Contributors';
 import PartnersAndContributors from 'commons/PartnersAndContributors';
+import Events from 'commons/Events';
 import BlockQuoteSection from './BlockQuoteSection';
 
 const StartupsAndDevelopers = () => (
@@ -40,7 +41,7 @@ const StartupsAndDevelopers = () => (
       </header>
 
       <Contributors />
-
+      <Events />
     </section>
   </>
 
