@@ -1,7 +1,7 @@
 /* @flow */
 import React from 'react';
 import {
-  Col, Row, Image, Button,
+  Col, Row, Image, Button, Container,
 } from '@windingtree/wt-ui-react';
 import type { EventType } from './data';
 
@@ -25,15 +25,11 @@ const Event = (props: EventType) => {
             </div>
           </div>
         </Col>
-        <Col sm={5} lg={8} className="col-12">
-          <Row>
-            <Image src={imgSrc} fluid />
-          </Row>
-          { text && (<Row>{text}</Row>) }
+        <Col sm={5} lg={8} className="col-12 text-center">
+          <Image src={imgSrc} fluid />
+          { text && (<p className="my-1 text-left">{text}</p>) }
           { buttonHref && buttonText && (
-            <Row>
-              <Button href={buttonHref} variant="dark" outlined block>{buttonText}</Button>
-            </Row>
+            <Button href={buttonHref} variant="dark" outlined block>{buttonText}</Button>
           ) }
         </Col>
       </Row>

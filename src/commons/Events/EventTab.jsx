@@ -13,14 +13,12 @@ type PropsType = {
 const EventTab = (props: PropsType) => {
   const { name, events } = props;
   return (
-    <Tab.Pane eventKey={name}>
-      <Row>
-        <Accordion minHeight={100} openItem={0}>
-          {events.map(event => (
-            <Event {...event} />
-          ))}
-        </Accordion>
-      </Row>
+    <Tab.Pane eventKey={name} className="pb-2">
+      <Accordion minHeight={100} openItem={0}>
+        {events.map(event => (
+          <Event {...event} />
+        ))}
+      </Accordion>
     </Tab.Pane>
   );
 };
