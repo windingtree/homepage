@@ -9,18 +9,22 @@ import Mentions from './Mentions';
 
 
 const InThePress = () => (
-  <section className="app-section">
+  <article className="app-section section-in-the-press">
     <Container>
-      <h2 className="mb-2 mb-md-4 text-center">In the press</h2>
+
+      <header className="mb-2 mb-md-4 text-center">
+        <h2>In the press</h2>
+      </header>
+
       <Row className="justify-content-md-center">
-        <Col md={10}>
+        <Col sm={12} md={10}>
           <Quotes />
-          <hr className="my-3" />
           <Mentions />
         </Col>
       </Row>
+
     </Container>
-  </section>
+  </article>
 );
 
 export default InThePress;

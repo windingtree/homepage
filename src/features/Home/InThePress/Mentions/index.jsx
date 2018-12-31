@@ -5,7 +5,7 @@ import React from 'react';
 import mentions from './data';
 
 const Mentions = () => (
-  <ul className="logo-gallery">
+  <ul className="logo-gallery mb-0">
     {mentions.map((mention, idx) => (
       // eslint-disable-next-line react/no-array-index-key
       <li key={idx} className="logo-gallery-item">

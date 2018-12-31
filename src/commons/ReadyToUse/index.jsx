@@ -6,7 +6,7 @@ import {
 import LearnMoreCards from 'commons/LearnMoreCards';
 
 const ReadyToUse = () => (
-  <section className="app-section bg-grad-down">
+  <section className="app-section bg-grad-down section-pre-footer" style={{ borderBottom: '1px solid #8359A2' }}>
     <Container>
       <Row className="justify-content-md-center text-center">
         <Col md={10}>

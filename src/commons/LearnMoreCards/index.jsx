@@ -18,15 +18,13 @@ type PropsType = {
 
 const LearnMoreCards = ({ main, data = cardsInfo }: PropsType) => (
   <CardDeck>
-    {
-      data.map(info => (
-        <Card
-          key={info.href}
-          {...info}
-          withButton={main}
-        />
-      ))
-    }
+    {data.map(info => (
+      <Card
+        key={info.href}
+        {...info}
+        withButton={main}
+      />
+    ))}
   </CardDeck>
 );
 export default LearnMoreCards;

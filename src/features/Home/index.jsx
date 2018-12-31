@@ -1,6 +1,7 @@
 // @flow
 import React from 'react';
 import VideoGallery from 'commons/VideoGallery';
+import Events from 'commons/Events';
 import LifToken from './LifToken';
 import Partners from './Partners';
 import InThePress from './InThePress';
@@ -9,7 +10,7 @@ import Features from './Features';
 import Banner from './Banner';
 
 const Home = () => (
-  <section>
+  <main className="app-content">
     <Banner />
     <Features />
     <LifToken />
@@ -17,7 +18,8 @@ const Home = () => (
     <InThePress />
     <DesignedFor />
     <VideoGallery />
-  </section>
+    <Events />
+  </main>
 );
 
 export default Home;

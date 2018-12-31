@@ -7,10 +7,10 @@ import Blockquote from './BlockQuote';
 import quote from './BlockQuote/quote.json';
 
 const BlockQuoteSection = () => (
-  <div className="my-3 my-md-5">
+  <>
     <Container>
       <Row className="justify-content-center">
-        <Col md={6}>
+        <Col md={8}>
           <Blockquote
             body={quote.body}
             name={quote.name}
@@ -20,7 +20,7 @@ const BlockQuoteSection = () => (
         </Col>
       </Row>
     </Container>
-  </div>
+  </>
 );
 
 export default BlockQuoteSection;

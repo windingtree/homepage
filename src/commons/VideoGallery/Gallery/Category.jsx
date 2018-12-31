@@ -2,6 +2,7 @@
 import React from 'react';
 import { Card } from '@windingtree/wt-ui-react';
 import VideoModal from './VideoModal';
+import './styles.css';
 
 type PropsType = {
   thumbnail: string,
@@ -35,14 +36,16 @@ class Category extends React.Component<PropsType, StateType> {
     return (
       <>
         <VideoModal show={showModal} videoSrc={videoSrc} onHide={this.hideModal} title={title} />
-        <Card className="text-right">
-          <Card.Image variant="top" src={thumbnail} alt={title} onClick={this.hanldeOnClick} />
+        <Card className="text-center">
+
+          <button type="button" className="card-img-top" onClick={this.hanldeOnClick}>
+            <img src={thumbnail} alt={title} className="img-fluid" />
+          </button>
+
           <Card.Body>
             <Card.Title>{title}</Card.Title>
+            <Card.Link href={href} className="text-link d-inline-block" target="_blank">{text}</Card.Link>
           </Card.Body>
-          <Card.Footer>
-            <Card.Link href={href} target="_blank">{text}</Card.Link>
-          </Card.Footer>
         </Card>
       </>
     );
