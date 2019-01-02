@@ -22,7 +22,7 @@
   "license": "MIT",
   "dependencies": {
     "@babel/polyfill": "^7.0.0",
-    "@windingtree/wt-ui": "^1.5.0",
+    "@windingtree/wt-ui": "^1.5.1",
     "@windingtree/wt-ui-react": "^0.10.2",
     "react": "^16.6.3",
     "react-collapse": "^4.0.3",
