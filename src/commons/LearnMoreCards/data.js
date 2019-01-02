@@ -14,6 +14,9 @@ const cardsInfo: DataType[] = [
     linkText: 'Learn More',
     href: '/suppliers',
     imgSrc: suppliersImg,
+    shortText: 'A short text in two rows will be in top.',
+    buttonLabel: 'Learn More',
+    imgWidth: 80,
   },
   {
     title: 'For Sellers',
@@ -21,6 +24,9 @@ const cardsInfo: DataType[] = [
     linkText: 'Learn More',
     href: '/sellers',
     imgSrc: sellersImg,
+    shortText: 'A short text in two rows will be in top.',
+    buttonLabel: 'Learn More',
+    imgWidth: 80,
   },
   {
     title: 'For Software Vendors',
@@ -28,6 +34,9 @@ const cardsInfo: DataType[] = [
     linkText: 'Learn More',
     href: '/software-vendors',
     imgSrc: vendorsImg,
+    shortText: 'A short text in two rows will be in top.',
+    buttonLabel: 'Learn More',
+    imgWidth: 80,
   },
   {
     title: 'Lif Token',
@@ -35,6 +44,9 @@ const cardsInfo: DataType[] = [
     linkText: 'Learn More',
     href: '/lif-token',
     imgSrc: tokenImg,
+    shortText: 'A short text in two rows will be in top.',
+    buttonLabel: 'Learn More',
+    imgWidth: 80,
   },
   {
     title: 'Foundation',
@@ -42,6 +54,9 @@ const cardsInfo: DataType[] = [
     linkText: 'Learn More',
     href: '/foundation',
     imgSrc: foundationImg,
+    shortText: 'A short text in two rows will be in top.',
+    buttonLabel: 'Learn More',
+    imgWidth: 80,
   },
 ];
 

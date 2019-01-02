@@ -4,7 +4,6 @@ import {
   Container, Row, Col, Button,
 } from '@windingtree/wt-ui-react';
 import LearnMoreCards from 'commons/LearnMoreCards';
-import cardsData from './data';
 import bgImage from './img/bg.svg';
 
 const Banner = () => (
@@ -35,7 +34,7 @@ const Banner = () => (
           </Col>
         </Row>
       </div>
-      <LearnMoreCards main data={cardsData} />
+      <LearnMoreCards main />
     </Container>
   </section>
 

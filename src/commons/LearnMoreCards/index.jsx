@@ -9,8 +9,12 @@ export type DataType = {
   title: string,
   text: string,
   linkText: string,
-  imgSrc: string
+  imgSrc: string,
+  shortText: string,
+  buttonLabel: string,
+  imgWidth: number
 };
+
 type PropsType = {
   main?: boolean,
   data?: DataType[]
@@ -18,13 +22,16 @@ type PropsType = {
 
 const LearnMoreCards = ({ main, data = cardsInfo }: PropsType) => (
   <CardDeck>
-    {data.map(info => (
-      <Card
-        key={info.href}
-        {...info}
-        withButton={main}
-      />
-    ))}
+    {data.map((info, index) => {
+      if (main && index > 3) return null;
+      return (
+        <Card
+          key={info.href}
+          {...info}
+          main={main}
+        />
+      );
+    })}
   </CardDeck>
 );
 export default LearnMoreCards;
