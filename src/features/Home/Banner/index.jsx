@@ -4,11 +4,11 @@ import {
   Container, Row, Col, Button,
 } from '@windingtree/wt-ui-react';
 import LearnMoreCards from 'commons/LearnMoreCards';
-import bgImage from './img/bg.svg';
+// import bgImage from './img/bg.svg';
+import './styles.scss';
 
 const Banner = () => (
-  <section className="index-banner app-section bg-grad" id="index-banner">
-    <div className="app-section-img" style={{ backgroundImage: `url(${bgImage})` }} />
+  <section className="hero-homepage">
     <Container>
       <div className="index-banner__inner mb-3 mb-md-5 text-center">
         <Row className="justify-content-md-center">
