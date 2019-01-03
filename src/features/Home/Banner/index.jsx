@@ -4,13 +4,12 @@ import {
   Container, Row, Col, Button,
 } from '@windingtree/wt-ui-react';
 import LearnMoreCards from 'commons/LearnMoreCards';
-// import bgImage from './img/bg.svg';
 import './styles.scss';
 
 const Banner = () => (
   <section className="hero-homepage">
-    <Container>
-      <div className="index-banner__inner mb-3 mb-md-5 text-center">
+    <Container style={{ paddingTop: '120px' }}>
+      <div className="mb-3 mb-md-5 text-center">
         <Row className="justify-content-md-center">
           <Col as="h1" md={9} className="mb-1 text-white">
             Winding Tree
