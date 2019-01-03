@@ -3,5 +3,6 @@
   "rules": {
     "scss/at-extend-no-missing-placeholder": null,
     "order/properties-alphabetical-order": null,
+    "max-nesting-depth": null,
   }
 }
