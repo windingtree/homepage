@@ -32,7 +32,7 @@ const Features = () => (
                     name, text, imgSrc, link,
                   }) => (
                     <Tab.Pane eventKey={name} key={name}>
-                      <article className="feature text-center" dataIs={name} style={{ display: 'block', marginTop: -20 }}>
+                      <article className="feature text-center" style={{ display: 'block', marginTop: -20 }}>
                         <Image src={imgSrc} alt="icon" className="mb-1" width="90" height="90" />
                         <h3 className="mb-1 text-muted">{name}</h3>
                         <p>{text}</p>
