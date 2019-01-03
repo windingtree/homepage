@@ -8,3 +8,13 @@ body {
 .navbar .navbar-nav .nav-item {
   font-weight: inherit;
 }
+
+// Tabs
+.nav-tabs {
+  .nav-link {
+    &.active {
+      font-weight: bold;
+      background: none;
+    }
+  }
+}
