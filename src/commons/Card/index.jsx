@@ -19,17 +19,19 @@ const WTCard = (props: PropType) => {
     imgSrc, imgWidth, title, linkText, href, text, main, shortText, buttonLabel,
   } = props;
   return (
-    <Card as="a" href={href} style={{ marginLeft: 10, marginRight: 10 }} className="text-center">
-      <Card.Header className="text-center">
+    <Card as="a" style={{ marginLeft: 10, marginRight: 10 }} className="text-center">
+      <Card.Header>
         <Image src={imgSrc} alt={title} fluid style={{ width: imgWidth }} />
       </Card.Header>
       <Card.Body>
-        <Card.Title as="h5" className="text-muted">{title}</Card.Title>
-        <Card.Text className="text-muted">{main ? shortText : text}</Card.Text>
-        <Card.Footer>
-          {main ? <Button variant="dark" outlined block>{buttonLabel}</Button> : <Card.Link className="text-link">{linkText}</Card.Link>}
-        </Card.Footer>
+        <Card.Title as="h5" className="text-muted text-center">{title}</Card.Title>
+        <Card.Text className="text-muted text-center">{main ? shortText : text}</Card.Text>
       </Card.Body>
+      <Card.Footer>
+        {main
+          ? <Button variant="dark" outlined block href={href}>{buttonLabel}</Button>
+          : <Card.Link href={href} className="text-link d-inline-block">{linkText}</Card.Link>}
+      </Card.Footer>
     </Card>
   );
 };
