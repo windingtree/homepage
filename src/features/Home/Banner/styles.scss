@@ -17,7 +17,7 @@
     background: #fff;
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: 991px) {
     &.navbar-light .nav-item:last-child {
         width: 100px;
     }
@@ -29,13 +29,30 @@
     }
   }
 
-  @media (max-width: 767px) {
+
+
+  @media (max-width: 990px) {
     &.navbar-dark {
       &.is-open {
         transition: background-color 0.15s ease-in-out;
         background-color: #fff;
       }
+      .dropdown-menu {
+        a {
+          color: #fff;
+          &:hover {
+            opacity: .6;
+          }
+        }
+      }
     }
+
+    .dropdown-menu {
+      padding: 10px;
+      margin-bottom: 10px;
+      background-color: transparent;
+    }
+
   }
 }
 
