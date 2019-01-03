@@ -43,7 +43,7 @@ class Category extends React.Component<PropsType, StateType> {
           </button>
 
           <Card.Body>
-            <Card.Title><span class="text-lg">{title}</span></Card.Title>
+            <Card.Title><span className="text-lg">{title}</span></Card.Title>
             <Card.Link href={href} className="text-link d-inline-block" target="_blank">{text}</Card.Link>
           </Card.Body>
         </Card>
