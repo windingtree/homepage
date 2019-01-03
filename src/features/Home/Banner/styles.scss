@@ -3,11 +3,15 @@
 // Uncomment the code to enable the transition
 // navbar must have the "navbar-dark" class by default and
 // turn to "navbar-light" after scrolling.
-// The navbar must have the class "is-open" when expanded, so the menu has white background
+// The navbar must have the class "is-open" when expanded,
+// so the mobile menu has white background
 
 .navbar {
-  background: #5F2B87;
-  box-shadow: none !important;
+
+  &.navbar-dark {
+    background: #5F2B87;
+    box-shadow: none;
+  }
 
   &.navbar-light {
     background: #fff;
