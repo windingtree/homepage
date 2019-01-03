@@ -1,7 +1,7 @@
 /* @flow */
 import React from 'react';
 import {
-  Col, Row, Image, Button, Container,
+  Col, Row, Image, Button,
 } from '@windingtree/wt-ui-react';
 import type { EventType } from './data';
 

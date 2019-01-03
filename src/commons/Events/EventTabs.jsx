@@ -1,7 +1,7 @@
 /* @flow */
 import React from 'react';
 import {
-  Tab, Nav, Row,
+  Tab, Nav,
 } from '@windingtree/wt-ui-react';
 import EventTab from './EventTab';
 import events from './data';

@@ -4,7 +4,6 @@ import {
   Container, Row, Col, Button,
 } from '@windingtree/wt-ui-react';
 import LearnMoreCards from 'commons/LearnMoreCards';
-// import bgImage from './img/bg.svg';
 import './styles.scss';
 
 const Banner = () => (
