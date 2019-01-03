@@ -11,45 +11,43 @@ type PropsType = {
 };
 
 const WTNavbar = () => (
-  <header id="app-header" className="header-sticky">
-    <Navbar expand="lg" variant="light">
-      <Container>
-        <Navbar.Brand href="#home" as="a" className="mr-2" />
-        <Navbar.Toggle aria-controls="basic-navbar-nav" className="border-0">
-          <i className="mdi mdi-24px mdi-menu" />
-        </Navbar.Toggle>
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ml-auto">
-            <Nav.Dropdown title="Solutions" id="basic-nav-dropdown">
-              <Nav.Dropdown.Item href="#suppliers">For travel suppliers</Nav.Dropdown.Item>
-              <Nav.Dropdown.Item href="#sellers">For sellers of travel</Nav.Dropdown.Item>
-              <Nav.Dropdown.Item href="#software-vendors">For software vendors</Nav.Dropdown.Item>
-            </Nav.Dropdown>
-            <Nav.Item>
-              <Nav.Link href="https://github.com/windingtree/wiki">Api</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link href="#lif-token">Lif Token</Nav.Link>
-            </Nav.Item>
-            <Nav.Dropdown title="Foundation" id="basic-nav-dropdown">
-              <Nav.Dropdown.Item href="#Foundation#About">About</Nav.Dropdown.Item>
-              <Nav.Dropdown.Item href="#Foundation#Team">Team</Nav.Dropdown.Item>
-              <Nav.Dropdown.Item href="#Foundation#Events">Events</Nav.Dropdown.Item>
-              <Nav.Dropdown.Item href="#Foundation#Services">Services</Nav.Dropdown.Item>
-              <Nav.Dropdown.Item href="#Foundation#Project-Roadmap">Project Roadmap</Nav.Dropdown.Item>
-              <Nav.Dropdown.Item href="#Foundation#Blog">Blog</Nav.Dropdown.Item>
-            </Nav.Dropdown>
-            <Nav.Item>
-              <Nav.Link href="#startups-and-developers">Community</Nav.Link>
-            </Nav.Item>
-            <Nav.Item href="#action/3.3">
-              <Button block type="button" href="https://github.com/windingtree/">Join</Button>
-            </Nav.Item>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
-  </header>
+  <Navbar expand="lg" variant="animated" fixed="top">
+    <Container>
+      <Navbar.Brand href="#home" as="a" className="mr-2" />
+      <Navbar.Toggle aria-controls="basic-navbar-nav" className="border-0">
+        <i className="mdi mdi-24px mdi-menu" />
+      </Navbar.Toggle>
+      <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className="ml-auto" animated>
+          <Nav.Dropdown title="Solutions" id="basic-nav-dropdown">
+            <Nav.Dropdown.Item href="#suppliers">For travel suppliers</Nav.Dropdown.Item>
+            <Nav.Dropdown.Item href="#sellers">For sellers of travel</Nav.Dropdown.Item>
+            <Nav.Dropdown.Item href="#software-vendors">For software vendors</Nav.Dropdown.Item>
+          </Nav.Dropdown>
+          <Nav.Item>
+            <Nav.Link href="https://github.com/windingtree/wiki">Api</Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link href="#lif-token">Lif Token</Nav.Link>
+          </Nav.Item>
+          <Nav.Dropdown title="Foundation" id="basic-nav-dropdown">
+            <Nav.Dropdown.Item href="#Foundation#About">About</Nav.Dropdown.Item>
+            <Nav.Dropdown.Item href="#Foundation#Team">Team</Nav.Dropdown.Item>
+            <Nav.Dropdown.Item href="#Foundation#Events">Events</Nav.Dropdown.Item>
+            <Nav.Dropdown.Item href="#Foundation#Services">Services</Nav.Dropdown.Item>
+            <Nav.Dropdown.Item href="#Foundation#Project-Roadmap">Project Roadmap</Nav.Dropdown.Item>
+            <Nav.Dropdown.Item href="#Foundation#Blog">Blog</Nav.Dropdown.Item>
+          </Nav.Dropdown>
+          <Nav.Item>
+            <Nav.Link href="#startups-and-developers">Community</Nav.Link>
+          </Nav.Item>
+          <Nav.Item href="#action/3.3">
+            <Button block type="button" href="https://github.com/windingtree/">Join</Button>
+          </Nav.Item>
+        </Nav>
+      </Navbar.Collapse>
+    </Container>
+  </Navbar>
 );
 
 const Main = ({ children }: PropsType) => (
