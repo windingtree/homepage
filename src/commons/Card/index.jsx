@@ -29,8 +29,8 @@ const WTCard = (props: PropType) => {
       </Card.Body>
       <Card.Footer>
         {main
-          ? <Button variant="dark" outlined block href={href}>{buttonLabel}</Button>
-          : <Card.Link href={href} className="text-link d-inline-block">{linkText}</Card.Link>}
+          ? <Button as="span" variant="dark" outlined block href={href}>{buttonLabel}</Button>
+          : <Card.Link as="span" href={href} className="text-link d-inline-block">{linkText}</Card.Link>}
       </Card.Footer>
     </Card>
   );
