@@ -6,7 +6,7 @@ import {
 import features from './data';
 
 const Features = () => (
-  <article className="app-section section-features">
+  <article className="app-section section-features pt-2 pt-lg-3">
     <Container>
       <header className="mb-2 mb-md-4 text-center">
         <h2>Features</h2>
@@ -20,7 +20,7 @@ const Features = () => (
                   {features.map(({ name }) => (
                     <Nav.Item className="d-block" key={name}>
                       <p>
-                        <Nav.Link className="text-link" eventKey={name}>{name}</Nav.Link>
+                        <Nav.Link className="text-link text-lg" eventKey={name}>{name}</Nav.Link>
                       </p>
                     </Nav.Item>
                   ))}
@@ -33,7 +33,7 @@ const Features = () => (
                   }) => (
                     <Tab.Pane eventKey={name} key={name}>
                       <article className="feature text-center" dataIs={name} style={{ display: 'block', marginTop: -20 }}>
-                        <Image src={imgSrc} alt="icon" className="mb-1" width="90" height="90" />
+                        <Image src={imgSrc} alt="icon" className="mt-1 mt-md-0 mb-1" width="90" height="90" />
                         <h3 className="mb-1 text-muted">{name}</h3>
                         <p>{text}</p>
                         {
