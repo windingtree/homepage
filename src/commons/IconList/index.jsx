@@ -3,7 +3,7 @@ import React from 'react';
 import icons from './data';
 
 type PropsType = {
-  variant: 'white' | 'black',
+  variant: 'white' | 'dark',
   size: number
 };
 
