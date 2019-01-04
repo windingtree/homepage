@@ -2,21 +2,21 @@
 import React from 'react';
 import VideoGallery from 'commons/VideoGallery';
 import Events from 'commons/Events';
+import Banner from 'commons/Banner';
 import LifToken from './LifToken';
 import Partners from './Partners';
 import InThePress from './InThePress';
-import DesignedFor from './DesignedFor';
 import Features from './Features';
-import Banner from './Banner';
+import MainBanner from './MainBanner';
 
 const Home = () => (
   <main className="app-content">
-    <Banner />
+    <MainBanner />
     <Features />
     <LifToken />
     <Partners />
     <InThePress />
-    <DesignedFor />
+    <Banner variant="designedFor" />
     <VideoGallery />
     <Events />
   </main>
