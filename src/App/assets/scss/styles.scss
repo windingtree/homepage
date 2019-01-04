@@ -1,10 +1,82 @@
-//Body
+// BODY
 body {
   background-image: url('../img/bg-left.png'),url('../img/bg-right.png');
   background-position: 0 -100vh, 100% -100vh;
   background-repeat: repeat-y, repeat-y;
 }
-// Navbar
+
+
+// TABS
+.nav-tabs {
+  .nav-link {
+    &.active {
+      font-weight: bold;
+      background: none;
+    }
+  }
+}
+
+
+// NAVBAR
 .navbar .navbar-nav .nav-item {
   font-weight: inherit;
 }
+
+// Navbar transition - - - - - - - - - -
+// Navbar must have the "navbar-dark" class by default and
+// turn to "navbar-light" after scrolling.
+// The navbar should have the class "is-open" when expanded,
+// so the mobile menu has white background
+
+#app-header.header-sticky {
+  background: #5F2B87;
+  box-shadow: none;
+}
+
+.navbar {
+
+  &.navbar-dark {
+    @extend #app-header.header-sticky;
+  }
+
+  &.navbar-light {
+    background: #fff;
+  }
+
+  @media (min-width: 991px) {
+    &.navbar-light .nav-item:last-child {
+        width: 100px;
+    }
+    &.navbar-dark {
+      & .nav-item:last-child {
+        transition: width 0.15s ease-in-out;
+        width: 0;
+      }
+    }
+  }
+
+  @media (max-width: 990px) {
+    &.navbar-dark {
+      &.is-open {
+        transition: background-color 0.15s ease-in-out;
+        background-color: #fff;
+      }
+      .dropdown-menu {
+        a {
+          color: #fff;
+          &:hover {
+            opacity: .6;
+          }
+        }
+      }
+    }
+
+    .dropdown-menu {
+      padding: 10px;
+      margin-bottom: 10px;
+      background-color: transparent;
+    }
+
+  }
+}
+

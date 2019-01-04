@@ -7,9 +7,11 @@ import Partners from './Partners';
 import InThePress from './InThePress';
 import DesignedFor from './DesignedFor';
 import Features from './Features';
+import Banner from './Banner';
 
 const Home = () => (
   <main className="app-content">
+    <Banner />
     <Features />
     <LifToken />
     <Partners />

@@ -12,7 +12,7 @@ type PropsType = {
 
 const WTNavbar = () => (
   <header id="app-header" className="header-sticky">
-    <Navbar expand="lg" variant="light">
+    <Navbar expand="lg" variant="dark" variant="animated">
       <Container>
         <Navbar.Brand href="#home" as="a" className="mr-2" />
         <Navbar.Toggle aria-controls="basic-navbar-nav" className="border-0">

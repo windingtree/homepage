@@ -22,8 +22,8 @@
   "license": "MIT",
   "dependencies": {
     "@babel/polyfill": "^7.0.0",
-    "@windingtree/wt-ui": "^1.5.0",
-    "@windingtree/wt-ui-react": "^0.10.2",
+    "@windingtree/wt-ui": "^1.5.1",
+    "@windingtree/wt-ui-react": "^0.10.3",
     "react": "^16.6.3",
     "react-collapse": "^4.0.3",
     "react-dom": "^16.6.3",
@@ -73,7 +73,7 @@
     "webpack": "^4.26.0",
     "webpack-bundle-analyzer": "^3.0.3",
     "webpack-cli": "^3.1.2",
-    "webpack-dev-server": "^3.1.10"
+    "webpack-dev-server": "^3.1.14"
   },
   "config": {
     "commitizen": {
