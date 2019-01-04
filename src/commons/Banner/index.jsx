@@ -3,15 +3,17 @@ import React from 'react';
 import {
   Container, Row, Col, Button,
 } from '@windingtree/wt-ui-react';
+import IconList from 'commons/IconList';
 import data from './data';
 
 type PropsType = {
-  variant: 'designedFor' | 'consultancy' | 'community'
+  variant: 'designedFor' | 'consultancy' | 'community',
+  icons: boolean
 };
 
 const Banner = (props: PropsType) => {
   const {
-    variant,
+    variant, icons,
   } = props;
   const bannerData = data[variant];
   return (
@@ -21,6 +23,7 @@ const Banner = (props: PropsType) => {
           <Col lg={8} className="mb-1 mb-md-0 text-center text-lg-left">
             <h2 className="text-white">{bannerData.title}</h2>
             <p className="lead text-white text-sm-lg">{bannerData.text}</p>
+            {icons && <IconList variant="white" size={48} />}
           </Col>
           <Col lg={4} className="text-center">
             <i className={`mdi mdi-xxl ${bannerData.mdiIcon} text-white d-none d-lg-inline`} />

@@ -16,7 +16,7 @@ const Home = () => (
     <LifToken />
     <Partners />
     <InThePress />
-    <Banner variant="designedFor" />
+    <Banner variant="designedFor" icons />
     <VideoGallery />
     <Events />
   </main>
