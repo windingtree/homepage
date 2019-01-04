@@ -15,7 +15,7 @@ const IconList = (props: PropsType) => {
     <ul className="list-inline">
       {icons.map(icon => (
         <li className="list-inline-item" key={icon.href}>
-          <a href={icon.href} tittle={icon.title} className={`text-${variant} text-alpha-inverse`}>
+          <a href={icon.href} tittle={icon.title} className={`text-${variant} text-alpha-inverse`} target="_blank" rel="noopener noreferrer">
             <i className={`mdi mdi-${size}px ${icon.className}`} />
           </a>
         </li>
