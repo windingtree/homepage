@@ -19,7 +19,7 @@ type FeatureType = {
 const features: FeatureType[] = [
   {
     name: 'Decentralized Infrastructure',
-    text: 'In an open market, the decentralized model is the only way to eliminate the risk of eventual monopolization of distribution.',
+    text: 'No one owns the distribution “server”, because there’s no this server. Blockchain provides core features and hundreds of Winding Tree API instances provide business logic.',
     imgSrc: DecentralizedImg,
     link: {
       href: '',
@@ -28,7 +28,7 @@ const features: FeatureType[] = [
   },
   {
     name: 'Easy Access',
-    text: 'Access the platform via a set of APIs within minutes. Integrate with the platform within hours. Launch the production-ready version of your software in days.',
+    text: 'Winding Tree provides set of open source REST APIs for whole distribution workflow. Anyone can deploy them in own infrastructure and get access to the infrastructure.',
     imgSrc: EasyAccess,
     link: {
       href: 'https://github.com/windingtree/',
@@ -36,32 +36,23 @@ const features: FeatureType[] = [
     },
   },
   {
-    name: 'Lif Tokens',
-    text: 'Lif is the fuel of the platform, not only is it used literally to pay the gas of transacting on a public chain, but it is also contains ARI data on inventory and is used as the currency of the platform.',
+    name: 'Direct Distribution',
+    text: 'It’s like P2P technology: Winding Tree helps clients (OTAs) get inventory directly from sources (Hotels PMS, Airline software).',
     imgSrc: LifTokens,
   },
   {
-    name: 'End-to-end Distribution',
-    text: 'Winding Tree is not another app or OTA, instead Winding Tree facilitates the creation of hundreds or even thousands of new players to build sites, apps.',
+    name: 'Search Service',
+    text: 'WAnyone can just download deploy and run own “GDS-like” service and provide access to OTAs. There will be hundreds alternatives of current middlemen, but all with same inventory. The market will adjust distribution fees to lowest.',
     imgSrc: EndToEnd,
     link: {
-      href: 'https://github.com/windingtree/',
+      href: 'https://github.com/windingtree/wt-search-api',
       text: 'Check API & docs',
     },
   },
   {
-    name: 'Collaboration',
-    text: 'In order to succeed the project must be governed and maintained by the users of and community. Only by removing the role of a central authority can we bring innovation back to the industry.',
+    name: 'Data Standards',
+    text: 'Revolutionary approach requires a kind of convention over configuration for parties, and this is what our Data Standards about - make inventory information usable across all software in the industry.',
     imgSrc: Collaboration,
-    link: {
-      href: 'https://windingtree.com/startups-and-developers.html',
-      text: 'For startups and developers',
-    },
-  },
-  {
-    name: 'New Products and Businesses',
-    text: 'When the inventory is publicly available, travel data is actual, blockchain smart contracts eliminate cheaters and automate routine, it will bring travel to new level of service and open doors to absolutely new business models.',
-    imgSrc: NewProducts,
   },
 ];
 

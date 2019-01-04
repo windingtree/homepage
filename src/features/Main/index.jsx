@@ -21,22 +21,22 @@ const WTNavbar = () => (
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
             <Nav.Dropdown title="Solutions" id="basic-nav-dropdown">
-              <Nav.Dropdown.Item href="#suppliers">For travel suppliers</Nav.Dropdown.Item>
-              <Nav.Dropdown.Item href="#sellers">For sellers of travel</Nav.Dropdown.Item>
-              <Nav.Dropdown.Item href="#software-vendors">For software vendors</Nav.Dropdown.Item>
+              <Nav.Dropdown.Item href="#suppliers">For Suppliers</Nav.Dropdown.Item>
+              <Nav.Dropdown.Item href="#sellers">For Sellers & Agents</Nav.Dropdown.Item>
+              <Nav.Dropdown.Item href="#software-vendors">For Software Vendors</Nav.Dropdown.Item>
             </Nav.Dropdown>
             <Nav.Item>
-              <Nav.Link href="https://github.com/windingtree/wiki">Api</Nav.Link>
+              <Nav.Link href="https://github.com/windingtree/wiki">API</Nav.Link>
             </Nav.Item>
-            <Nav.Item>
+            {/*<Nav.Item>
               <Nav.Link href="#lif-token">Lif Token</Nav.Link>
-            </Nav.Item>
+            </Nav.Item>*/}
             <Nav.Dropdown title="Foundation" id="basic-nav-dropdown">
               <Nav.Dropdown.Item href="#Foundation#About">About</Nav.Dropdown.Item>
               <Nav.Dropdown.Item href="#Foundation#Team">Team</Nav.Dropdown.Item>
               <Nav.Dropdown.Item href="#Foundation#Events">Events</Nav.Dropdown.Item>
               <Nav.Dropdown.Item href="#Foundation#Services">Services</Nav.Dropdown.Item>
-              <Nav.Dropdown.Item href="#Foundation#Project-Roadmap">Project Roadmap</Nav.Dropdown.Item>
+              <Nav.Dropdown.Item href="#Foundation#Project-Roadmap">Roadmap</Nav.Dropdown.Item>
               <Nav.Dropdown.Item href="#Foundation#Blog">Blog</Nav.Dropdown.Item>
             </Nav.Dropdown>
             <Nav.Item>
