@@ -28,7 +28,7 @@ const VideoModal = (props: PropsType) => {
       <Modal.Body>
         <div className="video-fluid">
           <YouTube
-            videoId="LHjwNqvLTak"
+            videoId={videoSrc}
             className="youtube-video"
             opts={opts}
             onHide={onHide}
