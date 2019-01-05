@@ -6,10 +6,12 @@ import {
 import Contributors from 'commons/Contributors';
 import PartnersAndContributors from 'commons/PartnersAndContributors';
 import Events from 'commons/Events';
+import Hero from 'commons/Hero';
 import BlockQuoteSection from './BlockQuoteSection';
 
 const StartupsAndDevelopers = () => (
   <>
+    <Hero variant="startupsAndDevelopers" />
     <section className="app-section section-already-with-us-quote">
       <Container>
         <Row className="justify-content-md-center">

@@ -1,10 +1,12 @@
 import React from 'react';
 import KeyBenefits from 'commons/KeyBenefits';
+import Hero from 'commons/Hero';
 import LifIco from './LifIco';
 import keyBenefitsDescriptions from './keyBenefits.json';
 
 const LifToken = () => (
   <>
+    <Hero variant="lifToken" />
     <KeyBenefits noHeader>
       <KeyBenefits.Lead>
         <header className="mb-2">

@@ -1,8 +1,12 @@
 import React from 'react';
 import Banner from 'commons/Banner';
+import Hero from 'commons/Hero';
 
 const Foundation = () => (
-  <Banner variant="consultancy" />
+  <>
+    <Hero variant="foundation" />
+    <Banner variant="consultancy" />
+  </>
 );
 
 export default Foundation;

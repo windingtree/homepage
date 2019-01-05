@@ -1,10 +1,12 @@
 import React from 'react';
 import HowItWorks from 'commons/HowItWorks';
 import KeyBenefits from 'commons/KeyBenefits';
+import Hero from 'commons/Hero';
 import keyBenefitsDescriptions from './keyBenefits.json';
 
 const Sellers = () => (
-  <div>
+  <>
+    <Hero variant="sellers" />
     <KeyBenefits>
       {
         keyBenefitsDescriptions.keyBenefits.map(benefit => (
@@ -17,6 +19,7 @@ const Sellers = () => (
       }
     </KeyBenefits>
     <HowItWorks />
-  </div>);
+  </>
+);
 
 export default Sellers;
