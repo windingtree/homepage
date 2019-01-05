@@ -29,12 +29,11 @@ body {
 // so the mobile menu has white background
 
 #app-header.header-sticky {
-  background: #5F2B87;
+  background: #5f2b87;
   box-shadow: none;
 }
 
 .navbar {
-
   &.navbar-dark {
     @extend #app-header.header-sticky;
   }
@@ -45,8 +44,9 @@ body {
 
   @media (min-width: 991px) {
     &.navbar-light .nav-item:last-child {
-        width: 100px;
+      width: 100px;
     }
+
     &.navbar-dark {
       & .nav-item:last-child {
         transition: width 0.15s ease-in-out;
@@ -61,11 +61,13 @@ body {
         transition: background-color 0.15s ease-in-out;
         background-color: #fff;
       }
+
       .dropdown-menu {
         a {
           color: #fff;
+
           &:hover {
-            opacity: .6;
+            opacity: 0.6;
           }
         }
       }
