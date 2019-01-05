@@ -7,7 +7,7 @@ import IconList from 'commons/IconList';
 import data from './data';
 
 type PropsType = {
-  variant: 'designedFor' | 'consultancy' | 'community',
+  variant: 'designedFor' | 'consultancy',
   icons: boolean
 };
 
