@@ -1,5 +1,8 @@
 import React from 'react';
+import Hero from 'commons/Hero';
 
-const HackTravel = () => <div />;
+const HackTravel = () => (
+  <Hero variant="hackTravel" />
+);
 
 export default HackTravel;

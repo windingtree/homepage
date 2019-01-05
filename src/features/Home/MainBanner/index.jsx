@@ -6,7 +6,7 @@ import {
 import LearnMoreCards from 'commons/LearnMoreCards';
 import './styles.scss';
 
-const Banner = () => (
+const MainBanner = () => (
   <>
     <section className="app-section hero-homepage pt-1 pt-lg-5">
       <Container>
@@ -56,4 +56,4 @@ const Banner = () => (
 
 );
 
-export default Banner;
+export default MainBanner;

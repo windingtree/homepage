@@ -1,10 +1,12 @@
 import React from 'react';
 import HowItWorks from 'commons/HowItWorks';
+import Hero from 'commons/Hero';
 
 const SoftwareVendors = () => (
-  <div>
+  <>
+    <Hero variant="softwareVendors" />
     <HowItWorks />
-  </div>
+  </>
 );
 
 export default SoftwareVendors;

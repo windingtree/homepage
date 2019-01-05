@@ -51,7 +51,7 @@ const Features = () => (
             </Row>
           </Tab.Container>
           <footer className="text-center">
-            <Button href="https://github.com/windingtree/" target="_blank" variant="outline-dark">
+            <Button href="https://github.com/windingtree/" target="_blank" variant="dark" outlined>
           Join platform
             </Button>
           </footer>
