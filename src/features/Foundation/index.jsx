@@ -1,5 +1,8 @@
 import React from 'react';
+import Banner from 'commons/Banner';
 
-const Foundation = () => <div>Foundation</div>;
+const Foundation = () => (
+  <Banner variant="consultancy" />
+);
 
 export default Foundation;
