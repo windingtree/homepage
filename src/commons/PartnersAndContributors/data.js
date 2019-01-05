@@ -43,8 +43,8 @@ const collaborators: CollaboratorType[] = [
     text: 'Winding Tree will provide its own operative system for upgradeable smart contracts in Ethereum reusing all the solutions provided by ZeppelinOS, having a direct collaboration with them on upgradeable smart contracts, on chain libraries, on chain kernels, decentralized governance, etc.',
     imgSrc: zeppelinOs,
   },
-  
-  
+
+
 ];
 
 export default collaborators;

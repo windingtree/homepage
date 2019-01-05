@@ -28,9 +28,9 @@ const WTNavbar = () => (
             <Nav.Item>
               <Nav.Link href="https://github.com/windingtree/wiki">API</Nav.Link>
             </Nav.Item>
-            {/*<Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link href="#lif-token">Lif Token</Nav.Link>
-            </Nav.Item>*/}
+            </Nav.Item> */}
             <Nav.Dropdown title="Foundation" id="basic-nav-dropdown">
               <Nav.Dropdown.Item href="#Foundation#About">About</Nav.Dropdown.Item>
               <Nav.Dropdown.Item href="#Foundation#Team">Team</Nav.Dropdown.Item>
