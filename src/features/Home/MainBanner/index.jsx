@@ -28,12 +28,12 @@ const MainBanner = () => (
               <ul className="d-flex flex-column flex-md-row justify-content-md-center align-items-md-center list-inline">
                 <li className="mb-1 mb-lg-0 ml-0 mr-md-1">
                   <Button href="https://github.com/windingtree/" block>
-                  Show Me The Code
+                  Get on board
                   </Button>
                 </li>
                 <li className="mb-1 mb-lg-0 list-inline-item">
-                  <Button href="https://windingtree.com/winding-tree-hackathon-prague-2018" block outlined variant="light">
-                  Check out the Hackathon
+                  <Button href="https://youtu.be/_qer1qd68eQ" block outlined variant="light">
+                  Watch Video
                   </Button>
                 </li>
               </ul>

@@ -13,10 +13,10 @@ const EventTabs = () => (
         <Nav.Link eventKey="Upcoming">Upcoming Events</Nav.Link>
       </Nav.Item>
       <Nav.Item as="li">
-        <Nav.Link eventKey="Own">Own Events</Nav.Link>
+        <Nav.Link eventKey="Past">Past Events</Nav.Link>
       </Nav.Item>
       <Nav.Item as="li">
-        <Nav.Link eventKey="Past">Past Events</Nav.Link>
+        <Nav.Link eventKey="Own">Own Events</Nav.Link>
       </Nav.Item>
     </Nav>
     <Tab.Content>

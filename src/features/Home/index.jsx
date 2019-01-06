@@ -13,7 +13,7 @@ const Home = () => (
   <main className="app-content">
     <MainBanner />
     <Features />
-    <LifToken />
+    {/* <LifToken /> */}
     <Partners />
     <InThePress />
     <Banner variant="designedFor" icons />
