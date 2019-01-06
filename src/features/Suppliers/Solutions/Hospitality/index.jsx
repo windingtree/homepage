@@ -11,19 +11,19 @@ const Hospitality = () => (
         <Polygon />
       </Col>
       <Col md={6} lg={7} className="mb-1 mb-sm-0">
-        <Solution.Item title="Hospitality">
+        <Solution.Item title="For Hotels">
           Hotels can integrate with our simple APIs to showcase
           availability on the Winding Tree marketplace.
         </Solution.Item>
-        <Button
+{/*        <Button
           href="https://github.com/windingtree/"
           className="mb-1 mb-sm-0 mb-md-1 mb-lg-0 mr-sm-1 d-block d-sm-inline-block"
           variant="accent"
         >
           Apply for integration
-        </Button>
+        </Button>*/}
         <Button
-          href="https://github.com/windingtree/"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSevHx6goFLdbdI7TSX6JFugNlT56nlRD7I1XjqGc-06pIoemA/viewform"
           className="d-block d-sm-inline-block"
           variant="dark"
           outlined
