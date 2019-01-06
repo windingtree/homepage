@@ -42,7 +42,7 @@ const data: DataType = {
   lifToken: {
     title: 'Lif Token',
     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet magna nec augue condimentum volutpat. Suspendisse nec augue erat.',
-    pprimaryButtonHref: 'https://docs.google.com/forms/d/e/1FAIpQLSevHx6goFLdbdI7TSX6JFugNlT56nlRD7I1XjqGc-06pIoemA/viewform',
+    primaryButtonHref: 'https://docs.google.com/forms/d/e/1FAIpQLSevHx6goFLdbdI7TSX6JFugNlT56nlRD7I1XjqGc-06pIoemA/viewform',
     primaryButtonLabel: 'Apply for integration',
     SecondaryButtonHref: 'https://www.youtube.com/watch?v=_qer1qd68eQ&feature=youtu.be',
     SecondaryButtonLabel: 'Watch Video',
