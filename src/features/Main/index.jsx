@@ -43,7 +43,7 @@ const WTNavbar = () => (
               <Nav.Link href="#startups-and-developers">Community</Nav.Link>
             </Nav.Item>
             <Nav.Item href="#action/3.3">
-              <Button block type="button" href="https://github.com/windingtree/">Join</Button>
+              <Button block type="button" href="https://docs.google.com/forms/d/e/1FAIpQLSevHx6goFLdbdI7TSX6JFugNlT56nlRD7I1XjqGc-06pIoemA/viewform">Join</Button>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>

@@ -11,25 +11,24 @@ const Tours = () => (
         <Polygon />
       </Col>
       <Col md={6} lg={7} className="mb-1 mb-sm-0">
-        <Solution.Item title="Tours, Activities, Rentals, Cruises">
-          Join the conversation and contribute development to tours
-          and activities, trains and car rentals.
+        <Solution.Item title="For Tours, Activities, Rental, Cruise operators">
+          Join roundtables, discussions and contribute development to Platform development for your business needs
         </Solution.Item>
-        <Button
+{/*        <Button
           href="https://github.com/windingtree/"
           className="mb-1 mb-sm-0 mb-md-1 mb-lg-0 mr-sm-1 d-block d-sm-inline-block"
           variant="accent"
         >
-          Apply for integration
-        </Button>
-        <Button
-          href="https://github.com/windingtree/"
+          Contact our team
+        </Button>*/}
+       {/* <Button
+          href="https://docs.google.com/forms/d/e/1FAIpQLSevHx6goFLdbdI7TSX6JFugNlT56nlRD7I1XjqGc-06pIoemA/viewform"
           className="d-block d-sm-inline-block"
           variant="dark"
           outlined
         >
           Use cases
-        </Button>
+        </Button>*/}
       </Col>
     </Row>
   </Solution>
