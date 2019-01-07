@@ -12,17 +12,17 @@ type PropsType = {
 const PartnersAndContributors = ({ tab }: PropsType) => (
   <Tab.Container id="partners tabs" defaultActiveKey={partners[tab].name}>
     <Nav className="nav-pointers col-lg-12" variant="tabs">
-      {partners.map(quote => (
+      {partners.map(partner => (
         <Nav.Item as={Col} className="col-6 col-md-4 col-lg-2">
-          <Nav.Link eventKey={quote.name} className="pb-1 pb-lg-2">
+          <Nav.Link eventKey={partner.name} className="pb-1 pb-lg-2">
             <Image
               fluid
-              src={quote.imgSrc}
-              alt={quote.name}
+              src={partner.imgSrc}
+              alt={partner.name}
               style={{
-                maxWidth: quote.imgWidth,
+                maxWidth: partner.imgWidth,
                 position: 'relative',
-                top: quote.imgTopPosition,
+                top: partner.imgTopPosition,
               }}
             />
           </Nav.Link>
@@ -30,14 +30,14 @@ const PartnersAndContributors = ({ tab }: PropsType) => (
       ))}
     </Nav>
     <Tab.Content className="px-2 py-3 bg-white">
-      {partners.map(quote => (
-        <Tab.Pane eventKey={quote.name}>
+      {partners.map(partner => (
+        <Tab.Pane eventKey={partner.name}>
           <blockquote className="blockquote blockquote-alt">
             <p className="blockquote-body">
-              {quote.text}
-              <a href={quote.href}>Read full article</a>
+              {partner.text}
+              { partner.href && <a href={partner.href}>Read full article</a>}
             </p>
-            {quote.user && <QuoteUser {...quote.user} />}
+            {partner.user && <QuoteUser {...partner.user} />}
           </blockquote>
         </Tab.Pane>
       ))}
