@@ -13,7 +13,7 @@ const PartnersAndContributors = ({ tab }: PropsType) => (
   <Tab.Container id="partners tabs" defaultActiveKey={partners[tab].name}>
     <Nav className="nav-pointers col-lg-12" variant="tabs">
       {partners.map(partner => (
-        <Nav.Item as={Col} className="col-6 col-md-4 col-lg-2">
+        <Nav.Item as={Col} className="col-6 col-md-4 col-lg-2" key={`item-${partner.name}`}>
           <Nav.Link eventKey={partner.name} className="pb-1 pb-lg-2">
             <Image
               fluid
@@ -31,7 +31,7 @@ const PartnersAndContributors = ({ tab }: PropsType) => (
     </Nav>
     <Tab.Content className="px-2 py-3 bg-white">
       {partners.map(partner => (
-        <Tab.Pane eventKey={partner.name}>
+        <Tab.Pane eventKey={partner.name} key={`pane-${partner.name}`}>
           <blockquote className="blockquote blockquote-alt">
             <p className="blockquote-body">
               {partner.text}
