@@ -11,20 +11,20 @@ const Hospitality = () => (
         <Polygon />
       </Col>
       <Col md={6} lg={7} className="mb-1 mb-sm-0 order-md-first">
-        <Solution.Item title="Airlines">
+        <Solution.Item title="For Airlines">
           Lower your distribution and transactional cost by using new
           commission-free distribution channel, more reliable than any
           major GDS.
         </Solution.Item>
-        <Button
+{/*        <Button
           href="https://github.com/windingtree/"
           variant="accent"
           className="accent mb-1 mb-sm-0 mb-md-1 mb-lg-0 mr-sm-1 d-block d-sm-inline-block"
         >
           Apply for integration
-        </Button>
+        </Button>*/}
         <Button
-          href="https://github.com/windingtree/"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSevHx6goFLdbdI7TSX6JFugNlT56nlRD7I1XjqGc-06pIoemA/viewform"
           className="d-block d-sm-inline-block"
           variant="dark"
           outlined

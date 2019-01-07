@@ -26,7 +26,7 @@ const bannersData: BannerDataType = {
     mdiIcon: 'mdi-github-circle',
     text: 'In bibendum odio eu orci egestas tempor. Etiam cursus lacus non egestas aliquet. Duis porttitor, elit eget eleifend gravida, nibh nisi luctus ex, sed consequat magna diam ut libero. Suspendisse eu auctor lorem. Donec vitae ante leo.',
     buttonLabel: 'Inquire about our services',
-    href: '#startups-and-developers',
+    href: 'https://docs.google.com/forms/d/e/1FAIpQLSevHx6goFLdbdI7TSX6JFugNlT56nlRD7I1XjqGc-06pIoemA/viewform',
   },
 };
 

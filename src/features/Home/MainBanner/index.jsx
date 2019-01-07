@@ -27,7 +27,7 @@ const MainBanner = () => (
             <Col xs={12}>
               <ul className="d-flex flex-column flex-md-row justify-content-md-center align-items-md-center list-inline">
                 <li className="mb-1 mb-lg-0 ml-0 mr-md-1">
-                  <Button href="https://github.com/windingtree/" block>
+                  <Button href="https://docs.google.com/forms/d/e/1FAIpQLSevHx6goFLdbdI7TSX6JFugNlT56nlRD7I1XjqGc-06pIoemA/viewform" block>
                   Get on board
                   </Button>
                 </li>

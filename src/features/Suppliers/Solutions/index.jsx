@@ -1,6 +1,8 @@
 /* @flow */
 import React from 'react';
-import { Container, Row, Col } from '@windingtree/wt-ui-react';
+import {
+  Button, Container, Row, Col,
+} from '@windingtree/wt-ui-react';
 import PartnersAndContributors from 'commons/PartnersAndContributors';
 import Hospitality from './Hospitality';
 import Airlines from './Airlines';
@@ -23,6 +25,20 @@ const Solutions = () => (
           <Tours />
           <hr className="my-md-4" />
           <PartnersAndContributors tab={1} />
+          <Container>
+            <Row>
+              <Col sm={12}>
+                <footer className="text-center mt-2">
+                  <Button
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSevHx6goFLdbdI7TSX6JFugNlT56nlRD7I1XjqGc-06pIoemA/viewform"
+                    variant="primary"
+                  >
+                    Apply for integration
+                  </Button>
+                </footer>
+              </Col>
+            </Row>
+          </Container>
         </Col>
       </Row>
     </Container>

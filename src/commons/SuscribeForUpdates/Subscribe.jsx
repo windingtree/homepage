@@ -22,7 +22,7 @@ class Subscribe extends Component<*> {
             <Button
               href="https://windingtree.us14.list-manage.com/subscribe/post?u=93dec359c99b9871f7330768c&id=2f41b0318a"
               target="_blank"
-              variant="primary"
+              variant="accent"
               type="submit"
               size="lg"
               block

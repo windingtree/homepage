@@ -12,10 +12,10 @@ const ReadyToUse = () => (
         <Col md={10}>
           <h2 className="mb-1 text-white">Ready to use Winding Tree?</h2>
           <p className="mb-1 mb-md-2 text-white">
-          Check our official API documentation and integrate your software to new travel ecosystem
+          Learn our API on Github or apply for integration and we will get back to you
           </p>
-          <Button variant="light" outlined href="https://github.com/windingtree/wiki" target="_blank">
-            Join platform
+          <Button variant="light" outlined href="https://docs.google.com/forms/d/e/1FAIpQLSevHx6goFLdbdI7TSX6JFugNlT56nlRD7I1XjqGc-06pIoemA/viewform" target="_blank">
+            Apply for integration
           </Button>
         </Col>
       </Row>
