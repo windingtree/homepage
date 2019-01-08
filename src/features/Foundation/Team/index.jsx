@@ -16,9 +16,9 @@ const Team = () => (
           </Col>
         </Row>
       </header>
-      <Row className="justify-content-md-center">
+      <Row>
         {members.map(memberData => (
-          <Col md={4} className="text-center mb-md-4" key={memberData.firstLine}>
+          <Col md={4} className="mb-md-4" key={memberData.firstLine}>
             <Member {...memberData} />
           </Col>
         ))}
