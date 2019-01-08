@@ -15,12 +15,6 @@ event_groups:
     - title: "Upcoming events"
       events:
 
-        - logo_url: "/assets/img/where-to-meet/capalogo.png"
-          title: "CAPA's World Aviation Summit"
-          place: "Berlin, Germany"
-          date: "November 27&ndash;28, 2018"
-          url: "https://centreforaviation.com/analysis/reports/capas-world-aviation-summit-in-berlin-2728-nov-2018-411103"
-
         - logo_url: "/assets/img/where-to-meet/hamburg.png"
           title: "Hamburg Aviation Conference"
           place: "Hamburg, Germany"
@@ -29,13 +23,19 @@ event_groups:
 
         - logo_url: "/assets/img/where-to-meet/RE.jpg"
           title: "RE Conference"
-          place: "Hamburg, Germany"
+          place: "Amsterdam, The Netherlands"
           date: "March 14, 2019"
           url: "https://www.natm.nl/"
 
 
     - title: "Past events"
       events:
+
+        - logo_url: "/assets/img/where-to-meet/capalogo.png"
+          title: "CAPA's World Aviation Summit"
+          place: "Berlin, Germany"
+          date: "November 27&ndash;28, 2018"
+          url: "https://centreforaviation.com/analysis/reports/capas-world-aviation-summit-in-berlin-2728-nov-2018-411103"
 
         - logo_url: "/assets/img/where-to-meet/ethdevcon.png"
           title: "Ethereum DevCon"

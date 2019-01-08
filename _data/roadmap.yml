@@ -2,8 +2,8 @@ title: "Roadmap"
 
 stage:
   - year: "2017"
-    period: "Q1-Q4"
-    collapsed: false
+    period: "Q1-Q4: Research and PoC"
+    collapsed: true
     data_group:
 
       - title: "Products"
@@ -42,8 +42,8 @@ stage:
             tooltip: "Successful year for partnerships with first key industry partners"
 
   - year: "2018"
-    period: "Q1-Q2"
-    collapsed: false
+    period: "Q1-Q2: Architecture & Core"
+    collapsed: true
     data_group:
       - title: "Products"
         items:
@@ -104,9 +104,8 @@ stage:
             icon: "checkbox-marked-circle"
 
   - year: "2018"
-    period: "Q3-Q4"
-    collapsed: false
-    active: true
+    period: "Q3-Q4: APIs & Demo Apps"
+    collapsed: true
     data_group:
       - title: "Products"
         items:
@@ -161,7 +160,7 @@ stage:
                   link: "https://groups.google.com/forum/#!topic/windingtree/VGiSzzg--PY"
                   style: "primary"
           - item: "Search API"
-            icon: "circle-slice-4"
+            icon: "checkbox-marked-circle"
             tooltip: "We started working on a RESTful API that makes searching inventory through Winding Tree simple and easy"
           - item: "Booking API"
             icon: "checkbox-marked-circle"
@@ -195,8 +194,9 @@ stage:
 
 
   - year: "2019"
-    period: "Q1-Q4"
+    period: "Q1-Q4: Real inventory distribution"
     collapsed: false
+    active: true
     data_group:
 
       - title: "Products"
