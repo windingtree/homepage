@@ -1,6 +1,5 @@
 // @flow
 import React from 'react';
-import { Button } from '@windingtree/wt-ui-react';
 import { Collapse } from 'react-collapse';
 import MemberImage from './MemberImage';
 import Icons from './Icons';

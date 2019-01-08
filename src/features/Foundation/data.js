@@ -22,7 +22,7 @@ export type TeamMemberType = {
 const members: TeamMemberType[] = [
   {
     imgSrc: alex,
-    firstLine: 'Alex',
+    firstLine: 'Alex-10',
     secondLine: 'DESIGNER | RUSSIA ',
     text: 'Alex is a developer, project manager and entrepreneur who launched several startups (incl.travel) on the Russian market. He also has a 10-year CIO exp. in an international heavy industry company',
     icons: {
@@ -37,7 +37,7 @@ const members: TeamMemberType[] = [
   },
   {
     imgSrc: alex,
-    firstLine: 'Alex',
+    firstLine: 'Alex-11',
     secondLine: 'DESIGNER | RUSSIA ',
     text: 'Alex is a developer, project manager and entrepreneur who launched several startups (incl.travel) on the Russian market. He also has a 10-year CIO exp. in an international heavy industry company',
     icons: {
@@ -52,7 +52,7 @@ const members: TeamMemberType[] = [
   },
   {
     imgSrc: alex,
-    firstLine: 'Alex',
+    firstLine: 'Alex-12',
     secondLine: 'DESIGNER | RUSSIA ',
     text: 'Alex is a developer, project manager and entrepreneur who launched several startups (incl.travel) on the Russian market. He also has a 10-year CIO exp. in an international heavy industry company',
     icons: {
@@ -67,7 +67,7 @@ const members: TeamMemberType[] = [
   },
   {
     imgSrc: alex,
-    firstLine: 'Alex',
+    firstLine: 'Alex-13',
     secondLine: 'DESIGNER | RUSSIA ',
     text: 'Alex is a developer, project manager and entrepreneur who launched several startups (incl.travel) on the Russian market. He also has a 10-year CIO exp. in an international heavy industry company',
     icons: {
@@ -82,7 +82,7 @@ const members: TeamMemberType[] = [
   },
   {
     imgSrc: alex,
-    firstLine: 'Alex',
+    firstLine: 'Alex-14',
     secondLine: 'DESIGNER | RUSSIA ',
     text: 'Alex is a developer, project manager and entrepreneur who launched several startups (incl.travel) on the Russian market. He also has a 10-year CIO exp. in an international heavy industry company',
     icons: {
@@ -97,4 +97,40 @@ const members: TeamMemberType[] = [
   },
 ];
 
-export default members;
+const advisors: TeamMemberType[] = [
+  {
+    imgSrc: alex,
+    firstLine: 'Alex-00',
+    secondLine: 'DESIGNER | RUSSIA ',
+    text: 'Alex is a developer, project manager and entrepreneur who launched several startups (incl.travel) on the Russian market. He also has a 10-year CIO exp. in an international heavy industry company',
+    icons: {
+      github: 'string',
+      twitter: 'string',
+      linkedin: 'string',
+      link: 'string',
+      bitBucket: 'string',
+      vk: 'string',
+      facebook: 'string',
+    },
+  },
+  {
+    imgSrc: alex,
+    firstLine: 'Alex-01',
+    secondLine: 'DESIGNER | RUSSIA ',
+    text: 'Alex is a developer, project manager and entrepreneur who launched several startups (incl.travel) on the Russian market. He also has a 10-year CIO exp. in an international heavy industry company',
+    icons: {
+      github: 'string',
+      twitter: 'string',
+      linkedin: 'string',
+      link: 'string',
+      bitBucket: 'string',
+      vk: 'string',
+      facebook: 'string',
+    },
+  },
+];
+
+export {
+  members,
+  advisors,
+};

@@ -4,15 +4,18 @@ import {
   Container, Row, Col,
 } from '@windingtree/wt-ui-react';
 import Member from './Member';
-import members from './data';
 
-const Team = () => (
+type PropsType = {
+  title: string,
+  members: string[]
+};
+const Team = ({ title, members }: PropsType) => (
   <article className="app-section section-features pt-2 pt-lg-3">
     <Container>
       <header>
         <Row className="justify-content-md-center">
           <Col md={10} className="text-center mb-1">
-            <h2>Team</h2>
+            <h2>{title}</h2>
           </Col>
         </Row>
       </header>
