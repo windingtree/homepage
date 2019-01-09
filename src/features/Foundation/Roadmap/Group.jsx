@@ -10,11 +10,11 @@ const Group = (props: GroupType) => {
   } = props;
   const isMain = main ? 'main-group h3 pt-1' : 'pt-3';
   const isMuted = muted ? 'text-muted' : '';
-  const isPaded = main ? 'pl-5' : '';
+  const isPadded = main ? 'pl-5' : '';
   return (
     <div className>
       <h4 className={`text-center ${isMuted} ${isMain}`}>{title}</h4>
-      <ul className={`list-unstyled ${isPaded}`}>
+      <ul className={`list-unstyled ${isPadded}`}>
         {elements.map((element, index) => (
           // eslint-disable-next-line react/no-array-index-key
           <li key={`roadmap-${title}-${index}`}>
