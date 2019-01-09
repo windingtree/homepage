@@ -7,7 +7,7 @@ import type { EventType } from './data';
 
 const Event = (props: EventType) => {
   const {
-    date, month, name, location, imgSrc, text, buttonHref, buttonText,
+    startDate, endDate, startMonth, endMonth, name, location, imgSrc, text, buttonHref, buttonText,
   } = props;
   return (
     <div className="item">
@@ -15,9 +15,11 @@ const Event = (props: EventType) => {
         <Col sm={7} lg={4} className="col-12">
           <div className="media mb-1 mb-md-0">
             <div className="date-box mr-1">
-              {date}
+              {startDate}
+              {endDate && (<><span className="text-xs">-</span>{endDate}</>)}
               <br />
-              {month}
+              {startMonth}
+              {endMonth && (<><span className="text-xs">-</span>{endMonth}</>)}
             </div>
             <div className="media-body align-self-center">
               <h5 className="my-0">{name}</h5>
