@@ -14,7 +14,7 @@ const Event = (props: EventType) => {
       <Row>
         <Col sm={7} lg={4} className="col-12">
           <div className="media mb-1 mb-md-0">
-            <div className="date-box mr-1">
+            <div className="date-box mr-1" style={{ width: '105px' }}>
               {startDate}
               {endDate && (<><span className="text-xs">-</span>{endDate}</>)}
               <br />
