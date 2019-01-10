@@ -158,33 +158,41 @@ const members: TeamMemberType[] = [
 
 const advisors: TeamMemberType[] = [
   {
-    imgSrc: alex,
-    firstLine: 'Alex-00',
-    secondLine: 'DESIGNER | RUSSIA ',
-    text: 'Alex is a developer, project manager and entrepreneur who launched several startups (incl.travel) on the Russian market. He also has a 10-year CIO exp. in an international heavy industry company',
+    imgSrc: './img/norm.jpg',
+    firstLine: 'Norm Rose',
+    secondLine: 'ADVISOR | USA',
+    text: 'Norm is a recognized expert on all aspects of travel technology and travel industry trends. For over two decades, Norm has been an analyst and consultant focused on emerging technologies and how they impact business practices in the global travel industry. He leads Travel Tech Consulting, Inc., a firm that partners with Phocuswright to provide technology consulting to travel companies.',
     icons: {
-      github: 'string',
-      twitter: 'string',
-      linkedin: 'string',
-      link: 'string',
-      bitBucket: 'string',
-      vk: 'string',
-      facebook: 'string',
+      twitter: 'https://twitter.com/normtraveltech',
+      linkedin: 'https://www.linkedin.com/in/traveltechnology',
+      link: 'http://www.traveltechnology.com/',
     },
   },
   {
-    imgSrc: alex,
-    firstLine: 'Alex-01',
-    secondLine: 'DESIGNER | RUSSIA ',
-    text: 'Alex is a developer, project manager and entrepreneur who launched several startups (incl.travel) on the Russian market. He also has a 10-year CIO exp. in an international heavy industry company',
+    imgSrc: './img/don.png',
+    firstLine: 'Don Birch',
+    secondLine: 'ADVISOR | SWITZERLAND',
+    text: 'After a career working in most aspects of travel and in particular travel distribution, Don has turned his hand to applying his industry experience by investing in and mentoring internet based travel startups and travel businesses that are striving to leverage the wonders of Web2.0 and the on-going evolutions thereof. Don has gained experience with the hype (founder: hotelrezexpress.com), with the technology (SITA) and with the important travel agent segment (CEO of Abacus). He is currently a Partner at Travel Innovation Partners.',
     icons: {
-      github: 'string',
-      twitter: 'string',
-      linkedin: 'string',
-      link: 'string',
-      bitBucket: 'string',
-      vk: 'string',
-      facebook: 'string',
+      linkedin: 'https://ch.linkedin.com/in/donbirch',
+    },
+  },
+  {
+    imgSrc: './img/douglas.jpg',
+    firstLine: 'Douglas Rice',
+    secondLine: 'ADVISOR | USA',
+    text: 'Douglas Rice is an industry leader in the global hospitality technology industry. He is best known for his role as a founder of the global non-profit industry association Hotel Technology Next Generation.',
+    icons: {
+      linkedin: 'https://www.linkedin.com/in/ricedouglas/',
+    },
+  },
+  {
+    imgSrc: './img/johnny.jpg',
+    firstLine: 'Johnny Thorsen',
+    secondLine: 'ADVISOR | USA',
+    text: 'Johnny is a passionate innovator and enjoys disrupting the status quo. Previously he served as Senior Director of Strategy and Product Marketing for Concur Risk Messaging and Senior Director at SAP Mobile Services. Currently he is a VP of Travel Strategy at Mezi.',
+    icons: {
+      linkedin: 'https://www.linkedin.com/in/johnnythorsen/',
     },
   },
 ];
