@@ -23,8 +23,8 @@ const bannersData: BannerDataType = {
   },
   consultancy: {
     title: 'Consultancy',
-    mdiIcon: 'mdi-github-circle',
-    text: 'In bibendum odio eu orci egestas tempor. Etiam cursus lacus non egestas aliquet. Duis porttitor, elit eget eleifend gravida, nibh nisi luctus ex, sed consequat magna diam ut libero. Suspendisse eu auctor lorem. Donec vitae ante leo.',
+    mdiIcon: 'mdi-hexagon-multiple',
+    text: 'One of the sources of income for the Winding Tree foundation is consulting services and development of proprietary software products for travel companies, with the focus on projects built top of Winding Tree platform.',
     buttonLabel: 'Inquire about our services',
     href: 'https://docs.google.com/forms/d/e/1FAIpQLSevHx6goFLdbdI7TSX6JFugNlT56nlRD7I1XjqGc-06pIoemA/viewform',
   },

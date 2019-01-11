@@ -41,9 +41,9 @@ const data: DataType = {
   },
   lifToken: {
     title: 'Lif Token',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet magna nec augue condimentum volutpat. Suspendisse nec augue erat.',
-    primaryButtonHref: 'https://docs.google.com/forms/d/e/1FAIpQLSevHx6goFLdbdI7TSX6JFugNlT56nlRD7I1XjqGc-06pIoemA/viewform',
-    primaryButtonLabel: 'Apply for integration',
+    text: 'The Líf token facilitates transactions on the Winding Tree platform.',
+    primaryButtonHref: 'https://github.com/windingtree/lif-token',
+    primaryButtonLabel: 'Read docs',
     SecondaryButtonHref: 'https://www.youtube.com/watch?v=_qer1qd68eQ&feature=youtu.be',
     SecondaryButtonLabel: 'Watch Video',
     mdiIcon: 'mdi-bitcoin',
