@@ -23,8 +23,7 @@ class Period extends React.Component<PeriodType, StateType> {
   }
 
   handleCollapseClick = () => {
-    const { isOpened } = this.state;
-    this.setState({ isOpened: !isOpened });
+    this.setState(({ isOpened }) => ({ isOpened: !isOpened }));
   }
 
   render() {
