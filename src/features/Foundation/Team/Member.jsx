@@ -18,8 +18,7 @@ class Member extends React.Component<TeamMemberType, StateType> {
   }
 
   handleCollapseClick = () => {
-    const { isOpened } = this.state;
-    this.setState({ isOpened: !isOpened });
+    this.setState(({ isOpened }) => ({ isOpened: !isOpened }));
   }
 
   render() {
