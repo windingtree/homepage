@@ -1,6 +1,5 @@
 /* @flow */
 
-
 export type ItemType = {
   done: boolean,
   text: string,
@@ -25,6 +24,11 @@ export type PeriodType = {
 
 export type RoadmapDataType = PeriodType[];
 
+
+const STARTING: number = 0;
+const IN_PROGRESS: number = 1;
+const DONE: number = 2;
+
 const roadmapData: RoadmapDataType = [
   {
     firstLine: '2017',
@@ -36,7 +40,7 @@ const roadmapData: RoadmapDataType = [
         title: 'Products',
         elements: [
           {
-            done: false,
+            done: IN_PROGRESS,
             text: 'Hotel Explorer Prototype',
             buttonLabel: 'demo',
             href: 'https://hotel-explorer-demo.windingtree.com/',
@@ -48,15 +52,15 @@ const roadmapData: RoadmapDataType = [
         main: true,
         elements: [
           {
-            done: false,
+            done: IN_PROGRESS,
             text: 'Lif Token smart contract',
           },
           {
-            done: false,
+            done: IN_PROGRESS,
             text: 'Platform Architecture for Hotels',
           },
           {
-            done: false,
+            done: IN_PROGRESS,
             text: 'ICO Models',
           },
         ],
@@ -65,19 +69,19 @@ const roadmapData: RoadmapDataType = [
         title: 'Foundation',
         elements: [
           {
-            done: true,
+            done: DONE,
             text: 'Project Team Formation',
           },
           {
-            done: true,
+            done: DONE,
             text: 'Platform Architecture for Hotels',
           },
           {
-            done: true,
+            done: DONE,
             text: 'Pre-ICO',
           },
           {
-            done: true,
+            done: DONE,
             text: 'Partnership with Lufthansa Group, Nordic Choice Hotels, eRevMax, Zeppelin_OS, RSK',
           },
         ],
@@ -94,7 +98,7 @@ const roadmapData: RoadmapDataType = [
         title: 'Products',
         elements: [
           {
-            done: true,
+            done: DONE,
             text: 'Hotel Explorer Prototype',
             buttonLabel: 'demo',
             href: 'https://hotel-explorer-demo.windingtree.com/',
@@ -106,26 +110,26 @@ const roadmapData: RoadmapDataType = [
         main: true,
         elements: [
           {
-            done: false,
+            done: STARTING,
             text: 'Lif Token smart contract',
           },
           {
-            done: false,
+            done: STARTING,
             text: 'Platform Architecture for Hotels',
           },
           {
-            done: false,
+            done: STARTING,
             text: 'ICO Models',
           },
           {
-            done: false,
+            done: STARTING,
             text: 'Hotel Explorer Prototype',
             buttonLabel: 'demo',
             href: 'https://hotel-explorer-demo.windingtree.com/',
             isMainButton: true,
           },
           {
-            done: false,
+            done: IN_PROGRESS,
             text: 'Hotel Explorer Prototype',
             buttonLabel: 'demo',
             href: 'https://hotel-explorer-demo.windingtree.com/',
@@ -137,19 +141,19 @@ const roadmapData: RoadmapDataType = [
         title: 'Foundation',
         elements: [
           {
-            done: true,
+            done: IN_PROGRESS,
             text: 'Project Team Formation',
           },
           {
-            done: true,
+            done: IN_PROGRESS,
             text: 'Platform Architecture for Hotels',
           },
           {
-            done: true,
+            done: IN_PROGRESS,
             text: 'Pre-ICO',
           },
           {
-            done: true,
+            done: IN_PROGRESS,
             text: 'Partnership with Lufthansa Group, Nordic Choice Hotels, eRevMax, Zeppelin_OS, RSK',
           },
         ],
@@ -158,5 +162,6 @@ const roadmapData: RoadmapDataType = [
   },
 ];
 
-
-export default roadmapData;
+export {
+  roadmapData, STARTING, IN_PROGRESS, DONE,
+};

@@ -7,6 +7,7 @@ import {
   Row, Col,
 } from '@windingtree/wt-ui-react';
 import Collapse from 'react-collapse';
+import className from 'classnames';
 import Group from './Group';
 
 
@@ -31,7 +32,15 @@ class Period extends React.Component<PeriodType, StateType> {
       firstLine, secondLine, groups, currentPeriod,
     } = this.props;
     const { isOpened } = this.state;
-    const buttonMdi = isOpened ? 'mdi-minus-circle-outline' : 'mdi-plus-circle';
+    const buttonClassName = className(
+      'mdi',
+      'mdi-36px',
+      {
+        'mdi-minus-circle-outline': isOpened,
+        'mdi-plus-circle': !isOpened,
+      },
+    );
+
     return (
       <>
         <header>
@@ -41,7 +50,7 @@ class Period extends React.Component<PeriodType, StateType> {
               <div className="lead">{secondLine}</div>
               <div>
                 <a className="text-primary" type="button" onClick={this.handleCollapseClick}>
-                  <i className={`mdi mdi-36px ${buttonMdi}`} />
+                  <i className={buttonClassName} />
                 </a>
               </div>
             </Col>

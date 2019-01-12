@@ -3,7 +3,7 @@ import React from 'react';
 import {
   Container, Row, Col,
 } from '@windingtree/wt-ui-react';
-import roadmapData from './data';
+import { roadmapData } from './data';
 import Period from './Period';
 
 const Roadmap = () => (
