@@ -23,7 +23,7 @@ const Group = (props: GroupType) => {
     },
   );
   return (
-    <div className>
+    <div>
       <h4 className={h4ClassName}>{title}</h4>
       <ul className={ulClassName}>
         {elements.map((element, index) => (
