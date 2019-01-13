@@ -32,7 +32,7 @@ const Item = (props: ItemType) => {
   return (
     <>
       <i className={iconClassName} />
-      <span className={spanClassName} title="">{text}</span><br />
+      <span className='pl-1 {spanClassName}' title="">{text}</span><br />
       {buttonLabel && href && <Button href={href} variant={buttonVariant} outlined={!isMainButton} className="ml-1" size="sm" target="_blank">{buttonLabel}</Button>}
     </>
   );
