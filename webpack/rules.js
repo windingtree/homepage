@@ -2,6 +2,7 @@ const path = require("path")
 const appSrc = path.resolve(__dirname, "../src")
 const autoprefixer = require('autoprefixer');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+
 const devMode = process.env.NODE_ENV === 'development';
 
 const rules = [
