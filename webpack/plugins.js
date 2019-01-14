@@ -10,20 +10,7 @@ const Dotenv = require('dotenv-webpack');
 
 const public = 'public';
 
-// the path(s) that should be cleaned
-const pathsToClean = [
-    `${public}/**/*.*`,
-];
-
-// the clean options to use
-const cleanOptions = {
-    root: resolve(__dirname, '..'),
-    verbose: true,
-    dry: false,
-};
-
 const commons = [
-    new CleanWebpackPlugin(pathsToClean, cleanOptions),
     new webpack.NamedModulesPlugin(),
     new Dotenv({
         path: resolve('./.env'),
@@ -36,8 +23,8 @@ const prodPlugins = commons.concat(
         debug: false,
     }),
     new MiniCssExtractPlugin({
-        filename: 'css/[contenthash].css',
-        chunkFilename: 'css/[contenthash].css'
+        filename: 'css/styles.css',
+        chunkFilename: 'css/styles.css'
     }),
     new webpack.IgnorePlugin(/^\.\/locale$/),
     ])
@@ -54,18 +41,23 @@ const devPlugins = commons.concat([
     new webpack.HotModuleReplacementPlugin()
 ])
 
-module.exports = new Promise((resolve) => {
-    git.short(function (commit) {
-        const htmlPlugin = new HtmlWebpackPlugin({
-            template: join('assets', 'index.html'),
-            meta: {
-                version: packageJson.version,
-                'git-rev': commit
-            }
-        })
-        resolve({
-            production: [...prodPlugins,htmlPlugin],
-            development: [...devPlugins,htmlPlugin]
-        })
-    })
-});
+module.exports = Promise.resolve({
+            production: prodPlugins,
+            development: devPlugins
+})
+
+// module.exports = new Promise((resolve) => {
+//     git.short(function (commit) {
+//         const htmlPlugin = new HtmlWebpackPlugin({
+//             template: join('assets', 'index.html'),
+//             meta: {
+//                 version: packageJson.version,
+//                 'git-rev': commit
+//             }
+//         })
+//         resolve({
+//             production: [...prodPlugins,htmlPlugin],
+//             development: [...devPlugins,htmlPlugin]
+//         })
+//     })
+// });
