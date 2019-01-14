@@ -17,7 +17,7 @@ const Hero = (props: PropsType) => {
       <Container>
         <Row className="align-items-center" flex>
           <Col lg={8} className="mb-1 mb-md-0 text-center text-lg-left">
-            <h2 className="text-white">{heroData.title}</h2>
+            <h1 className="h2 text-white">{heroData.title}</h1>
             <p className="lead text-white text-sm-lg">{heroData.text}</p>
             { heroData.primaryButtonHref && heroData.primaryButtonLabel && <Button href={heroData.primaryButtonHref} variant="primary" className="mt-0 mt-lg-1 mr-lg-1 mr-lg-1" target="_blank">{heroData.primaryButtonLabel}</Button> }
             <div className="pb-1 d-md-none"></div>
