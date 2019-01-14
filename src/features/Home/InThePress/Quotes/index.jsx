@@ -9,7 +9,7 @@ const Quotes = () => (
     <Tab.Container id="quotes tabs" defaultActiveKey={quotes[0].name}>
       <Nav className="nav-pointers" variant="tabs">
         {quotes.map(quote => (
-          <Nav.Item key={quote.name} as={Col} md={3}>
+          <Nav.Item key={quote.name} as={Col} className="col-6 col-md-6 col-lg-3">
             <Nav.Link eventKey={quote.name} className="">
               <img className="img-fluid" src={quote.imgSrc} alt={quote.name} />
             </Nav.Link>
