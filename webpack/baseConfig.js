@@ -12,7 +12,7 @@ const commons = {
         ],
       },
       output: {
-        filename: 'js/[name].[hash].js',
+        filename: 'js/client.js',
         path: path.resolve(__dirname, '..', 'public'),
       },
       resolve: {

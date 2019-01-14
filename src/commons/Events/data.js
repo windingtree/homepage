@@ -1,5 +1,5 @@
 /* @flow */
-import ensLogo from './images/ens.png';
+// import ensLogo from './images/ens.png';
 import hamburgLogo from './images/hamburg.png';
 import reLogo from './images/re.png';
 import capaLogo from './images/capa.png';
@@ -16,8 +16,10 @@ import htngLogo from './images/HTNG.png';
 import ttc2018Logo from './images/ttc2018.png';
 
 export type EventType = {
-  date: string,
-  month: string,
+  startDate: string,
+  endDate: string,
+  startMonth: string, // If there is only a month, it must include year. Ex. "Feb'19",
+  endMonth: string, // When there is start and end Month, the year must be only in endMont
   name: string,
   location: string,
   imgSrc: string,
@@ -35,8 +37,9 @@ export type EventsType = {
 const events: EventsType = {
   upcoming: [
     {
-      date: '21-22',
-      month: "Feb'19",
+      startDate: '21',
+      endDate: '22',
+      startMonth: "Feb'19",
       name: 'Hamburg Aviation Conference',
       location: 'Hamburg, Germany',
       text: 'Welcome to the other kind of event - the reference for innovation in aviation & travel: innovative, impactful, personal, independent, authentic. 21 - 22 February 2019, Ameron Hotel Speicherstadt, Hamburg, Germany',
@@ -45,8 +48,8 @@ const events: EventsType = {
       buttonText: 'check event',
     },
     {
-      date: '14',
-      month: "Mar'19",
+      startDate: '14',
+      startMonth: "Mar'19",
       name: 'RE Conference',
       location: 'Amsterdam, The Netherlands',
       imgSrc: reLogo,
@@ -57,71 +60,80 @@ const events: EventsType = {
   ],
   past: [
     {
-      date: '27-28',
-      month: "Nov'18",
+      startDate: '21',
+      endDate: '22',
+      startMonth: "Nov'18",
       name: "CAPA's World Aviation Summit",
       location: 'Berlin, Germany',
       imgSrc: capaLogo,
     },
     {
-      date: '30-02',
-      month: "Oct-Nov'18",
-      name: "Ethereum DevCon",
+      startDate: '30',
+      endDate: '2',
+      startMonth: 'Oct',
+      endMonth: "Nov'18",
+      name: 'Ethereum DevCon',
       location: 'Prague, Czech Republic',
       imgSrc: ethDevConLogo,
     },
     {
-      date: '26-28',
-      month: "Oct'18",
+      startDate: '26',
+      endDate: '28',
+      startMonth: "Oct'18",
       name: '#CryptoLife Hackathon',
       location: 'Prague, Czech Republic',
       imgSrc: statusLogo,
     },
     {
-      date: '18-19',
-      month: "Oct'18",
+      startDate: '18',
+      endDate: '19',
+      startMonth: "Oct'18",
       name: 'EyeforTravel North America 2018',
       location: 'Las Vegas, USA',
       imgSrc: eyeForTravelLogo,
     },
     {
-      date: '3',
-      month: "Oct'18",
+      startDate: '3',
+      startMonth: "Oct'18",
       name: 'The Hotel Distribution Event 2018',
       location: 'London, UK',
       imgSrc: HDE2018Logo,
     },
     {
-      date: '20',
-      month: "Sep'18",
+      startDate: '20',
+      startMonth: "Sep'18",
       name: 'Back To The Hospitality Future Summit',
       location: 'London, UK',
       imgSrc: mewsLogo,
     },
     {
-      date: '6-7',
-      month: "Sep'18",
+      startDate: '6',
+      endDate: '7',
+      startMonth: "Sep'18",
       name: 'Skolkovo Tourism 2018',
       location: 'Moscow, Russia',
       imgSrc: skLogo,
     },
     {
-      date: '24-26',
-      month: "Jul'18",
+      startDate: '24',
+      endDate: '26',
+      startMonth: "Jul'18",
       name: 'HTNG Asia-Pacific Conference',
       location: 'Macau, China',
       imgSrc: htngLogo,
     },
     {
-      date: '19-21',
-      month: "Jun'18",
+      startDate: '19',
+      endDate: '21',
+      startMonth: "Jun'18",
       name: 'IATA Aviation Data Symposium & AI Lab',
       location: 'Berlin, Germany',
       imgSrc: iataLogo,
     },
     {
-      date: '15-17',
-      month: "May'18",
+      startDate: '15',
+      endDate: '17',
+      startMonth: "May'18",
       name: 'Phocuswright Europe',
       location: 'Amsterdam, The Netherlands',
       imgSrc: phocusLogo,
@@ -129,8 +141,9 @@ const events: EventsType = {
   ],
   own: [
     {
-      date: '24-25',
-      month: "Oct'18",
+      startDate: '24',
+      endDate: '25',
+      startMonth: "Oct'18",
       name: 'HackTravel Prague',
       location: 'Prague, Czech Republic',
       imgSrc: hacktravel2018Logo,
@@ -140,8 +153,9 @@ const events: EventsType = {
 
     },
     {
-      date: '7-9',
-      month: "Jun'18",
+      startDate: '7',
+      endDate: '8',
+      startMonth: "Jun'18",
       name: 'TravelTechCon 2018',
       location: 'San Francisco, CA',
       imgSrc: ttc2018Logo,
