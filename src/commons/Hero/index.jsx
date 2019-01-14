@@ -1,7 +1,7 @@
 /* @flow */
 import React from 'react';
 import {
-  Container, Row, Col, Button,
+  Container, Row, Col, Button, Image,
 } from '@windingtree/wt-ui-react';
 import data from './data';
 
@@ -23,7 +23,7 @@ const Hero = (props: PropsType) => {
             { heroData.SecondaryButtonHref && heroData.SecondaryButtonLabel && <Button outlined href={heroData.SecondaryButtonHref} variant="light" className="mt-0 mt-lg-1" target="_blank">{heroData.SecondaryButtonLabel}</Button> }
           </Col>
           <Col lg={4} className="text-center">
-            <i className={`mdi mdi-xxl ${heroData.mdiIcon} text-white d-none d-lg-inline`} />
+            <Image fluid src={heroData.imgSrc} />
           </Col>
         </Row>
 

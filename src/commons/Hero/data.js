@@ -1,4 +1,10 @@
 /* @flow */
+import foundation from './img/foundation.svg';
+import lifTokenImg from './img/lif-token.svg';
+import sellersImg from './img/sellers.svg';
+import softwareVendorsImg from './img/software-vendors.svg';
+import startupsAndDevelopersImg from './img/startups-and-developers.svg';
+import suppliersImg from './img/suppliers.svg';
 
 type InfoType = {
   title: string,
@@ -7,7 +13,7 @@ type InfoType = {
   primaryButtonLabel?: string,
   SecondaryButtonHref?: string,
   SecondaryButtonLabel?: string,
-  mdiIcon: string
+  imgSrc: string
 };
 
 type DataType = {
@@ -28,7 +34,7 @@ const data: DataType = {
     primaryButtonLabel: 'Primary button',
     SecondaryButtonHref: '#',
     SecondaryButtonLabel: 'Secondary button',*/
-    mdiIcon: 'mdi-bitcoin',
+    imgSrc: foundation,
   },
   hackTravel: {
     title: 'Hack Travel',
@@ -37,7 +43,7 @@ const data: DataType = {
     primaryButtonLabel: 'Primary button',
     SecondaryButtonHref: '#',
     SecondaryButtonLabel: 'Secondary button',
-    mdiIcon: 'mdi-bitcoin',
+    imgSrc: 'mdi-bitcoin',
   },
   lifToken: {
     title: 'Lif Token',
@@ -46,7 +52,7 @@ const data: DataType = {
     primaryButtonLabel: 'Read docs',
     SecondaryButtonHref: 'https://www.youtube.com/watch?v=_qer1qd68eQ&feature=youtu.be',
     SecondaryButtonLabel: 'Watch Video',
-    mdiIcon: 'mdi-bitcoin',
+    imgSrc: lifTokenImg,
   },
   sellers: {
     title: 'An entry point to travel inventory',
@@ -55,7 +61,7 @@ const data: DataType = {
     primaryButtonLabel: 'Apply for integration',
     SecondaryButtonHref: 'https://www.youtube.com/watch?v=_qer1qd68eQ&feature=youtu.be',
     SecondaryButtonLabel: 'Watch Video',
-    mdiIcon: 'mdi-bitcoin',
+    imgSrc: sellersImg,
   },
   softwareVendors: {
     title: 'Deliver more value with your product',
@@ -64,7 +70,7 @@ const data: DataType = {
     primaryButtonLabel: 'Integrate',
     SecondaryButtonHref: 'https://www.youtube.com/watch?v=_qer1qd68eQ&feature=youtu.be',
     SecondaryButtonLabel: 'Watch Video',
-    mdiIcon: 'mdi-bitcoin',
+    imgSrc: softwareVendorsImg,
   },
   startupsAndDevelopers: {
     title: 'Make future of travel together',
@@ -73,7 +79,7 @@ const data: DataType = {
     primaryButtonLabel: 'Join community',
     /*SecondaryButtonHref: '#',
     SecondaryButtonLabel: 'Secondary button',*/
-    mdiIcon: 'mdi-bitcoin',
+    imgSrc: startupsAndDevelopersImg,
   },
   suppliers: {
     title: 'New profitable distribution channel',
@@ -82,7 +88,7 @@ const data: DataType = {
     primaryButtonLabel: 'Apply for integration',
     SecondaryButtonHref: 'https://www.youtube.com/watch?v=_qer1qd68eQ&feature=youtu.be',
     SecondaryButtonLabel: 'Watch Video',
-    mdiIcon: 'mdi-bitcoin',
+    imgSrc: suppliersImg,
   },
 };
 
