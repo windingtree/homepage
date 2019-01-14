@@ -32,6 +32,11 @@ const settings = plugins.then(p => (
         {
           test: /\.(gif|png|jpe?g|svg)$/i,
           loader: 'file-loader?emitFile=false',
+          options: {
+            name: '[name].[ext]',
+            outputPath: 'img/',
+            publicPath: 'img/'
+          }
         },
         {
           test: /\.(eot|woff|woff2|ttf)$/,
