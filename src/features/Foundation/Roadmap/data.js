@@ -31,8 +31,8 @@ const DONE: number = 2;
 
 const roadmapData: RoadmapDataType = [
   {
-    firstLine: '2017',
-    secondLine: 'Q1-Q4: Research and PoC',
+    firstLine: '2017 Q1-Q4',
+    secondLine: 'Research and PoC',
     isOpened: false,
     currentPeriod: false,
     groups: [
@@ -94,9 +94,9 @@ const roadmapData: RoadmapDataType = [
     ],
   },
   {
-    firstLine: '2018',
-    secondLine: 'Q1-Q2: Architecture & Core',
-    isOpened: true,
+    firstLine: '2018 Q1-Q2',
+    secondLine: 'Architecture & Core',
+    isOpened: false,
     currentPeriod: false,
     groups: [
       {
@@ -179,8 +179,8 @@ const roadmapData: RoadmapDataType = [
     ],
   },
   {
-    firstLine: '2018',
-    secondLine: 'Q3-Q4: APIs & Demo Apps',
+    firstLine: '2018 Q3-Q4',
+    secondLine: 'APIs & Demo Apps',
     isOpened: false,
     currentPeriod: false,
     groups: [
@@ -289,8 +289,8 @@ const roadmapData: RoadmapDataType = [
     ],
   },
   {
-    firstLine: '2019',
-    secondLine: 'Q1-Q4: Real inventory distribution',
+    firstLine: '2019 Q1-Q4',
+    secondLine: 'Real inventory distribution',
     isOpened: true,
     currentPeriod: true,
     groups: [

@@ -17,7 +17,7 @@ const Item = (props: ItemType) => {
     'mdi',
     {
       'mdi-circle-outline': STARTING === done,
-      'mdi-circle-slice-4': IN_PROGRESS === done,
+      'mdi-circle-edit-outline': IN_PROGRESS === done,
       'mdi-checkbox-marked-circle': DONE === done,
       'text-muted': muted,
       'roadmap-item': !muted,
