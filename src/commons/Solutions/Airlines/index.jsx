@@ -24,7 +24,7 @@ const Hospitality = () => (
           Apply for integration
         </Button>*/}
         <Button
-          href="https://docs.google.com/forms/d/e/1FAIpQLSevHx6goFLdbdI7TSX6JFugNlT56nlRD7I1XjqGc-06pIoemA/viewform"
+          href="#usecases"
           className="d-block d-sm-inline-block"
           variant="dark"
           outlined

@@ -8,17 +8,23 @@ import Partners from './Partners';
 import InThePress from './InThePress';
 import Features from './Features';
 import MainBanner from './MainBanner';
+import SuscribeForUpdates from 'commons/SuscribeForUpdates';
+import ReadyToUse from 'commons/ReadyToUse';
+import HowItWorks from 'commons/HowItWorks';
 
 const Home = () => (
   <main className="app-content">
     <MainBanner />
     <Features />
+    <HowItWorks />
     {/* <LifToken /> */}
     <Partners />
     <InThePress />
     <Banner variant="designedFor" icons />
     <VideoGallery />
     <Events />
+    <SuscribeForUpdates />
+    <ReadyToUse />
   </main>
 );
 

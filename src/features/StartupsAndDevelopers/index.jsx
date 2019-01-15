@@ -8,6 +8,8 @@ import PartnersAndContributors from 'commons/PartnersAndContributors';
 import Events from 'commons/Events';
 import Hero from 'commons/Hero';
 import BlockQuoteSection from './BlockQuoteSection';
+import SuscribeForUpdates from 'commons/SuscribeForUpdates';
+import ReadyToUse from 'commons/ReadyToUse';
 
 const StartupsAndDevelopers = () => (
   <>
@@ -44,6 +46,9 @@ const StartupsAndDevelopers = () => (
 
       <Contributors />
       <Events />
+      <SuscribeForUpdates />
+      <ReadyToUse />
+
     </section>
   </>
 

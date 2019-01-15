@@ -2,6 +2,8 @@ import React from 'react';
 import KeyBenefits from 'commons/KeyBenefits';
 import Hero from 'commons/Hero';
 import LifIco from './LifIco';
+import SuscribeForUpdates from 'commons/SuscribeForUpdates';
+import ReadyToUse from 'commons/ReadyToUse';
 import keyBenefitsDescriptions from './keyBenefits.json';
 
 const LifToken = () => (
@@ -25,6 +27,8 @@ const LifToken = () => (
       }
     </KeyBenefits>
     <LifIco />
+    <SuscribeForUpdates />
+    <ReadyToUse />
   </>
 );
 

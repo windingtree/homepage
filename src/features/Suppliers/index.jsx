@@ -3,12 +3,14 @@ import React from 'react';
 import KeyBenefits from 'commons/KeyBenefits';
 import HowItWorks from 'commons/HowItWorks';
 import Hero from 'commons/Hero';
+import SuscribeForUpdates from 'commons/SuscribeForUpdates';
+import ReadyToUse from 'commons/ReadyToUse';
 
-import Solutions from './Solutions';
+import Solutions from 'commons/Solutions';
 import keyBenefitsDescriptions from './keyBenefits.json';
 
 const Suppliers = () => (
-  <>
+  <div className="app-content">
     <Hero variant="suppliers" />
     <KeyBenefits>
       {keyBenefitsDescriptions.keyBenefits.map(benefit => (
@@ -20,8 +22,11 @@ const Suppliers = () => (
         />))}
     </KeyBenefits>
     <HowItWorks />
-    <Solutions />
-  </>
+    <Solutions variant="suppliers"/>
+    <SuscribeForUpdates />
+    <ReadyToUse />
+
+  </div>
 );
 
 export default Suppliers;
