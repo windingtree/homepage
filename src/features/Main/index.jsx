@@ -56,8 +56,6 @@ const Main = ({ children }: PropsType) => (
   <div>
     <WTNavbar />
     {children}
-    <SuscribeForUpdates />
-    <ReadyToUse />
     <Footer>
       <Footer.Solutions />
       <Footer.LifToken />
