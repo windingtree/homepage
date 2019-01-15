@@ -1,10 +1,10 @@
 /* @flow */
-import foundation from './img/foundation.svg';
-import lifTokenImg from './img/lif-token.svg';
-import sellersImg from './img/sellers.svg';
-import softwareVendorsImg from './img/software-vendors.svg';
-import startupsAndDevelopersImg from './img/startups-and-developers.svg';
-import suppliersImg from './img/suppliers.svg';
+import foundation from './img/foundation-hero.svg';
+import lifTokenImg from './img/lif-token-hero.svg';
+import sellersImg from './img/sellers-hero.svg';
+import softwareVendorsImg from './img/software-vendors-hero.svg';
+import startupsAndDevelopersImg from './img/startups-and-developers-hero.svg';
+import suppliersImg from './img/suppliers-hero.svg';
 
 type InfoType = {
   title: string,
@@ -30,10 +30,6 @@ const data: DataType = {
   foundation: {
     title: 'Winding Tree Foundation',
     text: 'A non-profit organization',
-    /*primaryButtonHref: '#',
-    primaryButtonLabel: 'Primary button',
-    SecondaryButtonHref: '#',
-    SecondaryButtonLabel: 'Secondary button',*/
     imgSrc: foundation,
   },
   hackTravel: {
@@ -77,8 +73,6 @@ const data: DataType = {
     text: 'Developers, startups, evangelists and geeks are welcome!',
     primaryButtonHref: '#',
     primaryButtonLabel: 'Join community',
-    /*SecondaryButtonHref: '#',
-    SecondaryButtonLabel: 'Secondary button',*/
     imgSrc: startupsAndDevelopersImg,
   },
   suppliers: {

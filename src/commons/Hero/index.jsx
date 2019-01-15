@@ -20,7 +20,7 @@ const Hero = (props: PropsType) => {
             <h1 className="h2 text-white">{heroData.title}</h1>
             <p className="lead text-white text-sm-lg">{heroData.text}</p>
             { heroData.primaryButtonHref && heroData.primaryButtonLabel && <Button href={heroData.primaryButtonHref} variant="primary" className="mt-0 mt-lg-1 mr-lg-1 mr-lg-1" target="_blank">{heroData.primaryButtonLabel}</Button> }
-            <div className="pb-1 d-md-none"></div>
+            <div className="pb-1 d-md-none" />
             { heroData.SecondaryButtonHref && heroData.SecondaryButtonLabel && <Button outlined href={heroData.SecondaryButtonHref} variant="light" className="mt-0 mt-lg-1" target="_blank">{heroData.SecondaryButtonLabel}</Button> }
           </Col>
           <Col lg={4} className="text-center d-none d-lg-inline">
