@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "main": "src/App/index.jsx",
   "scripts": {
-    "start": "serve --single ./public",
+    "start": "NODE_ENV=production node ./server.js",
     "dev": "NODE_ENV=development webpack-dev-server --host 0.0.0.0 --disable-host-check --config ./webpack/webpack.config.js",
     "build": "NODE_ENV=production webpack --config ./webpack/webpack.config.prod.js",
     "flow": "flow",
@@ -24,13 +24,17 @@
     "@babel/polyfill": "^7.0.0",
     "@windingtree/wt-ui": "^1.5.1",
     "@windingtree/wt-ui-react": "^0.10.3",
+    "classnames": "^2.2.6",
+    "express": "^4.16.4",
+    "memory-fs": "^0.4.1",
     "react": "^16.6.3",
     "react-collapse": "^4.0.3",
     "react-dom": "^16.6.3",
     "react-hot-loader": "^4.3.12",
     "react-router-dom": "^4.3.1",
     "react-youtube": "^7.8.0",
-    "serve": "^10.1.1"
+    "require-from-string": "^2.0.2",
+    "webpack": "^4.26.0"
   },
   "devDependencies": {
     "@babel/core": "^7.1.6",
@@ -70,10 +74,10 @@
     "stylelint-config-sass-guidelines": "^5.2.0",
     "uglifyjs-webpack-plugin": "^2.0.1",
     "url-loader": "^1.1.2",
-    "webpack": "^4.26.0",
     "webpack-bundle-analyzer": "^3.0.3",
     "webpack-cli": "^3.1.2",
-    "webpack-dev-server": "^3.1.14"
+    "webpack-dev-server": "^3.1.14",
+    "webpack-node-externals": "^1.7.2"
   },
   "config": {
     "commitizen": {

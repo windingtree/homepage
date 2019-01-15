@@ -5,6 +5,7 @@ import Hero from 'commons/Hero';
 import SuscribeForUpdates from 'commons/SuscribeForUpdates';
 import ReadyToUse from 'commons/ReadyToUse';
 import Team from './Team';
+import Roadmap from './Roadmap';
 import { members, advisors } from './data';
 
 const Foundation = () => (
@@ -13,6 +14,7 @@ const Foundation = () => (
     <Banner variant="consultancy" />
     <Team title="Team" members={members} />
     <Team title="Advisors" members={advisors} />
+    <Roadmap />
     <SuscribeForUpdates />
     <ReadyToUse />
   </main>

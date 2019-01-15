@@ -13,9 +13,9 @@ const MainBanner = () => (
         <header className="mb-3 mb-lg-5 pb-0 pb-lg-5 text-center">
           <Row className="justify-content-md-center">
             <Col md={9}>
-              <h2 className="mb-1 text-white">
+              <h1 className="h2 mb-1 text-white">
               Winding Tree
-              </h2>
+              </h1>
             </Col>
             <Col md={6}>
               <p className="mb-2 lead text-white">
