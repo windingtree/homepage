@@ -8,8 +8,6 @@ const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const Dotenv = require('dotenv-webpack');
 
-const public = 'public';
-
 const commons = [
     new webpack.NamedModulesPlugin(),
     new Dotenv({
