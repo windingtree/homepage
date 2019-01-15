@@ -7,7 +7,7 @@ import CardDeck from '@windingtree/wt-ui-react/lib/components/CardDeck';
 import Card from 'commons/Card';
 import cardsData from './data';
 
-const About = ()=> (
+const About = () => (
   <div className="my-3 my-md-5" id="about">
     <Container>
       <Row className="justify-content-center">
