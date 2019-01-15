@@ -10,7 +10,7 @@ import Tours from './Tours';
 import OTA from './OTA';
 
 const Solutions = (props: PropsType) => {
-  const {variant} = props;
+  const { variant } = props;
   return (
     <section className="app-section">
       <Container>
@@ -23,9 +23,20 @@ const Solutions = (props: PropsType) => {
         </header>
         <Row className="justify-content-md-center">
           <Col md={10} className="text-center mb-1">
-            {(variant==='suppliers') ? (<div> <Hospitality /> <Airlines /> <Tours /> </div>) : (<div><OTA /> </div>)}
+            {(variant === 'suppliers')
+              ? (
+                <div>
+                  <Hospitality />
+                  <Airlines />
+                  <Tours />
+                </div>)
+              : (
+                <div>
+                  <OTA />
+                </div>)}
             <hr className="my-md-4" />
-            <PartnersAndContributors tab={1} id="partners-tabs"/>
+            <h2 id="usecases" className="mb-1">Use Cases</h2>
+            <PartnersAndContributors tab={1} id="partners-tabs" />
             <Container>
               <Row>
                 <Col sm={12}>
