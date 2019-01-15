@@ -10,7 +10,8 @@ export type DataType = {
 
 export type BannerDataType = {
   designedFor: DataType,
-  consultancy: DataType
+  consultancy: DataType,
+  howWeWork: DataType
 };
 
 const bannersData: BannerDataType = {
@@ -27,6 +28,13 @@ const bannersData: BannerDataType = {
     text: 'One of the sources of income for the Winding Tree foundation is consulting services and development of proprietary software products for travel companies, with the focus on projects built top of Winding Tree platform.',
     buttonLabel: 'Inquire about our services',
     href: 'https://docs.google.com/forms/d/e/1FAIpQLSevHx6goFLdbdI7TSX6JFugNlT56nlRD7I1XjqGc-06pIoemA/viewform',
+  },
+  howWeWork: {
+    title: 'How We Work',
+    mdiIcon: 'mdi-github-circle',
+    text: 'Winding Tree is an open source and non-profit project. We follow the idea that only open collaborations not for money but for innovations can make real fundamental changes in the world. We welcome open-source developers to our community on github where our source code is open for contribution and forking.',
+    buttonLabel: 'Our Github',
+    href: 'https://github.com/windingtree/',
   },
 };
 
