@@ -13,6 +13,7 @@ type InfoType = {
   primaryButtonLabel?: string,
   SecondaryButtonHref?: string,
   SecondaryButtonLabel?: string,
+  videoSrc?: string,
   imgSrc: string
 };
 
@@ -30,10 +31,6 @@ const data: DataType = {
   foundation: {
     title: 'Winding Tree Foundation',
     text: 'A non-profit organization',
-    /*primaryButtonHref: '#',
-    primaryButtonLabel: 'Primary button',
-    SecondaryButtonHref: '#',
-    SecondaryButtonLabel: 'Secondary button',*/
     imgSrc: foundation,
   },
   hackTravel: {
@@ -50,35 +47,33 @@ const data: DataType = {
     text: 'The Líf token facilitates transactions on the Winding Tree platform.',
     primaryButtonHref: 'https://github.com/windingtree/lif-token',
     primaryButtonLabel: 'Read docs',
-    SecondaryButtonHref: 'https://www.youtube.com/watch?v=_qer1qd68eQ&feature=youtu.be',
     SecondaryButtonLabel: 'Watch Video',
     imgSrc: lifTokenImg,
+    videoSrc: '_qer1qd68eQ',
   },
   sellers: {
     title: 'An entry point to travel inventory',
     text: 'An open-source technology that gives sellers a commission-free access to thousands of hotels, airlines, cruises and other travel services worldwide.',
     primaryButtonHref: 'https://docs.google.com/forms/d/e/1FAIpQLSevHx6goFLdbdI7TSX6JFugNlT56nlRD7I1XjqGc-06pIoemA/viewform',
     primaryButtonLabel: 'Apply for integration',
-    SecondaryButtonHref: 'https://www.youtube.com/watch?v=_qer1qd68eQ&feature=youtu.be',
     SecondaryButtonLabel: 'Watch Video',
     imgSrc: sellersImg,
+    videoSrc: '_qer1qd68eQ',
   },
   softwareVendors: {
     title: 'Deliver more value with your product',
     text: 'Make your product utilize Winding Tree Platform features and increase its value for users',
     primaryButtonHref: 'https://docs.google.com/forms/d/e/1FAIpQLSevHx6goFLdbdI7TSX6JFugNlT56nlRD7I1XjqGc-06pIoemA/viewform',
     primaryButtonLabel: 'Integrate',
-    SecondaryButtonHref: 'https://www.youtube.com/watch?v=_qer1qd68eQ&feature=youtu.be',
     SecondaryButtonLabel: 'Watch Video',
     imgSrc: softwareVendorsImg,
+    videoSrc: '_qer1qd68eQ',
   },
   startupsAndDevelopers: {
     title: 'Make future of travel together',
     text: 'Developers, startups, evangelists and geeks are welcome!',
     primaryButtonHref: '#',
     primaryButtonLabel: 'Join community',
-    /*SecondaryButtonHref: '#',
-    SecondaryButtonLabel: 'Secondary button',*/
     imgSrc: startupsAndDevelopersImg,
   },
   suppliers: {
@@ -86,9 +81,10 @@ const data: DataType = {
     text: 'Deliver your inventory to sellers with new open-source and commision-free channel',
     primaryButtonHref: 'https://docs.google.com/forms/d/e/1FAIpQLSevHx6goFLdbdI7TSX6JFugNlT56nlRD7I1XjqGc-06pIoemA/viewform',
     primaryButtonLabel: 'Apply for integration',
-    SecondaryButtonHref: 'https://www.youtube.com/watch?v=_qer1qd68eQ&feature=youtu.be',
     SecondaryButtonLabel: 'Watch Video',
     imgSrc: suppliersImg,
+    videoSrc: '_qer1qd68eQ',
+
   },
 };
 
