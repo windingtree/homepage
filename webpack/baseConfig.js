@@ -14,6 +14,7 @@ const commons = {
       output: {
         filename: 'js/client.js',
         path: path.resolve(__dirname, '..', 'public'),
+        publicPath: '/'
       },
       resolve: {
         modules: [appSrc, 'node_modules'],
