@@ -1,3 +1,25 @@
 i.roadmap-item {
   color: #7c3fa9;
 }
+
+.roadmap__toggle::after, .roadmap-dots::after {
+                content: '';
+                display: block;
+                height: 40px;
+                position: absolute;
+                left: 50%;
+                margin-left: -1px;
+                border-left: 4px dotted #18e9a6;
+            }
+
+.roadmap__body__content, .roadmap__body__item {
+    padding-top: 50px;
+}
+
+
+.roadmap__button {
+    font-size: 11px !important;
+    padding: 2px 10px !important;
+    font-weight: 400 !important;
+    text-transform: lowercase !important;
+}

@@ -19,7 +19,7 @@ const Group = (props: GroupType) => {
   const ulClassName = classNames(
     'list-unstyled',
     {
-      'pl-5': main,
+      'pl-lg-5': main,
     },
   );
   return (

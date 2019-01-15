@@ -7,7 +7,7 @@ import {
   Row, Col,
 } from '@windingtree/wt-ui-react';
 import Collapse from 'react-collapse';
-import className from 'classnames';
+import classNames from 'classnames';
 import Group from './Group';
 
 
@@ -32,7 +32,7 @@ class Period extends React.Component<PeriodType, StateType> {
       firstLine, secondLine, groups, currentPeriod,
     } = this.props;
     const { isOpened } = this.state;
-    const buttonClassName = className(
+    const buttonClassName = classNames(
       'mdi',
       'mdi-36px',
       {
@@ -41,22 +41,28 @@ class Period extends React.Component<PeriodType, StateType> {
       },
     );
 
+    const dotsClassName = classNames(
+       'border-top-0',
+       {'roadmap__body__item':isOpened},  
+       {'roadmap-dots': isOpened}
+    );
+
     return (
-      <>
+      <div>
         <header>
           <Row>
-            <Col className="col-12 text-center">
+            <Col className="col-12 text-center roadmap__body__content ">
               <h2>{firstLine}</h2>
               <div className="lead">{secondLine}</div>
-              <div>
-                <a className="text-primary" type="button" onClick={this.handleCollapseClick}>
+              <div className="roadmap__toggle">
+                <a className="text-primary" role="button" onClick={this.handleCollapseClick}>
                   <i className={buttonClassName} />
                 </a>
               </div>
             </Col>
           </Row>
         </header>
-        <Collapse isOpened={isOpened}>
+        <Collapse isOpened={isOpened} className={dotsClassName} >
           <Row>
             {groups.map(group => (
               <Col lg={group.main ? 6 : 3} key={`${firstLine}-${group.title}`}>
@@ -65,7 +71,7 @@ class Period extends React.Component<PeriodType, StateType> {
             ))}
           </Row>
         </Collapse>
-      </>
+      </div>
     );
   }
 }
