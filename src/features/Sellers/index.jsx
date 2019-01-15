@@ -8,7 +8,7 @@ import keyBenefitsDescriptions from './keyBenefits.json';
 import Solutions from 'commons/Solutions';
 
 const Sellers = () => (
-  <div className="app-content">
+  <div id="app-content">
     <Hero variant="sellers" />
     <KeyBenefits>
       {

@@ -10,7 +10,7 @@ import Solutions from 'commons/Solutions';
 import keyBenefitsDescriptions from './keyBenefits.json';
 
 const Suppliers = () => (
-  <div className="app-content">
+  <div id="app-content">
     <Hero variant="suppliers" />
     <KeyBenefits>
       {keyBenefitsDescriptions.keyBenefits.map(benefit => (

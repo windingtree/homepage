@@ -13,7 +13,7 @@ import ReadyToUse from 'commons/ReadyToUse';
 import HowItWorks from 'commons/HowItWorks';
 
 const Home = () => (
-  <main className="app-content">
+  <main id="app-content">
     <MainBanner />
     <Features />
     <HowItWorks />

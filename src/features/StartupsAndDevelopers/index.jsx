@@ -12,7 +12,7 @@ import SuscribeForUpdates from 'commons/SuscribeForUpdates';
 import ReadyToUse from 'commons/ReadyToUse';
 
 const StartupsAndDevelopers = () => (
-  <>
+  <div id="app-content">
     <Hero variant="startupsAndDevelopers" />
     <section className="app-section section-already-with-us-quote">
       <Container>
@@ -50,7 +50,7 @@ const StartupsAndDevelopers = () => (
       <ReadyToUse />
 
     </section>
-  </>
+  </div>
 
 );
 

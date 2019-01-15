@@ -8,7 +8,7 @@ import Team from './Team';
 import { members, advisors } from './data';
 
 const Foundation = () => (
-  <main className="app-content">
+  <main id="app-content">
     <Hero variant="foundation" />
     <Banner variant="consultancy" />
     <Team title="Team" members={members} />

@@ -7,7 +7,7 @@ import ReadyToUse from 'commons/ReadyToUse';
 import keyBenefitsDescriptions from './keyBenefits.json';
 
 const LifToken = () => (
-  <>
+  <div id="app-content">
     <Hero variant="lifToken" />
     <KeyBenefits noHeader>
       <KeyBenefits.Lead>
@@ -29,7 +29,7 @@ const LifToken = () => (
     <LifIco />
     <SuscribeForUpdates />
     <ReadyToUse />
-  </>
+  </div>
 );
 
 export default LifToken;

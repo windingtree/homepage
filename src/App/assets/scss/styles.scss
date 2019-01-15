@@ -25,6 +25,14 @@ body {
   font-weight: inherit;
 }
 
+.user-bio .ReactCollapse--collapse {
+  padding: 0; 
+}
+
+.text-link:focus {
+  outline: none;
+}
+
 // Navbar transition - - - - - - - - - -
 // Navbar must have the "navbar-dark" class by default and
 // turn to "navbar-light" after scrolling.
