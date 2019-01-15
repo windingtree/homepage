@@ -8,9 +8,11 @@ import PartnersAndContributors from 'commons/PartnersAndContributors';
 import Events from 'commons/Events';
 import Hero from 'commons/Hero';
 import BlockQuoteSection from './BlockQuoteSection';
+import SuscribeForUpdates from 'commons/SuscribeForUpdates';
+import ReadyToUse from 'commons/ReadyToUse';
 
 const StartupsAndDevelopers = () => (
-  <>
+  <div id="app-content">
     <Hero variant="startupsAndDevelopers" />
     <section className="app-section section-already-with-us-quote">
       <Container>
@@ -44,8 +46,11 @@ const StartupsAndDevelopers = () => (
 
       <Contributors />
       <Events />
+      <SuscribeForUpdates />
+      <ReadyToUse />
+
     </section>
-  </>
+  </div>
 
 );
 

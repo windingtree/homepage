@@ -34,8 +34,7 @@ const settings = plugins.then(p => (
           loader: 'file-loader?emitFile=false',
           options: {
             name: '[name].[ext]',
-            outputPath: 'img/',
-            publicPath: 'img/'
+            outputPath: 'img/'
           }
         },
         {

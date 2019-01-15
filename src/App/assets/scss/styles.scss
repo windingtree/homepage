@@ -5,6 +5,7 @@ body {
   background-repeat: repeat-y, repeat-y;
 }
 
+#app-content {padding: 0;}
 
 // TABS
 .nav-tabs {
@@ -16,10 +17,21 @@ body {
   }
 }
 
+.section-how-it-works {
+  border: none;
+}
 
 // NAVBAR
 .navbar .navbar-nav .nav-item {
   font-weight: inherit;
+}
+
+.user-bio .ReactCollapse--collapse {
+  padding: 0; 
+}
+
+.text-link:focus {
+  outline: none;
 }
 
 // Navbar transition - - - - - - - - - -
