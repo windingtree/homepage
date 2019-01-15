@@ -4,6 +4,7 @@ import {
   Container, Row, Col, Button, Image,
 } from '@windingtree/wt-ui-react';
 import data from './data';
+// import './styles.scss';
 
 type PropsType = {
   variant: 'foundation' | 'hackTravel' | 'lifToken' | 'sellers' | 'softwareVendors' | 'startupsAndDevelopers' | 'suppliers'
@@ -13,7 +14,7 @@ const Hero = (props: PropsType) => {
   const { variant } = props;
   const heroData = data[variant];
   return (
-    <article className="app-section bg-grad">
+    <article className="bg-grad-down py-3">
       <Container>
         <Row className="align-items-center" flex>
           <Col lg={8} className="mb-1 mb-md-0 text-center text-lg-left">

@@ -5,6 +5,7 @@ import sellersImg from './img/sellers-hero.svg';
 import softwareVendorsImg from './img/software-vendors-hero.svg';
 import startupsAndDevelopersImg from './img/startups-and-developers-hero.svg';
 import suppliersImg from './img/suppliers-hero.svg';
+import './img/bg.png';
 
 type InfoType = {
   title: string,
