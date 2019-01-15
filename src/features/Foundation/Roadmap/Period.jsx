@@ -49,14 +49,14 @@ class Period extends React.Component<PeriodType, StateType> {
               <h2>{firstLine}</h2>
               <div className="lead">{secondLine}</div>
               <div>
-                <a className="text-primary" type="button" onClick={this.handleCollapseClick}>
+                <a className="text-primary" role="button" onClick={this.handleCollapseClick}>
                   <i className={buttonClassName} />
                 </a>
               </div>
             </Col>
           </Row>
         </header>
-        <Collapse isOpened={isOpened}>
+        <Collapse isOpened={isOpened} className="border-top-0">
           <Row>
             {groups.map(group => (
               <Col lg={group.main ? 6 : 3} key={`${firstLine}-${group.title}`}>
