@@ -3,6 +3,7 @@ import React from 'react';
 import Banner from 'commons/Banner';
 import Hero from 'commons/Hero';
 import Team from './Team';
+import Roadmap from './Roadmap';
 import { members, advisors } from './data';
 
 const Foundation = () => (
@@ -11,6 +12,7 @@ const Foundation = () => (
     <Banner variant="consultancy" />
     <Team title="Team" members={members} />
     <Team title="Advisors" members={advisors} />
+    <Roadmap />
   </main>
 );
 
