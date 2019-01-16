@@ -32,7 +32,7 @@ class Hero extends React.Component<PropsType, StateType> {
     const { showModal } = this.state;
     const heroData = data[variant];
     return (
-      <article className="app-section bg-grad">
+      <article className="app-section bg-grad py-3">
         <VideoModal
           show={showModal}
           videoSrc={heroData.videoSrc}

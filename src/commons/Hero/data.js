@@ -1,10 +1,11 @@
 /* @flow */
-import foundation from './img/foundation.svg';
-import lifTokenImg from './img/lif-token.svg';
-import sellersImg from './img/sellers.svg';
-import softwareVendorsImg from './img/software-vendors.svg';
-import startupsAndDevelopersImg from './img/startups-and-developers.svg';
-import suppliersImg from './img/suppliers.svg';
+import foundation from './img/foundation-hero.svg';
+import lifTokenImg from './img/lif-token-hero.svg';
+import sellersImg from './img/sellers-hero.svg';
+import softwareVendorsImg from './img/software-vendors-hero.svg';
+import startupsAndDevelopersImg from './img/startups-and-developers-hero.svg';
+import suppliersImg from './img/suppliers-hero.svg';
+import './img/bg.png';
 
 type InfoType = {
   title: string,
