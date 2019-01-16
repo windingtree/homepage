@@ -22,7 +22,7 @@ const Quotes = () => (
             <blockquote className="blockquote blockquote-alt">
               <p className="blockquote-body">
                 {quote.text}
-                <a href={quote.href}>
+                <a href={quote.href} target="_blank" rel="noopener noreferrer">
                   Read full article
                 </a>
               </p>
