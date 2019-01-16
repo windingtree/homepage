@@ -11,7 +11,6 @@ type PropsType = {
 
 const PartnersAndContributors = ({ tab }: PropsType) => (
   <Tab.Container id="partners tabs" defaultActiveKey={partners[tab].name}>
-    <h2 id="usecases">Use Cases</h2>
     <Nav className="nav-pointers col-lg-12" variant="tabs">
       {partners.map(partner => (
         <Nav.Item as={Col} className="col-4 col-md-4 col-lg-2" key={`item-${partner.name}`}>

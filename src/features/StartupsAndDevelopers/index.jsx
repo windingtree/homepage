@@ -7,13 +7,16 @@ import Contributors from 'commons/Contributors';
 import PartnersAndContributors from 'commons/PartnersAndContributors';
 import Events from 'commons/Events';
 import Hero from 'commons/Hero';
-import BlockQuoteSection from './BlockQuoteSection';
+import Banner from 'commons/Banner';
 import SuscribeForUpdates from 'commons/SuscribeForUpdates';
 import ReadyToUse from 'commons/ReadyToUse';
+import VideoGallery from 'commons/VideoGallery';
+import BuildByCommunity from './BuildByCommunity';
+import BlockQuoteSection from './BlockQuoteSection';
 
 const StartupsAndDevelopers = () => (
   <div id="app-content">
-    <Hero variant="startupsAndDevelopers" />
+    <Hero variant="startupsAndDevelopers" icons />
     <section className="app-section section-already-with-us-quote">
       <Container>
         <Row className="justify-content-md-center">
@@ -23,6 +26,8 @@ const StartupsAndDevelopers = () => (
         </Row>
       </Container>
     </section>
+
+    <Banner variant="howWeWork" />
 
     <hr className="divider m-0" />
 
@@ -45,11 +50,14 @@ const StartupsAndDevelopers = () => (
       </header>
 
       <Contributors />
-      <Events />
-      <SuscribeForUpdates />
-      <ReadyToUse />
+      <BuildByCommunity />
 
+
+      <Events />
+      <VideoGallery />
     </section>
+    <SuscribeForUpdates />
+    <ReadyToUse />
   </div>
 
 );

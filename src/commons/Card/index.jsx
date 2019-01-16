@@ -6,14 +6,14 @@ import { Card, Image, Button } from '@windingtree/wt-ui-react';
 
 type PropType = {
   imgSrc: string,
-  imgWidth: number,
+  imgWidth?: number,
   title: string,
-  text: string,
-  linkText: string,
+  text?: string,
+  linkText?: string,
   href: string,
   main?: boolean,
-  shortText: string,
-  buttonLabel: string
+  shortText?: string,
+  buttonLabel?: string
 };
 
 const WTCard = (props: PropType) => {
@@ -27,8 +27,9 @@ const WTCard = (props: PropType) => {
       </Card.Header>
       <Card.Body>
         <Card.Title as="h5">{title}</Card.Title>
-        <Card.Text className="text-center">{main ? shortText : text}</Card.Text>
+        {(shortText || text) && (<Card.Text className="text-center">{main ? shortText : text}</Card.Text>)}
       </Card.Body>
+      {(buttonLabel && linkText) && (
       <Card.Footer>
         <LinkContainer to={href}>
           {main
@@ -37,6 +38,7 @@ const WTCard = (props: PropType) => {
             }
         </LinkContainer>
       </Card.Footer>
+      )}
     </Card>
   );
 };

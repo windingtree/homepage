@@ -9,7 +9,7 @@ const Mentions = () => (
     {mentions.map((mention, idx) => (
       // eslint-disable-next-line react/no-array-index-key
       <li key={idx} className="logo-gallery-item">
-        <a href={mention.href}>
+        <a href={mention.href} target="_blank" rel="noopener noreferrer">
           <img src={mention.imgSrc} alt="" />
         </a>
       </li>
