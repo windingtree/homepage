@@ -11,6 +11,7 @@ import Banner from 'commons/Banner';
 import SuscribeForUpdates from 'commons/SuscribeForUpdates';
 import ReadyToUse from 'commons/ReadyToUse';
 import VideoGallery from 'commons/VideoGallery';
+import BuildByCommunity from './BuildByCommunity';
 import BlockQuoteSection from './BlockQuoteSection';
 
 const StartupsAndDevelopers = () => (
@@ -49,6 +50,9 @@ const StartupsAndDevelopers = () => (
       </header>
 
       <Contributors />
+      <BuildByCommunity/>
+
+
       <Events />
       <VideoGallery />
       <SuscribeForUpdates />
