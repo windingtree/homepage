@@ -1,6 +1,7 @@
 // @flow
 import React from 'react';
 import { Card } from '@windingtree/wt-ui-react';
+import { LinkContainer } from 'react-router-bootstrap';
 import VideoModal from './VideoModal';
 import './styles.scss';
 
@@ -44,7 +45,9 @@ class Category extends React.Component<PropsType, StateType> {
 
           <Card.Body>
             <Card.Title><span className="text-lg">{title}</span></Card.Title>
-            <Card.Link href={href} className="text-link d-inline-block" target="_blank">{text}</Card.Link>
+            <LinkContainer to={href}>
+              <Card.Link className="text-link d-inline-block" target="_blank">{text}</Card.Link>
+            </LinkContainer>
           </Card.Body>
         </Card>
       </>

@@ -1,5 +1,6 @@
 /* @flow */
 import React from 'react';
+import { LinkContainer } from 'react-router-bootstrap';
 import {
   Container, Row, Col, Button,
 } from '@windingtree/wt-ui-react';
@@ -27,7 +28,9 @@ const Banner = (props: PropsType) => {
           </Col>
           <Col lg={4} className="text-center">
             <i className={`mdi mdi-xxl ${bannerData.mdiIcon} text-white d-none d-lg-inline`} />
-            <Button outlined href={bannerData.href} variant="light" className="mt-0 mt-lg-1">{bannerData.buttonLabel}</Button>
+            <LinkContainer to={bannerData.href}>
+              <Button outlined variant="light" className="mt-0 mt-lg-1">{bannerData.buttonLabel}</Button>
+            </LinkContainer>
           </Col>
         </Row>
 

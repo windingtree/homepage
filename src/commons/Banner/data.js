@@ -19,7 +19,7 @@ const bannersData: BannerDataType = {
     mdiIcon: 'mdi-github-circle',
     text: 'Winding Tree is a non-profit foundation that drives the development of open-source protocols to allow any company, big or small, or even an individual developer, to try them out and integrate with the platform in no time.',
     buttonLabel: 'Community',
-    href: '#startups-and-developers',
+    href: 'startups-and-developers',
   },
   consultancy: {
     title: 'Consultancy',
