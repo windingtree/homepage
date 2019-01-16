@@ -51,10 +51,9 @@ const StartupsAndDevelopers = () => (
       <Contributors />
       <Events />
       <VideoGallery />
-      <SuscribeForUpdates />
-      <ReadyToUse />
-
     </section>
+    <SuscribeForUpdates />
+    <ReadyToUse />
   </div>
 
 );

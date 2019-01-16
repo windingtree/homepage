@@ -4,7 +4,6 @@ import {
   Container, Row, Col, Button, Image,
 } from '@windingtree/wt-ui-react';
 import data from './data';
-// import './styles.scss';
 
 type PropsType = {
   variant: 'foundation' | 'hackTravel' | 'lifToken' | 'sellers' | 'softwareVendors' | 'startupsAndDevelopers' | 'suppliers'
