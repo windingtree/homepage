@@ -12,7 +12,7 @@ type StateType = {
   showModal: boolean
 };
 
-class HowItWorks extends React.Component<PropsType, StateType> {
+class HowItWorks extends React.Component<*, StateType> {
   state = { showModal: false };
 
   hanldeOnClick = (e: SyntheticMouseEvent<*>) => {

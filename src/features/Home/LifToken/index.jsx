@@ -1,5 +1,6 @@
 // @flow
 import React from 'react';
+import { LinkContainer } from 'react-router-bootstrap';
 import {
   Button, Container, Row, Col,
 } from '@windingtree/wt-ui-react';
@@ -18,9 +19,11 @@ const LifToken = () => (
           </p>
         </Col>
       </Row>
-      <Button href="#lif-token" variant="primary">
+      <LinkContainer to="lif-token">
+        <Button variant="primary">
         Learn about Líf
-      </Button>
+        </Button>
+      </LinkContainer>
     </Container>
   </article>
 );

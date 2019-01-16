@@ -2,6 +2,7 @@
 import React from 'react';
 import { Button } from '@windingtree/wt-ui-react';
 import classNames from 'classnames';
+import { LinkContainer } from 'react-router-bootstrap';
 import type { ItemType } from './data';
 import {
   STARTING, IN_PROGRESS, DONE,
@@ -32,8 +33,13 @@ const Item = (props: ItemType) => {
   return (
     <div className="pb-1">
       <i className={iconClassName} />
-      <span className='pl-1 {spanClassName}' title="">{text}</span><br />
-      {buttonLabel && href && <Button href={href} variant={buttonVariant} outlined={!isMainButton} className="ml-2 roadmap__button" target="_blank">{buttonLabel}</Button>}
+      <span className="pl-1 {spanClassName}" title="">{text}</span>
+      <br />
+      {buttonLabel && href && (
+        <LinkContainer to={href}>
+          <Button variant={buttonVariant} outlined={!isMainButton} className="ml-2 roadmap__button" target="_blank">{buttonLabel}</Button>
+        </LinkContainer>
+      ) }
     </div>
   );
 };

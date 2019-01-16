@@ -1,5 +1,6 @@
 /* @flow */
 import React from 'react';
+import { LinkContainer } from 'react-router-bootstrap';
 import {
   Col, Row, Image, Button,
 } from '@windingtree/wt-ui-react';
@@ -31,7 +32,9 @@ const Event = (props: EventType) => {
           <Image src={imgSrc} fluid />
           { text && (<p className="my-1 text-left">{text}</p>) }
           { buttonHref && buttonText && (
-            <Button href={buttonHref} variant="dark" outlined block>{buttonText}</Button>
+            <LinkContainer to={buttonHref}>
+              <Button variant="dark" outlined block>{buttonText}</Button>
+            </LinkContainer>
           ) }
         </Col>
       </Row>
