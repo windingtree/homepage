@@ -4,8 +4,8 @@ import KeyBenefits from 'commons/KeyBenefits';
 import Hero from 'commons/Hero';
 import SuscribeForUpdates from 'commons/SuscribeForUpdates';
 import ReadyToUse from 'commons/ReadyToUse';
-import keyBenefitsDescriptions from './keyBenefits.json';
 import Solutions from 'commons/Solutions';
+import keyBenefitsDescriptions from './keyBenefits.json';
 
 const Sellers = () => (
   <div id="app-content">
