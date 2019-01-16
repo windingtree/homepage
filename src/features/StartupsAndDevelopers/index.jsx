@@ -50,7 +50,7 @@ const StartupsAndDevelopers = () => (
       </header>
 
       <Contributors />
-      <BuildByCommunity/>
+      <BuildByCommunity />
 
 
       <Events />

@@ -7,7 +7,7 @@ import { roadmapData } from './data';
 import Period from './Period';
 
 const Roadmap = () => (
-  <article className="app-section section-features pt-1 pt-lg-0">
+  <article className="app-section section-features pt-1">
     <Container>
       <header>
         <Row className="justify-content-md-center">
