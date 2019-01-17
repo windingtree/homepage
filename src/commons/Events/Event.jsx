@@ -31,11 +31,12 @@ const Event = (props: EventType) => {
         <Col sm={5} lg={8} className="col-12 text-center">
           <Image src={imgSrc} fluid />
           { text && (<p className="my-1 text-left">{text}</p>) }
-          { buttonHref && buttonText && (
-            <LinkContainer to={buttonHref}>
-              <Button variant="dark" outlined block>{buttonText}</Button>
-            </LinkContainer>
-          ) }
+          { buttonHref && buttonText && (buttonHref.startsWith('http')
+            ? (<Button variant="dark" outlined block href={buttonHref}>{buttonText}</Button>)
+            : (
+              <LinkContainer to={buttonHref}>
+                <Button variant="dark" outlined block>{buttonText}</Button>
+              </LinkContainer>))}
         </Col>
       </Row>
     </div>
