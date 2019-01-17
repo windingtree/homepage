@@ -148,7 +148,7 @@ const events: EventsType = {
       location: 'Prague, Czech Republic',
       imgSrc: hacktravel2018Logo,
       text: 'The hackathon, which was the first of its kind, brought together various airlines, travel companies, and blockchain developers coding solutions collaboratively using Winding Tree’s open source platform.',
-      buttonHref: '/winding-tree-hackathon-prague-2018',
+      buttonHref: 'https://blog.windingtree.com/hacktravel-hackathon-recap-feacb65cc47d',
       buttonText: 'recap',
 
     },
