@@ -18,13 +18,70 @@ body {
 }
 
 // CARDS
-a.card:hover .card-footer {
-  .btn-link, .text-link {
-    color: #0f3697;
-    &::after {
-      opacity: .25;
-      border-bottom-color: #0f3697;
+
+@media (max-width: 768px) {
+
+	.card-deck.card-deck-sm-stack {
+      display: block;
+
+      .card {
+          display: flex;
+          flex-direction: row;
+          margin-bottom: 15px !important;;
+
+          .card-header {
+            background: none;
+            padding: 22px;
+            img {
+              width: 40px !important;
+              min-width: 40px;
+            }
+          }
+          .card-body {
+            text-align: left;
+            padding-left: 0;
+            .card-title {
+              .mdi-chevron-right {display:inline-block; }
+             }
+            }
+          }
+          .card-footer {
+            display:none;
+            .text-link,
+            .btn-link {
+              display:block;
+              font-size: 0;
+            }
+          }
+      }
   }
+
+.card-body {
+  .card-title {
+    .mdi-chevron-right {display: none; }
+  }
+}
+
+
+a.card {
+
+  .btn-link {
+    padding-left: 0;
+    padding-right: 0;
+    &::after {
+      left: 0;
+      right: 0;
+    }
+  }
+
+  &:hover .card-footer {
+    .btn-link, .text-link {
+      color: #0f3697;
+      &::after {
+        opacity: .25;
+        border-bottom-color: #0f3697;
+      }
+    }
   }
 }
 
@@ -158,3 +215,4 @@ a.card:hover .card-footer {
   border-top: 1px solid #e3e3e3;
   border-bottom: 1px solid #e3e3e3;
 }
+
