@@ -44,15 +44,14 @@ class Hero extends React.Component<PropsType, StateType> {
           <Row className="align-items-center" flex>
             <Col lg={8} className="mb-1 mb-md-0 text-center text-lg-left">
               <h1 className="h2 text-white">{heroData.title}</h1>
-              <p className="lead text-white text-sm-lg">{heroData.text}</p>
+              <p className="lead text-white text-sm-lg mb-0">{heroData.text}</p>
               { heroData.primaryButtonHref && heroData.primaryButtonLabel && (
               <LinkContainer to={heroData.primaryButtonHref}>
-                <Button variant="primary" className="mt-0 mt-lg-1 mr-md-1" target="_blank">
+                <Button variant="primary" className="mt-1 mr-md-1" target="_blank">
                   {heroData.primaryButtonLabel}
                 </Button>
               </LinkContainer>
               )}
-              <div className="pb-1 d-md-none" />
               { heroData.SecondaryButtonHref && heroData.SecondaryButtonLabel && (
               <LinkContainer to={heroData.SecondaryButtonHref}>
                 <Button outlined variant="light" className="mt-0 mt-lg-1" target="_blank">{heroData.SecondaryButtonLabel}</Button>
