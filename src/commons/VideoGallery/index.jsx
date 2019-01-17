@@ -6,7 +6,7 @@ import {
 import Gallery from './Gallery';
 
 const VideoGallery = () => (
-  <article className="app-section section-video-gallery">
+  <article className="app-section section-video-gallery border-bottom border-light">
     <Container>
 
       <header className="mb-2 mb-md-4 text-center">
