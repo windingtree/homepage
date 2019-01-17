@@ -10,6 +10,8 @@ type QuoteType = {
   text: string,
   href: string,
   imgSrc: string,
+  imgWidth?: number,
+  imgTopPosition?: number,
   user?: {
     name: string,
     role: string,
@@ -31,13 +33,13 @@ const quotes: QuoteType[] = [
     text: "It's very exciting, but very early. It's a simpler and cheaper distribution chain that can challenge the booking giants...",
     href: 'http://nordic.businessinsider.com/a-norwegian-hotel-billionaire-wants-to-use-blockchain-to-cut-out-expedia--/',
     imgSrc: businessInsider,
+    imgWidth: 120,
+    imgTopPosition: -5,
     user: {
       name: 'Lisa Farrar',
       role: 'Chief digital officer at Nordic Choice Hotels',
       imgSrc: lisaFarrar,
     },
-    imgWidth: 120,
-    imgTopPosition: -5,
   },
   {
     name: 'coinDesk',

@@ -44,7 +44,7 @@ const roadmapData: RoadmapDataType = [
             text: 'Hotel Explorer Prototype',
             buttonLabel: 'demo',
             href: 'https://hotel-explorer-demo.windingtree.com/',
-            tooltip: "We started working on a Winding Tree Demo application"
+            tooltip: 'We started working on a Winding Tree Demo application',
           },
         ],
       },
@@ -59,12 +59,12 @@ const roadmapData: RoadmapDataType = [
           {
             done: IN_PROGRESS,
             text: 'Platform Architecture for Hotels',
-            tooltip: "Platform architecture design for distribution of hotels inventory",
+            tooltip: 'Platform architecture design for distribution of hotels inventory',
           },
           {
             done: DONE,
             text: 'ICO Models',
-            tooltip: "Preparation for the ICO",
+            tooltip: 'Preparation for the ICO',
           },
         ],
       },
@@ -78,7 +78,7 @@ const roadmapData: RoadmapDataType = [
           {
             done: DONE,
             text: 'Legal Status',
-            tooltip: "Incorporation registered"
+            tooltip: 'Incorporation registered',
           },
           {
             done: DONE,
@@ -87,7 +87,7 @@ const roadmapData: RoadmapDataType = [
           {
             done: DONE,
             text: 'Partnership with Lufthansa Group, Nordic Choice Hotels, eRevMax, Zeppelin_OS, RSK',
-            tooltip: "Successful year for partnerships with first key industry partners"
+            tooltip: 'Successful year for partnerships with first key industry partners',
           },
         ],
       },
@@ -107,7 +107,7 @@ const roadmapData: RoadmapDataType = [
             text: 'Hotel Explorer',
             buttonLabel: 'demo',
             href: 'https://hotel-explorer-demo.windingtree.com/',
-            tooltip: "New platform features added to Hotel Explorer",
+            tooltip: 'New platform features added to Hotel Explorer',
           },
           {
             done: DONE,
@@ -122,12 +122,12 @@ const roadmapData: RoadmapDataType = [
           {
             done: DONE,
             text: 'Platform Architecture for Hotels',
-            tooltip: 'We released the initial version of our platform architecture and started building features based on it'
+            tooltip: 'We released the initial version of our platform architecture and started building features based on it',
           },
           {
             done: DONE,
             text: 'Initial version of Data Exchange Format',
-            tooltip: 'Winding Tree developed Hotel Data Exchange standard to use within ecosystem. Similar to the NDC standard but for hotels. We continiously improve it'
+            tooltip: 'Winding Tree developed Hotel Data Exchange standard to use within ecosystem. Similar to the NDC standard but for hotels. We continiously improve it',
           },
           {
             done: DONE,
@@ -156,14 +156,14 @@ const roadmapData: RoadmapDataType = [
           {
             done: DONE,
             text: 'Successful ICO and Token Generation Event',
-            tooltip: "Successful ICO: we raised over 16k ETH from more than 7000 investors, what was over 16M USD",
+            tooltip: 'Successful ICO: we raised over 16k ETH from more than 7000 investors, what was over 16M USD',
             buttonLabel: 'stats',
             href: 'https://lif.windingtree.com/',
           },
           {
             done: DONE,
             text: 'Execute market validation mechanism',
-            tooltip: "Learn about it in our White Paper",
+            tooltip: 'Learn about it in our White Paper',
           },
           {
             done: DONE,
@@ -192,14 +192,14 @@ const roadmapData: RoadmapDataType = [
             text: 'Hotel Explorer',
             buttonLabel: 'demo',
             href: 'https://hotel-explorer-demo.windingtree.com/',
-            tooltip: "We continued development of the platform and added new features to our demo application",
+            tooltip: 'We continued development of the platform and added new features to our demo application',
           },
           {
             done: DONE,
             text: 'Booking Application',
             buttonLabel: 'source code',
             href: 'https://github.com/windingtree/crypto-booking',
-            tooltip: "Winding Tree partnered with ETH Berlin and we developed a completely functional crypto booking app in the world to be used for booking accommodations for the ETH Berlin event",
+            tooltip: 'Winding Tree partnered with ETH Berlin and we developed a completely functional crypto booking app in the world to be used for booking accommodations for the ETH Berlin event',
           },
           {
             done: IN_PROGRESS,
@@ -207,7 +207,7 @@ const roadmapData: RoadmapDataType = [
             buttonLabel: 'contribute',
             href: 'mailto:alex.menschikov@windingtree.com',
             isMainButton: true,
-            tooltip: "We are working on React UI Framework to build applications on top of our platform. We need some help here",
+            tooltip: 'We are working on React UI Framework to build applications on top of our platform. We need some help here',
           },
         ],
       },
@@ -237,7 +237,7 @@ const roadmapData: RoadmapDataType = [
           {
             done: IN_PROGRESS,
             text: 'Platform Architecture for Airlines',
-            tooltip: "Platform architecture design for distribution of airline inventory",
+            tooltip: 'Platform architecture design for distribution of airline inventory',
             buttonLabel: 'join discussion',
             href: 'https://groups.google.com/forum/#!topic/windingtree/VGiSzzg--PY',
             isMainButton: true,
@@ -276,7 +276,7 @@ const roadmapData: RoadmapDataType = [
           {
             done: DONE,
             text: 'Winding Tree Hackathon',
-            tooltip: "Winding Tree organized a great hackathon in Prague which was attended by more than 100 developers from all over the world",
+            tooltip: 'Winding Tree organized a great hackathon in Prague which was attended by more than 100 developers from all over the world',
             buttonLabel: 'recap',
             href: 'https://windingtree.com/winding-tree-hackathon-prague-2018',
           },
@@ -302,12 +302,12 @@ const roadmapData: RoadmapDataType = [
             text: 'Hotel Explorer',
             buttonLabel: 'demo',
             href: 'https://hotel-explorer-demo.windingtree.com/',
-            tooltip: "We continue development of the platform and adding new features to our demo application",
+            tooltip: 'We continue development of the platform and adding new features to our demo application',
           },
           {
             done: STARTING,
             text: 'Airline Explorer',
-            tooltip: "A demo application to show airline inventory",
+            tooltip: 'A demo application to show airline inventory',
           },
           {
             done: IN_PROGRESS,
@@ -315,7 +315,7 @@ const roadmapData: RoadmapDataType = [
             buttonLabel: 'contribute',
             href: 'mailto:alex.menschikov@windingtree.com',
             isMainButton: true,
-            tooltip: "We are working on React UI Framework to build applications on top of our platform. We need some help here",
+            tooltip: 'We are working on React UI Framework to build applications on top of our platform. We need some help here',
           },
         ],
       },
@@ -326,12 +326,12 @@ const roadmapData: RoadmapDataType = [
           {
             done: IN_PROGRESS,
             text: 'Integration with Hobo Hotel, eRevMax, Hahn Air',
-            tooltip: "Integration with suppliers to distribute real hotel and airline inventory",
+            tooltip: 'Integration with suppliers to distribute real hotel and airline inventory',
           },
           {
             done: IN_PROGRESS,
             text: 'Payments',
-            tooltip: "We started researching how to make payments through Winding Tree as easy as possible",
+            tooltip: 'We started researching how to make payments through Winding Tree as easy as possible',
           },
           {
             done: IN_PROGRESS,
@@ -345,7 +345,7 @@ const roadmapData: RoadmapDataType = [
           {
             done: IN_PROGRESS,
             text: 'Platform Architecture for Airlines',
-            tooltip: "Platform architecture design for distribution of airline inventory",
+            tooltip: 'Platform architecture design for distribution of airline inventory',
             buttonLabel: 'join discussion',
             href: 'https://groups.google.com/forum/#!topic/windingtree/VGiSzzg--PY',
             isMainButton: true,
@@ -368,12 +368,12 @@ const roadmapData: RoadmapDataType = [
           {
             done: STARTING,
             text: 'Winding Tree Hackathon',
-            tooltip: "2nd Windingtree Hackathon",
+            tooltip: '2nd Windingtree Hackathon',
           },
           {
             done: STARTING,
             text: 'Winding Tree Roundtable',
-            tooltip: "An open innovation initiative for the industry leaders to promote and support cross-organization collaboration, open source development and solving real-world industry pain points with collective intelligence and active participation."
+            tooltip: 'An open innovation initiative for the industry leaders to promote and support cross-organization collaboration, open source development and solving real-world industry pain points with collective intelligence and active participation.',
           },
         ],
       },

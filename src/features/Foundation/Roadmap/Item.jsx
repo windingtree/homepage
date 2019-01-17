@@ -24,16 +24,11 @@ const Item = (props: ItemType) => {
       'roadmap-item': !muted,
     },
   );
-  const spanClassName = classNames(
-    {
-      'text-muted': muted,
-    },
-  );
 
   return (
     <div className="pb-1">
       <i className={iconClassName} />
-      <span className="pl-1 {spanClassName}" title="">{text}</span>
+      <span className="pl-1" title="">{text}</span>
       <br />
       {buttonLabel && href && (
         <LinkContainer to={href}>

@@ -42,9 +42,9 @@ class Period extends React.Component<PeriodType, StateType> {
     );
 
     const dotsClassName = classNames(
-       'border-top-0',
-       {'roadmap__body__item':isOpened},  
-       {'roadmap-dots': isOpened}
+      'border-top-0',
+      { roadmap__body__item: isOpened },
+      { 'roadmap-dots': isOpened },
     );
 
     return (
@@ -55,14 +55,14 @@ class Period extends React.Component<PeriodType, StateType> {
               <h2>{firstLine}</h2>
               <div className="lead">{secondLine}</div>
               <div className="roadmap__toggle">
-                <a className="text-primary" role="button" onClick={this.handleCollapseClick}>
+                <a className="text-primary" role="button" tabIndex={0} onClick={this.handleCollapseClick}>
                   <i className={buttonClassName} />
                 </a>
               </div>
             </Col>
           </Row>
         </header>
-        <Collapse isOpened={isOpened} className={dotsClassName} >
+        <Collapse isOpened={isOpened} className={dotsClassName}>
           <Row>
             {groups.map(group => (
               <Col lg={group.main ? 6 : 3} key={`${firstLine}-${group.title}`}>

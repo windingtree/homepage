@@ -22,7 +22,7 @@ const Features = () => (
                     {features.map(({ name }) => (
                       <Nav.Item className="d-block" key={name}>
                         <p>
-                          <Nav.Link as={"button"} className="text-link" eventKey={name}>{name}</Nav.Link>
+                          <Nav.Link as="button" className="text-link" eventKey={name}>{name}</Nav.Link>
                         </p>
                       </Nav.Item>
                     ))}

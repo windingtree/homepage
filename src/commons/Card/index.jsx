@@ -26,7 +26,11 @@ const WTCard = (props: PropType) => {
         <Image src={imgSrc} alt={title} fluid style={{ width: imgWidth }} />
       </Card.Header>
       <Card.Body>
-        <Card.Title as="h5">{title} <i className="mdi mdi-24px mdi-chevron-right"></i></Card.Title>
+        <Card.Title as="h5">
+          {title}
+          {' '}
+          <i className="mdi mdi-24px mdi-chevron-right" />
+        </Card.Title>
         {(shortText || text) && (<Card.Text>{main ? shortText : text}</Card.Text>)}
       </Card.Body>
       {(buttonLabel && linkText) && (

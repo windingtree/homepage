@@ -1,6 +1,6 @@
 /* @flow */
 import React from 'react';
-import { Button, Row, Col } from '@windingtree/wt-ui-react';
+import { Row, Col } from '@windingtree/wt-ui-react';
 import Solution from '../Solution';
 import Polygon from './Polygon';
 
@@ -12,23 +12,24 @@ const Tours = () => (
       </Col>
       <Col md={6} lg={7} className="mb-1 mb-sm-0">
         <Solution.Item title="For Tours, Activities, Rental, Cruise operators">
-          Join roundtables, discussions and contribute development to Platform development for your business needs
+          Join roundtables, discussions and contribute development to Platform development for
+          your business needs
         </Solution.Item>
-{/*        <Button
+        {/*        <Button
           href="https://github.com/windingtree/"
           className="mb-1 mb-sm-0 mb-md-1 mb-lg-0 mr-sm-1 d-block d-sm-inline-block"
           variant="accent"
         >
           Contact our team
-        </Button>*/}
-       {/* <Button
+        </Button> */}
+        {/* <Button
           href="https://docs.google.com/forms/d/e/1FAIpQLSevHx6goFLdbdI7TSX6JFugNlT56nlRD7I1XjqGc-06pIoemA/viewform"
           className="d-block d-sm-inline-block"
           variant="dark"
           outlined
         >
           Use cases
-        </Button>*/}
+        </Button> */}
       </Col>
     </Row>
   </Solution>

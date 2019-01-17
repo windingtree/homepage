@@ -16,13 +16,13 @@ const Hospitality = () => (
           commission-free distribution channel, more reliable than any
           major GDS.
         </Solution.Item>
-{/*        <Button
+        {/*        <Button
           href="https://github.com/windingtree/"
           variant="accent"
           className="accent mb-1 mb-sm-0 mb-md-1 mb-lg-0 mr-sm-1 d-block d-sm-inline-block"
         >
           Apply for integration
-        </Button>*/}
+        </Button> */}
         <Button
           href="#usecases"
           className="d-block d-sm-inline-block"
