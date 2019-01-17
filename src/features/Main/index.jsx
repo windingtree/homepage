@@ -32,7 +32,7 @@ const WTNavbar = () => (
               </LinkContainer>
             </Nav.Dropdown>
             <Nav.Item>
-              <Nav.Link href="https://github.com/windingtree/wiki">API</Nav.Link>
+              <Nav.Link href="https://github.com/windingtree/wiki" target="_blank" rel="noopener noreferrer">API</Nav.Link>
             </Nav.Item>
             <Nav.Dropdown title="Foundation" id="basic-nav-dropdown">
               <LinkContainer to="/Foundation#About">
