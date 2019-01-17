@@ -1,5 +1,6 @@
 /* @flow */
 import React from 'react';
+import { LinkContainer } from 'react-router-bootstrap';
 import {
   Container, Row, Col, Button,
 } from '@windingtree/wt-ui-react';
@@ -8,16 +9,17 @@ import data from './data';
 
 type PropsType = {
   variant: 'designedFor' | 'consultancy' | 'howWeWork',
-  icons: boolean
+  icons: boolean,
+  id?: string
 };
 
 const Banner = (props: PropsType) => {
   const {
-    variant, icons,
+    variant, icons, id,
   } = props;
   const bannerData = data[variant];
   return (
-    <article className="app-section bg-grad">
+    <article className="app-section bg-grad" id={id}>
       <Container>
         <Row className="align-items-center" flex>
           <Col lg={8} className="mb-1 mb-md-0 text-center text-lg-left">
@@ -27,7 +29,9 @@ const Banner = (props: PropsType) => {
           </Col>
           <Col lg={4} className="text-center">
             <i className={`mdi mdi-xxl ${bannerData.mdiIcon} text-white d-none d-lg-inline`} />
-            <Button outlined href={bannerData.href} variant="light" className="mt-0 mt-lg-1">{bannerData.buttonLabel}</Button>
+            <LinkContainer to={bannerData.href}>
+              <Button outlined variant="light" className="mt-0 mt-lg-1">{bannerData.buttonLabel}</Button>
+            </LinkContainer>
           </Col>
         </Row>
 

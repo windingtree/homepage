@@ -1,6 +1,7 @@
 // @flow
 import React from 'react';
 import { Card } from '@windingtree/wt-ui-react';
+import { LinkContainer } from 'react-router-bootstrap';
 import VideoModal from 'commons/VideoModal';
 import './styles.scss';
 

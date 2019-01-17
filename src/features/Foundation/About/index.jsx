@@ -8,7 +8,7 @@ import Card from 'commons/Card';
 import cardsData from './data';
 
 const About = () => (
-  <div className="my-3 my-md-5" id="about">
+  <div className="my-3 my-md-5" id="About">
     <Container>
       <Row className="justify-content-center">
         <Col md={8}>

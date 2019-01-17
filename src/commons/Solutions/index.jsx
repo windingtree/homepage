@@ -9,7 +9,7 @@ import Airlines from './Airlines';
 import Tours from './Tours';
 import OTA from './OTA';
 
-const Solutions = (props: PropsType) => {
+const Solutions = (props: *) => {
   const { variant } = props;
   return (
     <section className="app-section">
