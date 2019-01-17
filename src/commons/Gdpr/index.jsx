@@ -4,6 +4,7 @@ import {
   Container, Alert,
 } from '@windingtree/wt-ui-react';
 import Cookies from 'universal-cookie';
+import './styles.scss';
 
 const COOKIE = 'isGdprReaded';
 
@@ -32,7 +33,6 @@ class Gdpr extends React.Component {
 
   render() {
     const { show } = this.state;
-    console.log('show in render', show);
     return (
       <Alert
         show={show}
@@ -40,7 +40,6 @@ class Gdpr extends React.Component {
         dismissible
         onClose={this.handleOnClose}
         className="alert-announce"
-        role="announcement"
       >
         <Container>
           <p>
