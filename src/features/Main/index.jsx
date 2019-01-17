@@ -5,6 +5,7 @@ import { LinkContainer } from 'react-router-bootstrap';
 import {
   Navbar, Footer, Container, Nav, Button,
 } from '@windingtree/wt-ui-react';
+import Gdpr from 'commons/Gdpr';
 
 type PropsType = {
   children: React$Node
@@ -70,6 +71,7 @@ const WTNavbar = () => (
 const Main = ({ children }: PropsType) => (
   <div>
     <WTNavbar />
+    <Gdpr />
     {children}
     <Footer>
       <Footer.Solutions />
