@@ -17,6 +17,17 @@ body {
   }
 }
 
+// CARDS
+a.card:hover .card-footer {
+  .btn-link, .text-link {
+    color: #0f3697;
+    &::after {
+      opacity: .25;
+      border-bottom-color: #0f3697;
+  }
+  }
+}
+
 // NAVBAR
 .navbar .navbar-nav .nav-item {
   font-weight: inherit;
