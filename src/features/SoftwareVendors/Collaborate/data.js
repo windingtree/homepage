@@ -17,12 +17,12 @@ const cardsInfo: DataType[] = [
   },
   {
     title: 'Go to Suppliers page',
-    href: '#suppliers',
+    href: '/suppliers',
     imgSrc: suppliersImg,
   },
   {
     title: 'Go to Sellers page',
-    href: '#sellers',
+    href: '/sellers',
     imgSrc: sellersImg,
   },
 ];
