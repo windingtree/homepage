@@ -9,16 +9,17 @@ import data from './data';
 
 type PropsType = {
   variant: 'designedFor' | 'consultancy' | 'howWeWork',
-  icons: boolean
+  icons: boolean,
+  id?: string
 };
 
 const Banner = (props: PropsType) => {
   const {
-    variant, icons,
+    variant, icons, id,
   } = props;
   const bannerData = data[variant];
   return (
-    <article className="app-section bg-grad">
+    <article className="app-section bg-grad" id={id}>
       <Container>
         <Row className="align-items-center" flex>
           <Col lg={8} className="mb-1 mb-md-0 text-center text-lg-left">

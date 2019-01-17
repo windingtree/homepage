@@ -8,19 +8,23 @@ import SoftwareVendors from 'features/SoftwareVendors';
 import Main from 'features/Main';
 import LifToken from 'features/LifToken';
 import Community from 'features/StartupsAndDevelopers';
+import ScrollHandler from './ScrollHandler';
 
 const Routes = () => (
-  <Main>
-    <Switch>
-      <Route path="/foundation" component={Foundation} />
-      <Route path="/suppliers" component={Suppliers} />
-      <Route path="/sellers" component={Sellers} />
-      <Route path="/software-vendors" component={SoftwareVendors} />
-      <Route path="/lif-token" component={LifToken} />
-      <Route path="/startups-and-developers" component={Community} />
-      <Route component={Home} />
-    </Switch>
-  </Main>
+  <ScrollHandler>
+    <Main>
+      <Switch>
+        <Route path="/foundation" component={Foundation} />
+        <Route path="/suppliers" component={Suppliers} />
+        <Route path="/sellers" component={Sellers} />
+        <Route path="/software-vendors" component={SoftwareVendors} />
+        <Route path="/lif-token" component={LifToken} />
+        <Route path="/startups-and-developers" component={Community} />
+        <Route component={Home} />
+      </Switch>
+    </Main>
+  </ScrollHandler>
 );
+
 
 export default Routes;

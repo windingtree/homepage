@@ -20,6 +20,9 @@ const settings = plugins.then(p => (
           Object.assign(baseConfig, {
                 plugins: p.development,
                 mode: 'development',
+                devServer: {
+                  historyApiFallback: true,
+                },
                 devtool: 'inline-cheap-module-source-map'
               })
               )

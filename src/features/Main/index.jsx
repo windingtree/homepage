@@ -48,7 +48,7 @@ class WTNavbar extends Component {
                     </LinkContainer>
                   </Nav.Dropdown>
                   <Nav.Item>
-                    <Nav.Link href="https://github.com/windingtree/wiki">API</Nav.Link>
+                    <Nav.Link href="https://github.com/windingtree/wiki" target="_blank" rel="noopener noreferrer">API</Nav.Link>
                   </Nav.Item>
                   <Nav.Dropdown title="Foundation" id="basic-nav-dropdown">
                     <LinkContainer to="/Foundation#About">
@@ -63,12 +63,10 @@ class WTNavbar extends Component {
                     <LinkContainer to="/Foundation#Services">
                       <Nav.Dropdown.Item>Services</Nav.Dropdown.Item>
                     </LinkContainer>
-                    <LinkContainer to="/Foundation#Project-Roadmap">
+                    <LinkContainer to="/Foundation#Roadmap">
                       <Nav.Dropdown.Item>Roadmap</Nav.Dropdown.Item>
                     </LinkContainer>
-                    <LinkContainer to="/Foundation#Blog">
-                      <Nav.Dropdown.Item>Blog</Nav.Dropdown.Item>
-                    </LinkContainer>
+                    <Nav.Dropdown.Item href="https://blog.windingtree.com" target="__blank">Blog</Nav.Dropdown.Item>
                   </Nav.Dropdown>
                   <Nav.Item>
                     <LinkContainer to="/startups-and-developers">
