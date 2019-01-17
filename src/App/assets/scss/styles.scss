@@ -17,80 +17,137 @@ body {
   }
 }
 
-.section-how-it-works {
-  border: none;
-}
-
 // NAVBAR
 .navbar .navbar-nav .nav-item {
   font-weight: inherit;
 }
 
+// Navbar transition
+
+.navbar-nav--animated-btn {
+
+  &.navbar-dark {
+    &:not(.is-open) #navbar-btn {
+      overflow:hidden;
+      width: 0;
+      transition: all 0.6s ease-out;
+      .btn {
+        width: 0;
+        transition: all 0.4s ease-out;
+      }
+    }
+  }
+  &.navbar-light {
+    &.navbar-nav--animated-btn:not(.is-open) #navbar-btn {
+      width: 150px;
+      transition: all 0.3s ease-out;
+      .btn {
+        width: 150px;
+        transition: all 0.4s ease-out;
+      }
+    }
+
+  }
+}
+
+
+
+
+
+
+
+// Overlaps header and hero
+#app-header {
+  margin-bottom: -66px;
+  background: none !important;
+}
+
+@media all and (min-width: 768px) {
+  #app-header {
+    margin-bottom: -110px;
+  }
+}
+
+#app-content .app-section:first-child::before {
+  content: '';
+  display:block;
+  height: 66px;
+}
+
+@media all and (min-width: 768px) {
+#app-content .app-section:first-child::before  {
+    height: 110px;
+  }
+}
+
+// Make the menu whithe when opened in mobile
+@media all and (max-width: 990px) {
+
+	.navbar.navbar-dark.is-open {
+		background: #fff !important;
+
+	}
+	.navbar.navbar-dark.is-open .navbar-brand {
+		background-image: url("https://windingtree.com/assets/img/logo/sm-color.svg");
+	}
+
+	.navbar.navbar-dark.is-open .navbar-toggler,
+	.navbar.navbar-dark.is-open a.nav-link,
+	.navbar.navbar-dark.is-open a.nav-link.dropdown-toggle {
+		color: #000;
+	}
+	.navbar.navbar-dark.is-open a.nav-link:hover {
+		color: rgba(0, 0, 0, 0.9);
+	}
+
+}
+
 .user-bio .ReactCollapse--collapse {
-  padding: 0; 
+  padding: 0;
 }
 
 .text-link:focus {
   outline: none;
 }
 
-// Navbar transition - - - - - - - - - -
-// Navbar must have the "navbar-dark" class by default and
-// turn to "navbar-light" after scrolling.
-// The navbar should have the class "is-open" when expanded,
-// so the mobile menu has white background
 
-#app-header.header-sticky {
-  background: #5f2b87;
-  box-shadow: none;
-}
+// HERO
+.hero-homepage {
+  background-color: #5f2987;
+  background-image: url(../img/index-bg.svg),radial-gradient(circle at 50% 105%, #08ed87, #5f2987 67%);
+  background-position: 50% 99vh, 50% 0;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 170vw auto, auto;
 
-.navbar {
-  &.navbar-dark {
-    @extend #app-header.header-sticky;
-  }
-
-  &.navbar-light {
-    background: #fff;
+  @media (min-width: 768px) {
+    background-position: 50% 40rem, 50% 0;
+    background-size: 95% auto, auto;
+    border-bottom-left-radius: 100% 5%;
+    border-bottom-right-radius: 100% 5%;
   }
 
   @media (min-width: 991px) {
-    &.navbar-light .nav-item:last-child {
-      width: 100px;
-    }
-
-    &.navbar-dark {
-      & .nav-item:last-child {
-        transition: width 0.15s ease-in-out;
-        width: 0;
-      }
-    }
+    background-position: 50% 45rem, 50% 0;
   }
 
-  @media (max-width: 990px) {
-    &.navbar-dark {
-      &.is-open {
-        transition: background-color 0.15s ease-in-out;
-        background-color: #fff;
-      }
+}
 
-      .dropdown-menu {
-        a {
-          color: #fff;
+.section-hero-cards {
+  margin-top: -15rem;
 
-          &:hover {
-            opacity: 0.6;
-          }
-        }
-      }
-    }
+  @media (min-width: 768px) {
+    margin-top: -20rem;
+  }
 
-    .dropdown-menu {
-      padding: 10px;
-      margin-bottom: 10px;
-      background-color: transparent;
-    }
-
+  @media (min-width: 991px) {
+    margin-top: -25rem;
   }
 }
 
+
+// SECTION: HOW IT WORKS
+.section-how-it-works {
+  background: radial-gradient(415.44px at 50% 50%, #fff 0%, #f2f2f2 100%);
+  border-top: 1px solid #e3e3e3;
+  border-bottom: 1px solid #e3e3e3;
+}

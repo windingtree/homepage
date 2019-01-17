@@ -5,7 +5,6 @@ import {
 } from '@windingtree/wt-ui-react';
 import VideoModal from 'commons/VideoModal';
 import LearnMoreCards from 'commons/LearnMoreCards';
-import './styles.scss';
 
 type StateType = {
   showModal: boolean
