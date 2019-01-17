@@ -41,6 +41,7 @@ a.card:hover .card-footer {
     &:not(.is-open) #navbar-btn {
       overflow:hidden;
       width: 0;
+      margin-left: -30px;
       transition: all 0.6s ease-out;
       .btn {
         width: 0;
@@ -60,11 +61,6 @@ a.card:hover .card-footer {
 
   }
 }
-
-
-
-
-
 
 
 // Overlaps header and hero
