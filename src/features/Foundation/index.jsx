@@ -18,7 +18,7 @@ const Foundation = () => (
     <Team title="Team" members={members} />
     <Team title="Advisors" members={advisors} />
     <VideoGallery />
-    <Banner variant="consultancy" />
+    <Banner variant="consultancy" id="Services" />
     <Roadmap />
     <Events />
     <SuscribeForUpdates />

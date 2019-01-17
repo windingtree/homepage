@@ -47,12 +47,10 @@ const WTNavbar = () => (
               <LinkContainer to="/Foundation#Services">
                 <Nav.Dropdown.Item>Services</Nav.Dropdown.Item>
               </LinkContainer>
-              <LinkContainer to="/Foundation#Project-Roadmap">
+              <LinkContainer to="/Foundation#Roadmap">
                 <Nav.Dropdown.Item>Roadmap</Nav.Dropdown.Item>
               </LinkContainer>
-              <LinkContainer to="/Foundation#Blog">
-                <Nav.Dropdown.Item>Blog</Nav.Dropdown.Item>
-              </LinkContainer>
+              <Nav.Dropdown.Item href="https://blog.windingtree.com" target="__blank">Blog</Nav.Dropdown.Item>
             </Nav.Dropdown>
             <Nav.Item>
               <LinkContainer to="/startups-and-developers">

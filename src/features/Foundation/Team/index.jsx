@@ -10,7 +10,7 @@ type PropsType = {
   members: string[]
 };
 const Team = ({ title, members }: PropsType) => (
-  <article className="app-section section-features pt-2 pt-lg-3">
+  <article className="app-section section-features pt-2 pt-lg-3" id="Team">
     <Container>
       <header>
         <Row className="justify-content-md-center">
