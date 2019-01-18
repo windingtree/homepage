@@ -1,20 +1,16 @@
 /* @flow */
 import React from 'react';
 import {
-  Container, Row, Col,
+  Container,
 } from '@windingtree/wt-ui-react';
 import { roadmapData } from './data';
 import Period from './Period';
 
 const Roadmap = () => (
-  <article className="app-section" id="Roadmap">
+  <article className="app-section section-roadmap border-bottom border-light" id="Roadmap">
     <Container>
-      <header>
-        <Row className="justify-content-md-center">
-          <Col md={10} className="text-center mb-1">
-            <h2>Roadmap</h2>
-          </Col>
-        </Row>
+      <header className="mb-2 mb-md-4 text-center">
+        <h2>Roadmap</h2>
       </header>
     </Container>
     <Container>

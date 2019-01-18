@@ -24,7 +24,7 @@ const VideoModal = (props: PropsType) => {
     },
   };
   return (
-    <Modal {...otherProps} show={show} className="modal-media" onHide={onHide}>
+    <Modal {...otherProps} dialogClassName="modal-dialog-centered modal-lg" show={show} className="modal-media" onHide={onHide}>
       <Modal.Body>
         <div className="video-fluid">
           <YouTube

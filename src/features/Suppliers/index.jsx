@@ -22,7 +22,7 @@ const Suppliers = () => (
         />))}
     </KeyBenefits>
     <HowItWorks />
-    <Solutions variant="suppliers"/>
+    <Solutions variant="suppliers" />
     <SuscribeForUpdates />
     <ReadyToUse />
 

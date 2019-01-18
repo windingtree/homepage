@@ -15,16 +15,15 @@ const Hospitality = () => (
           Hotels can integrate with our simple APIs to showcase
           availability on the Winding Tree marketplace.
         </Solution.Item>
-{/*        <Button
+        {/*        <Button
           href="https://github.com/windingtree/"
-          className="mb-1 mb-sm-0 mb-md-1 mb-lg-0 mr-sm-1 d-block d-sm-inline-block"
+          className="mb-1 mb-sm-0 mb-md-1 mb-lg-0 mr-sm-1"
           variant="accent"
         >
           Apply for integration
-        </Button>*/}
+        </Button> */}
         <Button
           href="#usecases"
-          className="d-block d-sm-inline-block"
           variant="dark"
           outlined
         >

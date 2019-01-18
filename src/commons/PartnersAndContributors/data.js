@@ -25,6 +25,7 @@ const collaborators: CollaboratorType[] = [
     name: 'airNewZealand',
     text: 'Making the sales process less complex, Air New Zealand customers can benefit from reduced transactional costs, while the airline can take advantage of the swift and secure sharing of information',
     imgSrc: airNewZealand,
+    imgTopPosition: -5,
   },
   {
     name: 'nordicChoiceHotels',
@@ -36,11 +37,14 @@ const collaborators: CollaboratorType[] = [
     name: 'eRevMax',
     text: 'A software company - supplier of PMS. They are implementing an export of hotel inventory to Winding Tree platform.',
     imgSrc: erevmax,
+    imgTopPosition: -7,
   },
   {
     name: 'Siesta Cloud',
     text: 'Tech company creating PMS. They are our partner and are willing to integrate export to WT as soon as possible. We are also discussing technical details of our data structures and architecture with them.',
+    imgWidth: 90,
     imgSrc: siesta,
+    imgTopPosition: -5,
   },
   {
     name: 'rsk',
@@ -54,6 +58,7 @@ const collaborators: CollaboratorType[] = [
     name: 'Zeppelin OS',
     text: 'Winding Tree will provide its own operative system for upgradeable smart contracts in Ethereum reusing all the solutions provided by ZeppelinOS, having a direct collaboration with them on upgradeable smart contracts, on chain libraries, on chain kernels, decentralized governance, etc.',
     imgSrc: zeppelinOs,
+    imgTopPosition: -2,
   },
 
 ];

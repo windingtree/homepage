@@ -11,7 +11,16 @@ const Quotes = () => (
         {quotes.map(quote => (
           <Nav.Item key={quote.name} as={Col} className="col-6 col-md-6 col-lg-3">
             <Nav.Link eventKey={quote.name} className="">
-              <img className="img-fluid" src={quote.imgSrc} alt={quote.name} />
+              <img
+                className="img-fluid"
+                src={quote.imgSrc}
+                alt={quote.name}
+                style={{
+                  maxWidth: quote.imgWidth,
+                  position: 'relative',
+                  top: quote.imgTopPosition,
+                }}
+              />
             </Nav.Link>
           </Nav.Item>
         ))}

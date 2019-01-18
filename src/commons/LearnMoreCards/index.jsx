@@ -21,7 +21,7 @@ type PropsType = {
 };
 
 const LearnMoreCards = ({ main, data = cardsInfo }: PropsType) => (
-  <CardDeck>
+  <CardDeck className="card-deck-sm-stack">
     {data.map(info => (
       <Card
         key={info.href}

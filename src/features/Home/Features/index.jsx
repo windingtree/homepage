@@ -8,21 +8,21 @@ import features from './data';
 const Features = () => (
   <article className="app-section section-features pt-2 pt-lg-3">
     <Container>
-      <header className="mb-2 mb-md-4 text-center">
+      <header className="mb-2 mb-md-4 text-center d-none d-lg-block">
         <h2>Features</h2>
       </header>
-      <Row className="justify-content-md-center">
+      <Row className="justify-content-md-center align-items-center">
         <Col sm={12} md={10}>
 
           <div className="d-none d-lg-block">
             <Tab.Container id="features-tabs" defaultActiveKey={features[0].name}>
               <Row className="mb-2">
                 <Col md={6} lg={4}>
-                  <Nav className="flex-column mb-1">
+                  <Nav className="flex-column mb-1 border-right">
                     {features.map(({ name }) => (
                       <Nav.Item className="d-block" key={name}>
                         <p>
-                          <Nav.Link className="text-link text-muted" eventKey={name}>{name}</Nav.Link>
+                          <Nav.Link as="button" className="text-link" eventKey={name}>{name}</Nav.Link>
                         </p>
                       </Nav.Item>
                     ))}

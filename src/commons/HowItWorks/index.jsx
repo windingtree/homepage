@@ -6,7 +6,6 @@ import {
 import VideoModal from 'commons/VideoModal';
 import howItWorks from './img/HowItWorks.png';
 import data from './data.json';
-import './styles.scss';
 
 type StateType = {
   showModal: boolean
