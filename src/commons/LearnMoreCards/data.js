@@ -28,7 +28,7 @@ const cardsInfo: DataType[] = [
     imgWidth: 80,
   },
   {
-    title: 'Travel Software Vendors',
+    title: 'Software Vendors',
     text: 'Build your projects on a set of open-source protocols and APIs. Be a part of the ecosystem!',
     linkText: 'Learn More',
     href: '/software-vendors',
