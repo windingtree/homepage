@@ -1,37 +1,42 @@
 {
   "default": {
-    "title": "Winding Tree",
-    "description": "Winding Tree description",
-    "keywords": "Winding Tree keywords"
+    "title": "Winding Tree - open source distribution ecosystem of hotel and airline inventory",
+    "description": "Winding Tree - blockchain-powered decentralized travel ecosystem",
+    "keywords": "Winding Tree, distribution, gds, decentralized, travel, airline"
   },
   "home": {
-    "title": "Home",
-    "description": "Home description",
-    "keywords": "Home keywords"
+    "title": "Winding Tree - open source distribution ecosystem of hotel and airline inventory",
+    "description": "Winding Tree - blockchain-powered decentralized travel ecosystem",
+    "keywords": "Winding Tree, distribution, gds, decentralized, travel, airline"
   },
   "foundation": {
-    "title": "Foundation",
-    "description": "Foundation description",
-    "keywords": "Foundation keywords"
+    "title": "Winding Tree Foundation - a non-profit organization",
+    "description": "Winding Tree Foundation - a non-profit organization developing incorporated in Switzerland",
+    "keywords": "Winding Tree, distribution, gds, decentralized, travel, airline"
   },
   "suppliers": {
-    "title": "suppliers",
-    "description": "suppliers description",
-    "keywords": "suppliers keywords"
+    "title": "Open source distribution platform for travel suppliers | Winding Tree",
+    "description": "Winding Tree solution for airlines, hotels, tour operators and suppliers of other travel services",
+    "keywords": "Winding Tree, distribution, gds, decentralized, travel, airline"
+  },
+  "sellers": {
+    "title": "Commision-free source of inventory for sellers of travel",
+    "description": "Open source distribution platform for travel agiences, booking apps and other sellers",
+    "keywords": "Winding Tree, distribution, gds, decentralized, travel, airline"
   },
   "softwareVendors": {
-    "title": "softwareVendors",
-    "description": "softwareVendors description",
-    "keywords": "softwareVendors keywords"
+    "title": "Open source services and APIs for software vendors | Winding Tree",
+    "description": "Winding Tree services and REST APIs are designed to make integration into distribution platform easy",
+    "keywords": "Winding Tree, distribution, gds, decentralized, travel, airline, API, open source"
   },
   "lifToken": {
-    "title": "lifToken",
-    "description": "lifToken description",
-    "keywords": "lifToken keywords"
+    "title": "LifToken - a platform token | Winding Tree",
+    "description": "LifToken - an Ethereum based token",
+    "keywords": "Winding Tree, distribution, gds, decentralized, travel, airline, API, open source"
   },
   "community": {
-    "title": "community",
-    "description": "community description",
-    "keywords": "community keywords"
+    "title": "Community of innovators in travel technologies | Winding Tree",
+    "description": "The worldwide community of individuals, startups and corporations that develop open source travel products together",
+    "keywords": "Winding Tree, distribution, gds, decentralized, travel, airline, API, open source"
   }
 }
