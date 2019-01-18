@@ -1,0 +1,37 @@
+{
+  "default": {
+    "title": "Winding Tree",
+    "description": "Winding Tree description",
+    "keywords": "Winding Tree keywords"
+  },
+  "home": {
+    "title": "Home",
+    "description": "Home description",
+    "keywords": "Home keywords"
+  },
+  "foundation": {
+    "title": "Foundation",
+    "description": "Foundation description",
+    "keywords": "Foundation keywords"
+  },
+  "suppliers": {
+    "title": "suppliers",
+    "description": "suppliers description",
+    "keywords": "suppliers keywords"
+  },
+  "softwareVendors": {
+    "title": "softwareVendors",
+    "description": "softwareVendors description",
+    "keywords": "softwareVendors keywords"
+  },
+  "lifToken": {
+    "title": "lifToken",
+    "description": "lifToken description",
+    "keywords": "lifToken keywords"
+  },
+  "community": {
+    "title": "community",
+    "description": "community description",
+    "keywords": "community keywords"
+  }
+}

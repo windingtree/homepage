@@ -11,11 +11,14 @@ import Banner from 'commons/Banner';
 import SuscribeForUpdates from 'commons/SuscribeForUpdates';
 import ReadyToUse from 'commons/ReadyToUse';
 import VideoGallery from 'commons/VideoGallery';
+import metadata from 'data/metadata.json';
+import CustomHelmet from 'commons/CustomHelmet';
 import BuildByCommunity from './BuildByCommunity';
 import BlockQuoteSection from './BlockQuoteSection';
 
 const StartupsAndDevelopers = () => (
   <div id="app-content">
+    <CustomHelmet {...metadata.community} />
     <Hero variant="startupsAndDevelopers" icons />
     <section className="app-section section-already-with-us-quote">
       <Container>

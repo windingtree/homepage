@@ -3,17 +3,19 @@ import React from 'react';
 import VideoGallery from 'commons/VideoGallery';
 import Events from 'commons/Events';
 import Banner from 'commons/Banner';
-import LifToken from './LifToken';
+import SuscribeForUpdates from 'commons/SuscribeForUpdates';
+import ReadyToUse from 'commons/ReadyToUse';
+import HowItWorks from 'commons/HowItWorks';
+import metadata from 'data/metadata.json';
+import CustomHelmet from 'commons/CustomHelmet';
 import Partners from './Partners';
 import InThePress from './InThePress';
 import Features from './Features';
 import MainBanner from './MainBanner';
-import SuscribeForUpdates from 'commons/SuscribeForUpdates';
-import ReadyToUse from 'commons/ReadyToUse';
-import HowItWorks from 'commons/HowItWorks';
 
 const Home = () => (
   <main id="app-content">
+    <CustomHelmet {...metadata.home} />
     <MainBanner />
     <Features />
     <HowItWorks />

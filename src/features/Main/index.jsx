@@ -5,6 +5,8 @@ import { LinkContainer } from 'react-router-bootstrap';
 import {
   Navbar, Footer, Container, Nav, Button,
 } from '@windingtree/wt-ui-react';
+import metadata from 'data/metadata.json';
+import CustomHelmet from 'commons/CustomHelmet';
 
 type PropsType = {
   children: React$Node
@@ -69,6 +71,7 @@ const WTNavbar = () => (
 
 const Main = ({ children }: PropsType) => (
   <div>
+    <CustomHelmet {...metadata.default} />
     <WTNavbar />
     {children}
     <Footer>
@@ -78,7 +81,6 @@ const Main = ({ children }: PropsType) => (
       <Footer.Contacts />
       <Footer.Comunity />
     </Footer>
-
   </div>
 );
 

@@ -1,8 +1,10 @@
-export default html => `
+export default (html, helmet) => `
     <!DOCTYPE html>
-    <html>
+    <html ${helmet.htmlAttributes.toString()}>
     <head>
-        <title>Winding Tree</title>
+        ${helmet.title.toString()}
+        ${helmet.meta.toString()}
+        ${helmet.link.toString()}
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
         <link rel="stylesheet" type="text/css" href="css/styles.css">
@@ -36,7 +38,7 @@ export default html => `
         })(window,document,'script','dataLayer','GTM-M9MPGNT');</script>
         <!-- End Google Tag Manager -->
     </head>
-    <body>
+    <body ${helmet.bodyAttributes.toString()}>
         <div id="root">${html}</div>
         <script src="js/client.js"></script>
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M9MPGNT"
