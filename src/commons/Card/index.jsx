@@ -20,7 +20,7 @@ const WTCard = (props: PropType) => {
   const {
     imgSrc, imgWidth, title, linkText, href, text, main, shortText, buttonLabel,
   } = props;
-  const linkProps = href.startsWith('http') ? { as: 'a', href, target: '__blank' } : { as: Link, to: href };
+  const linkProps = href.startsWith('http') ? { as: 'a', href, target: '_blank' } : { as: Link, to: href };
   return (
     <Card {...linkProps} style={{ marginLeft: 10, marginRight: 10 }} className="text-center">
       <Card.Header>
