@@ -1,9 +1,7 @@
 // @flow
 import React from 'react';
 import { Card } from '@windingtree/wt-ui-react';
-import { LinkContainer } from 'react-router-bootstrap';
 import VideoModal from 'commons/VideoModal';
-import './styles.scss';
 
 type PropsType = {
   thumbnail: string,
@@ -37,10 +35,12 @@ class Category extends React.Component<PropsType, StateType> {
     return (
       <>
         <VideoModal show={showModal} videoSrc={videoSrc} onHide={this.hideModal} title={title} />
-        <Card className="text-center">
+        <Card className="text-center card-video">
 
           <button type="button" className="card-img-top" onClick={this.hanldeOnClick}>
-            <img src={thumbnail} alt={title} className="img-fluid" />
+            <div className="img-crop" style={{ background: `url(${thumbnail})`, paddingBottom: '55%' }}>
+              <img src={thumbnail} alt={title} className="img-fluid w-100" />
+            </div>
           </button>
 
           <Card.Body>

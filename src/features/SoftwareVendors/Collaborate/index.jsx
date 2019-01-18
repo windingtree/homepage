@@ -9,7 +9,7 @@ import Card from 'commons/Card';
 import cardsData from './data';
 
 const Collaborate = () => (
-  <section className="app-section">
+  <section className="app-section section-collaborate">
     <Container>
       <Row className="justify-content-center">
         <Col md={8}>

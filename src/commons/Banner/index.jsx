@@ -19,7 +19,7 @@ const Banner = (props: PropsType) => {
   } = props;
   const bannerData = data[variant];
   return (
-    <article className="app-section bg-grad" id={id}>
+    <article className="app-section section-banner bg-grad" id={id}>
       <Container>
         <Row className="align-items-center" flex>
           <Col lg={8} className="mb-1 mb-md-0 text-center text-lg-left">

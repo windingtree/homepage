@@ -7,7 +7,6 @@ import type { ItemType } from './data';
 import {
   STARTING, IN_PROGRESS, DONE,
 } from './data';
-import './styles.scss';
 
 const Item = (props: ItemType) => {
   const {
@@ -15,7 +14,7 @@ const Item = (props: ItemType) => {
   } = props;
   const buttonVariant = isMainButton ? 'primary' : 'dark';
   const iconClassName = classNames(
-    'mdi',
+    'mdi float-left',
     {
       'mdi-circle-outline': STARTING === done,
       'mdi-circle-edit-outline': IN_PROGRESS === done,
@@ -24,23 +23,17 @@ const Item = (props: ItemType) => {
       'roadmap-item': !muted,
     },
   );
-  const spanClassName = classNames(
-    {
-      'text-muted': muted,
-    },
-  );
 
   return (
-    <div className="pb-1">
+    <>
       <i className={iconClassName} />
-      <span className="pl-1 {spanClassName}" title="">{text}</span>
-      <br />
+      <span>{text}</span>
       {buttonLabel && href && (
         <LinkContainer to={href}>
-          <Button variant={buttonVariant} outlined={!isMainButton} className="ml-2 roadmap__button" target="_blank">{buttonLabel}</Button>
+          <Button variant={buttonVariant} outlined={!isMainButton} className="btn btn-sm" target="_blank">{buttonLabel}</Button>
         </LinkContainer>
       ) }
-    </div>
+    </>
   );
 };
 

@@ -9,19 +9,16 @@ type PropsType = {
   title: string,
   members: string[]
 };
+
 const Team = ({ title, members }: PropsType) => (
-  <article className="app-section section-features pt-2 pt-lg-3" id="Team">
+  <article className="app-section section-team" id="Team">
     <Container>
-      <header>
-        <Row className="justify-content-md-center">
-          <Col md={10} className="text-center mb-1">
-            <h2>{title}</h2>
-          </Col>
-        </Row>
+      <header className="mb-2 mb-md-4 text-center">
+        <h2>{title}</h2>
       </header>
-      <Row>
+      <Row className="justify-content-center justify-content-md-start">
         {members.map(memberData => (
-          <Col md={4} className="mb-md-4" key={memberData.firstLine}>
+          <Col sm={9} md={6} lg={4} className="col-12" key={memberData.firstLine}>
             <Member {...memberData} />
           </Col>
         ))}

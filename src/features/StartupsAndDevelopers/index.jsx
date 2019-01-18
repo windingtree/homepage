@@ -20,7 +20,7 @@ const StartupsAndDevelopers = () => (
   <div id="app-content">
     <CustomHelmet {...metadata.community} />
     <Hero variant="startupsAndDevelopers" icons />
-    <section className="app-section section-already-with-us-quote">
+    <section className="app-section section-quote">
       <Container>
         <Row className="justify-content-md-center">
           <Col md={10}>

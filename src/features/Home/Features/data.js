@@ -4,7 +4,7 @@ import EasyAccess from './images/2.svg';
 import LifTokens from './images/3.svg';
 import EndToEnd from './images/4.svg';
 import Collaboration from './images/5.svg';
-import NewProducts from './images/6.svg';
+// import NewProducts from './images/6.svg';
 
 type FeatureType = {
   name: string,
