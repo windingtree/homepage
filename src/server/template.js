@@ -7,6 +7,7 @@ export default (html, helmet) => `
         ${helmet.link.toString()}
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+        <link rel="icon" href="/favicon.ico">
         <link rel="stylesheet" type="text/css" href="css/styles.css">
 
          <!-- Schema.org markup for Google+ -->

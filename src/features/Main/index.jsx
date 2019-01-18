@@ -7,6 +7,7 @@ import {
 } from '@windingtree/wt-ui-react';
 import metadata from 'data/metadata.json';
 import CustomHelmet from 'commons/CustomHelmet';
+import Gdpr from 'commons/Gdpr';
 
 type PropsType = {
   children: React$Node
@@ -73,6 +74,7 @@ const Main = ({ children }: PropsType) => (
   <div>
     <CustomHelmet {...metadata.default} />
     <WTNavbar />
+    <Gdpr />
     {children}
     <Footer>
       <Footer.Solutions />
