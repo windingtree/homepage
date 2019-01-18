@@ -43,12 +43,10 @@ class Gdpr extends React.Component {
       >
         <Container>
           <p>
-            Winding Tree uses cookies to enhance your experience. We use these for advertising
-            and analytics purposes. By continuing to use our site, you agree to our
-            <Alert.Link href="https://www.windingtree.com/cookiepolicy.pdf">
-              use of cookies
+            This site uses its own cookies and third-party cookies to gather information on your browsing for statistical purposes. If you continue browsing, we consider that you accept its use and&#8195; 
+            <Alert.Link href="https://www.windingtree.com/CookiePolicy.pdf">
+               Winding&nbsp;Tree&nbsp;cookie&nbsp;policy
             </Alert.Link>
-            .
           </p>
         </Container>
       </Alert>
