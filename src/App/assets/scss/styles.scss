@@ -357,7 +357,12 @@ a.card {
   }
 }
 
-// SECTION: roadmap
+// SECTION: DEVELOPERS AND CONTRIBUTORS
+.devs-marquee, .slider-partners {
+  overflow: hidden;
+}
+
+// SECTION: ROADMAP
 .section-roadmap {
 
   $roadmap-icon-size: 35px;
