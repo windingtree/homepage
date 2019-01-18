@@ -8,23 +8,23 @@ const Group = (props: GroupType) => {
   const {
     title, elements, main, muted,
   } = props;
-  const h4ClassName = classNames(
+  const h3ClassName = classNames(
     'text-center',
     {
-      'main-group h3 pt-1': main,
-      'pt-3': !main,
+      'main-group': main,
+      lead: !main,
       'text-muted': muted,
     },
   );
   const ulClassName = classNames(
     'list-unstyled',
     {
-      'pl-lg-5': main,
+      // 'pl-lg-5': main,
     },
   );
   return (
-    <div>
-      <h4 className={h4ClassName}>{title}</h4>
+    <div className="roadmap__group">
+      <h3 className={h3ClassName}>{title}</h3>
       <ul className={ulClassName}>
         {elements.map((element, index) => (
           // eslint-disable-next-line react/no-array-index-key

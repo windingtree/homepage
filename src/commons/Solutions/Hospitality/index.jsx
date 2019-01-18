@@ -17,14 +17,13 @@ const Hospitality = () => (
         </Solution.Item>
         {/*        <Button
           href="https://github.com/windingtree/"
-          className="mb-1 mb-sm-0 mb-md-1 mb-lg-0 mr-sm-1 d-block d-sm-inline-block"
+          className="mb-1 mb-sm-0 mb-md-1 mb-lg-0 mr-sm-1"
           variant="accent"
         >
           Apply for integration
         </Button> */}
         <Button
           href="#usecases"
-          className="d-block d-sm-inline-block"
           variant="dark"
           outlined
         >

@@ -6,7 +6,7 @@ import {
 import EventTabs from './EventTabs';
 
 const Events = () => (
-  <section className="app-section" id="Events">
+  <section className="app-section section-events" id="Events">
     <Container>
       <header>
         <Row>

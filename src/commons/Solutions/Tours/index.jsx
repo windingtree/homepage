@@ -17,14 +17,13 @@ const Tours = () => (
         </Solution.Item>
         {/*        <Button
           href="https://github.com/windingtree/"
-          className="mb-1 mb-sm-0 mb-md-1 mb-lg-0 mr-sm-1 d-block d-sm-inline-block"
+          className="mb-1 mb-sm-0 mb-md-1 mb-lg-0 mr-sm-1"
           variant="accent"
         >
           Contact our team
         </Button> */}
         {/* <Button
           href="https://docs.google.com/forms/d/e/1FAIpQLSevHx6goFLdbdI7TSX6JFugNlT56nlRD7I1XjqGc-06pIoemA/viewform"
-          className="d-block d-sm-inline-block"
           variant="dark"
           outlined
         >

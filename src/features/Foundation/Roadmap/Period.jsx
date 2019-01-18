@@ -29,7 +29,7 @@ class Period extends React.Component<PeriodType, StateType> {
 
   render() {
     const {
-      firstLine, secondLine, groups, currentPeriod,
+      firstLine, secondLine, thirdLine, groups, currentPeriod,
     } = this.props;
     const { isOpened } = this.state;
     const buttonClassName = classNames(
@@ -41,19 +41,14 @@ class Period extends React.Component<PeriodType, StateType> {
       },
     );
 
-    const dotsClassName = classNames(
-      'border-top-0',
-      { roadmap__body__item: isOpened },
-      { 'roadmap-dots': isOpened },
-    );
-
     return (
-      <div>
-        <header>
+      <div className="roadmap__item">
+        <header className="roadmap__header">
           <Row>
-            <Col className="col-12 text-center roadmap__body__content ">
-              <h2>{firstLine}</h2>
-              <div className="lead">{secondLine}</div>
+            <Col className="col-12 text-center">
+              <h2 className="mb-0">{firstLine}</h2>
+              <div className="lead text-muted mb-0">{secondLine}</div>
+              <div className="badge badge-light text-lg mb-1">{thirdLine}</div>
               <div className="roadmap__toggle">
                 <a className="text-primary" role="button" tabIndex={0} onClick={this.handleCollapseClick}>
                   <i className={buttonClassName} />
@@ -62,15 +57,19 @@ class Period extends React.Component<PeriodType, StateType> {
             </Col>
           </Row>
         </header>
-        <Collapse isOpened={isOpened} className={dotsClassName}>
-          <Row>
-            {groups.map(group => (
-              <Col lg={group.main ? 6 : 3} key={`${firstLine}-${group.title}`}>
-                <Group {...group} muted={!currentPeriod} />
-              </Col>
-            ))}
-          </Row>
-        </Collapse>
+        <div className="roadmap__body">
+          <Collapse isOpened={isOpened}>
+            <div className="roadmap__body__content">
+              <Row>
+                {groups.map(group => (
+                  <Col lg={group.main ? 4 : 4} key={`${firstLine}-${group.title}`}>
+                    <Group {...group} muted={!currentPeriod} />
+                  </Col>
+                ))}
+              </Row>
+            </div>
+          </Collapse>
+        </div>
       </div>
     );
   }
