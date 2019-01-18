@@ -74,7 +74,13 @@ h3, .h3, .lead {font-size: 24px;}
             text-align: left;
             padding-left: 0;
             .card-title {
-              .mdi-chevron-right {display:inline-block; }
+                position: relative;
+              .mdi-chevron-right {
+                display:inline-block; 
+                position: absolute;
+                right: 10px;
+                top: 5px;
+                }
              }
             }
           }
