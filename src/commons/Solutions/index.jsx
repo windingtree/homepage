@@ -35,7 +35,7 @@ const Solutions = (props: *) => {
                   <OTA />
                 </div>)}
             <hr className="my-md-4" id="usecases" />
-            <h2 className="mb-1">Use Cases</h2>
+            <h2 className="mb-1 text-center">Use Cases</h2>
             <PartnersAndContributors tab={1} id="partners-tabs" />
             <Container>
               <Row>

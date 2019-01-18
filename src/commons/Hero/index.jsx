@@ -51,12 +51,19 @@ class Hero extends React.Component<PropsType, StateType> {
               <h1 className="text-white">{heroData.title}</h1>
               <p className="lead text-white text-sm-lg mb-0">{heroData.text}</p>
               { heroData.primaryButtonHref && heroData.primaryButtonLabel && (
-              <LinkContainer to={heroData.primaryButtonHref}>
-                <Button variant="primary" className="mt-1" target="_blank">
-                  {heroData.primaryButtonLabel}
-                </Button>
-              </LinkContainer>
-              )}
+                heroData.primaryButtonHref.startsWith('http')
+                  ? (
+                    <Button variant="primary" className="mt-1" href={heroData.primaryButtonHref}>
+                      {heroData.primaryButtonLabel}
+                    </Button>
+                  )
+                  : (
+                    <LinkContainer to={heroData.primaryButtonHref}>
+                      <Button variant="primary" className="mt-1" target="_blank">
+                        {heroData.primaryButtonLabel}
+                      </Button>
+                    </LinkContainer>
+                  ))}
               { heroData.SecondaryButtonHref && heroData.SecondaryButtonLabel && (
               <LinkContainer to={heroData.SecondaryButtonHref}>
                 <Button outlined variant="light" className="mt-1" target="_blank">{heroData.SecondaryButtonLabel}</Button>
