@@ -73,8 +73,8 @@ const data: DataType = {
   startupsAndDevelopers: {
     title: 'Make future of travel together',
     text: 'Developers, startups, evangelists and geeks are welcome!',
-    primaryButtonHref: '#',
-    primaryButtonLabel: 'Join community',
+    primaryButtonHref: 'https://github.com/windingtree',
+    primaryButtonLabel: 'Github',
     imgSrc: startupsAndDevelopersImg,
   },
   suppliers: {
