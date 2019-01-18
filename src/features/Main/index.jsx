@@ -5,6 +5,8 @@ import { LinkContainer } from 'react-router-bootstrap';
 import {
   Navbar, Footer, Container, Nav, Button,
 } from '@windingtree/wt-ui-react';
+import metadata from 'data/metadata.json';
+import CustomHelmet from 'commons/CustomHelmet';
 import Gdpr from 'commons/Gdpr';
 
 type PropsType = {
@@ -88,6 +90,7 @@ class WTNavbar extends Component {
 
 const Main = ({ children }: PropsType) => (
   <div>
+    <CustomHelmet {...metadata.default} />
     <WTNavbar />
     <Gdpr />
     {children}
@@ -98,7 +101,6 @@ const Main = ({ children }: PropsType) => (
       <Footer.Contacts />
       <Footer.Comunity />
     </Footer>
-
   </div>
 );
 

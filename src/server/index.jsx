@@ -1,6 +1,7 @@
 import React from 'react';
 import { StaticRouter as Router } from 'react-router-dom';
 import ReactDOMServer from 'react-dom/server';
+import { Helmet } from 'react-helmet';
 import App from 'App/Routes';
 import templateFn from './template';
 
@@ -11,6 +12,7 @@ export default (req, res) => {
       <App />
     </Router>,
   );
-  const template = templateFn(html);
+  const helmet = Helmet.renderStatic();
+  const template = templateFn(html, helmet);
   res.send(template);
 };

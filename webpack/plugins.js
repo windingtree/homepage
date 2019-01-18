@@ -4,9 +4,12 @@ const git = require('git-rev');
 const packageJson = require('../package');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin')
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const Dotenv = require('dotenv-webpack');
+
+
 
 const commons = [
     new webpack.NamedModulesPlugin(),
@@ -14,6 +17,7 @@ const commons = [
         path: resolve('./.env'),
         systemvars: true
     }),
+    new CopyWebpackPlugin(['static/'])
 ];
 const prodPlugins = commons.concat(
     [new webpack.LoaderOptionsPlugin({

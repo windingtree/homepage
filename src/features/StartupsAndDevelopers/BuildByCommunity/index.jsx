@@ -3,7 +3,7 @@ import Tile from 'commons/Card';
 import {
   Container, Row, Col,
 } from '@windingtree/wt-ui-react';
-import ProjectList from './data.json';
+import projectList from './data.json';
 import TileImg from './img/github.svg';
 
 const BuildByCommunity = () => (
@@ -16,7 +16,7 @@ const BuildByCommunity = () => (
     <Row className="justify-content-md-center">
       <Col md={9}>
         <Row>
-          {ProjectList.projects.map(project => (
+          {projectList.projects.map(project => (
             <Col md={6}>
               <Tile
                 imgSrc={TileImg}

@@ -14,12 +14,12 @@ const Routes = () => (
   <ScrollHandler>
     <Main>
       <Switch>
-        <Route path="/foundation" component={Foundation} />
-        <Route path="/suppliers" component={Suppliers} />
-        <Route path="/sellers" component={Sellers} />
-        <Route path="/software-vendors" component={SoftwareVendors} />
-        <Route path="/lif-token" component={LifToken} />
-        <Route path="/startups-and-developers" component={Community} />
+        <Route path={['/foundation', '/foundation.html']} component={Foundation} />
+        <Route path={['/suppliers', '/suppliers.html']} component={Suppliers} />
+        <Route path={['/sellers', '/sellers.html']} component={Sellers} />
+        <Route path={['/software-vendors', '/software-vendors.html']} component={SoftwareVendors} />
+        <Route path={['/lif-token', '/lif-token.html']} component={LifToken} />
+        <Route path={['/startups-and-developers', '/startups-and-developers.html']} component={Community} />
         <Route component={Home} />
       </Switch>
     </Main>

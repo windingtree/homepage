@@ -6,6 +6,8 @@ import Hero from 'commons/Hero';
 import SuscribeForUpdates from 'commons/SuscribeForUpdates';
 import ReadyToUse from 'commons/ReadyToUse';
 import VideoGallery from 'commons/VideoGallery';
+import metadata from 'data/metadata.json';
+import CustomHelmet from 'commons/CustomHelmet';
 import Team from './Team';
 import About from './About';
 import Roadmap from './Roadmap';
@@ -13,6 +15,7 @@ import { members, advisors } from './data';
 
 const Foundation = () => (
   <main id="app-content">
+    <CustomHelmet {...metadata.foundation} />
     <Hero variant="foundation" />
     <About id="about" />
     <Team title="Team" members={members} />
