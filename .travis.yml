@@ -1,18 +1,28 @@
-language: ruby
-rvm:
-- 2.5.1
+language: node_js
 notifications:
   email: false
-branches:
-  only:
-    - master
-script: "bundle exec jekyll build JEKYLL_ENV=production"
-deploy:
-  provider: pages
-  skip_cleanup: true
-  local_dir: _site
-  github_token: $GITHUB_TOKEN
-  keep-history: true
-  fqdn: windingtree.com
-  on:
-    branch: master
+cache: npm
+jobs:
+  include:
+  - stage: test
+    script:
+    # Disbaled to prevent delays. 
+    # https://github.com/windingtree/wt-ui-react/issues/68
+    # https://github.com/windingtree/homepage/issues/132
+    # - npm run lint
+    # - npm run flow
+    - npm run build
+  - stage: deploy-next
+    install: true
+    if: branch = next AND type = push
+    script:
+    - npm i -g now
+    - npm run deploy:next
+    - npm run alias:next
+  - stage: deploy-version
+    install: true
+    if: tag IS present
+    script:
+    - npm i -g now
+    - npm run deploy:release
+    - npm run alias:release

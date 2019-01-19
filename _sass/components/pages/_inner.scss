@@ -1,7 +1,0 @@
-.inner-page {
-    @include media-breakpoint-up('md') {
-        background-image: url($baseurl + "/assets/img/pages/inner/bg-left.png"), url($baseurl + "/assets/img/pages/inner/bg-right.png");
-        background-position: 0 50vh, 100% 50vh;
-        background-repeat: repeat-y, repeat-y;
-    }
-}
