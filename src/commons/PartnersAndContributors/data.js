@@ -49,7 +49,6 @@ const collaborators: CollaboratorType[] = [
   {
     name: 'rsk',
     text: 'Winding Tree will provide a testnet network using the smart contract solutions provided by the RSK network, using a two way payment channels we will be able to have a Lif token and smart contract platform for hotel distribution over bitcoin',
-    href: 'https://www.rsk.co/',
     imgSrc: rsk,
     imgWidth: 110,
     imgTopPosition: -11,
