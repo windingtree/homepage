@@ -281,7 +281,7 @@ const roadmapData: RoadmapDataType = [
             text: 'Winding Tree Hackathon',
             tooltip: 'Winding Tree organized a great hackathon in Prague which was attended by more than 100 developers from all over the world',
             buttonLabel: 'recap',
-            href: 'https://windingtree.com/winding-tree-hackathon-prague-2018',
+            href: 'https://blog.windingtree.com/hacktravel-hackathon-recap-feacb65cc47d',
           },
           {
             done: DONE,
