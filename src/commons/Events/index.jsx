@@ -6,7 +6,7 @@ import {
 import EventTabs from './EventTabs';
 
 const Events = () => (
-  <section className="app-section section-events" id="Events">
+  <section className="app-section section-events">
     <Container>
       <header>
         <Row>
@@ -15,7 +15,7 @@ const Events = () => (
           </Col>
         </Row>
       </header>
-      <Row className="justify-content-center">
+      <Row id="Events" className="justify-content-center">
         <Col md={10}>
           <EventTabs />
           <footer className="alert alert-accent-light text-center px-1">
