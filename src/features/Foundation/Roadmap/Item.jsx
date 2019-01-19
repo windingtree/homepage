@@ -28,11 +28,12 @@ const Item = (props: ItemType) => {
     <>
       <i className={iconClassName} />
       <span>{text}</span>
-      {buttonLabel && href && (
-        <LinkContainer to={href}>
-          <Button variant={buttonVariant} outlined={!isMainButton} className="btn btn-sm" target="_blank">{buttonLabel}</Button>
-        </LinkContainer>
-      ) }
+      {buttonLabel && href && (href.startsWith('http')
+        ? (<Button variant={buttonVariant} outlined={!isMainButton} size="sm" href={href}>{buttonLabel}</Button>)
+        : (
+          <LinkContainer to={href}>
+            <Button variant={buttonVariant} outlined={!isMainButton} size="sm">{buttonLabel}</Button>
+          </LinkContainer>))}
     </>
   );
 };
