@@ -17,24 +17,28 @@ const Banner = (props: PropsType) => {
   const {
     variant, icons, id,
   } = props;
-  const bannerData = data[variant];
+  const {
+    title, text, mdiIcon, href, buttonLabel,
+  } = data[variant];
   return (
     <article className="app-section section-banner bg-grad" id={id}>
       <Container>
         <Row className="align-items-center" flex>
           <Col lg={8} className="mb-1 mb-md-0 text-center text-lg-left">
-            <h2 className="text-white">{bannerData.title}</h2>
-            <p className="lead text-white text-sm-lg">{bannerData.text}</p>
+            <h2 className="text-white">{title}</h2>
+            <p className="lead text-white text-sm-lg">{text}</p>
             {icons && <IconList variant="white" size={48} />}
           </Col>
           <Col lg={4} className="text-center">
-            <i className={`mdi mdi-xxl ${bannerData.mdiIcon} text-white d-none d-lg-inline`} />
-            <LinkContainer to={bannerData.href}>
-              <Button outlined variant="light" className="mt-0 mt-lg-1">{bannerData.buttonLabel}</Button>
-            </LinkContainer>
+            <i className={`mdi mdi-xxl ${mdiIcon} text-white d-none d-lg-inline`} />
+            { (href.startsWith('http')
+              ? (<Button outlined variant="light" className="mt-0 mt-lg-1" href={href}>{buttonLabel}</Button>)
+              : (
+                <LinkContainer to={href}>
+                  <Button outlined variant="light" className="mt-0 mt-lg-1">{buttonLabel}</Button>
+                </LinkContainer>))}
           </Col>
         </Row>
-
       </Container>
     </article>
   );
