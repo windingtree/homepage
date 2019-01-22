@@ -139,6 +139,16 @@ a.card {
   }
  }
 
+// EVENTS / COLLAPSE
+.ReactCollapse--collapse {
+  .ReactCollapse--content {
+    cursor: default;
+  }
+  &[style*="height: 0"]
+  .ReactCollapse--content {
+    cursor: pointer;
+  }
+}
 
 // Video Gallery
 .card-video {
@@ -271,7 +281,7 @@ a.card {
   }
 }
 
-// Make the menu whithe when opened in mobile
+// Make the menu white when opened in mobile
 @media all and (max-width: 990px) {
 
 	.navbar.navbar-dark.is-open {
