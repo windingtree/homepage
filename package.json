@@ -1,6 +1,6 @@
 {
   "name": "winding-tree",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "main": "src/App/index.jsx",
   "scripts": {
     "start": "NODE_ENV=production node ./server.js",
