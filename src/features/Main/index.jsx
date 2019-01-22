@@ -3,11 +3,12 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { LinkContainer } from 'react-router-bootstrap';
 import {
-  Navbar, Footer, Container, Nav, Button,
+  Navbar, Container, Nav, Button,
 } from '@windingtree/wt-ui-react';
 import metadata from 'data/metadata.json';
 import CustomHelmet from 'commons/CustomHelmet';
 import Gdpr from 'commons/Gdpr';
+import Footer from './Footer';
 
 type PropsType = {
   children: React$Node
@@ -23,7 +24,7 @@ class WTNavbar extends Component {
   }
 
   toggle() {
-    this.setState({ expanded: !this.state.expanded });
+    this.setState(({ expanded }) => ({ expanded: !expanded }));
   }
 
   render() {
@@ -33,7 +34,7 @@ class WTNavbar extends Component {
         <Navbar expand="lg" variant="animated" className={`navbar-nav--animated-btn ${expanded ? 'is-open' : null}`}>
           <Container>
             <Navbar.Brand to="/" as={Link} className="mr-2" />
-            <Navbar.Toggle aria-controls="basic-navbar-nav" className="border-0" onClick={this.toggle.bind(this)}>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" className="border-0" onClick={this.toggle}>
               <i className="mdi mdi-24px mdi-menu" />
             </Navbar.Toggle>
             <Navbar.Collapse id="basic-navbar-nav">
@@ -94,13 +95,7 @@ const Main = ({ children }: PropsType) => (
     <WTNavbar />
     <Gdpr />
     {children}
-    <Footer>
-      <Footer.Solutions />
-      <Footer.LifToken />
-      <Footer.About />
-      <Footer.Contacts />
-      <Footer.Comunity />
-    </Footer>
+    <Footer />
   </div>
 );
 
