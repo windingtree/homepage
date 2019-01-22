@@ -51,6 +51,11 @@ h3, .h3, .lead {font-size: 24px;}
   }
 }
 
+// MODALS
+.modal-backdrop.show {
+  opacity: .9;
+}
+
 // CARDS
 @media (max-width: 768px) {
 
@@ -76,7 +81,7 @@ h3, .h3, .lead {font-size: 24px;}
             .card-title {
                 position: relative;
               .mdi-chevron-right {
-                display:inline-block; 
+                display:inline-block;
                 position: absolute;
                 right: 10px;
                 top: 5px;
@@ -203,12 +208,16 @@ a.card {
 }
 
 // Navbar transition
-
+html {
+  // temporary fix to hice the horizontal
+  // scrollbar douring the transition
+  overflow-x: hidden;
+}
 .navbar-nav--animated-btn {
 
   &.navbar-dark {
     &:not(.is-open) #navbar-btn {
-      overflow:hidden;
+      overflow: hidden;
       width: 0;
       margin-left: -30px;
       transition: all 0.6s ease-out;
@@ -256,26 +265,53 @@ a.card {
   }
 }
 
-// Make the menu whithe when opened in mobile
-@media all and (max-width: 990px) {
 
+// NAVBAR
+.navbar-brand {transition: none;}
+
+.navbar.navbar-dark {
+  .navbar-brand {
+    background-image: url("../img/logos/wt-white.svg");
+  }
+}
+.navbar.navbar-light {
+  .navbar-brand {
+    background-image: url("../img/logos/wt-grad.svg");
+  }
+}
+
+@media all and (max-width: 991px) {
+  // Make the menu whithe when opened in mobile
 	.navbar.navbar-dark.is-open {
 		background: #fff !important;
 
-	}
-	.navbar.navbar-dark.is-open .navbar-brand {
-		background-image: url("../img/sm-color.svg");
-	}
+    .navbar-brand {
+      background-image: url("../img/logos/wt-grad.svg");
+    }
 
-	.navbar.navbar-dark.is-open .navbar-toggler,
-	.navbar.navbar-dark.is-open a.nav-link,
-	.navbar.navbar-dark.is-open a.nav-link.dropdown-toggle {
-		color: #000;
+    .navbar-toggler,
+    a.nav-link,
+    a.nav-link.dropdown-toggle {
+      color: #000;
+    }
+    a.nav-link:hover {
+      color: rgba(0, 0, 0, 0.9);
+    }
 	}
-	.navbar.navbar-dark.is-open a.nav-link:hover {
-		color: rgba(0, 0, 0, 0.9);
-	}
+}
 
+@media all and (max-width: 768px) {
+	.navbar.navbar-dark {
+    .navbar-brand {
+      background-image: url("../img/logos/sm/wt-white--sm.svg");
+    }
+  }
+  .navbar.navbar-light,
+  .navbar.navbar-dark.is-open {
+    .navbar-brand {
+      background-image: url("../img/logos/sm/wt-grad--sm.svg");
+    }
+  }
 }
 
 .user-bio .ReactCollapse--collapse {
