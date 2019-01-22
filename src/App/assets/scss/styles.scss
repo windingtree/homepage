@@ -76,7 +76,7 @@ h3, .h3, .lead {font-size: 24px;}
             .card-title {
                 position: relative;
               .mdi-chevron-right {
-                display:inline-block; 
+                display:inline-block;
                 position: absolute;
                 right: 10px;
                 top: 5px;
@@ -122,6 +122,31 @@ a.card {
         border-bottom-color: #0f3697;
       }
     }
+  }
+}
+
+// LOGO GALLERY
+@media all and (max-width: 768px) {
+  .logo-gallery {
+    max-width: 430px;
+    margin: 0 auto;
+    .logo-gallery-item {
+      max-width: 50%;
+      img {
+        max-width: 80%;
+      }
+    }
+  }
+ }
+
+// EVENTS / COLLAPSE
+.ReactCollapse--collapse {
+  .ReactCollapse--content {
+    cursor: default;
+  }
+  &[style*="height: 0"]
+  .ReactCollapse--content {
+    cursor: pointer;
   }
 }
 
@@ -256,7 +281,7 @@ a.card {
   }
 }
 
-// Make the menu whithe when opened in mobile
+// Make the menu white when opened in mobile
 @media all and (max-width: 990px) {
 
 	.navbar.navbar-dark.is-open {
