@@ -14,13 +14,13 @@ type PropsType = {
   children: React$Node
 };
 
+type StateType = {
+  expanded: boolean
+};
 
-class WTNavbar extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      expanded: false,
-    };
+class WTNavbar extends Component<*, StateType> {
+  state = {
+    expanded: false,
   }
 
   toggle() {
@@ -31,7 +31,7 @@ class WTNavbar extends Component {
     const { expanded } = this.state;
     return (
       <header id="app-header" className="header-sticky">
-        <Navbar expand="lg" variant="animated" className={`navbar-nav--animated-btn ${expanded ? 'is-open' : null}`}>
+        <Navbar expand="lg" variant="animated" className={`navbar-nav--animated-btn ${expanded ? 'is-open' : ''}`}>
           <Container>
             <Navbar.Brand to="/" as={Link} className="mr-2" />
             <Navbar.Toggle aria-controls="basic-navbar-nav" className="border-0" onClick={this.toggle}>

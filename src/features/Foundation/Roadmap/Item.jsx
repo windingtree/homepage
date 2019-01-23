@@ -8,7 +8,9 @@ import {
   STARTING, IN_PROGRESS, DONE,
 } from './data';
 
-const Item = (props: ItemType) => {
+type PropsType = ItemType & { muted: boolean };
+
+const Item = (props: PropsType) => {
   const {
     done, text, buttonLabel, href, muted, isMainButton,
   } = props;

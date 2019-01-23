@@ -3,7 +3,7 @@ import React from 'react';
 import { Collapse } from 'react-collapse';
 import MemberImage from './MemberImage';
 import Icons from './Icons';
-import type { TeamMemberType } from './data';
+import type { TeamMemberType } from '../data';
 
 type StateType = {
   isOpened: boolean

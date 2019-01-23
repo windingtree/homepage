@@ -8,15 +8,21 @@ import './styles.scss';
 
 const COOKIE = 'isGdprReaded';
 
-class Gdpr extends React.Component {
-  constructor(props) {
+type StateType = {
+  cookies: *,
+  show: boolean
+};
+
+class Gdpr extends React.Component<*, StateType> {
+  state = {
+    cookies: {},
+    show: false,
+  }
+
+  constructor(props: *) {
     super(props);
     const cookies = new Cookies();
-
-    this.state = {
-      cookies,
-      show: false,
-    };
+    this.setState({ cookies });
   }
 
   componentDidMount() {
