@@ -1,6 +1,7 @@
 [ignore]
 .*/@storybook/.*
 <PROJECT_ROOT>/flow-typed
+.*\.js\.flow
 [include]
 
 [libs]
