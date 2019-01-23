@@ -19,16 +19,10 @@ class Gdpr extends React.Component<*, StateType> {
     show: false,
   }
 
-  constructor(props: *) {
-    super(props);
-    const cookies = new Cookies();
-    this.setState({ cookies });
-  }
-
   componentDidMount() {
-    const { cookies } = this.state;
+    const cookies = new Cookies();
     const gdpr = cookies.get(COOKIE);
-    this.setState({ show: !gdpr });
+    this.setState({ cookies, show: !gdpr });
   }
 
   handleOnClose = () => {
@@ -49,7 +43,9 @@ class Gdpr extends React.Component<*, StateType> {
       >
         <Container>
           <p>
-            This site uses its own cookies and third-party cookies to gather information on your browsing for statistical purposes. If you continue browsing, we consider that you accept its use and&#8195; 
+            This site uses its own cookies and third-party cookies to gather information on your
+            browsing for statistical purposes. If you continue browsing, we consider that you
+            accept its use and&#8195;
             <Alert.Link href="/CookiePolicy.pdf" target="_blank">
                Winding&nbsp;Tree&nbsp;cookie&nbsp;policy
             </Alert.Link>
