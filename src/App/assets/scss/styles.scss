@@ -223,6 +223,11 @@ a.card {
 }
 
 // NAVBAR
+html {
+  // temporary fix to hice the horizontal
+  // scrollbar douring the transition
+  overflow-x: hidden;
+}
 .navbar .navbar-nav .nav-item {
   font-weight: inherit;
 }
