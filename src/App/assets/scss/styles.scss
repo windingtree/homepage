@@ -51,6 +51,11 @@ h3, .h3, .lead {font-size: 24px;}
   }
 }
 
+// MODALS
+.modal-backdrop.show {
+  opacity: 0.9;
+}
+
 // CARDS
 @media (max-width: 768px) {
 
