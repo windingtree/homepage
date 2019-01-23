@@ -101,7 +101,7 @@ const events: EventsType = {
       buttonHref: 'https://www.arabianconference.com/',
       buttonText: 'check event',
     },
-    
+
   ],
   past: [
     {
