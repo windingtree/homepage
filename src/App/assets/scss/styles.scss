@@ -51,6 +51,11 @@ h3, .h3, .lead {font-size: 24px;}
   }
 }
 
+// MODALS
+.modal-backdrop.show {
+  opacity: 0.9;
+}
+
 // CARDS
 @media (max-width: 768px) {
 
@@ -223,6 +228,11 @@ a.card {
 }
 
 // NAVBAR
+html {
+  // temporary fix to hice the horizontal
+  // scrollbar douring the transition
+  overflow-x: hidden;
+}
 .navbar .navbar-nav .nav-item {
   font-weight: inherit;
 }
