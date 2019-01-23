@@ -69,7 +69,7 @@ class Hero extends React.Component<PropsType, StateType> {
                 <Button outlined variant="light" className="mt-1" target="_blank">{heroData.SecondaryButtonLabel}</Button>
               </LinkContainer>
               )}
-              { heroData.SecondaryButtonLabel && heroData.videoSrc && <Button outlined variant="light ml-sm-1 ml-md-0 ml-lg-1 " className="mt-1" onClick={this.hanldeOnClick}>{heroData.SecondaryButtonLabel}</Button> }
+              { heroData.SecondaryButtonLabel && heroData.videoSrc && <Button outlined variant="light" className="mt-1 ml-sm-1 ml-md-0 ml-lg-1" onClick={this.hanldeOnClick}>{heroData.SecondaryButtonLabel}</Button> }
             </Col>
 
           </Row>
