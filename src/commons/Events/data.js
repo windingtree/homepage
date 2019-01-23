@@ -14,6 +14,10 @@ import phocusLogo from './images/phocus.jpg';
 import iataLogo from './images/iata-as.png';
 import htngLogo from './images/HTNG.png';
 import ttc2018Logo from './images/ttc2018.png';
+import btoLogo from './images/bto.png';
+import plusLogo from './images/plus.png';
+import icaoLogo from './images/icao.gif';
+import ahicLogo from './images/ahic.jpg';
 
 export type EventType = {
   startDate: string,
@@ -57,6 +61,47 @@ const events: EventsType = {
       buttonHref: 'https://app.azavista.com/event_website_pages/view/home/5c0e9337-1fa4-4e18-8bf6-48540af00018/ecd04a7cac',
       buttonText: 'check event',
     },
+    {
+      startDate: '21-22',
+      startMonth: "Mar'19",
+      name: 'BTO11',
+      location: 'Florence, Italy',
+      imgSrc: btoLogo,
+      text: 'It can be defined as an “event-conference” (whilst also being an expo, a seminar, a debate, entertainment and much more) with a schedule replete with organised events – in 2017 alone, there were 160 – over two days dedicated to operators within the long chain of tourism, and not only receptive, to those responsible for governing tourism throughout the territories, stakeholders and communities, those engaged in the marketing and distribution of tourism products, along with all who study, teach and undertake research.',
+      buttonHref: 'https://www.buytourismonline.com/?lang=en',
+      buttonText: 'check event',
+    },
+    {
+      startDate: '2-4',
+      startMonth: "Apr'19",
+      name: 'ZurichPlUs 2019',
+      location: 'Zurich, Germany',
+      imgSrc: plusLogo,
+      text: 'We all participate on the established travel conference circuit but know heart of hearts that it is not all that effective for engaging and having meaningful discussions with other thought leaders in our complex and ever changing industry.  The PLUs Forum (People Like Us) aims to provide a dynamic framework for meaningful and memorable interactions.',
+      buttonHref: 'https://www.the-plus-forum.org/',
+      buttonText: 'check event',
+    },
+    {
+      startDate: '3-4',
+      startMonth: "Apr'19",
+      name: 'ICAO Blockchain Aviation Summit and Exhibition',
+      location: 'Abu Dhabi, UAE',
+      imgSrc: icaoLogo,
+      text: 'Join us in this inaugural ICAO Blockchain Aviation Summit and Exhibition, a joint aviation and technology event, with the theme Blockchain: Unlock the Potential, which will be convened in Abu Dhabi, United Arab Emirates from 3 to 4 April 2019, which is graciously hosted by the General Civil Aviation Authorities (GCAA), and will bring together States, industry, partners and thought leaders to introduce and explore the innovations in Blockchain technology that support sound, safe, secure and economically-viable civil aviation systems.',
+      buttonHref: 'https://www.icao.int/Meetings/BLOCK2019/Pages/default.aspx',
+      buttonText: 'check event',
+    },
+    {
+      startDate: '9-11',
+      startMonth: "Apr'19",
+      name: 'Arabian Hotel Investment Conference',
+      location: 'Ras Al-Khaimah, UAE',
+      imgSrc: ahicLogo,
+      text: 'In the three days you spend with us, you will experience an enhanced AHIC like never before! It will be here, away from the day to day routines, where you will have the opportunity to focus on insights shared by world-class speakers, creating relationships and discovering opportunities which will drive your business forward.',
+      buttonHref: 'https://www.arabianconference.com/',
+      buttonText: 'check event',
+    },
+    
   ],
   past: [
     {
