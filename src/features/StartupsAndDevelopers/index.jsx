@@ -35,9 +35,9 @@ const StartupsAndDevelopers = () => (
 
     <article className="section-already-with-us">
 
-      <Container>
-        <section className="app-section ">
+      <section className="app-section ">
 
+        <Container>
           <header className="mb-2 mb-md-4 text-center">
             <h2>Already With Us</h2>
           </header>
@@ -46,14 +46,14 @@ const StartupsAndDevelopers = () => (
               <PartnersAndContributors />
             </Col>
           </Row>
+        </Container>
 
-          <header className="text-center mb-1">
-            <h3 className="text-muted">Developers and Contributors</h3>
-          </header>
-          <Contributors />
+        <header className="text-center mb-2">
+          <h3 className="text-muted">Developers and Contributors</h3>
+        </header>
+        <Contributors />
 
-        </section>
-      </Container>
+      </section>
 
       <BuildByCommunity />
       <Events />
