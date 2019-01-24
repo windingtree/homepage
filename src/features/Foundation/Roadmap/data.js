@@ -1,11 +1,16 @@
 /* @flow */
 
+const STARTING: number = 0;
+const IN_PROGRESS: number = 1;
+const DONE: number = 2;
+
 export type ItemType = {
-  done: boolean,
+  done: number,
   text: string,
-  buttonLabel: string,
-  href: string,
-  isMainButton: boolean // When true, the button is styled as primary
+  buttonLabel?: string,
+  href?: string,
+  isMainButton?: boolean, // When true, the button is styled as primary
+  tooltip?: string
 };
 
 export type GroupType = {
@@ -17,17 +22,13 @@ export type GroupType = {
 export type PeriodType = {
   firstLine: string,
   secondLine: string,
+  thirdLine: string,
   isOpened: boolean,
   currentPeriod: boolean, // when false, Perdiod will be greyish
   groups: GroupType[]
 };
 
 export type RoadmapDataType = PeriodType[];
-
-
-const STARTING: number = 0;
-const IN_PROGRESS: number = 1;
-const DONE: number = 2;
 
 const roadmapData: RoadmapDataType = [
   {
