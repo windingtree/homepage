@@ -227,6 +227,16 @@ a.card {
 
 }
 
+// BLOCKQUOTE
+.blockquote {
+  .tab-pane & {
+    margin-bottom: 0;
+  }
+  & .blockquote-body {
+    margin-bottom: 0;
+  }
+}
+
 // NAVBAR
 html {
   // temporary fix to hice the horizontal
