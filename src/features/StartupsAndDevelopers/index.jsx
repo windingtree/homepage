@@ -32,33 +32,34 @@ const StartupsAndDevelopers = () => (
 
     <Banner variant="howWeWork" />
 
-    <hr className="divider m-0" />
 
-    <section className="app-section section-already-with-us">
+    <article className="section-already-with-us">
 
       <Container>
-        <header className="mb-2 mb-md-4 text-center">
-          <h2>Already With Us</h2>
-        </header>
+        <section className="app-section ">
 
-        <Row className="justify-content-md-center">
-          <Col md={10} className="mb-3">
-            <PartnersAndContributors />
-          </Col>
-        </Row>
+          <header className="mb-2 mb-md-4 text-center">
+            <h2>Already With Us</h2>
+          </header>
+          <Row className="justify-content-md-center">
+            <Col md={10} className="mb-3">
+              <PartnersAndContributors />
+            </Col>
+          </Row>
+
+          <header className="text-center mb-1">
+            <h3 className="text-muted">Developers and Contributors</h3>
+          </header>
+          <Contributors />
+
+        </section>
       </Container>
 
-      <header className="text-center mb-1">
-        <h3 className="text-muted">Developers and Contributors</h3>
-      </header>
-
-      <Contributors />
       <BuildByCommunity />
-
-
       <Events />
       <VideoGallery />
-    </section>
+
+    </article>
     <SuscribeForUpdates />
     <ReadyToUse />
   </div>

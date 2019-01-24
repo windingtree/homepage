@@ -8,16 +8,16 @@ import TileImg from './img/github.svg';
 
 const BuildByCommunity = () => (
 
-  <Container className="app-section section-community pb-0">
+  <Container className="app-section section-community border-top border-bottom border-light">
     <header className="mb-2 mb-md-4 text-center">
       <h2>Build by Community</h2>
     </header>
 
-    <Row className="justify-content-md-center">
-      <Col md={9}>
-        <Row>
-          {projectList.projects.map(project => (
-            <Col md={6}>
+    <Row className="justify-content-center">
+      <Col className="col-11 col-sm-12 col-md-10 col-lg-8">
+        <div className="card-deck">
+          {projectList.projects.map((project,index) => (
+              <>
               <Tile
                 imgSrc={TileImg}
                 imgWidth="100px"
@@ -25,11 +25,11 @@ const BuildByCommunity = () => (
                 text={project.text}
                 href={project.href}
               />
-            </Col>
+              {((index % 2 !== 0) && (index < 3)) ? <div className="d-none d-sm-block w-100 mb-2"/> : null}
+              </>
           ))
-              }
-
-        </Row>
+          }
+        </div>
       </Col>
     </Row>
   </Container>
