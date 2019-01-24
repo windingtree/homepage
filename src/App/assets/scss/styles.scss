@@ -289,6 +289,19 @@ html {
   }
 }
 
+
+.cover-btn {
+  position: relative;
+
+  > a {
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    z-index: 1;
+    opacity: 0;
+    &:hover {cursor: default !important;}
+  }
+}
+
 #app-content > .app-section:first-child::before {
   content: '';
   display: block;
