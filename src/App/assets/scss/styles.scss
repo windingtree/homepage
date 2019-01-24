@@ -279,14 +279,14 @@ html {
   }
 }
 
-#app-content .app-section:first-child::before {
+#app-content > .app-section:first-child::before {
   content: '';
-  display:block;
+  display: block;
   height: 66px;
 }
 
 @media all and (min-width: 768px) {
-#app-content .app-section:first-child::before  {
+#app-content > .app-section:first-child::before  {
     height: 110px;
   }
 }
