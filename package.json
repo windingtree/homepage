@@ -10,6 +10,7 @@
     "lint": "eslint --ext .jsx,.js src && stylelint src",
     "lint:fix": "eslint --fix --ext .jsx,.js src && stylelint --fix src",
     "alias:release": "now alias --team windingtree --token=$NOW_TOKEN",
+    "postalias:release": "./scripts/cloudflare-cachepurge.sh",
     "deploy:release": "now --team windingtree --token $NOW_TOKEN"
   },
   "repository": {
@@ -21,7 +22,7 @@
   "dependencies": {
     "@babel/polyfill": "^7.0.0",
     "@windingtree/wt-ui": "^1.5.1",
-    "@windingtree/wt-ui-react": "^0.11.0",
+    "@windingtree/wt-ui-react": "^0.11.1",
     "classnames": "^2.2.6",
     "express": "^4.16.4",
     "memory-fs": "^0.4.1",
