@@ -4,10 +4,10 @@ import Subscribe from './Subscribe';
 import JoinComunity from './JoinComunity';
 
 const SuscribeForUpdates = () => (
-  <div className="actions py-3 py-md-5 bg-light text-center">
+  <div className="app-section section-actions bg-light text-center">
     <div className="container">
       <div className="row">
-        <div className="col-lg mb-2 mb-md-0">
+        <div className="col-lg">
           <Subscribe />
         </div>
         <div className="col-lg">

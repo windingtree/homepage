@@ -15,7 +15,7 @@ const Solutions = (props: PropsType) => {
     body, name, role, img,
   } = props;
   return (
-    <blockquote className="blockquote">
+    <blockquote className="blockquote mb-0">
       <p className="blockquote-body">
         <i className="mdi mdi-36px mdi-format-quote-open" />
         {body}

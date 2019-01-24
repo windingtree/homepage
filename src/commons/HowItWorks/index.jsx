@@ -50,7 +50,7 @@ class HowItWorks extends React.Component<*, StateType> {
           <Row className="justify-content-md-center">
             <Col sm={12} md={9} lg={8}>
               <div className="media flex-column flex-sm-row">
-                <div className="media-body mb-1 mb-md-0 mr-0 mr-md-2">{data.text}</div>
+                <div className="media-body mb-0 mr-0 mr-md-2">{data.text}</div>
                 <Button variant="primary" className="align-self-center" onClick={this.hanldeOnClick}>Watch video</Button>
               </div>
             </Col>
