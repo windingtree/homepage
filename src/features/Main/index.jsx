@@ -23,7 +23,7 @@ class WTNavbar extends Component<*, StateType> {
     expanded: false,
   }
 
-  toggle() {
+  toggle = () => {
     this.setState(({ expanded }) => ({ expanded: !expanded }));
   }
 
@@ -31,7 +31,7 @@ class WTNavbar extends Component<*, StateType> {
     const { expanded } = this.state;
     return (
       <header id="app-header" className="header-sticky">
-        <Navbar expand="lg" variant="animated" className={`navbar-nav--animated-btn ${expanded ? 'is-open' : ''}`}>
+        <Navbar expand="lg" variant="animated" className={`navbar-nav--animated-btn ${expanded ? 'is-open' : ''}`} collapseOnSelect>
           <Container>
             <Navbar.Brand to="/" as={Link} className="mr-2" />
             <Navbar.Toggle aria-controls="basic-navbar-nav" className="border-0" onClick={this.toggle}>
