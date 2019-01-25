@@ -4,7 +4,6 @@ import {
   Container, Alert,
 } from '@windingtree/wt-ui-react';
 import Cookies from 'universal-cookie';
-import './styles.scss';
 
 const COOKIE = 'isGdprReaded';
 
@@ -43,7 +42,9 @@ class Gdpr extends React.Component {
       >
         <Container>
           <p>
-            This site uses its own cookies and third-party cookies to gather information on your browsing for statistical purposes. If you continue browsing, we consider that you accept its use and&#8195; 
+            This site uses its own cookies and third-party cookies to gather information on your
+            browsing for statistical purposes. If you continue browsing, we consider that you
+            accept its use and&#8195;
             <Alert.Link href="/CookiePolicy.pdf" target="_blank">
                Winding&nbsp;Tree&nbsp;cookie&nbsp;policy
             </Alert.Link>
