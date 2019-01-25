@@ -1,6 +1,9 @@
+*.gif
 *.png
 *.svg
 *.jpg
 *.json
 *.jsx
 *.js
+*.scss
+*.db

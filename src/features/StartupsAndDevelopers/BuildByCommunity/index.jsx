@@ -16,16 +16,16 @@ const BuildByCommunity = () => (
     <Row className="justify-content-center">
       <Col className="col-11 col-sm-12 col-md-10 col-lg-8">
         <div className="card-deck">
-          {projectList.projects.map((project,index) => (
+          {projectList.projects.map((project, index) => (
               <>
-              <Tile
-                imgSrc={TileImg}
-                imgWidth="100px"
-                title={project.title}
-                text={project.text}
-                href={project.href}
-              />
-              {((index % 2 !== 0) && (index < 3)) ? <div className="d-none d-sm-block w-100 mb-2"/> : null}
+                <Tile
+                  imgSrc={TileImg}
+                  imgWidth="100px"
+                  title={project.title}
+                  text={project.text}
+                  href={project.href}
+                />
+                {((index % 2 !== 0) && (index < 3)) ? <div className="d-none d-sm-block w-100 mb-2" /> : null}
               </>
           ))
           }

@@ -13,7 +13,9 @@ const Subscribe = () => (
         target="_blank"
         type="buton"
         title="Click to subscribe"
-      >Subscribe Form</Button>
+      >
+        Subscribe Form
+      </Button>
       <InputGroup className="mb-2 mb-md-0">
         <Form.Control
           placeholder="Enter e-mail"
