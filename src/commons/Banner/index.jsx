@@ -44,4 +44,8 @@ const Banner = (props: PropsType) => {
   );
 };
 
+Banner.defaultProps = {
+  icons: false,
+};
+
 export default Banner;

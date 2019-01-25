@@ -7,21 +7,21 @@ import Cookies from 'universal-cookie';
 
 const COOKIE = 'isGdprReaded';
 
-class Gdpr extends React.Component {
-  constructor(props) {
-    super(props);
-    const cookies = new Cookies();
+type StateType = {
+  cookies: *,
+  show: boolean
+};
 
-    this.state = {
-      cookies,
-      show: false,
-    };
+class Gdpr extends React.Component<*, StateType> {
+  state = {
+    cookies: {},
+    show: false,
   }
 
   componentDidMount() {
-    const { cookies } = this.state;
+    const cookies = new Cookies();
     const gdpr = cookies.get(COOKIE);
-    this.setState({ show: !gdpr });
+    this.setState({ cookies, show: !gdpr });
   }
 
   handleOnClose = () => {

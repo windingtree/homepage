@@ -5,6 +5,7 @@ import { LinkContainer } from 'react-router-bootstrap';
 import {
   Navbar, Container, Nav, Button,
 } from '@windingtree/wt-ui-react';
+import classNames from 'classnames';
 import metadata from 'data/metadata.json';
 import CustomHelmet from 'commons/CustomHelmet';
 import Gdpr from 'commons/Gdpr';
@@ -14,24 +15,47 @@ type PropsType = {
   children: React$Node
 };
 
+type StateType = {
+  isOpen: boolean
+};
 
-class WTNavbar extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      expanded: false,
-    };
+class WTNavbar extends Component<*, StateType> {
+  state = {
+    isOpen: false,
   }
 
-  toggle() {
-    this.setState(({ expanded }) => ({ expanded: !expanded }));
+  componentWillMount() {
+    document.addEventListener('mousedown', this.handleOutsideClick);
+  }
+
+  componentWillUnmount() {
+    document.removeEventListener('mousedown', this.handleOutsideClick);
+  }
+
+  handleOutsideClick = (e: *) => {
+    // $FlowFixMe
+    const { refHeader } = this;
+    const { isOpen } = this.state;
+    if (!isOpen && refHeader.contains(e.target)) return;
+    this.setState({ isOpen: false });
+  }
+
+  toggle = () => {
+    this.setState(({ isOpen }) => ({ isOpen: !isOpen }));
   }
 
   render() {
-    const { expanded } = this.state;
+    const { isOpen } = this.state;
+    const navbarClassName = classNames(
+      'navbar-nav--animated-btn',
+      {
+        'is-open': isOpen,
+      },
+    );
     return (
-      <header id="app-header" className="header-sticky">
-        <Navbar expand="lg" variant="animated" className={`navbar-nav--animated-btn ${expanded ? 'is-open' : null}`}>
+      // $FlowFixMe
+      <header id="app-header" className="header-sticky" ref={(node) => { this.refHeader = node; }}>
+        <Navbar expand="lg" variant="animated" className={navbarClassName} collapseOnSelect expanded={isOpen}>
           <Container>
             <Navbar.Brand to="/" as={Link} className="mr-2" />
             <Navbar.Toggle aria-controls="basic-navbar-nav" className="border-0" onClick={this.toggle}>

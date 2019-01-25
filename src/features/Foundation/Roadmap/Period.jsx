@@ -9,7 +9,7 @@ import {
 import Collapse from 'react-collapse';
 import classNames from 'classnames';
 import Group from './Group';
-
+import type { PeriodType } from './data';
 
 type StateType = {
   isOpened: boolean
