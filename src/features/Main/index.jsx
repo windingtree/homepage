@@ -24,7 +24,7 @@ class WTNavbar extends Component<*, StateType> {
     isOpen: false,
   }
 
-  componentWillMount() {
+  componentDidMount() {
     document.addEventListener('mousedown', this.handleOutsideClick);
   }
 
