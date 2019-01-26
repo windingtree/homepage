@@ -28,16 +28,16 @@ class MainBanner extends React.Component<*, StateType> {
       <>
         <section className="app-section hero-homepage pt-1 pt-lg-5">
 
-          <div className="star star1"></div>
-          <div className="star star2"></div>
-          <div className="star star3"></div>
-          <div className="star star4"></div>
-          <div className="star star-sm star5"></div>
-          <div className="star star-sm star6"></div>
-          <div className="star star-sm star7"></div>
-          <div className="star star-sm star8"></div>
-          <div className="star shooting-star1"></div>
-          <div className="star shooting-star2"></div>
+          <div className="star star1" />
+          <div className="star star2" />
+          <div className="star star3" />
+          <div className="star star4" />
+          <div className="star star-sm star5" />
+          <div className="star star-sm star6" />
+          <div className="star star-sm star7" />
+          <div className="star star-sm star8" />
+          <div className="star shooting-star1" />
+          <div className="star shooting-star2" />
 
           <VideoModal
             show={showModal}

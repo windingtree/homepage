@@ -346,7 +346,7 @@ html {
 // HERO
 .hero-homepage {
   background-color: $accent;
-  background: #3553A5 url('../img/hero-bg-opt.jpg') 50% 0;
+  background: #3553a5 url('../img/hero-bg-opt.jpg') 50% 0;
   background-size: auto 105%;
 
   @media (min-width: 768px) {
@@ -354,12 +354,13 @@ html {
     border-bottom-right-radius: 100% 5%;
   }
 
-  h1, .lead {
-    text-shadow: 0 0 25px rgba(0,0,0,.1);
+  h1,
+  .lead {
+    text-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
   }
 
   .btn {
-    box-shadow: 0 0 40px rgba(0,0,0,.1);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
   }
 
   @media all and (min-width: 768px) {
@@ -378,42 +379,49 @@ html {
       }
     }
 
-    .star1{
+    .star1 {
       top: 15%;
       left: 5%;
       animation: flickerAnimation 3s infinite;
     }
-    .star2{
+
+    .star2 {
       top: 40%;
       left: 10%;
       animation: flickerAnimation 4s infinite;
     }
-    .star3{
+
+    .star3 {
       top: 18%;
       left: 80%;
       animation: flickerAnimation 5s infinite;
     }
-    .star4{
+
+    .star4 {
       top: 80%;
       left: 85%;
       animation: flickerAnimation 6s infinite;
     }
-    .star5{
+
+    .star5 {
       top: 90%;
       left: 10%;
       animation: flickerAnimation 4s infinite;
     }
-    .star6{
+
+    .star6 {
       top: 20%;
       left: 30%;
       animation: flickerAnimation 5s infinite;
     }
-    .star7{
+
+    .star7 {
       top: 50%;
       left: 65%;
       animation: flickerAnimation 3s infinite;
     }
-    .star8{
+
+    .star8 {
       top: 40%;
       left: 95%;
       animation: flickerAnimation 6s infinite;
@@ -422,14 +430,15 @@ html {
     .shooting-star1 {
       animation: cometFlight 25s 3s ease infinite;
     }
+
     .shooting-star2 {
       animation: cometFlight2 15s ease infinite;
     }
 
     @keyframes flickerAnimation {
-      0%   { opacity: .9; }
-      50%  { opacity: .1; }
-      100% { opacity: .9; }
+      0% { opacity: 0.9; }
+      50% { opacity: 0.1; }
+      100% { opacity: 0.9; }
     }
 
     @keyframes cometFlight {
@@ -438,6 +447,7 @@ html {
         right: -30%;
         opacity: 1;
       }
+
       100% {
         top: 100%;
         right: 60%;
@@ -451,6 +461,7 @@ html {
         right: 50%;
         opacity: 1;
       }
+
       100% {
         top: 60%;
         right: 80%;
