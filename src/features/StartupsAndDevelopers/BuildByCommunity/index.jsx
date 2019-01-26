@@ -14,7 +14,7 @@ const BuildByCommunity = () => (
     </header>
 
     <Row className="justify-content-center">
-      <Col className="col-11 col-sm-12 col-md-10 col-lg-8">
+      <Col xs={11} sm={12} md={10} lg={8}>
         <div className="card-deck">
           {projectList.projects.map((project, index) => (
               <>
@@ -25,7 +25,10 @@ const BuildByCommunity = () => (
                   text={project.text}
                   href={project.href}
                 />
-                {((index % 2 !== 0) && (index < 3)) ? <div className="d-none d-sm-block w-100 mb-2" /> : null}
+                {((index % 2 !== 0) && (index < projectList.projects.length - 1))
+                  ? <div className="d-none d-sm-block w-100 mb-2" />
+                  : null
+                }
               </>
           ))
           }
