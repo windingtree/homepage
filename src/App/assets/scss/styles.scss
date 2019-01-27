@@ -1,6 +1,6 @@
 // SETTINGS
 $primary: #18e9a6;
-$secondary: #5f2987;
+$accent: #5f2987;
 
 // BODY
 body {
@@ -181,7 +181,7 @@ a.card {
     position: relative;
     padding: 0;
     border: 0;
-    background: $secondary;
+    background: $accent;
 
     img,
     .img-crop {
@@ -345,23 +345,131 @@ html {
 
 // HERO
 .hero-homepage {
-  background-color: $secondary;
-  background-image: url('../img/index-bg.svg'),radial-gradient(circle at 50% 105%, #08ed87, $secondary 67%);
-  background-position: 50% 99vh, 50% 0;
-  background-repeat: no-repeat, no-repeat;
-  background-size: 170vw auto, auto;
+  background-color: $accent;
+  background: #3553a5 url('../img/hero-bg-opt.jpg') 50% 0;
+  background-size: auto 105%;
 
   @media (min-width: 768px) {
-    background-position: 50% 40rem, 50% 0;
-    background-size: 95% auto, auto;
     border-bottom-left-radius: 100% 5%;
     border-bottom-right-radius: 100% 5%;
   }
 
-  @media (min-width: 991px) {
-    background-position: 50% 45rem, 50% 0;
+  h1,
+  .lead {
+    text-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
   }
 
+  .btn {
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+  }
+
+  @media all and (min-width: 768px) {
+    .star {
+      width: 3px;
+      height: 3px;
+      border-radius: 50%;
+      background-color: #fff;
+      box-shadow: 0 0 5px #fff;
+      position: absolute;
+
+      &.star-sm {
+        width: 2px;
+        height: 2px;
+        box-shadow: 0 0 2px #fff;
+      }
+    }
+
+    .star1 {
+      top: 15%;
+      left: 5%;
+      animation: flickerAnimation 3s infinite;
+    }
+
+    .star2 {
+      top: 40%;
+      left: 10%;
+      animation: flickerAnimation 4s infinite;
+    }
+
+    .star3 {
+      top: 18%;
+      left: 80%;
+      animation: flickerAnimation 5s infinite;
+    }
+
+    .star4 {
+      top: 80%;
+      left: 85%;
+      animation: flickerAnimation 6s infinite;
+    }
+
+    .star5 {
+      top: 90%;
+      left: 10%;
+      animation: flickerAnimation 4s infinite;
+    }
+
+    .star6 {
+      top: 20%;
+      left: 30%;
+      animation: flickerAnimation 5s infinite;
+    }
+
+    .star7 {
+      top: 50%;
+      left: 65%;
+      animation: flickerAnimation 3s infinite;
+    }
+
+    .star8 {
+      top: 40%;
+      left: 95%;
+      animation: flickerAnimation 6s infinite;
+    }
+
+    .shooting-star1 {
+      animation: cometFlight 25s 3s ease infinite;
+    }
+
+    .shooting-star2 {
+      animation: cometFlight2 15s ease infinite;
+    }
+
+    @keyframes flickerAnimation {
+      0% { opacity: 0.9; }
+      50% { opacity: 0.1; }
+      100% { opacity: 0.9; }
+    }
+
+    @keyframes cometFlight {
+      0% {
+        top: 0;
+        right: -30%;
+        opacity: 1;
+      }
+
+      100% {
+        top: 100%;
+        right: 60%;
+        opacity: 0;
+      }
+    }
+
+    @keyframes cometFlight2 {
+      0% {
+        top: -30%;
+        right: 50%;
+        opacity: 1;
+      }
+
+      100% {
+        top: 60%;
+        right: 80%;
+        opacity: 0;
+      }
+    }
+
+  }
 }
 
 .section-hero-cards {
@@ -636,17 +744,6 @@ html {
 
   }
 
-
-  @keyframes drawLine {
-    0% { height: 0;
-      opacity: 0; }
-
-    50% { height: 0;
-      opacity: 1; }
-    100% { height: 40px; }
-  }
-
-
 }
 
 
@@ -659,4 +756,8 @@ html {
   background-repeat: no-repeat !important;
   background-position: 50% !important;
 }
+
+
+
+
 
