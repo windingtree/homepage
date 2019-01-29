@@ -27,6 +27,18 @@ class MainBanner extends React.Component<*, StateType> {
     return (
       <>
         <section className="app-section hero-homepage pt-1 pt-lg-5">
+
+          <div className="star star1" />
+          <div className="star star2" />
+          <div className="star star3" />
+          <div className="star star4" />
+          <div className="star star-sm star5" />
+          <div className="star star-sm star6" />
+          <div className="star star-sm star7" />
+          <div className="star star-sm star8" />
+          <div className="star shooting-star1" />
+          <div className="star shooting-star2" />
+
           <VideoModal
             show={showModal}
             videoSrc="_qer1qd68eQ"
@@ -37,7 +49,7 @@ class MainBanner extends React.Component<*, StateType> {
             <header className="mb-3 mb-lg-5 pb-0 pb-lg-5 text-center">
               <Row className="justify-content-md-center">
                 <Col md={9}>
-                  <h1 className="h2 mb-1 text-white">
+                  <h1 className="mb-1 text-white">
                   Winding Tree
                   </h1>
                 </Col>

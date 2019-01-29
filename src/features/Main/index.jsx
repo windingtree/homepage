@@ -36,8 +36,9 @@ class WTNavbar extends Component<*, StateType> {
     // $FlowFixMe
     const { refHeader } = this;
     const { isOpen } = this.state;
-    if (!isOpen && refHeader.contains(e.target)) return;
-    this.setState({ isOpen: false });
+    if (isOpen && !refHeader.contains(e.target)) {
+      this.setState({ isOpen: false });
+    }
   }
 
   toggle = () => {
@@ -55,7 +56,7 @@ class WTNavbar extends Component<*, StateType> {
     return (
       // $FlowFixMe
       <header id="app-header" className="header-sticky" ref={(node) => { this.refHeader = node; }}>
-        <Navbar expand="lg" variant="animated" className={navbarClassName} collapseOnSelect expanded={isOpen}>
+        <Navbar expand="lg" variant="animated" className={navbarClassName} expanded={isOpen}>
           <Container>
             <Navbar.Brand to="/" as={Link} className="mr-2" />
             <Navbar.Toggle aria-controls="basic-navbar-nav" className="border-0" onClick={this.toggle}>
@@ -65,43 +66,47 @@ class WTNavbar extends Component<*, StateType> {
               <Nav className="ml-auto">
                 <Nav.Dropdown title="Solutions" id="basic-nav-dropdown">
                   <LinkContainer to="/suppliers">
-                    <Nav.Dropdown.Item>For Suppliers</Nav.Dropdown.Item>
+                    <Nav.Dropdown.Item onClick={this.toggle}>For Suppliers</Nav.Dropdown.Item>
                   </LinkContainer>
                   <LinkContainer to="/sellers">
-                    <Nav.Dropdown.Item>For Sellers & Agents</Nav.Dropdown.Item>
+                    <Nav.Dropdown.Item onClick={this.toggle}>
+                      For Sellers & Agents
+                    </Nav.Dropdown.Item>
                   </LinkContainer>
                   <LinkContainer to="/software-vendors">
-                    <Nav.Dropdown.Item>For Software Vendors</Nav.Dropdown.Item>
+                    <Nav.Dropdown.Item onClick={this.toggle}>
+                      For Software Vendors
+                    </Nav.Dropdown.Item>
                   </LinkContainer>
                 </Nav.Dropdown>
                 <Nav.Item>
-                  <Nav.Link href="https://github.com/windingtree/wiki" target="_blank" rel="noopener noreferrer">API</Nav.Link>
+                  <Nav.Link href="https://github.com/windingtree/wiki" target="_blank" rel="noopener noreferrer" onClick={this.toggle}>API</Nav.Link>
                 </Nav.Item>
                 <Nav.Dropdown title="Foundation" id="basic-nav-dropdown">
                   <LinkContainer to="/Foundation#About">
-                    <Nav.Dropdown.Item>About</Nav.Dropdown.Item>
+                    <Nav.Dropdown.Item onClick={this.toggle}>About</Nav.Dropdown.Item>
                   </LinkContainer>
                   <LinkContainer to="/Foundation#Team">
-                    <Nav.Dropdown.Item>Team</Nav.Dropdown.Item>
+                    <Nav.Dropdown.Item onClick={this.toggle}>Team</Nav.Dropdown.Item>
                   </LinkContainer>
                   <LinkContainer to="/Foundation#Events">
-                    <Nav.Dropdown.Item>Events</Nav.Dropdown.Item>
+                    <Nav.Dropdown.Item onClick={this.toggle}>Events</Nav.Dropdown.Item>
                   </LinkContainer>
                   <LinkContainer to="/Foundation#Services">
-                    <Nav.Dropdown.Item>Services</Nav.Dropdown.Item>
+                    <Nav.Dropdown.Item onClick={this.toggle}>Services</Nav.Dropdown.Item>
                   </LinkContainer>
                   <LinkContainer to="/Foundation#Roadmap">
-                    <Nav.Dropdown.Item>Roadmap</Nav.Dropdown.Item>
+                    <Nav.Dropdown.Item onClick={this.toggle}>Roadmap</Nav.Dropdown.Item>
                   </LinkContainer>
-                  <Nav.Dropdown.Item href="https://blog.windingtree.com" target="__blank">Blog</Nav.Dropdown.Item>
+                  <Nav.Dropdown.Item href="https://blog.windingtree.com" target="__blank" onClick={this.toggle}>Blog</Nav.Dropdown.Item>
                 </Nav.Dropdown>
                 <Nav.Item>
                   <LinkContainer to="/startups-and-developers">
-                    <Nav.Link>Community</Nav.Link>
+                    <Nav.Link onClick={this.toggle}>Community</Nav.Link>
                   </LinkContainer>
                 </Nav.Item>
                 <Nav.Item id="navbar-btn">
-                  <Button block type="button" href="https://docs.google.com/forms/d/e/1FAIpQLSevHx6goFLdbdI7TSX6JFugNlT56nlRD7I1XjqGc-06pIoemA/viewform">Join</Button>
+                  <Button block type="button" href="https://docs.google.com/forms/d/e/1FAIpQLSevHx6goFLdbdI7TSX6JFugNlT56nlRD7I1XjqGc-06pIoemA/viewform" onClick={this.toggle}>Join</Button>
                 </Nav.Item>
               </Nav>
             </Navbar.Collapse>
