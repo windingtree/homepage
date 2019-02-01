@@ -34,7 +34,7 @@ const KeyBenefits = (props: PropsType) => {
       </header>
     );
   return (
-    <section className="app-section section-key-benefits">
+    <section className="app-section section-key-benefits pb-0">
       <Container>
         {Header}
         <Row className="justify-content-center">

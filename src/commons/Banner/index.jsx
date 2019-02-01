@@ -24,9 +24,9 @@ const Banner = (props: PropsType) => {
     <article className="app-section section-banner bg-grad" id={id}>
       <Container>
         <Row className="align-items-center" flex>
-          <Col lg={8} className="mb-1 mb-md-0 text-center text-lg-left">
+          <Col lg={8} className="text-center text-lg-left">
             <h2 className="text-white">{title}</h2>
-            <p className="lead text-white text-sm-lg">{text}</p>
+            <p className="mb-1 mb-lg-0 lead text-white text-sm-lg">{text}</p>
             {icons && <IconList variant="white" size={48} />}
           </Col>
           <Col lg={4} className="text-center">

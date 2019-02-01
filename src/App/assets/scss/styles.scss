@@ -1,6 +1,16 @@
-// SETTINGS
+// SETTINGS - - - - - - - - - - - - - - - - - - - - - - - -
+
 $primary: #18e9a6;
 $accent: #5f2987;
+$body-color: #333;
+$white: #fff;
+$gray-500: #808080;
+$gray-400: #a9a9a9;
+$gray-200: #d3d3d3;
+$spacer: 10px;
+
+
+// BASE - - - - - - - - - - - - - - - - - - - - - - - -
 
 // BODY
 body {
@@ -9,6 +19,7 @@ body {
   background-repeat: repeat-y, repeat-y;
 }
 
+// HEADINGS
 h3,
 .h3,
 .lead {font-size: 24px;}
@@ -19,6 +30,9 @@ h3,
   h2,
   .h2 {font-size: 28px;  }
 }
+
+
+// LAYOUT - - - - - - - - - - - - - - - - - - - - - - - -
 
 // APP FOOTER
 #app-content + .footer {
@@ -57,6 +71,9 @@ h3,
   }
 }
 
+
+// INHERITED COMPONENTS - - - - - - - - - - - - - - - - - - - - - - - -
+
 // MODALS
 .modal-backdrop.show {
   opacity: 0.9;
@@ -88,12 +105,13 @@ h3,
 
         .card-title {
           position: relative;
+          padding-right: 25px;
 
           .mdi-chevron-right {
             display: inline-block;
             position: absolute;
-            right: 10px;
-            top: 5px;
+            right: 0;
+            top: 11px;
           }
         }
       }
@@ -244,6 +262,27 @@ a.card {
 
 }
 
+// BLOCKQUOTE
+.blockquote {
+  .tab-pane & {
+    margin-bottom: 0;
+  }
+
+  .blockquote-body {
+    margin-bottom: 0;
+  }
+}
+
+// ALERTS
+.alert.alert-announce {
+  margin: 0;
+  z-index: 10000;
+}
+
+button.close > span:nth-child(1) {
+  font-size: 28px;
+}
+
 // NAVBAR
 html {
   // temporary fix to hice the horizontal
@@ -287,6 +326,8 @@ html {
 }
 
 
+// CUSTOM APP STYLES
+
 // Overlaps header and hero
 #app-header {
   margin-bottom: -66px;
@@ -299,14 +340,30 @@ html {
   }
 }
 
-#app-content .app-section:first-child::before {
+
+.cover-btn {
+  position: relative;
+
+  > a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    opacity: 0;
+    &:hover {cursor: default !important;}
+  }
+}
+
+#app-content > .app-section:first-child::before {
   content: '';
   display: block;
   height: 66px;
 }
 
 @media all and (min-width: 768px) {
-  #app-content .app-section:first-child::before {
+  #app-content > .app-section:first-child::before {
     height: 110px;
   }
 }
@@ -536,20 +593,10 @@ html {
 
 // SECTION: ROADMAP
 .section-roadmap {
-
-  $roadmap-icon-size: 35px;
-  $roadmap-icon-size-lg: 70px;
-  $gray-500: darkgray;
-  $gray-400: gray;
-  $gray-200: lightgray;
-  $white: #fff;
-  $body-color: #333;
-  $spacer: 10px;
-
   .roadmap__item {
     position: relative;
 
-    .text-muted {color: $gray-500 !important;}
+    .text-muted {color: $gray-400 !important;}
 
     .roadmap__header {
       overflow: hidden;
@@ -685,7 +732,7 @@ html {
               left: 0;
               right: 0;
               width: 100%;
-              border-top: 1px dashed $gray-400;
+              border-top: 1px dashed $gray-500;
             }
           }
 
@@ -766,7 +813,8 @@ html {
 }
 
 
-// HELPERS
+// HELPERS - - - - - - - - - - - - - - - - - - - - - - - -
+
 .img-crop {
   overflow: hidden !important;
   padding-bottom: 65%;

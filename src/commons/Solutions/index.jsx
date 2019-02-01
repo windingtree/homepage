@@ -22,7 +22,7 @@ const Solutions = (props: *) => {
           </Row>
         </header>
         <Row className="justify-content-md-center">
-          <Col md={10} className="text-center text-md-left mb-1">
+          <Col md={10} className="text-center text-md-left">
             {(variant === 'suppliers')
               ? (
                 <div>

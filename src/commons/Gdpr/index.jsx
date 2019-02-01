@@ -4,7 +4,6 @@ import {
   Container, Alert,
 } from '@windingtree/wt-ui-react';
 import Cookies from 'universal-cookie';
-import './styles.scss';
 
 const COOKIE = 'isGdprReaded';
 
