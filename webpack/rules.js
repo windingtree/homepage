@@ -40,11 +40,25 @@ const rules = [
     },
     {
       test: /\.(gif|png|jpe?g|svg)$/i,
+      include: path.resolve(__dirname, '..', 'data'),
       use: [
         {
           loader: 'file-loader',
           options: {
-            name: '[name].[ext]',
+            regExp: /data\/(.*)/,
+            name: '[1]',
+            outputPath: 'img/'
+          }
+        }
+      ]
+    },
+    {
+      test: /\.(gif|png|jpe?g|svg)$/i,
+      use: [
+        {
+          loader: 'file-loader',
+          options: {
+            name: '[hash].[ext]',
             outputPath: 'img/'
           }
         }
