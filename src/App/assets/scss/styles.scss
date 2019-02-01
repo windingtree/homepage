@@ -746,6 +746,25 @@ html {
 
 }
 
+// PAGE ERROR 404
+#app-content.content-error {
+  .app-section {
+    min-height: calc(100vh);
+  }
+
+  + footer.footer {
+    position: fixed;
+    background: none !important;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    .footer__row {
+      display: none;
+    }
+  }
+}
+
 
 // HELPERS
 .img-crop {
@@ -756,8 +775,4 @@ html {
   background-repeat: no-repeat !important;
   background-position: 50% !important;
 }
-
-
-
-
 
