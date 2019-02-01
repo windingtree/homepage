@@ -4,7 +4,7 @@ import {
   Image, Container, Row, Col, Button,
 } from '@windingtree/wt-ui-react';
 import VideoModal from 'commons/VideoModal';
-import howItWorks from './img/HowItWorks.png';
+import howItWorks from './img/HowItWorks2x.png';
 import data from './data.json';
 
 type StateType = {
