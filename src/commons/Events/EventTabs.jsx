@@ -4,7 +4,7 @@ import {
   Tab, Nav,
 } from '@windingtree/wt-ui-react';
 import EventTab from './EventTab';
-import events from './data';
+import events from 'DATA/commons/Events';
 
 const EventTabs = () => (
   <Tab.Container id="event-tabs" defaultActiveKey="Upcoming">

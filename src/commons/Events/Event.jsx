@@ -4,7 +4,7 @@ import { LinkContainer } from 'react-router-bootstrap';
 import {
   Col, Row, Image, Button,
 } from '@windingtree/wt-ui-react';
-import type { EventType } from './data';
+import type { EventType } from 'DATA/commons/Events';
 
 const Event = (props: EventType) => {
   const {
