@@ -13,8 +13,8 @@ const commons = {
         ]
       },
       output: {
-        filename: '[name].js',
-        path: path.resolve(__dirname, '..', 'public/js'),
+        filename: 'js/[name].js',
+        path: path.resolve(__dirname, '..', 'public'),
         publicPath: '/'
       },
       resolve: {

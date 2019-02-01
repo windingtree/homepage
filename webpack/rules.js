@@ -45,9 +45,8 @@ const rules = [
         {
           loader: 'file-loader',
           options: {
-            regExp: /data\/(.*)/,
-            name: '[1]',
-            outputPath: 'img/'
+            name: '[path][name].[ext]',
+            outputPath: '/'
           }
         }
       ]
