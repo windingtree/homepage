@@ -1,7 +1,7 @@
 /* stylelint-disable declaration-block-trailing-semicolon */
 /* @flow */
 import React from 'react';
-import hospitality from './img/hospitality.jpg';
+import data from 'DATA/commons/Solutions/SolutionsData.js';
 
 const SVG = () => (
   <svg
@@ -83,7 +83,7 @@ const SVG = () => (
         id="imageHospitality"
         width="1023"
         height="669"
-        xlinkHref={hospitality}
+        xlinkHref={data.Hospitality.imgSrc}
       />
     </defs>
   </svg>

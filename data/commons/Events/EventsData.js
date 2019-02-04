@@ -1,6 +1,7 @@
 /* @flow */
 /* eslint-disable global-require */
-export type EventType = {
+
+type EventType = {
   startDate: string,
   endDate?: string,
   startMonth: string, // If there is only a month, it must include year. Ex. "Feb'19",
@@ -13,7 +14,7 @@ export type EventType = {
   buttonText?: string
 };
 
-export type EventsType = {
+type EventsType = {
   own: EventType[],
   upcoming: EventType[],
   past: EventType[]
@@ -28,7 +29,7 @@ const events: EventsType = {
       name: 'Hamburg Aviation Conference',
       location: 'Hamburg, Germany',
       text: 'Welcome to the other kind of event - the reference for innovation in aviation & travel: innovative, impactful, personal, independent, authentic. 21 - 22 February 2019, Ameron Hotel Speicherstadt, Hamburg, Germany',
-      imgSrc: require('./images/hamburg.png'),
+      imgSrc: require('./img/hamburg.png'),
       buttonHref: 'https://www.hamburgaviationconference.com/',
       buttonText: 'check event',
     },
@@ -37,7 +38,7 @@ const events: EventsType = {
       startMonth: "Mar'19",
       name: 'RE Conference',
       location: 'Amsterdam, The Netherlands',
-      imgSrc: require('./images/re.png'),
+      imgSrc: require('./img/re.png'),
       text: 'RE is one event of its kind. It is different from any other industry event. Because RE is where innovation meets real business need. RE is where conflict is good. RE is where we celebrate the benefits of frictions because this is what drives our industry forward. ‘RE’ is where you will be immersed in a creative (and unexpected) environment. RE is where you will look closely at the components of the business travel ecosystem and consider the changes that have happened and those yet to come.',
       buttonHref: 'https://app.azavista.com/event_website_pages/view/home/5c0e9337-1fa4-4e18-8bf6-48540af00018/ecd04a7cac',
       buttonText: 'check event',
@@ -47,7 +48,7 @@ const events: EventsType = {
       startMonth: "Mar'19",
       name: 'BTO11',
       location: 'Florence, Italy',
-      imgSrc: require('./images/bto.png'),
+      imgSrc: require('./img/bto.png'),
       text: 'It can be defined as an “event-conference” (whilst also being an expo, a seminar, a debate, entertainment and much more) with a schedule replete with organised events – in 2017 alone, there were 160 – over two days dedicated to operators within the long chain of tourism, and not only receptive, to those responsible for governing tourism throughout the territories, stakeholders and communities, those engaged in the marketing and distribution of tourism products, along with all who study, teach and undertake research.',
       buttonHref: 'https://www.buytourismonline.com/?lang=en',
       buttonText: 'check event',
@@ -57,7 +58,7 @@ const events: EventsType = {
       startMonth: "Apr'19",
       name: 'ZurichPlUs 2019',
       location: 'Zurich, Germany',
-      imgSrc: require('./images/plus.png'),
+      imgSrc: require('./img/plus.png'),
       text: 'We all participate on the established travel conference circuit but know heart of hearts that it is not all that effective for engaging and having meaningful discussions with other thought leaders in our complex and ever changing industry.  The PLUs Forum (People Like Us) aims to provide a dynamic framework for meaningful and memorable interactions.',
       buttonHref: 'https://www.the-plus-forum.org/',
       buttonText: 'check event',
@@ -67,7 +68,7 @@ const events: EventsType = {
       startMonth: "Apr'19",
       name: 'ICAO Blockchain Aviation Summit and Exhibition',
       location: 'Abu Dhabi, UAE',
-      imgSrc: require('./images/icao.gif'),
+      imgSrc: require('./img/icao.gif'),
       text: 'Join us in this inaugural ICAO Blockchain Aviation Summit and Exhibition, a joint aviation and technology event, with the theme Blockchain: Unlock the Potential, which will be convened in Abu Dhabi, United Arab Emirates from 3 to 4 April 2019, which is graciously hosted by the General Civil Aviation Authorities (GCAA), and will bring together States, industry, partners and thought leaders to introduce and explore the innovations in Blockchain technology that support sound, safe, secure and economically-viable civil aviation systems.',
       buttonHref: 'https://www.icao.int/Meetings/BLOCK2019/Pages/default.aspx',
       buttonText: 'check event',
@@ -77,7 +78,7 @@ const events: EventsType = {
       startMonth: "Apr'19",
       name: 'Arabian Hotel Investment Conference',
       location: 'Ras Al-Khaimah, UAE',
-      imgSrc: require('./images/ahic.jpg'),
+      imgSrc: require('./img/ahic.jpg'),
       text: 'In the three days you spend with us, you will experience an enhanced AHIC like never before! It will be here, away from the day to day routines, where you will have the opportunity to focus on insights shared by world-class speakers, creating relationships and discovering opportunities which will drive your business forward.',
       buttonHref: 'https://www.arabianconference.com/',
       buttonText: 'check event',
@@ -91,7 +92,7 @@ const events: EventsType = {
       startMonth: "Nov'18",
       name: "CAPA's World Aviation Summit",
       location: 'Berlin, Germany',
-      imgSrc: require('./images/capa.png'),
+      imgSrc: require('./img/capa.png'),
     },
     {
       startDate: '30',
@@ -100,7 +101,7 @@ const events: EventsType = {
       endMonth: "Nov'18",
       name: 'Ethereum DevCon',
       location: 'Prague, Czech Republic',
-      imgSrc: require('./images/devcon.png'),
+      imgSrc: require('./img/devcon.png'),
     },
     {
       startDate: '26',
@@ -108,7 +109,7 @@ const events: EventsType = {
       startMonth: "Oct'18",
       name: '#CryptoLife Hackathon',
       location: 'Prague, Czech Republic',
-      imgSrc: require('./images/status.jpg'),
+      imgSrc: require('./img/status.jpg'),
     },
     {
       startDate: '18',
@@ -116,21 +117,21 @@ const events: EventsType = {
       startMonth: "Oct'18",
       name: 'EyeforTravel North America 2018',
       location: 'Las Vegas, USA',
-      imgSrc: require('./images/eyefortravel.png'),
+      imgSrc: require('./img/eyefortravel.png'),
     },
     {
       startDate: '3',
       startMonth: "Oct'18",
       name: 'The Hotel Distribution Event 2018',
       location: 'London, UK',
-      imgSrc: require('./images/HDE-2018.jpg'),
+      imgSrc: require('./img/HDE-2018.jpg'),
     },
     {
       startDate: '20',
       startMonth: "Sep'18",
       name: 'Back To The Hospitality Future Summit',
       location: 'London, UK',
-      imgSrc: require('./images/mews.png'),
+      imgSrc: require('./img/mews.png'),
     },
     {
       startDate: '6',
@@ -138,7 +139,7 @@ const events: EventsType = {
       startMonth: "Sep'18",
       name: 'Skolkovo Tourism 2018',
       location: 'Moscow, Russia',
-      imgSrc: require('./images/sk.png'),
+      imgSrc: require('./img/sk.png'),
     },
     {
       startDate: '24',
@@ -146,7 +147,7 @@ const events: EventsType = {
       startMonth: "Jul'18",
       name: 'HTNG Asia-Pacific Conference',
       location: 'Macau, China',
-      imgSrc: require('./images/HTNG.png'),
+      imgSrc: require('./img/HTNG.png'),
     },
     {
       startDate: '19',
@@ -154,7 +155,7 @@ const events: EventsType = {
       startMonth: "Jun'18",
       name: 'IATA Aviation Data Symposium & AI Lab',
       location: 'Berlin, Germany',
-      imgSrc: require('./images/iata-as.png'),
+      imgSrc: require('./img/iata-as.png'),
     },
     {
       startDate: '15',
@@ -162,7 +163,7 @@ const events: EventsType = {
       startMonth: "May'18",
       name: 'Phocuswright Europe',
       location: 'Amsterdam, The Netherlands',
-      imgSrc: require('./images/phocus.jpg'),
+      imgSrc: require('./img/phocus.jpg'),
     },
   ],
   own: [
@@ -172,7 +173,7 @@ const events: EventsType = {
       startMonth: "Oct'18",
       name: 'HackTravel Prague',
       location: 'Prague, Czech Republic',
-      imgSrc: require('./images/hacktravel2018.png'),
+      imgSrc: require('./img/hacktravel2018.png'),
       text: 'The hackathon, which was the first of its kind, brought together various airlines, travel companies, and blockchain developers coding solutions collaboratively using Winding Tree’s open source platform.',
       buttonHref: 'https://blog.windingtree.com/hacktravel-hackathon-recap-feacb65cc47d',
       buttonText: 'recap',
@@ -184,7 +185,7 @@ const events: EventsType = {
       startMonth: "Jun'18",
       name: 'TravelTechCon 2018',
       location: 'San Francisco, CA',
-      imgSrc: require('./images/ttc2018.png'),
+      imgSrc: require('./img/ttc2018.png'),
       text: 'Travel Tech Con is The Only Independent Travel Technology Conference for Startups and Engineers',
       buttonHref: 'https://www.traveltechcon.com/conference-recap/',
       buttonText: 'recap',

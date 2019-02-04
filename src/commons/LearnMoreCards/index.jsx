@@ -2,7 +2,7 @@
 import React from 'react';
 import CardDeck from '@windingtree/wt-ui-react/lib/components/CardDeck';
 import Card from 'commons/Card';
-import cardsInfo from './data';
+import cardsInfo from 'DATA/commons/LearnMoreCards/LearnMoreCardsData.js';
 
 export type DataType = {
   href: string,

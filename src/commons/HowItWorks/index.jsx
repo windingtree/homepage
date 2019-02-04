@@ -4,8 +4,7 @@ import {
   Image, Container, Row, Col, Button,
 } from '@windingtree/wt-ui-react';
 import VideoModal from 'commons/VideoModal';
-import howItWorks from './img/HowItWorks2x.png';
-import data from './data.json';
+import howItWorks from 'DATA/commons/HowItWorks/HowItWorksData.js';
 
 type StateType = {
   showModal: boolean
@@ -44,13 +43,13 @@ class HowItWorks extends React.Component<*, StateType> {
           </header>
           <Row className="justify-content-md-center">
             <Col md={10} className="mb-2">
-              <Image src={howItWorks} alt="How it works diagram" fluid />
+              <Image src={howItWorks.imgSrc} alt="How it works diagram" fluid />
             </Col>
           </Row>
           <Row className="justify-content-md-center">
             <Col sm={12} md={9} lg={8}>
               <div className="media flex-column flex-sm-row">
-                <div className="media-body mb-0 mr-0 mr-md-2">{data.text}</div>
+                <div className="media-body mb-0 mr-0 mr-md-2">{howItWorks.text}</div>
                 <Button variant="primary" className="align-self-center" onClick={this.hanldeOnClick}>Watch video</Button>
               </div>
             </Col>

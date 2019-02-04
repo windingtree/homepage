@@ -5,7 +5,7 @@ import {
   Container, Row, Col, Button, Image,
 } from '@windingtree/wt-ui-react';
 import VideoModal from 'commons/VideoModal';
-import data from './data';
+import data from 'DATA/commons/Hero/HeroData.js';
 
 type PropsType = {
   variant: 'foundation' | 'hackTravel' | 'lifToken' | 'sellers' | 'softwareVendors' | 'startupsAndDevelopers' | 'suppliers'

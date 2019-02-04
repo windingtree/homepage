@@ -1,11 +1,4 @@
 /* @flow */
-import foundation from './img/foundation-hero.svg';
-import lifTokenImg from './img/lif-token-hero.svg';
-import sellersImg from './img/sellers-hero.svg';
-import softwareVendorsImg from './img/software-vendors-hero.svg';
-import startupsAndDevelopersImg from './img/startups-and-developers-hero.svg';
-import suppliersImg from './img/suppliers-hero.svg';
-import './img/bg.png';
 
 type InfoType = {
   title: string,
@@ -32,7 +25,7 @@ const data: DataType = {
   foundation: {
     title: 'Winding Tree Foundation',
     text: 'A non-profit organization',
-    imgSrc: foundation,
+    imgSrc: require('./img/foundation-hero.svg'),
   },
   hackTravel: {
     title: 'Hack Travel',
@@ -49,7 +42,7 @@ const data: DataType = {
     primaryButtonHref: 'https://github.com/windingtree/lif-token',
     primaryButtonLabel: 'Read docs',
     SecondaryButtonLabel: 'Watch Video',
-    imgSrc: lifTokenImg,
+    imgSrc: require('./img/lif-token-hero.svg'),
     videoSrc: '_qer1qd68eQ',
   },
   sellers: {
@@ -58,7 +51,7 @@ const data: DataType = {
     primaryButtonHref: 'https://docs.google.com/forms/d/e/1FAIpQLSevHx6goFLdbdI7TSX6JFugNlT56nlRD7I1XjqGc-06pIoemA/viewform',
     primaryButtonLabel: 'Apply for integration',
     SecondaryButtonLabel: 'Watch Video',
-    imgSrc: sellersImg,
+    imgSrc: require('./img/sellers-hero.svg'),
     videoSrc: '_qer1qd68eQ',
   },
   softwareVendors: {
@@ -67,7 +60,7 @@ const data: DataType = {
     primaryButtonHref: 'https://docs.google.com/forms/d/e/1FAIpQLSevHx6goFLdbdI7TSX6JFugNlT56nlRD7I1XjqGc-06pIoemA/viewform',
     primaryButtonLabel: 'Integrate',
     SecondaryButtonLabel: 'Watch Video',
-    imgSrc: softwareVendorsImg,
+    imgSrc: require('./img/software-vendors-hero.svg'),
     videoSrc: '_qer1qd68eQ',
   },
   startupsAndDevelopers: {
@@ -75,7 +68,7 @@ const data: DataType = {
     text: 'Developers, startups, evangelists and geeks are welcome!',
     primaryButtonHref: 'https://github.com/windingtree',
     primaryButtonLabel: 'Github',
-    imgSrc: startupsAndDevelopersImg,
+    imgSrc: require('./img/startups-and-developers-hero.svg'),
   },
   suppliers: {
     title: 'New profitable distribution channel',
@@ -83,7 +76,7 @@ const data: DataType = {
     primaryButtonHref: 'https://docs.google.com/forms/d/e/1FAIpQLSevHx6goFLdbdI7TSX6JFugNlT56nlRD7I1XjqGc-06pIoemA/viewform',
     primaryButtonLabel: 'Apply for integration',
     SecondaryButtonLabel: 'Watch Video',
-    imgSrc: suppliersImg,
+    imgSrc: require('./img/suppliers-hero.svg'),
     videoSrc: '_qer1qd68eQ',
 
   },

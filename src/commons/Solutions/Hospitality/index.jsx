@@ -3,6 +3,7 @@ import React from 'react';
 import { Button, Row, Col } from '@windingtree/wt-ui-react';
 import Solution from '../Solution';
 import Polygon from './Polygon';
+import data from 'DATA/commons/Solutions/SolutionsData.js';
 
 const Hospitality = () => (
   <Solution>
@@ -11,9 +12,8 @@ const Hospitality = () => (
         <Polygon />
       </Col>
       <Col md={6} lg={7} className="mb-1 mb-sm-0">
-        <Solution.Item title="For Hotels">
-          Hotels can integrate with our simple APIs to showcase
-          availability on the Winding Tree marketplace.
+        <Solution.Item title={data.Hospitality.title}>
+          {data.Hospitality.text}
         </Solution.Item>
         {/*        <Button
           href="https://github.com/windingtree/"
