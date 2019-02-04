@@ -29,10 +29,4 @@ const commons = {
       }
 }
 
-const dataImages = glob.sync(path.resolve(__dirname, '..', 'data/**/*.@(gif|png|jpe?g|svg)'))
-
-if (dataImages.length) {
-  commons.entry.images = dataImages
-}
-
 module.exports = commons

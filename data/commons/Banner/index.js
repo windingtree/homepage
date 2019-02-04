@@ -1,5 +1,4 @@
 /* @flow */
-
 export type DataType = {
   title: string,
   mdiIcon: string,

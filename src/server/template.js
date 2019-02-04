@@ -8,7 +8,7 @@ export default (html, helmet) => `
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
         <link rel="icon" href="/favicon.ico">
-        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="stylesheet" type="text/css" href="/css/styles.css">
 
          <!-- Schema.org markup for Google+ -->
         <meta itemprop="name" content="Winding Tree - Decentralized Travel Ecosystem">
@@ -41,7 +41,7 @@ export default (html, helmet) => `
     </head>
     <body ${helmet.bodyAttributes.toString()}>
         <div id="root">${html}</div>
-        <script src="js/client.js"></script>
+        <script src="/js/app.js"></script>
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M9MPGNT"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
