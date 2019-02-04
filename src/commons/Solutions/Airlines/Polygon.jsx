@@ -1,7 +1,7 @@
 /* stylelint-disable declaration-block-trailing-semicolon */
 /* @flow */
 import React from 'react';
-import data from 'DATA/commons/Solutions/SolutionsData.js';
+import data from 'DATA/commons/Solutions';
 
 const SVG = () => (
   <svg

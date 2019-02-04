@@ -4,7 +4,7 @@ import {
   Container, Row, Col,
 } from '@windingtree/wt-ui-react';
 import Category from './Category';
-import sections from 'DATA/commons/VideoGallery/VideoGalleryData.js';
+import sections from 'DATA/commons/VideoGallery';
 
 const Gallery = () => (
   <Container>

@@ -4,7 +4,7 @@ import {
   Image, Container, Row, Col, Button,
 } from '@windingtree/wt-ui-react';
 import VideoModal from 'commons/VideoModal';
-import howItWorks from 'DATA/commons/HowItWorks/HowItWorksData.js';
+import howItWorks from 'DATA/commons/HowItWorks';
 
 type StateType = {
   showModal: boolean

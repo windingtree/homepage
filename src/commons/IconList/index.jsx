@@ -1,6 +1,6 @@
 /* @flow */
 import React from 'react';
-import icons from 'DATA/commons/IconList/IconListData.js';
+import icons from 'DATA/commons/IconList';
 
 type PropsType = {
   variant: 'white' | 'dark',

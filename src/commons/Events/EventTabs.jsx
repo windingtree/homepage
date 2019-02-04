@@ -3,7 +3,7 @@ import React from 'react';
 import {
   Tab, Nav,
 } from '@windingtree/wt-ui-react';
-import events from 'DATA/commons/Events/EventsData.js';
+import events from 'DATA/commons/Events';
 import EventTab from './EventTab';
 
 const EventTabs = () => (

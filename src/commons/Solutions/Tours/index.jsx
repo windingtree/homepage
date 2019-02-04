@@ -3,7 +3,7 @@ import React from 'react';
 import { Row, Col } from '@windingtree/wt-ui-react';
 import Solution from '../Solution';
 import Polygon from './Polygon';
-import data from 'DATA/commons/Solutions/SolutionsData.js';
+import data from 'DATA/commons/Solutions';
 
 const Tours = () => (
   <Solution>
