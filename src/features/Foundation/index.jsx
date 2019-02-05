@@ -11,7 +11,7 @@ import CustomHelmet from 'commons/CustomHelmet';
 import Team from './Team';
 import About from './About';
 import Roadmap from './Roadmap';
-import { members, advisors } from './data';
+import { members, advisors } from 'DATA/features/Foundation/Team';
 
 const Foundation = () => (
   <main id="app-content">

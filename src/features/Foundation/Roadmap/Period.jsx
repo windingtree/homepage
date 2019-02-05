@@ -9,7 +9,7 @@ import {
 import Collapse from 'react-collapse';
 import classNames from 'classnames';
 import Group from './Group';
-import type { PeriodType } from './data';
+import type { PeriodType } from 'DATA/features/Foundation/Roadmap';
 
 type StateType = {
   isOpened: boolean

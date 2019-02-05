@@ -1,5 +1,5 @@
-{
-  "keyBenefits": [
+
+const keyBenefitsDescriptions = [
     {
       "title": "Direct Distribution'",
       "body": "No intermediaries, Internet itself distributes your inventory P2P'",
@@ -20,5 +20,6 @@
       "body": "Make additional sales by opening you inventory to new sellers and payment methods",
       "icon": "img/8.svg"
     }
-  ]
-}
+]
+
+export {keyBenefitsDescriptions}

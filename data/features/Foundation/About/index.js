@@ -1,7 +1,5 @@
 // @flow
-import WTLogo from './img/WTLogo.svg';
-import medalLogo from './img/medal.svg';
-import TTCLogo from './img/ttc.png';
+
 
 type DataType = {
   title: string,
@@ -13,17 +11,17 @@ const cardsInfo: DataType[] = [
   {
     title: 'Winding Tree Platform',
     href: '#',
-    imgSrc: WTLogo,
+    imgSrc: require('./img/WTLogo.svg'),
   },
   {
     title: 'Data Exchange Standars for Travel',
     href: 'https://github.com/windingtree/',
-    imgSrc: medalLogo,
+    imgSrc: require('./img/medal.svg'),
   },
   {
     title: 'Travel Tech Con',
     href: 'https://www.traveltechcon.com/',
-    imgSrc: TTCLogo,
+    imgSrc: require('./img/ttc.png'),
   },
 ];
 

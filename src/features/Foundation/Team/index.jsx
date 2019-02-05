@@ -4,7 +4,7 @@ import {
   Container, Row, Col,
 } from '@windingtree/wt-ui-react';
 import Member from './Member';
-import type { TeamMemberType } from '../data';
+import type { TeamMemberType } from 'DATA/features/Foundation/Team';
 
 type PropsType = {
   title: string,
