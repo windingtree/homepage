@@ -7,7 +7,7 @@ import ReadyToUse from 'commons/ReadyToUse';
 import Solutions from 'commons/Solutions';
 import metadata from 'data/metadata.json';
 import CustomHelmet from 'commons/CustomHelmet';
-import {keyBenefitsDescriptions} from 'DATA/features/Sellers';
+import { keyBenefitsDescriptions } from 'DATA/features/Sellers';
 
 const Sellers = () => (
   <div id="app-content">

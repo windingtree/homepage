@@ -5,15 +5,6 @@ import {
 } from '@windingtree/wt-ui-react';
 import Lead from './Lead';
 import Benefit from './Benefit';
-import 'DATA/commons/KeyBenefits/img/1.svg';
-import 'DATA/commons/KeyBenefits/img/2.svg';
-import 'DATA/commons/KeyBenefits/img/3.svg';
-import 'DATA/commons/KeyBenefits/img/4.svg';
-import 'DATA/commons/KeyBenefits/img/5.svg';
-import 'DATA/commons/KeyBenefits/img/6.svg';
-import 'DATA/commons/KeyBenefits/img/7.svg';
-import 'DATA/commons/KeyBenefits/img/8.svg';
-import 'DATA/commons/KeyBenefits/img/9.svg';
 
 type PropsType = {
   children: React$Node,

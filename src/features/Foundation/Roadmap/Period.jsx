@@ -8,8 +8,8 @@ import {
 } from '@windingtree/wt-ui-react';
 import Collapse from 'react-collapse';
 import classNames from 'classnames';
-import Group from './Group';
 import type { PeriodType } from 'DATA/features/Foundation/Roadmap';
+import Group from './Group';
 
 type StateType = {
   isOpened: boolean

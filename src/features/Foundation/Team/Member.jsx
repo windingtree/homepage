@@ -1,9 +1,9 @@
 // @flow
 import React from 'react';
 import { Collapse } from 'react-collapse';
+import type { TeamMemberType } from 'DATA/features/Foundation/Team';
 import MemberImage from './MemberImage';
 import Icons from './Icons';
-import type { TeamMemberType } from 'DATA/features/Foundation/Team';
 
 type StateType = {
   isOpened: boolean

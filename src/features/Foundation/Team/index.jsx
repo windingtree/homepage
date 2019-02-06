@@ -3,8 +3,8 @@ import React from 'react';
 import {
   Container, Row, Col,
 } from '@windingtree/wt-ui-react';
-import Member from './Member';
 import type { TeamMemberType } from 'DATA/features/Foundation/Team';
+import Member from './Member';
 
 type PropsType = {
   title: string,
