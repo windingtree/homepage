@@ -8,14 +8,14 @@ import ReadyToUse from 'commons/ReadyToUse';
 import metadata from 'data/metadata.json';
 import CustomHelmet from 'commons/CustomHelmet';
 import Solutions from 'commons/Solutions';
-import {keyBenefitsDescriptions} from 'DATA/features/Suppliers';
+import keyBenefitsDescriptions from 'DATA/features/Suppliers';
 
 const Suppliers = () => (
   <div id="app-content">
     <CustomHelmet {...metadata.suppliers} />
     <Hero variant="suppliers" />
     <KeyBenefits>
-      {keyBenefitsDescriptions.keyBenefits.map(benefit => (
+      {keyBenefitsDescriptions.map(benefit => (
         <KeyBenefits.Benefit
           title={benefit.title}
           img={benefit.icon}
