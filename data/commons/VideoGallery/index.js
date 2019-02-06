@@ -1,3 +1,4 @@
+/* eslint-disable global-require */
 // @flow
 
 type SectionType = {
