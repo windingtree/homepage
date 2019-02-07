@@ -1,9 +1,9 @@
 /* @flow */
 import React from 'react';
 import { Button, Row, Col } from '@windingtree/wt-ui-react';
+import data from 'DATA/commons/Solutions';
 import Solution from '../Solution';
 import Polygon from './Polygon';
-import data from 'DATA/commons/Solutions';
 
 const OTA = () => (
   <Solution>

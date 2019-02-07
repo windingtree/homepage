@@ -6,7 +6,7 @@ import {
 import CardDeck from '@windingtree/wt-ui-react/lib/components/CardDeck';
 
 import Card from 'commons/Card';
-import {cardsData, pageTexts } from 'DATA/features/SoftwareVendors/Collaborate';
+import { cardsData, pageTexts } from 'DATA/features/SoftwareVendors/Collaborate';
 
 const Collaborate = () => (
   <section className="app-section section-collaborate">

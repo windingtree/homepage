@@ -3,8 +3,8 @@ import React from 'react';
 import {
   Container, Row, Col,
 } from '@windingtree/wt-ui-react';
-import Blockquote from './BlockQuote';
 import quote from 'DATA/features/StartupsAndDevelopers/BlockQuoteSection/BlockQuote';
+import Blockquote from './BlockQuote';
 
 const BlockQuoteSection = () => (
   <>
