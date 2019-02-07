@@ -1,6 +1,6 @@
 // @flow
 import React from 'react';
-import type { IconsType } from '../data';
+import type { IconsType } from 'DATA/features/Foundation/Team';
 
 type PropsType = {
   icons: IconsType

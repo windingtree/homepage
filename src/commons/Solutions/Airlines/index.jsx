@@ -1,6 +1,7 @@
 /* @flow */
 import React from 'react';
 import { Button, Row, Col } from '@windingtree/wt-ui-react';
+import data from 'DATA/commons/Solutions';
 import Solution from '../Solution';
 import Polygon from './Polygon';
 
@@ -11,10 +12,8 @@ const Hospitality = () => (
         <Polygon />
       </Col>
       <Col md={6} lg={7} className="mb-1 mb-sm-0 order-md-first">
-        <Solution.Item title="For Airlines">
-          Lower your distribution and transactional cost by using new
-          commission-free distribution channel, more reliable than any
-          major GDS.
+        <Solution.Item title={data.Airlines.title}>
+          {data.Airlines.text}
         </Solution.Item>
         {/*        <Button
           href="https://github.com/windingtree/"

@@ -3,7 +3,7 @@ import React from 'react';
 import {
   Footer,
 } from '@windingtree/wt-ui-react';
-import { foundation } from './data';
+import { foundation } from 'DATA/features/Footer';
 
 const WTFooter = () => (
   <Footer

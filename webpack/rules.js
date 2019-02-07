@@ -44,7 +44,7 @@ const rules = [
         {
           loader: 'file-loader',
           options: {
-            name: '[name].[ext]',
+            name: '[name]-[hash].[ext]',
             outputPath: 'img/'
           }
         }

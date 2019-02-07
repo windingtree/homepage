@@ -2,8 +2,8 @@
 import React from 'react';
 import { Tab, Pagination } from '@windingtree/wt-ui-react';
 import Accordion from 'commons/Accordion';
+import type { EventType } from './types';
 import Event from './Event';
-import type { EventType } from './data';
 
 type PropsType = {
   name: string,

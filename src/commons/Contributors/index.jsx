@@ -1,7 +1,7 @@
 /* @flow */
 import React from 'react';
 import { Slick } from '@windingtree/wt-ui-react';
-import { contributors as devContributors, contributosToIgnore } from './contributors';
+import { contributors as devContributors, contributosToIgnore } from 'DATA/commons/Contributors';
 import DevImage from './DevImage';
 
 type ContributorType = {

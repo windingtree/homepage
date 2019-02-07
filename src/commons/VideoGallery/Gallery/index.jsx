@@ -3,8 +3,8 @@ import React from 'react';
 import {
   Container, Row, Col,
 } from '@windingtree/wt-ui-react';
+import sections from 'DATA/commons/VideoGallery';
 import Category from './Category';
-import sections from './data';
 
 const Gallery = () => (
   <Container>

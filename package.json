@@ -1,6 +1,6 @@
 {
   "name": "winding-tree",
-  "version": "2.0.9",
+  "version": "2.0.11",
   "main": "server.js",
   "scripts": {
     "start": "NODE_ENV=production node ./server.js",
@@ -26,9 +26,9 @@
     "classnames": "^2.2.6",
     "express": "^4.16.4",
     "memory-fs": "^0.4.1",
-    "react": "^16.6.3",
+    "react": "^16.7.0",
     "react-collapse": "^4.0.3",
-    "react-dom": "^16.6.3",
+    "react-dom": "^16.7.0",
     "react-helmet": "^5.2.0",
     "react-hot-loader": "^4.3.12",
     "react-router-bootstrap": "^0.24.4",

@@ -1,7 +1,7 @@
 /* stylelint-disable declaration-block-trailing-semicolon */
 /* @flow */
 import React from 'react';
-import tours from './img/tours.jpg';
+import data from 'DATA/commons/Solutions';
 
 const SVG = () => (
   <svg
@@ -81,7 +81,7 @@ const SVG = () => (
         <stop stopColor="#29CB96" />
         <stop offset="1" stopColor="#0D1134" />
       </linearGradient>
-      <image id="imaget0" width="1500" height="1102" xlinkHref={tours} />
+      <image id="imaget0" width="1500" height="1102" xlinkHref={data.OTA.imgSrc} />
     </defs>
   </svg>
 );

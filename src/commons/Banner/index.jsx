@@ -5,7 +5,7 @@ import {
   Container, Row, Col, Button,
 } from '@windingtree/wt-ui-react';
 import IconList from 'commons/IconList';
-import data from './data';
+import data from 'DATA/commons/Banner';
 
 type PropsType = {
   variant: 'designedFor' | 'consultancy' | 'howWeWork',

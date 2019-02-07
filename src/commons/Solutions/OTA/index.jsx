@@ -1,6 +1,7 @@
 /* @flow */
 import React from 'react';
 import { Button, Row, Col } from '@windingtree/wt-ui-react';
+import data from 'DATA/commons/Solutions';
 import Solution from '../Solution';
 import Polygon from './Polygon';
 
@@ -11,10 +12,8 @@ const OTA = () => (
         <Polygon />
       </Col>
       <Col md={6} lg={7} className="mb-1 mb-sm-0">
-        <Solution.Item title="Online and Offline Travel Agency">
-          If you sell travel as an agency, through your site or would like to add booking
-          of travel to your app, you can integrate with Winding Tree and access suppliers
-          directly through our API without any commission fees or mediation by Winding Tree.
+        <Solution.Item title={data.OTA.title}>
+          {data.OTA.text}
         </Solution.Item>
         <Button
           href="https://github.com/windingtree/wiki"

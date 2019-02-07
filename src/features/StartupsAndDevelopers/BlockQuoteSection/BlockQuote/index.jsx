@@ -1,7 +1,6 @@
 /* @flow */
 import React from 'react';
 import Icon from './Icon';
-import './max.jpg';
 
 type PropsType = {
   body: string,

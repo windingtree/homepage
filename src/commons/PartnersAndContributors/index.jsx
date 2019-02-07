@@ -3,7 +3,7 @@ import React from 'react';
 import {
   Tab, Nav, Col, Image,
 } from '@windingtree/wt-ui-react';
-import partners from './data';
+import partners from 'DATA/commons/PartnersAndContributors';
 
 type PropsType = {
   tab: number

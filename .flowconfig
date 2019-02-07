@@ -10,6 +10,7 @@ flow-typed
 
 [options]
 module.system.node.resolve_dirname=node_modules
+module.name_mapper='^DATA' ->'<PROJECT_ROOT>/data'
 module.system.node.resolve_dirname=./src
 emoji=true
 module.file_ext=.js

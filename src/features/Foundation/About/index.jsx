@@ -5,7 +5,7 @@ import {
 } from '@windingtree/wt-ui-react';
 import CardDeck from '@windingtree/wt-ui-react/lib/components/CardDeck';
 import Card from 'commons/Card';
-import cardsData from './data';
+import cardsData from 'DATA/features/Foundation/About';
 
 const About = () => (
   <div className="app-section section-about border-bottom border-light" id="About">

@@ -1,7 +1,7 @@
 /* stylelint-disable declaration-block-trailing-semicolon */
 /* @flow */
 import React from 'react';
-import airlines from './img/airlines.jpg';
+import data from 'DATA/commons/Solutions';
 
 const SVG = () => (
   <svg
@@ -90,7 +90,7 @@ const SVG = () => (
         id="imageAirlines"
         width="1500"
         height="986"
-        xlinkHref={airlines}
+        xlinkHref={data.Airlines.imgSrc}
       />
     </defs>
   </svg>

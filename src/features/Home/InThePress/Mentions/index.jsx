@@ -2,7 +2,7 @@
 import React from 'react';
 // import { Row, Col } from '@windingtree/wt-ui-react';
 
-import mentions from './data';
+import mentions from 'DATA/features/Home/InThePress/Mentions';
 
 const Mentions = () => (
   <ul className="logo-gallery mb-0 justify-content-center">
