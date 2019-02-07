@@ -9,7 +9,7 @@ const solutions = {
   Hospitality : {
     title: 'For Hotels',
     text: 'Hotels can integrate with our simple APIs to showcase availability on the Winding Tree marketplace.',
-    imgSrc: require('./img/Hospitality.jpg'),
+    imgSrc: require('./img/hospitality.jpg'),
   },
   OTA : {
     title: 'Online and Offline Travel Agency',

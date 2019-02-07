@@ -4,7 +4,7 @@ import {
   Container, Row, Col,
 } from '@windingtree/wt-ui-react';
 import Blockquote from './BlockQuote';
-import quote from 'DATA/features/StartupsAndDevelopers/BlockQuoteSection/Blockquote';
+import quote from 'DATA/features/StartupsAndDevelopers/BlockQuoteSection/BlockQuote';
 
 const BlockQuoteSection = () => (
   <>
