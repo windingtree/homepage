@@ -106,7 +106,7 @@ class WTNavbar extends Component<*, StateType> {
                   </LinkContainer>
                 </Nav.Item>
                 <Nav.Item id="navbar-btn">
-                  <Button block type="button" href="https://docs.google.com/forms/d/e/1FAIpQLSevHx6goFLdbdI7TSX6JFugNlT56nlRD7I1XjqGc-06pIoemA/viewform" onClick={this.toggle}>Join</Button>
+                  <Button block type="button" href="https://goo.gl/o7WP6R" onClick={this.toggle}>Join</Button>
                 </Nav.Item>
               </Nav>
             </Navbar.Collapse>
