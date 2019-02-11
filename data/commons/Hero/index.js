@@ -48,7 +48,7 @@ const data: DataType = {
   sellers: {
     title: 'An entry point to travel inventory',
     text: 'An open-source technology that gives sellers a commission-free access to thousands of hotels, airlines, cruises and other travel services worldwide.',
-    primaryButtonHref: 'https://docs.google.com/forms/d/e/1FAIpQLSevHx6goFLdbdI7TSX6JFugNlT56nlRD7I1XjqGc-06pIoemA/viewform',
+    primaryButtonHref: 'https://goo.gl/o7WP6R',
     primaryButtonLabel: 'Apply for integration',
     SecondaryButtonLabel: 'Watch Video',
     imgSrc: require('./img/sellers-hero.svg'),
@@ -57,7 +57,7 @@ const data: DataType = {
   softwareVendors: {
     title: 'Deliver more value with your product',
     text: 'Make your product utilize Winding Tree Platform features and increase its value for users',
-    primaryButtonHref: 'https://docs.google.com/forms/d/e/1FAIpQLSevHx6goFLdbdI7TSX6JFugNlT56nlRD7I1XjqGc-06pIoemA/viewform',
+    primaryButtonHref: 'https://goo.gl/o7WP6R',
     primaryButtonLabel: 'Integrate',
     SecondaryButtonLabel: 'Watch Video',
     imgSrc: require('./img/software-vendors-hero.svg'),
@@ -73,7 +73,7 @@ const data: DataType = {
   suppliers: {
     title: 'New profitable distribution channel',
     text: 'Deliver your inventory to sellers with new open-source and commision-free channel',
-    primaryButtonHref: 'https://docs.google.com/forms/d/e/1FAIpQLSevHx6goFLdbdI7TSX6JFugNlT56nlRD7I1XjqGc-06pIoemA/viewform',
+    primaryButtonHref: 'https://goo.gl/o7WP6R',
     primaryButtonLabel: 'Apply for integration',
     SecondaryButtonLabel: 'Watch Video',
     imgSrc: require('./img/suppliers-hero.svg'),

@@ -79,7 +79,7 @@ const Features = () => (
 
 
           <footer className="text-center">
-            <Button href="https://docs.google.com/forms/d/e/1FAIpQLSevHx6goFLdbdI7TSX6JFugNlT56nlRD7I1XjqGc-06pIoemA/viewform" target="_blank" variant="dark" outlined>
+            <Button href="https://goo.gl/o7WP6R" target="_blank" variant="dark" outlined>
           Join platform
             </Button>
           </footer>
