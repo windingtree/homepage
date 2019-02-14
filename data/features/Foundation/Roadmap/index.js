@@ -330,7 +330,7 @@ const roadmapData: RoadmapDataType = [
         elements: [
           {
             done: IN_PROGRESS,
-            text: 'Integration with Hobo Hotel, eRevMax, Hahn Air',
+            text: 'Integration with eRevMax',
             tooltip: 'Integration with suppliers to distribute real hotel and airline inventory',
           },
           {

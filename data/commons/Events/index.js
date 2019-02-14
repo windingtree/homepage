@@ -69,6 +69,15 @@ const events: EventsType = {
   ],
   past: [
     {
+      startDate: '29',
+      endDate: '30',
+      startMonth: "Jan'19",
+      name: "Aracon",
+      location: 'Berlin, Germany',
+      text: "The Aragon Conference brings together people who embody and wish to shape the Aragon community. Those who are building and supporting the pseudonymous, secure, trustless future — the decentralized web. Decentralized governance and DAOs are at the heart of the new Web 3.0. They are key components in moving towards a more fair and open world for everyone. By concentrating on a few themes, we can provide much deeper and thorough presentations on these topics.",
+      imgSrc: require('./img/aracon.jpg'),
+    },
+    {
       startDate: '21',
       endDate: '22',
       startMonth: "Nov'18",
