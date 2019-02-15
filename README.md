@@ -44,17 +44,4 @@ $ npm run flow
 ### Deploy
 
 We are using Now.sh to run deploys for each pull request and to host the site. Also, we use Cloudflare.
-Create a new Github tag will trigger Travis CI to run a new deploy
-
-To create a new tag from command line 
-```bash
-$ git checkout master 
-$ git pull                        # Tag must be created from latest commmit in master always
-$ git tag -a vx.x.x -m "vx.x.x"   # Version must be the same as version in package.json
-$ git tag
-
-$ git push origin vx.x.x
-```
-You can do it from web client. For more information read
-- [Working with tags](https://help.github.com/articles/working-with-tags/)
-- [About releases](https://help.github.com/articles/about-releases/)
+After merge to branch master, will trigger Travis CI to run a new deploy.
