@@ -11,7 +11,7 @@ jobs:
     - npm run build
   - stage: deploy-version
     install: true
-    if: branch = master
+    if: branch = master AND type = push
     script:
     - npm i -g now
     - npm run deploy:release
