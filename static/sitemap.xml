@@ -1,27 +1,25 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    
-<url>
-    <loc>http://windingtree.com/</loc>
-</url>
-<url>
-    <loc>http://windingtree.com/suppliers</loc>
-</url>
-<url>
-    <loc>http://windingtree.com/sellers</loc>
-</url>
-<url>
-    <loc>http://windingtree.com/software-vendors</loc>
-</url>
-<url>
-    <loc>http://windingtree.com/startups-and-developers</loc>
-</url>
-<url>
-    <loc>http://windingtree.com/lif-token</loc>
-</url>
-<url>
-    <loc>http://windingtree.com/foundation</loc>
-</url>
+    <url>
+        <loc>http://windingtree.com/</loc>
+    </url>
+    <url>
+        <loc>http://windingtree.com/suppliers</loc>
+    </url>
+    <url>
+        <loc>http://windingtree.com/sellers</loc>
+    </url>
+    <url>
+        <loc>http://windingtree.com/software-vendors</loc>
+    </url>
+    <url>
+        <loc>http://windingtree.com/startups-and-developers</loc>
+    </url>
+    <url>
+        <loc>http://windingtree.com/lif-token</loc>
+    </url>
+    <url>
+        <loc>http://windingtree.com/foundation</loc>
+    </url>
 </urlset>
