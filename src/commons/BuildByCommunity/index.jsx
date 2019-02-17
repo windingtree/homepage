@@ -3,7 +3,7 @@ import Tile from 'commons/Card';
 import {
   Container, Row, Col,
 } from '@windingtree/wt-ui-react';
-import projectList from 'DATA/features/StartupsAndDevelopers/BuildByCommunity';
+import projectList from 'DATA/commons/BuildByCommunity';
 
 const BuildByCommunity = () => (
 

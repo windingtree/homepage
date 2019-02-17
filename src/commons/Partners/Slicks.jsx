@@ -5,7 +5,7 @@ import {
 } from '@windingtree/wt-ui-react';
 import {
   partnersSlide1, partnersSlide2, partnersSlide3,
-} from 'DATA/features/Home/Partners';
+} from 'DATA/commons/Partners';
 
 const slickOptions = {
   arrows: false,

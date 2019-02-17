@@ -3,7 +3,7 @@ import React from 'react';
 import {
   Tab, Row, Col, Nav, Image, Container, Button,
 } from '@windingtree/wt-ui-react';
-import features from 'DATA/features/Home/Features';
+import features from 'DATA/commons/Features';
 
 const Features = () => (
   <article className="app-section section-features pt-2 pt-lg-3">

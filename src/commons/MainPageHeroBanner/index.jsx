@@ -10,7 +10,7 @@ type StateType = {
   showModal: boolean
 };
 
-class MainBanner extends React.Component<*, StateType> {
+class MainPageHeroBanner extends React.Component<*, StateType> {
   state = { showModal: false };
 
   hanldeOnClick = (e: SyntheticMouseEvent<*>) => {
@@ -92,4 +92,4 @@ class MainBanner extends React.Component<*, StateType> {
   }
 }
 
-export default MainBanner;
+export default MainPageHeroBanner;

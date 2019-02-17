@@ -2,7 +2,7 @@
 import React from 'react';
 import { Tab, Nav, Col } from '@windingtree/wt-ui-react';
 
-import quotes from 'DATA/features/Home/InThePress/Quotes';
+import quotes from 'DATA/commons/InThePress/Quotes';
 
 const Quotes = () => (
   <section className="mb-2">

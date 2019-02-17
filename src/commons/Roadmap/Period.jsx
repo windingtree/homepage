@@ -8,7 +8,7 @@ import {
 } from '@windingtree/wt-ui-react';
 import Collapse from 'react-collapse';
 import classNames from 'classnames';
-import type { PeriodType } from 'DATA/features/Foundation/Roadmap';
+import type { PeriodType } from 'DATA/commons/Roadmap';
 import Group from './Group';
 
 type StateType = {

@@ -8,15 +8,15 @@ import ReadyToUse from 'commons/ReadyToUse';
 import HowItWorks from 'commons/HowItWorks';
 import metadata from 'data/metadata.json';
 import CustomHelmet from 'commons/CustomHelmet';
-import Partners from './Partners';
-import InThePress from './InThePress';
-import Features from './Features';
-import MainBanner from './MainBanner';
+import Partners from 'commons/Partners';
+import InThePress from 'commons/InThePress';
+import Features from 'commons/Features';
+import MainPageHeroBanner from 'commons/MainPageHeroBanner';
 
 const Home = () => (
   <main id="app-content">
     <CustomHelmet {...metadata.home} />
-    <MainBanner />
+    <MainPageHeroBanner />
     <Features />
     <HowItWorks />
     {/* <LifToken /> */}
