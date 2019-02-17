@@ -8,10 +8,10 @@ import ReadyToUse from 'commons/ReadyToUse';
 import VideoGallery from 'commons/VideoGallery';
 import metadata from 'data/metadata.json';
 import CustomHelmet from 'commons/CustomHelmet';
-import { members, advisors } from 'DATA/features/Foundation/Team';
-import Team from './Team';
+import { members, advisors } from 'DATA/commons/Team';
+import Team from 'commons/Team';
 import About from './About';
-import Roadmap from './Roadmap';
+import Roadmap from 'commons/Roadmap';
 
 const Foundation = () => (
   <main id="app-content">

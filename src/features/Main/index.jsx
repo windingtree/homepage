@@ -9,7 +9,7 @@ import classNames from 'classnames';
 import metadata from 'data/metadata.json';
 import CustomHelmet from 'commons/CustomHelmet';
 import Gdpr from 'commons/Gdpr';
-import Footer from './Footer';
+import Footer from 'commons/Footer';
 
 type PropsType = {
   children: React$Node

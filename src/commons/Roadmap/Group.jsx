@@ -1,7 +1,7 @@
 /* @flow */
 import React from 'react';
 import classNames from 'classnames';
-import type { GroupType } from 'DATA/features/Foundation/Roadmap';
+import type { GroupType } from 'DATA/commons/Roadmap';
 import Item from './Item';
 
 type PropsType = GroupType & { muted: boolean };

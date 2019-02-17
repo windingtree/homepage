@@ -13,8 +13,8 @@ import ReadyToUse from 'commons/ReadyToUse';
 import VideoGallery from 'commons/VideoGallery';
 import metadata from 'data/metadata.json';
 import CustomHelmet from 'commons/CustomHelmet';
-import BuildByCommunity from './BuildByCommunity';
-import BlockQuoteSection from './BlockQuoteSection';
+import BuildByCommunity from 'commons/BuildByCommunity';
+import BlockQuoteSection from 'commons/BlockQuoteSection';
 
 const StartupsAndDevelopers = () => (
   <div id="app-content">

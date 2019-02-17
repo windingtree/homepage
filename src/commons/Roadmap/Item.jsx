@@ -3,10 +3,10 @@ import React from 'react';
 import { Button } from '@windingtree/wt-ui-react';
 import classNames from 'classnames';
 import { LinkContainer } from 'react-router-bootstrap';
-import type { ItemType } from 'DATA/features/Foundation/Roadmap';
+import type { ItemType } from 'DATA/commons/Roadmap';
 import {
   STARTING, IN_PROGRESS, DONE,
-} from 'DATA/features/Foundation/Roadmap';
+} from 'DATA/commons/Roadmap';
 
 type PropsType = ItemType & { muted: boolean };
 
