@@ -10,8 +10,9 @@ import metadata from 'data/metadata.json';
 import CustomHelmet from 'commons/CustomHelmet';
 import { members, advisors } from 'DATA/commons/Team';
 import Team from 'commons/Team';
-import About from './About';
 import Roadmap from 'commons/Roadmap';
+import About from './About';
+
 
 const Foundation = () => (
   <main id="app-content">
