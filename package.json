@@ -24,6 +24,7 @@
     "@windingtree/wt-ui": "^1.5.1",
     "@windingtree/wt-ui-react": "^0.12.0",
     "classnames": "^2.2.6",
+    "country-list": "^2.1.0",
     "express": "^4.16.4",
     "memory-fs": "^0.4.1",
     "react": "^16.7.0",
