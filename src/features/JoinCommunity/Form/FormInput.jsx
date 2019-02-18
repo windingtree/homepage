@@ -17,40 +17,38 @@ type PropsType = {
 };
 
 const FormInput = (props: PropsType) => {
-  const countrys = countryList.getNames();
+  const countries = countryList.getNames();
   const {
     onFirstNameChange, onLastNameChange, onEmailChange, onCounrtyChange, onIdeasChange,
     onRadiosChange, onSubmit,
   } = props;
 
   return (
-    <Container className="app-section">
+    <Container className="app-section px-0 pt-1 pt-md-2">
       <Row className="justify-content-center">
         <Col xs={11} sm={12} md={10} lg={8}>
           <Form>
             <Row>
-              <Col>
+              <Col sm={12} md={6}>
                 <Form.Group controlId="formFirstName">
                   <Form.Control type="email" placeholder="First Name" onChange={onFirstNameChange} />
                 </Form.Group>
               </Col>
-              <Col>
+              <Col sm={12} md={6}>
                 <Form.Group controlId="formLastName">
                   <Form.Control type="email" placeholder="Last Name" onChange={onLastNameChange} />
                 </Form.Group>
               </Col>
-            </Row>
-            <Row>
-              <Col>
+              <Col sm={12} md={6}>
                 <Form.Group controlId="formEmail">
                   <Form.Control type="email" placeholder="E-mail" onChange={onEmailChange} />
                 </Form.Group>
               </Col>
-              <Col>
+              <Col sm={12} md={6}>
                 <Form.Group controlId="formCountry">
-                  <Form.Control as="select" onChange={onCounrtyChange}>
-                    {countrys.map(c => <option key={c}>{c}</option>)}
-                  </Form.Control>
+                  <select onChange={onCounrtyChange}>
+                    {countries.map(c => <option key={c}>{c}</option>)}
+                  </select>
                 </Form.Group>
               </Col>
             </Row>
@@ -64,7 +62,7 @@ const FormInput = (props: PropsType) => {
             </Form.Group>
             {radios.map(radio => (
               <Form.Check
-                className="custom-radio"
+                className="custom-radio pt-1"
                 type="radio"
                 label={radio.label}
                 id={`disabled-default-${radio.id}`}
@@ -72,7 +70,9 @@ const FormInput = (props: PropsType) => {
                 key={radio.id}
                 onChange={onRadiosChange}
               />))}
-            <Button type="submit" variant="primary" href="/" onClick={onSubmit}>Complete and go to Main page</Button>
+            <div className="pt-2 text-center">
+              <Button type="submit" variant="primary" href="/" onClick={onSubmit}>Join Community</Button>
+            </div>
           </Form>
         </Col>
       </Row>

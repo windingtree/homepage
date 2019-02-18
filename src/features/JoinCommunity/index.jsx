@@ -16,7 +16,7 @@ const JoinCommunity = () => (
           <Col md={10}>
             <h2 className="mb-1">Join Windingtree Community</h2>
             <p className="mb-1 mb-md-2">
-              of Developers, startupers, and enthusiasts
+              of developers, start-upers and innovators
             </p>
           </Col>
         </Row>

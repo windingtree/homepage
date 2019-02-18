@@ -1,21 +1,21 @@
 const comunityBenefits = [
   {
     icon: require('DATA/commons/KeyBenefits/img/5.svg'),
-    title: 'Get Updates',
+    title: 'Contribute & Hack',
   },
   {
     icon: require('DATA/commons/KeyBenefits/img/5.svg'),
-    title: 'Get Priority Invites',
+    title: 'Receive Updates',
   },
   {
     icon: require('DATA/commons/KeyBenefits/img/5.svg'),
-    title: 'Contribute & Collaborate',
+    title: 'Priority Invites',
   },
 ];
 
 const radios = [
   {
-    label: 'I want to have the opportunity to contributr with my skills to Winding Tree',
+    label: 'I want to have an opportunity to contribute with my skills to Winding Tree',
     id: '1',
   },
   {
