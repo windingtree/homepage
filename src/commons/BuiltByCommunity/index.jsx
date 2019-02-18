@@ -3,13 +3,13 @@ import Tile from 'commons/Card';
 import {
   Container, Row, Col,
 } from '@windingtree/wt-ui-react';
-import projectList from 'DATA/commons/BuildByCommunity';
+import projectList from 'DATA/commons/BuiltByCommunity';
 
-const BuildByCommunity = () => (
+const BuiltByCommunity = () => (
 
   <Container className="app-section section-community border-top border-bottom border-light">
     <header className="mb-2 mb-md-4 text-center">
-      <h2>Build by Community</h2>
+      <h2>Built by Community</h2>
     </header>
 
     <Row className="justify-content-center">
@@ -38,4 +38,4 @@ const BuildByCommunity = () => (
 
 );
 
-export default BuildByCommunity;
+export default BuiltByCommunity;

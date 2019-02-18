@@ -13,7 +13,7 @@ import ReadyToUse from 'commons/ReadyToUse';
 import VideoGallery from 'commons/VideoGallery';
 import metadata from 'data/metadata.json';
 import CustomHelmet from 'commons/CustomHelmet';
-import BuildByCommunity from 'commons/BuildByCommunity';
+import BuiltByCommunity from 'commons/BuiltByCommunity';
 import BlockQuoteSection from 'commons/BlockQuoteSection';
 
 const StartupsAndDevelopers = () => (
@@ -55,7 +55,7 @@ const StartupsAndDevelopers = () => (
 
       </section>
 
-      <BuildByCommunity />
+      <BuiltByCommunity />
       <Events />
       <VideoGallery />
 
