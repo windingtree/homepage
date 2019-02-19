@@ -16,7 +16,7 @@ class ExtendedCard extends React.Component {
                         <img src={data.imgSrc} alt={data.title} className="" style={{ width: 80 }} />
                     </Col>
                 </Row>
-                <Row className="card-body">
+                <Row className="card-body px-0">
                     <Col>
                         <h3 className="text-center">{data.title}</h3>
                         <div class="card-text">

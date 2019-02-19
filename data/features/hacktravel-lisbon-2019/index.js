@@ -48,7 +48,7 @@ const Hacktravel = {
             },
             {
                 imgSrc:require('./img/benefits/1.svg'),
-                title:'Independent Developers & Software Companies',
+                title:'Independent Developers& Software Companies',
                 buttonUrl: "https://windingtree.typeform.com/to/zw5WmH",
                 buttonLabel: "Get Early Bird Tickets",
                 buttonStyle: ".btn-primary",
