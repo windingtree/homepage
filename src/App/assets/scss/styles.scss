@@ -83,6 +83,11 @@ h3,
 @media (max-width: 768px) {
   .card-deck.card-deck-sm-stack {
     display: block;
+    
+    .extended-card {
+        display: block !important;
+
+    }
 
     .card {
       display: flex;

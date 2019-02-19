@@ -9,6 +9,7 @@ import event from "DATA/features/Hacktravel-Lisbon-2019"
 import EventPageHeroBanner from 'commons/EventPageHeroBanner';
 import AccentedTextSection from 'commons/AccentedTextSection'
 import ShortBenefits from 'commons/ShortBenefits'
+import AttendeeCardsSection from 'commons/AttendeeCardsSection'
 
 import VideoGallery from 'commons/VideoGallery';
 import Events from 'commons/Events';
@@ -23,6 +24,7 @@ const HacktravelLisbon2019 = () => (
     <EventPageHeroBanner data={event.header}/>
     <ShortBenefits data={event.benefits}/>
     <AccentedTextSection data={event.about}/>
+    <AttendeeCardsSection data={event.attendees}/>
     <VideoGallery />
     <Events />
     <SuscribeForUpdates />
