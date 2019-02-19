@@ -19,7 +19,6 @@ const Home = () => (
     <MainPageHeroBanner />
     <Features />
     <HowItWorks />
-    {/* <LifToken /> */}
     <Partners />
     <InThePress />
     <Banner variant="designedFor" icons />

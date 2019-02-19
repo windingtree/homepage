@@ -7,7 +7,8 @@ import CustomHelmet from 'commons/CustomHelmet';
 import event from "DATA/features/Hacktravel-Lisbon-2019"
 
 import EventPageHeroBanner from 'commons/EventPageHeroBanner';
-
+import AccentedTextSection from 'commons/AccentedTextSection'
+import ShortBenefits from 'commons/ShortBenefits'
 
 import VideoGallery from 'commons/VideoGallery';
 import Events from 'commons/Events';
@@ -20,6 +21,8 @@ const HacktravelLisbon2019 = () => (
   <main id="app-content">
     <CustomHelmet {...metadata.home} />
     <EventPageHeroBanner data={event.header}/>
+    <ShortBenefits data={event.benefits}/>
+    <AccentedTextSection data={event.about}/>
     <VideoGallery />
     <Events />
     <SuscribeForUpdates />
