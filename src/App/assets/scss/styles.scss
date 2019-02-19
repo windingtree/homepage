@@ -14,7 +14,7 @@ $spacer: 10px;
 
 // BODY
 body {
-  background-image: url('../img/bg-left.png'),url('../img/bg-right.png');
+  background-image: url('/assets/img/pages/inner/bg-left.png'),url('/assets/img/pages/inner/bg-right.png');
   background-position: 0 -100vh, 100% -100vh;
   background-repeat: repeat-y, repeat-y;
 }
@@ -376,7 +376,7 @@ html {
   }
 
   .navbar.navbar-dark.is-open .navbar-brand {
-    background-image: url('../img/sm-color.svg');
+    background-image: url('/assets/img/logo/sm-color.svg');
   }
 
   .navbar.navbar-dark.is-open .navbar-toggler,
@@ -403,7 +403,7 @@ html {
 // HERO
 .hero-homepage {
   background-color: $accent;
-  background: #3553a5 url('../img/hero-bg-opt.jpg') 50% 0;
+  background: #3553a5 url('/assets/img/banners/hero-bg-opt.jpg') 50% 0;
   background-size: auto 105%;
 
   @media (min-width: 768px) {
@@ -529,6 +529,9 @@ html {
   }
 }
 
+.hero-lisbon {
+  background: #3553a5 url('/assets/img/banners/hacktravellisbon.jpg') 50% 0;
+}
 .section-hero-cards {
   margin-top: -15rem;
 
@@ -543,7 +546,7 @@ html {
 
 // Secondary Hero
 .section-hero {
-  background-image: url('../img/bg-hero.png'), radial-gradient(circle at 100% 50%, #29cb96, #5f2987);
+  background-image: url('/assets/img/banners/bg-hero.png'), radial-gradient(circle at 100% 50%, #29cb96, #5f2987);
   background-position: center bottom, left center;
   background-repeat: no-repeat, no-repeat;
 }

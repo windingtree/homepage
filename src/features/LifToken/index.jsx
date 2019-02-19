@@ -3,7 +3,7 @@ import KeyBenefits from 'commons/KeyBenefits';
 import Hero from 'commons/Hero';
 import SuscribeForUpdates from 'commons/SuscribeForUpdates';
 import ReadyToUse from 'commons/ReadyToUse';
-import metadata from 'data/metadata.json';
+import metadata from 'DATA/metadata.json';
 import CustomHelmet from 'commons/CustomHelmet';
 import LifIco from './LifIco';
 import keyBenefitsDescriptions from './keyBenefits.json';

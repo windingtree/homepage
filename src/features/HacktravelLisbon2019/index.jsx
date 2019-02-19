@@ -11,15 +11,14 @@ import CustomHelmet from 'commons/CustomHelmet';
 import Partners from 'commons/Partners';
 import InThePress from 'commons/InThePress';
 import Features from 'commons/Features';
-import MainPageHeroBanner from 'commons/MainPageHeroBanner';
+import EventPageHeroBanner from 'commons/EventPageHeroBanner';
 
-const Home = () => (
+const HacktravelLisbon2019 = () => (
   <main id="app-content">
     <CustomHelmet {...metadata.home} />
-    <MainPageHeroBanner />
+    <EventPageHeroBanner />
     <Features />
     <HowItWorks />
-    {/* <LifToken /> */}
     <Partners />
     <InThePress />
     <Banner variant="designedFor" icons />
@@ -30,5 +29,4 @@ const Home = () => (
   </main>
 );
 
-export default Home;
-
+export default HacktravelLisbon2019;

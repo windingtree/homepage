@@ -6,7 +6,7 @@ import {
   Navbar, Container, Nav, Button,
 } from '@windingtree/wt-ui-react';
 import classNames from 'classnames';
-import metadata from 'data/metadata.json';
+import metadata from 'DATA/metadata.json';
 import CustomHelmet from 'commons/CustomHelmet';
 import Gdpr from 'commons/Gdpr';
 import Footer from 'commons/Footer';
