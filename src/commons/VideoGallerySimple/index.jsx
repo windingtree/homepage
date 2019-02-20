@@ -16,8 +16,8 @@ class VideoGallerySimple extends React.Component {
           </header>
 
           <Row className="justify-content-center">
-            {data.items.map((videoItem, i) => (
-              <Col md={6} key={i}>
+            {data.items.map(videoItem => (
+              <Col md={6}>
                 <VideoCardSimple videoItem={videoItem} />
               </Col>
             ))}

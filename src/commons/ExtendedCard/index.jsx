@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  Row, Col, Image, Container, Button,
+  Row, Col, Container, Button,
 } from '@windingtree/wt-ui-react';
 
 class ExtendedCard extends React.Component {
@@ -19,8 +19,8 @@ class ExtendedCard extends React.Component {
             <h3 className="text-center display-linebreak">{data.title}</h3>
             <div className="card-text">
               <ul>
-                {data.benefits.map((benefit, i) => (
-                  <li key={i}>{benefit}</li>
+                {data.benefits.map(benefit => (
+                  <li key={benefit}>{benefit}</li>
                 ))}
               </ul>
             </div>

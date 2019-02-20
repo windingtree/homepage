@@ -20,12 +20,12 @@ class VideoCardSimple extends React.Component {
       const { showModal } = this.state;
       return (
             <>
-              <VideoModal show={showModal} videoSrc={videoItem.videoSrc} onHide={this.hideModal} />
+              <VideoModal show={showModal} videoSrc={videoItem.videoSrc} onHide={this.hideModal} title="About Hackathon" />
               <Card className="text-center card-video">
 
                 <button type="button" className="card-img-top" onClick={this.hanldeOnClick}>
                   <div className="img-crop" style={{ background: `url(${videoItem.thumbnail})`, paddingBottom: '55%' }}>
-                    <img src={videoItem.thumbnail} className="img-fluid w-100" />
+                    <img src={videoItem.thumbnail} className="img-fluid w-100" alt="" />
                   </div>
                 </button>
 
