@@ -44,6 +44,7 @@ class EventPageHeroBanner extends React.Component<*, StateType> {
             show={showModal}
             videoSrc={data.secondaryButtonUrl}
             onHide={this.hideModal}
+            title="Recap of Hacktravel Prague"
           />
 
           <Container>
