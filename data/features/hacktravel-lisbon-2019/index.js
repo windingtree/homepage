@@ -74,6 +74,27 @@ const Hacktravel = {
         buttonUrl: "https://windingtree.typeform.com/to/zw5WmH",
         buttonLabel: "Check Sponsorship Options",
         buttonStyle: "btn-accent",
+    },
+    videoGallery : {
+        header : "What Our Hackathon Alumni Say",
+        items:[
+            {
+                videoSrc: "https://youtu.be/vlJbLLY4_8A",
+                thumbnail: require('./img/video/partners.jpg'),
+            },
+            {
+                videoSrc: "https://youtu.be/vlJbLLY4_8A",
+                thumbnail: require('./img/video/partners.jpg'),
+            },
+            {
+                videoSrc: "https://youtu.be/vlJbLLY4_8A",
+                thumbnail: require('./img/video/partners.jpg'),
+            },
+            {
+                videoSrc: "https://youtu.be/vlJbLLY4_8A",
+                thumbnail: require('./img/video/partners.jpg'),
+            },
+        ]
     }
 }
 
