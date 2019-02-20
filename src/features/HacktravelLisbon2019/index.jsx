@@ -3,7 +3,7 @@ import React from 'react';
 
 import metadata from 'DATA/metadata.json';
 import CustomHelmet from 'commons/CustomHelmet';
-import Hacktravel from 'DATA/features/Hacktravel-Lisbon-2019';
+import Hacktravel from 'DATA/features/HacktravelLisbon2019';
 import EventPageHeroBanner from 'commons/EventPageHeroBanner';
 import AccentedTextSection from 'commons/AccentedTextSection';
 import ShortBenefits from 'commons/ShortBenefits';
