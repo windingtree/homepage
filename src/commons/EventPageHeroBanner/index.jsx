@@ -51,29 +51,27 @@ class EventPageHeroBanner extends React.Component<*, StateType> {
               <Row className="justify-content-md-center">
                 <Col md={9}>
                   <h1 className="mb-1 text-white">
-                  {data.title}
+                    {data.title}
                   </h1>
                 </Col>
                 <Col md={9}>
                   <p className="h1 mb-1 text-white">
-                  {data.subtitle}
+                    {data.subtitle}
                   </p>
                 </Col>
                 <Col md={6}>
-                  <p className="mb-2 lead text-muted">
-                  
-                  </p>
+                  <p className="mb-2 lead text-muted" />
                 </Col>
                 <Col xs={12}>
                   <ul className="d-flex flex-column flex-md-row justify-content-md-center align-items-md-center list-inline">
                     <li className="mb-1 mb-lg-0 ml-0 mr-md-1">
                       <Button href={data.mainButtonUrl} block>
-                      {data.mainButtonLabel}
+                        {data.mainButtonLabel}
                       </Button>
                     </li>
                     <li className="mb-1 mb-lg-0 list-inline-item">
                       <Button block variant="light" onClick={this.hanldeOnClick}>
-                      {data.secondaryButtonLabel}
+                        {data.secondaryButtonLabel}
                       </Button>
                     </li>
                   </ul>
@@ -83,7 +81,7 @@ class EventPageHeroBanner extends React.Component<*, StateType> {
           </Container>
         </section>
 
-        
+
       </>
 
     );

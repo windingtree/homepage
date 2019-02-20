@@ -4,12 +4,12 @@ import React from 'react';
 import metadata from 'DATA/metadata.json';
 import CustomHelmet from 'commons/CustomHelmet';
 
-import event from "DATA/features/Hacktravel-Lisbon-2019"
+import event from 'DATA/features/Hacktravel-Lisbon-2019';
 
 import EventPageHeroBanner from 'commons/EventPageHeroBanner';
-import AccentedTextSection from 'commons/AccentedTextSection'
-import ShortBenefits from 'commons/ShortBenefits'
-import AttendeeCardsSection from 'commons/AttendeeCardsSection'
+import AccentedTextSection from 'commons/AccentedTextSection';
+import ShortBenefits from 'commons/ShortBenefits';
+import AttendeeCardsSection from 'commons/AttendeeCardsSection';
 import VideoGallerySimple from 'commons/VideoGallerySimple';
 
 import Events from 'commons/Events';
@@ -17,15 +17,14 @@ import SuscribeForUpdates from 'commons/SuscribeForUpdates';
 import ReadyToUse from 'commons/ReadyToUse';
 
 
-
 const HacktravelLisbon2019 = () => (
   <main id="app-content">
     <CustomHelmet {...metadata.home} />
-    <EventPageHeroBanner data={event.header}/>
-    <ShortBenefits data={event.benefits}/>
-    <AccentedTextSection data={event.about}/>
-    <AttendeeCardsSection data={event.attendees}/>
-    <AccentedTextSection data={event.sponsors}/>
+    <EventPageHeroBanner data={event.header} />
+    <ShortBenefits data={event.benefits} />
+    <AccentedTextSection data={event.about} />
+    <AttendeeCardsSection data={event.attendees} />
+    <AccentedTextSection data={event.sponsors} />
     <VideoGallerySimple data={event.videoGallery} />
     <Events />
     <SuscribeForUpdates />

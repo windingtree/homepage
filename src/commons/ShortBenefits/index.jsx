@@ -1,36 +1,33 @@
 import React from 'react';
 import {
-    Container,
-    Row,
-    Col,
-    Image,
+  Container,
+  Row,
+  Col,
+  Image,
 } from '@windingtree/wt-ui-react';
 
 class ShortBenefits extends React.Component {
+  render() {
+    const { data } = this.props;
 
-    render() {
-        const { data } = this.props
+    return (
 
-        return (
+      <section className="app-section px-md-4">
+        <Row className="justify-content-center px-md-2 pt-md-4 pt-xs-2">
 
-            <section className="app-section px-md-4">
-                    <Row className="justify-content-center px-md-2 pt-md-4 pt-xs-2">
+          {data.map((benefit, i) => (
+            <Col sm={12} lg={3} className="text-center mb-2 mb-md-0" key={i}>
+              <Image src={benefit.imgSrc} alt={benefit.header} fluid width="100" />
+              <h3 className="my-1 mt-md-2 mb-md-1 text-muted">{benefit.header}</h3>
+            </Col>
+          ))}
 
-                        {data.map((benefit,i) => (
-                            <Col sm={12} lg={3} className="text-center mb-2 mb-md-0" key={i}>
-                                <Image src={benefit.imgSrc} alt={benefit.header} fluid width="100" />
-                                <h3 className="my-1 mt-md-2 mb-md-1 text-muted">{benefit.header}</h3>
-                            </Col>
-                        ))}
-                        
-                    </Row>    
+        </Row>
 
-            </section>
+      </section>
 
-        )
-
-    }
-
+    );
+  }
 }
 
 export default ShortBenefits;
