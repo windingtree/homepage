@@ -3,8 +3,11 @@ import React from 'react';
 import { Card } from '@windingtree/wt-ui-react';
 import VideoModal from 'commons/VideoModal';
 
+type StateType = {
+  showModal: boolean
+};
 
-class VideoCardSimple extends React.Component <*> {
+class VideoCardSimple extends React.Component<*, StateType> {
     state = { showModal: false };
 
     hanldeOnClick = (e: SyntheticMouseEvent<*>) => {
