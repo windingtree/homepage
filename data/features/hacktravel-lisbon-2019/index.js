@@ -38,36 +38,43 @@ const Hacktravel = {
         types: [
             {
                 imgSrc:require('./img/benefits/1.svg'),
-                title:'Airlines & Hotels',
+                title:'Airlines \n & Hotels',
                 buttonUrl: "https://windingtree.typeform.com/to/zw5WmH",
                 buttonLabel: "Get Early Bird Tickets",
-                buttonStyle: ".btn-primary",
+                buttonStyle: "btn-primary",
                 benefits: ["Learn new technology","Collaborate on solutions","Get complimentary training for your tech team","Solve your own business challenges"],
                 accentedNotice: "Early Bird Tickets 250$",
                 secondaryNotice: "50% off if you’re bringing your technical team to hack. Spots are limited to 50"
             },
             {
                 imgSrc:require('./img/benefits/1.svg'),
-                title:'Independent Developers& Software Companies',
+                title:'Independent Developers\n& Software Companies',
                 buttonUrl: "https://windingtree.typeform.com/to/zw5WmH",
-                buttonLabel: "Get Early Bird Tickets",
-                buttonStyle: ".btn-primary",
+                buttonLabel: "Join For Free",
+                buttonStyle: "btn-primary",
                 benefits: ["Learn new technology","Collaborate on solutions","Get complimentary training for your tech team","Solve your own business challenges"],
-                accentedNotice: "Early Bird Tickets 250$",
-                secondaryNotice: "50% off if you’re bringing your technical team to hack. Spots are limited to 50"
+                accentedNotice: "Approved hackers are invited to join us at zero cost.",
+                secondaryNotice: "Spots are limited to 80"
             },
             {
                 imgSrc:require('./img/benefits/1.svg'),
-                title:'Travel Startups & OTAs',
+                title:'Travel Startups\n& OTAs',
                 buttonUrl: "https://windingtree.typeform.com/to/zw5WmH",
-                buttonLabel: "Get Early Bird Tickets",
-                buttonStyle: ".btn-primary",
+                buttonLabel: "Join For Free",
+                buttonStyle: "btn-primary",
                 benefits: ["Learn new technology","Collaborate on solutions","Get complimentary training for your tech team","Solve your own business challenges"],
-                accentedNotice: "Early Bird Tickets 250$",
-                secondaryNotice: "50% off if you’re bringing your technical team to hack. Spots are limited to 50"
+                accentedNotice: "Approved hackers are invited to join us at zero cost.",
+                secondaryNotice: "Spots are limited to 80"
             },
         ],
     },
+    sponsors : {
+        header : 'Contribute as a Sponsor and Get More',
+        text : 'Put your organization in the spotlight of innovation and support the community of industry disruptors. We got tons of great sponsor benefits for you - get in touch and we’ll be happy to discuss the many ways you can be part of this event.',
+        buttonUrl: "https://windingtree.typeform.com/to/zw5WmH",
+        buttonLabel: "Check Sponsorship Options",
+        buttonStyle: "btn-accent",
+    }
 }
 
 export default Hacktravel

@@ -13,7 +13,7 @@ class ShortBenefits extends React.Component {
 
         return (
 
-            <section className="app-section pb-0 px-md-4">
+            <section className="app-section px-md-4">
                     <Row className="justify-content-center px-md-2 pt-md-4 pt-xs-2">
 
                         {data.map((benefit,i) => (
