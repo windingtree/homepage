@@ -13,7 +13,7 @@ import Events from 'commons/Events';
 import SuscribeForUpdates from 'commons/SuscribeForUpdates';
 import ReadyToUse from 'commons/ReadyToUse';
 
-const event=Hacktravel
+const event = Hacktravel;
 
 const HacktravelLisbon2019 = () => (
   <main id="app-content">
