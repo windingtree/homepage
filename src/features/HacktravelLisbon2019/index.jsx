@@ -1,21 +1,19 @@
-// @flow
+
 import React from 'react';
 
 import metadata from 'DATA/metadata.json';
 import CustomHelmet from 'commons/CustomHelmet';
-
-import event from 'DATA/features/Hacktravel-Lisbon-2019';
-
+import Hacktravel from 'DATA/features/Hacktravel-Lisbon-2019';
 import EventPageHeroBanner from 'commons/EventPageHeroBanner';
 import AccentedTextSection from 'commons/AccentedTextSection';
 import ShortBenefits from 'commons/ShortBenefits';
 import AttendeeCardsSection from 'commons/AttendeeCardsSection';
 import VideoGallerySimple from 'commons/VideoGallerySimple';
-
 import Events from 'commons/Events';
 import SuscribeForUpdates from 'commons/SuscribeForUpdates';
 import ReadyToUse from 'commons/ReadyToUse';
 
+const event=Hacktravel
 
 const HacktravelLisbon2019 = () => (
   <main id="app-content">
