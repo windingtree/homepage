@@ -16,8 +16,8 @@ const ExtendedCard = (props: *) => {
       </Row>
       <Row className="card-body px-0">
         <Col>
-          <h3 className="text-center display-linebreak">{data.title}</h3>
-          <div className="card-text">
+          <h3 className="text-center display-linebreak  extended-card-title">{data.title}</h3>
+          <div className="card-text extended-card-text">
             <ul>
               {data.benefits.map(benefit => (
                 <li key={benefit}>{benefit}</li>

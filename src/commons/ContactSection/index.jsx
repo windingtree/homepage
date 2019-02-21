@@ -32,8 +32,8 @@ const ContactSection = (props: *) => {
 
           {data.contactList.map(contact => (
             <Col xs={3} md={2} lg={2} className="text-center px-1 px-md-2 px-lg-3">
-              <a href={contact.contactUrl} target="_blank" rel="noopener noreferrer">
-                <img src={contact.contactImgSrc} alt={contact.contactName} className="" />
+              <a href={contact.contactUrl} target="_blank" rel="noopener noreferrer" className="contact-thumbnail">
+                <img src={contact.contactImgSrc} alt={contact.contactName} />
               </a>
             </Col>
           ))}
