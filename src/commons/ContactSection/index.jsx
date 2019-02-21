@@ -1,11 +1,10 @@
+/* @flow */
 import React from 'react';
 import {
   Container,
   Row,
-  Col, 
+  Col,
 } from '@windingtree/wt-ui-react';
-import { LinkContainer } from 'react-router-bootstrap';
-import { Link } from 'react-router-dom';
 
 const ContactSection = (props: *) => {
   const { data } = props;
@@ -31,13 +30,13 @@ const ContactSection = (props: *) => {
 
         <Row className="justify-content-center py-1">
 
-            {data.contactList.map(contact =>(
-                <Col md={3} className="text-center">
-                    <a href={contact.contactUrl} target="_blank">
-                        <img src={contact.contactImgSrc} alt={contact.contactName} className="" style={{ width: 80 }} />
-                    </a>
-                </Col>
-            ))}
+          {data.contactList.map(contact => (
+            <Col md={3} className="text-center">
+              <a href={contact.contactUrl} target="_blank" rel="noopener noreferrer">
+                <img src={contact.contactImgSrc} alt={contact.contactName} className="" style={{ width: 80 }} />
+              </a>
+            </Col>
+          ))}
 
         </Row>
 
