@@ -95,6 +95,31 @@ const Hacktravel = {
                 thumbnail: require('./img/video/partners.jpg'),
             },
         ]
+    },
+    photoGallery : {
+
+    },
+    contacts : {
+        header: 'Questions?',
+        text:'Get in touch with us on Telegram, Gitter or feel free to drop our hackathon team a line via email',
+        contactList:[
+            {
+                contactName:'Gitter',
+                contactUrl:'https://gitter.im/windingtree/Lobby',
+                contactImgSrc:require('./img/contacts/gitter.svg')
+            },
+            {
+                contactName:'Telegram',
+                contactUrl:'https://t.me/windingtree',
+                contactImgSrc:require('./img/contacts/telegram.svg')
+            },
+            {
+                contactName:'Email',
+                contactUrl:'info@windingtree.com',
+                contactImgSrc:require('./img/contacts/email.svg')
+            },
+
+        ]
     }
 }
 

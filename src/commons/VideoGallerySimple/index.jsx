@@ -12,9 +12,11 @@ const VideoGallerySimple = (props: *) => {
     <div className="app-section">
       <Container>
 
-        <header className="mb-2 mb-md-4 text-center">
-          <h2>{data.header}</h2>
-        </header>
+        <Row className="my-3 mb-2 mb-md-4 justify-content-center">
+          <Col>
+            <h2 className="text-center">{data.header}</h2>
+          </Col>
+        </Row>
 
         <Row className="justify-content-center">
           {data.items.map(videoItem => (
