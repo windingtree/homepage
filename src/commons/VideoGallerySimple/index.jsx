@@ -5,30 +5,29 @@ import {
 } from '@windingtree/wt-ui-react';
 import VideoCardSimple from 'commons/VideoCardSimple';
 
-const VideoGallerySimple =(props)=> {
-    const { data } = props;
-    return (
+const VideoGallerySimple = (props: *) => {
+  const { data } = props;
+  return (
 
-          <div className="app-section">
-            <Container>
+    <div className="app-section">
+      <Container>
 
-              <header className="mb-2 mb-md-4 text-center">
-                <h2>{data.header}</h2>
-              </header>
+        <header className="mb-2 mb-md-4 text-center">
+          <h2>{data.header}</h2>
+        </header>
 
-              <Row className="justify-content-center">
-                {data.items.map(videoItem => (
-                  <Col md={6}>
-                    <VideoCardSimple videoItem={videoItem} />
-                  </Col>
-                ))}
-              </Row>
+        <Row className="justify-content-center">
+          {data.items.map(videoItem => (
+            <Col md={6}>
+              <VideoCardSimple videoItem={videoItem} />
+            </Col>
+          ))}
+        </Row>
 
-            </Container>
-          </div>
+      </Container>
+    </div>
 
-    );
-
-}
+  );
+};
 
 export default VideoGallerySimple;
