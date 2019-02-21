@@ -11,9 +11,9 @@ const ContactSection = (props: *) => {
 
   return (
 
-    <div className="app-section section-about py-3 bg-light" id="questions">
-      <Container>
-        <Row className="mt-3 justify-content-center">
+    <div className="app-section section-about bg-light pb-2" id="questions">
+      <Container className="py-1">
+        <Row className="justify-content-center">
           <Col md={11} lg={8} className="col-12 justify-content-center">
             <h2 className="text-center">
               {data.header}

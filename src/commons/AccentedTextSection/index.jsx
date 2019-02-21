@@ -12,7 +12,7 @@ const AccentedTextSection = (props: *) => {
 
   return (
 
-    <div className="app-section section-about pt-0 pb-1" id="about">
+    <div className="app-section section-about " id="about">
       <Container>
         <Row className="justify-content-center">
           <Col md={11} lg={8} className="col-12 justify-content-center">

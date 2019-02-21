@@ -120,6 +120,13 @@ const Hacktravel = {
             },
 
         ]
+    },
+    callToAction :{
+        header : 'Ready to Join the Hackathon?',
+        text : 'Contribute to moving the travel industry forward. Build open source, decentralized solutions along with airlines, hotels, travel startups and blockchain experts',
+        buttonUrl: "#register",
+        buttonLabel: "Register",
+        buttonStyle: "btn-accent",
     }
 }
 
