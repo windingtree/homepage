@@ -7,11 +7,12 @@ import {
   Button,
 } from '@windingtree/wt-ui-react';
 
-class AccentedTextSection extends React.Component<*> {
-  render() {
-    const { data } = this.props;
+const AccentedTextSection = (props) => {
+
+    const { data } = props;
+
     return (
-        <>
+
           <div className="app-section section-about pt-0 pb-1" id="about">
             <Container>
               <Row className="justify-content-center">
@@ -39,9 +40,7 @@ class AccentedTextSection extends React.Component<*> {
 
             </Container>
           </div>
-      </>
     );
-  }
 }
 
 export default AccentedTextSection;

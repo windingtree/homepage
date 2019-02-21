@@ -4,12 +4,11 @@ import {
   Row, Col, Container, Button,
 } from '@windingtree/wt-ui-react';
 
-class ExtendedCard extends React.Component<*> {
-  render() {
-    const { data } = this.props;
+const ExtendedCard = (props)=> {
+
+    const { data } = props;
 
     return (
-        <>
           <Container className="extended-card card text-center py-2">
             <Row className="py-1">
               <Col>
@@ -47,8 +46,6 @@ class ExtendedCard extends React.Component<*> {
             </Row>
 
           </Container>
-      </>
     );
-  }
 }
 export default ExtendedCard;

@@ -24,8 +24,6 @@ const HacktravelLisbon2019 = () => (
     <AttendeeCardsSection data={event.attendees} />
     <AccentedTextSection data={event.sponsors} />
     <VideoGallerySimple data={event.videoGallery} />
-    <Events />
-    <SuscribeForUpdates />
     <ReadyToUse />
   </main>
 );

@@ -5,11 +5,10 @@ import {
 } from '@windingtree/wt-ui-react';
 import VideoCardSimple from 'commons/VideoCardSimple';
 
-class VideoGallerySimple extends React.Component <*> {
-  render() {
-    const { data } = this.props;
+const VideoGallerySimple =(props)=> {
+    const { data } = props;
     return (
-        <>
+
           <div className="app-section">
             <Container>
 
@@ -27,9 +26,9 @@ class VideoGallerySimple extends React.Component <*> {
 
             </Container>
           </div>
-      </>
+
     );
-  }
+
 }
 
 export default VideoGallerySimple;

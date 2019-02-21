@@ -6,13 +6,11 @@ import {
   Image,
 } from '@windingtree/wt-ui-react';
 
-class ShortBenefits extends React.Component<*> {
-  render() {
-    const { data } = this.props;
+const ShortBenefits =(props)=> {
+
+    const { data } = props;
 
     return (
-        <>
-
           <section className="app-section px-md-4">
             <Row className="justify-content-center px-md-2 pt-md-4 pt-xs-2">
 
@@ -26,10 +24,7 @@ class ShortBenefits extends React.Component<*> {
             </Row>
 
           </section>
-      </>
-
     );
-  }
 }
 
 export default ShortBenefits;

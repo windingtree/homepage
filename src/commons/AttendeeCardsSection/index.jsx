@@ -6,11 +6,11 @@ import {
 import CardDeck from '@windingtree/wt-ui-react/lib/components/CardDeck';
 import ExtendedCard from 'commons/ExtendedCard';
 
-class AttendeeCardsSection extends React.Component<*> {
-  render() {
-    const { data } = this.props;
+const AttendeeCardsSection =(props)=> {
+
+    const { data } = props;
     return (
-        <>
+
           <div className="app-section pt-0" id="register">
             <Container>
               <Row className="justify-content-center">
@@ -33,9 +33,8 @@ class AttendeeCardsSection extends React.Component<*> {
               </Row>
             </Container>
           </div>
-      </>
+
     );
-  }
 }
 
 export default AttendeeCardsSection;

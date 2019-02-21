@@ -52,7 +52,7 @@ const Hacktravel = {
                 buttonUrl: "https://windingtree.typeform.com/to/zw5WmH",
                 buttonLabel: "Join For Free",
                 buttonStyle: "btn-primary",
-                benefits: ["Learn new technology","Collaborate on solutions","Get complimentary training for your tech team","Solve your own business challenges"],
+                benefits: ["Form or join a team to hack","Work on proposed challenges","Bring your own idea","Experiment","Get mentorship"],
                 accentedNotice: "Approved hackers are invited to join us at zero cost.",
                 secondaryNotice: "Spots are limited to 80"
             },
@@ -62,7 +62,7 @@ const Hacktravel = {
                 buttonUrl: "https://windingtree.typeform.com/to/zw5WmH",
                 buttonLabel: "Join For Free",
                 buttonStyle: "btn-primary",
-                benefits: ["Learn new technology","Collaborate on solutions","Get complimentary training for your tech team","Solve your own business challenges"],
+                benefits: ["Bring your team to learn and hack","Get complimentary training and mentorship","Work on your own idea","Experiment","Connect with industry veterans"],
                 accentedNotice: "Approved hackers are invited to join us at zero cost.",
                 secondaryNotice: "Spots are limited to 80"
             },
