@@ -31,9 +31,9 @@ const ContactSection = (props: *) => {
         <Row className="justify-content-center py-1">
 
           {data.contactList.map(contact => (
-            <Col md={3} className="text-center">
+            <Col xs={3} md={2} lg={2} className="text-center px-1 px-md-2 px-lg-3">
               <a href={contact.contactUrl} target="_blank" rel="noopener noreferrer">
-                <img src={contact.contactImgSrc} alt={contact.contactName} className="" style={{ width: 80 }} />
+                <img src={contact.contactImgSrc} alt={contact.contactName} className="" />
               </a>
             </Col>
           ))}
