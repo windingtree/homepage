@@ -7,10 +7,10 @@ import {
 } from '@windingtree/wt-ui-react';
 
 const ShortBenefits = (props: *) => {
-  const { data } = props;
+  const { data, id } = props;
 
   return (
-    <section className="app-section px-md-4">
+    <section className="app-section px-md-4" id={id}>
       <Row className="justify-content-center px-md-2 pt-md-4 pt-xs-2">
 
         {data.map(benefit => (

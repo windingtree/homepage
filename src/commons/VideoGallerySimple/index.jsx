@@ -6,10 +6,10 @@ import {
 import VideoCardSimple from 'commons/VideoCardSimple';
 
 const VideoGallerySimple = (props: *) => {
-  const { data } = props;
+  const { data, id } = props;
   return (
 
-    <div className="app-section">
+    <div className="app-section" id={id}>
       <Container>
 
         <Row className="my-3 mb-2 mb-md-4 justify-content-center">

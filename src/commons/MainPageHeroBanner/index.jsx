@@ -6,6 +6,7 @@ import {
 import VideoModal from 'commons/VideoModal';
 import LearnMoreCards from 'commons/LearnMoreCards';
 
+
 type StateType = {
   showModal: boolean
 };

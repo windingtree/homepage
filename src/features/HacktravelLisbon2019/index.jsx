@@ -18,13 +18,13 @@ const HacktravelLisbon2019 = () => (
   <main id="app-content">
     <CustomHelmet {...metadata.home} />
     <EventPageHeroBanner data={event.header} />
-    <ShortBenefits data={event.benefits} />
-    <AccentedTextSection data={event.about} />
-    <AttendeeCardsSection data={event.attendees} />
-    <AccentedTextSection data={event.sponsors} />
-    <VideoGallerySimple data={event.videoGallery} />
-    <AccentedTextSection data={event.callToAction} />
-    <ContactSection data={event.contacts} />
+    <ShortBenefits data={event.benefits} id="benefits" />
+    <AccentedTextSection data={event.about} id="about" />
+    <AttendeeCardsSection data={event.attendees} id="register" />
+    <AccentedTextSection data={event.sponsors} id="sponsors" />
+    <VideoGallerySimple data={event.videoGallery} id="video" />
+    <AccentedTextSection data={event.callToAction} id="ready" />
+    <ContactSection data={event.contacts} id="contacts" />
 
   </main>
 );

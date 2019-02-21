@@ -7,11 +7,11 @@ import {
 } from '@windingtree/wt-ui-react';
 
 const ContactSection = (props: *) => {
-  const { data } = props;
+  const { data, id } = props;
 
   return (
 
-    <div className="app-section section-about bg-light pb-2" id="questions">
+    <div className="app-section section-about bg-light pb-2" id={id}>
       <Container className="py-1">
         <Row className="justify-content-center">
           <Col md={11} lg={8} className="col-12 justify-content-center">
