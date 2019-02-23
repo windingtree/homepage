@@ -16,6 +16,10 @@ import CustomHelmet from 'commons/CustomHelmet';
 import BuildByCommunity from 'commons/BuildByCommunity';
 import BlockQuoteSection from 'commons/BlockQuoteSection';
 
+import { configureAnchors } from 'react-scrollable-anchor';
+
+configureAnchors({ offset: -100, scrollDuration: 400 });
+
 const StartupsAndDevelopers = () => (
   <div id="app-content">
     <CustomHelmet {...metadata.community} />
@@ -30,7 +34,7 @@ const StartupsAndDevelopers = () => (
       </Container>
     </section>
 
-    <Banner variant="howWeWork" />
+    <Banner variant="howWeWork"  id="opensource"/>
 
 
     <article className="section-already-with-us">
@@ -43,7 +47,7 @@ const StartupsAndDevelopers = () => (
           </header>
           <Row className="justify-content-md-center">
             <Col md={10} className="mb-3">
-              <PartnersAndContributors />
+              <PartnersAndContributors  id="partners"/>
             </Col>
           </Row>
         </Container>
@@ -51,17 +55,17 @@ const StartupsAndDevelopers = () => (
         <header className="text-center mb-2">
           <h3 className="text-muted">Developers and Contributors</h3>
         </header>
-        <Contributors />
+        <Contributors  id="contributors"/>
 
       </section>
 
-      <BuildByCommunity />
-      <Events />
-      <VideoGallery />
+      <BuildByCommunity id="builtbycommunity"/>
+      <Events  id="events"/>
+      <VideoGallery  id="video"/>
 
     </article>
-    <SuscribeForUpdates />
-    <ReadyToUse />
+    <SuscribeForUpdates  id="subscribe"/>
+    <ReadyToUse  id="ready"/>
   </div>
 
 );

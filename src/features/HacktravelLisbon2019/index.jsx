@@ -10,7 +10,9 @@ import ShortBenefits from 'commons/ShortBenefits';
 import AttendeeCardsSection from 'commons/AttendeeCardsSection';
 import VideoGallerySimple from 'commons/VideoGallerySimple';
 import ContactSection from 'commons/ContactSection';
+import { configureAnchors } from 'react-scrollable-anchor';
 
+configureAnchors({ offset: -70, scrollDuration: 400 });
 
 const event = Hacktravel;
 

@@ -5,14 +5,17 @@ import {
 } from '@windingtree/wt-ui-react';
 import Lead from './Lead';
 import Benefit from './Benefit';
+import ScrollableAnchor from 'react-scrollable-anchor';
+
 
 type PropsType = {
   children: React$Node,
-  noHeader: boolean
+  noHeader: boolean,
+  id: string
 };
 
 const KeyBenefits = (props: PropsType) => {
-  const { children, noHeader } = props;
+  const { children, noHeader, id } = props;
   const Header = noHeader
     ? null
     : (
@@ -25,6 +28,8 @@ const KeyBenefits = (props: PropsType) => {
       </header>
     );
   return (
+    <ScrollableAnchor id={id}>
+
     <section className="app-section section-key-benefits pb-0">
       <Container>
         {Header}
@@ -37,6 +42,7 @@ const KeyBenefits = (props: PropsType) => {
         </Row>
       </Container>
     </section>
+    </ScrollableAnchor>
   );
 };
 

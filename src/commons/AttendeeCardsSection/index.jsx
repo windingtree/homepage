@@ -5,10 +5,7 @@ import {
 } from '@windingtree/wt-ui-react';
 import CardDeck from '@windingtree/wt-ui-react/lib/components/CardDeck';
 import ExtendedCard from 'commons/ExtendedCard';
-import ScrollableAnchor, { configureAnchors } from 'react-scrollable-anchor';
-
-
-configureAnchors({ offset: -70, scrollDuration: 400 });
+import ScrollableAnchor from 'react-scrollable-anchor';
 
 const AttendeeCardsSection = (props: *) => {
   const { data, id } = props;

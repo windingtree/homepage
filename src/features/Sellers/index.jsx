@@ -13,7 +13,7 @@ const Sellers = () => (
   <div id="app-content">
     <CustomHelmet {...metadata.sellers} />
     <Hero variant="sellers" />
-    <KeyBenefits>
+    <KeyBenefits  id="benefits">
       {
         keyBenefitsDescriptions.map(benefit => (
           <KeyBenefits.Benefit
@@ -24,10 +24,10 @@ const Sellers = () => (
           />))
       }
     </KeyBenefits>
-    <HowItWorks />
-    <Solutions variant="sellers" />
-    <SuscribeForUpdates />
-    <ReadyToUse />
+    <HowItWorks  id="howitworks"/>
+    <Solutions variant="sellers"  id="sellers"/>
+    <SuscribeForUpdates  id="subscribe"/>
+    <ReadyToUse  id="ready" />
   </div>
 );
 

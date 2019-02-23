@@ -6,9 +6,7 @@ import {
   Col,
   Button,
 } from '@windingtree/wt-ui-react';
-import ScrollableAnchor, { configureAnchors } from 'react-scrollable-anchor';
-
-configureAnchors({ offset: -70, scrollDuration: 400 });
+import ScrollableAnchor from 'react-scrollable-anchor';
 
 const AccentedTextSection = (props: *) => {
   const { data, id } = props;

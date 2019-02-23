@@ -25,6 +25,8 @@ class Contributors extends React.Component<*, StateType> {
 
   render() {
     const { contributors } = this.state;
+    const {id} = this.props
+
     return (
       <Slick
         autoplay

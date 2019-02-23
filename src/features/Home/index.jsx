@@ -13,19 +13,20 @@ import InThePress from 'commons/InThePress';
 import Features from 'commons/Features';
 import MainPageHeroBanner from 'commons/MainPageHeroBanner';
 
+
 const Home = () => (
   <main id="app-content">
     <CustomHelmet {...metadata.home} />
     <MainPageHeroBanner />
-    <Features />
-    <HowItWorks />
-    <Partners />
-    <InThePress />
-    <Banner variant="designedFor" icons />
-    <VideoGallery />
-    <Events />
-    <SuscribeForUpdates />
-    <ReadyToUse />
+    <Features id="features"/>
+    <HowItWorks id="howitworks"/>
+    <Partners id="partners"/>
+    <InThePress id="press"/>
+    <Banner variant="designedFor" icons id="opensource"/>
+    <VideoGallery id="video"/>
+    <Events id="events"/>
+    <SuscribeForUpdates id="subscribe"/>
+    <ReadyToUse id="ready"/>
   </main>
 );
 
