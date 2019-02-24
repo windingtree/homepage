@@ -8,7 +8,8 @@ import ReadyToUse from 'commons/ReadyToUse';
 import HowItWorks from 'commons/HowItWorks';
 import metadata from 'DATA/metadata.json';
 import CustomHelmet from 'commons/CustomHelmet';
-import Partners from 'commons/Partners';
+import PartnersAndContributors from 'commons/PartnersAndContributors';
+import Slicks from 'commons/Slick';
 import InThePress from 'commons/InThePress';
 import Features from 'commons/Features';
 import MainPageHeroBanner from 'commons/MainPageHeroBanner';
@@ -20,7 +21,9 @@ const Home = () => (
     <MainPageHeroBanner />
     <Features id="features"/>
     <HowItWorks id="howitworks"/>
-    <Partners id="partners"/>
+    <PartnersAndContributors id="partners" header='Partners' cta="Become partner">
+        <Slicks />
+    </PartnersAndContributors>
     <InThePress id="press"/>
     <Banner variant="designedFor" icons id="opensource"/>
     <VideoGallery id="video"/>

@@ -22,7 +22,7 @@ const slickOptions = {
 
 
 const PartnerSlicks = () => (
-  <div className="slider-partners mb-3">
+  <div className="slider-partners my-3">
     <Slick {...slickOptions} className="partners-marquee">
       {
         partnersSlide1.map(partner => (

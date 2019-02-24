@@ -13,7 +13,7 @@ import ReadyToUse from 'commons/ReadyToUse';
 import VideoGallery from 'commons/VideoGallery';
 import metadata from 'DATA/metadata.json';
 import CustomHelmet from 'commons/CustomHelmet';
-import BuildByCommunity from 'commons/BuildByCommunity';
+import BuiltByCommunity from 'commons/BuiltByCommunity';
 import BlockQuoteSection from 'commons/BlockQuoteSection';
 
 import { configureAnchors } from 'react-scrollable-anchor';
@@ -41,16 +41,9 @@ const StartupsAndDevelopers = () => (
 
       <section className="app-section ">
 
-        <Container>
-          <header className="mb-2 mb-md-4 text-center">
-            <h2>Already With Us</h2>
-          </header>
-          <Row className="justify-content-md-center">
-            <Col md={10} className="mb-3">
-              <PartnersAndContributors  id="partners"/>
-            </Col>
-          </Row>
-        </Container>
+        
+        <PartnersAndContributors  id="partners" header="Already With Us" cta=""/>
+
 
         <header className="text-center mb-2">
           <h3 className="text-muted">Developers and Contributors</h3>
@@ -59,7 +52,7 @@ const StartupsAndDevelopers = () => (
 
       </section>
 
-      <BuildByCommunity id="builtbycommunity"/>
+      <BuiltByCommunity id="builtbycommunity"/>
       <Events  id="events"/>
       <VideoGallery  id="video"/>
 

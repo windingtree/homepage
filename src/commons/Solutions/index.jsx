@@ -8,53 +8,42 @@ import Hospitality from './Hospitality';
 import Airlines from './Airlines';
 import Tours from './Tours';
 import OTA from './OTA';
+import ScrollableAnchor from 'react-scrollable-anchor';
 
 const Solutions = (props: *) => {
-  const { variant } = props;
+  const { variant,id } = props;
   return (
-    <section className="app-section section-solutions">
-      <Container>
-        <header>
-          <Row className="justify-content-md-center">
-            <Col md={10} className="text-center mb-1">
-              <h2>Solutions</h2>
-            </Col>
-          </Row>
-        </header>
-        <Row className="justify-content-md-center">
-          <Col md={10} className="text-center text-md-left">
-            {(variant === 'suppliers')
-              ? (
-                <div>
-                  <Hospitality />
-                  <Airlines />
-                  <Tours />
-                </div>)
-              : (
-                <div>
-                  <OTA />
-                </div>)}
-            <hr className="my-md-4" id="usecases" />
-            <h2 className="mb-1 text-center">Use Cases</h2>
-            <PartnersAndContributors tab={1} id="partners-tabs" />
-            <Container>
-              <Row>
-                <Col sm={12}>
-                  <footer className="text-center mt-2">
-                    <Button
-                      href="https://goo.gl/o7WP6R"
-                      variant="primary"
-                    >
-                      Apply for integration
-                    </Button>
-                  </footer>
+      <ScrollableAnchor id={id}>
+        <section className="app-section section-solutions">
+          <Container>
+            <header>
+              <Row className="justify-content-md-center">
+                <Col md={10} className="text-center mb-1">
+                  <h2>Solutions</h2>
                 </Col>
               </Row>
-            </Container>
-          </Col>
-        </Row>
-      </Container>
-    </section>
+            </header>
+            <Row className="justify-content-md-center">
+              <Col md={10} className="text-center text-md-left">
+                {(variant === 'suppliers')
+                  ? (
+                    <div>
+                      <Hospitality />
+                      <Airlines />
+                      <Tours />
+                    </div>)
+                  : (
+                    <div>
+                      <OTA />
+                    </div>)}
+                
+                <PartnersAndContributors tab={1} id="use-cases" header="Use Cases" cta="Apply for Integration"/>
+
+              </Col>
+            </Row>
+          </Container>
+        </section>
+      </ScrollableAnchor>
   );
 };
 
