@@ -44,7 +44,9 @@ class Contributors extends React.Component<*, StateType> {
         >
           {
           contributors.map((contributor) => {
-            const ignoreContrib = contributosToIgnore.find(contribitorId => contribitorId === contributor.contribitorId);
+            const ignoreContrib = contributosToIgnore.find(
+              contribitorId => contribitorId === contributor.contribitorId,
+            );
             if (ignoreContrib) return null;
             return (
               <DevImage

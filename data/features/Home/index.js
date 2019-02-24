@@ -1,5 +1,6 @@
 import CTAs from 'DATA/commons/CTAs'
 import howItWorksData from 'DATA/commons/HowItWorks';
+import partners from 'DATA/commons/PartnersAndContributors';
 
 const mainPage = {
     hero:{
@@ -15,8 +16,21 @@ const mainPage = {
         mainCTAUrl:CTAs.parntersAction,
         mainCTALabel:'Join Ecosystem',
     },
-    howItWorks:howItWorksData,
-    
+    howItWorks:{
+        imgSrc: howItWorksData.imgSrc,
+        header: howItWorksData.header,
+        text: howItWorksData.text,
+        mainCTAUrl: howItWorksData.mainCTAUrl,
+        mainCTALabel: howItWorksData.mainCTALabel,
+    },
+    partners: {
+        header:'Partners',
+        mainCTAUrl:CTAs.parntersAction,
+        mainCTALabel:'Become partner',
+        partnerList:partners
+
+    }
+
     
 }
 

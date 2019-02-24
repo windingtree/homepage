@@ -22,7 +22,7 @@ const Home = () => (
     <MainPageHeroBanner data={data.hero} />
     <Features id="features" data={data.features} />
     <HowItWorks id="howitworks" data={data.howItWorks} />
-    <PartnersAndContributors id="partners" header="Partners" cta="Become partner">
+    <PartnersAndContributors id="partners" data={data.partners}>
       <Slicks />
     </PartnersAndContributors>
     <InThePress id="press" />

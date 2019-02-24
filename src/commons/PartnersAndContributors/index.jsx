@@ -12,17 +12,10 @@ import {
 import partners from 'DATA/commons/PartnersAndContributors';
 import ScrollableAnchor from 'react-scrollable-anchor';
 
-type PropsType = {
-    tab: number,
-    id: string,
-    header: string,
-    cta: string
-};
 
-const PartnersAndContributors = (props: PropsType) => {
-  const {
-    id, tab, header, cta,
-  } = props;
+const PartnersAndContributors = (props: *) => {
+  const { id, data, tab } = props;
+  const { children } = props;
   return (
     <ScrollableAnchor id={id}>
       <section className="app-section section-partners">
@@ -32,7 +25,7 @@ const PartnersAndContributors = (props: PropsType) => {
             <Col sm={12} md={10}>
 
               <header className="mb-2 mb-md-4 text-center">
-                <h2 className="mb-1 text-center">{header}</h2>
+                <h2 className="mb-1 text-center">{data.header}</h2>
               </header>
               <Tab.Container id="partners tabs" defaultActiveKey={partners[tab].name}>
                 <Nav className="nav-pointers col-lg-12" variant="tabs">
@@ -72,26 +65,28 @@ const PartnersAndContributors = (props: PropsType) => {
           </Row>
         </Container>
 
+        {children && (<div>{children}</div>)}
 
-        <div>{props.children}</div>
-        {cta &&
-        <Container>
-          <Row>
-            <Col sm={12}>
-              <footer className="text-center">
-                <Button
-                  href="https://goo.gl/o7WP6R"
-                  variant="dark"
-                  outlined
-                >
-                  {cta}
-                </Button>
-              </footer>
-            </Col>
-          </Row>
+        {data.mainCTAUrl
+                && (
+                <Container>
+                  <Row>
+                    <Col sm={12}>
+                      <footer className="text-center">
+                        <Button
+                          href={data.mainCTAUrl}
+                          variant="dark"
+                          outlined
+                        >
+                          {data.mainCTALabel}
+                        </Button>
+                      </footer>
+                    </Col>
+                  </Row>
 
-        </Container>
-      }
+                </Container>
+                )}
+
       </section>
     </ScrollableAnchor>
   );
@@ -100,7 +95,9 @@ const PartnersAndContributors = (props: PropsType) => {
 PartnersAndContributors.defaultProps = {
   tab: 0,
   id: 'partners',
-  header: 'Use Cases',
+  data: {
+    header: 'Partners',
+  },
 };
 
 type QuoteUserType = { name: string, role: string, imgSrc: string };
