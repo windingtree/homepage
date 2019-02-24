@@ -6,7 +6,7 @@ import { Card, Image, Button } from '@windingtree/wt-ui-react';
 
 type PropType = {
   imgSrc: string,
-  imgWidth?: number,
+  imgWidth?: string,
   title: string,
   text?: string,
   linkText?: string,

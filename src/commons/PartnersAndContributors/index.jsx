@@ -9,13 +9,16 @@ import {
   Row,
   Button,
 } from '@windingtree/wt-ui-react';
-import partners from 'DATA/commons/PartnersAndContributors';
+import partnersDefault from 'DATA/commons/PartnersAndContributors';
 import ScrollableAnchor from 'react-scrollable-anchor';
 
 
 const PartnersAndContributors = (props: *) => {
-  const { id, data, tab } = props;
+  const {
+    id, data, tab, partnerList,
+  } = props;
   const { children } = props;
+  const partners = partnerList;
   return (
     <ScrollableAnchor id={id}>
       <section className="app-section section-partners">
@@ -98,6 +101,7 @@ PartnersAndContributors.defaultProps = {
   data: {
     header: 'Partners',
   },
+  partnerList: partnersDefault,
 };
 
 type QuoteUserType = { name: string, role: string, imgSrc: string };

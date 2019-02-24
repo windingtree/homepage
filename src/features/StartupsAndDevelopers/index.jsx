@@ -42,7 +42,7 @@ const StartupsAndDevelopers = () => (
       <section className="app-section ">
 
 
-        <PartnersAndContributors id="partners" header="Already With Us" />
+        <PartnersAndContributors id="partners" />
 
 
         <header className="text-center mb-2">
