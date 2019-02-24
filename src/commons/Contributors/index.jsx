@@ -2,10 +2,12 @@
 import React from 'react';
 import { Slick } from '@windingtree/wt-ui-react';
 import { contributors as devContributors, contributosToIgnore } from 'DATA/commons/Contributors';
+import ScrollableAnchor from 'react-scrollable-anchor';
 import DevImage from './DevImage';
 
+
 type ContributorType = {
-  id: number,
+  contribitorId: number,
   login: string,
   avatar_url: string
 };
@@ -25,33 +27,35 @@ class Contributors extends React.Component<*, StateType> {
 
   render() {
     const { contributors } = this.state;
-    const {id} = this.props
+    const { id } = this.props;
 
     return (
-      <Slick
-        autoplay
-        speed={10000}
-        autoplaySpeed={0}
-        cssEase="linear"
-        variableWidth
-        pauseOnFocus
-        pauseOnHover
-        className="devs-marquee"
-        arrows={false}
-      >
-        {
+      <ScrollableAnchor id={id}>
+        <Slick
+          autoplay
+          speed={10000}
+          autoplaySpeed={0}
+          cssEase="linear"
+          variableWidth
+          pauseOnFocus
+          pauseOnHover
+          className="devs-marquee"
+          arrows={false}
+        >
+          {
           contributors.map((contributor) => {
-            const ignoreContrib = contributosToIgnore.find(id => id === contributor.id);
+            const ignoreContrib = contributosToIgnore.find(contribitorId => contribitorId === contributor.contribitorId);
             if (ignoreContrib) return null;
             return (
               <DevImage
-                key={contributor.id}
+                key={contributor.contribitorId}
                 img={contributor.avatar_url}
                 name={contributor.login}
               />);
           })
         }
-      </Slick>
+        </Slick>
+      </ScrollableAnchor>
     );
   }
 }

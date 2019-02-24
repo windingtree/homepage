@@ -1,3 +1,4 @@
+// @flow
 import React from 'react';
 import Tile from 'commons/Card';
 import {
@@ -7,21 +8,21 @@ import projectList from 'DATA/commons/BuiltByCommunity';
 import ScrollableAnchor from 'react-scrollable-anchor';
 
 
-const BuiltByCommunity = (props:*) => {
-    const { id } = props;
+const BuiltByCommunity = (props: *) => {
+  const { id } = props;
 
-    return (
-        <ScrollableAnchor id={id}>
+  return (
+    <ScrollableAnchor id={id}>
 
-          <Container className="app-section section-community border-top border-bottom border-light">
-            <header className="mb-2 mb-md-4 text-center">
-              <h2>Built by Community</h2>
-            </header>
+      <Container className="app-section section-community border-top border-bottom border-light">
+        <header className="mb-2 mb-md-4 text-center">
+          <h2>Built by Community</h2>
+        </header>
 
-            <Row className="justify-content-center">
-              <Col xs={11} sm={12} md={10} lg={8}>
-                <div className="card-deck">
-                  {projectList.map((project, index) => (
+        <Row className="justify-content-center">
+          <Col xs={11} sm={12} md={10} lg={8}>
+            <div className="card-deck">
+              {projectList.map((project, index) => (
                       <>
                         <Tile
                           imgSrc={project.imgSrc}
@@ -35,16 +36,15 @@ const BuiltByCommunity = (props:*) => {
                           : null
                         }
                       </>
-                  ))
+              ))
                   }
-                </div>
-              </Col>
-            </Row>
-          </Container>
+            </div>
+          </Col>
+        </Row>
+      </Container>
 
-        </ScrollableAnchor>
-    )
-
+    </ScrollableAnchor>
+  );
 };
 
 export default BuiltByCommunity;

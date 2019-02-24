@@ -3,9 +3,9 @@ import React from 'react';
 import {
   Container, Row, Col,
 } from '@windingtree/wt-ui-react';
+import ScrollableAnchor from 'react-scrollable-anchor';
 import Lead from './Lead';
 import Benefit from './Benefit';
-import ScrollableAnchor from 'react-scrollable-anchor';
 
 
 type PropsType = {
@@ -30,18 +30,18 @@ const KeyBenefits = (props: PropsType) => {
   return (
     <ScrollableAnchor id={id}>
 
-    <section className="app-section section-key-benefits pb-0">
-      <Container>
-        {Header}
-        <Row className="justify-content-center">
-          <Col sm={12} lg={10}>
-            <Row>
-              {children}
-            </Row>
-          </Col>
-        </Row>
-      </Container>
-    </section>
+      <section className="app-section section-key-benefits pb-0">
+        <Container>
+          {Header}
+          <Row className="justify-content-center">
+            <Col sm={12} lg={10}>
+              <Row>
+                {children}
+              </Row>
+            </Col>
+          </Row>
+        </Container>
+      </section>
     </ScrollableAnchor>
   );
 };

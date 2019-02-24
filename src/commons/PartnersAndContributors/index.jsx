@@ -1,107 +1,111 @@
 /* @flow */
 import React from 'react';
 import {
-    Tab,
-    Nav,
-    Col,
-    Image,
-    Container,
-    Row,
-    Button
+  Tab,
+  Nav,
+  Col,
+  Image,
+  Container,
+  Row,
+  Button,
 } from '@windingtree/wt-ui-react';
 import partners from 'DATA/commons/PartnersAndContributors';
 import ScrollableAnchor from 'react-scrollable-anchor';
 
 type PropsType = {
     tab: number,
-    id:string,
-    header:string
+    id: string,
+    header: string,
+    cta: string
 };
 
 const PartnersAndContributors = (props: PropsType) => {
-    const { id,tab,header,cta } = props;
-    return(
-      <ScrollableAnchor id={id}>
-        <section className="app-section section-partners">
-            <Container>
-        
-                <Row className="justify-content-md-center mb-3">
-                    <Col sm={12} md={10}>
+  const {
+    id, tab, header, cta,
+  } = props;
+  return (
+    <ScrollableAnchor id={id}>
+      <section className="app-section section-partners">
+        <Container>
 
-                        <header className="mb-2 mb-md-4 text-center">
-                            <h2 className="mb-1 text-center">{header}</h2>
-                        </header>
-                        <Tab.Container id="partners tabs" defaultActiveKey={partners[tab].name}>
-                            <Nav className="nav-pointers col-lg-12" variant="tabs">
-                              {partners.map(partner => (
-                                <Nav.Item as={Col} className="col-4 col-md-4 col-lg-2" key={`item-${partner.name}`}>
-                                  <Nav.Link eventKey={partner.name} className="pb-1 pb-lg-2">
-                                    <Image
-                                      fluid
-                                      src={partner.imgSrc}
-                                      alt={partner.name}
-                                      style={{
-                                        maxWidth: partner.imgWidth,
-                                        position: 'relative',
-                                        top: partner.imgTopPosition,
-                                      }}
-                                    />
-                                  </Nav.Link>
-                                </Nav.Item>
-                              ))}
-                            </Nav>
-                            <Tab.Content className="px-2 py-3 bg-white">
-                              {partners.map(partner => (
-                                <Tab.Pane eventKey={partner.name} key={`pane-${partner.name}`}>
-                                  <blockquote className="blockquote blockquote-alt">
-                                    <p className="blockquote-body">
-                                      {partner.text}
-                                      { partner.href && <a href={partner.href}>Read full article</a>}
-                                    </p>
-                                    {partner.user && <QuoteUser {...partner.user} />}
-                                  </blockquote>
-                                </Tab.Pane>
-                              ))}
-                            </Tab.Content>
-                        </Tab.Container>
+          <Row className="justify-content-md-center mb-3">
+            <Col sm={12} md={10}>
 
-                    </Col>
-                </Row>
-            </Container>
+              <header className="mb-2 mb-md-4 text-center">
+                <h2 className="mb-1 text-center">{header}</h2>
+              </header>
+              <Tab.Container id="partners tabs" defaultActiveKey={partners[tab].name}>
+                <Nav className="nav-pointers col-lg-12" variant="tabs">
+                  {partners.map(partner => (
+                    <Nav.Item as={Col} className="col-4 col-md-4 col-lg-2" key={`item-${partner.name}`}>
+                      <Nav.Link eventKey={partner.name} className="pb-1 pb-lg-2">
+                        <Image
+                          fluid
+                          src={partner.imgSrc}
+                          alt={partner.name}
+                          style={{
+                            maxWidth: partner.imgWidth,
+                            position: 'relative',
+                            top: partner.imgTopPosition,
+                          }}
+                        />
+                      </Nav.Link>
+                    </Nav.Item>
+                  ))}
+                </Nav>
+                <Tab.Content className="px-2 py-3 bg-white">
+                  {partners.map(partner => (
+                    <Tab.Pane eventKey={partner.name} key={`pane-${partner.name}`}>
+                      <blockquote className="blockquote blockquote-alt">
+                        <p className="blockquote-body">
+                          {partner.text}
+                          { partner.href && <a href={partner.href}>Read full article</a>}
+                        </p>
+                        {partner.user && <QuoteUser {...partner.user} />}
+                      </blockquote>
+                    </Tab.Pane>
+                  ))}
+                </Tab.Content>
+              </Tab.Container>
 
-            
-            <div >{props.children}</div>
+            </Col>
+          </Row>
+        </Container>
 
-            <Container>
-                <Row>
-                    <Col sm={12}>
-                      <footer className="text-center">
-                        <Button
-                          href="https://goo.gl/o7WP6R"
-                          variant="dark"
-                          outlined
-                        >
-                          {cta}
-                        </Button>
-                      </footer>
-                    </Col>
-                </Row>
 
-            </Container>
-        </section>
-     </ScrollableAnchor>
-    );
+        <div>{props.children}</div>
+        {cta &&
+        <Container>
+          <Row>
+            <Col sm={12}>
+              <footer className="text-center">
+                <Button
+                  href="https://goo.gl/o7WP6R"
+                  variant="dark"
+                  outlined
+                >
+                  {cta}
+                </Button>
+              </footer>
+            </Col>
+          </Row>
+
+        </Container>
+      }
+      </section>
+    </ScrollableAnchor>
+  );
 };
 
 PartnersAndContributors.defaultProps = {
-    tab: 0,
-    id:'partners',
-    header:'Use Cases'
+  tab: 0,
+  id: 'partners',
+  header: 'Use Cases',
 };
 
 type QuoteUserType = { name: string, role: string, imgSrc: string };
 const QuoteUser = ({ name, role, imgSrc }: QuoteUserType) => (
-    <footer className="blockquote-footer">
+  <footer className="blockquote-footer">
     <div className="user user-sm">
       <img
         className="user-img"

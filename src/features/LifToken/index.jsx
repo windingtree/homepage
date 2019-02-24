@@ -11,8 +11,8 @@ import keyBenefitsDescriptions from './keyBenefits.json';
 const LifToken = () => (
   <div id="app-content">
     <CustomHelmet {...metadata.lifToken} />
-    <Hero variant="lifToken"  />
-    <KeyBenefits noHeader  id="benefits">
+    <Hero variant="lifToken" />
+    <KeyBenefits noHeader id="benefits">
       <KeyBenefits.Lead>
         <header className="mb-2">
           {keyBenefitsDescriptions.lead}
@@ -30,8 +30,8 @@ const LifToken = () => (
       }
     </KeyBenefits>
     <LifIco />
-    <SuscribeForUpdates  id="subscribe"/>
-    <ReadyToUse  id="ready"/>
+    <SuscribeForUpdates id="subscribe" />
+    <ReadyToUse id="ready" />
   </div>
 );
 

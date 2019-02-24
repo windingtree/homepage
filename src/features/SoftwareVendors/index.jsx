@@ -12,10 +12,10 @@ const SoftwareVendors = () => (
   <div id="app-content">
     <CustomHelmet {...metadata.softwareVendors} />
     <Hero variant="softwareVendors" />
-    <Collaborate  id="collaborate"/>
-    <HowItWorks  id="howitworks"/>
-    <SuscribeForUpdates  id="subscribe"/>
-    <ReadyToUse  id="ready"/>
+    <Collaborate id="collaborate" />
+    <HowItWorks id="howitworks" />
+    <SuscribeForUpdates id="subscribe" />
+    <ReadyToUse id="ready" />
   </div>
 );
 

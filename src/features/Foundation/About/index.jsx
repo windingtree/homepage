@@ -8,7 +8,8 @@ import Card from 'commons/Card';
 import cardsData from 'DATA/features/Foundation/About';
 import ScrollableAnchor from 'react-scrollable-anchor';
 
-const About = ({id}) => (
+const About = (props: *) => {
+  const { id } = props;
     <ScrollableAnchor id={id}>
       <div className="app-section section-about border-bottom border-light" id="About">
         <Container>
@@ -31,7 +32,7 @@ const About = ({id}) => (
           </Row>
         </Container>
       </div>
-    </ScrollableAnchor>
-);
+    </ScrollableAnchor>;
+};
 
 export default About;

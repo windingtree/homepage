@@ -19,14 +19,14 @@ const Foundation = () => (
     <CustomHelmet {...metadata.foundation} />
     <Hero variant="foundation" />
     <About id="about" />
-    <Team title="Team" members={members}  id="team"/>
-    <Team title="Advisors" members={advisors}  id="advisors"/>
-    <VideoGallery  id="video"/>
-    <Banner variant="consultancy" id="Services"  id="services"/>
-    <Roadmap  id="roadmap"/>
-    <Events  id="events"/>
-    <SuscribeForUpdates id="subscribe"/>
-    <ReadyToUse id="ready"/>
+    <Team title="Team" members={members} id="team" />
+    <Team title="Advisors" members={advisors} id="advisors" />
+    <VideoGallery id="video" />
+    <Banner variant="consultancy" id="services" />
+    <Roadmap id="roadmap" />
+    <Events id="events" />
+    <SuscribeForUpdates id="subscribe" />
+    <ReadyToUse id="ready" />
   </main>
 );
 

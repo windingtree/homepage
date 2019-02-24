@@ -34,31 +34,31 @@ const StartupsAndDevelopers = () => (
       </Container>
     </section>
 
-    <Banner variant="howWeWork"  id="opensource"/>
+    <Banner variant="howWeWork" id="opensource" />
 
 
     <article className="section-already-with-us">
 
       <section className="app-section ">
 
-        
-        <PartnersAndContributors  id="partners" header="Already With Us" cta=""/>
+
+        <PartnersAndContributors id="partners" header="Already With Us"/>
 
 
         <header className="text-center mb-2">
           <h3 className="text-muted">Developers and Contributors</h3>
         </header>
-        <Contributors  id="contributors"/>
+        <Contributors id="contributors" />
 
       </section>
 
-      <BuiltByCommunity id="builtbycommunity"/>
-      <Events  id="events"/>
-      <VideoGallery  id="video"/>
+      <BuiltByCommunity id="builtbycommunity" />
+      <Events id="events" />
+      <VideoGallery id="video" />
 
     </article>
-    <SuscribeForUpdates  id="subscribe"/>
-    <ReadyToUse  id="ready"/>
+    <SuscribeForUpdates id="subscribe" />
+    <ReadyToUse id="ready" />
   </div>
 
 );

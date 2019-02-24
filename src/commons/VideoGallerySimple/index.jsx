@@ -12,25 +12,25 @@ const VideoGallerySimple = (props: *) => {
   return (
     <ScrollableAnchor id={id}>
 
-        <div className="app-section">
-          <Container>
+      <div className="app-section pb-0">
+        <Container>
 
-            <Row className="my-3 mb-2 mb-md-4 justify-content-center">
-              <Col>
-                <h2 className="text-center">{data.header}</h2>
+          <Row className="my-3 mb-2 mb-md-4 justify-content-center">
+            <Col>
+              <h2 className="text-center">{data.header}</h2>
+            </Col>
+          </Row>
+
+          <Row className="justify-content-center">
+            {data.items.map(videoItem => (
+              <Col md={6}>
+                <VideoCardSimple videoItem={videoItem} />
               </Col>
-            </Row>
+            ))}
+          </Row>
 
-            <Row className="justify-content-center">
-              {data.items.map(videoItem => (
-                <Col md={6}>
-                  <VideoCardSimple videoItem={videoItem} />
-                </Col>
-              ))}
-            </Row>
-
-          </Container>
-        </div>
+        </Container>
+      </div>
     </ScrollableAnchor>
   );
 };

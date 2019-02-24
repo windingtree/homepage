@@ -14,7 +14,7 @@ const Suppliers = () => (
   <div id="app-content">
     <CustomHelmet {...metadata.suppliers} />
     <Hero variant="suppliers" />
-    <KeyBenefits  id="benefits">
+    <KeyBenefits id="benefits">
       {keyBenefitsDescriptions.map(benefit => (
         <KeyBenefits.Benefit
           title={benefit.title}
@@ -23,10 +23,10 @@ const Suppliers = () => (
           key={benefit.title}
         />))}
     </KeyBenefits>
-    <HowItWorks  id="howitworks"/>
-    <Solutions variant="suppliers"  id="solutions"/>
-    <SuscribeForUpdates  id="subscribe"/>
-    <ReadyToUse  id="ready"/>
+    <HowItWorks id="howitworks" />
+    <Solutions variant="suppliers" id="solutions" />
+    <SuscribeForUpdates id="subscribe" />
+    <ReadyToUse id="ready" />
 
   </div>
 );

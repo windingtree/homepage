@@ -13,23 +13,24 @@ import Slicks from 'commons/Slick';
 import InThePress from 'commons/InThePress';
 import Features from 'commons/Features';
 import MainPageHeroBanner from 'commons/MainPageHeroBanner';
+import data from 'DATA/features/Home';
 
 
 const Home = () => (
   <main id="app-content">
     <CustomHelmet {...metadata.home} />
-    <MainPageHeroBanner />
-    <Features id="features"/>
-    <HowItWorks id="howitworks"/>
-    <PartnersAndContributors id="partners" header='Partners' cta="Become partner">
-        <Slicks />
+    <MainPageHeroBanner data={data.hero} />
+    <Features id="features" data={data.features} />
+    <HowItWorks id="howitworks" data={data.howItWorks} />
+    <PartnersAndContributors id="partners" header="Partners" cta="Become partner">
+      <Slicks />
     </PartnersAndContributors>
-    <InThePress id="press"/>
-    <Banner variant="designedFor" icons id="opensource"/>
-    <VideoGallery id="video"/>
-    <Events id="events"/>
-    <SuscribeForUpdates id="subscribe"/>
-    <ReadyToUse id="ready"/>
+    <InThePress id="press" />
+    <Banner variant="designedFor" icons id="opensource" />
+    <VideoGallery id="video" />
+    <Events id="events" />
+    <SuscribeForUpdates id="subscribe" />
+    <ReadyToUse id="ready" />
   </main>
 );
 
