@@ -10,7 +10,7 @@ import howItWorksData from 'DATA/commons/HowItWorks'; // for default props only
 
 type PropsType = {
     id: string,
-    data: object
+    data: {}
 };
 
 type StateType = {
