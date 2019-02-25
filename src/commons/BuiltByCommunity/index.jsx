@@ -26,7 +26,7 @@ const BuiltByCommunity = (props: *) => {
                       <>
                         <Tile
                           imgSrc={project.imgSrc}
-                          imgWidth="100px"
+                          imgWidth="100"
                           title={project.title}
                           text={project.text}
                           href={project.href}

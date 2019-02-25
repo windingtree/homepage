@@ -68,6 +68,7 @@ class HowItWorks extends React.Component<*, StateType> {
 
 HowItWorks.defaultProps = {
   data: howItWorksData,
+  id: 'howitworks'
 };
 
 export default HowItWorks;
