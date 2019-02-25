@@ -8,12 +8,11 @@ import ScrollableAnchor from 'react-scrollable-anchor';
 import howItWorksData from 'DATA/commons/HowItWorks'; // for default props only
 
 
-
 type StateType = {
   showModal: boolean
 };
 
-class HowItWorks extends React.Component<PropsType, StateType> {
+class HowItWorks extends React.Component<*, StateType> {
     static defaultProps = {
       data: howItWorksData,
       id: 'howitworks',
@@ -73,7 +72,6 @@ class HowItWorks extends React.Component<PropsType, StateType> {
     );
   }
 }
-
 
 
 export default HowItWorks;
