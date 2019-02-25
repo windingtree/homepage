@@ -9,7 +9,7 @@ import {
   Row,
   Button,
 } from '@windingtree/wt-ui-react';
-import partnersDefault from 'DATA/commons/PartnersAndContributors';
+import partnersDefault from 'DATA/commons/PartnersAndContributors'; //for default props only
 import ScrollableAnchor from 'react-scrollable-anchor';
 
 

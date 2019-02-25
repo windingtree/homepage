@@ -5,7 +5,7 @@ import {
 } from '@windingtree/wt-ui-react';
 import VideoModal from 'commons/VideoModal';
 import ScrollableAnchor from 'react-scrollable-anchor';
-import howItWorksData from 'DATA/commons/HowItWorks';
+import howItWorksData from 'DATA/commons/HowItWorks'; //for default props only
 
 type StateType = {
   showModal: boolean
@@ -13,6 +13,7 @@ type StateType = {
 
 class HowItWorks extends React.Component<*, StateType> {
   state = { showModal: false };
+  static defaultProps: Object;
 
   hanldeOnClick = (e: SyntheticMouseEvent<*>) => {
     e.preventDefault();
