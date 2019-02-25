@@ -8,16 +8,18 @@ import ScrollableAnchor from 'react-scrollable-anchor';
 import howItWorksData from 'DATA/commons/HowItWorks'; // for default props only
 
 
-type PropsType = {
-    id: string,
-    data: {}
-};
 
 type StateType = {
   showModal: boolean
 };
 
 class HowItWorks extends React.Component<PropsType, StateType> {
+    static defaultProps = {
+      data: howItWorksData,
+      id: 'howitworks',
+    };
+
+
   state = { showModal: false };
 
   hanldeOnClick = (e: SyntheticMouseEvent<*>) => {
@@ -72,9 +74,6 @@ class HowItWorks extends React.Component<PropsType, StateType> {
   }
 }
 
-HowItWorks.defaultProps = {
-  data: howItWorksData,
-  id: 'howitworks',
-};
+
 
 export default HowItWorks;
