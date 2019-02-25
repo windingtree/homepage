@@ -7,11 +7,17 @@ import VideoModal from 'commons/VideoModal';
 import ScrollableAnchor from 'react-scrollable-anchor';
 import howItWorksData from 'DATA/commons/HowItWorks'; // for default props only
 
+
+type PropsType = {
+    id: string,
+    data: object
+};
+
 type StateType = {
   showModal: boolean
 };
 
-class HowItWorks extends React.Component<*, StateType> {
+class HowItWorks extends React.Component<PropsType, StateType> {
   state = { showModal: false };
 
   hanldeOnClick = (e: SyntheticMouseEvent<*>) => {
