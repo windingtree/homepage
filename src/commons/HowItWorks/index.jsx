@@ -61,7 +61,7 @@ class HowItWorks extends React.Component<*, StateType> {
                    <Col sm={12} md={9} lg={8}>
                      <div className="media flex-column flex-sm-row">
                        <div className="media-body mb-0 mr-0 mr-md-2">{data.text}</div>
-                       {data.mainCTALabel && <Button variant="primary" className="align-self-center" onClick={this.hanldeOnClick}>{data.mainCTALabel}</Button>}
+                       {data.mainCTALabel && <Button variant="primary" className="align-self-center mt-2 mt-md-0" onClick={this.hanldeOnClick}>{data.mainCTALabel}</Button>}
                      </div>
                    </Col>
                  </Row>
