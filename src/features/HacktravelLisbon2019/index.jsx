@@ -10,6 +10,7 @@ import ShortBenefits from 'commons/ShortBenefits';
 import AttendeeCardsSection from 'commons/AttendeeCardsSection';
 import VideoGallerySimple from 'commons/VideoGallerySimple';
 import ContactSection from 'commons/ContactSection';
+import DescriptonWithGallery from 'commons/DescriptionWithGallery';
 import { configureAnchors } from 'react-scrollable-anchor';
 
 configureAnchors({ offset: -70, scrollDuration: 400 });
@@ -21,7 +22,7 @@ const HacktravelLisbon2019 = () => (
     <CustomHelmet {...metadata.home} />
     <EventPageHeroBanner data={event.header} />
     <ShortBenefits data={event.benefits} id="benefits" />
-    <AccentedTextSection data={event.about} id="about" />
+    <DescriptonWithGallery data={event.about} photos={event.photos} />
     <AttendeeCardsSection data={event.attendees} id="register" />
     <AccentedTextSection data={event.sponsors} id="sponsors" />
     <VideoGallerySimple data={event.videoGallery} id="video" />

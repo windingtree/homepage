@@ -11,7 +11,7 @@ const AttendeeCardsSection = (props: *) => {
   const { data, id } = props;
   return (
     <ScrollableAnchor id={id}>
-      <div className="app-section pt-0">
+      <div className="app-section">
         <Container>
           <Row className="justify-content-center">
             <Col md={11} lg={8} className="col-12 justify-content-center">

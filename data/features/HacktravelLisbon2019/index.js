@@ -14,6 +14,20 @@ const Hacktravel = {
         header : 'What to Expect',
         text : '#HackTravel hackathon is a unique opportunity for the most forward thinking travel industry players to come together and collaboratively tackle real world industry pain points. Following the success of our #HackTravel Prague hackathon, this year we’re adding more benefits, content and activities for our community to get the most out of their participation. Join us and be part of an unprecedented phenomenon - travel industry embracing open innovation'
     },
+    photos : [
+        {
+            photo: require('./img/photos/1.jpg'),
+        },
+        {
+            photo: require('./img/photos/2.jpg'),
+        },
+        {
+            photo: require('./img/photos/3.jpg'),
+        },
+        {
+            photo: require('./img/photos/4.jpg'),
+        },
+    ],
     benefits : [
         {
             imgSrc:require('./img/benefits/1.svg'),

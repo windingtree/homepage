@@ -892,3 +892,33 @@ html {
   }
 
 }
+
+.galleryContainer {
+  display: flex;
+  height: 100%;
+  background: no-repeat center;
+  height: 550px;
+  background-blend-mode: overlay;
+  background-color: #5f2987;
+  border-radius: 15px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.centered-item {
+    
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+    
+
+}
+
+.img-crop {
+  border-radius: 4px 4px 0 0;
+}
+
+

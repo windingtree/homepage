@@ -14,7 +14,7 @@ const Solutions = (props: *) => {
   const { variant, id } = props;
   return (
     <ScrollableAnchor id={id}>
-      <section className="app-section section-solutions">
+      <section className="app-section section-solutions pb-0">
         <Container>
           <header>
             <Row className="justify-content-md-center">
@@ -37,7 +37,7 @@ const Solutions = (props: *) => {
                     <OTA />
                   </div>)}
 
-              <PartnersAndContributors tab={1} id="use-cases" header="Use Cases" cta="Apply for Integration" />
+              <PartnersAndContributors tab={1} id="use-cases" />
 
             </Col>
           </Row>
