@@ -66,7 +66,7 @@
     "flowtype/valid-syntax": 1,
     "import/no-unresolved": "off",
     "react/require-default-props": "off",
-    "react/default-props-match-prop-types": "off",
+    "react/default-props-match-prop-types": "off"
   },
   "env": {
     "jest": true,
