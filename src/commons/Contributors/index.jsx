@@ -19,38 +19,45 @@ type StateType = {
 };
 
 class Contributors extends React.Component<*, StateType> {
-  constructor(props: *) {
-    super(props);
-
-    this.state = {
-      contributors: devContributors,
+    static defaultProps = {
+      data: {
+        header: 'Contributors',
+      },
+      id: 'contributors',
     };
-  }
 
-  render() {
-    const { contributors } = this.state;
-    const { id, data } = this.props;
+    constructor(props: *) {
+      super(props);
 
-    return (
+      this.state = {
+        contributors: devContributors,
+      };
+    }
 
-      <ScrollableAnchor id={id}>
+    render() {
+      const { contributors } = this.state;
+      const { id, data } = this.props;
 
-        <section className="app-section pt-0">
-          <header className="mb-2 mb-md-4 text-center">
-            <h2 className="mb-1 text-center">{data.header}</h2>
-          </header>
-          <Slick
-            autoplay
-            speed={10000}
-            autoplaySpeed={0}
-            cssEase="linear"
-            variableWidth
-            pauseOnFocus
-            pauseOnHover
-            className="devs-marquee"
-            arrows={false}
-          >
-            {
+      return (
+
+        <ScrollableAnchor id={id}>
+
+          <section className="app-section pt-0">
+            <header className="mb-2 mb-md-4 text-center">
+              <h2 className="mb-1 text-center">{data.header}</h2>
+            </header>
+            <Slick
+              autoplay
+              speed={10000}
+              autoplaySpeed={0}
+              cssEase="linear"
+              variableWidth
+              pauseOnFocus
+              pauseOnHover
+              className="devs-marquee"
+              arrows={false}
+            >
+              {
           contributors.map((contributor) => {
             const ignoreContrib = contributosToIgnore.find(
               contribitorId => contribitorId === contributor.contribitorId,
@@ -64,8 +71,8 @@ class Contributors extends React.Component<*, StateType> {
               />);
           })
         }
-          </Slick>
-          {data.mainCTAUrl
+            </Slick>
+            {data.mainCTAUrl
                     && (
                     <Container className="pt-2">
                       <Row>
@@ -84,17 +91,11 @@ class Contributors extends React.Component<*, StateType> {
 
                     </Container>
                     )}
-        </section>
-      </ScrollableAnchor>
-    );
-  }
+          </section>
+        </ScrollableAnchor>
+      );
+    }
 }
 
-Contributors.defaultProps = {
-  data: {
-    header: 'Contributors',
-  },
-  id: 'contributors',
-};
 
 export default Contributors;
