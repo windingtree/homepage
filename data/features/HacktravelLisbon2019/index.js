@@ -129,7 +129,7 @@ const Hacktravel = {
             },
             {
                 contactName:'Email',
-                contactUrl:'mailto://info@windingtree.com',
+                contactUrl:'mailto:info@windingtree.com',
                 contactImgSrc:require('./img/contacts/email.svg')
             },
 
