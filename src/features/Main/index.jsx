@@ -83,21 +83,23 @@ class WTNavbar extends Component<*, StateType> {
                   <Nav.Link href="https://developers.windingtree.com" target="_blank" rel="noopener noreferrer" onClick={this.toggle}>Docs</Nav.Link>
                 </Nav.Item>
                 <Nav.Dropdown title="Foundation" id="basic-nav-dropdown">
-                  <LinkContainer to="/Foundation#about">
-                    <Nav.Dropdown.Item onClick={this.toggle}>About</Nav.Dropdown.Item>
-                  </LinkContainer>
-                  <LinkContainer to="/Foundation#team">
-                    <Nav.Dropdown.Item onClick={this.toggle}>Team</Nav.Dropdown.Item>
-                  </LinkContainer>
-                  <LinkContainer to="/Foundation#events">
-                    <Nav.Dropdown.Item onClick={this.toggle}>Events</Nav.Dropdown.Item>
-                  </LinkContainer>
-                  <LinkContainer to="/Foundation#services">
-                    <Nav.Dropdown.Item onClick={this.toggle}>Services</Nav.Dropdown.Item>
-                  </LinkContainer>
-                  <LinkContainer to="/Foundation#roadmap">
-                    <Nav.Dropdown.Item onClick={this.toggle}>Roadmap</Nav.Dropdown.Item>
-                  </LinkContainer>
+
+                  <Nav.Dropdown.Item onClick={this.toggle} href="/foundation#about">
+                        About
+                  </Nav.Dropdown.Item>
+                  <Nav.Dropdown.Item onClick={this.toggle} href="/foundation#team">
+                        Team
+                  </Nav.Dropdown.Item>
+                  <Nav.Dropdown.Item onClick={this.toggle} href="/foundation#events">
+                        Events
+                  </Nav.Dropdown.Item>
+                  <Nav.Dropdown.Item onClick={this.toggle} href="/foundation#services">
+                       Services
+                  </Nav.Dropdown.Item>
+                  <Nav.Dropdown.Item onClick={this.toggle} href="/foundation#roadmap">
+                        Roadmap
+                  </Nav.Dropdown.Item>
+
                   <Nav.Dropdown.Item href="https://blog.windingtree.com" target="__blank" onClick={this.toggle}>Blog</Nav.Dropdown.Item>
                 </Nav.Dropdown>
                 <Nav.Item>
