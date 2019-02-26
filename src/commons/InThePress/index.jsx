@@ -10,7 +10,7 @@ import Mentions from './Mentions';
 
 
 const InThePress = (props: *) => {
-  const { id } = props;
+  const { id, data } = props;
 
   return (
     <ScrollableAnchor id={id}>
@@ -19,13 +19,13 @@ const InThePress = (props: *) => {
         <Container>
 
           <header className="mb-2 mb-md-4 text-center">
-            <h2>In the press</h2>
+            <h2>{data.header}</h2>
           </header>
 
           <Row className="justify-content-md-center">
             <Col sm={12} md={10}>
-              <Quotes />
-              <Mentions />
+              <Quotes data={data.quotes} />
+              <Mentions data={data.mentions} />
             </Col>
           </Row>
 
@@ -33,6 +33,15 @@ const InThePress = (props: *) => {
       </article>
     </ScrollableAnchor>
   );
+};
+
+InThePress.defaultProps = {
+  data: {
+    header: 'In The Press',
+    quotes: Quotes,
+    mentions: Mentions,
+  },
+  id: 'press',
 };
 
 export default InThePress;

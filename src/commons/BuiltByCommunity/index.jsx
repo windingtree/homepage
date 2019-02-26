@@ -4,25 +4,25 @@ import Tile from 'commons/Card';
 import {
   Container, Row, Col,
 } from '@windingtree/wt-ui-react';
-import projectList from 'DATA/commons/BuiltByCommunity';
+import projectList from 'DATA/commons/BuiltByCommunity'; // only for default props
 import ScrollableAnchor from 'react-scrollable-anchor';
 
 
 const BuiltByCommunity = (props: *) => {
-  const { id } = props;
+  const { id, header, projects } = props;
 
   return (
     <ScrollableAnchor id={id}>
 
       <Container className="app-section section-community border-top border-bottom border-light">
         <header className="mb-2 mb-md-4 text-center">
-          <h2>Built by Community</h2>
+          <h2>{header}</h2>
         </header>
 
         <Row className="justify-content-center">
           <Col xs={11} sm={12} md={10} lg={8}>
             <div className="card-deck">
-              {projectList.map((project, index) => (
+              {projects.map((project, index) => (
                       <>
                         <Tile
                           imgSrc={project.imgSrc}
@@ -45,6 +45,12 @@ const BuiltByCommunity = (props: *) => {
 
     </ScrollableAnchor>
   );
+};
+
+BuiltByCommunity.defaultProps = {
+  projects: projectList,
+  id: 'community-projects',
+  header: 'Built By Community',
 };
 
 export default BuiltByCommunity;
