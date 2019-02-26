@@ -12,7 +12,7 @@ const VideoGallerySimple = (props: *) => {
   return (
     <ScrollableAnchor id={id}>
 
-      <div className="app-section pb-0">
+      <div className="app-section py-0">
         <Container>
 
           <Row className="my-3 mb-2 mb-md-4 justify-content-center">
