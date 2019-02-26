@@ -9,6 +9,5 @@
     "selector-max-compound-selectors": null,
     "color-named": null,
     "selector-class-pattern": null,
-     "property-no-vendor-prefix": null
   }
 }

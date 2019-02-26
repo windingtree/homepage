@@ -886,7 +886,7 @@ html {
 .contact-thumbnail {
   &:hover {
     img {
-      -webkit-filter: opacity(0.2) drop-shadow(0 0 0 $accent);
+      //-webkit-filter: opacity(0.2) drop-shadow(0 0 0 $accent);
       filter: opacity(0.2) drop-shadow(0 0 0 $accent);
     };
   }
