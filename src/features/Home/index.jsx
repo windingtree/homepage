@@ -25,7 +25,7 @@ const Home = () => (
     <PartnersAndContributors id="partners" data={data.partners}>
       <Slicks />
     </PartnersAndContributors>
-    <InThePress id="press" />
+    <InThePress id="press" data={data.press} />
     <Banner variant="designedFor" icons id="opensource" />
     <VideoGallery id="video" />
     <Events id="events" />

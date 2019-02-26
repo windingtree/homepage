@@ -15,6 +15,7 @@ import metadata from 'DATA/metadata.json';
 import CustomHelmet from 'commons/CustomHelmet';
 import BuiltByCommunity from 'commons/BuiltByCommunity';
 import BlockQuoteSection from 'commons/BlockQuoteSection';
+import data from 'DATA/features/StartupsAndDevelopers';
 
 import { configureAnchors } from 'react-scrollable-anchor';
 
@@ -39,18 +40,9 @@ const StartupsAndDevelopers = () => (
 
     <article className="section-already-with-us">
 
-      <section className="app-section ">
+      <PartnersAndContributors id="partners" data={data.partners} />
 
-
-        <PartnersAndContributors id="partners" />
-
-
-        <header className="text-center mb-2">
-          <h3 className="text-muted">Developers and Contributors</h3>
-        </header>
-        <Contributors id="contributors" />
-
-      </section>
+      <Contributors id="contributors" data={data.contributors} />
 
       <BuiltByCommunity id="builtbycommunity" />
       <Events id="events" />
@@ -62,5 +54,6 @@ const StartupsAndDevelopers = () => (
   </div>
 
 );
+
 
 export default StartupsAndDevelopers;

@@ -80,7 +80,7 @@ class WTNavbar extends Component<*, StateType> {
                   </LinkContainer>
                 </Nav.Dropdown>
                 <Nav.Item>
-                  <Nav.Link href="https://github.com/windingtree/wiki" target="_blank" rel="noopener noreferrer" onClick={this.toggle}>API</Nav.Link>
+                  <Nav.Link href="https://developers.windingtree.com" target="_blank" rel="noopener noreferrer" onClick={this.toggle}>Docs</Nav.Link>
                 </Nav.Item>
                 <Nav.Dropdown title="Foundation" id="basic-nav-dropdown">
                   <LinkContainer to="/Foundation#about">

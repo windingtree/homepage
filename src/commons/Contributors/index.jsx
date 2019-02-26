@@ -1,6 +1,8 @@
 /* @flow */
 import React from 'react';
-import { Slick } from '@windingtree/wt-ui-react';
+import {
+  Slick, Container, Row, Col, Button,
+} from '@windingtree/wt-ui-react';
 import { contributors as devContributors, contributosToIgnore } from 'DATA/commons/Contributors';
 import ScrollableAnchor from 'react-scrollable-anchor';
 import DevImage from './DevImage';
@@ -27,22 +29,28 @@ class Contributors extends React.Component<*, StateType> {
 
   render() {
     const { contributors } = this.state;
-    const { id } = this.props;
+    const { id, data } = this.props;
 
     return (
+
       <ScrollableAnchor id={id}>
-        <Slick
-          autoplay
-          speed={10000}
-          autoplaySpeed={0}
-          cssEase="linear"
-          variableWidth
-          pauseOnFocus
-          pauseOnHover
-          className="devs-marquee"
-          arrows={false}
-        >
-          {
+
+        <section className="app-section pt-0">
+          <header className="mb-2 mb-md-4 text-center">
+            <h2 className="mb-1 text-center">{data.header}</h2>
+          </header>
+          <Slick
+            autoplay
+            speed={10000}
+            autoplaySpeed={0}
+            cssEase="linear"
+            variableWidth
+            pauseOnFocus
+            pauseOnHover
+            className="devs-marquee"
+            arrows={false}
+          >
+            {
           contributors.map((contributor) => {
             const ignoreContrib = contributosToIgnore.find(
               contribitorId => contribitorId === contributor.contribitorId,
@@ -56,10 +64,37 @@ class Contributors extends React.Component<*, StateType> {
               />);
           })
         }
-        </Slick>
+          </Slick>
+          {data.mainCTAUrl
+                    && (
+                    <Container className="pt-2">
+                      <Row>
+                        <Col sm={12}>
+                          <footer className="text-center">
+                            <Button
+                              href={data.mainCTAUrl}
+                              variant="dark"
+                              outlined
+                            >
+                              {data.mainCTALabel}
+                            </Button>
+                          </footer>
+                        </Col>
+                      </Row>
+
+                    </Container>
+                    )}
+        </section>
       </ScrollableAnchor>
     );
   }
 }
+
+Contributors.defaultProps = {
+  data: {
+    header: 'Contributors',
+  },
+  id: 'contributors',
+};
 
 export default Contributors;
