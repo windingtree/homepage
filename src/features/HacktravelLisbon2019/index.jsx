@@ -11,26 +11,21 @@ import AttendeeCardsSection from 'commons/AttendeeCardsSection';
 import VideoGallerySimple from 'commons/VideoGallerySimple';
 import ContactSection from 'commons/ContactSection';
 import DescriptonWithGallery from 'commons/DescriptionWithGallery';
-import { configureAnchors } from 'react-scrollable-anchor';
 
-configureAnchors({ offset: -70, scrollDuration: 400 });
 
 const event = Hacktravel;
 
 const HacktravelLisbon2019 = () => (
   <main id="app-content">
     <CustomHelmet {...metadata.home} />
-
     <EventPageHeroBanner data={event.header} />
     <ShortBenefits data={event.benefits} id="benefits" />
-    <DescriptonWithGallery data={event.about} photos={event.photos} />
+    <DescriptonWithGallery data={event.about} photos={event.photos} id="about" />
     <AttendeeCardsSection data={event.attendees} id="register" />
     <AccentedTextSection data={event.sponsors} id="sponsors" />
     <VideoGallerySimple data={event.videoGallery} id="video" />
     <AccentedTextSection data={event.callToAction} id="ready" />
     <ContactSection data={event.contacts} id="contacts" />
-
-
   </main>
 );
 

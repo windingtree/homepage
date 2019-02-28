@@ -40,7 +40,7 @@ const ExtendedCard = (props: *) => {
       </Row>
       <Row className="justify-content-center px-1">
 
-        <Button href={data.buttonUrl} block className={`mt-0 mt-lg-1 ${data.buttonStyle}`}>{data.buttonLabel}</Button>
+        <Button href={data.buttonUrl} block variant="accent" className={`mt-0 mt-lg-1 ${data.buttonStyle}`}>{data.buttonLabel}</Button>
 
       </Row>
 

@@ -87,7 +87,7 @@ const Hacktravel = {
         text : 'Put your organization in the spotlight of innovation and support the community of industry disruptors. We got tons of great sponsor benefits for you - get in touch and we’ll be happy to discuss the many ways you can be part of this event.',
         buttonUrl: "https://windingtree.typeform.com/to/zw5WmH",
         buttonLabel: "Check Sponsorship Options",
-        buttonStyle: "btn-accent",
+        buttonStyle: "btn-outline-dark",
     },
     videoGallery : {
         header : "What Our Hackathon Alumni Say",
@@ -140,7 +140,7 @@ const Hacktravel = {
         text : 'Contribute to moving the travel industry forward. Build open source, decentralized solutions along with airlines, hotels, travel startups and blockchain experts',
         buttonUrl: "#register",
         buttonLabel: "Register",
-        buttonStyle: "btn-accent",
+        buttonStyle: "btn-primary",
     }
 }
 
