@@ -15,7 +15,7 @@ const VideoGallerySimple = (props: *) => {
       <div className="app-section py-0">
         <Container>
 
-          <Row className="my-3 mb-2 mb-md-4 justify-content-center">
+          <Row className="my-3 mb-2 mb-md-2 justify-content-center">
             <Col>
               <h2 className="text-center">{data.header}</h2>
             </Col>

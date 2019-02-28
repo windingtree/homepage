@@ -25,7 +25,7 @@ class VideoCardSimple extends React.Component<*, StateType> {
       return (
             <>
               <VideoModal show={showModal} videoSrc={videoItem.videoSrc} onHide={this.hideModal} title="About Hackathon" />
-              <Card className="text-center card-video shadow">
+              <Card className="text-center card-video shadow mx-lg-2 my-lg-2">
 
                 <button type="button" className="card-img-top rounded" onClick={this.hanldeOnClick}>
                   <div className="img-crop rounded" style={{ background: `url(${videoItem.thumbnail})`, paddingBottom: '55%' }}>

@@ -17,13 +17,13 @@ const DescriptionWithGallery = (props: *) => {
       <div className="app-section py-0">
 
         <Row className="align-items-center" flex>
-          <Col lg={8} className="text-center text-lg-left pl-lg-4 pr-lg-4">
+          <Col lg={8} className="text-center  pl-lg-4 pr-lg-4">
             <Container className="py-4 py-lg-0 px-lg-4">
-              <h2 className="">
+              <h2 className=" pb-2">
                 {data.header}
               </h2>
 
-              <p className="lead display-linebreak">
+              <p className="lead display-linebreak text-lg-left">
                 {data.text}
               </p>
 

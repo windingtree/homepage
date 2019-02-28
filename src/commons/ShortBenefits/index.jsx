@@ -14,7 +14,7 @@ const ShortBenefits = (props: *) => {
   return (
     <ScrollableAnchor id={id}>
 
-      <section className="app-section px-md-4">
+      <section className="app-section px-md-4 my-2">
         <Row className="justify-content-center px-md-2 pt-md-4 pt-xs-2">
 
           {data.map(benefit => (
