@@ -12,10 +12,10 @@ const AttendeeCardsSection = (props: *) => {
   return (
     <ScrollableAnchor id={id}>
       <div className="app-section pb-0">
-        <Container>
+        <Container className="">
           <Row className="justify-content-center">
             <Col md={11} lg={8} className="col-12 justify-content-center">
-              <h2 className="my-3 mb-md-4 text-center">
+              <h2 className="my-3 mb-md-4 text-center ">
                 {data.header}
               </h2>
             </Col>

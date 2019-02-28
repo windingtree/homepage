@@ -27,7 +27,7 @@ class EventPageHeroBanner extends React.Component<*, StateType> {
     const { data } = this.props;
     return (
       <>
-        <section className="app-section hero-homepage hero-lisbon pt-1 pt-lg-5">
+        <section className="app-section hero-homepage hero-lisbon pt-1 pt-lg-5 shadow">
 
           <div className="star star1" />
           <div className="star star2" />

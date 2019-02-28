@@ -7,6 +7,8 @@ $white: #fff;
 $gray-500: #808080;
 $gray-400: #a9a9a9;
 $gray-200: #d3d3d3;
+$pink: #e6d6f3;
+$green: #3fe1cb;
 $spacer: 10px;
 
 
@@ -95,7 +97,7 @@ h3,
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #fff;
+    background-color: #fafafa;
     z-index: -2;
   }
 
@@ -877,6 +879,7 @@ html {
   background-size: cover !important;
   background-repeat: no-repeat !important;
   background-position: 50% !important;
+  border-radius: 4px 4px 0 0;
 }
 
 .display-linebreak {
@@ -894,15 +897,19 @@ html {
 
 .galleryContainer {
   display: flex;
-  height: 100%;
   background: no-repeat center;
   height: 550px;
-  background-blend-mode: overlay;
-  background-color: #5f2987;
-  border-radius: 15px;
+  background-blend-mode: screen;
+  background-color: $accent;
+  border-radius: 4px;
 
   &:hover {
     cursor: pointer;
+
+  }
+
+  @media all and (max-width: 768px) {
+    height: 300px;
   }
 }
 
@@ -916,8 +923,22 @@ html {
 
 }
 
-.img-crop {
-  border-radius: 4px 4px 0 0;
+.bg-pink {
+  background-color: $pink;
 }
 
+.bg-green {
+  background-color: $green;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.shadow {
+  @media all and (min-width: 768px) {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5) !important;
+  }
+
+}
 

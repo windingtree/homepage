@@ -18,19 +18,20 @@ const DescriptionWithGallery = (props: *) => {
 
         <Row className="align-items-center" flex>
           <Col lg={8} className="text-center text-lg-left pl-lg-4 pr-lg-4">
-            <Container className="py-4 py-lg-0">
+            <Container className="py-4 py-lg-0 px-lg-4">
               <h2 className="">
                 {data.header}
               </h2>
 
-              <p className="lead">
+              <p className="lead display-linebreak">
                 {data.text}
               </p>
+
             </Container>
           </Col>
 
 
-          <Col lg={4} className="p-0 galleryContainer " style={{ backgroundImage: `url(${photos[2].photo})` }}>
+          <Col lg={4} className="p-0 galleryContainer shadow" style={{ backgroundImage: `url(${photos[2].photo})` }}>
             <Gallery photos={photos} />
           </Col>
 

@@ -20,6 +20,7 @@ const event = Hacktravel;
 const HacktravelLisbon2019 = () => (
   <main id="app-content">
     <CustomHelmet {...metadata.home} />
+
     <EventPageHeroBanner data={event.header} />
     <ShortBenefits data={event.benefits} id="benefits" />
     <DescriptonWithGallery data={event.about} photos={event.photos} />
@@ -28,6 +29,7 @@ const HacktravelLisbon2019 = () => (
     <VideoGallerySimple data={event.videoGallery} id="video" />
     <AccentedTextSection data={event.callToAction} id="ready" />
     <ContactSection data={event.contacts} id="contacts" />
+
 
   </main>
 );

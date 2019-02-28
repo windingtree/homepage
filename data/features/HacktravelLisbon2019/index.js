@@ -12,7 +12,7 @@ const Hacktravel = {
     },
     about : {
         header : 'What to Expect',
-        text : '#HackTravel hackathon is a unique opportunity for the most forward thinking travel industry players to come together and collaboratively tackle real world industry pain points. Following the success of our #HackTravel Prague hackathon, this year we’re adding more benefits, content and activities for our community to get the most out of their participation. Join us and be part of an unprecedented phenomenon - travel industry embracing open innovation'
+        text : '#HackTravel hackathon is a unique opportunity for the most forward thinking travel industry players to come together and collaboratively tackle real world industry pain points.\n \nFollowing the success of our #HackTravel Prague hackathon, this year we’re adding more benefits, content and activities for our community to get the most out of their participation'
     },
     photos : [
         {
@@ -76,7 +76,7 @@ const Hacktravel = {
                 buttonUrl: "https://windingtree.typeform.com/to/zw5WmH",
                 buttonLabel: "Join For Free",
                 buttonStyle: "btn-primary",
-                benefits: ["Bring your team to learn and hack","Get complimentary training and mentorship","Work on your own idea","Experiment","Connect with industry veterans"],
+                benefits: ["Bring your team to learn and hack","Get training and mentorship","Work on your own idea","Experiment","Connect with industry veterans"],
                 accentedNotice: "Approved hackers are invited to join us at zero cost.",
                 secondaryNotice: "Spots are limited to 80"
             },
