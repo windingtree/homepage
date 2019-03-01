@@ -23,7 +23,7 @@ const VideoGallerySimple = (props: *) => {
 
           <Row className="justify-content-center">
             {data.items.map(videoItem => (
-              <Col md={6}>
+              <Col md={6} className="px-0">
                 <VideoCardSimple videoItem={videoItem} />
               </Col>
             ))}
