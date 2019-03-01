@@ -30,19 +30,19 @@ const Hacktravel = {
     ],
     benefits : [
         {
-            imgSrc:require('./img/benefits/blue-1.png'),
+            imgSrc:require('./img/benefits/3.png'),
             header:'3 Days Packed with Activities',
         },
         {
-            imgSrc:require('./img/benefits/purple-1.png'),
+            imgSrc:require('./img/benefits/2.png'),
             header:'New Addition - Business Hackathon',
         },
         {
-            imgSrc:require('./img/benefits/orange-1.png'),
+            imgSrc:require('./img/benefits/1.png'),
             header:'Tangible Results to Bring Home',
         },
         {
-            imgSrc:require('./img/benefits/green-1.png'),
+            imgSrc:require('./img/benefits/4.png'),
             header:'Designed For Beginners and Experts',
         },
     ],
