@@ -64,7 +64,7 @@ const data: DataType = {
     videoSrc: '_qer1qd68eQ',
   },
   startupsAndDevelopers: {
-    title: 'Make future of travel together',
+    title: 'Make the future of travel together',
     text: 'Developers, startups, evangelists and geeks are welcome!',
     primaryButtonHref: 'https://developers.windingtree.com',
     primaryButtonLabel: 'Developer portal',
