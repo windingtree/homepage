@@ -7,6 +7,7 @@ import Routes from './Routes';
 import '@windingtree/wt-ui/dist/styles.css';
 import './assets/scss/styles.scss';
 
+
 const render = (Component) => {
   let renderMethod = ReactDOM.render;
   if (process.env.NODE_ENV === 'production') {

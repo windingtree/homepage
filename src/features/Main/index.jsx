@@ -6,7 +6,7 @@ import {
   Navbar, Container, Nav, Button,
 } from '@windingtree/wt-ui-react';
 import classNames from 'classnames';
-import metadata from 'data/metadata.json';
+import metadata from 'DATA/metadata.json';
 import CustomHelmet from 'commons/CustomHelmet';
 import Gdpr from 'commons/Gdpr';
 import Footer from 'commons/Footer';
@@ -80,24 +80,26 @@ class WTNavbar extends Component<*, StateType> {
                   </LinkContainer>
                 </Nav.Dropdown>
                 <Nav.Item>
-                  <Nav.Link href="https://github.com/windingtree/wiki" target="_blank" rel="noopener noreferrer" onClick={this.toggle}>API</Nav.Link>
+                  <Nav.Link href="https://developers.windingtree.com" target="_blank" rel="noopener noreferrer" onClick={this.toggle}>Docs</Nav.Link>
                 </Nav.Item>
                 <Nav.Dropdown title="Foundation" id="basic-nav-dropdown">
-                  <LinkContainer to="/Foundation#About">
-                    <Nav.Dropdown.Item onClick={this.toggle}>About</Nav.Dropdown.Item>
-                  </LinkContainer>
-                  <LinkContainer to="/Foundation#Team">
-                    <Nav.Dropdown.Item onClick={this.toggle}>Team</Nav.Dropdown.Item>
-                  </LinkContainer>
-                  <LinkContainer to="/Foundation#Events">
-                    <Nav.Dropdown.Item onClick={this.toggle}>Events</Nav.Dropdown.Item>
-                  </LinkContainer>
-                  <LinkContainer to="/Foundation#Services">
-                    <Nav.Dropdown.Item onClick={this.toggle}>Services</Nav.Dropdown.Item>
-                  </LinkContainer>
-                  <LinkContainer to="/Foundation#Roadmap">
-                    <Nav.Dropdown.Item onClick={this.toggle}>Roadmap</Nav.Dropdown.Item>
-                  </LinkContainer>
+
+                  <Nav.Dropdown.Item onClick={this.toggle} href="/foundation#about">
+                        About
+                  </Nav.Dropdown.Item>
+                  <Nav.Dropdown.Item onClick={this.toggle} href="/foundation#team">
+                        Team
+                  </Nav.Dropdown.Item>
+                  <Nav.Dropdown.Item onClick={this.toggle} href="/foundation#events">
+                        Events
+                  </Nav.Dropdown.Item>
+                  <Nav.Dropdown.Item onClick={this.toggle} href="/foundation#services">
+                       Services
+                  </Nav.Dropdown.Item>
+                  <Nav.Dropdown.Item onClick={this.toggle} href="/foundation#roadmap">
+                        Roadmap
+                  </Nav.Dropdown.Item>
+
                   <Nav.Dropdown.Item href="https://blog.windingtree.com" target="__blank" onClick={this.toggle}>Blog</Nav.Dropdown.Item>
                 </Nav.Dropdown>
                 <Nav.Item>

@@ -208,9 +208,6 @@ const roadmapData: RoadmapDataType = [
           {
             done: IN_PROGRESS,
             text: 'Design System and UI Framework',
-            buttonLabel: 'contribute',
-            href: 'mailto:alex.menschikov@windingtree.com',
-            isMainButton: true,
             tooltip: 'We are working on React UI Framework to build applications on top of our platform. We need some help here',
           },
         ],
@@ -317,9 +314,6 @@ const roadmapData: RoadmapDataType = [
           {
             done: IN_PROGRESS,
             text: 'Design System and UI Framework',
-            buttonLabel: 'contribute',
-            href: 'mailto:alex.menschikov@windingtree.com',
-            isMainButton: true,
             tooltip: 'We are working on React UI Framework to build applications on top of our platform. We need some help here',
           },
         ],

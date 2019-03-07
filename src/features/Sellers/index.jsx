@@ -5,7 +5,7 @@ import Hero from 'commons/Hero';
 import SuscribeForUpdates from 'commons/SuscribeForUpdates';
 import ReadyToUse from 'commons/ReadyToUse';
 import Solutions from 'commons/Solutions';
-import metadata from 'data/metadata.json';
+import metadata from 'DATA/metadata.json';
 import CustomHelmet from 'commons/CustomHelmet';
 import keyBenefitsDescriptions from 'DATA/features/Sellers';
 
@@ -13,7 +13,7 @@ const Sellers = () => (
   <div id="app-content">
     <CustomHelmet {...metadata.sellers} />
     <Hero variant="sellers" />
-    <KeyBenefits>
+    <KeyBenefits id="benefits">
       {
         keyBenefitsDescriptions.map(benefit => (
           <KeyBenefits.Benefit
@@ -24,10 +24,10 @@ const Sellers = () => (
           />))
       }
     </KeyBenefits>
-    <HowItWorks />
-    <Solutions variant="sellers" />
-    <SuscribeForUpdates />
-    <ReadyToUse />
+    <HowItWorks id="howitworks" />
+    <Solutions variant="sellers" id="sellers" />
+    <SuscribeForUpdates id="subscribe" />
+    <ReadyToUse id="ready" />
   </div>
 );
 

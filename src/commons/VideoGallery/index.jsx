@@ -1,26 +1,37 @@
-// @flow
+/* @flow */
 import React from 'react';
 import {
   Row, Col, Container,
 } from '@windingtree/wt-ui-react';
+import ScrollableAnchor from 'react-scrollable-anchor';
 import Gallery from './Gallery';
 
-const VideoGallery = () => (
-  <article className="app-section section-video-gallery border-top border-bottom border-light">
-    <Container>
+type PropsType = {
+  id: string
+};
 
-      <header className="mb-2 mb-md-4 text-center">
-        <h2>Video gallery</h2>
-      </header>
+const VideoGallery = (props: PropsType) => {
+  const { id } = props;
 
-      <Row className="justify-content-center">
-        <Col md={12} lg={10} className="col-10">
-          <Gallery />
-        </Col>
-      </Row>
+  return (
+    <ScrollableAnchor id={id}>
 
-    </Container>
-  </article>
-);
+      <article className="app-section section-video-gallery border-top border-bottom border-light">
+        <Container>
+
+          <header className="mb-2 mb-md-4 text-center">
+            <h2>Video gallery</h2>
+          </header>
+
+          <Row className="justify-content-center">
+            <Col md={12} lg={10} className="col-10">
+              <Gallery />
+            </Col>
+          </Row>
+
+        </Container>
+      </article>
+    </ScrollableAnchor>);
+};
 
 export default VideoGallery;

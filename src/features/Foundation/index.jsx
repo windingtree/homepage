@@ -6,7 +6,7 @@ import Hero from 'commons/Hero';
 import SuscribeForUpdates from 'commons/SuscribeForUpdates';
 import ReadyToUse from 'commons/ReadyToUse';
 import VideoGallery from 'commons/VideoGallery';
-import metadata from 'data/metadata.json';
+import metadata from 'DATA/metadata.json';
 import CustomHelmet from 'commons/CustomHelmet';
 import { members, advisors } from 'DATA/commons/Team';
 import Team from 'commons/Team';
@@ -19,14 +19,14 @@ const Foundation = () => (
     <CustomHelmet {...metadata.foundation} />
     <Hero variant="foundation" />
     <About id="about" />
-    <Team title="Team" members={members} />
-    <Team title="Advisors" members={advisors} />
-    <VideoGallery />
-    <Banner variant="consultancy" id="Services" />
-    <Roadmap />
-    <Events />
-    <SuscribeForUpdates />
-    <ReadyToUse />
+    <Team title="Team" members={members} id="team" />
+    <Team title="Advisors" members={advisors} id="advisors" />
+    <VideoGallery id="video" />
+    <Banner variant="consultancy" id="services" />
+    <Roadmap id="roadmap" />
+    <Events id="events" />
+    <SuscribeForUpdates id="subscribe" />
+    <ReadyToUse id="ready" />
   </main>
 );
 

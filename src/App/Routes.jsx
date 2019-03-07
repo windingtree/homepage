@@ -9,6 +9,7 @@ import Main from 'features/Main';
 import LifToken from 'features/LifToken';
 import Community from 'features/StartupsAndDevelopers';
 import Page404 from 'features/Page404';
+import HacktravelLisbon2019 from 'features/HacktravelLisbon2019';
 import ScrollHandler from './ScrollHandler';
 
 const Routes = () => (
@@ -21,6 +22,7 @@ const Routes = () => (
         <Route path={['/software-vendors', '/software-vendors.html']} component={SoftwareVendors} />
         <Route path={['/lif-token', '/lif-token.html']} component={LifToken} />
         <Route path={['/startups-and-developers', '/startups-and-developers.html']} component={Community} />
+        <Route path={['/hacktravel-Lisbon-2019', '/hacktravel-Lisbon-2019.html']} component={HacktravelLisbon2019} />
         <Route path="/" exact component={Home} />
         <Route component={Page404} />
       </Switch>

@@ -3,16 +3,19 @@ import React from 'react';
 import {
   Container, Row, Col,
 } from '@windingtree/wt-ui-react';
+import ScrollableAnchor from 'react-scrollable-anchor';
 import Lead from './Lead';
 import Benefit from './Benefit';
 
+
 type PropsType = {
   children: React$Node,
-  noHeader: boolean
+  noHeader: boolean,
+  id: string
 };
 
 const KeyBenefits = (props: PropsType) => {
-  const { children, noHeader } = props;
+  const { children, noHeader, id } = props;
   const Header = noHeader
     ? null
     : (
@@ -25,18 +28,21 @@ const KeyBenefits = (props: PropsType) => {
       </header>
     );
   return (
-    <section className="app-section section-key-benefits pb-0">
-      <Container>
-        {Header}
-        <Row className="justify-content-center">
-          <Col sm={12} lg={10}>
-            <Row>
-              {children}
-            </Row>
-          </Col>
-        </Row>
-      </Container>
-    </section>
+    <ScrollableAnchor id={id}>
+
+      <section className="app-section section-key-benefits pb-0">
+        <Container>
+          {Header}
+          <Row className="justify-content-center">
+            <Col sm={12} lg={10}>
+              <Row>
+                {children}
+              </Row>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+    </ScrollableAnchor>
   );
 };
 

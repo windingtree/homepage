@@ -11,10 +11,15 @@ import Banner from 'commons/Banner';
 import SuscribeForUpdates from 'commons/SuscribeForUpdates';
 import ReadyToUse from 'commons/ReadyToUse';
 import VideoGallery from 'commons/VideoGallery';
-import metadata from 'data/metadata.json';
+import metadata from 'DATA/metadata.json';
 import CustomHelmet from 'commons/CustomHelmet';
-import BuildByCommunity from 'commons/BuildByCommunity';
+import BuiltByCommunity from 'commons/BuiltByCommunity';
 import BlockQuoteSection from 'commons/BlockQuoteSection';
+import data from 'DATA/features/StartupsAndDevelopers';
+
+import { configureAnchors } from 'react-scrollable-anchor';
+
+configureAnchors({ offset: -100, scrollDuration: 400 });
 
 const StartupsAndDevelopers = () => (
   <div id="app-content">
@@ -30,40 +35,25 @@ const StartupsAndDevelopers = () => (
       </Container>
     </section>
 
-    <Banner variant="howWeWork" />
+    <Banner variant="howWeWork" id="opensource" />
 
 
     <article className="section-already-with-us">
 
-      <section className="app-section ">
+      <PartnersAndContributors id="partners" data={data.partners} />
 
-        <Container>
-          <header className="mb-2 mb-md-4 text-center">
-            <h2>Already With Us</h2>
-          </header>
-          <Row className="justify-content-md-center">
-            <Col md={10} className="mb-3">
-              <PartnersAndContributors />
-            </Col>
-          </Row>
-        </Container>
+      <Contributors id="contributors" data={data.contributors} />
 
-        <header className="text-center mb-2">
-          <h3 className="text-muted">Developers and Contributors</h3>
-        </header>
-        <Contributors />
-
-      </section>
-
-      <BuildByCommunity />
-      <Events />
-      <VideoGallery />
+      <BuiltByCommunity id="builtbycommunity" />
+      <Events id="events" />
+      <VideoGallery id="video" />
 
     </article>
-    <SuscribeForUpdates />
-    <ReadyToUse />
+    <SuscribeForUpdates id="subscribe" />
+    <ReadyToUse id="ready" />
   </div>
 
 );
+
 
 export default StartupsAndDevelopers;
