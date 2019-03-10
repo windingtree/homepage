@@ -11,7 +11,7 @@ const ExtendedCard = (props: *) => {
     <Container className="extended-card card text-center py-2">
       <Row className="py-1">
         <Col>
-          <img src={data.imgSrc} alt={data.title} className="" style={{ width: 80 }} />
+          <img src={data.imgSrc} alt={data.title} className="" style={{ height: 80 }} />
         </Col>
       </Row>
       <Row className="card-body px-0">
