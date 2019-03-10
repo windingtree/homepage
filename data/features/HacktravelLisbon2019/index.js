@@ -47,11 +47,11 @@ const Hacktravel = {
         },
     ],
     attendees : {
-        header: "Who is invited",
+        header: "Who is Invited",
         subtitle: "",
         types: [
             {
-                imgSrc:require('./img/benefits/1.svg'),
+                imgSrc:require('./img/benefits/plane.svg'),
                 title:'Airlines \n & Hotels',
                 buttonUrl: "https://windingtree.typeform.com/to/zw5WmH",
                 buttonLabel: "Get Early Bird Tickets",
@@ -61,7 +61,7 @@ const Hacktravel = {
                 secondaryNotice: "50% off if you’re bringing your technical team to hack. Spots are limited to 50"
             },
             {
-                imgSrc:require('./img/benefits/1.svg'),
+                imgSrc:require('./img/benefits/git.svg'),
                 title:'Independent Developers\n& Software Companies',
                 buttonUrl: "https://windingtree.typeform.com/to/zw5WmH",
                 buttonLabel: "Join For Free",
@@ -71,7 +71,7 @@ const Hacktravel = {
                 secondaryNotice: "Spots are limited to 80"
             },
             {
-                imgSrc:require('./img/benefits/1.svg'),
+                imgSrc:require('./img/benefits/ota.svg'),
                 title:'Travel Startups\n& OTAs',
                 buttonUrl: "https://windingtree.typeform.com/to/zw5WmH",
                 buttonLabel: "Join For Free",
@@ -94,19 +94,19 @@ const Hacktravel = {
         items:[
             {
                 videoSrc: "https://youtu.be/vlJbLLY4_8A",
-                thumbnail: require('./img/video/partners.jpg'),
+                thumbnail: require('./img/video/airfrance.jpg'),
             },
             {
-                videoSrc: "https://youtu.be/vlJbLLY4_8A",
-                thumbnail: require('./img/video/partners.jpg'),
+                videoSrc: "https://youtu.be/lSByZkikdFY",
+                thumbnail: require('./img/video/atpco.png'),
             },
             {
-                videoSrc: "https://youtu.be/vlJbLLY4_8A",
-                thumbnail: require('./img/video/partners.jpg'),
+                videoSrc: "https://youtu.be/AEHumtp1LUQ",
+                thumbnail: require('./img/video/avian.png'),
             },
             {
-                videoSrc: "https://youtu.be/vlJbLLY4_8A",
-                thumbnail: require('./img/video/partners.jpg'),
+                videoSrc: "https://youtu.be/xa_V7wpTEN4",
+                thumbnail: require('./img/video/aircanada.png'),
             },
         ]
     },
