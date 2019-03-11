@@ -11,7 +11,7 @@ type StateType = {
   showModal: boolean
 };
 
-class PageHero extends React.Component<PropsType, StateType> {
+class PageHero extends React.Component<*, StateType> {
   state = { showModal: false };
 
   hanldeOnClick = (e: SyntheticMouseEvent<*>) => {
