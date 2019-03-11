@@ -7,7 +7,7 @@ import ScrollableAnchor from 'react-scrollable-anchor';
 import Member from './Member';
 
 
-const Team = ({ data, id }: PropsType) => (
+const Team = ({ data, id }: *) => (
   <ScrollableAnchor id={id}>
     <article className="app-section section-team" id="Team">
       <Container>
