@@ -5,7 +5,7 @@ import Foundation from 'features/Foundation';
 import Sellers from 'features/Sellers';
 import Suppliers from 'features/Suppliers';
 import SoftwareVendors from 'features/SoftwareVendors';
-import Main from 'features/Main';
+import Main from 'commons/MainTemplate';
 import LifToken from 'features/LifToken';
 import Community from 'features/StartupsAndDevelopers';
 import Page404 from 'features/Page404';
