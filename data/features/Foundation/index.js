@@ -2,6 +2,11 @@ import CTAs from 'DATA/commons/CTAs'
 import { members, advisors } from 'DATA/commons/Team';
 
 const FoundationPage = {
+    hero : {
+        title: 'Winding Tree Foundation',
+        text: 'A non-profit organization',
+        imgSrc: require('./img/foundation-hero.svg'),
+    },
     about: {
         text:'Winding Tree Foundation is a non-profit organization incorporated in Switzerland. Its purpose is to develop software projects, data exchange standards and infrastructure with the goal of advancing the travel industry.',
         cardSectionHeader:'Winding Tree foundation currently supports these initiatives:',

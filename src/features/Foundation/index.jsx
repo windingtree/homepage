@@ -2,7 +2,7 @@
 import React from 'react';
 import Banner from 'commons/Banner';
 import Events from 'commons/Events';
-import Hero from 'commons/Hero';
+import PageHero from 'commons/PageHero';
 import SuscribeForUpdates from 'commons/SuscribeForUpdates';
 import ReadyToUse from 'commons/ReadyToUse';
 import VideoGallery from 'commons/VideoGallery';
@@ -18,7 +18,7 @@ import About from './About';
 const Foundation = () => (
   <main id="app-content">
     <CustomHelmet {...metadata.foundation} />
-    <Hero variant="foundation" />
+    <PageHero data={data.hero} />
     <About id="about" data={data.about} />
     <Team title="Team" members={members} id="team" data={data.team} />
     <Team title="Advisors" members={advisors} id="advisors" data={data.advisors} />
