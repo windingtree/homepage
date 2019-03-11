@@ -21,7 +21,8 @@ const Suppliers = () => (
           img={benefit.icon}
           body={benefit.body}
           key={benefit.title}
-        />))}
+        />
+      ))}
     </KeyBenefits>
     <HowItWorks id="howitworks" />
     <Solutions variant="suppliers" id="solutions" />

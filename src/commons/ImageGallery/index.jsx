@@ -21,14 +21,14 @@ class Gallery extends Component<*> {
     const { galleryOpened } = this.state;
     const { photos } = this.props;
     return (
-        <>
-          <Button onClick={this.toggleGallery} outlined variant="light" className="centered-item">Check Photos</Button>
+      <>
+        <Button onClick={this.toggleGallery} outlined variant="light" className="centered-item">Check Photos</Button>
 
-          <ReactBnbGallery
-            show={galleryOpened}
-            photos={photos}
-            onClose={this.toggleGallery}
-          />
+        <ReactBnbGallery
+          show={galleryOpened}
+          photos={photos}
+          onClose={this.toggleGallery}
+        />
       </>
     );
   }

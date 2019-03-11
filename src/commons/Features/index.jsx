@@ -51,7 +51,8 @@ const Features = (props: *) => {
                                         <a href={link.href} className="border-bottom">
                                           {link.text}
                                         </a>
-                                      </footer>)}
+                                      </footer>
+                                    )}
                             </article>
                           </Tab.Pane>
                         ))}
@@ -77,7 +78,8 @@ const Features = (props: *) => {
                                   <a href={link.href} className="border-bottom">
                                     {link.text}
                                   </a>
-                                </footer>)}
+                                </footer>
+                              )}
                       </article>
                     ))}
                   </div>

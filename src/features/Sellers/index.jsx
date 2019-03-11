@@ -21,7 +21,8 @@ const Sellers = () => (
             img={benefit.icon}
             body={benefit.body}
             key={benefit.title}
-          />))
+          />
+        ))
       }
     </KeyBenefits>
     <HowItWorks id="howitworks" />

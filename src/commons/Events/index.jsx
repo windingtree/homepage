@@ -4,11 +4,12 @@ import {
   Container, Row, Col, Button,
 } from '@windingtree/wt-ui-react';
 import ScrollableAnchor from 'react-scrollable-anchor';
+import defaultEventItems from 'DATA/commons/Events';
 import EventTabs from './EventTabs';
 
 
 const Events = (props: *) => {
-  const { id } = props;
+  const { id, data } = props;
 
   return (
     <ScrollableAnchor id={id}>
@@ -18,16 +19,16 @@ const Events = (props: *) => {
           <header>
             <Row>
               <Col md={12} className="text-center mb-2">
-                <h2>Where to meet our team</h2>
+                <h2>{data.header}</h2>
               </Col>
             </Row>
           </header>
           <Row id="Events" className="justify-content-center">
             <Col md={10}>
-              <EventTabs />
+              <EventTabs events={data.items} activeTab={data.activeTab} />
               <footer className="alert alert-accent-light text-center px-1">
-                <p className="d-block d-lg-inline mr-0 mr-lg-2">If you want to invite Winding Tree to you event please send us an email</p>
-                <Button variant="primary" href="mailto:info@windingtree.com">Send Email</Button>
+                <p className="d-block d-lg-inline mr-0 mr-lg-2">{data.text}</p>
+                <Button variant="primary" href={data.ctaLink}>{data.ctaLabel}</Button>
               </footer>
             </Col>
           </Row>
@@ -35,6 +36,19 @@ const Events = (props: *) => {
       </section>
     </ScrollableAnchor>
   );
+};
+
+
+Events.defaultProps = {
+  id: 'events',
+  data: {
+    header: 'Where to meet our team',
+    text: 'If you want to invite Winding Tree to you event please send us an email',
+    ctaLink: 'mailto:info@windingtree.com',
+    ctaLabel: 'Send Email',
+    activeTab: 'Upcoming',
+    items: defaultEventItems,
+  },
 };
 
 export default Events;

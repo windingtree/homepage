@@ -26,11 +26,11 @@ const Home = () => (
       <Slicks />
     </PartnersAndContributors>
     <InThePress id="press" data={data.press} />
-    <Banner variant="designedFor" icons id="opensource" />
-    <VideoGallery id="video" />
-    <Events id="events" />
+    <Banner id="opensource" data={data.communityBanner} />
+    <VideoGallery id="video" data={data.videoGallery} />
+    <Events id="events" data={data.events} />
     <SuscribeForUpdates id="subscribe" />
-    <ReadyToUse id="ready" />
+    <ReadyToUse id="ready" data={data.readyToUse} />
   </main>
 );
 

@@ -24,6 +24,7 @@ const Roadmap = (props: *) => {
           ))}
         </Container>
       </article>
-    </ScrollableAnchor>);
+    </ScrollableAnchor>
+  );
 };
 export default Roadmap;

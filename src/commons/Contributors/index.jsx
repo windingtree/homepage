@@ -68,7 +68,8 @@ class Contributors extends React.Component<*, StateType> {
                 key={contributor.contribitorId}
                 img={contributor.avatar_url}
                 name={contributor.login}
-              />);
+              />
+            );
           })
         }
             </Slick>

@@ -26,7 +26,8 @@ const LifToken = () => (
             img={benefit.icon}
             body={benefit.body}
             key={benefit.title}
-          />))
+          />
+        ))
       }
     </KeyBenefits>
     <LifIco />

@@ -11,6 +11,7 @@ import CustomHelmet from 'commons/CustomHelmet';
 import { members, advisors } from 'DATA/commons/Team';
 import Team from 'commons/Team';
 import Roadmap from 'commons/Roadmap';
+import data from 'DATA/features/Foundation';
 import About from './About';
 
 
@@ -22,7 +23,7 @@ const Foundation = () => (
     <Team title="Team" members={members} id="team" />
     <Team title="Advisors" members={advisors} id="advisors" />
     <VideoGallery id="video" />
-    <Banner variant="consultancy" id="services" />
+    <Banner id="services" data={data.servicesBanner} />
     <Roadmap id="roadmap" />
     <Events id="events" />
     <SuscribeForUpdates id="subscribe" />

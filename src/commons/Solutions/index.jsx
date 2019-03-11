@@ -31,11 +31,13 @@ const Solutions = (props: *) => {
                     <Hospitality />
                     <Airlines />
                     <Tours />
-                  </div>)
+                  </div>
+                )
                 : (
                   <div>
                     <OTA />
-                  </div>)}
+                  </div>
+                )}
 
               <PartnersAndContributors tab={1} id="use-cases" />
 
