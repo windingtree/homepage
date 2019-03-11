@@ -1,6 +1,5 @@
 /* @flow */
 import React from 'react';
-import { LinkContainer } from 'react-router-bootstrap';
 import {
   Container, Row, Col, Button,
 } from '@windingtree/wt-ui-react';
@@ -26,9 +25,9 @@ const Banner = (props: *) => {
               { (data.href.startsWith('http')
                 ? (<Button outlined variant="light" className="mt-0 mt-lg-1" href={data.href}>{data.buttonLabel}</Button>)
                 : (
-                  <LinkContainer to={data.href}>
-                    <Button outlined variant="light" className="mt-0 mt-lg-1">{data.buttonLabel}</Button>
-                  </LinkContainer>
+
+                  <Button outlined variant="light" className="mt-0 mt-lg-1" href={data.href}>{data.buttonLabel}</Button>
+
                 ))}
             </Col>
           </Row>

@@ -19,9 +19,9 @@ const Foundation = () => (
   <main id="app-content">
     <CustomHelmet {...metadata.foundation} />
     <Hero variant="foundation" />
-    <About id="about" />
-    <Team title="Team" members={members} id="team" />
-    <Team title="Advisors" members={advisors} id="advisors" />
+    <About id="about" data={data.about} />
+    <Team title="Team" members={members} id="team" data={data.team} />
+    <Team title="Advisors" members={advisors} id="advisors" data={data.advisors} />
     <VideoGallery id="video" />
     <Banner id="services" data={data.servicesBanner} />
     <Roadmap id="roadmap" />

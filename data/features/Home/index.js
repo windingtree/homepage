@@ -57,6 +57,12 @@ const mainPage = {
         ctaLabel: 'Send Email',
         activeTab: 'Upcoming',
         items : defaultEventItems
+    }, 
+    readyToUse: {
+        header: 'Ready To Use Winding Tree',
+        text: 'Learn our API or apply for integration and we will get back to you',
+        ctaButtonUrl: CTAs.parntersAction,
+        ctaButtonLabel: 'Apply For Integration'
     }
 
     
