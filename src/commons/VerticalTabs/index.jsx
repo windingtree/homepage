@@ -3,11 +3,10 @@ import React from 'react';
 import {
   Tab, Row, Col, Nav, Image, Container, Button,
 } from '@windingtree/wt-ui-react';
-import features from 'DATA/commons/Features';
 import ScrollableAnchor from 'react-scrollable-anchor';
 
 
-const Features = (props: *) => {
+const VerticalTabs = (props: *) => {
   const { id, data } = props;
 
   return (
@@ -22,11 +21,11 @@ const Features = (props: *) => {
             <Col sm={12} md={10}>
 
               <div className="d-none d-lg-block">
-                <Tab.Container id="features-tabs" defaultActiveKey={features[0].name}>
+                <Tab.Container id="features-tabs" defaultActiveKey={data.items[0].name}>
                   <Row className="mb-2">
                     <Col md={6} lg={4}>
                       <Nav className="flex-column mb-1 border-right">
-                        {features.map(({ name }) => (
+                        {data.items.map(({ name }) => (
                           <Nav.Item className="d-block" key={name}>
                             <p>
                               <Nav.Link as="button" className="text-link" eventKey={name}>{name}</Nav.Link>
@@ -37,7 +36,7 @@ const Features = (props: *) => {
                     </Col>
                     <Col md={6} lg={8}>
                       <Tab.Content>
-                        {features.map(({
+                        {data.items.map(({
                           name, text, imgSrc, link,
                         }) => (
                           <Tab.Pane eventKey={name} key={name}>
@@ -65,7 +64,7 @@ const Features = (props: *) => {
               <div className="d-md-none">
                 <Col md={6} lg={8}>
                   <div>
-                    {features.map(({
+                    {data.items.map(({
                       name, text, imgSrc, link,
                     }) => (
                       <article className="feature text-center pb-2" style={{ display: 'block', marginTop: -20 }} key={name}>
@@ -100,4 +99,4 @@ const Features = (props: *) => {
   );
 };
 
-export default Features;
+export default VerticalTabs;
