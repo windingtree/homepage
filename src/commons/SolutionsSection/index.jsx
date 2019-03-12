@@ -37,7 +37,6 @@ const SolutionsSection = (props: *) => {
         </section>
 
       </ScrollableAnchor>
-
       {children}
     </>
   );

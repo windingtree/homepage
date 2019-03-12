@@ -63,13 +63,14 @@ const SuppliersPage = {
             secondaryButtonUrl:'https://developers.windingtree.com/'
         },
       ],
-        partners: {
+        
+  },
+  partners: {
             header:'Use Cases',
             mainCTAUrl:CTAs.parntersAction,
             mainCTALabel:'Join Platform',
             partnerList: Partners
         },
-  }
 }
 
 export default SuppliersPage;

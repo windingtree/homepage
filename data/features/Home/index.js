@@ -28,9 +28,9 @@ const mainPage = {
         mainCTALabel: HowItWorksData.mainCTALabel,
     },
     partners: {
-        header:'Our Partners',
+        header:'Partners',
         mainCTAUrl:CTAs.parntersAction,
-        mainCTALabel:'Become partner',
+        mainCTALabel:'Become a partner',
         partnerList: Partners
     },
     press : {
