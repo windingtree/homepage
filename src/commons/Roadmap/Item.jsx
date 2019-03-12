@@ -35,7 +35,8 @@ const Item = (props: PropsType) => {
         : (
           <LinkContainer to={href}>
             <Button variant={buttonVariant} outlined={!isMainButton} size="sm">{buttonLabel}</Button>
-          </LinkContainer>))}
+          </LinkContainer>
+        ))}
     </>
   );
 };

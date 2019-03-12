@@ -23,18 +23,18 @@ class VideoCardSimple extends React.Component<*, StateType> {
       const { videoItem } = this.props;
       const { showModal } = this.state;
       return (
-            <>
-              <VideoModal show={showModal} videoSrc={videoItem.videoSrc} onHide={this.hideModal} title="About Hackathon" />
-              <Card className="text-center card-video shadow mx-lg-2 my-lg-2">
+        <>
+          <VideoModal show={showModal} videoSrc={videoItem.videoSrc} onHide={this.hideModal} title="About Hackathon" />
+          <Card className="text-center card-video shadow mx-lg-2 my-lg-2">
 
-                <button type="button" className="card-img-top rounded" onClick={this.hanldeOnClick}>
-                  <div className="img-crop rounded" style={{ background: `url(${videoItem.thumbnail})`, paddingBottom: '55%' }}>
-                    <img src={videoItem.thumbnail} className="img-fluid w-100" alt="" />
-                  </div>
-                </button>
+            <button type="button" className="card-img-top rounded" onClick={this.hanldeOnClick}>
+              <div className="img-crop rounded" style={{ background: `url(${videoItem.thumbnail})`, paddingBottom: '55%' }}>
+                <img src={videoItem.thumbnail} className="img-fluid w-100" alt="" />
+              </div>
+            </button>
 
-              </Card>
-            </>
+          </Card>
+        </>
       );
     }
 }

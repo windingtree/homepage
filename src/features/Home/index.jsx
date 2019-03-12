@@ -11,7 +11,7 @@ import CustomHelmet from 'commons/CustomHelmet';
 import PartnersAndContributors from 'commons/PartnersAndContributors';
 import Slicks from 'commons/Slick';
 import InThePress from 'commons/InThePress';
-import Features from 'commons/Features';
+import VerticalTabs from 'commons/VerticalTabs';
 import MainPageHeroBanner from 'commons/MainPageHeroBanner';
 import data from 'DATA/features/Home';
 
@@ -20,17 +20,17 @@ const Home = () => (
   <main id="app-content">
     <CustomHelmet {...metadata.home} />
     <MainPageHeroBanner data={data.hero} />
-    <Features id="features" data={data.features} />
+    <VerticalTabs id="features" data={data.features} />
     <HowItWorks id="howitworks" data={data.howItWorks} />
     <PartnersAndContributors id="partners" data={data.partners}>
       <Slicks />
     </PartnersAndContributors>
     <InThePress id="press" data={data.press} />
-    <Banner variant="designedFor" icons id="opensource" />
-    <VideoGallery id="video" />
-    <Events id="events" />
+    <Banner id="opensource" data={data.communityBanner} />
+    <VideoGallery id="video" data={data.videoGallery} />
+    <Events id="events" data={data.events} />
     <SuscribeForUpdates id="subscribe" />
-    <ReadyToUse id="ready" />
+    <ReadyToUse id="ready" data={data.readyToUse} />
   </main>
 );
 

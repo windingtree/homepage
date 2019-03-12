@@ -39,7 +39,8 @@ class Hero extends React.Component<PropsType, StateType> {
           videoSrc={heroData.videoSrc}
           onHide={this.hideModal}
           title={heroData.title}
-        />)}
+        />
+        )}
         <Container>
           <Row className="align-items-center flex-column flex-md-row-reverse justify-content-md-between" flex>
 

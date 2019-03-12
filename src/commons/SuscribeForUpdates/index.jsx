@@ -22,7 +22,8 @@ const SuscribeForUpdates = (props: *) => {
           </div>
         </div>
       </div>
-    </ScrollableAnchor>);
+    </ScrollableAnchor>
+  );
 };
 
 export default SuscribeForUpdates;

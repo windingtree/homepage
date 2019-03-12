@@ -11,7 +11,8 @@ const Body = (props: PropsType) => {
   return (
     <Col md={12}>
       <h2 className="text-center lead">{children}</h2>
-    </Col>);
+    </Col>
+  );
 };
 
 export default Body;

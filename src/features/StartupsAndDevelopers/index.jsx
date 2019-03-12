@@ -35,7 +35,7 @@ const StartupsAndDevelopers = () => (
       </Container>
     </section>
 
-    <Banner variant="howWeWork" id="opensource" />
+    <Banner id="opensource" data={data.communityBanner} />
 
 
     <article className="section-already-with-us">

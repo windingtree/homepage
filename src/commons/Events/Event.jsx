@@ -17,10 +17,20 @@ const Event = (props: EventType) => {
           <div className="media mb-1 mb-md-0">
             <div className="date-box mr-1" style={{ width: '105px' }}>
               {startDate}
-              {endDate && (<><span className="text-xs">-</span>{endDate}</>)}
+              {endDate && (
+              <>
+                <span className="text-xs">-</span>
+                {endDate}
+              </>
+              )}
               <br />
               {startMonth}
-              {endMonth && (<><span className="text-xs">-</span>{endMonth}</>)}
+              {endMonth && (
+              <>
+                <span className="text-xs">-</span>
+                {endMonth}
+              </>
+              )}
             </div>
             <div className="media-body align-self-center">
               <h5 className="my-0">{name}</h5>
@@ -36,7 +46,8 @@ const Event = (props: EventType) => {
             : (
               <LinkContainer to={buttonHref}>
                 <Button variant="dark" outlined block>{buttonText}</Button>
-              </LinkContainer>))}
+              </LinkContainer>
+            ))}
         </Col>
       </Row>
     </div>

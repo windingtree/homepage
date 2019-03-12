@@ -5,9 +5,10 @@ import {
 } from '@windingtree/wt-ui-react';
 import LearnMoreCards from 'commons/LearnMoreCards';
 import ScrollableAnchor from 'react-scrollable-anchor';
+import CTAs from 'DATA/commons/CTAs';
 
 const ReadyToUse = (props: *) => {
-  const { id } = props;
+  const { id, data } = props;
 
   return (
     <ScrollableAnchor id={id}>
@@ -15,12 +16,12 @@ const ReadyToUse = (props: *) => {
         <Container>
           <Row className="justify-content-md-center text-center">
             <Col md={10}>
-              <h2 className="mb-1 text-white">Ready to use Winding Tree?</h2>
+              <h2 className="mb-1 text-white">{data.header}</h2>
               <p className="mb-1 mb-md-2 text-white">
-                  Learn our API on Github or apply for integration and we will get back to you
+                {data.text}
               </p>
-              <Button variant="light" outlined href="https://goo.gl/o7WP6R" target="_blank">
-                    Apply for integration
+              <Button variant="light" outlined href={data.ctaButtonUrl} target="_blank">
+                {data.ctaButtonLabel}
               </Button>
             </Col>
           </Row>
@@ -29,7 +30,18 @@ const ReadyToUse = (props: *) => {
           </div>
         </Container>
       </section>
-    </ScrollableAnchor>);
+    </ScrollableAnchor>
+  );
+};
+
+ReadyToUse.defaultProps = {
+  id: 'ready',
+  data: {
+    header: 'Ready To Use Winding Tree',
+    text: 'Learn our API or apply for integration and we will get back to you',
+    ctaButtonUrl: CTAs.parntersAction,
+    ctaButtonLabel: 'Apply For Integration',
+  },
 };
 
 export default ReadyToUse;

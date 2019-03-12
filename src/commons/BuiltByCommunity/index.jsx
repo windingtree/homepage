@@ -23,26 +23,25 @@ const BuiltByCommunity = (props: *) => {
           <Col xs={11} sm={12} md={10} lg={8}>
             <div className="card-deck">
               {projects.map((project, index) => (
-                      <>
-                        <Tile
-                          imgSrc={project.imgSrc}
-                          imgWidth={project.imgWidth}
-                          title={project.title}
-                          text={project.text}
-                          href={project.href}
-                        />
-                        {((index % 2 !== 0) && (index < projectList.length - 1))
-                          ? <div className="d-none d-sm-block w-100 mb-2" />
-                          : null
+                <>
+                  <Tile
+                    imgSrc={project.imgSrc}
+                    imgWidth={project.imgWidth}
+                    title={project.title}
+                    text={project.text}
+                    href={project.href}
+                  />
+                  {((index % 2 !== 0) && (index < projectList.length - 1))
+                    ? <div className="d-none d-sm-block w-100 mb-2" />
+                    : null
                         }
-                      </>
+                </>
               ))
                   }
             </div>
           </Col>
         </Row>
       </Container>
-
     </ScrollableAnchor>
   );
 };

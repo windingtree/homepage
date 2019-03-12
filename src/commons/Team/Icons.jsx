@@ -17,13 +17,15 @@ const Icons = ({ icons }: PropsType) => {
           <a href={github} title="GitHub" className="text-muted text-alpha" target="_blank" rel="noopener noreferrer">
             <i className="mdi mdi-24px mdi-github-circle" />
           </a>
-        </li>)}
+        </li>
+      )}
       {twitter && (
         <li className="list-inline-item">
           <a href={twitter} title="Twitter" className="text-muted text-alpha" target="_blank" rel="noopener noreferrer">
             <i className="mdi mdi-24px mdi-twitter" />
           </a>
-        </li>)}
+        </li>
+      )}
       {linkedin && (
         <li className="list-inline-item">
           <a href={linkedin} title="LinkedIn" className="text-muted text-alpha" target="_blank" rel="noopener noreferrer">
@@ -36,25 +38,29 @@ const Icons = ({ icons }: PropsType) => {
           <a href={link} title="Link" className="text-muted text-alpha" target="_blank" rel="noopener noreferrer">
             <i className="mdi mdi-24px mdi-link-variant" />
           </a>
-        </li>)}
+        </li>
+      )}
       {facebook && (
         <li className="list-inline-item">
           <a href={facebook} title="Facebook" className="text-muted text-alpha" target="_blank" rel="noopener noreferrer">
             <i className="mdi mdi-24px mdi-facebook" />
           </a>
-        </li>)}
+        </li>
+      )}
       {vk && (
         <li className="list-inline-item">
           <a href={vk} title="VK" className="text-muted text-alpha" target="_blank" rel="noopener noreferrer">
             <i className="mdi mdi-24px mdi-vk" />
           </a>
-        </li>)}
+        </li>
+      )}
       {bitBucket && (
         <li className="list-inline-item">
           <a href={bitBucket} title="Bitbucket" className="text-muted text-alpha" target="_blank" rel="noopener noreferrer">
             <i className="mdi mdi-24px mdi-bitbucket" />
           </a>
-        </li>)}
+        </li>
+      )}
     </ul>
   );
 };

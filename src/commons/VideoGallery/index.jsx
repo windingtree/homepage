@@ -4,14 +4,11 @@ import {
   Row, Col, Container,
 } from '@windingtree/wt-ui-react';
 import ScrollableAnchor from 'react-scrollable-anchor';
+import defaultVideoGalleryItems from 'DATA/commons/VideoGallery';
 import Gallery from './Gallery';
 
-type PropsType = {
-  id: string
-};
-
-const VideoGallery = (props: PropsType) => {
-  const { id } = props;
+const VideoGallery = (props: *) => {
+  const { id, data } = props;
 
   return (
     <ScrollableAnchor id={id}>
@@ -20,18 +17,27 @@ const VideoGallery = (props: PropsType) => {
         <Container>
 
           <header className="mb-2 mb-md-4 text-center">
-            <h2>Video gallery</h2>
+            <h2>{data.header}</h2>
           </header>
 
           <Row className="justify-content-center">
             <Col md={12} lg={10} className="col-10">
-              <Gallery />
+              <Gallery sections={data.items} />
             </Col>
           </Row>
 
         </Container>
       </article>
-    </ScrollableAnchor>);
+    </ScrollableAnchor>
+  );
+};
+
+VideoGallery.defaultProps = {
+  id: 'video-gallery',
+  data: {
+    header: 'Video Gallery',
+    items: defaultVideoGalleryItems,
+  },
 };
 
 export default VideoGallery;
