@@ -1,0 +1,29 @@
+
+<svg width="292px" height="265px" viewBox="0 0 292 265" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="16.2068794%" y1="37.6872348%" x2="116.106846%" y2="82.5315679%" id="linearGradient-1">
+            <stop stop-color="#AF94C3" offset="0%"></stop>
+            <stop stop-color="#8CF4D3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="21.6412234%" y1="37.6872348%" x2="105.476062%" y2="82.5315679%" id="linearGradient-2">
+            <stop stop-color="#AF94C3" offset="0%"></stop>
+            <stop stop-color="#8CF4D3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="16.2034841%" y1="37.6872348%" x2="116.113488%" y2="82.5315679%" id="linearGradient-3">
+            <stop stop-color="#AF94C3" offset="0%"></stop>
+            <stop stop-color="#8CF4D3" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-490.000000, -443.000000)">
+            <g id="plane" transform="translate(482.000000, 437.000000)">
+                <polygon id="Triangle" fill="url(#linearGradient-1)" transform="translate(194.133765, 61.293634) rotate(6.000000) translate(-194.133765, -61.293634) " points="194.128173 5.91352085 249.486171 116.673747 138.781358 116.668155"></polygon>
+                <polygon id="Triangle" fill="url(#linearGradient-2)" transform="translate(29.577465, 71.960801) rotate(8.000000) translate(-29.577465, -71.960801) " points="4.22326012 44.269859 54.9316695 99.6517423 16.9031425 99.6491957"></polygon>
+                <g id="palette/accent" transform="translate(156.113272, 150.077777) scale(-1, -1) translate(-156.113272, -150.077777) translate(12.451300, 103.576320)" fill="#634781">
+                    <polygon id="5F2987" points="15.2112676 1.42108547e-14 287.323944 93.0029155 0 61.7201166"></polygon>
+                </g>
+                <polygon id="Triangle" fill="url(#linearGradient-3)" transform="translate(156.290977, 218.932148) scale(1, -1) rotate(-20.000000) translate(-156.290977, -218.932148) " points="156.308266 163.551963 211.646236 274.295044 100.935718 274.312333"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -36,6 +36,21 @@ const SellersPage = {
       },
     ]
   },
+  solutions: {
+      header: 'Solutions',
+      items: [
+        {
+            title: 'Online and Offline Travel Agency',
+            text: 'If you sell travel as an agency, through your site or would like to add booking of travel to your app, you can integrate with Winding Tree and access suppliers directly through our API without any commission fees or mediation by Winding Tree.',
+            imgSrc: require('./img/map.svg'),   
+            primaryButtonLabel: 'Developer Portal',
+            primaryButtonUrl: 'https://developers.windingtree.com/',
+            secondaryButtonLabel:'Use Cases',
+            secondaryButtonUrl:'#usecases'
+        }
+
+      ]
+  }
 }
 
 export default SellersPage;
