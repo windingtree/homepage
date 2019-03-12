@@ -16,8 +16,8 @@ const Sellers = () => (
     <PageHero data={data.hero} />
     <BenefitsSection id="benefits" data={data.keyBenefitsDescriptions} />
     <HowItWorks id="howitworks" />
-    <SolutionsSection id="sellers" data={data.solutions}>
-      <PartnersAndContributors id="usecases" />
+    <SolutionsSection id="solutions" data={data.solutions}>
+      <PartnersAndContributors id="usecases" data={data.partners} />
     </SolutionsSection>
     <SuscribeForUpdates id="subscribe" />
     <ReadyToUse id="ready" />

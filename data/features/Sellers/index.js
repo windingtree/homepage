@@ -1,5 +1,7 @@
 /* eslint-disable global-require */
 import CTAs from 'DATA/commons/CTAs'
+import Partners from 'DATA/commons/PartnersAndContributors';
+
 
 const SellersPage = {
   hero: {
@@ -50,7 +52,13 @@ const SellersPage = {
         }
 
       ]
-  }
+  },
+  partners: {
+            header:'Use Cases',
+            mainCTAUrl:CTAs.parntersAction,
+            mainCTALabel:'Join Platform',
+            partnerList: Partners
+  },
 }
 
 export default SellersPage;
