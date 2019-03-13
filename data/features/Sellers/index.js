@@ -7,11 +7,11 @@ const SellersPage = {
   hero: {
     title: 'An entry point to travel inventory',
     text: 'An open-source technology that gives sellers a commission-free access to thousands of hotels, airlines, cruises and other travel services worldwide.',
-    primaryButtonHref: 'https://goo.gl/o7WP6R',
+    primaryButtonHref: CTAs.parntersAction,
     primaryButtonLabel: 'Apply for integration',
     SecondaryButtonLabel: 'Watch Video',
     imgSrc: require('./img/sellers-hero.svg'),
-    videoSrc: '_qer1qd68eQ',
+    videoSrc: CTAs.ctaWatchVideoMain,
   },
   keyBenefitsDescriptions : {
     header: 'Key Benefits',
@@ -46,7 +46,7 @@ const SellersPage = {
             text: 'If you sell travel as an agency, through your site or would like to add booking of travel to your app, you can integrate with Winding Tree and access suppliers directly through our API without any commission fees or mediation by Winding Tree.',
             imgSrc: require('./img/map.svg'),   
             primaryButtonLabel: 'Developer Portal',
-            primaryButtonUrl: 'https://developers.windingtree.com/',
+            primaryButtonUrl: CTAs.devPortal,
             secondaryButtonLabel:'Use Cases',
             secondaryButtonUrl:'#usecases'
         }

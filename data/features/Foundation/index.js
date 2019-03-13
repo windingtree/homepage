@@ -18,7 +18,7 @@ const FoundationPage = {
             },
             {
                 title: 'Data Exchange Standars for Travel',
-                href: 'https://github.com/windingtree/',
+                href: CTAs.devPortal,
                 imgSrc: require('./img/medal.svg'),
             },
             {

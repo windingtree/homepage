@@ -20,7 +20,7 @@ const ReadyToUse = (props: *) => {
               <p className="mb-1 mb-md-2 text-white">
                 {data.text}
               </p>
-              <Button variant="light" outlined href={data.ctaButtonUrl} target="_blank">
+              <Button variant="light" outlined href={data.ctaButtonUrl} target="_blank" rel="nofollow noopener">
                 {data.ctaButtonLabel}
               </Button>
             </Col>

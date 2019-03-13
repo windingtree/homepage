@@ -7,11 +7,11 @@ const SuppliersPage = {
   hero: {
     title: 'New profitable distribution channel',
     text: 'Deliver your inventory to sellers with new open-source and commission-free channel',
-    primaryButtonHref: 'https://goo.gl/o7WP6R',
+    primaryButtonHref: CTAs.parntersAction,
     primaryButtonLabel: 'Apply for integration',
     SecondaryButtonLabel: 'Watch Video',
     imgSrc: require('./img/suppliers-hero.svg'),
-    videoSrc: '_qer1qd68eQ',
+    videoSrc: CTAs.ctaWatchVideoMain,
   },
   keyBenefitsDescriptions : {
     header: 'Key Benefits',
@@ -60,7 +60,7 @@ const SuppliersPage = {
             text: 'Join roundtables, discussions and contribute development to Platform development for your business needs',
             imgSrc: require('./img/map.svg'),
             secondaryButtonLabel:'Developer Portal',
-            secondaryButtonUrl:'https://developers.windingtree.com/'
+            secondaryButtonUrl:CTAs.devPortal,
         },
       ],
         
