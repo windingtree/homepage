@@ -17,24 +17,24 @@ const SellersPage = {
     header: 'Key Benefits',
     items: [
       {
-        title: "Direct Distribution'",
+        title: "Direct Distribution",
         body: "No intermediaries, Internet itself distributes your inventory P2P'",
-        icon: require('./img/5.svg'),
+        icon: require('./img/direct.svg'),
       },
       {
         title: 'Fast Search Across all Suppliers',
         body: 'Make additional sales by opening you inventory to new sellers and payment methods',
-        icon: require('./img/6.svg'),
+        icon: require('./img/path.svg'),
       },
       {
         title: 'Easy and Free Access',
         body: 'Make additional sales by opening you inventory to new sellers and payment methods',
-        icon: require('./img/7.svg'),
+        icon: require('./img/easy.svg'),
       },
       {
         title: 'New products to sell',
         body: 'Make additional sales by opening you inventory to new sellers and payment methods',
-        icon: require('./img/8.svg'),
+        icon: require('./img/plus.svg'),
       },
     ]
   },

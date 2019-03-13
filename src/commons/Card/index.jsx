@@ -24,7 +24,7 @@ const WTCard = (props: PropType) => {
   return (
     <Card {...linkProps} className="text-center">
       <Card.Header>
-        <Image src={imgSrc} alt={title} fluid style={{ width: imgWidth }} />
+        <Image src={imgSrc} alt={title} fluid style={{ maxHeight: imgWidth }} />
       </Card.Header>
       <Card.Body>
         <Card.Title as="h5">
