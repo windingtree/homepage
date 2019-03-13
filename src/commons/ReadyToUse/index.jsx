@@ -5,7 +5,7 @@ import {
 } from '@windingtree/wt-ui-react';
 import LearnMoreCards from 'commons/LearnMoreCards';
 import ScrollableAnchor from 'react-scrollable-anchor';
-import CTAs from 'DATA/commons/CTAs';
+import defaultData from 'DATA/commons/ReadyToUse';
 
 const ReadyToUse = (props: *) => {
   const { id, data } = props;
@@ -36,12 +36,7 @@ const ReadyToUse = (props: *) => {
 
 ReadyToUse.defaultProps = {
   id: 'ready',
-  data: {
-    header: 'Ready To Use Winding Tree',
-    text: 'Learn our API or apply for integration and we will get back to you',
-    ctaButtonUrl: CTAs.parntersAction,
-    ctaButtonLabel: 'Apply For Integration',
-  },
+  data: defaultData,
 };
 
 export default ReadyToUse;
