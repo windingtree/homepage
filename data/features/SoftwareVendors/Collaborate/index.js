@@ -14,19 +14,22 @@ const pageTexts = {
 
 const cardsData: DataType[] = [
   {
-    title: 'Check Docs',
-    href: 'https://github.com/windingtree/wiki',
+    title: 'Developer Portal',
+    href: 'https://developers.windingtree.com/',
     imgSrc: require('./img/docs.svg'),
+    imgWidth: 80,
   },
   {
     title: 'Go to Suppliers page',
     href: '/suppliers',
     imgSrc: require('./img/plane.svg'),
+    imgWidth: 80,
   },
   {
     title: 'Go to Sellers page',
     href: '/sellers',
     imgSrc: require('./img/ota.svg'),
+    imgWidth: 80,
   },
 ];
 
