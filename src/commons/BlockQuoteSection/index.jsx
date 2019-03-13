@@ -3,24 +3,32 @@ import React from 'react';
 import {
   Container, Row, Col,
 } from '@windingtree/wt-ui-react';
-import quote from 'DATA/commons/BlockQuoteSection/BlockQuote';
-import Blockquote from './BlockQuote';
+import Blockquote from 'commons/BlockQuote';
 
-const BlockQuoteSection = () => (
-  <>
-    <Container>
-      <Row className="justify-content-center">
-        <Col md={8}>
-          <Blockquote
-            body={quote.body}
-            name={quote.name}
-            role={quote.role}
-            img={quote.img}
-          />
-        </Col>
-      </Row>
-    </Container>
-  </>
-);
+const BlockQuoteSection = (props: *) => {
+  const { data } = props;
+  return (
+    <section className="app-section section-quote">
+      <Container>
+        <Row className="justify-content-md-center">
+          <Col md={10}>
+            <Container>
+              <Row className="justify-content-center">
+                <Col md={8}>
+                  <Blockquote
+                    body={data.body}
+                    name={data.name}
+                    role={data.role}
+                    img={data.img}
+                  />
+                </Col>
+              </Row>
+            </Container>
+          </Col>
+        </Row>
+      </Container>
+    </section>
+  );
+};
 
 export default BlockQuoteSection;

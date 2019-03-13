@@ -100,7 +100,7 @@ class WTNavbar extends Component<*, StateType> {
                         Roadmap
                   </Nav.Dropdown.Item>
 
-                  <Nav.Dropdown.Item href="https://blog.windingtree.com" target="__blank" onClick={this.toggle}>Blog</Nav.Dropdown.Item>
+                  <Nav.Dropdown.Item href="https://blog.windingtree.com" target="__blank" rel="noopener noreferrer" onClick={this.toggle}>Blog</Nav.Dropdown.Item>
                 </Nav.Dropdown>
                 <Nav.Item>
                   <LinkContainer to="/startups-and-developers">
