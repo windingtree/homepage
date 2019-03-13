@@ -34,7 +34,7 @@ const mainPage = {
             text: 'Winding Tree provides set of open source REST APIs for whole distribution workflow. Anyone can deploy them in own infrastructure and get access to the infrastructure.',
             imgSrc: require('./img/easy.svg'),
             link: {
-              href: 'https://github.com/windingtree/',
+              href: CTAs.devPortal,
               text: 'Check API & docs',
             },
           },

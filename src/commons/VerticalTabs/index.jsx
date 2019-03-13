@@ -47,7 +47,7 @@ const VerticalTabs = (props: *) => {
                               {
                                     link && (
                                       <footer className="mt-1">
-                                        <a href={link.href} className="border-bottom">
+                                        <a href={link.href} className="border-bottom" target="_blank" rel="noopener noreferrer">
                                           {link.text}
                                         </a>
                                       </footer>

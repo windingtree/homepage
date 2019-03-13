@@ -1,12 +1,10 @@
 /* @flow */
 import React from 'react';
-import {
-  Container, Row, Col,
-} from '@windingtree/wt-ui-react';
+
 import Contributors from 'commons/Contributors';
 import PartnersAndContributors from 'commons/PartnersAndContributors';
 import Events from 'commons/Events';
-import Hero from 'commons/Hero';
+import PageHero from 'commons/PageHero';
 import Banner from 'commons/Banner';
 import SuscribeForUpdates from 'commons/SuscribeForUpdates';
 import ReadyToUse from 'commons/ReadyToUse';
@@ -24,31 +22,14 @@ configureAnchors({ offset: -100, scrollDuration: 400 });
 const StartupsAndDevelopers = () => (
   <div id="app-content">
     <CustomHelmet {...metadata.community} />
-    <Hero variant="startupsAndDevelopers" icons />
-    <section className="app-section section-quote">
-      <Container>
-        <Row className="justify-content-md-center">
-          <Col md={10}>
-            <BlockQuoteSection />
-          </Col>
-        </Row>
-      </Container>
-    </section>
-
+    <PageHero data={data.hero} />
+    <BlockQuoteSection data={data.quote} />
     <Banner id="opensource" data={data.communityBanner} />
-
-
-    <article className="section-already-with-us">
-
-      <PartnersAndContributors id="partners" data={data.partners} />
-
-      <Contributors id="contributors" data={data.contributors} />
-
-      <BuiltByCommunity id="builtbycommunity" />
-      <Events id="events" />
-      <VideoGallery id="video" />
-
-    </article>
+    <PartnersAndContributors id="partners" data={data.partners} />
+    <Contributors id="contributors" data={data.contributors} />
+    <BuiltByCommunity id="builtbycommunity" data={data.communityProjects} />
+    <Events id="events" />
+    <VideoGallery id="video" />
     <SuscribeForUpdates id="subscribe" />
     <ReadyToUse id="ready" />
   </div>

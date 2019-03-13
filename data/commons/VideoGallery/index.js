@@ -25,7 +25,7 @@ const sections: SectionType[] = [
     name: 'Events',
     href: 'https://www.youtube.com/playlist?list=PLeOExaF4RI3hZMSYLiRQP_g6tOdbUijfd',
     imgSrc: require('./img/events.jpg'),
-    videoSrc: 'LHjwNqvLTak',
+    videoSrc: '09xe4IX1mrc',
   },
   {
     name: 'Partners',

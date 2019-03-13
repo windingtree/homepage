@@ -22,13 +22,9 @@ const Banner = (props: *) => {
             </Col>
             <Col lg={4} className="text-center">
               <i className={`mdi mdi-xxl ${data.mdiIcon} text-white d-none d-lg-inline`} />
-              { (data.href.startsWith('http')
-                ? (<Button outlined variant="light" className="mt-0 mt-lg-1" href={data.href}>{data.buttonLabel}</Button>)
-                : (
-
-                  <Button outlined variant="light" className="mt-0 mt-lg-1" href={data.href}>{data.buttonLabel}</Button>
-
-                ))}
+              { data.href
+                ? (<Button outlined variant="light" className="mt-1 mt-lg-2 " href={data.href}>{data.buttonLabel}</Button>)
+                : '' }
             </Col>
           </Row>
         </Container>

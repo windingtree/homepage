@@ -9,20 +9,20 @@ import ScrollableAnchor from 'react-scrollable-anchor';
 
 
 const BuiltByCommunity = (props: *) => {
-  const { id, header, projects } = props;
+  const { id, data } = props;
 
   return (
     <ScrollableAnchor id={id}>
 
       <Container className="app-section section-community border-top border-bottom border-light">
         <header className="mb-2 mb-md-4 text-center">
-          <h2>{header}</h2>
+          <h2>{data.header}</h2>
         </header>
 
         <Row className="justify-content-center">
           <Col xs={11} sm={12} md={10} lg={8}>
             <div className="card-deck">
-              {projects.map((project, index) => (
+              {data.projects.map((project, index) => (
                 <>
                   <Tile
                     imgSrc={project.imgSrc}
