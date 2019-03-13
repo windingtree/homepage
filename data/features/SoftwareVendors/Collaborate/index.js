@@ -21,12 +21,12 @@ const cardsData: DataType[] = [
   {
     title: 'Go to Suppliers page',
     href: '/suppliers',
-    imgSrc: require('./img/suppliers.svg'),
+    imgSrc: require('./img/plane.svg'),
   },
   {
     title: 'Go to Sellers page',
     href: '/sellers',
-    imgSrc: require('./img/sellers.svg'),
+    imgSrc: require('./img/ota.svg'),
   },
 ];
 
