@@ -458,10 +458,15 @@ html {
 // HERO
 .hero-homepage {
   background-color: $accent;
-  background: #3553a5 url('/assets/img/banners/hero-bg-opt.jpg') 50% 0;
+  background: #3553a5 url('/assets/img/banners/hero-bkg.jpg') 50% 0;
   background-size: auto 105%;
 
+  @media all and (max-width: 990px) {
+    background: #3553a5 url('/assets/img/banners/hero-bg-opt-sm.jpg') 50% 0;
+  }
+
   @media (min-width: 768px) {
+    
     border-bottom-left-radius: 100% 5%;
     border-bottom-right-radius: 100% 5%;
   }
@@ -585,7 +590,7 @@ html {
 }
 
 .hero-lisbon {
-  background: #3553a5 url('/assets/img/banners/hacktravellisbon.jpg') 50% 0;
+  background: #3553a5 url('/assets/img/banners/hacktravel-bg.jpg') 50% 0;
 }
 
 .section-hero-cards {
