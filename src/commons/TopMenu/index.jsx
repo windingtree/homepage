@@ -15,11 +15,9 @@ type StateType = {
 };
 
 class WTNavbar extends Component<*, StateType> {
-
-
   state = {
-      isOpen: false,
-    };
+    isOpen: false,
+  };
 
   componentDidMount() {
     document.addEventListener('mousedown', this.handleOutsideClick);
