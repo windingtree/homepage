@@ -17,7 +17,6 @@ type StateType = {
 class WTNavbar extends Component<*, StateType> {
   constructor(props) {
     super(props);
-    this.toggle = this.toggle.bind(this);
     this.state = {
       isOpen: false,
     };
@@ -41,7 +40,7 @@ class WTNavbar extends Component<*, StateType> {
     }
   }
 
-  toggle() {
+  toggle =() => {
     this.setState(({ isOpen }) => ({ isOpen: !isOpen }));
   }
 
