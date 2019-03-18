@@ -15,9 +15,6 @@ import BuiltByCommunity from 'commons/BuiltByCommunity';
 import BlockQuoteSection from 'commons/BlockQuoteSection';
 import data from 'DATA/features/StartupsAndDevelopers';
 
-import { configureAnchors } from 'react-scrollable-anchor';
-
-configureAnchors({ offset: -100, scrollDuration: 400 });
 
 const StartupsAndDevelopers = () => (
   <div id="app-content">

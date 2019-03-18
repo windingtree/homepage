@@ -57,22 +57,25 @@ class Contributors extends React.Component<*, StateType> {
               className="devs-marquee"
               arrows={false}
             >
+
               {
-          contributors.map((contributor) => {
-            const ignoreContrib = contributosToIgnore.find(
-              contribitorId => contribitorId === contributor.contribitorId,
-            );
-            if (ignoreContrib) return null;
-            return (
-              <DevImage
-                key={contributor.contribitorId}
-                img={contributor.avatar_url}
-                name={contributor.login}
-              />
-            );
-          })
-        }
+                contributors.map((contributor) => {
+                  const ignoreContrib = contributosToIgnore.find(
+                    contribitorId => contribitorId === contributor.contribitorId,
+                  );
+                  if (ignoreContrib) return null;
+                  return (
+                    <DevImage
+                      key={contributor.contribitorId}
+                      img={contributor.avatar_url}
+                      name={contributor.login}
+                    />
+                  );
+                })
+              }
+
             </Slick>
+
             {data.mainCTAUrl
                     && (
                     <Container className="pt-2">

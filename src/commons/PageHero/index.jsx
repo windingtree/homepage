@@ -37,7 +37,7 @@ class PageHero extends React.Component<*, StateType> {
           />
         )}
         <Container>
-          <Row className="align-items-center flex-column flex-md-row-reverse justify-content-md-between" flex>
+          <Row className="align-items-center flex-column flex-md-row-reverse justify-content-md-between" flex="true">
 
             <Col md={4} className="text-center text-md-right">
               <Image fluid src={data.imgSrc} className="mb-1 mb-md-0 hero-icon" />
