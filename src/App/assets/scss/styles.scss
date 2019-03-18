@@ -368,11 +368,11 @@ html {
 
   &.navbar-light {
     &.navbar-nav--animated-btn:not(.is-open) #navbar-btn {
-      width: 150px;
+      //width: 150px;
       transition: all 0.3s ease-out;
 
       .btn {
-        width: 150px;
+        //width: 150px;
         transition: all 0.4s ease-out;
       }
     }

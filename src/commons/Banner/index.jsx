@@ -14,7 +14,7 @@ const Banner = (props: *) => {
 
       <article className="app-section section-banner bg-grad">
         <Container>
-          <Row className="align-items-center" flex>
+          <Row className="align-items-center">
             <Col lg={8} className="text-center text-lg-left">
               <h2 className="text-white">{data.title}</h2>
               <p className="mb-1 lead text-white text-sm-lg">{data.text}</p>

@@ -5,7 +5,7 @@ import Foundation from 'features/Foundation';
 import Sellers from 'features/Sellers';
 import Suppliers from 'features/Suppliers';
 import SoftwareVendors from 'features/SoftwareVendors';
-import Main from 'commons/MainTemplate';
+import MainTemplate from 'commons/MainTemplate';
 import Community from 'features/StartupsAndDevelopers';
 import Page404 from 'features/Page404';
 import HacktravelLisbon2019 from 'features/HacktravelLisbon2019';
@@ -13,7 +13,7 @@ import ScrollHandler from './ScrollHandler';
 
 const Routes = () => (
   <ScrollHandler>
-    <Main>
+    <MainTemplate>
       <Switch>
         <Route path={['/foundation', '/foundation.html']} component={Foundation} />
         <Route path={['/suppliers', '/suppliers.html']} component={Suppliers} />
@@ -24,7 +24,7 @@ const Routes = () => (
         <Route path="/" exact component={Home} />
         <Route component={Page404} />
       </Switch>
-    </Main>
+    </MainTemplate>
   </ScrollHandler>
 );
 
