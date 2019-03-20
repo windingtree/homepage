@@ -5,7 +5,7 @@ import Foundation from 'features/Foundation';
 import Sellers from 'features/Sellers';
 import Suppliers from 'features/Suppliers';
 import SoftwareVendors from 'features/SoftwareVendors';
-import MainTemplate from 'commons/MainTemplate';
+import MainTemplate from 'features/MainTemplate';
 import Community from 'features/StartupsAndDevelopers';
 import Page404 from 'features/Page404';
 import HacktravelLisbon2019 from 'features/HacktravelLisbon2019';
