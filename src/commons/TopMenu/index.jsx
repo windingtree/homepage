@@ -7,8 +7,6 @@ import {
 } from '@windingtree/wt-ui-react';
 import classNames from 'classnames';
 
-import menuData from 'DATA/commons/TopMenu';
-
 
 type StateType = {
   isOpen: boolean
@@ -48,6 +46,8 @@ class WTNavbar extends Component<*, StateType> {
         'is-open': isOpen,
       },
     );
+    const { data } = this.props;
+    const menuData = data;
     return (
       // $FlowFixMe
       <header id="app-header" className="header-sticky" ref={(node) => { this.refHeader = node; }}>
