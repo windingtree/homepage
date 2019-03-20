@@ -7,7 +7,7 @@ import {
 } from '@windingtree/wt-ui-react';
 import classNames from 'classnames';
 
-import menuData from 'DATA/commons/MainMenu';
+import menuData from 'DATA/commons/TopMenu';
 
 
 type StateType = {
