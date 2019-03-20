@@ -1,7 +1,5 @@
 /* @flow */
 import React from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
-import { LinkContainer } from 'react-router-bootstrap';
 
 const Column = (props: *) => {
   const { data } = props;
@@ -12,26 +10,23 @@ const Column = (props: *) => {
         <dd>
           <nav className="nav flex-column small">
             {data.links.map(item => (
-                
-                item.href !== undefined ?
-                    (
-                        item.href.startsWith('http') ?
-                            (
-                                <a href={item.href} target="_blank" rel="noopener noreferrer" className="nav-link footer-link px-0 text-white text--alpha-inverse">{item.text}</a>
-                            )
-                            :
-                            (<a href={item.href} className="nav-link footer-link px-0 text-white text--alpha-inverse">{item.text}</a>
-                            )
 
-
-
-                    ) 
-                    : 
-                    (
-                        <a className="nav-link px-0 text-white text--alpha-inverse">{item.text}</a>
+              item.href !== undefined
+                ? (
+                  item.href.startsWith('http')
+                    ? (
+                      <a href={item.href} target="_blank" rel="noopener noreferrer" className="nav-link footer-link px-0 text-white text--alpha-inverse">{item.text}</a>
                     )
-                
-              
+                    : (<a href={item.href} className="nav-link footer-link px-0 text-white text--alpha-inverse">{item.text}</a>
+                    )
+
+
+                )
+                : (
+                  <p className="nav-link px-0 text-white text--alpha-inverse">{item.text}</p>
+                )
+
+
             ))}
 
           </nav>

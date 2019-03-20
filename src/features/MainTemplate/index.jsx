@@ -15,7 +15,7 @@ type PropsType = {
 const MainTemplate = ({ children }: PropsType) => (
   <div>
     <CustomHelmet {...metadata.default} />
-    <TopMenu data={menuData}/>
+    <TopMenu data={menuData} />
     <Gdpr />
     {children}
     <Footer data={footerData} />

@@ -46,7 +46,8 @@ class WTNavbar extends Component<*, StateType> {
         'is-open': isOpen,
       },
     );
-    const menuData = this.props.data
+    const { data } = this.props;
+    const menuData = data;
     return (
       // $FlowFixMe
       <header id="app-header" className="header-sticky" ref={(node) => { this.refHeader = node; }}>
