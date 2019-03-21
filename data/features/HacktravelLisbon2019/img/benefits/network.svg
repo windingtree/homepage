@@ -1,0 +1,32 @@
+
+<svg width="200px" height="209px" viewBox="0 0 200 209" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="19.0236405%" y1="37.6872348%" x2="110.596636%" y2="82.5315679%" id="linearGradient-1">
+            <stop stop-color="#AF94C3" offset="0%"></stop>
+            <stop stop-color="#8CF4D3" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-29.000000, -293.000000)">
+            <g id="network" transform="translate(29.000000, 293.000000)">
+                <polygon id="Path" fill="url(#linearGradient-1)" points="17.8009037 62.4724196 93.1124196 0 183.486239 62.4724196 200 166.088542 93.1124196 209 0 154.850826"></polygon>
+                <g id="Group" transform="translate(94.500000, 104.500000) scale(-1, 1) rotate(180.000000) translate(-94.500000, -104.500000) translate(30.000000, 32.000000)">
+                    <path d="M23.8321047,25.0040159 L56.3953985,45.885064 M98.8945433,36.6402232 L119.70582,58.7169547 M99.0912586,37.9227246 L84.6706425,62.7037117 M21.4404602,26.2899556 L7.01984409,85.972688 M7,84.6833099 L30.5195641,72.8313467 M30.2995535,71.7585841 L55.1046696,48.260958 M53.594793,49.7789858 L74.4095209,7 M56.21939,46.9810354 L65.4218724,88.5540229 M67.8670098,90.9410915 L67.8670098,135 M65.4581094,88.3468628 L34.1820934,113.12785 M54.8863846,44.5870901 L97.8151972,37.9373376 M100.182684,38.123008 L121,23.807473 M66.5460834,89.6396793 L101.685658,95.0267009" id="Shape" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="square"></path>
+                    <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="35" cy="112" r="13"></circle>
+                    <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="103" cy="95" r="13"></circle>
+                    <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="6.5" cy="86.5" r="6.5"></circle>
+                    <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="65.5" cy="89.5" r="6.5"></circle>
+                    <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="85.5" cy="64.5" r="6.5"></circle>
+                    <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="68.5" cy="138.5" r="6.5"></circle>
+                    <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="119.5" cy="58.5" r="6.5"></circle>
+                    <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="74.5" cy="6.5" r="6.5"></circle>
+                    <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="122.5" cy="23.5" r="6.5"></circle>
+                    <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="57" cy="45" r="13"></circle>
+                    <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="98.5" cy="38.5" r="6.5"></circle>
+                    <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="23.5" cy="25.5" r="6.5"></circle>
+                    <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="29.5" cy="72.5" r="6.5"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

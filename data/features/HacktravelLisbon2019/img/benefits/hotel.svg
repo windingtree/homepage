@@ -1,0 +1,24 @@
+
+<svg width="300px" height="259px" viewBox="0 0 300 259" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="47.6281664%" y1="37.6872348%" x2="54.6398331%" y2="82.5315679%" id="linearGradient-1">
+            <stop stop-color="#AF94C3" offset="0%"></stop>
+            <stop stop-color="#8CF4D3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="16.173041%" y1="37.7332692%" x2="116.173041%" y2="82.4099404%" id="linearGradient-2">
+            <stop stop-color="#AF94C3" offset="0%"></stop>
+            <stop stop-color="#8CF4D3" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-120.000000, -438.000000)">
+            <g id="hotel" transform="translate(120.000000, 438.000000)">
+                <path d="M189.719328,-110.042751 L169.569648,39.9572491 L189.719328,189.957249 L110.280672,21.2772278 C110.872119,19.11423 137.35167,-24.6590962 189.719328,-110.042751 Z" id="Rectangle" fill="url(#linearGradient-1)" transform="translate(150.000000, 39.957249) rotate(90.000000) translate(-150.000000, -39.957249) "></path>
+                <polygon id="Rectangle" fill="#634781" points="54.9839228 95.5576239 149.285763 76.3011183 149.285763 162.955393 75.4301848 162.479551"></polygon>
+                <polygon id="Rectangle" fill="#8CF4D3" transform="translate(193.774714, 214.947958) scale(-1, 1) rotate(180.000000) translate(-193.774714, -214.947958) " points="146.623794 190.877327 240.925634 171.620821 240.925634 258.275096 159.676447 258.275096"></polygon>
+                <polygon id="Rectangle" fill="url(#linearGradient-2)" points="158.199357 76.3011183 240.297852 95.5576239 245.016077 162.955393 158.199357 162.955393"></polygon>
+                <polygon id="Rectangle" fill="url(#linearGradient-2)" transform="translate(106.109325, 214.947958) rotate(180.000000) translate(-106.109325, -214.947958) " points="74.3744976 190.877327 149.517685 171.620821 149.517685 258.275096 62.7009646 258.275096"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
