@@ -64,5 +64,6 @@ ______________________
 
 ### Basically you need to edit files only in **/data/features/** to update the content.
 **You can edit *.js files keeping the structure unmodified.**
+
 **Make sure you optimize images before creating a PR**
 ______________________
