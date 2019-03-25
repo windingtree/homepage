@@ -20,6 +20,9 @@ const Foundation = () => (
     <CustomHelmet {...metadata.foundation} />
     <PageHero data={data.hero} />
     <About id="about" data={data.about} />
+
+    <Banner id="lif" data={data.lifsection} />
+
     <Team title="Team" members={members} id="team" data={data.team} />
     <Team title="Advisors" members={advisors} id="advisors" data={data.advisors} />
     <VideoGallery id="video" />
