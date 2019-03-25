@@ -36,6 +36,14 @@ const FoundationPage = {
         header: 'Advisors',
         items: advisors 
     },
+    lifsection: {
+        title: 'Líf Token',
+        text: 'Winding Tree raised 16,278 ETH during ICO in February 2018 from individual and corporate investors. This amount allowed us to generate 24,976,541.45 Lífs, and this is a limit, no more tokens will be generated. We launched Market Validation Mechanism that can buy token back and burn them. Check MVM website to learn more about Market Validation',
+        mdiIcon: 'mdi-leaf',   
+        buttonLabel:'MVM Website',
+        href:'https://mvm.windingtree.com',
+        icons: false
+    },
     servicesBanner : {
         title: 'Consultancy',
         mdiIcon: 'mdi-hexagon-multiple',

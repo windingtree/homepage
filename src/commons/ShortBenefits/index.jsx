@@ -19,7 +19,7 @@ const ShortBenefits = (props: *) => {
 
           {data.map(benefit => (
             <Col sm={12} lg={3} className="text-center mb-2 mb-md-0" key={benefit.header}>
-              <Image src={benefit.imgSrc} alt={benefit.header} fluid width="200" />
+              <Image src={benefit.imgSrc} alt={benefit.header} fluid style={{ width: 'auto', height: 100 }} />
               <h3 className="my-1 mt-md-2 mb-md-1 text-muted">{benefit.header}</h3>
             </Col>
           ))}
