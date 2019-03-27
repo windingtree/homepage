@@ -34,6 +34,16 @@ const events: EventsType = {
       buttonHref: 'https://newbaltichospitality.com/',
       buttonText: 'check event',
     },
+    {
+      startDate: '4-5',
+      startMonth: "Apr'19",
+      name: 'Travel, Transportation and Hospitality Americas Symposium 2019',
+      location: 'New York, USA',
+      imgSrc: require('./img/tcs.png'),
+      text: 'TCS is organizing a Startup Summit where some of our clients and prospects will showcase their digital solutions around block chain, biometrics, augmented reality, and video analytics. Various subject matter experts and business analysts would also be available at the event to share their viewpoints on the emerging digital technologies across these industries.',
+      buttonHref: 'https://www.tcs.com/travel-transportation-hospitality-symposium-americas-2019',
+      buttonText: 'check event',
+    },
   ],
   past: [
     {
