@@ -6,6 +6,10 @@ const mentions = [
     href: 'https://cointelegraph.com/news/swiss-aviation-services-company-launches-blockchain-pilot-for-cargo-handling?utm_source=Telegram&utm_medium=Social',
   },
   {
+    imgSrc: require('./img/cardrates.svg'),
+    href: 'https://www.cardrates.com/news/winding-tree-is-disrupting-the-travel-industry-with-blockchain/',
+  },
+  {
     imgSrc: require('./img/Forbes.png'),
     href: 'https://www.forbes.com/sites/francistapon/2018/02/12/what-winding-trees-ico-and-its-blockchain-based-technology-mean-to-the-travel-industry/#9fd472244dcf',
   },
