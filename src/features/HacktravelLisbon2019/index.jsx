@@ -11,6 +11,7 @@ import AttendeeCardsSection from 'commons/AttendeeCardsSection';
 import VideoGallerySimple from 'commons/VideoGallerySimple';
 import ContactSection from 'commons/ContactSection';
 import DescriptonWithGallery from 'commons/DescriptionWithGallery';
+import NoChallenges from './NoChallenges'
 
 
 const event = Hacktravel;
@@ -23,6 +24,7 @@ const HacktravelLisbon2019 = () => (
     <DescriptonWithGallery data={event.about} photos={event.photos} id="about" />
     <AttendeeCardsSection data={event.attendees} id="register" />
     <AccentedTextSection data={event.sponsors} id="sponsors" />
+    <NoChallenges data={event.nochallenges} id="challenges"/>
     <VideoGallerySimple data={event.videoGallery} id="video" />
     <AccentedTextSection data={event.callToAction} id="ready" />
     <ContactSection data={event.contacts} id="contacts" />

@@ -13,8 +13,8 @@ const ContactSection = (props: *) => {
   return (
     <ScrollableAnchor id={id}>
 
-      <div className="app-section section-about bg-light pb-2">
-        <Container className="py-1">
+      <div className="app-section section-about bg-pink pb-2 pb-md-4">
+        <Container className="">
           <Row className="justify-content-center">
             <Col md={11} lg={8} className="col-12 justify-content-center">
               <h2 className="text-center">

@@ -1,3 +1,4 @@
+import CTAs from 'DATA/commons/CTAs';
 
 const Hacktravel = {
     header : {
@@ -55,7 +56,7 @@ const Hacktravel = {
             {
                 imgSrc:require('./img/benefits/plane.svg'),
                 title:'Airlines \n & Hotels',
-                buttonUrl: "https://windingtree.typeform.com/to/zw5WmH",
+                buttonUrl: CTAs.eventAttendeeAction,
                 buttonLabel: "Apply To Get Early Bird Tickets",
                 buttonStyle: "btn-primary",
                 benefits: ["Learn new technology","Collaborate on solutions","Get complimentary training for your tech team","Solve your own business challenges"],
@@ -65,7 +66,7 @@ const Hacktravel = {
             {
                 imgSrc:require('./img/benefits/git.svg'),
                 title:'Independent Developers\n& Software Companies',
-                buttonUrl: "https://windingtree.typeform.com/to/zw5WmH",
+                buttonUrl: CTAs.eventAttendeeAction,
                 buttonLabel: "Join For Free",
                 buttonStyle: "btn-primary",
                 benefits: ["Form or join a team to hack","Work on proposed challenges","Bring your own hack idea","Experiment","Get mentorship"],
@@ -75,7 +76,7 @@ const Hacktravel = {
             {
                 imgSrc:require('./img/benefits/ota.svg'),
                 title:'Travel Startups\n& OTAs',
-                buttonUrl: "https://windingtree.typeform.com/to/zw5WmH",
+                buttonUrl: CTAs.eventAttendeeAction,
                 buttonLabel: "Join For Free",
                 buttonStyle: "btn-primary",
                 benefits: ["Bring your team to learn and hack","Get training and mentorship","Work on your own idea","Experiment","Connect with industry veterans"],
@@ -87,9 +88,38 @@ const Hacktravel = {
     sponsors : {
         header : 'Contribute as a Sponsor and Get More',
         text : 'Put your organization in the spotlight of innovation and support the community of industry disruptors. We got tons of great sponsor benefits for you - get in touch and we’ll be happy to discuss the many ways you can be part of this event.',
-        buttonUrl: "https://windingtree.typeform.com/to/zw5WmH",
+        buttonUrl: CTAs.eventAttendeeAction,
         buttonLabel: "Check Sponsorship Options",
         buttonStyle: "btn-outline-dark",
+    },
+    nochallenges:{
+        header: "Hackathon Challenges",
+        accentText: 'Hackathon challenges are coming up - we’ll inform all approved participants shortly. Meanwhile, review:',
+        CTAButonLabel: "Propose Own Challenge",
+        CTAButtonUrl: CTAs.eventAttendeeAction,
+        cardsData: [
+            {
+            title: 'Developer Portal',
+            href: CTAs.devPortal,
+            imgSrc: require('./img/benefits/docs.svg'),
+            imgWidth: 80,
+            },
+            {
+            title: 'Previous hackathon challenges',
+            href: 'https://github.com/windingtree/wt-hackathon/issues',
+            imgSrc: require('./img/benefits/path.svg'),
+            imgWidth: 80,
+            },
+            {
+            title: 'Previous hack submissions',
+            href: 'https://blog.windingtree.com/2018-hack-travel-tech-recap-44273d9cc4c3',
+            imgSrc: require('./img/benefits/idea.svg'),
+            imgWidth: 80,
+            },
+        ],
+    },
+    challenges:{
+
     },
     videoGallery : {
         header : "What Our Hackathon Alumni Say",
