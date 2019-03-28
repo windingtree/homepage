@@ -2,3 +2,4 @@ flow-typed
 flow
 webpack
 .storybook
+src/commons/LocationBlock/pigeon-marker

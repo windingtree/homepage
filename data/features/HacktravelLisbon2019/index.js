@@ -142,6 +142,13 @@ const Hacktravel = {
             },
         ]
     },
+    location: {
+        header:'Venue',
+        text:'We’re excited to be hosting Winding Tree hackathon at Lx Factory - a hip, multi-functional creative village hosting over 100 restaurants, shops, offices, event spaces and cafes in Alcantara - up and coming neighborhood of Lisbon, just 15 minutes away from the center.',
+        buttonUrl:'https://lxfactory.com/en/lx-factory/',
+        buttonLabel:'Lx Factory',
+        gps:[38.701977,-9.1805115]
+    },
     contacts : {
         header: 'Questions?',
         text:'Get in touch with us on Telegram, Gitter or feel free to drop our hackathon team a line via email',
