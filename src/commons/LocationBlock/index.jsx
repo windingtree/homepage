@@ -8,7 +8,7 @@ import {
   Button,
 } from '@windingtree/wt-ui-react';
 import ScrollableAnchor from 'react-scrollable-anchor';
-import Marker from './pigeon-marker';
+import Marker from 'pigeon-marker';
 
 const LocationBlock = (props: *) => {
   const { data, id } = props;
