@@ -8,7 +8,7 @@ import {
   Button,
 } from '@windingtree/wt-ui-react';
 import ScrollableAnchor from 'react-scrollable-anchor';
-import Marker from 'pigeon-marker';
+import Marker from './pigeon-marker';
 
 const LocationBlock = (props: *) => {
   const { data, id } = props;
@@ -28,7 +28,7 @@ const LocationBlock = (props: *) => {
           </Col>
           <Col lg={8} className="text-center  pl-lg-4 pr-lg-4">
             <Container className="py-2 py-lg-0 px-lg-4">
-              <h2 className=" pb-2">
+              <h2 className=" pb-1">
                 {data.header}
               </h2>
               <p className="lead display-linebreak text-lg-left">
