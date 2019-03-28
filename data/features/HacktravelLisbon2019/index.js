@@ -1,9 +1,9 @@
 
 const Hacktravel = {
     header : {
-        title: "#Hacktravel On Tour",
-        subtitle:"27-29 May, Lisbon, Portugal",
-        description: "Contribute to moving the travel industry forward. Build open source, decentralized solutions along with airlines, hotels, travel startups and blockchain experts",
+        title: "#HackTravel 2019",
+        subtitle:"July 3-5, Lisbon, Portugal",
+        description: "Build open source, decentralized solutions along with airlines, hotels, travel startups and blockchain experts.",
         imgSrc: require('./img/hacktravellisbon.jpg'),
         mainButtonLabel: "Join Hackathon",
         mainButtonUrl: "#register",
@@ -12,7 +12,9 @@ const Hacktravel = {
     },
     about : {
         header : 'What to Expect',
-        text : '#HackTravel hackathon is a unique opportunity for the most forward thinking travel industry players to come together and collaboratively tackle real world industry pain points.\n \nFollowing the success of our #HackTravel Prague hackathon, this year we’re adding more benefits, content and activities for our community to get the most out of their participation'
+        text : '#HackTravel hackathon is a unique opportunity for the most forward thinking travel industry players to come together and collaboratively tackle real world industry pain points.\n \nFollowing the success of our #HackTravel Prague hackathon, this year we’re adding more benefits, content and activities for our community to get the most out of their participation.',
+        ButtonLabel: "#HackTravel Prague Recap",
+        ButtonUrl: "https://blog.windingtree.com/hacktravel-hackathon-recap-feacb65cc47d",
     },
     photos : [
         {
@@ -54,7 +56,7 @@ const Hacktravel = {
                 imgSrc:require('./img/benefits/plane.svg'),
                 title:'Airlines \n & Hotels',
                 buttonUrl: "https://windingtree.typeform.com/to/zw5WmH",
-                buttonLabel: "Get Early Bird Tickets",
+                buttonLabel: "Apply To Get Early Bird Tickets",
                 buttonStyle: "btn-primary",
                 benefits: ["Learn new technology","Collaborate on solutions","Get complimentary training for your tech team","Solve your own business challenges"],
                 accentedNotice: "Early Bird Tickets 250$",
@@ -66,7 +68,7 @@ const Hacktravel = {
                 buttonUrl: "https://windingtree.typeform.com/to/zw5WmH",
                 buttonLabel: "Join For Free",
                 buttonStyle: "btn-primary",
-                benefits: ["Form or join a team to hack","Work on proposed challenges","Bring your own idea","Experiment","Get mentorship"],
+                benefits: ["Form or join a team to hack","Work on proposed challenges","Bring your own hack idea","Experiment","Get mentorship"],
                 accentedNotice: "Approved hackers are invited to join us at zero cost.",
                 secondaryNotice: "Spots are limited to 80"
             },
@@ -109,9 +111,6 @@ const Hacktravel = {
                 thumbnail: require('./img/video/aircanada.png'),
             },
         ]
-    },
-    photoGallery : {
-
     },
     contacts : {
         header: 'Questions?',

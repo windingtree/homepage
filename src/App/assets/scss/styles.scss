@@ -590,7 +590,7 @@ html {
 }
 
 .hero-lisbon {
-  background: #3553a5 url('/assets/img/banners/hacktravel-bg.jpg') 50% 0;
+  background: linear-gradient(0deg, rgba(53, 83, 165, 0.3), rgba(255, 0, 150, 0.3)), url('/assets/img/banners/hacktravel-bg.jpg') 50% 0;
 }
 
 .section-hero-cards {
@@ -924,7 +924,7 @@ html {
   }
 
   &:hover {
-    cursor: pointer;
+    //cursor: pointer;
 
     &::before {
       opacity: 0.5;
@@ -966,4 +966,8 @@ html {
 
 .footer-link:hover {
   color: #808080 !important;
+}
+
+.line-2 {
+  line-height: 2;
 }
