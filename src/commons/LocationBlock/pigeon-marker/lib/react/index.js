@@ -1,40 +1,40 @@
-'use strict';
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
+
+Object.defineProperty(exports, '__esModule', {
+  value: true,
 });
 
-var _createClass = function () {
+const _createClass = (function () {
   function defineProperties(target, props) {
-    for (var i = 0; i < props.length; i++) {
-      var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);
+    for (let i = 0; i < props.length; i++) {
+      const descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor);
     }
-  }return function (Constructor, protoProps, staticProps) {
-    if (protoProps) defineProperties(Constructor.prototype, protoProps);if (staticProps) defineProperties(Constructor, staticProps);return Constructor;
+  } return function (Constructor, protoProps, staticProps) {
+    if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor;
   };
-}();
+}());
 
-var _infact = require('./infact');
+const _propTypes = require('prop-types');
+const _infact = require('./infact');
 
-var _propTypes = require('prop-types');
 
-var _propTypes2 = _interopRequireDefault(_propTypes);
+const _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _pin = require('./img/pin.svg');
+const _pin = require('./img/pin.svg');
 
-var _pin2 = _interopRequireDefault(_pin);
+const _pin2 = _interopRequireDefault(_pin);
 
-var _pin2x = require('./img/pin.svg');
+const _pin2x = require('./img/pin.svg');
 
-var _pin2x2 = _interopRequireDefault(_pin2x);
+const _pin2x2 = _interopRequireDefault(_pin2x);
 
-var _pinHover = require('./img/pin.svg');
+const _pinHover = require('./img/pin.svg');
 
-var _pinHover2 = _interopRequireDefault(_pinHover);
+const _pinHover2 = _interopRequireDefault(_pinHover);
 
-var _pinHover2x = require('./img/pin.svg');
+const _pinHover2x = require('./img/pin.svg');
 
-var _pinHover2x2 = _interopRequireDefault(_pinHover2x);
+const _pinHover2x2 = _interopRequireDefault(_pinHover2x);
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };
@@ -42,40 +42,44 @@ function _interopRequireDefault(obj) {
 
 function _classCallCheck(instance, Constructor) {
   if (!(instance instanceof Constructor)) {
-    throw new TypeError("Cannot call a class as a function");
+    throw new TypeError('Cannot call a class as a function');
   }
 }
 
 function _possibleConstructorReturn(self, call) {
   if (!self) {
     throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-  }return call && (typeof call === "object" || typeof call === "function") ? call : self;
+  } return call && (typeof call === 'object' || typeof call === 'function') ? call : self;
 }
 
 function _inherits(subClass, superClass) {
-  if (typeof superClass !== "function" && superClass !== null) {
-    throw new TypeError("Super expression must either be null or a function, not " + typeof superClass);
-  }subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } });if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass;
+  if (typeof superClass !== 'function' && superClass !== null) {
+    throw new TypeError(`Super expression must either be null or a function, not ${typeof superClass}`);
+  }subClass.prototype = Object.create(superClass && superClass.prototype, {
+    constructor: {
+      value: subClass, enumerable: false, writable: true, configurable: true,
+    },
+  }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass;
 }
 
-var imageOffset = {
+const imageOffset = {
   left: 15,
-  top: 31
+  top: 31,
 };
 
-var Marker = function (_Component) {
+const Marker = (function (_Component) {
   _inherits(Marker, _Component);
 
   function Marker(props) {
     _classCallCheck(this, Marker);
 
-    var _this = _possibleConstructorReturn(this, (Marker.__proto__ || Object.getPrototypeOf(Marker)).call(this, props));
+    const _this = _possibleConstructorReturn(this, (Marker.__proto__ || Object.getPrototypeOf(Marker)).call(this, props));
 
     _this.eventParameters = function (event) {
       return {
-        event: event,
+        event,
         anchor: _this.props.anchor,
-        payload: _this.props.payload
+        payload: _this.props.payload,
       };
     };
 
@@ -98,7 +102,7 @@ var Marker = function (_Component) {
     };
 
     _this.state = {
-      hover: false
+      hover: false,
     };
     return _this;
   }
@@ -110,35 +114,35 @@ var Marker = function (_Component) {
     key: 'isRetina',
 
     // controls
-    value: function () {
+    value() {
       return typeof window !== 'undefined' && window.devicePixelRatio >= 2;
-    }
+    },
 
     // modifiers
 
   }, {
     key: 'isHover',
-    value: function () {
+    value() {
       return typeof this.props.hover === 'boolean' ? this.props.hover : this.state.hover;
-    }
+    },
   }, {
     key: 'image',
-    value: function () {
+    value() {
       return this.isRetina() ? this.isHover() ? _pinHover2x2.default : _pin2x2.default : this.isHover() ? _pinHover2.default : _pin2.default;
-    }
+    },
 
     // lifecycle
 
   }, {
     key: 'componentDidMount',
-    value: function () {
-      var images = this.isRetina() ? [_pin2x2.default, _pinHover2x2.default] : [_pin2.default, _pinHover2.default];
+    value() {
+      const images = this.isRetina() ? [_pin2x2.default, _pinHover2x2.default] : [_pin2.default, _pinHover2.default];
 
-      images.forEach(function (image) {
-        var img = new window.Image();
+      images.forEach((image) => {
+        const img = new window.Image();
         img.src = image;
       });
-    }
+    },
 
     // delegators
 
@@ -147,29 +151,33 @@ var Marker = function (_Component) {
 
     // render
 
-    value: function () {
-      var _props = this.props,
-          left = _props.left,
-          top = _props.top,
-          onClick = _props.onClick;
+    value() {
+      const _props = this.props;
+      const { left } = _props;
+      const { top } = _props;
+      const { onClick } = _props;
 
-      var style = {
+      const style = {
         position: 'absolute',
-        transform: 'translate(' + (left - imageOffset.left) + 'px, ' + (top - imageOffset.top) + 'px)',
-        cursor: onClick ? 'pointer' : 'default'
+        transform: `translate(${left - imageOffset.left}px, ${top - imageOffset.top}px)`,
+        cursor: onClick ? 'pointer' : 'default',
       };
 
-      return _infact.React.createElement('div', { style: style,
+      return _infact.React.createElement('div', {
+        style,
         className: 'pigeon-click-block',
         onClick: this.handleClick,
         onContextMenu: this.handleContextMenu,
         onMouseOver: this.handleMouseOver,
-        onMouseOut: this.handleMouseOut }, _infact.React.createElement('img', { src: this.image(), width: 29, height: 34, alt: '' }));
-    }
+        onMouseOut: this.handleMouseOut,
+      }, _infact.React.createElement('img', {
+        src: this.image(), width: 29, height: 34, alt: '',
+      }));
+    },
   }]);
 
   return Marker;
-}(_infact.Component);
+}(_infact.Component));
 
 Marker.propTypes = {
   // input, passed to events
@@ -191,6 +199,6 @@ Marker.propTypes = {
 
   // pigeon functions
   latLngToPixel: _propTypes2.default.func,
-  pixelToLatLng: _propTypes2.default.func
+  pixelToLatLng: _propTypes2.default.func,
 };
 exports.default = Marker;

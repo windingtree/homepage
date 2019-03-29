@@ -1,4 +1,7 @@
 
+
+// // infact = inferno + react
+
 exports.React = require('react');
 exports.ReactDOM = require('react-dom');
 
