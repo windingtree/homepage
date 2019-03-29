@@ -4,9 +4,10 @@ import {
   Container,
   Row,
   Col,
+  Button,
 } from '@windingtree/wt-ui-react';
 import ScrollableAnchor from 'react-scrollable-anchor';
-import Gallery from 'commons/ImageGallery';
+// import Gallery from 'commons/ImageGallery';
 
 
 const DescriptionWithGallery = (props: *) => {
@@ -30,9 +31,9 @@ const DescriptionWithGallery = (props: *) => {
             </Container>
           </Col>
 
-
           <Col lg={4} className="p-0 galleryContainer shadow" style={{ backgroundImage: `url(${photos[2].photo})` }}>
-            <Gallery photos={photos} />
+            {/* <Gallery photos={photos} /> */}
+            <Button href={data.ButtonUrl} outlined variant="light" className="centered-item">{data.ButtonLabel}</Button>
           </Col>
 
         </Row>

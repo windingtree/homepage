@@ -1,9 +1,10 @@
+import CTAs from 'DATA/commons/CTAs';
 
 const Hacktravel = {
     header : {
-        title: "#Hacktravel On Tour",
-        subtitle:"27-29 May, Lisbon, Portugal",
-        description: "Contribute to moving the travel industry forward. Build open source, decentralized solutions along with airlines, hotels, travel startups and blockchain experts",
+        title: "#HackTravel 2019",
+        subtitle:"July 3-5, Lisbon, Portugal",
+        description: "Build open source, decentralized solutions along with airlines, hotels, travel startups and blockchain experts.",
         imgSrc: require('./img/hacktravellisbon.jpg'),
         mainButtonLabel: "Join Hackathon",
         mainButtonUrl: "#register",
@@ -12,7 +13,9 @@ const Hacktravel = {
     },
     about : {
         header : 'What to Expect',
-        text : '#HackTravel hackathon is a unique opportunity for the most forward thinking travel industry players to come together and collaboratively tackle real world industry pain points.\n \nFollowing the success of our #HackTravel Prague hackathon, this year we’re adding more benefits, content and activities for our community to get the most out of their participation'
+        text : '#HackTravel hackathon is a unique opportunity for the most forward thinking travel industry players to come together and collaboratively tackle real world industry pain points.\n \nFollowing the success of our #HackTravel Prague hackathon, this year we’re adding more benefits, content and activities for our community to get the most out of their participation.',
+        ButtonLabel: "#HackTravel Prague Recap",
+        ButtonUrl: "https://blog.windingtree.com/hacktravel-hackathon-recap-feacb65cc47d",
     },
     photos : [
         {
@@ -53,8 +56,8 @@ const Hacktravel = {
             {
                 imgSrc:require('./img/benefits/plane.svg'),
                 title:'Airlines \n & Hotels',
-                buttonUrl: "https://windingtree.typeform.com/to/zw5WmH",
-                buttonLabel: "Get Early Bird Tickets",
+                buttonUrl: CTAs.eventAttendeeAction,
+                buttonLabel: "Apply To Get Early Bird Tickets",
                 buttonStyle: "btn-primary",
                 benefits: ["Learn new technology","Collaborate on solutions","Get complimentary training for your tech team","Solve your own business challenges"],
                 accentedNotice: "Early Bird Tickets 250$",
@@ -63,17 +66,17 @@ const Hacktravel = {
             {
                 imgSrc:require('./img/benefits/git.svg'),
                 title:'Independent Developers\n& Software Companies',
-                buttonUrl: "https://windingtree.typeform.com/to/zw5WmH",
+                buttonUrl: CTAs.eventAttendeeAction,
                 buttonLabel: "Join For Free",
                 buttonStyle: "btn-primary",
-                benefits: ["Form or join a team to hack","Work on proposed challenges","Bring your own idea","Experiment","Get mentorship"],
+                benefits: ["Form or join a team to hack","Work on proposed challenges","Bring your own hack idea","Experiment","Get mentorship"],
                 accentedNotice: "Approved hackers are invited to join us at zero cost.",
                 secondaryNotice: "Spots are limited to 80"
             },
             {
                 imgSrc:require('./img/benefits/ota.svg'),
                 title:'Travel Startups\n& OTAs',
-                buttonUrl: "https://windingtree.typeform.com/to/zw5WmH",
+                buttonUrl: CTAs.eventAttendeeAction,
                 buttonLabel: "Join For Free",
                 buttonStyle: "btn-primary",
                 benefits: ["Bring your team to learn and hack","Get training and mentorship","Work on your own idea","Experiment","Connect with industry veterans"],
@@ -85,9 +88,38 @@ const Hacktravel = {
     sponsors : {
         header : 'Contribute as a Sponsor and Get More',
         text : 'Put your organization in the spotlight of innovation and support the community of industry disruptors. We got tons of great sponsor benefits for you - get in touch and we’ll be happy to discuss the many ways you can be part of this event.',
-        buttonUrl: "https://windingtree.typeform.com/to/zw5WmH",
+        buttonUrl: CTAs.eventSponsorAction,
         buttonLabel: "Check Sponsorship Options",
         buttonStyle: "btn-outline-dark",
+    },
+    nochallenges:{
+        header: "Hackathon Challenges",
+        accentText: 'Hackathon challenges are coming up - we’ll inform all approved participants shortly. Meanwhile, review:',
+        CTAButonLabel: "Propose Own Challenge",
+        CTAButtonUrl: CTAs.eventAttendeeAction,
+        cardsData: [
+            {
+            title: 'Developer Portal',
+            href: CTAs.devPortal,
+            imgSrc: require('./img/benefits/docs.svg'),
+            imgWidth: 80,
+            },
+            {
+            title: 'Previous hackathon challenges',
+            href: 'https://github.com/windingtree/wt-hackathon/issues',
+            imgSrc: require('./img/benefits/path.svg'),
+            imgWidth: 80,
+            },
+            {
+            title: 'Previous hack submissions',
+            href: 'https://blog.windingtree.com/2018-hack-travel-tech-recap-44273d9cc4c3',
+            imgSrc: require('./img/benefits/idea.svg'),
+            imgWidth: 80,
+            },
+        ],
+    },
+    challenges:{
+
     },
     videoGallery : {
         header : "What Our Hackathon Alumni Say",
@@ -110,8 +142,12 @@ const Hacktravel = {
             },
         ]
     },
-    photoGallery : {
-
+    location: {
+        header:'Venue',
+        text:'We’re excited to be hosting Winding Tree hackathon at Lx Factory - a hip, multi-functional creative village hosting over 100 restaurants, shops, offices, event spaces and cafes in Alcantara - up and coming neighborhood of Lisbon, just 15 minutes away from the center.',
+        buttonUrl:'https://lxfactory.com/en/lx-factory/',
+        buttonLabel:'Lx Factory',
+        gps:[38.701977,-9.1805115]
     },
     contacts : {
         header: 'Questions?',

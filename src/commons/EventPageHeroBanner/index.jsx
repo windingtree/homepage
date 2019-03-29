@@ -27,7 +27,7 @@ class EventPageHeroBanner extends React.Component<*, StateType> {
     const { data } = this.props;
     return (
       <>
-        <section className="app-section hero-homepage hero-lisbon pt-1 pt-lg-5 shadow">
+        <section className="app-section hero-lisbon pt-1 pt-lg-5 shadow">
 
           <div className="star star1" />
           <div className="star star2" />
@@ -50,18 +50,32 @@ class EventPageHeroBanner extends React.Component<*, StateType> {
           <Container>
             <header className="mb-3 mb-lg-5 pb-0 pb-lg-5 text-center">
               <Row className="justify-content-md-center">
+
+
                 <Col md={9}>
-                  <h1 className="mb-1 text-white">
-                    {data.title}
-                  </h1>
-                </Col>
-                <Col md={9}>
-                  <p className="h1 mb-1 text-white">
+                  <p className="lead d-md-none mb-1 line-2 display-linebreak text-white pt-2 pb-1">
                     {data.subtitle}
                   </p>
                 </Col>
-                <Col md={6}>
-                  <p className="mb-2 lead text-muted" />
+
+                <Col md={9}>
+                  <h1 className="mb-1 text-white pb-1 pb-md-0">
+                    {data.title}
+                  </h1>
+                </Col>
+
+
+                <Col md={9}>
+                  <h3 className="mb-1 text-white display-linebreak d-none d-md-block ">
+                    {data.subtitle}
+                  </h3>
+                </Col>
+
+                <Col md={9}>
+                  <p className="mb-2 lead line-2 text-white d-none d-md-block">{data.description}</p>
+                </Col>
+                <Col md={9}>
+                  <p className="mb-2 lead text-white d-block d-md-none">{data.description}</p>
                 </Col>
                 <Col xs={12}>
                   <ul className="d-flex flex-column flex-md-row justify-content-md-center align-items-md-center list-inline">
