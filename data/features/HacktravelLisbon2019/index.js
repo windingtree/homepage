@@ -88,7 +88,7 @@ const Hacktravel = {
     sponsors : {
         header : 'Contribute as a Sponsor and Get More',
         text : 'Put your organization in the spotlight of innovation and support the community of industry disruptors. We got tons of great sponsor benefits for you - get in touch and we’ll be happy to discuss the many ways you can be part of this event.',
-        buttonUrl: CTAs.eventAttendeeAction,
+        buttonUrl: CTAs.eventSponsorAction,
         buttonLabel: "Check Sponsorship Options",
         buttonStyle: "btn-outline-dark",
     },
