@@ -71,6 +71,10 @@ const Footer = {
               text: 'Community welcome page',
             },
             {
+              href: 'https://blog.windingtree.com/',
+              text: 'Blog',
+            },
+            {
               href: 'https://developers.windingtree.com/',
               text: 'Developer portal',
             },
