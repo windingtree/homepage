@@ -31,7 +31,7 @@ const DescriptionWithGallery = (props: *) => {
             </Container>
           </Col>
 
-          <Col lg={4} className="p-0 galleryContainer shadow" style={{ backgroundImage: `url(${photos[2].photo})` }}>
+          <Col lg={4} className="p-0 galleryContainer shadow" style={{ backgroundImage: `url(${photos[0].photo})` }}>
             {/* <Gallery photos={photos} /> */}
             <Button href={data.ButtonUrl} outlined variant="light" className="centered-item">{data.ButtonLabel}</Button>
           </Col>
