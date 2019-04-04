@@ -19,16 +19,7 @@ const Hacktravel = {
     },
     photos : [
         {
-            photo: require('./img/photos/1.jpg'),
-        },
-        {
-            photo: require('./img/photos/2.jpg'),
-        },
-        {
-            photo: require('./img/photos/3.jpg'),
-        },
-        {
-            photo: require('./img/photos/4.jpg'),
+            photo: require('./img/photos/0.jpg'),
         },
     ],
     benefits : [
@@ -125,19 +116,19 @@ const Hacktravel = {
         header : "What Our Hackathon Alumni Say",
         items:[
             {
-                videoSrc: "https://youtu.be/vlJbLLY4_8A",
+                videoSrc: "vlJbLLY4_8A",
                 thumbnail: require('./img/video/airfrance.jpg'),
             },
             {
-                videoSrc: "https://youtu.be/lSByZkikdFY",
+                videoSrc: "lSByZkikdFY",
                 thumbnail: require('./img/video/atpco.png'),
             },
             {
-                videoSrc: "https://youtu.be/AEHumtp1LUQ",
+                videoSrc: "AEHumtp1LUQ",
                 thumbnail: require('./img/video/avian.png'),
             },
             {
-                videoSrc: "https://youtu.be/xa_V7wpTEN4",
+                videoSrc: "xa_V7wpTEN4",
                 thumbnail: require('./img/video/aircanada.png'),
             },
         ]
