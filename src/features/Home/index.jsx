@@ -13,6 +13,7 @@ import Slicks from 'commons/Slick';
 import InThePress from 'commons/InThePress';
 import VerticalTabs from 'commons/VerticalTabs';
 import MainPageHeroBanner from 'commons/MainPageHeroBanner';
+import NewsSection from 'commons/NewsSection';
 import data from 'DATA/features/Home';
 
 
@@ -25,6 +26,7 @@ const Home = () => (
     <PartnersAndContributors id="partners" data={data.partners}>
       <Slicks />
     </PartnersAndContributors>
+    <NewsSection id="news" />
     <InThePress id="press" data={data.press} />
     <Banner id="opensource" data={data.communityBanner} />
     <VideoGallery id="video" data={data.videoGallery} />

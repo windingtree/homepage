@@ -21,7 +21,7 @@ const PartnersAndContributors = (props: *) => {
   const partners = partnerList;
   return (
     <ScrollableAnchor id={id}>
-      <section className="app-section section-partners">
+      <section className="app-section section-partners pb-0">
         <Container>
 
           <Row className="justify-content-md-center mb-3">

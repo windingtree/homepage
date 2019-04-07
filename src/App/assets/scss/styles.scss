@@ -976,3 +976,46 @@ html {
   height: 400px;
   width: 800px;
 }
+
+.card-news {
+  .card-img-top {
+    position: relative;
+    
+    padding: 0;
+    border: 0;
+    background: $white;
+
+    .img-crop {
+      height: 200px;
+
+      &:hover {
+        opacity: 0.5;
+        
+  
+      }
+    }
+
+    .news-card-title {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      background: $accent;
+      width: 100%;
+      border-radius: 0 0 4px 4px;
+      color: white;
+      vertical-align: middle;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    &:hover {
+      cursor: pointer;
+
+    }
+
+    
+
+  }
+
+
+}
