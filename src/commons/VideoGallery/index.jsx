@@ -21,7 +21,7 @@ const VideoGallery = (props: *) => {
           </header>
 
           <Row className="justify-content-center">
-            <Col md={12} lg={10} className="col-10">
+            <Col md={12} lg={10} className="col-12 px-0">
               <Gallery sections={data.items} />
             </Col>
           </Row>
