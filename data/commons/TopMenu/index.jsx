@@ -57,8 +57,8 @@ const MainMenu={
         }
     ],
     ctaButton: {
-        title: 'Join',
-        link: CTAs.parntersAction
+        title: 'Join Hackathon',
+        link: CTAs.topMenuCta
     }
 }
 

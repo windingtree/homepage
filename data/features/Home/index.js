@@ -12,8 +12,8 @@ const mainPage = {
         subHeading:'Open source infrastructure for travel inventory distribution',
         mainCTAUrl:CTAs.parntersAction,
         mainCTALabel:'Join Ecosystem',
-        secondaryCTAUrl:CTAs.ctaWatchVideoMain,
-        secondaryCTALabel:'Watch Video'
+        secondaryCTAUrl:CTAs.hackathonLink,
+        secondaryCTALabel:'Check out the hackathon'
     },
     features:{
         header:'Features',

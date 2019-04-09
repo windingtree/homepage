@@ -6,6 +6,8 @@ const CTA = {
   eventSponsorAction:"https://windingtree.com/sponsorship_packages.pdf",
   ctaWatchVideoMain:"_qer1qd68eQ",
   ctaWatchVideoSecondary:"",
+  topMenuCta: '/hacktravel-lisbon-2019#register',
+  hackathonLink: '/hacktravel-lisbon-2019'
 }
 
 export default CTA
