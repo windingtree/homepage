@@ -3,7 +3,7 @@
 const mentions = [
   {
     imgSrc: require('./img/Cointelegraph.png'),
-    href: 'https://cointelegraph.com/news/swiss-aviation-services-company-launches-blockchain-pilot-for-cargo-handling?utm_source=Telegram&utm_medium=Social',
+    href: 'https://cointelegraph.com/news/air-canada-to-integrate-blockchain-based-travel-distribution-platform',
   },
   {
     imgSrc: require('./img/cardrates.svg'),
