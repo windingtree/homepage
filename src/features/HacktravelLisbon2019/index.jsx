@@ -12,6 +12,7 @@ import VideoGallerySimple from 'commons/VideoGallerySimple';
 import ContactSection from 'commons/ContactSection';
 import DescriptonWithGallery from 'commons/DescriptionWithGallery';
 import LocationBlock from 'commons/LocationBlock';
+import LogosGallery from 'commons/LogosGallery';
 import NoChallenges from './NoChallenges';
 
 const event = Hacktravel;
@@ -26,6 +27,7 @@ const HacktravelLisbon2019 = () => (
     <AccentedTextSection data={event.sponsors} id="sponsors" />
     <NoChallenges data={event.nochallenges} id="challenges" />
     <VideoGallerySimple data={event.videoGallery} id="video" />
+    <LogosGallery data={event.hackedWithUs} id="hacked-with-us" />
     <LocationBlock data={event.location} id="location" />
     <AccentedTextSection data={event.callToAction} id="ready" />
     <ContactSection data={event.contacts} id="contacts" />
