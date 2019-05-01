@@ -9,14 +9,14 @@ const NewsSection =  {
             thumbnail: require('./img/hackathon.png'),
         },
         {
-            articleUrl: "https://blog.windingtree.com/weekly-dev-update-4-8-to-4-14-8c24a21f9232",
-            articleTitle:"Weekly Development Update 4/9 to 4/14",
+            articleUrl: "https://blog.windingtree.com/weekly-development-update-4-15-to-4-28-3e68331084e6",
+            articleTitle:"Weekly Development Update 4/15 to 4/28",
             articleDescription:"read what we did",
             thumbnail: require('./img/repo.png'),
         },
         {
-            articleUrl: "https://blog.windingtree.com/protection-against-illegitimate-booking-requests-d34a54a5fe8b",
-            articleTitle:"Protection against illegitimate booking requests",
+            articleUrl: "https://blog.windingtree.com/building-trust-on-a-trustless-blockchain-ba71872f8541",
+            articleTitle:"Building trust on a trustless blockchain",
             articleDescription:"",
             thumbnail: require('./img/protection.png'),
         },

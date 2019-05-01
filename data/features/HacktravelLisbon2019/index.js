@@ -168,6 +168,60 @@ const Hacktravel = {
         buttonUrl: "#register",
         buttonLabel: "Register",
         buttonStyle: "btn-primary",
+    },
+    hackedWithUs: {
+        header : "Already Hacked With Us",
+        items : [
+            {
+                imgSrc: require('./img/partners/airfranceklm.svg'),
+                href:''
+            },
+            {
+                imgSrc: require('./img/partners/aircanada.png'),
+                href:''
+            },
+            {
+                imgSrc: require('./img/partners/amadeus.png'),
+                href:''
+            },
+            {
+                imgSrc: require('./img/partners/erevmax.png'),
+                href:''
+            },
+            {
+                imgSrc: require('./img/partners/airplus.png'),
+                href:''
+            },
+            {
+                imgSrc: require('./img/partners/atpco.svg'),
+                href:''
+            },
+            {
+                imgSrc: require('./img/partners/H1.png'),
+                href:''
+            },
+            {
+                imgSrc: require('./img/partners/lufthansa.svg'),
+                href:''
+            },
+            {
+                imgSrc: require('./img/partners/korean.png'),
+                href:''
+            },
+            {
+                imgSrc: require('./img/partners/mews.png'),
+                href:''
+            },
+            {
+                imgSrc: require('./img/partners/Salesforce.png'),
+                href:''
+            },
+            {
+                imgSrc: require('./img/partners/swiss.svg'),
+                href:''
+            },
+
+        ]
     }
 }
 
