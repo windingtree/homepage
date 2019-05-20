@@ -61,6 +61,10 @@ const mentions = [
     imgSrc: require('./img/reuters.png'),
     href: 'https://www.reuters.com/article/us-blockchain-travel-airnewzealand/air-new-zealand-swiss-travel-platform-winding-tree-in-blockchain-tie-up-idUSKBN1DM2KQ?il=0',
   },
+  {
+    imgSrc: require('./img/bbt.jpg'),
+    href: 'https://buyingbusinesstravel.com/news/winding-tree-completes-blockchain-hotel-booking/',
+  },
 ];
 
 export default mentions;
