@@ -5,6 +5,36 @@ import type { EventsType } from 'commons/Events/types';
 const events: EventsType = {
   upcoming: [
     {
+      startDate: '3',
+      startMonth: "Jun'19",
+      name: 'Business Travel Solution Camp',
+      location: 'Frankfurt, Germany',
+      imgSrc: require('./img/bts.png'),
+      text: 'Sie kennen sie sicher alle, die aktuellen Buzz-Wörter des Geschäftsreisemanagements, wie A1-Bescheinigungen, NDC, PSD2, AI und digitale Transformation. Begriffe, die uns begleiten und doch nicht so richtig zu fassen sind - insbesondere, wenn es um Lösungen geht.',
+      buttonHref: 'https://www.cvent.com/events/business-travel-solution-camp-zukunft-ist-heute-/agenda-27a7be8365574533b919fb3ccc9a13ff.aspx',
+      buttonText: 'check event',
+    },
+    {
+      startDate: '13',
+      startMonth: "Jun'19",
+      name: 'The Future Of Flying Founders Forum',
+      location: 'London, UK',
+      imgSrc: require('./img/foundersforum.png'),
+      text: 'Founders Forum, a global community for digital and technology entrepreneurs, is giving start-ups the chance to pitch their business ideas on the future of air travel. Partnering with British Airways, five start-up pitches and a LIVE Q&A will feature at 30,000 feet in the sky to some of the world’s leading tech entrepreneurs, investors and CEOs as they make their way from San Francisco to London on 13th June 2019.',
+      buttonHref: 'https://thefutureofflying.com/?forum=founders',
+      buttonText: 'check event',
+    },
+    {
+      startDate: '25-26',
+      startMonth: "Jun'19",
+      name: 'Win The Booking',
+      location: 'London, UK',
+      imgSrc: require('./img/winthebooking.png'),
+      text: 'The Annual Conference For eCommerce, Customer Experience and Digital Marketing Leaders In Europe’s Travel Industry',
+      buttonHref: 'https://digitaltraveleu.wbresearch.com/',
+      buttonText: 'check event',
+    },
+    {
       startDate: '3-5',
       startMonth: "Jul'19",
       name: '#HackTravel 2019',

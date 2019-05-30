@@ -3,14 +3,14 @@ const NewsSection =  {
     header : "Latest From Blog",
     items:[
         {
-            articleUrl: "https://blog.windingtree.com/announcing-winding-tree-hacktravel-hackathon-in-lisbon-aabf4e9f7613",
-            articleTitle:"Announcing Winding Tree #HackTravel Hackathon in Lisbon",
-            articleDescription:"We’re taking our second hackathon on a tour — join us on July 3–5 in Lisbon, Portugal for 3 days of learning, open collaboration and experimenting with decentralized technology to develop industry backed Proofs-of-Concept.",
+            articleUrl: "https://blog.windingtree.com/were-pioneering-travel-tech-business-hackathon-tickets-are-open-ba6489078bca",
+            articleTitle:"We’re pioneering Travel Tech Business Hackathon — tickets are open!",
+            articleDescription:"Join business teams from airlines, hotels, travel startups & software vendors to work on Proof-of-Concept proposals — no coding or technical background required!",
             thumbnail: require('./img/hackathon.png'),
         },
         {
-            articleUrl: "https://blog.windingtree.com/weekly-development-update-4-15-to-4-28-3e68331084e6",
-            articleTitle:"Weekly Development Update 4/15 to 4/28",
+            articleUrl: "https://blog.windingtree.com/development-update-5-20-to-5-26-69cf5d829819",
+            articleTitle:"Weekly Development Update 5/20 to 5/26",
             articleDescription:"read what we did",
             thumbnail: require('./img/repo.png'),
         },
