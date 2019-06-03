@@ -1,26 +1,43 @@
-// @flow
+/* @flow */
 import React from 'react';
 import {
   Row, Col, Container,
 } from '@windingtree/wt-ui-react';
+import ScrollableAnchor from 'react-scrollable-anchor';
+import defaultVideoGalleryItems from 'DATA/commons/VideoGallery';
 import Gallery from './Gallery';
 
-const VideoGallery = () => (
-  <article className="app-section section-video-gallery border-top border-bottom border-light">
-    <Container>
+const VideoGallery = (props: *) => {
+  const { id, data } = props;
 
-      <header className="mb-2 mb-md-4 text-center">
-        <h2>Video gallery</h2>
-      </header>
+  return (
+    <ScrollableAnchor id={id}>
 
-      <Row className="justify-content-center">
-        <Col md={12} lg={10} className="col-10">
-          <Gallery />
-        </Col>
-      </Row>
+      <article className="app-section section-video-gallery border-top border-bottom border-light">
+        <Container>
 
-    </Container>
-  </article>
-);
+          <header className="mb-2 mb-md-4 text-center">
+            <h2>{data.header}</h2>
+          </header>
+
+          <Row className="justify-content-center">
+            <Col md={12} lg={10} className="col-12 px-0">
+              <Gallery sections={data.items} />
+            </Col>
+          </Row>
+
+        </Container>
+      </article>
+    </ScrollableAnchor>
+  );
+};
+
+VideoGallery.defaultProps = {
+  id: 'video-gallery',
+  data: {
+    header: 'Video Gallery',
+    items: defaultVideoGalleryItems,
+  },
+};
 
 export default VideoGallery;

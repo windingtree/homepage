@@ -12,7 +12,7 @@ const IconList = (props: PropsType) => {
     variant, size,
   } = props;
   return (
-    <ul className="list-inline">
+    <ul className="list-inline pt-md-1">
       {icons.map(icon => (
         <li className="list-inline-item" key={icon.href}>
           <a href={icon.href} title={icon.title} className={`text-${variant} text-alpha-inverse`} target="_blank" rel="noopener noreferrer">

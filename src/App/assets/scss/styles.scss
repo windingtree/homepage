@@ -7,6 +7,8 @@ $white: #fff;
 $gray-500: #808080;
 $gray-400: #a9a9a9;
 $gray-200: #d3d3d3;
+$pink: #e6d6f3;
+$green: #3fe1cb;
 $spacer: 10px;
 
 
@@ -14,7 +16,7 @@ $spacer: 10px;
 
 // BODY
 body {
-  background-image: url('../img/bg-left.png'),url('../img/bg-right.png');
+  background-image: url('/assets/img/pages/inner/bg-left.png'),url('/assets/img/pages/inner/bg-right.png');
   background-position: 0 -100vh, 100% -100vh;
   background-repeat: repeat-y, repeat-y;
 }
@@ -80,9 +82,62 @@ h3,
 }
 
 // CARDS
+
+.extended-card {
+  //display: block !important;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s;
+  z-index: 1;
+  border-color: $pink !important;
+  border: 1px solid;
+  
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: -2;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    //color: #fff;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: $pink;
+    transition: all 0.3s;
+    z-index: -1;
+  }
+
+  &:hover {
+    //color: lighten($gray-200, 40%) !important;
+
+    &::before {
+      width: 100%;
+    };
+        
+    .extended-card-text,
+    .extended-card-title {
+      color: #000 !important;
+    }
+        
+  }
+}
+
 @media (max-width: 768px) {
   .card-deck.card-deck-sm-stack {
     display: block;
+    
+    .extended-card {
+      display: block !important;
+    }
 
     .card {
       display: flex;
@@ -313,11 +368,11 @@ html {
 
   &.navbar-light {
     &.navbar-nav--animated-btn:not(.is-open) #navbar-btn {
-      width: 150px;
+      //width: 150px;
       transition: all 0.3s ease-out;
 
       .btn {
-        width: 150px;
+        //width: 150px;
         transition: all 0.4s ease-out;
       }
     }
@@ -376,7 +431,7 @@ html {
   }
 
   .navbar.navbar-dark.is-open .navbar-brand {
-    background-image: url('../img/sm-color.svg');
+    background-image: url('/assets/img/logo/sm-color.svg');
   }
 
   .navbar.navbar-dark.is-open .navbar-toggler,
@@ -403,10 +458,15 @@ html {
 // HERO
 .hero-homepage {
   background-color: $accent;
-  background: #3553a5 url('../img/hero-bg-opt.jpg') 50% 0;
+  background: #3553a5 url('/assets/img/banners/hero-bkg.jpg') 50% 0;
   background-size: auto 105%;
 
+  @media all and (max-width: 990px) {
+    background: #3553a5 url('/assets/img/banners/hero-bg-opt-sm.jpg') 50% 0;
+  }
+
   @media (min-width: 768px) {
+    
     border-bottom-left-radius: 100% 5%;
     border-bottom-right-radius: 100% 5%;
   }
@@ -529,6 +589,15 @@ html {
   }
 }
 
+.hero-lisbon {
+  background: linear-gradient(0deg, rgba(53, 83, 165, 0.3), rgba(255, 0, 150, 0.3)), url('/assets/img/banners/hacktravel-bg.jpg') 50% 0;
+}
+
+.short-banner-bg {
+  background: linear-gradient(0deg, rgba(53, 83, 165, 0.3), rgba(255, 0, 150, 0.3)), url('/assets/img/banners/hacktravelprogram-bg.jpg') 50% 0;
+}
+
+
 .section-hero-cards {
   margin-top: -15rem;
 
@@ -543,7 +612,7 @@ html {
 
 // Secondary Hero
 .section-hero {
-  background-image: url('../img/bg-hero.png'), radial-gradient(circle at 100% 50%, #29cb96, #5f2987);
+  background-image: url('/assets/img/banners/bg-hero.png'), radial-gradient(circle at 100% 50%, #29cb96, #5f2987);
   background-position: center bottom, left center;
   background-repeat: no-repeat, no-repeat;
 }
@@ -822,5 +891,136 @@ html {
   background-size: cover !important;
   background-repeat: no-repeat !important;
   background-position: 50% !important;
+  border-radius: 4px 4px 0 0;
 }
 
+.display-linebreak {
+  white-space: pre-wrap;
+}
+
+.contact-thumbnail {
+  &:hover {
+    img {
+      filter: opacity(0.2) drop-shadow(0 0 0 $accent);
+    };
+  }
+
+}
+
+.galleryContainer {
+  display: flex;
+  background: no-repeat center;
+  height: 550px;
+  border-radius: 4px;
+  background-size: cover;
+  position: relative;
+
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: $accent;
+    opacity: 0.7;
+    border-radius: 4px;
+  }
+
+  &:hover {
+    //cursor: pointer;
+
+    &::before {
+      opacity: 0.5;
+    }
+  }
+
+  @media all and (max-width: 768px) {
+    height: 300px;
+  }
+}
+
+.centered-item {
+    
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+    
+
+}
+
+.bg-pink {
+  background-color: $pink;
+}
+
+.bg-green {
+  background-color: $green;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.shadow {
+  
+  box-shadow: 0 0.5rem 2rem 0 rgba(16, 57, 87, 0.3) !important;
+  
+}
+
+.footer-link:hover {
+  color: #808080 !important;
+}
+
+.line-2 {
+  line-height: 2;
+}
+
+.leaflet-container {
+  height: 400px;
+  width: 800px;
+}
+
+.card-news {
+  .card-img-top {
+    position: relative;
+    
+    padding: 0;
+    border: 0;
+    background: $white;
+
+    .img-crop {
+      height: 200px;
+
+      &:hover {
+        opacity: 0.5;
+        
+  
+      }
+    }
+
+    .news-card-title {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      background: $accent;
+      width: 100%;
+      border-radius: 0 0 4px 4px;
+      color: white;
+      vertical-align: middle;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    &:hover {
+      cursor: pointer;
+
+    }
+
+    
+
+  }
+
+
+}

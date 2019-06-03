@@ -13,7 +13,7 @@
                 "npm-intellisense.recursivePackageJsonLookup": true,
                 "npm-intellisense.importES6": true,
                 "npm-intellisense.importQuotes": "'",
-                "editor.tabSize": 2,
+                "editor.tabSize": 4,
                 "flow.enabled": true,
                 "flow.fileExtensions": [
                         ".js",

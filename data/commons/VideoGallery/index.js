@@ -19,13 +19,13 @@ const sections: SectionType[] = [
     name: 'About Winding Tree',
     href: 'https://www.youtube.com/playlist?list=PLeOExaF4RI3iWS-E27C5c8o9qayTD_7Gj',
     imgSrc: require('./img/about.jpg'),
-    videoSrc: '_qer1qd68eQ',
+    videoSrc: 'D9g6wtvBXxY',
   },
   {
     name: 'Events',
     href: 'https://www.youtube.com/playlist?list=PLeOExaF4RI3hZMSYLiRQP_g6tOdbUijfd',
     imgSrc: require('./img/events.jpg'),
-    videoSrc: 'LHjwNqvLTak',
+    videoSrc: '09xe4IX1mrc',
   },
   {
     name: 'Partners',

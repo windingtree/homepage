@@ -1,0 +1,13 @@
+<svg width="134px" height="153px" viewBox="0 0 134 153" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="23.9917946%" y1="37.6872348%" x2="100.877823%" y2="82.5315679%" id="linearGradient-1">
+            <stop stop-color="#AF94C3" offset="0%"></stop>
+            <stop stop-color="#8CF4D3" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-653.000000, -436.000000)" fill="url(#linearGradient-1)">
+            <path d="M653,481.679688 L721,436 L787,481.679688 L787,549.226562 L721,588.820312 L666,549.226562 L653,481.679688 Z M772,531.92 L772,522.08 L731.92,497 L731.92,469.52 C731.92,467.43999 731.220007,465.680007 729.82,464.24 C728.419993,462.799993 726.640011,462.08 724.48,462.08 C722.319989,462.08 720.520007,462.799993 719.08,464.24 C717.639993,465.680007 716.92,467.43999 716.92,469.52 L716.92,497 L677.08,522.08 L677.08,531.92 L716.92,519.44 L716.92,546.92 L707.08,554.48 L707.08,561.92 L724.48,557 L742,561.92 L742,554.48 L731.92,546.92 L731.92,519.44 L772,531.92 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

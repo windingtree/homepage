@@ -5,26 +5,28 @@ import Foundation from 'features/Foundation';
 import Sellers from 'features/Sellers';
 import Suppliers from 'features/Suppliers';
 import SoftwareVendors from 'features/SoftwareVendors';
-import Main from 'features/Main';
-import LifToken from 'features/LifToken';
+import MainTemplate from 'features/MainTemplate';
 import Community from 'features/StartupsAndDevelopers';
 import Page404 from 'features/Page404';
+import HacktravelLisbon2019 from 'features/HacktravelLisbon2019';
 import ScrollHandler from './ScrollHandler';
+import HacktravelProgram from '../features/HacktravelProgram';
 
 const Routes = () => (
   <ScrollHandler>
-    <Main>
+    <MainTemplate>
       <Switch>
         <Route path={['/foundation', '/foundation.html']} component={Foundation} />
         <Route path={['/suppliers', '/suppliers.html']} component={Suppliers} />
         <Route path={['/sellers', '/sellers.html']} component={Sellers} />
         <Route path={['/software-vendors', '/software-vendors.html']} component={SoftwareVendors} />
-        <Route path={['/lif-token', '/lif-token.html']} component={LifToken} />
         <Route path={['/startups-and-developers', '/startups-and-developers.html']} component={Community} />
+        <Route path={['/hacktravel-Lisbon-2019', '/hacktravel-Lisbon-2019.html']} component={HacktravelLisbon2019} />
+        <Route path={['/hacktravelprogram', '/program.html']} component={HacktravelProgram} />
         <Route path="/" exact component={Home} />
         <Route component={Page404} />
       </Switch>
-    </Main>
+    </MainTemplate>
   </ScrollHandler>
 );
 

@@ -9,7 +9,8 @@ export default (html, helmet) => `
         <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
         <link rel="icon" href="/favicon.ico">
         <link rel="stylesheet" type="text/css" href="/css/styles.css">
-
+     
+        
          <!-- Schema.org markup for Google+ -->
         <meta itemprop="name" content="Winding Tree - Decentralized Travel Ecosystem">
         <meta itemprop="description" content="The missing open-source infrastructure layer for the travel industry">
