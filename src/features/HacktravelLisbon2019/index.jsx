@@ -24,6 +24,7 @@ const HacktravelLisbon2019 = () => (
     <ShortBenefits data={event.benefits} id="benefits" />
     <DescriptonWithGallery data={event.about} photos={event.photos} id="about" />
     <AttendeeCardsSection data={event.attendees} id="register" />
+    <AccentedTextSection data={event.hackathonProgram} id="program" />
     <AccentedTextSection data={event.sponsors} id="sponsors" />
     <NoChallenges data={event.nochallenges} id="challenges" />
     <VideoGallerySimple data={event.videoGallery} id="video" />

@@ -162,6 +162,12 @@ const Hacktravel = {
 
         ]
     },
+    hackathonProgram :{
+        header: 'Hackathon Program',
+        text: 'what, when and where for hackathon participants',
+        buttonLabel: 'Program Details',
+        buttonUrl: '/hacktravelprogram'
+    },
     callToAction :{
         header : 'Ready to Join the Hackathon?',
         text : 'Contribute to moving the travel industry forward. Build open source, decentralized solutions along with airlines, hotels, travel startups and blockchain experts',
