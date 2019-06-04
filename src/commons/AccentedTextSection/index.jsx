@@ -13,7 +13,7 @@ const AccentedTextSection = (props: *) => {
 
   return (
     <ScrollableAnchor id={id}>
-      <div className="app-section section-about pb-2">
+      <div className="app-section section-about">
         <Container>
           <Row className="justify-content-center">
             <Col md={11} lg={8} className="col-12 justify-content-center">
