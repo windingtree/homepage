@@ -83,35 +83,81 @@ const Hacktravel = {
         buttonLabel: "Check Sponsorship Options",
         buttonStyle: "btn-outline-dark",
     },
-    nochallenges:{
+    challenges:{
         header: "Hackathon Challenges",
-        accentText: 'Hackathon challenges are coming up - we’ll inform all approved participants shortly. Meanwhile, review:',
+        accentText: 'Here are some of Hackathon challenges, more coming up',
         CTAButonLabel: "Propose Own Challenge",
         CTAButtonUrl: CTAs.eventAttendeeAction,
         cardsData: [
             {
-            title: 'Developer Portal',
-            href: CTAs.devPortal,
-            imgSrc: require('./img/benefits/docs.svg'),
+            title: '#1 Blockchain based Metasearch',
+            href: 'https://github.com/windingtree/wt-hackathon/issues/45',
+            imgSrc: require('./img/benefits/git.svg'),
             imgWidth: 80,
             },
             {
-            title: 'Previous hackathon challenges',
-            href: 'https://github.com/windingtree/wt-hackathon/issues',
-            imgSrc: require('./img/benefits/path.svg'),
+            title: '#2 Sell a room',
+            href: 'https://github.com/windingtree/wt-hackathon/issues/46',
+            imgSrc: require('./img/benefits/git.svg'),
             imgWidth: 80,
             },
             {
-            title: 'Previous hack submissions',
-            href: 'https://blog.windingtree.com/2018-hack-travel-tech-recap-44273d9cc4c3',
-            imgSrc: require('./img/benefits/idea.svg'),
+            title: '#3 ORG.ID explorer',
+            href: 'https://github.com/windingtree/wt-hackathon/issues/47',
+            imgSrc: require('./img/benefits/git.svg'),
             imgWidth: 80,
+            },
+            {
+                title: '#4 Package Booking',
+                href: 'https://github.com/windingtree/wt-hackathon/issues/37',
+                imgSrc: require('./img/benefits/git.svg'),
+                imgWidth: 80,
+            },
+            {
+                title: '#5 Authorization APP',
+                href: 'https://github.com/windingtree/wt-hackathon/issues/48',
+                imgSrc: require('./img/benefits/git.svg'),
+                imgWidth: 80,
+            },
+            {
+                title: '#6 Receive bookings',
+                href: 'https://github.com/windingtree/wt-hackathon/issues/49',
+                imgSrc: require('./img/benefits/git.svg'),
+                imgWidth: 80,
+            },
+            {
+                title: '#7 Website verification',
+                href: 'https://github.com/windingtree/wt-hackathon/issues/50',
+                imgSrc: require('./img/benefits/git.svg'),
+                imgWidth: 80,
+            },
+            {
+                title: '#8 Lif Loyalty',
+                href: 'https://github.com/windingtree/wt-hackathon/issues/39',
+                imgSrc: require('./img/benefits/community.svg'),
+                imgWidth: 80,
+            },
+            {
+                title: '#9 Tours & Activities via blockchain',
+                href: 'https://github.com/windingtree/wt-hackathon/issues/51',
+                imgSrc: require('./img/benefits/git.svg'),
+                imgWidth: 80,
+            },
+            {
+                title: '#10 WT vs WWW Travel',
+                href: 'https://github.com/windingtree/wt-hackathon/issues/38',
+                imgSrc: require('./img/benefits/community.svg'),
+                imgWidth: 80,
+            },
+            {
+                title: '#11 WT Proof of trust',
+                href: 'https://github.com/windingtree/wt-hackathon/issues/32',
+                imgSrc: require('./img/benefits/git.svg'),
+                imgWidth: 80,
             },
         ],
     },
-    challenges:{
 
-    },
     videoGallery : {
         header : "What Our Hackathon Alumni Say",
         items:[

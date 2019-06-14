@@ -13,7 +13,7 @@ import ContactSection from 'commons/ContactSection';
 import DescriptonWithGallery from 'commons/DescriptionWithGallery';
 import LocationBlock from 'commons/LocationBlock';
 import LogosGallery from 'commons/LogosGallery';
-import NoChallenges from './NoChallenges';
+import ShortCardSection from 'commons/ShortCardSection';
 
 const event = Hacktravel;
 
@@ -26,7 +26,7 @@ const HacktravelLisbon2019 = () => (
     <AttendeeCardsSection data={event.attendees} id="register" />
     <AccentedTextSection data={event.hackathonProgram} id="program" />
     <AccentedTextSection data={event.sponsors} id="sponsors" />
-    <NoChallenges data={event.nochallenges} id="challenges" />
+    <ShortCardSection data={event.challenges} id="challenges" />
     <VideoGallerySimple data={event.videoGallery} id="video" />
     <LogosGallery data={event.hackedWithUs} id="hacked-with-us" />
     <LocationBlock data={event.location} id="location" />
