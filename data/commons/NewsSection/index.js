@@ -9,10 +9,10 @@ const NewsSection =  {
             thumbnail: require('./img/hackathon.png'),
         },
         {
-            articleUrl: "https://blog.windingtree.com/development-update-5-20-to-5-26-69cf5d829819",
-            articleTitle:"Weekly Development Update 5/20 to 5/26",
-            articleDescription:"read what we did",
-            thumbnail: require('./img/repo.png'),
+            articleUrl: "https://blog.windingtree.com/announcing-official-hacktravel-lisbon-2019-hackathon-challenges-9cc8a352e121",
+            articleTitle:"Announcing Official #HackTravel Lisbon 2019 Hackathon Challenges",
+            articleDescription:"review challenges",
+            thumbnail: require('./img/hackathon.png'),
         },
         {
             articleUrl: "https://blog.windingtree.com/building-trust-on-a-trustless-blockchain-ba71872f8541",
