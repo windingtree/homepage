@@ -253,7 +253,7 @@ const Hacktravel = {
                 href:''
             },
             {
-                imgSrc: require('./img/partners/h1.png'),
+                imgSrc: require('./img/partners/H1.png'),
                 href:''
             },
             {
