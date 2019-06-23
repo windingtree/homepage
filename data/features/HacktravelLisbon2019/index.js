@@ -222,7 +222,7 @@ const Hacktravel = {
         buttonStyle: "btn-primary",
     },
     hackedWithUs: {
-        header : "Already Hacked With Us",
+        header : "Hacking With Us",
         items : [
             {
                 imgSrc: require('DATA/commons/Partners/img/etihad.svg'),
