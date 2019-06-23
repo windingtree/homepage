@@ -225,53 +225,50 @@ const Hacktravel = {
         header : "Already Hacked With Us",
         items : [
             {
-                imgSrc: require('./img/partners/airfranceklm.svg'),
+                imgSrc: require('DATA/commons/Partners/img/etihad.svg'),
                 href:''
             },
             {
-                imgSrc: require('./img/partners/aircanada.png'),
+                imgSrc: require('DATA/commons/Partners/img/ibm.png'),
                 href:''
             },
             {
-                imgSrc: require('./img/partners/amadeus.png'),
+                imgSrc: require('DATA/commons/Partners/img/holidaypirates.png'),
                 href:''
             },
             {
-                imgSrc: require('./img/partners/erevmax.png'),
+                imgSrc: require('DATA/commons/Partners/img/accenture.png'),
                 href:''
             },
             {
-                imgSrc: require('./img/partners/airplus.png'),
+                imgSrc: require('DATA/commons/Partners/img/peakwork.svg'),
                 href:''
             },
             {
-                imgSrc: require('./img/partners/atpco.svg'),
+                imgSrc: require('DATA/commons/Partners/img/siesta.png'),
                 href:''
             },
             {
-                imgSrc: require('./img/partners/H1.png'),
+                imgSrc: require('DATA/commons/Partners/img/iata.png'),
                 href:''
             },
             {
-                imgSrc: require('./img/partners/lufthansa.svg'),
+                imgSrc: require('./img/partners/h1.png'),
                 href:''
             },
             {
-                imgSrc: require('./img/partners/korean.png'),
+                imgSrc: require('DATA/commons/Partners/img/searchcharter.png'),
                 href:''
             },
             {
-                imgSrc: require('./img/partners/mews.png'),
+                imgSrc: require('DATA/commons/Partners/img/basel.png'),
                 href:''
             },
             {
-                imgSrc: require('./img/partners/Salesforce.png'),
+                imgSrc: require('DATA/commons/Partners/img/cruisewatch.png'),
                 href:''
             },
-            {
-                imgSrc: require('./img/partners/swiss.svg'),
-                href:''
-            },
+            
 
         ]
     }
