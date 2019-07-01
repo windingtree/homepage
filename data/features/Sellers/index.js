@@ -23,17 +23,17 @@ const SellersPage = {
       },
       {
         title: 'Fast Search Across all Suppliers',
-        body: 'Make additional sales by opening you inventory to new sellers and payment methods',
+        body: 'Broad network of APIs helps you to search inventory you need and get filtered result',
         icon: require('./img/path.svg'),
       },
       {
         title: 'Easy and Free Access',
-        body: 'Make additional sales by opening you inventory to new sellers and payment methods',
+        body: 'Use our documentation portal to educate your developers how to connect to the ecosystem',
         icon: require('./img/easy.svg'),
       },
       {
         title: 'New products to sell',
-        body: 'Make additional sales by opening you inventory to new sellers and payment methods',
+        body: 'Sell ancillaries directly from suppliers and increase your revenue',
         icon: require('./img/plus.svg'),
       },
     ]
