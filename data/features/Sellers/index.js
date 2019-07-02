@@ -6,7 +6,7 @@ import Partners from 'DATA/commons/PartnersAndContributors';
 const SellersPage = {
   hero: {
     title: 'An entry point to travel inventory',
-    text: 'An open-source technology that gives sellers a commission-free access to thousands of hotels, airlines, cruises and other travel services worldwide.',
+    text: 'An open-source technology that gives sellers commission-free access to thousands of hotels, airlines, cruises and other travel services worldwide.',
     primaryButtonHref: CTAs.parntersAction,
     primaryButtonLabel: 'Apply for integration',
     SecondaryButtonLabel: 'Watch Video',
@@ -18,22 +18,22 @@ const SellersPage = {
     items: [
       {
         title: "Direct Distribution",
-        body: "No intermediaries, Internet itself distributes your inventory P2P'",
+        body: "No intermediaries, the internet itself distributes your inventory P2P",
         icon: require('./img/direct.svg'),
       },
       {
-        title: 'Fast Search Across all Suppliers',
-        body: 'Make additional sales by opening you inventory to new sellers and payment methods',
+        title: 'Quickly Search Across all Suppliers',
+        body: 'A broad network APIs helps you to search inventory and get filtered results',
         icon: require('./img/path.svg'),
       },
       {
         title: 'Easy and Free Access',
-        body: 'Make additional sales by opening you inventory to new sellers and payment methods',
+        body: 'Use our documentation portal to educate your developers on how to connect to the ecosystem',
         icon: require('./img/easy.svg'),
       },
       {
         title: 'New products to sell',
-        body: 'Make additional sales by opening you inventory to new sellers and payment methods',
+        body: 'Sell ancillaries directly from suppliers and increase your revenue',
         icon: require('./img/plus.svg'),
       },
     ]
