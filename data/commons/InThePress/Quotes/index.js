@@ -17,10 +17,10 @@ type QuoteType = {
 
 const quotes: QuoteType[] = [
   {
-    name: 'airFrance',
-    text: 'We are proud to be one of the first airline groups to join Winding Tree to develop Blockchain technology” said Sonia Barrière, EVP Strategy and Innovation at Air France-KLM.  “With a long-standing commitment to innovation with start-ups and partners, Air France-KLM is constantly creating the future of travel and devising solutions to make the travel experience easier and more personalized. With Blockchain technology, we aim to revolutionize exchanges within the travel industry for our customers, companies and start-ups...',
-    href: 'https://www.airfranceklm.com/en/news/air-france-klm-partners-winding-tree-strengthen-innovation-travel-industry-using-blockchain',
-    imgSrc: require('./img/airfranceklm.svg'),
+    name: 'Reuters',
+    text: '“Winding Tree is obviously our distribution (platform) and that’s an opportunity for us to disrupt a traditionally siloed market dominated by major distribution systems,” Tristan Thomas, Etihad’s director of digital and innovation, said in a phone interview.',
+    href: 'https://www.reuters.com/article/us-blockchain-airlines-etihad/emirates-etihad-partners-with-swiss-blockchain-platform-winding-tree-idUSKCN1UY2A9',
+    imgSrc: require('./img/reuters-logo.png'),
     imgWidth: 180,
     imgTopPosition: -2,
   },

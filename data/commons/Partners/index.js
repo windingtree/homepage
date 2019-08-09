@@ -42,6 +42,10 @@ const partnersSlide2: PartnerType[] = [
     imgSrc: require('./img/brussels.svg'),
   },
   {
+    name: 'Etihad',
+    imgSrc: require('./img/Etihad.png'),
+  },
+  {
     name: 'Citizen',
     imgSrc: require('./img/citizen.png'),
   },
