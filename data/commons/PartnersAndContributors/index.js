@@ -16,6 +16,12 @@ export type CollaboratorType = {
 
 const collaborators: CollaboratorType[] = [
   {
+    name: 'Etihad',
+    text: 'Winding Tree is obviously our distribution (platform) and that’s an opportunity for us to disrupt a traditionally siloed market dominated by major distribution systems',
+    imgSrc: require('./img/Etihad.png'),
+    imgTopPosition: -5,
+  },
+  {
     name: 'airNewZealand',
     text: 'Making the sales process less complex, Air New Zealand customers can benefit from reduced transactional costs, while the airline can take advantage of the swift and secure sharing of information',
     imgSrc: require('./img/anz.png'),
@@ -39,13 +45,6 @@ const collaborators: CollaboratorType[] = [
     imgWidth: 90,
     imgSrc: require('./img/siesta.png'),
     imgTopPosition: -5,
-  },
-  {
-    name: 'rsk',
-    text: 'Winding Tree will provide a testnet network using the smart contract solutions provided by the RSK network, using a two way payment channels we will be able to have a Lif token and smart contract platform for hotel distribution over bitcoin',
-    imgSrc: require('./img/rsk.png'),
-    imgWidth: 110,
-    imgTopPosition: -11,
   },
   {
     name: 'Zeppelin OS',
