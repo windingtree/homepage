@@ -5,15 +5,17 @@ import type { EventsType } from 'commons/Events/types';
 const events: EventsType = {
   upcoming: [
     {
-      startDate: '25-26',
-      startMonth: "Jun'19",
-      name: 'Win The Booking',
-      location: 'London, UK',
-      imgSrc: require('./img/winthebooking.png'),
-      text: 'The Annual Conference For eCommerce, Customer Experience and Digital Marketing Leaders In Europe’s Travel Industry',
-      buttonHref: 'https://digitaltraveleu.wbresearch.com/',
-      buttonText: 'check event',
+      startDate: '5',
+      startMonth: "Dec'19",
+      name: 'Hicon 2019',
+      location: 'Milan, Italy',
+      imgSrc: require('./img/hicon.png'),
+      text: 'Hicon - Hospitality Innovation Conference is the first event dedicated to the most advanced technologies in the hospitality industry',
+      buttonHref: 'https://www.hicon.it/eng/',
+      buttonText: 'Check event',
     },
+  ],
+  past: [
     {
       startDate: '3-5',
       startMonth: "Jul'19",
@@ -24,8 +26,16 @@ const events: EventsType = {
       buttonHref: '/hacktravel-lisbon-2019',
       buttonText: 'join hackathon',
     },
-  ],
-  past: [
+    {
+      startDate: '25-26',
+      startMonth: "Jun'19",
+      name: 'Win The Booking',
+      location: 'London, UK',
+      imgSrc: require('./img/winthebooking.png'),
+      text: 'The Annual Conference For eCommerce, Customer Experience and Digital Marketing Leaders In Europe’s Travel Industry',
+      buttonHref: 'https://digitaltraveleu.wbresearch.com/',
+      buttonText: 'check event',
+    },
     {
       startDate: '13',
       startMonth: "Jun'19",
