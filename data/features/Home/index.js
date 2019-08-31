@@ -9,7 +9,7 @@ import defaultEventItems from 'DATA/commons/Events'
 const mainPage = {
     hero:{
         mainHeading: 'Winding Tree',
-        subHeading:'We are happy to announce our second #HackTravel in Lisbon, July 2019. Check it out and hack travel with us!',
+        subHeading:'Decentralized Travel Ecosystem',
         mainCTAUrl:CTAs.parntersAction,
         mainCTALabel:'Join Ecosystem',
         secondaryCTAUrl:CTAs.hackathonLink,
