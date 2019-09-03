@@ -9,17 +9,22 @@ import defaultEventItems from 'DATA/commons/Events'
 const mainPage = {
     hero:{
         mainHeading: 'Winding Tree',
-        subHeading:'Decentralized Travel Ecosystem',
+        subHeading:'Welcome ORG.ID - future of business identity',
         mainCTAUrl:CTAs.parntersAction,
         mainCTALabel:'Join Ecosystem',
-        secondaryCTAUrl:CTAs.hackathonLink,
-        secondaryCTALabel:'Check out the hackathon'
+        secondaryCTAUrl:CTAs.orgIdLink,
+        secondaryCTALabel:'ORG.ID'
     },
     features:{
         header:'Features',
         mainCTAUrl:CTAs.parntersAction,
         mainCTALabel:'Join Ecosystem',
         items: [
+          {
+            name: 'ORG.ID',
+            text: "We call the organization representation ORG.ID and maintain a global decentralized business registry of them. It is analogous to government-maintained registries, except that it doesn't rely on a central party and there is no bureaucracy involved in working with it",
+            imgSrc: require('./img/puzzle.svg'),
+          },
           {
             name: 'Decentralized Infrastructure',
             text: 'No one owns the distribution “server”, because there’s no this server. Blockchain provides core features and hundreds of Winding Tree API instances provide business logic.',
@@ -52,11 +57,7 @@ const mainPage = {
               text: 'Check API & docs',
             },
           },
-          {
-            name: 'Data Standards',
-            text: 'Revolutionary approach requires a kind of convention over configuration for parties, and this is what our Data Standards about - make inventory information usable across all software in the industry.',
-            imgSrc: require('./img/puzzle.svg'),
-          },
+          
         ],
     },
     howItWorks:{
