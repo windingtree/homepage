@@ -40,42 +40,6 @@ const Hacktravel = {
             header:'Designed For Beginners and Experts',
         },
     ],
-    attendees : {
-        header: "Who is Invited",
-        subtitle: "",
-        types: [
-            {
-                imgSrc:require('./img/benefits/plane.svg'),
-                title:'Airlines \n & Hotels',
-                buttonUrl: CTAs.eventAttendeeAction,
-                buttonLabel: "Apply To Get Early Bird Tickets",
-                buttonStyle: "btn-primary",
-                benefits: ["Learn new technology","Collaborate on solutions","Get complimentary training for your tech team","Solve your own business challenges"],
-                accentedNotice: "Early Bird Tickets 250$",
-                secondaryNotice: "50% off if you’re bringing your technical team to hack. Spots are limited to 50"
-            },
-            {
-                imgSrc:require('./img/benefits/git.svg'),
-                title:'Independent Developers\n& Software Companies',
-                buttonUrl: CTAs.eventAttendeeAction,
-                buttonLabel: "Join For Free",
-                buttonStyle: "btn-primary",
-                benefits: ["Form or join a team to hack","Work on proposed challenges","Bring your own hack idea","Experiment","Get mentorship"],
-                accentedNotice: "Approved hackers are invited to join us at zero cost.",
-                secondaryNotice: "Spots are limited to 80"
-            },
-            {
-                imgSrc:require('./img/benefits/ota.svg'),
-                title:'Travel Startups\n& OTAs',
-                buttonUrl: CTAs.eventAttendeeAction,
-                buttonLabel: "Join For Free",
-                buttonStyle: "btn-primary",
-                benefits: ["Bring your team to learn and hack","Get training and mentorship","Work on your own idea","Experiment","Connect with industry veterans"],
-                accentedNotice: "Approved hackers are invited to join us at zero cost.",
-                secondaryNotice: "Spots are limited to 80"
-            },
-        ],
-    },
     sponsors : {
         header : 'Contribute as a Sponsor and Get More',
         text : 'Put your organization in the spotlight of innovation and support the community of industry disruptors. We got tons of great sponsor benefits for you - get in touch and we’ll be happy to discuss the many ways you can be part of this event.',
