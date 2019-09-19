@@ -6,8 +6,6 @@ const Hacktravel = {
         subtitle:"November 4-6, London, UK",
         description: "Build open source, decentralized solutions along with airlines, hotels, travel startups and blockchain experts.",
         imgSrc: require('./img/hacktravellisbon.jpg'),
-        mainButtonLabel: "Join Hackathon",
-        mainButtonUrl: "#register",
         secondaryButtonLabel: "Watch Video",
         secondaryButtonUrl: "09xe4IX1mrc"
     },
@@ -171,19 +169,6 @@ const Hacktravel = {
             },
 
         ]
-    },
-    hackathonProgram :{
-        header: 'Hackathon Program',
-        text: 'what, when and where for hackathon participants',
-        buttonLabel: 'Program Details',
-        buttonUrl: '/hacktravelprogram'
-    },
-    callToAction :{
-        header : 'Ready to Join the Hackathon?',
-        text : 'Contribute to moving the travel industry forward. Build open source, decentralized solutions along with airlines, hotels, travel startups and blockchain experts',
-        buttonUrl: "#register",
-        buttonLabel: "Register",
-        buttonStyle: "btn-primary",
     },
     hackedWithUs: {
         header : "Hacking With Us",

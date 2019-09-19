@@ -22,13 +22,11 @@ const HacktravelLondon2019 = () => (
     <EventPageHeroBanner data={event.header} />
     <ShortBenefits data={event.benefits} id="benefits" />
     <DescriptonWithGallery data={event.about} photos={event.photos} id="about" />
-    <AccentedTextSection data={event.hackathonProgram} id="program" />
     <AccentedTextSection data={event.sponsors} id="sponsors" />
     <ShortCardSection data={event.challenges} id="challenges" />
     <VideoGallerySimple data={event.videoGallery} id="video" />
     <LogosGallery data={event.hackedWithUs} id="hacked-with-us" />
     <LocationBlock data={event.location} id="location" />
-    <AccentedTextSection data={event.callToAction} id="ready" />
     <ContactSection data={event.contacts} id="contacts" />
   </main>
 );

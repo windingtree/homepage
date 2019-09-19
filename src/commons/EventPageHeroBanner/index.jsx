@@ -79,16 +79,24 @@ class EventPageHeroBanner extends React.Component<*, StateType> {
                 </Col>
                 <Col xs={12}>
                   <ul className="d-flex flex-column flex-md-row justify-content-md-center align-items-md-center list-inline">
-                    <li className="mb-1 mb-lg-0 ml-0 mr-md-1">
-                      <Button href={data.mainButtonUrl} block>
-                        {data.mainButtonLabel}
-                      </Button>
-                    </li>
-                    <li className="mb-1 mb-lg-0 list-inline-item">
-                      <Button block variant="light" onClick={this.hanldeOnClick}>
-                        {data.secondaryButtonLabel}
-                      </Button>
-                    </li>
+                    {
+                      data.mainButtonUrl && data.mainButtonLabel
+                      && (
+                        <li className="mb-1 mb-lg-0 ml-0 mr-md-1">
+                          <Button href={data.mainButtonUrl} block>
+                            {data.mainButtonLabel}
+                          </Button>
+                        </li>
+                      )}
+                    {
+                      data.secondaryButtonLabel
+                      && (
+                        <li className="mb-1 mb-lg-0 list-inline-item">
+                          <Button block variant="light" onClick={this.hanldeOnClick}>
+                            {data.secondaryButtonLabel}
+                          </Button>
+                        </li>
+                      )}
                   </ul>
                 </Col>
               </Row>
