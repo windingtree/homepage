@@ -8,8 +8,12 @@ const Hacktravel = {
         imgSrc: require('./img/hacktravellisbon.jpg'),
         mainButtonLabel: "Join Hackathon",
         mainButtonUrl: "#register",
-        secondaryButtonLabel: "Watch Video",
-        secondaryButtonUrl: "09xe4IX1mrc"
+        secondaryButtons: [
+            {
+                buttonLabel: "Watch Video",
+                buttonUrl: "09xe4IX1mrc",
+            },
+        ],
     },
     about : {
         header : 'What to Expect',

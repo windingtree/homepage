@@ -15,7 +15,8 @@ class EventPageHeroBanner extends React.Component<*, StateType> {
 
   hanldeOnClick = (e: SyntheticMouseEvent<*>) => {
     e.preventDefault();
-    this.setState({ showModal: true });
+    console.log(e.target.value);
+    this.setState({ showModal: true, videoSrc: e.target.value });
   }
 
   hideModal = () => {
@@ -23,7 +24,7 @@ class EventPageHeroBanner extends React.Component<*, StateType> {
   };
 
   render() {
-    const { showModal } = this.state;
+    const { showModal, videoSrc } = this.state;
     const { data } = this.props;
     return (
       <>
@@ -42,9 +43,9 @@ class EventPageHeroBanner extends React.Component<*, StateType> {
 
           <VideoModal
             show={showModal}
-            videoSrc={data.secondaryButtonUrl}
+            videoSrc={videoSrc}
             onHide={this.hideModal}
-            title="Recap of Hacktravel Prague"
+            title="Recap of Hacktravel"
           />
 
           <Container>
@@ -88,15 +89,13 @@ class EventPageHeroBanner extends React.Component<*, StateType> {
                           </Button>
                         </li>
                       )}
-                    {
-                      data.secondaryButtonLabel
-                      && (
-                        <li className="mb-1 mb-lg-0 list-inline-item">
-                          <Button block variant="light" onClick={this.hanldeOnClick}>
-                            {data.secondaryButtonLabel}
-                          </Button>
-                        </li>
-                      )}
+                    {data.secondaryButtons.map(({ buttonLabel, buttonUrl }) => (
+                      <li className="mb-1 mb-lg-0 list-inline-item" key={buttonUrl}>
+                        <Button block variant="light" onClick={this.hanldeOnClick} value={buttonUrl}>
+                          {buttonLabel}
+                        </Button>
+                      </li>
+                    ))}
                   </ul>
                 </Col>
               </Row>

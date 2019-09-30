@@ -7,8 +7,17 @@ const Hacktravel = {
     subtitle: 'November 4-6, London, UK',
     description: 'Build open source, decentralized solutions along with airlines, hotels, travel startups and blockchain experts.',
     imgSrc: require('./img/hacktravellisbon.jpg'),
-    secondaryButtonLabel: 'Watch Video',
-    secondaryButtonUrl: '09xe4IX1mrc',
+    secondaryButtons: [
+        {
+            buttonLabel: 'Prague hackathon',
+            buttonUrl: '09xe4IX1mrc',
+        },
+        {
+            buttonLabel: 'Lisbon hackathon',
+            buttonUrl: 'PA-cTWPEqGI',
+        }
+    ]
+    
   },
   about: {
     header: 'What to Expect',
