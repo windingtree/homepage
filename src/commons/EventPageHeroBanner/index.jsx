@@ -7,13 +7,17 @@ import VideoModal from 'commons/VideoModal';
 
 
 type StateType = {
-  showModal: boolean
+  showModal: boolean,
+  videoSrc: string
 };
 
 class EventPageHeroBanner extends React.Component<*, StateType> {
-  state = { showModal: false };
+  state = {
+    showModal: false,
+    videoSrc: '',
+  };
 
-  hanldeOnClick = (e: SyntheticMouseEvent<*>) => {
+  hanldeOnClick = (e: SyntheticInputEvent<EventTarget>) => {
     e.preventDefault();
     this.setState({ showModal: true, videoSrc: e.target.value });
   }
