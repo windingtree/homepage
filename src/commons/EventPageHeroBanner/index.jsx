@@ -15,7 +15,6 @@ class EventPageHeroBanner extends React.Component<*, StateType> {
 
   hanldeOnClick = (e: SyntheticMouseEvent<*>) => {
     e.preventDefault();
-    console.log(e.target.value);
     this.setState({ showModal: true, videoSrc: e.target.value });
   }
 
