@@ -7,6 +7,7 @@ import Hacktravel from 'DATA/features/HacktravelLondon2019';
 import EventPageHeroBanner from 'commons/EventPageHeroBanner';
 import AccentedTextSection from 'commons/AccentedTextSection';
 import ShortBenefits from 'commons/ShortBenefits';
+import AttendeeCardsSection from 'commons/AttendeeCardsSection';
 import VideoGallerySimple from 'commons/VideoGallerySimple';
 import ContactSection from 'commons/ContactSection';
 import DescriptonWithGallery from 'commons/DescriptionWithGallery';
@@ -22,6 +23,7 @@ const HacktravelLondon2019 = () => (
     <EventPageHeroBanner data={event.header} />
     <ShortBenefits data={event.benefits} id="benefits" />
     <DescriptonWithGallery data={event.about} photos={event.photos} id="about" />
+    <AttendeeCardsSection data={event.attendees} id="register" />
     <AccentedTextSection data={event.sponsors} id="sponsors" />
     <ShortCardSection data={event.challenges} id="challenges" />
     <VideoGallerySimple data={event.videoGallery} id="video" />
