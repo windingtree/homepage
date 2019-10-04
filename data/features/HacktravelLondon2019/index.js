@@ -7,6 +7,8 @@ const Hacktravel = {
     subtitle: 'November 4-6, London, UK',
     description: 'Build open source, decentralized solutions along with airlines, hotels, travel startups and blockchain experts.',
     imgSrc: require('./img/hacktravellisbon.jpg'),
+    mainButtonLabel: "Join Hackathon",
+    mainButtonUrl: "https://windingtree400478.typeform.com/to/cSoRFW",
     secondaryButtons: [
         {
             buttonLabel: 'Prague hackathon',
