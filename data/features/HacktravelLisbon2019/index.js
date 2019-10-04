@@ -8,14 +8,22 @@ const Hacktravel = {
         imgSrc: require('./img/hacktravellisbon.jpg'),
         mainButtonLabel: "Join Hackathon",
         mainButtonUrl: "#register",
-        secondaryButtonLabel: "Watch Video",
-        secondaryButtonUrl: "09xe4IX1mrc"
+        secondaryButtons: [
+            {
+                buttonLabel: "Watch Video",
+                buttonUrl: "09xe4IX1mrc",
+            },
+        ],
     },
     about : {
         header : 'What to Expect',
         text : '#HackTravel hackathon is a unique opportunity for the most forward thinking travel industry players to come together and collaboratively tackle real world industry pain points.\n \nFollowing the success of our #HackTravel Prague hackathon, this year we’re adding more benefits, content and activities for our community to get the most out of their participation.',
-        ButtonLabel: "#HackTravel Prague Recap",
-        ButtonUrl: "https://blog.windingtree.com/hacktravel-hackathon-recap-feacb65cc47d",
+        buttons: [
+            {
+                ButtonLabel: "#HackTravel Prague Recap",
+                ButtonUrl: "https://blog.windingtree.com/hacktravel-hackathon-recap-feacb65cc47d",
+            },
+        ],
     },
     photos : [
         {
