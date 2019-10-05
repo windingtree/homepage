@@ -65,12 +65,10 @@ const Hacktravel = {
       {
         imgSrc: require('./img/benefits/plane.svg'),
         title: 'Airlines \n & Hotels',
-        // buttonUrl: CTAs.eventAttendeeAction,
-        buttonLabel: 'Soon', //'Apply To Get Early Bird Tickets',
+        buttonUrl: 'https://london.wtm.com/visit/Visitor-registration/',
+        buttonLabel: 'buy your ticket now',
         buttonStyle: 'btn-primary',
         benefits: ['Learn new technology', 'Collaborate on solutions', 'Get complimentary training for your tech team', 'Solve your own business challenges'],
-        accentedNotice: 'Early Bird Tickets 250$',
-        secondaryNotice: '50% off if you’re bringing your technical team to hack. Spots are limited to 50',
       },
       {
         imgSrc: require('./img/benefits/git.svg'),
