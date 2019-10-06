@@ -7,19 +7,19 @@ const Hacktravel = {
     subtitle: 'November 4-6, London, UK',
     description: 'Build open source, decentralized solutions along with airlines, hotels, travel startups and blockchain experts.',
     imgSrc: require('./img/hacktravellisbon.jpg'),
-    mainButtonLabel: "Join Hackathon",
-    mainButtonUrl: "https://windingtree400478.typeform.com/to/cSoRFW",
+    mainButtonLabel: 'Join Hackathon',
+    mainButtonUrl: '#register',
     secondaryButtons: [
-        {
-            buttonLabel: 'Prague hackathon',
-            buttonUrl: '09xe4IX1mrc',
-        },
-        {
-            buttonLabel: 'Lisbon hackathon',
-            buttonUrl: 'PA-cTWPEqGI',
-        }
-    ]
-    
+      {
+        buttonLabel: 'Prague hackathon',
+        buttonUrl: '09xe4IX1mrc',
+      },
+      {
+        buttonLabel: 'Lisbon hackathon',
+        buttonUrl: 'PA-cTWPEqGI',
+      },
+    ],
+
   },
   about: {
     header: 'What to Expect',
@@ -58,6 +58,40 @@ const Hacktravel = {
       header: 'Designed For Beginners and Experts',
     },
   ],
+  attendees: {
+    header: 'Who is Invited',
+    subtitle: '',
+    types: [
+      {
+        imgSrc: require('./img/benefits/plane.svg'),
+        title: 'Airlines \n & Hotels',
+        buttonUrl: 'https://london.wtm.com/visit/Visitor-registration/',
+        buttonLabel: 'buy your ticket now',
+        buttonStyle: 'btn-primary',
+        benefits: ['Learn new technology', 'Collaborate on solutions', 'Get complimentary training for your tech team', 'Solve your own business challenges'],
+      },
+      {
+        imgSrc: require('./img/benefits/git.svg'),
+        title: 'Independent Developers\n& Software Companies',
+        buttonUrl: 'https://windingtree400478.typeform.com/to/cSoRFW',
+        buttonLabel: 'Join For Free',
+        buttonStyle: 'btn-primary',
+        benefits: ['Form or join a team to hack', 'Work on proposed challenges', 'Bring your own hack idea', 'Experiment', 'Get mentorship'],
+        accentedNotice: 'Approved hackers are invited to join us at zero cost.',
+        secondaryNotice: 'Spots are limited to 60',
+      },
+      {
+        imgSrc: require('./img/benefits/ota.svg'),
+        title: 'Travel Startups\n& OTAs',
+        buttonUrl: 'https://windingtree400478.typeform.com/to/cSoRFW',
+        buttonLabel: 'Join For Free',
+        buttonStyle: 'btn-primary',
+        benefits: ['Bring your team to learn and hack', 'Get training and mentorship', 'Work on your own idea', 'Experiment', 'Connect with industry veterans'],
+        accentedNotice: 'Approved hackers are invited to join us at zero cost.',
+        secondaryNotice: 'Spots are limited to 60',
+      },
+    ],
+  },
   sponsors: {
     header: 'Contribute as a Sponsor and Get More',
     text: 'Put your organization in the spotlight of innovation and support the community of industry disruptors. We got tons of great sponsor benefits for you - get in touch and we’ll be happy to discuss the many ways you can be part of this event.',
