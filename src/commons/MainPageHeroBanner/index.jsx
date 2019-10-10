@@ -61,12 +61,20 @@ class MainPageHeroBanner extends React.Component<*, StateType> {
                   </p>
                 </Col>
                 <Col xs={12}>
+                  <ul className="mb-2 d-flex flex-column flex-md-row justify-content-md-center align-items-md-center list-inline">
+                    <li className="mb-1 mb-lg-0 ml-0">
+                      <Button href="/hacktravel-London-2019" size="lg">
+                        JOIN LONDON HACKATHON
+                      </Button>
+                    </li>
+                  </ul>
+                </Col>
+                <Col xs={12}>
                   <ul className="d-flex flex-column flex-md-row justify-content-md-center align-items-md-center list-inline">
                     <li className="mb-1 mb-lg-0 ml-0 mr-md-1">
-                      <Button href={data.secondaryCTAUrl} block>
+                      <Button href={data.secondaryCTAUrl} block outlined variant="light">
                         {data.secondaryCTALabel}
                       </Button>
-
                     </li>
                     <li className="mb-1 mb-lg-0 list-inline-item">
                       <Button href={data.mainCTAUrl} block outlined variant="light">
