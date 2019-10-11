@@ -65,7 +65,7 @@ const Hacktravel = {
       {
         imgSrc: require('./img/benefits/plane.svg'),
         title: 'Airlines \n & Hotels',
-        buttonUrl: 'https://london.wtm.com/visit/Visitor-registration/',
+        buttonUrl: 'https://travelforward.wtm.com/en/landing-pages/tickets-lite/',
         buttonLabel: 'buy your ticket now',
         buttonStyle: 'btn-primary',
         benefits: ['Learn new technology', 'Collaborate on solutions', 'Get complimentary training for your tech team', 'Solve your own business challenges'],
