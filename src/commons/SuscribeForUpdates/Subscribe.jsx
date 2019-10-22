@@ -9,7 +9,7 @@ const Subscribe = () => (
     </h3>
     <div className="cover-btn">
       <Button
-        href="https://windingtree.us14.list-manage.com/subscribe/post?u=93dec359c99b9871f7330768c&id=2f41b0318a"
+        href="https://cdn.forms-content.sg-form.com/fe31f6ca-f418-11e9-8553-deef8f8d9bbd"
         target="_blank"
         type="buton"
         title="Click to subscribe"
@@ -23,7 +23,7 @@ const Subscribe = () => (
         />
         <InputGroup.Append>
           <Button
-            href="https://windingtree.us14.list-manage.com/subscribe/post?u=93dec359c99b9871f7330768c&id=2f41b0318a"
+            href="https://cdn.forms-content.sg-form.com/fe31f6ca-f418-11e9-8553-deef8f8d9bbd"
             target="_blank"
             variant="accent"
             type="submit"
