@@ -8,7 +8,7 @@ const HacktravelProgram = () => (
     <CustomHelmet {...metadata.home} />
 
     <section className="short-banner-bg py-4 px-1">
-      <h1 className="mt-4 text-center text-white">#HackTravel Lisbon 2019 Program</h1>
+      <h1 className="mt-4 text-center text-white">#HackTravel London 2019 Program</h1>
     </section>
 
     <div className="container py-md-4 px-md-4 px-1 py-4">
@@ -16,157 +16,180 @@ const HacktravelProgram = () => (
       <div>
         <b>Venue:</b>
         {' '}
-LX Factory, Building Fabrica L
+        ExCeL London
       </div>
       <div>
         <b>Address:</b>
         {' '}
-R. Rodrigues de Faria 103, 1300-501 Lisboa, Portugal
+        Royal Victoria Dock, 1 Western Gateway, Royal Docks, London E16 1XL
       </div>
       <div>
         <b>Website:</b>
-        <a href=" https://lxfactory.com/en/lx-factory/"> https://lxfactory.com/en/lx-factory/</a>
+        <a href="https://www.excel.london/"> https://www.excel.london/ </a>
       </div>
 
 
       <h2 className="pt-2">WHAT & WHEN</h2>
-      <h3 className="pt-1">July 3, 2019</h3>
+      <h3 className="pt-1">November 4, 2019</h3>
       <div>
-        <b>1:00pm:</b>
+        <b>8:00am:</b>
         {' '}
-Doors open & Registration
+Doors open
       </div>
+
       <div>
-        <b>1:30pm:</b>
-        <a href="https://blog.windingtree.com/were-pioneering-travel-tech-business-hackathon-tickets-are-open-ba6489078bca"> Business Hackathon</a>
+        <b>10:00am:</b>
+        {' '}
+        Registration, Breakfast & Coffee
+      </div>
+
+
+      <div>
+        <b>10:30pm:</b>
+        <a> Main Program Talks</a>
         {' '}
 kick off
         <ul>
-          <li>Business hackathon introduction & process overview</li>
-          <li>Demo case studies</li>
+          <li>Welcome Note</li>
+          <li>Special Announcement from Winding Tree Team</li>
+          <li>Introduction to Hackathon Challenges, Rules & Submission Process</li>
         </ul>
       </div>
       <div>
+        <b>1:30pm:</b>
+        {' '}
+        Lunch, Networking / Team Forming
+      </div>
+
+      <div>
+        <b>2:00pm:</b>
+        <a> Technical Hackathon Kicks Off:</a>
+        {' '}
+kick off
+        <ul>
+          <li>Winding Tree Platform Onboarding Demos</li>
+          <li>Team Forming</li>
+        </ul>
+      </div>
+
+      <div>
         <b>2:30pm:</b>
         {' '}
-Coffee & snacks break
+        Hacking Continues
       </div>
+
       <div>
-        <b>3:00pm:</b>
-        {' '}
-Business Hackathon - group work
-      </div>
-      <div>
-        <b>5:00pm:</b>
+        <b>6:00pm:</b>
         {' '}
 Happy Hour & Getting to know each other
       </div>
       <div>
-        <b>6:00-7:00pm:</b>
+        <b>7:00pm:</b>
         {' '}
-Beginners Crash Course on Winding Tree platform, decentralization, smart contracts, public blockchains and open source
+        Doors close
       </div>
 
-      <h3 className="pt-2">July 4, 2019</h3>
       <div>
-        <b>8:30am:</b>
+        <b>NB: Please bring noise cancelling headphones as we are going to be surrounded by the crowd!</b>
+      </div>
+
+      <h3 className="pt-2">November 5, 2019</h3>
+      <div>
+        <b>9:00am:</b>
         {' '}
 Doors open & Registration, Breakfast & Coffee
       </div>
       <div>
-        <b>9:00pm:</b>
-            Main Program Talks
-        <ul>
-          <li>Welcome Note</li>
-          <li>Special Announcement from Winding Tree team</li>
-          <li>Partner Case Studies</li>
-          <li>Introduction to Hackathon Challenges, Rules, Submission Process</li>
-        </ul>
+        <b>9:30am:</b>
+        {' '} Hacking Continues
       </div>
+      <div>
+        <b>11:00am:</b>
+        {' '}
+        Workshop by Makoto Inoue, Founder of Matoken Limited, on  
+“How to use Ethereum+IPFS+ENS to make decentralised website”
+      </div>
+
       <div>
         <b>12:00pm:</b>
-        {' '}
-Lunch & Networking / Teams Forming
+        {' '} Time for Q&A
       </div>
+
       <div>
-        <b>1:00pm:</b>
-            Technical Hackathon kick off:
-        <ul>
-          <li>Winding Tree Platform Onboarding Demos</li>
-          <li>Teams Forming</li>
-        </ul>
+        <b>12:30pm:</b>
+        {' '}
+        Lunch & Networking 
       </div>
+
       <div>
         <b>1:30pm:</b>
         {' '}
-Hacking Continues: Technical & Business tracks
+        Workshop on “Overcoming the fear of development on Blockchain"
+
       </div>
+
       <div>
         <b>3:00pm:</b>
         {' '}
-Coffee & snacks break
+        Coffee & snacks break
       </div>
+
       <div>
-        <b>5:00pm:</b>
+        <b>3:30pm:</b>
         {' '}
-Business Hackathon stops / submissions
+        Ask Me Anything session with Winding Tree team // Hacking Continues
       </div>
+
       <div>
-        <b>5:30pm:</b>
+        <b>6:00pm:</b>
         {' '}
-Happy Hour & Business Hackathon outcomes
+        Doors close
       </div>
+    
+
+      <h3 className="pt-2">November 6, 2019</h3>
       <div>
-        <b>7:00pm:</b>
+        <b>9:00am:</b>
         {' '}
-Dinner & Networking
+        Doors open & Breakfast & Coffee
       </div>
       <div>
-        <b>8:00pm+:</b>
+        <b>9:30pm:</b>
         {' '}
 Hacking Continues
       </div>
 
-      <h3 className="pt-2">July 5, 2019</h3>
-      <div>
-        <b>8:30am:</b>
-        {' '}
-Doors open & Registration, Breakfast & Coffee
-      </div>
-      <div>
-        <b>9:00pm:</b>
-        {' '}
-Hacking Continues
-      </div>
       <div>
         <b>12:00pm:</b>
         {' '}
 Lunch & Networking
       </div>
+
       <div>
-        <b>2:00pm:</b>
+        <b>1:30pm:</b>
         {' '}
 Hacking stops & submissions
       </div>
       <div>
-        <b>3:00pm:</b>
+        <b>2:00-4:00pm:</b>
         {' '}
 Hack Pitching starts
       </div>
       <div>
-        <b>5:00-7:00pm:</b>
+        <b>4:00</b>
         {' '}
-Happy Hour & Pitch Judging
+        Happy Hour & Pitch Judging + Hacker Awards
       </div>
       <div>
-        <b>8:00-11:00pm:</b>
+        <b>6:00pm:</b>
+        {' '}
+        Doors close
+      </div>
+{' '}{' '}
+      <div>
+        <b>6:00pm+:</b>
         {' '}
 After Party
-      </div>
-      <div>
-        <b>9:00pm:</b>
-        {' '}
-Hacker Awards
       </div>
     </div>
 
