@@ -46,7 +46,7 @@ Doors open
 
       <div>
         <b>10:30pm:</b>
-        <a> Main Program Talks</a>
+        Main Program Talks
         {' '}
 kick off
         <ul>
@@ -63,7 +63,7 @@ kick off
 
       <div>
         <b>2:00pm:</b>
-        <a> Technical Hackathon Kicks Off:</a>
+        Technical Hackathon Kicks Off:
         {' '}
 kick off
         <ul>
@@ -101,30 +101,34 @@ Doors open & Registration, Breakfast & Coffee
       </div>
       <div>
         <b>9:30am:</b>
-        {' '} Hacking Continues
+        {' '}
+        {' '}
+Hacking Continues
       </div>
       <div>
         <b>11:00am:</b>
         {' '}
-        Workshop by Makoto Inoue, Founder of Matoken Limited, on  
+        Workshop by Makoto Inoue, Founder of Matoken Limited, on
 “How to use Ethereum+IPFS+ENS to make decentralised website”
       </div>
 
       <div>
         <b>12:00pm:</b>
-        {' '} Time for Q&A
+        {' '}
+        {' '}
+Time for Q&A
       </div>
 
       <div>
         <b>12:30pm:</b>
         {' '}
-        Lunch & Networking 
+        Lunch & Networking
       </div>
 
       <div>
         <b>1:30pm:</b>
         {' '}
-        Workshop on “Overcoming the fear of development on Blockchain"
+        Workshop on: Overcoming the fear of development on Blockchain
 
       </div>
 
@@ -145,7 +149,7 @@ Doors open & Registration, Breakfast & Coffee
         {' '}
         Doors close
       </div>
-    
+
 
       <h3 className="pt-2">November 6, 2019</h3>
       <div>
@@ -185,7 +189,8 @@ Hack Pitching starts
         {' '}
         Doors close
       </div>
-{' '}{' '}
+      {' '}
+      {' '}
       <div>
         <b>6:00pm+:</b>
         {' '}
