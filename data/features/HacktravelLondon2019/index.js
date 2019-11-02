@@ -271,6 +271,10 @@ const Hacktravel = {
         imgSrc: require('DATA/commons/Partners/img/cruisewatch.png'),
         href: '',
       },
+      {
+        imgSrc: require('./img/partners/ens.png'),
+        href: '',
+      },
 
 
     ],
