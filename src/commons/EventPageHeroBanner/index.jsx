@@ -92,13 +92,7 @@ class EventPageHeroBanner extends React.Component<*, StateType> {
                           </Button>
                         </li>
                       )}
-                    {data.secondaryButtons.map(({ buttonLabel, buttonUrl }) => (
-                      <li className="mb-1 mb-lg-0 list-inline-item" key={buttonUrl}>
-                        <Button block variant="light" onClick={this.hanldeOnClick} value={buttonUrl}>
-                          {buttonLabel}
-                        </Button>
-                      </li>
-                    ))}
+
                   </ul>
                 </Col>
               </Row>
