@@ -5,6 +5,18 @@ import type { EventsType } from 'commons/Events/types';
 const events: EventsType = {
   upcoming: [
     {
+      startDate: '26',
+      startMonth: "Feb'20",
+      name: 'Travel Technology Europe',
+      location: 'London, UK',
+      imgSrc: require('./img/tte20.png'),
+      text: 'EUROPE\'S DEDICATED EVENT FOR TRAVEL TECHNOLOGY',
+      buttonHref: 'https://www.traveltechnologyeurope.com/',
+      buttonText: 'Check event',
+    }
+  ],
+  past: [
+    {
       startDate: '5',
       startMonth: "Dec'19",
       name: 'Hicon 2019',
@@ -14,8 +26,6 @@ const events: EventsType = {
       buttonHref: 'https://www.hicon.it/eng/',
       buttonText: 'Check event',
     },
-  ],
-  past: [
     {
       startDate: '3-5',
       startMonth: "Jul'19",
