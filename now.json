@@ -1,5 +1,6 @@
 {
   "name": "homepage",
+  "version": 1,
   "scale": {
     "sfo1": {
       "min": 1,
