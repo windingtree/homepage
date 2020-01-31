@@ -3,22 +3,22 @@ const NewsSection =  {
     header : "Latest From Blog",
     items:[
         {
-            articleUrl: "https://blog.windingtree.com/weekly-development-update-7-22-to-7-29-f869cd5bfb93",
-            articleTitle:"Weekly Development Update 7/22 to 7/29",
+            articleUrl: "https://blog.windingtree.com/the-three-essential-components-of-a-digital-ecosystem-cb33077d5554",
+            articleTitle:"The Three Essential Components of a Digital Ecosystem",
             articleDescription:"",
-            thumbnail: require('./img/repo.png'),
+            thumbnail: require('./img/chain.jpeg'),
         },
         {
-            articleUrl: "https://blog.windingtree.com/2019-lisbon-hacktravel-technical-recap-509bcc9adcd7",
-            articleTitle:"#HackTravel Lisbon 2019 Recap",
+            articleUrl: "https://blog.windingtree.com/the-state-of-winding-tree-2019-year-in-review-45c261467cad",
+            articleTitle:"The State of Winding Tree: 2019 Year in Review",
+            articleDescription:"",
+            thumbnail: require('./img/wt.png'),
+        },
+        {
+            articleUrl: "https://blog.windingtree.com/hacktravel-london-2019-hackathon-technical-recap-db126955bf29",
+            articleTitle:"#HackTravel London 2019 Hackathon — Technical Recap",
             articleDescription:"",
             thumbnail: require('./img/hackathon.png'),
-        },
-        {
-            articleUrl: "https://blog.windingtree.com/building-trust-on-a-trustless-blockchain-ba71872f8541",
-            articleTitle:"Building trust on a trustless blockchain",
-            articleDescription:"",
-            thumbnail: require('./img/protection.png'),
         },
         
 
