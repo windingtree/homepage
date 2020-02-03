@@ -13,6 +13,26 @@ const events: EventsType = {
       text: 'EUROPE\'S DEDICATED EVENT FOR TRAVEL TECHNOLOGY',
       buttonHref: 'https://www.traveltechnologyeurope.com/',
       buttonText: 'Check event',
+    },
+    {
+      startDate: '4-8',
+      startMonth: "Mar'20",
+      name: 'ITB Berlin',
+      location: 'Berlin, Germany',
+      imgSrc: require('./img/itb_berlin_logo.svg'),
+      text: 'Experience the whole world of travel at ITB Berlin – all in one location: Countries, cities and regions, tour operators, online booking portals and hotels, and many other service providers from over 180 countries present their products and services.',
+      buttonHref: 'https://www.itb-berlin.com/Visitors/Events/EventSearch/EventDetail.jsp?eventDateId=627489&pageTitle=Product+Launch%3A+Unveiling+Fair+Trade+Travel',
+      buttonText: 'Check event',
+    },
+    {
+      startDate: '13-22',
+      startMonth: "Mar'20",
+      name: '2020 SXSW Finalists Pitch',
+      location: 'Austin, USA',
+      imgSrc: require('./img/sxsw2020.png'),
+      text: 'Meet all 50 SXSW Pitch Finalists as they showcase their products and services to the Startup and Tech Sectors audience.',
+      buttonHref: 'https://schedule.sxsw.com/2020/events/OE39821',
+      buttonText: 'Check event',
     }
   ],
   past: [
