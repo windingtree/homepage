@@ -25,6 +25,16 @@ const events: EventsType = {
       buttonText: 'Check event',
     },
     {
+      startDate: '5-8',
+      startMonth: "Mar'20",
+      name: 'Delphi Economic Forum',
+      location: 'Delphi, Greece',
+      imgSrc: require('./img/def.png'),
+      text: 'Delphi Economic Forum V will take place between Thursday, March 5 and Sunday, March 8, 2020 aiming to identify the main global trends, assess their implications and review the resulting challenges and policy options confronting decision-makers of the wider Eastern Mediterranean Region, Europe and the World.',
+      buttonHref: 'http://www.delphiforum.gr/',
+      buttonText: 'Check event',
+    },
+    {
       startDate: '13-22',
       startMonth: "Mar'20",
       name: '2020 SXSW Finalists Pitch',
@@ -32,6 +42,16 @@ const events: EventsType = {
       imgSrc: require('./img/sxsw2020.png'),
       text: 'Meet all 50 SXSW Pitch Finalists as they showcase their products and services to the Startup and Tech Sectors audience.',
       buttonHref: 'https://schedule.sxsw.com/2020/events/OE39821',
+      buttonText: 'Check event',
+    },
+    {
+      startDate: '1-2',
+      startMonth: "Jun'20",
+      name: 'Eye for Travel',
+      location: 'San Diego, USA',
+      imgSrc: require('./img/eyefortravel.png'),
+      text: "The Travel Summit 2020 is travel's largest gathering of CX and marketing executives set to revolutionize hospitality with analytics-driven AI",
+      buttonHref: 'https://events.eyefortravel.com/northamerica/',
       buttonText: 'Check event',
     }
   ],
