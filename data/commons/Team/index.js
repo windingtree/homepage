@@ -65,17 +65,6 @@ const members: TeamMemberType[] = [
     },
   },
   {
-    imgSrc: require('./img/dave.jpg'),
-    firstLine: 'Dave Montali',
-    secondLine: 'CIO | PORTUGAL',
-    text: 'Dave worked on applications of blockchain in travel distribution back in 2015 while at the OSHM. Previous to Winding Tree he worked as a Research Analyst for the travel research institute Skift Research.',
-    icons: {
-      github: 'https://github.com/SublimeApple',
-      twitter: 'https://twitter.com/davebit_',
-      linkedin: 'https://www.linkedin.com/in/davmontali/',
-    },
-  },
-  {
     imgSrc: require('./img/marina.png'),
     firstLine: 'Marina Berezovska',
     secondLine: 'HEAD OF COMMUNITY | USA',
