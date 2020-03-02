@@ -126,14 +126,6 @@ const members: TeamMemberType[] = [
     },
   },
   {
-    imgSrc: require('./img/julia.jpg'),
-    firstLine: 'Julia Pardo',
-    secondLine: 'ADMINISTRATIVE ASSISTANT | ARGENTINA',
-    text: 'Julia is an enthusiastic autodidact and a power engineer. Her passion for travel and conviction about decentralization have led her to join the team in pursuit of new horizons.',
-    icons: {
-    },
-  },
-  {
     imgSrc: require('./img/spencer.jpg'),
     firstLine: 'Spencer Vail',
     secondLine: 'COMMUNITY MANAGER | USA',
