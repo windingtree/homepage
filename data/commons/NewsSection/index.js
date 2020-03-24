@@ -3,10 +3,10 @@ const NewsSection =  {
     header : "Latest From Blog",
     items:[
         {
-            articleUrl: "https://blog.windingtree.com/the-three-essential-components-of-a-digital-ecosystem-cb33077d5554",
-            articleTitle:"The Three Essential Components of a Digital Ecosystem",
+            articleUrl: "https://blog.windingtree.com/the-growing-importance-of-digital-ids-in-a-globally-distributed-marketplace-524f14184472",
+            articleTitle:"The Growing Importance of Digital IDs in a Globally Distributed Marketplace",
             articleDescription:"",
-            thumbnail: require('./img/chain.jpeg'),
+            thumbnail: require('./img/diagram.png'),
         },
         {
             articleUrl: "https://blog.windingtree.com/the-state-of-winding-tree-2019-year-in-review-45c261467cad",
