@@ -1,4 +1,5 @@
 {
   "version": 2,
-  "regions": ["sfo1", "bru"]
+  "regions": ["sfo1", "bru"],
+  "alias": "windingtree.com"
 }
