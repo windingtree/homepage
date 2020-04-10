@@ -9,9 +9,9 @@
     "flow": "flow",
     "lint": "eslint --ext .jsx,.js src && stylelint src",
     "lint:fix": "eslint --fix --ext .jsx,.js src && stylelint --fix src",
-    "alias:release": "now alias --team windingtree --token=$NOW_TOKEN",
+    "alias:release": "now alias --scope windingtree --token=$NOW_TOKEN",
     "postalias:release": "./scripts/cachepurge.sh",
-    "deploy:release": "now --team windingtree --token $NOW_TOKEN"
+    "deploy:release": "now --scope windingtree --token $NOW_TOKEN"
   },
   "repository": {
     "type": "git",
