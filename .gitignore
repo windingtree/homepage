@@ -124,3 +124,6 @@ out/
 
 ## App build
 public
+
+# Zeit
+.now
