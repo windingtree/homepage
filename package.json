@@ -9,7 +9,7 @@
     "flow": "flow",
     "lint": "eslint --ext .jsx,.js src && stylelint src",
     "lint:fix": "eslint --fix --ext .jsx,.js src && stylelint --fix src",
-    "alias:release": "now alias --scope windingtree --token=$NOW_TOKEN",
+    "alias:release": "now --prod",
     "postalias:release": "./scripts/cachepurge.sh",
     "deploy:release": "now --scope windingtree --token $NOW_TOKEN"
   },
