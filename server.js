@@ -35,7 +35,7 @@ serverConfig.then((config) => {
     const contents = fs.readFileSync(path.resolve(config.output.path, config.output.filename), 'utf8');
     const app = requireFromString(contents, config.output.filename);
     server.get('/*', app.default);
-    server.listen(3000);
+    module.exports = server.listen(3000);
     console.log('Server listening on port 3000!');
   });
 });
